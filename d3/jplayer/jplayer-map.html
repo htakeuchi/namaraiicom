@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
+    <script src="https://unpkg.com/tippy.js@2.5.2/dist/tippy.all.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" />
+    <title>Jリーガー出身地マップ</title>
+    <style>
+        .tippy-tooltip.jplayer-theme {
+            font-size: small;
+            font-weight: bold;
+        }
+    </style>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-9067823-9"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-9067823-9');
+    </script>
+</head>
+
+<body>
+    <section class="hero">
+        <div class="hero-body">
+            <div class="container ">
+                <h1 class="title">
+                    Jリーガー出身地マップ
+                </h1>
+                <h2 class="subtitle">
+                    Jリーガーの出身地をマッピングしています。出身者が多い都道府県ほど、濃い色で表示されます。
+                </h2>
+                <p>
+                都道府県にマウスオーバーすると、都道府県名・出身選手数・選手名が表示されます。
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+
+            <svg id="map"></svg>
+            <script>
+                (function () {
+                    const width = 800,
+                        height = 800,
+                        map_json = "https://gist.githubusercontent.com/htakeuchi/361266eb30d977e41ea049b17171f7d2/raw/3334eae4aa0db287a0e1f63affea609d39bf6913/japan.topojson",
+                        players_json = "data/pref_players.json";
+
+                    var projection = d3.geoMercator()
+                        .center([137, 36])
+                        .scale(1800)
+                        .translate([width / 2, height / 2]);
+
+                    var path = d3.geoPath().projection(projection);
+
+                    var get_players = function (data) {
+                        var s = "";
+                        for (let i = 0; i < data.length; i++) {
+                            s = s + data[i].name + "/";
+                        }
+                        return s;
+                    }
+
+                    var svg = d3.select("#map")
+                        .attr("width", width)
+                        .attr("height", height);
+
+                    var promises = [];
+                    promises.push(d3.json(map_json));
+                    promises.push(d3.json(players_json));
+
+                    Promise.all(promises).then(function (values) {
+                        var cscale = d3.scaleLinear()
+                            .domain([0, 199])
+                            .range([0, 255]);
+
+                        svg.selectAll("path")
+                            .data(topojson.feature(values[0], values[0].objects.pref).features)
+                            .enter()
+                            .append("path")
+                            .attr("fill", function (d, i) {
+                                var color = parseInt(255 - cscale(values[1][d.properties.code].length));
+                                return "rgb(255, " + color + ", " + color + ")";
+                            })
+                            .attr("stroke", "black")
+                            .attr("stroke-width", "0.5")
+                            .attr("d", path)
+                            .attr("class", "pref")
+                            .attr("title", function (d) {
+                                return "<h2>" + d.properties.name + "(" + values[1][d.properties.code].length + ")</h2>" + get_players(values[1][d.properties.code]);
+                            });
+
+                        // Set up tooltips
+                        tippy(".pref", {
+                            theme: 'jplayer',
+                            placement: 'right',
+                            animation: 'scale',
+                            duration: 400,
+                            arrow: true,
+                            arrowType: 'round',
+                            size: 'large'
+                        })
+                    });
+                })();
+            </script>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="content has-text-centered">
+                <p>
+                    このマップはD3.jsを用いたデータ見える化の検証を目的に作成しており、データの正確性は保証しません。<br>
+                    (2018年4月時点のJ1/J2/J3登録選手を対象にしています)
+                </p>
+                <p>
+                    <a href="https://www.namaraii.com/">Hitoshi TAKEUCHI</a> 2018
+                </p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

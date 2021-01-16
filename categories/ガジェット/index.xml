@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ガジェット on namaraii.com</title><link>https://namaraii.com/categories/%E3%82%AC%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88/</link><description>Recent content in ガジェット on namaraii.com</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright><lastBuildDate>Sat, 16 Jan 2021 08:51:14 +0900</lastBuildDate><atom:link href="https://namaraii.com/categories/%E3%82%AC%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88/index.xml" rel="self" type="application/rss+xml"/><item><title>オンライン会議環境(2021年1月現在)</title><link>https://namaraii.com/post/2021/zoom-2021/</link><pubDate>Sat, 16 Jan 2021 08:51:14 +0900</pubDate><guid>https://namaraii.com/post/2021/zoom-2021/</guid><description>
+&lt;p>2020年の3月末ぐらいから、ほぼ全期間テレワークしています。最初の頃はオンライン会議でさまざまなトラブルがあったり、機材選びに悩んだりしていたのですが、ここ最近はかなり安定してきましたので、現時点での環境を書き記しておきます。&lt;/p>
+&lt;h1 id="音声環境">■音声環境&lt;/h1>
+&lt;p>音声関係で使っている機材はオンライン会議用に揃えたわけではなく、DTM機材として持っていたものをそのまま使っています。
+　&lt;/p>
+&lt;h3 id="マイクaudio-technica-at2020">マイク（audio-technica AT2020）&lt;/h3>
+&lt;p>コンデンサーマイクのAT2020を使っています。自分の場合、室内が比較的静かな環境であること、あまり声を張って話したくないなどの条件もあり、持っていたのがコンデンサーマイクでビンゴでした。&lt;/p>
+&lt;p>感度、音質ともに必要十分。通常の会話のボリュームで話して、聴き取りにくいと言われたことはありません。&lt;/p>
+&lt;div class="amazon-widget">
+&lt;a target="_blank" href="https://www.amazon.co.jp/gp/product/B000Y0FBY6/?tag=namaraiicom-22">&lt;/a>
+&lt;div class="amazon-widget-img">
+&lt;img src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;MarketPlace=JP&amp;ASIN=B000Y0FBY6&amp;ServiceVersion=20070822&amp;ID=AsinImage&amp;WS=1&amp;Format=_SL350_&amp;tag=namaraiicom-22" />
+&lt;/div>
+&lt;div class="amazon-widget-info">
+&lt;span class="amazon-widget-title">
+audio-technica コンデンサーマイクロホン AT2020 動画配信・宅録・ポッドキャスト・実況・DTM ブラック 【国内正規品】
+&lt;/span>
+&lt;span class="amazon-widget-via">
+&lt;img src="https://www.amazon.co.jp/favicon.ico" />
+amazon.co.jp
+&lt;/span>
+&lt;/div>
+&lt;/div>
+&lt;p>デスクに固定できるマイクスタンド。付属していたポップガードをそのまま使っています。&lt;/p>
+&lt;div class="amazon-widget">
+&lt;a target="_blank" href="https://www.amazon.co.jp/gp/product/B07D33F6JK/?tag=namaraiicom-22">&lt;/a>
+&lt;div class="amazon-widget-img">
+&lt;img src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;MarketPlace=JP&amp;ASIN=B07D33F6JK&amp;ServiceVersion=20070822&amp;ID=AsinImage&amp;WS=1&amp;Format=_SL350_&amp;tag=namaraiicom-22" />
+&lt;/div>
+&lt;div class="amazon-widget-info">
+&lt;span class="amazon-widget-title">
+Roycel マイクスタンド ポップガード マイクアーム コンデンサーマイク用 卓上マイクスタンド 実況 配信 収録 カラオケ (ポップガードセット)
+&lt;/span>
+&lt;span class="amazon-widget-via">
+&lt;img src="https://www.amazon.co.jp/favicon.ico" />
+amazon.co.jp
+&lt;/span>
+&lt;/div>
+&lt;/div>
+&lt;h3 id="オーディオインタフェースsteinberg-ur22mkii">オーディオインタフェース（Steinberg UR22mkII）&lt;/h3>
+&lt;p>使っているAT2020はUSBモデルもありますが、私が持っているのはXLRモデルなので、オーディオインタフェース経由で接続しています。&lt;/p>
+&lt;p>オーディオインタンタフェースは、DTM初心者向けの定番UR22mkIIを使っています。音楽制作に使えるぐらいなので、オンライン会議用途なら楽勝です。&lt;/p>
+&lt;div class="amazon-widget">
+&lt;a target="_blank" href="https://www.amazon.co.jp/gp/product/B017MVUAHM/?tag=namaraiicom-22">&lt;/a>
+&lt;div class="amazon-widget-img">
+&lt;img src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;MarketPlace=JP&amp;ASIN=B017MVUAHM&amp;ServiceVersion=20070822&amp;ID=AsinImage&amp;WS=1&amp;Format=_SL350_&amp;tag=namaraiicom-22" />
+&lt;/div>
+&lt;div class="amazon-widget-info">
+&lt;span class="amazon-widget-title">
+Steinberg スタインバーグ 2x2 USB2.0 24bit/192kHz オーディオインターフェース UR22mkII
+&lt;/span>
+&lt;span class="amazon-widget-via">
+&lt;img src="https://www.amazon.co.jp/favicon.ico" />
+amazon.co.jp
+&lt;/span>
+&lt;/div>
+&lt;/div>
+&lt;div class="amazon-widget">
+&lt;a target="_blank" href="https://www.amazon.co.jp/gp/product/B00Y7ZPVIK/?tag=namaraiicom-22">&lt;/a>
+&lt;div class="amazon-widget-img">
+&lt;img src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;MarketPlace=JP&amp;ASIN=B00Y7ZPVIK&amp;ServiceVersion=20070822&amp;ID=AsinImage&amp;WS=1&amp;Format=_SL350_&amp;tag=namaraiicom-22" />
+&lt;/div>
+&lt;div class="amazon-widget-info">
+&lt;span class="amazon-widget-title">
+CANARE XLRケーブル マイクケーブル ノイトリックコネクター 黒色 1.5ｍ EC015-B/黒
+&lt;/span>
+&lt;span class="amazon-widget-via">
+&lt;img src="https://www.amazon.co.jp/favicon.ico" />
+amazon.co.jp
+&lt;/span>
+&lt;/div>
+&lt;/div>
+&lt;h3 id="スピーカーik-multimedia-iloud-micro-monitor">スピーカー（IK Multimedia iLoud Micro Monitor)&lt;/h3>
+&lt;p>テレワーク始めたての頃はヘッドホン、またはイヤホンを使っていたのですが、この生活がしばらく続くとしたら、耳に負担をかけないようにしたほうが良さそうだと思い、リモート会議はスピーカーとマイクで行っています。骨伝導ヘッドセットなども良さそうですね。&lt;/p>
+&lt;div class="amazon-widget">
+&lt;a target="_blank" href="https://www.amazon.co.jp/gp/product/B01KSS9YX2/?tag=namaraiicom-22">&lt;/a>
+&lt;div class="amazon-widget-img">
+&lt;img src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;MarketPlace=JP&amp;ASIN=B01KSS9YX2&amp;ServiceVersion=20070822&amp;ID=AsinImage&amp;WS=1&amp;Format=_SL350_&amp;tag=namaraiicom-22" />
+&lt;/div>
+&lt;div class="amazon-widget-info">
+&lt;span class="amazon-widget-title">
+IK Multimedia iLoud Micro Monitor コンパクト・リファレンス・モニター Black【国内正規品】
+&lt;/span>
+&lt;span class="amazon-widget-via">
+&lt;img src="https://www.amazon.co.jp/favicon.ico" />
+amazon.co.jp
+&lt;/span>
+&lt;/div>
+&lt;/div>
+&lt;h3 id="ヘッドホンsony-wh-1000xm4">ヘッドホン(SONY WH-1000XM4)&lt;/h3>
+&lt;p>基本的にスピーカー＋マイクでリモート会議を行っていますが、議題と状況によっては音声をスピーカーで流したくないケースもあり、その場合はヘッドホンを使っています。&lt;/p>
+&lt;p>WH-1000XM4はノイズキャンセリングの性能が素晴らしく、集中して作業したい場合にも最高。ノイズキャンセリングがオンになった瞬間にスッと静寂が訪れる感じが気持ちいいです。柔らかな装着感も気に入っています。&lt;/p>
+&lt;div class="amazon-widget">
+&lt;a target="_blank" href="https://www.amazon.co.jp/gp/product/B08F2866Q3/?tag=namaraiicom-22">&lt;/a>
+&lt;div class="amazon-widget-img">
+&lt;img src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;MarketPlace=JP&amp;ASIN=B08F2866Q3&amp;ServiceVersion=20070822&amp;ID=AsinImage&amp;WS=1&amp;Format=_SL350_&amp;tag=namaraiicom-22" />
+&lt;/div>
+&lt;div class="amazon-widget-info">
+&lt;span class="amazon-widget-title">
+ソニー ワイヤレスノイズキャンセリングヘッドホン WH-1000XM4 : LDAC/Amazon Alexa搭載/Bluetooth/ハイレゾ 最大30時間連続再生 密閉型 マイク付 2020年モデル ブラック WH-1000XM4 B
+&lt;/span>
+&lt;span class="amazon-widget-via">
+&lt;img src="https://www.amazon.co.jp/favicon.ico" />
+amazon.co.jp
+&lt;/span>
+&lt;/div>
+&lt;/div>
+&lt;h1 id="映像環境">■映像環境&lt;/h1>
+&lt;p>映像環境の機材はリモート会議用に新しく導入したものです。&lt;/p>
+&lt;h2 id="ウェブカメラlogicool-c920n">ウェブカメラ(logicool C920n)&lt;/h2>
+&lt;p>画質はソコソコといった感じでしょうか。会議参加者から、画質についての良し悪しを言及されることはない程度の及第点レベル。&lt;/p>
+&lt;p>Amazonのレビューにもありますが、カメラの感度があまり高くなく、光量が足りないと残念な写りになってしまうので、なんらかの照明をプラスしたほうが良いと思います。&lt;/p>
+&lt;p>logicoolのサイトでダウンロードできるCamera Settingsというアプリで輝度の調整はできるものの、輝度をあげていくと画質も劣化してしまうので、そもそもの明るさを確保したほうが良いかと。このカメラに限った話ではありませんがね。&lt;/p>
+&lt;p>ディスプレイ上部に挟んで使用してますが、カメラと被写体の距離を確保できるため、引きの映像にできるのが良いです。&lt;/p>
+&lt;div class="amazon-widget">
+&lt;a target="_blank" href="https://www.amazon.co.jp/gp/product/B07QQR6G5N/?tag=namaraiicom-22">&lt;/a>
+&lt;div class="amazon-widget-img">
+&lt;img src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;MarketPlace=JP&amp;ASIN=B07QQR6G5N&amp;ServiceVersion=20070822&amp;ID=AsinImage&amp;WS=1&amp;Format=_SL350_&amp;tag=namaraiicom-22" />
+&lt;/div>
+&lt;div class="amazon-widget-info">
+&lt;span class="amazon-widget-title">
+ロジクール ウェブカメラ C920n ブラック フルHD 1080P ウェブカム ストリーミング 自動フォーカス ステレオマイク 国内正規品 2年間メーカー保証 ブラック
+&lt;/span>
+&lt;span class="amazon-widget-via">
+&lt;img src="https://www.amazon.co.jp/favicon.ico" />
+amazon.co.jp
+&lt;/span>
+&lt;/div>
+&lt;/div>
+&lt;p>ところで、一部の好事家がSigma fpをWebカメラにして圧倒的な画質を楽しんでいるようですね。&lt;/p>
+&lt;p>私もSigma fpを持っているのですが、冴えないおっさんの映像を高画質で配信する社会的な意義はなく、むしろ害悪でしかないと考え自粛しています。C920nのそこそこの画質＆引きの画角が限界です。&lt;/p>
+&lt;div class="amazon-widget">
+&lt;a target="_blank" href="https://www.amazon.co.jp/gp/product/B07YV8SH3R/?tag=namaraiicom-22">&lt;/a>
+&lt;div class="amazon-widget-img">
+&lt;img src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;MarketPlace=JP&amp;ASIN=B07YV8SH3R&amp;ServiceVersion=20070822&amp;ID=AsinImage&amp;WS=1&amp;Format=_SL350_&amp;tag=namaraiicom-22" />
+&lt;/div>
+&lt;div class="amazon-widget-info">
+&lt;span class="amazon-widget-title">
+SIGMA フルサイズミラーレス一眼カメラ fp &amp;amp; 45mm F2.8 DG DN kit ブラック 937317
+&lt;/span>
+&lt;span class="amazon-widget-via">
+&lt;img src="https://www.amazon.co.jp/favicon.ico" />
+amazon.co.jp
+&lt;/span>
+&lt;/div>
+&lt;/div>
+&lt;h2 id="照明クリップライトled照明">照明（クリップライトLED照明）&lt;/h2>
+&lt;p>撮影用の照明はどうしても大きくなり、デスクにちょこんと配置するのが難しいものが多く、安価でコンパクトなLED照明を探していて、適当に買ったものなのですが、これは買って良かった（1800円ぐらい）です。&lt;/p>
+&lt;div class="amazon-widget">
+&lt;a target="_blank" href="https://www.amazon.co.jp/gp/product/B0829QTY95/?tag=namaraiicom-22">&lt;/a>
+&lt;div class="amazon-widget-img">
+&lt;img src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;MarketPlace=JP&amp;ASIN=B0829QTY95&amp;ServiceVersion=20070822&amp;ID=AsinImage&amp;WS=1&amp;Format=_SL350_&amp;tag=namaraiicom-22" />
+&lt;/div>
+&lt;div class="amazon-widget-info">
+&lt;span class="amazon-widget-title">
+Semlos クリップライト24 LED 電気スタンド 3階段調色 10階段調光 800ルーメン 8ｗ LEDライト 360°回転 読書灯 読書ランプ 目に優しい 記憶機能 仕事 勉強 卓上 勉強機 本棚 ベッドサイド 寝室 書斎 オフィス イーゼル
+&lt;/span>
+&lt;span class="amazon-widget-via">
+&lt;img src="https://www.amazon.co.jp/favicon.ico" />
+amazon.co.jp
+&lt;/span>
+&lt;/div>
+&lt;/div>
+&lt;p>昼光色、白色、電球色を切り替え可能で、自分の場合は部屋の照明（白色蛍光灯）に加えて、このライトを昼光色に設定することで、なかなか良い色味になっています。&lt;/p></description></item><item><title>E Inkな大型読書端末としてのBoox Note Air</title><link>https://namaraii.com/post/2021/boox-note-air/</link><pubDate>Fri, 15 Jan 2021 21:23:18 +0900</pubDate><guid>https://namaraii.com/post/2021/boox-note-air/</guid><description>
+&lt;p>Kindle本や自炊した書籍を読むための端末として、Android E inkタブレットBoox Note Airを導入して、１ヶ月ほど運用したので感想を記しておきます。&lt;/p>
+&lt;iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;bc1=000000&amp;IS2=1&amp;bg1=FFFFFF&amp;fc1=000000&amp;lc1=0000FF&amp;t=namaraiicom-22&amp;language=ja_JP&amp;o=9&amp;p=8&amp;l=as4&amp;m=amazon&amp;f=ifr&amp;ref=as_ss_li_til&amp;asins=B08H83GCBT&amp;linkId=3ec5aa30869cbf5248a48919fe2e23bc">&lt;/iframe>
+&lt;h3 id="なぜ導入したのか">なぜ導入したのか？&lt;/h3>
+&lt;p>電子ペーパーは液晶と比較して目が疲れにくいため、ここ数年はなるべくKindle Oasisを使うようにしていたのですが、技術書や雑誌、仕事の資料（PDF）など大版の読み物だとディスプレイサイズ的に厳しく、それらはやむなく11インチiPad Proで読んでたんですよね。&lt;/p>
+&lt;p>大型のKindleがあればよかったのですが、2010年にでた9.7インチのKindle DXが商業的にうまくいかなかったのか、その後、後継機がでる気配もないため、読書のE Ink率を高めるべくBoox Note Airを導入した次第です。&lt;/p>
+&lt;h3 id="何が良いのか">何が良いのか？&lt;/h3>
+&lt;p>Boox Note Airの（私にとっての）価値は「大型(10.3インチ)のE Inkを搭載したAndorid端末である」ことに尽きます。&lt;/p>
+&lt;p>この手の端末は独自OSを採用していたり、LinuxやAndroidなどを採用していても、アプリのインストールができなかったり、機能制限されていたりなど、メーカーが想定した使い方しかできないケースが多いんですよね。&lt;/p>
+&lt;p>Boox Note AirはGoogle Playストアからアプリをインストールできて、それらをE Ink上で使用できる。もちろん、E Inkのレスポンスを考えると、あらゆるアプリを快適に使えるわけではないですが、本や雑誌、Webページをじっくりと読むような用途では快適です。&lt;/p>
+&lt;p>なお、デジタルノートとしてもかなりの可能性がありそうなのですが、私は読書端末としてしか使っていないため、ちゃんとしたレビューを読みたい場合は、&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://win-tab.net/android/boox_note_air_review_2010312/">BOOX Note Airの実機レビュー － 圧倒的な存在感！10.3インチ新世代電子ペーパータブレットは、デザインも機能も新たな段階へ&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://kimihiro-n.appspot.com/show/1604405111794">BOOX Note Airが想像の10倍以上使い勝手よかった&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>などをどうぞ。&lt;/p>
+&lt;h3 id="何をどんなアプリで読んでいるのか">何をどんなアプリで読んでいるのか？&lt;/h3>
+&lt;p>基本的にiPadで使っているアプリを、そのままBOOX Note Airへインストールして使っています。&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>対象&lt;/th>
+&lt;th>使用しているアプリ&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>PDF（技術書、自炊本、マニュアル・仕事の資料など）&lt;/td>
+&lt;td>&lt;a href="https://play.google.com/store/apps/details?id=jp.co.tokyo_ip.SideBooks">SideBooks&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>電子書籍&lt;/td>
+&lt;td>&lt;a href="https://play.google.com/store/apps/details?id=com.amazon.kindle">Kindle&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>雑誌&lt;/td>
+&lt;td>&lt;a href="https://play.google.com/store/apps/details?id=jp.co.rakuten.magazine">楽天マガジン&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>RSS Feed&lt;/td>
+&lt;td>&lt;a href="https://play.google.com/store/apps/details?id=com.instapaper.android">Instapaper&lt;/a> / &lt;a href="https://play.google.com/store/apps/details?id=com.devhd.feedly">Feedly&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;img src="image2.jpeg" alt="iPad Pro 11インチとBoox Note Airを並べてみた">&lt;/p>
+&lt;p>&lt;img src="image4.jpeg" alt="Kindleアプリでフィックス型の技術書を読む">&lt;/p>
+&lt;p>&lt;img src="image1.jpeg" alt="SideBooksで自炊した本(PDF)を読む">&lt;/p>
+&lt;p>&lt;img src="image3.jpeg" alt="FeedlyでRSSフィードをを読む">&lt;/p>
+&lt;h3 id="結論">結論&lt;/h3>
+&lt;p>&lt;a href="https://kimihiro-n.appspot.com/show/1604405111794">BOOX Note Airが想像の10倍以上使い勝手よかった&lt;/a>に書かれている、&lt;/p>
+&lt;blockquote>
+&lt;p>目を疲れさせずに無限にテキストページ読めてしまうというのは恐ろしい魅力です。&lt;/p>
+&lt;/blockquote>
+&lt;p>に激しく同意です。&lt;/p>
+&lt;p>読書専用端末として考えると、ちょっと価格的には厳しいものがありますが、満足度はそうとう高いです。&lt;/p>
+&lt;iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;bc1=000000&amp;IS2=1&amp;bg1=FFFFFF&amp;fc1=000000&amp;lc1=0000FF&amp;t=namaraiicom-22&amp;language=ja_JP&amp;o=9&amp;p=8&amp;l=as4&amp;m=amazon&amp;f=ifr&amp;ref=as_ss_li_til&amp;asins=B08H83GCBT&amp;linkId=3ec5aa30869cbf5248a48919fe2e23bc">&lt;/iframe></description></item><item><title>Macbookのトラックパッドは使いやすいけど、トラックボール(M570t)の操作感も捨てがたい</title><link>https://namaraii.com/post/2016/20160110_macbookm570t416952860720/</link><pubDate>Sun, 10 Jan 2016 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2016/20160110_macbookm570t416952860720/</guid><description>
+&lt;p>Macbookのトラックパッドは精度が高く、ジェスチャ操作も行えて便利ですが、トラックボールの操作感も捨てがたく、ずっと併用しています。&lt;/p>
+&lt;p>トラックボールの、&lt;/p>
+&lt;ul>
+&lt;li>&lt;span
+id="5895">本体を動かす必要がなく、カーソル操作時に腕や手首に負担がかからない&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="03a2">机の上のスペースが狭くても問題ない（動かさないので置けさえできればよい）&lt;/span>&lt;/li>
+&lt;/ul>
+&lt;p>という特徴はトラックパッドと同じなんですけど、物理的なボールやホイールを動かしてポインティングするのは心地よいです。&lt;/p>
+&lt;p>最初は操作が難しく感じましたが慣れてしまえば、狙った場所へズバッとマウスカーソルを移動できるようになり、手放せなくなりました。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/oL2ly5oqYn2zvf.jpg" alt="/images/oL2ly5oqYn2zvf.jpg">
+昨年末、愛用しているLogicoolのM570tの調子が悪くなったので、同じモデルを新調。&lt;/p>
+&lt;p>M570tはワイヤレスで取り回しがしやすく、電池の持ちも良く(単三形乾電池1本で最大18ヶ月）、手になじむフォルムなど人気が高いモデルです。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/LZUfWhpd0u9o9r.png" alt="/images/LZUfWhpd0u9o9r.png">
+&lt;a href="http://support.logicool.co.jp/ja_jp/product/wireless-trackball-m570">Logicoolのサイト&lt;/a>から「Logicoolコントロールセンター」を入手してインストールすれば、各ボタンへ機能を割り当てることもできます。&lt;/p>
+&lt;p>私はデフォルトの設定で使っていますが、ホイールでのスクロールと拡張ボタンの「戻る」「進む」でWebブラウズも快適です。&lt;/p>
+&lt;p>2016年は新調したトラックボールで頑張っていきます。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/fvyQcOF6kA3J6s.jpg" alt="/images/fvyQcOF6kA3J6s.jpg">
+&lt;a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00E19UYO8/namaraiicom-22/ref=nosim/">LOGICOOL ワイヤレストラックボール M570t&lt;/a>&lt;/p>
+&lt;p>posted with
+&lt;a href="http://kaereba.com">カエレバ&lt;/a>&lt;/p>
+&lt;p>ロジクール 2013–08–02&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/gp/search?keywords=m570t&amp;amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;amp;tag=namaraiicom-22">Amazon&lt;/a>&lt;/p></description></item><item><title>Apple純正のiPhone Lightning Dockが届いた…が…</title><link>https://namaraii.com/post/2015/20150524_appleiphonelightningdockdb38a673c526/</link><pubDate>Sun, 24 May 2015 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2015/20150524_appleiphonelightningdockdb38a673c526/</guid><description>
+&lt;p>Apple純正の&lt;a href="http://store.apple.com/jp/product/MGRM2AM/A/iphone-lightning-dock">iPhone Lightning Dock&lt;/a>が届きました。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/g9cJfpwA1pMx2Y.jpg" alt="/images/g9cJfpwA1pMx2Y.jpg">
+以前、Amazonでサードパーティ製のDockを買ったことがあるんですが、数ヶ月でDockへ刺しても認識しなくなったという苦い思い出があるんですよね。&lt;/p>
+&lt;p>&lt;a href="http://namaraii.com/archives/5761">iPhone 5 Lightning Dock(Lightning Dock PRO)その後… | namaraii.com @htakeuchi&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/hcw9e1ik07cLi2.jpg" alt="/images/hcw9e1ik07cLi2.jpg">&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/3wtmqEGKFx16rS.jpg" alt="/images/3wtmqEGKFx16rS.jpg">
+iPhone6 Plusを指すと、こんな感じです。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/mCwSQ1QlocKPHf.jpg" alt="/images/mCwSQ1QlocKPHf.jpg">
+横から見るとこんな感じ。&lt;a href="http://blog.esuteru.com/archives/8185835.html" class="markup--anchor markup--p-anchor">【試される信仰心】アップル純正のiPhone Lightning Dockがすごく折れ&lt;br />
+そうだと話題に！これ絶対壊すやつだｗｗｗｗ : はちま起稿&lt;/a>にもありますが、コネクタが折れるのでは？という不安に駆られます。&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;a href="https://twitter.com/akoustam/status/602013730361212928">&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;p>ほんと、そんな感じでDockかiPhoneのどちらかが逝きそうな香りがします。いや、満を持して発売されたし、そんなことは無いと信じたいのですが…&lt;/p>
+&lt;p>おっかなびっくり使ってみます(^^;&lt;/p></description></item><item><title>「忠継大王」を見てデザインは大切だなと思った話</title><link>https://namaraii.com/post/2014/20140617_9dc310c246e8/</link><pubDate>Tue, 17 Jun 2014 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2014/20140617_9dc310c246e8/</guid><description>
+&lt;p>家族から家のWi-Fiの電波が弱い、繋がらないというクレームを受けて、PLANEXの無線LAN中継器「忠継大王」を導入したんですよ。&lt;/p>
+&lt;p>こんなやつ。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/oiRz0NJhDcISKV.jpg" alt="/images/oiRz0NJhDcISKV.jpg">
+コンセントに直挿しするタイプの中継機なんですけど、とてもかわいい。&lt;/p>
+&lt;p>これを見て、デザインって大切だなぁと思いました。&lt;/p>
+&lt;p>だって、仮にコンセントの差し込み口に描かれた顔が無かったら、こうですよ。(レタッチしました)&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/0rKn6EdXgjnQGG.jpg" alt="/images/0rKn6EdXgjnQGG.jpg">
+上のデザインを見た後だと、無味乾燥に感じてしまう。&lt;/p>
+&lt;p>たぶん、このデザインにはそんなにお金をかけてないと思うんですけど、あると無いとでは大違い。&lt;/p>
+&lt;p>このデザインがあるからこそ、ネーミングも「忠継大将」と、忠犬ハチ公を連想させるものにできるわけで、マーケティング的にもOKと。賢い!&lt;/p>
+&lt;p>(本当は「忠継ハチ公」にしたかったんじゃないのかと邪推してしまうわけですが、商標登録されてたのかな…)&lt;/p>
+&lt;p>ほんと、デザインって大切だなと再認識した次第です。&lt;/p>
+&lt;p>電源コードを刺すのがかわいそうになりますよ。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/6deNk-6FEsvoNO.jpg" alt="/images/6deNk-6FEsvoNO.jpg">
+あ、肝心の機能もなかなかです。&lt;/p>
+&lt;p>うちはバッファローのルーター使ってるんですけど、WPSで簡単に繋がったし、電波強度は-72dBmから-49dBmに改善されました。&lt;/p>
+&lt;p>価格も安く、LEDを消灯できたりなど、使い勝手もなかなか考えられていると思いますので、Wi-Fi強度にお悩みのかたは、お試しください。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/eDp4jERVgKA0Ri.jpg" alt="/images/eDp4jERVgKA0Ri.jpg">
+&lt;a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00I9VR86G/namaraiicom-22/ref=nosim/">【Amazon.co.jp限定】PLANEX 無線LAN中継器 11n/g/b 300Mbps コンセント直挿型 忠継大王 MZK-EX300NP PS4・AppleTV・iPhone・Android対応&lt;/a>&lt;/p>
+&lt;p>posted with
+&lt;a href="http://kaereba.com">カエレバ&lt;/a>&lt;/p>
+&lt;p>プラネックス 2014–04–14&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/gp/search?keywords=%92%89%8Cp%91%E5%89%A4&amp;amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;amp;tag=namaraiicom-22">Amazonで購入&lt;/a>&lt;/p>
+&lt;p>via PressSync&lt;/p></description></item><item><title>2013年 個人的に買って良かったものベスト5</title><link>https://namaraii.com/post/2013/20131230_20135bfc06dccf24b/</link><pubDate>Mon, 30 Dec 2013 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2013/20131230_20135bfc06dccf24b/</guid><description>
+&lt;p>ことし一年を振り返りながら、買ってよかった！と満足度が高いものベスト5をまとめてみました。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/gHd6iaFuD5AFb8.jpg" alt="/images/gHd6iaFuD5AFb8.jpg">&lt;/p>
+&lt;h4 id="1位-epson-プロジェクターeh-tw410">1位: EPSON プロジェクター EH-TW410&lt;/h4>
+&lt;p>最初、会社の備品として買ったんですが、あまりにもコスパが高いので自宅用に買い増しました。&lt;/p>
+&lt;p>2800ルーメン、コントラスト比10000:1で、明るい部屋でもくっきり表示。完全な暗室にできないリビングルームなどでも十分に使えるので、お手軽ホームシアターを楽しめます。&lt;/p>
+&lt;p>映画やライブを観るのも迫力があって良いですが、うちではサッカー観戦に重宝しています。引きの映像でも選手を判別しやすい。&lt;/p>
+&lt;p>&lt;a href="http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;amp;bc1=000000&amp;amp;IS2=1&amp;amp;bg1=FFFFFF&amp;amp;fc1=000000&amp;amp;lc1=0000FF&amp;amp;t=namaraiicom-22&amp;amp;o=9&amp;amp;p=8&amp;amp;l=as4&amp;amp;m=amazon&amp;amp;f=ifr&amp;amp;ref=ss_til&amp;amp;asins=B00EDBE9D6">http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;amp;bc1=000000&amp;amp;IS2=1&amp;amp;bg1=FFFFFF&amp;amp;fc1=000000&amp;amp;lc1=0000FF&amp;amp;t=namaraiicom-22&amp;amp;o=9&amp;amp;p=8&amp;amp;l=as4&amp;amp;m=amazon&amp;amp;f=ifr&amp;amp;ref=ss_til&amp;amp;asins=B00EDBE9D6&lt;/a>&lt;/p>
+&lt;h4 id="2位-フラックス-スロットイン-icカードケース-for-iphone-5-おサイフiphoneケース">2位: フラックス スロットイン ICカードケース for iPhone 5 「おサイフiPhoneケース」&lt;/h4>
+&lt;p>ICカードを入れられるiPhoneケースです。取り出し用の穴が開いているので、スムーズな出し入れが可能。近場なら財布も持たずに、これだけで外出できるのが嬉しい。小さな違いですが感覚的には大きく違います。&lt;/p>
+&lt;p>&lt;a href="http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;amp;bc1=000000&amp;amp;IS2=1&amp;amp;bg1=FFFFFF&amp;amp;fc1=000000&amp;amp;lc1=0000FF&amp;amp;t=namaraiicom-22&amp;amp;o=9&amp;amp;p=8&amp;amp;l=as4&amp;amp;m=amazon&amp;amp;f=ifr&amp;amp;ref=ss_til&amp;amp;asins=B00A15PRBQ">http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;amp;bc1=000000&amp;amp;IS2=1&amp;amp;bg1=FFFFFF&amp;amp;fc1=000000&amp;amp;lc1=0000FF&amp;amp;t=namaraiicom-22&amp;amp;o=9&amp;amp;p=8&amp;amp;l=as4&amp;amp;m=amazon&amp;amp;f=ifr&amp;amp;ref=ss_til&amp;amp;asins=B00A15PRBQ&lt;/a>&lt;/p>
+&lt;h4 id="3位-bose-quietcomfort15-ノイズキャンセリングヘッドホン">3位: BOSE QuietComfort15 ノイズキャンセリング・ヘッドホン&lt;/h4>
+&lt;p>ソニー製の安いノイズキャンセリングヘッドホンを使っていたのですが、構造も価格も大きく違うだけあってQC15の性能は圧倒的でした。初めてスイッチをオンにした際、生活音がピタッと止まって静寂が訪れたのには、ちょっと感動してしまった。&lt;/p>
+&lt;p>集中したいときは、音楽を流さずにノイズキャンセリング機能だけを使ったりもしてます。&lt;/p>
+&lt;p>&lt;a href="http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;amp;bc1=000000&amp;amp;IS2=1&amp;amp;bg1=FFFFFF&amp;amp;fc1=000000&amp;amp;lc1=0000FF&amp;amp;t=namaraiicom-22&amp;amp;o=9&amp;amp;p=8&amp;amp;l=as4&amp;amp;m=amazon&amp;amp;f=ifr&amp;amp;ref=ss_til&amp;amp;asins=B0056Z73FY">http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;amp;bc1=000000&amp;amp;IS2=1&amp;amp;bg1=FFFFFF&amp;amp;fc1=000000&amp;amp;lc1=0000FF&amp;amp;t=namaraiicom-22&amp;amp;o=9&amp;amp;p=8&amp;amp;l=as4&amp;amp;m=amazon&amp;amp;f=ifr&amp;amp;ref=ss_til&amp;amp;asins=B0056Z73FY&lt;/a>&lt;/p>
+&lt;h4 id="4位-ネスカフェ-ドルチェグスト-piccoloピッコロプレミアム">4位: ネスカフェ ドルチェグスト Piccolo(ピッコロ)プレミアム&lt;/h4>
+&lt;p>水を入れてカートリッジをセットすれば、すぐに、きれいにクレマが出たエスプレッソを飲めるお手軽さが魅力です。いままではデロンギのエスプレッソメーカーを使っていたのですが、これを使っちゃうと面倒になりますね。後片付けも楽だし。&lt;/p>
+&lt;p>専用カートリッジを使うしか選択肢が無いため、一杯あたりが割高になりますが、レギュラーコーヒーやラテマキアートやカプチーノ、ココアなどバリエーションがありますし、何よりもこのお手軽さはやめられません…&lt;/p>
+&lt;p>&lt;a href="http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;amp;bc1=000000&amp;amp;IS2=1&amp;amp;bg1=FFFFFF&amp;amp;fc1=000000&amp;amp;lc1=0000FF&amp;amp;t=namaraiicom-22&amp;amp;o=9&amp;amp;p=8&amp;amp;l=as4&amp;amp;m=amazon&amp;amp;f=ifr&amp;amp;ref=ss_til&amp;amp;asins=B004FPCF5O">http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;amp;bc1=000000&amp;amp;IS2=1&amp;amp;bg1=FFFFFF&amp;amp;fc1=000000&amp;amp;lc1=0000FF&amp;amp;t=namaraiicom-22&amp;amp;o=9&amp;amp;p=8&amp;amp;l=as4&amp;amp;m=amazon&amp;amp;f=ifr&amp;amp;ref=ss_til&amp;amp;asins=B004FPCF5O&lt;/a>&lt;/p>
+&lt;h4 id="5位-twinbird-焼いもメニュー付きホームベーカリー-py-4436az">5位: TWINBIRD 焼いもメニュー付きホームベーカリー PY-4436AZ&lt;/h4>
+&lt;p>前々からホームペーカリーが欲しかったのですが、きっと、すぐに使わなくなるだろうしな…と躊躇していたのですが、ネタフルで紹介されたのを見て、あまりにも安かった（購入時2,780円）ので購入しました。&lt;/p>
+&lt;p>想像していたよりも音は静かだし、焼いたパンはフカフカで美味しいし、予想以上の満足度でした。正月には餅をついてみようと思ってます。&lt;/p>
+&lt;p>&lt;a href="http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;amp;bc1=000000&amp;amp;IS2=1&amp;amp;bg1=FFFFFF&amp;amp;fc1=000000&amp;amp;lc1=0000FF&amp;amp;t=namaraiicom-22&amp;amp;o=9&amp;amp;p=8&amp;amp;l=as4&amp;amp;m=amazon&amp;amp;f=ifr&amp;amp;ref=ss_til&amp;amp;asins=B00AY71PE4">http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;amp;bc1=000000&amp;amp;IS2=1&amp;amp;bg1=FFFFFF&amp;amp;fc1=000000&amp;amp;lc1=0000FF&amp;amp;t=namaraiicom-22&amp;amp;o=9&amp;amp;p=8&amp;amp;l=as4&amp;amp;m=amazon&amp;amp;f=ifr&amp;amp;ref=ss_til&amp;amp;asins=B00AY71PE4&lt;/a>&lt;/p></description></item><item><title>MavericksなMacBook Proがスリープ中に勝手に再起動して勝手に失敗する件</title><link>https://namaraii.com/post/2013/20131113_mavericksmacbookpro69c2557a955/</link><pubDate>Wed, 13 Nov 2013 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2013/20131113_mavericksmacbookpro69c2557a955/</guid><description>
+&lt;p>MavericksなMacBook Proがスリープ中に勝手に再起動して、勝手に失敗する事象が発生しています。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/jCpXrqhn5L_OiH.jpg" alt="/images/jCpXrqhn5L_OiH.jpg">
+ググったところ、&lt;/p>
+&lt;ul>
+&lt;li>&lt;span
+id="e17f">&lt;a href="https://discussions.apple.com/message/23605592#23605592">Random Restarts — “Sleep Wake Failure”…: Apple Support Communities&lt;/a>&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="a9cf">&lt;a href="https://discussions.apple.com/thread/5500276?start=0&amp;amp;tstart=0">New rMBP sleep/wake failure crashes: Apple Support Communities&lt;/a>&lt;/span>&lt;/li>
+&lt;/ul>
+&lt;p>など同じ問題に悩んでいる人は多い模様。&lt;/p>
+&lt;p>読んでみると、&lt;/p>
+&lt;ul>
+&lt;li>&lt;span id="c7d8">外付けハードディスクを外す(マウントしない)&lt;/span>&lt;/li>
+&lt;li>&lt;span id="f55e">Power Napを切る&lt;/span>&lt;/li>
+&lt;/ul>
+&lt;p>という対策？で再現しなくなったというのがあり、とりあえず、その両方をやって放置したところ確かに再現しなくなった。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/xyrw1MpqbjNRyb.jpg" alt="/images/xyrw1MpqbjNRyb.jpg">
+が、Power
+Napはともかく外付けハードディスクをマウントしないと仕事にならないから困る。今日はPower
+Napはそのままにして、外付けハードディスクをマウントしないで放置してみます。&lt;/p>
+&lt;p>先日、&lt;a href="http://internet.watch.impress.co.jp/docs/news/20131105_622110.html">OS X Mavericksで外付けHDDデータ消失の恐れ -INTERNET Watch&lt;/a>という、Macユーザを震撼させる記事があったけど、それとも関係しているのかなぁ…&lt;/p></description></item><item><title>ロジクールのiPad mini用キーボード「キーボードフォリオミニ」</title><link>https://namaraii.com/post/2013/20130621_ipadmini770abb6cc3e4/</link><pubDate>Fri, 21 Jun 2013 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2013/20130621_ipadmini770abb6cc3e4/</guid><description>
+&lt;p>ロジクールのiPad mini用キーボードKeyboard Folio for iPad
+miniを入手しました。このキーボードはiPadの前面と背面が保護されるケースの中に組み込まれています。ケース一体型ですね。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/z6rQmxCll64Yp3.jpg" alt="/images/z6rQmxCll64Yp3.jpg">
+外箱はこんな感じ。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/JssQbT4jO7rAoh.jpg" alt="/images/JssQbT4jO7rAoh.jpg">
+中身はシンプル。外箱もケースもなかなかの質感。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/IW99XCh363dzP1.jpg" alt="/images/IW99XCh363dzP1.jpg">
+キーボード（とケース）はこんな構造になっています。キーボード上の仕切り部分にiPad
+miniをはめ込みます。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/xfFYWsCq3XFFhn.jpg" alt="/images/xfFYWsCq3XFFhn.jpg">
+キーボードを使う場合はこんなスタイルに。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/HiMz_Rr4jPX2Sd.jpg" alt="/images/HiMz_Rr4jPX2Sd.jpg">
+キーボードを使わないときはフォリオのカバーを二つ折にして閉じます。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/sucZVTNiXgoUn6.jpg" alt="/images/sucZVTNiXgoUn6.jpg">
+フォリオを閉じるとマグネットでしっかりと固定されます。もちろん自動的にスリープモードに。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/0D8FGRnuBtLE1s.jpg" alt="/images/0D8FGRnuBtLE1s.jpg">
+肝心のキーボードですが、想像よりもずっと良かったです。&lt;/p>
+&lt;p>* キーピッチは16mm。個人的にはタッチタイピングするのに十分。&lt;br>
+*
+キーストロークは1.5mm。ボタンを押し込んでいるような間隔ではなく、ちゃんとキーボードしてます。快適にタイプできますよ。&lt;br>
+* フル充電で最長3ヵ月のタイピングが可能(2時間/日の利用で)&lt;br>
+*
+この類のキーボードではよくありますが独自の配列になっているキーがあります。慣れの問題ですけどね。&lt;br>
+* ⌘キーとの組み合わせでカット、コピー、ペーストできるのは便利。&lt;br>
+* 日本語入力と英語入力の切り替えは、⌘＋スペースキー&lt;/p>
+&lt;p>問題は本体よりも重い395gという重量かなぁ。(Wi-Fi:308g Wi-Fi+Cellular:
+312g)&lt;/p>
+&lt;p>とは言え、なかなか気に入りました。移動中にメールを読み書きすることが多いので、すぐに元をとれることでしょう。(^^)&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/58CLmrlpghcTqz.jpg" alt="/images/58CLmrlpghcTqz.jpg">
+&lt;a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00D1MH6E2/namaraiicom-22/ref=nosim/">LOGICOOL キーボードフォリオミニ エレクトリックブルー TM720EB&lt;/a>&lt;/p>
+&lt;p>posted with
+&lt;a href="http://kaereba.com">カエレバ&lt;/a>&lt;/p>
+&lt;p>ロジクール 2013–06–07&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/gp/search?keywords=TM720EB&amp;amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;amp;tag=namaraiicom-22">Amazon&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://hb.afl.rakuten.co.jp/hgc/070693bf.3c5d9eb7.0f04dc1f.fb2146a0/?pc=http%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FTM720EB%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0%26scid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2F">楽天市場&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/eOedTDyT4KVZC6.jpg" alt="/images/eOedTDyT4KVZC6.jpg">
+&lt;a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00D1MH6F6/namaraiicom-22/ref=nosim/">LOGICOOL キーボードフォリオミニ サンフラワーイエロー TM720SY&lt;/a>&lt;/p>
+&lt;p>posted with
+&lt;a href="http://kaereba.com">カエレバ&lt;/a>&lt;/p>
+&lt;p>ロジクール 2013–06–07&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/gp/search?keywords=TM720SY&amp;amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;amp;tag=namaraiicom-22">Amazon&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://hb.afl.rakuten.co.jp/hgc/070693bf.3c5d9eb7.0f04dc1f.fb2146a0/?pc=http%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FTM720SY%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0%26scid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2F">楽天市場&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/D02COnozPDkrG6.jpg" alt="/images/D02COnozPDkrG6.jpg">
+&lt;a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00D1MH6EM/namaraiicom-22/ref=nosim/">LOGICOOL キーボードフォリオミニ ミスティックブルー TM720MB&lt;/a>&lt;/p>
+&lt;p>posted with
+&lt;a href="http://kaereba.com">カエレバ&lt;/a>&lt;/p>
+&lt;p>ロジクール 2013–06–07&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/gp/search?keywords=TM720MB&amp;amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;amp;tag=namaraiicom-22">Amazon&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://hb.afl.rakuten.co.jp/hgc/070693bf.3c5d9eb7.0f04dc1f.fb2146a0/?pc=http%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FTM720MB%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0%26scid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2F">楽天市場&lt;/a>&lt;/p></description></item><item><title>iPhone5のバッテリーが異常に早く減る…断捨離したら改善したかも（ただし経過観察を要する）</title><link>https://namaraii.com/post/2013/20130126_iphone58925b79184d3/</link><pubDate>Sat, 26 Jan 2013 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2013/20130126_iphone58925b79184d3/</guid><description>
+&lt;p>先週、iPhone5のバッテリー消費が異常に早くなる現象が発生しました。&lt;/p>
+&lt;p>胸ポケットに入れたiPhone5がいつもより熱い。取りだしてみるとバッテリー残量が50%を切ってます。&lt;/p>
+&lt;p>いつもなら、その時間帯は80%程度残っているはず。何かがおかしい。&lt;/p>
+&lt;p>とりあえずホームボタンとスリープボタン長押しの再起動をして、一切使わずに1時間放置しました。&lt;/p>
+&lt;p>バッテリー残量をチェックすると40%を切っています。あきらかにおかしい。&lt;/p>
+&lt;p>このままではマズイ…と調べたら、似たような現象が発生した方のブログを発見しました。&lt;/p>
+&lt;p>▼&lt;a href="http://blog.livedoor.jp/gs1220/archives/50788054.html">iOS6に更新後バッテリーが異常に早く減る原因 : iPad,Mac,Linux.Web Site etc.&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>元々データ量が多いiPhoneのバックアップから復元を行ったりすると、このSpotlightプロセスがバックグラウンドが走るせいで、使わずに置いておいても半日でバッテリーが無くなったりしている可能性がかなり高いと思います。&lt;/p>
+&lt;/blockquote>
+&lt;p>うーん、最近、バックアップから復元を行ったりしていないので、微妙にちがう。&lt;/p>
+&lt;p>でも、インストールしたものの、ほとんど使わないで放置しているアプリも100以上あるし、64Gほぼ使い切ってるし、これは断捨離の良い機会！と思い、おもいきって工場出荷状態へ戻すことにしました。&lt;/p>
+&lt;p>▼&lt;a href="http://support.apple.com/kb/ht2110?viewlocale=ja_JP">iOS：「すべてのコンテンツと設定を消去」について&lt;/a>&lt;/p>
+&lt;p>「すべてのコンテンツと設定を消去」した後、こんなことをやりました。&lt;/p>
+&lt;ul>
+&lt;li>&lt;span
+id="4818">&lt;strong>バックアップからの復元はせず&lt;/strong>、必要なアプリだけを再インストール&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="c29e">iPhoneへ入れる音楽はリストを作っているのでiTunesで同期設定&lt;/span>&lt;/li>
+&lt;li>&lt;span id="2e27">iTunesであらためて写真の同期設定&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="b44d">Spotlightは全てオフ（もともと使ってなかったので）&lt;/span>&lt;/li>
+&lt;/ul>
+&lt;p>これらをやって今日で2日目ですが、バッテリーの減り方も普通、いや、むしろ前より良くなりました。発熱もありません。&lt;/p>
+&lt;p>最近は、多くのデータをクラウドへ置いてあるので、全データを消去しても、それほど苦労せずに環境を戻せて便利だなあ。&lt;/p>
+&lt;p>アプリの断捨離もできてよかった。&lt;/p>
+&lt;p>今後はインストール後、継続して使う可能性が低いものは、こまめにアンインストールしようと思います。シンプルがいちばん。&lt;/p>
+&lt;p>再発しないことを祈りつつ。&lt;/p></description></item><item><title>Nexus7の蓋キーボード「Mobile Bluetooth Keyboard For Nexus 7」の横置きスリープ問題を解消(写真あり)</title><link>https://namaraii.com/post/2013/20130124_nexus7mobilebluetoothkeyboardfornexus78064593d77df/</link><pubDate>Thu, 24 Jan 2013 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2013/20130124_nexus7mobilebluetoothkeyboardfornexus78064593d77df/</guid><description>
+&lt;p>仕事で外出することが多いので、出先でもバリバリとテキスト入力すべくギズモード・ジャパンで取り上げられていた蓋キーボードを買ってみました。&lt;/p>
+&lt;p>▼&lt;a href="http://www.gizmodo.jp/2012/11/nexus_7bluetoothmobile_bluetoo.html">Nexus 7が蓋になるBluetoothキーボード「Mobile Bluetooth Keyboard For Nexus 7」を買ってみました！ : ギズモード・ジャパン&lt;/a>&lt;/p>
+&lt;p>ペアリングして、さあ使おうと思ったのですが、電源・ボリュームボタンがある側を上にして横置きするとNexus7がスリープに入ってしまう事象が発生。&lt;/p>
+&lt;p>調べた結果、中に入っている磁石（鉄板？）の位置が悪いためNexus7の&lt;a href="http://juggly.cn/archives/65542.html">マグネットスリープ&lt;/a>が発動しているらしい。&lt;/p>
+&lt;p>どう考えても、物理スイッチがある側を下にして置きたいひとはいないと思うので、磁石を外してみました。以下、私が行った手順です。簡単ですよ。&lt;/p>
+&lt;p>無事、スリープしなくなりましたよ。&lt;/p>
+&lt;p>が、こんなことをすると&lt;strong>メーカーの保証は受けられなくなると思いますので、外してみようという方は自己責任で&lt;/strong>お願いしますね。&lt;/p>
+&lt;p>もともとは、ケースへ格納したときにスリープへ入る機能のためだと思われるのですが、説明書にはそれらしい記述は見つけられませんでした。どちらにしても使わないから、まあいいかと。&lt;/p>
+&lt;p>私が買ったのはAmazonの以下の商品ですが、&lt;a href="http://www.amazon.co.jp/s/ref=nb_sb_noss?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&amp;amp;url=search-alias%3Delectronics&amp;amp;field-keywords=nexus7+bluetooth+%E3%82%AD%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89+&amp;amp;rh=n%3A3210981%2Ck%3Anexus7+bluetooth+%E3%82%AD%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89+">nexus7 bluetooth キーボード&lt;/a>で検索すると、もっと安いものもあるようです。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/As-obJqbh6jbB6.jpg" alt="/images/As-obJqbh6jbB6.jpg">
+&lt;a href="http://www.amazon.co.jp/exec/obidos/ASIN/B009ZAN0CG/offtheball2008-22/ref=nosim/">iBravo Google Nexus 7専用ブルートゥースキーボードBluetooth Keyboard for Google Nexus 7 【日本語説明書付き】&lt;/a>&lt;/p>
+&lt;p>posted with
+&lt;a href="http://kaereba.com">カエレバ&lt;/a>&lt;/p>
+&lt;p>Hanbeen&lt;/p>
+&lt;p>日本語入力でもハマっているのですが、それは別エントリにまとめたいと思います。&lt;/p></description></item><item><title>CFしか使えないデジカメでEye-Fiを使う — DeLOCK CFカードTypeIIに変換するアダプター</title><link>https://namaraii.com/post/2013/20130115_cfeyefidelockcftypeii369ff6922a7a/</link><pubDate>Tue, 15 Jan 2013 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2013/20130115_cfeyefidelockcftypeii369ff6922a7a/</guid><description>
+&lt;p>一度、Eye-Fiを使ってしまうと、デジカメからメディアを取り出してメディアリーダーへ差したり、USBケーブルでPCへ接続したりするのが面倒になりますね。&lt;/p>
+&lt;p>が、私がメインで使っているデジタルカメラ(EOS
+5D2/7D)ではコンパクトフラッシュしか扱えないので、Eye-Fiは使えません。&lt;/p>
+&lt;p>そういうわけで、5D2/7DでもEye-Fiを使うべく、CFカードTypeIIに変換するアダプターを買ってみました。こんなやつです。&lt;/p>
+&lt;p>この手の製品って、買ってみたものの相性が悪く使えなかった…などという話を良く聞きます。&lt;/p>
+&lt;p>でも、この製品に関してはレビューを読む限り、同じ環境で使えている人もいる模様。なので、とりあえずポチッと。&lt;/p>
+&lt;p>実験したEye-FiはPro X2 8GBです。&lt;/p>
+&lt;p>カメラへセットし、何枚か試し撮り。無事、使えました。&lt;/p>
+&lt;p>RAWの画像だとそれなりに転送速度がかかりますが、がまんできる範囲です（私は）&lt;/p>
+&lt;p>なんといってもEye-Fiなので、ほっとけば良いだけですからね〜&lt;/p>
+&lt;p>以上、人柱報告でした。&lt;/p>
+&lt;ul>
+&lt;li>&lt;span
+id="88e8">&lt;a href="http://www.amazon.co.jp/gp/product/B005C2Y8UE/ref=as_li_ss_tl?ie=UTF8&amp;amp;camp=247&amp;amp;creative=7399&amp;amp;creativeASIN=B005C2Y8UE&amp;amp;linkCode=as2&amp;amp;tag=offtheball2008-22">DeLOCK SDXC/SDHC/SDカードをCFカードTypeIIに変換するアダプター【61796】国内正規代理店日本語パッケージ品&lt;/a>&lt;/span>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://namaraii.com/images/yIRYYdDhlrzGNZ.gif" alt="/images/yIRYYdDhlrzGNZ.gif">&lt;/p>
+&lt;ul>
+&lt;li>&lt;span
+id="d5fc">&lt;a href="http://www.amazon.co.jp/gp/product/B003ITFTNI/ref=as_li_ss_tl?ie=UTF8&amp;amp;camp=247&amp;amp;creative=7399&amp;amp;creativeASIN=B003ITFTNI&amp;amp;linkCode=as2&amp;amp;tag=offtheball2008-22">Eye-Fi Pro X2 8GB EFJ-PR-8G&lt;/a>&lt;/span>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://namaraii.com/images/on-mL6iui-pTuN.gif" alt="/images/on-mL6iui-pTuN.gif">&lt;/p></description></item><item><title>ダイソーの書見台(100円)をiPadのスタンドとして使う</title><link>https://namaraii.com/post/2010/20100606_100ipad49e07bcb4aee/</link><pubDate>Sun, 06 Jun 2010 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2010/20100606_100ipad49e07bcb4aee/</guid><description>
+&lt;p>前に購入してあったダイソーの書見台(100円)をiPadのスタンドとして使ってみました。こんな感じ。縦置きもいけますよ。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/tNgIYaZNayMAIe.jpg" alt="/images/tNgIYaZNayMAIe.jpg">
+裏側はこんな感じ。角度を調整することができます。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/Eom4_KQjJgSWwc.jpg" alt="/images/Eom4_KQjJgSWwc.jpg">
+100円の割には使えると思いますのでお試しあれ。&lt;/p>
+&lt;p>それにしても、Apple純正のカバーを着けると純正クレイドルでコネクタが干渉する…という残念仕様はなんとかして欲しかったですね(^^;&lt;/p></description></item><item><title>Dirac AT160(Atom搭載)で終日運転用のサーバを組んだ</title><link>https://namaraii.com/post/2008/20080911_diracat160atom1b8f3216426/</link><pubDate>Thu, 11 Sep 2008 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2008/20080911_diracat160atom1b8f3216426/</guid><description>
+&lt;p>DiracのAT160というD945GCLFを搭載したベアボーンで終日運転用のサーバを組もうとしたら、いくつかのトラブルに見舞われました。&lt;/p>
+&lt;p>まず、CentOS5.2を入れようとCD-Rを焼いたものの、外付けのDVDドライブBUFFALO DVSM-X1220U2からブートできません。仕方ないのでケースを開けた状態にして、余っていたIDEのDVDドライブをスレーブとして繋ぎ、そこからインストールすることに。&lt;/p>
+&lt;p>なんとかCD-ROMからブートできるようになると、今度はインストーラが途中でこけます。調べてみるとRealtek
+RTL8102ELというNICのドライバは、まだカーネルにデフォルトで入っていないため、別途インストールが必要とのこと。&lt;/p>
+&lt;p>とりあえず、BIOSでNICを殺した状態にして再度インストーラを実行。ちゃんとインストールのステップへ進めました。あとでNICのドライバをインストールする際、kernel-xen-devel
+gcc glibc-devel glibc-headers kernel-headers
+libgompなどが必要らしいので、インストールオプションで開発系のパッケージをチェック。&lt;/p>
+&lt;p>インストール後、ドライバを入れたUSBメモリをCentOSでマウント（うちでは/dev/sda1だった）しコピー。&lt;a href="http://iktaka.dyndns.org/node/11">D945GCLFにCentOS5.2(x86_64) | CHOLESTEROL&lt;/a>の通りにインストールし再起動。BIOSでNICを復活してもちゃんと起動します。よかった、よかった。&lt;/p>
+&lt;p>ただ、現状ではカーネルをアップデートしたら、再度ドライバをインストールする必要があるので忘れないように
+＞ 自分&lt;/p>
+&lt;p>AT160の感想としては、&lt;/p>
+&lt;ul>
+&lt;li>&lt;span id="7afd">期待していたよりもファンの音が大きい&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="0740">ケースの中はすかすかなので、もう少しコンパクトになるとうれしい（A4のノートPCを3〜4台重ねたぐらいの容積）&lt;/span>&lt;/li>
+&lt;li>&lt;span id="78e8">前面のアルミパネルなどケースの見栄えは良い&lt;/span>&lt;/li>
+&lt;/ul>
+&lt;p>という感じ。余っているメモリとハードディスク（このケースは3.5インチが入る）を流用できたので、AT160の費用だけで終日運転用のサーバができちゃった。安く上がったのは良かった！&lt;/p></description></item></channel></rss>

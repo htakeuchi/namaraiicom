@@ -1,0 +1,258 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="viewer.css">
+    <script type='text/javascript' defer src="knob.js"></script>
+    <script type='text/javascript' defer src="leds.js"></script>
+  </head>
+<body>
+  <div class="program">
+<H1>BrokenArcade</H1>
+<div class="panel">
+  <div class="vblock" id="vco1">
+    <div class="block-label">VCO1</div>
+    <div class="control">
+      <span class="label">wave</span>
+      <span class="setting">SQR</span>
+    </div>
+    <div class="rot-control" data-value="539">
+        <span class="label">shape</span>
+        <synth-knob value="539" title="539"></synth-knob>
+    </div>
+    
+    <div class="hidden-control">
+      <span class="label">pitch</span>
+      <span class="setting">0c</span>
+    </div>
+    
+    <div class="hidden-control">
+      <span class="label">octave</span>
+      <span class="setting">8&#39;</span>
+    </div>
+  </div>
+
+  <div class="vblock" id="vco2">
+      <div class="block-label">VCO2</div>
+      <div class="control">
+        <span class="label">octave</span>
+        <span class="setting">2&#39;</span>
+        <synth-leds value="3" min-value="0" max-value="3" vertical title="2&#39;"></synth-leds>
+      </div>
+      <div class="control">
+        <span class="label">wave</span>
+        <span class="setting">SAW</span>
+      </div>
+      <div class="control">
+        <span class="setting">SYNC</span>
+      </div>
+      <div class="rot-control" data-value="860">
+        <span class="label">pitch</span>
+        <synth-knob value="860" title="700c"></synth-knob>
+      </div>
+      <div class="rot-control" data-value="1023">
+        <span class="label">shape</span>
+        <synth-knob value="1023" title="1023"></synth-knob>
+      </div>
+  </div>
+
+  <div class="vblock" id="mixer">
+    <div class="block-label">MIXER</div>
+    <div class="rot-control" data-value="1023">
+      <span class="label">vc01</span>
+      <synth-knob value="1023" title="1023"></synth-knob>
+    </div>
+    <div class="rot-control" data-value="1023">
+      <span class="label">vc02</span>
+      <synth-knob value="1023" title="1023"></synth-knob>
+    </div>
+  </div>
+
+  <div class="vblock" id="filter">
+    <div class="block-label">FILTER</div>
+    <div class="rot-control" data-value="1023">
+      <span class="label">cutoff</span>
+      <synth-knob value="1023" title="1023"></synth-knob>
+    </div>
+    <div class="rot-control" data-value="873">
+      <span class="label">resonance</span>
+      <synth-knob value="873" title="873"></synth-knob>
+    </div>
+  </div>
+
+  <div class="vblock">
+    <div class="block-label">EG</div>
+    <div class="hblock" id="EG">
+      <div class="control" data-value="A/D">
+        <span class="label">type</span>
+        <span class="setting">A/D</span>
+      </div>
+      <div class="rot-control" data-value="0">
+        <span class="label">attack</span>
+        <synth-knob value="0" title="0"></synth-knob>
+      </div>
+      <div class="rot-control" data-value="280">
+        <span class="label">decay</span>
+        <synth-knob value="280" title="280"></synth-knob>
+      </div>
+      <div class="rot-control" data-value="1023">
+        <span class="label">int</span>
+        
+        <synth-knob value="1023" min-value="512" max-value="1023"  title="511"></synth-knob>
+        <!--
+        <synth-knob value="511" max-value="511" title="511"></synth-knob>
+        -->
+        
+      </div>
+      <div class="control" data-value="CUTOFF">
+        <span class="label">target</span>
+        <span class="setting">CUTOFF</span>
+      </div>
+    </div>
+
+    <div class="block-label">LFO</div>
+    <div class="hblock" id="LFO">
+      <div class="control" data-value="TRI">
+        <span class="label">wave</span>
+        <span class="setting">TRI</span>
+      </div>
+      <div class="control" data-value="FAST">
+        <span class="label">mode</span>
+        <span class="setting">FAST</span>
+      </div>
+      <div class="rot-control" data-value="256">
+        <span class="label">rate</span>
+        <synth-knob value="256" title="256"></synth-knob>
+      </div>
+      <div class="rot-control" data-value="512">
+        <span class="label">int</span>
+        
+        <synth-knob value="512" min-value="512" max-value="1023" title="0"></synth-knob>
+        <!--
+        <synth-knob value="0" max-value="511" title="0"></synth-knob>
+        -->
+        
+      </div>
+      <div class="control" data-value="PITCH">
+        <span class="label">target</span>
+        <span class="setting">PITCH</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="panel">
+  <div class="vblock" id="master">
+    <div class="rot-control" data-value="0">
+        <span class="label">drive</span>
+        <synth-knob value="0" title="0"></synth-knob>
+    </div>
+    <div class="control">
+      <span class="label">octave</span>
+      <span class="setting">0</span>
+      <synth-leds value="0", min-value="-2", max-value="+2" title="0"></synth-leds>
+    </div>
+  </div>
+
+  <div class="vblock">
+    <div class="control" data-value="OFF">
+      <span class="label">key trg</span>
+      <span class="setting">OFF</span>
+    </div>
+  </div>
+</div>
+
+<div class="menu-settings">
+  <div class="menu-column">
+    <div class="menu-item">
+      <span class="label">portamento time</span>
+      <span class="setting">OFF</span>
+    </div>
+    <div class="menu-item">
+        <span class="label">portamento mode</span>
+        <span class="setting">AUTO</span>
+    </div>
+    <div class="menu-item">
+      <span class="label">slide time</span>
+      <span class="setting">50</span>
+    </div>
+  </div>
+
+  <div class="menu-column">
+    <div class="menu-item">
+      <span class="label">slider assign</span>
+      <span class="setting">PITCH BEND</span>
+    </div>
+    <div class="menu-item">
+      <span class="label">slider range</span>
+      <span class="setting">100%</span>
+    </div>
+    <div class="menu-item">
+      <span class="label">bend range +</span>
+      <span class="setting">12</span>
+    </div>
+    <div class="menu-item">
+      <span class="label">bend range -</span>
+      <span class="setting">12</span>
+    </div>
+  </div>
+
+  <div class="menu-column">
+    <div class="menu-item">
+      <span class="label">micro tuning</span>
+      <span class="setting">Equal Temp</span>
+    </div>
+    <div class="menu-item">
+      <span class="label">scale key</span>
+      <span class="setting">0</span>
+    </div>
+    <div class="menu-item">
+      <span class="label">program tuning</span>
+      <span class="setting">0</span>
+    </div>
+  </div>
+
+  <div class="menu-column">
+    <div class="menu-item">
+      <span class="label">lfo bpm sync</span>
+      <span class="setting">OFF</span>
+    </div>
+    <div class="menu-item">
+      <span class="label">cutoff keytrack</span>
+      <span class="setting">0%</span>
+    </div>
+    <div class="menu-item">
+      <span class="label">cutoff velocity</span>
+      <span class="setting">0%</span>
+    </div>
+    <div class="menu-item">
+      <span class="label">amp velocity</span>
+      <span class="setting">0</span>
+    </div>
+    <div class="menu-item">
+      <span class="label">program level</span>
+      <span class="setting">-20</span>
+    </div>
+  </div>
+</div>
+
+<div class="menu-settings">
+  <div class="menu-key">E5</div>
+  <div class="menu-key">A4</div>
+  <div class="menu-key">F#4</div>
+  <div class="menu-key">C#5</div>
+  <div class="menu-key">E4</div>
+  <div class="menu-key">B3</div>
+  <div class="menu-key">A4</div>
+  <div class="menu-key">F#4</div>
+  <div class="menu-key">A4</div>
+  <div class="menu-key">B4</div>
+  <div class="menu-key">B4</div>
+  <div class="menu-key">C#5</div>
+  <div class="menu-key">F#4</div>
+  <div class="menu-key">F#5</div>
+  <div class="menu-key">A4</div>
+  <div class="menu-key">C#5</div>
+  <div class="menu-key">A5</div>
+</div>
+</div>
+</body>
+</html>

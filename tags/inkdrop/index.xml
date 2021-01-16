@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>inkdrop on namaraii.com</title><link>https://namaraii.com/tags/inkdrop/</link><description>Recent content in inkdrop on namaraii.com</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright><lastBuildDate>Sat, 18 Nov 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://namaraii.com/tags/inkdrop/index.xml" rel="self" type="application/rss+xml"/><item><title>MarkdownエディタInkdropの「これこれ」感について</title><link>https://namaraii.com/post/2017/20171118_markdowninkdropc1cb038e692d/</link><pubDate>Sat, 18 Nov 2017 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2017/20171118_markdowninkdropc1cb038e692d/</guid><description>
+&lt;p>&lt;a href="http://happenapps.com/">Quiver&lt;/a>というMarkdownエディタは、自分が理想とするモノに近く、愛用していたのですが、最近&lt;a href="https://www.inkdrop.info/">Inkdrop&lt;/a>へ乗り換えました。&lt;/p>
+&lt;hr>
+&lt;p>QuiverはLaTeXシンタックスでの数式やダイアグラムの描画をサポートしていますが、これらを扱うための「セル」に関する操作がやや煩雑です。&lt;/p>
+&lt;p>私がQuiverで書くメモは、それらを必要としないものが大半なのに「セル」を扱わざるを得ないため、操作面で微妙なストレスを感じるようになっていました。&lt;/p>
+&lt;hr>
+&lt;p>Inkdropは標準ではLaTeXシンタックスでの数式やダイアグラムの描画をサポートしていない（プラグインで拡張可能）のですが、その分、編集エリアの操作性がシンプルで文書作成に集中できます。&lt;/p>
+&lt;p>機能的にはQuiverとほぼ同等（機能として大きなところでは、プレゼンテーションモードがありませんが、プラグインを書けばなんとかなるのかな？）で見た目も似ています。美しい。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/1TfudAySz3r2H3yfnfF4a5Q.png" alt="/images/1TfudAySz3r2H3yfnfF4a5Q.png">
+Quiverと比較した際のInkdrop独自の機能としては、&lt;/p>
+&lt;ul>
+&lt;li>&lt;span id="31e5">プラグインによる機能拡張：
+&lt;a href="https://doc.inkdrop.info/manual/plugin-word-count">Plugin: Word Count&lt;/a>&lt;/span>&lt;/li>
+&lt;li>&lt;span id="9d6a">マルチプラットフォーム： MacOS(El Captain)、Windows
+7+(64bit)、Linux(Ubuntu,
+64bit)で動作。iOS/Androidアプリもあります。&lt;/span>&lt;/li>
+&lt;li>&lt;span id="9fb4">クラウドによるデータ同期：
+QuiverでもDropboxやiCloudによるデータ同期はできますが、Inkdropは独自にホスティングしているサーバでデータが同期されます。また、&lt;a href="https://doc.inkdrop.info/manual/accessing-data-in-the-cloud">データアクセス用のAPI&lt;/a>も公開されています。&lt;/span>&lt;/li>
+&lt;li>&lt;span id="205e">ノートを公開可能：
+ノート単位でユニークなURLが払い出され、外部へ公開することができます。&lt;/span>&lt;/li>
+&lt;/ul>
+&lt;p>などがあります。&lt;/p>
+&lt;p>が、個人的には機能の多い少ないではなく、Inkdropは広義での「デザイン」に魅力を感じて年契約をしました。&lt;/p>
+&lt;p>機能面、操作面、デザイン面、&lt;strong>アプリ全体の「これこれ」感&lt;/strong>がハンパない。&lt;/p>
+&lt;hr>
+&lt;p>Inkdropはいわゆるサブスクリプションモデルを採用しており、月額
+$4.99または年額 $49.9です。&lt;/p>
+&lt;p>ちょっと高いと感じましたか？&lt;/p>
+&lt;p>なぜ、このような値付けをしたかは、作者のブログエントリをご覧あれ。&lt;/p>
+&lt;ul>
+&lt;li>&lt;span
+id="1330">&lt;a href="https://goo.gl/kKGXrH">なぜInkdropはEvernoteより値段が高いのか — 踊る犬.netブログ (旧)&lt;/a>&lt;/span>&lt;/li>
+&lt;/ul>
+&lt;p>こちらのエントリーも素晴らしくて、ケヴィン・ケリーの&lt;a href="http://memo7.sblo.jp/article/178840050.html">千人の忠実なファン&lt;/a>を連想しました。&lt;/p>
+&lt;ul>
+&lt;li>&lt;span
+id="9034">&lt;a href="https://goo.gl/yTBjG1">Markdownエディタを作って月15万円稼ぐためにやったこと — Inkdrop — 週休７日で働きたい&lt;/a>&lt;/span>&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>僕のやり方はお金を稼ぐにはすごく要領が悪くて遠回りに見えるでしょう。確かに、無料プランを作ったり値段を下げてプレスリリースを打ちまくればもっと話題になって、額面上は稼げるかもしれません。&lt;br>
+ &lt;br>
+ 僕はいわゆる「成功」を求めているのではなく、ただ今をより楽しく生きようとしているだけです。&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;a href="https://www.inkdrop.info/">Inkdrop&lt;/a>いいですよ。&lt;/p></description></item></channel></rss>

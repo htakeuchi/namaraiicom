@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>macos on namaraii.com</title><link>https://namaraii.com/tags/macos/</link><description>Recent content in macos on namaraii.com</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright><lastBuildDate>Sat, 14 Nov 2020 12:47:48 +0900</lastBuildDate><atom:link href="https://namaraii.com/tags/macos/index.xml" rel="self" type="application/rss+xml"/><item><title>gemインストール時にNative Extensionのビルドで失敗する(MacOS Big Sur 11.1 + XCode 12.2)</title><link>https://namaraii.com/post/2020/20201114/</link><pubDate>Sat, 14 Nov 2020 12:47:48 +0900</pubDate><guid>https://namaraii.com/post/2020/20201114/</guid><description>
+&lt;p>久しぶりにMacで開発しようとしたところ、gemのインストール時、Native Extensionのビルドで失敗した。&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="ln"> 1&lt;/span>htakeuchi@blubianco ~ % sudo gem install vacuum
+&lt;span class="ln"> 2&lt;/span>&lt;span class="o">(&lt;/span>snip&lt;span class="o">)&lt;/span>
+&lt;span class="ln"> 3&lt;/span>Building native extensions. This could take a &lt;span class="k">while&lt;/span>...
+&lt;span class="ln"> 4&lt;/span>ERROR:  Error installing vacuum:
+&lt;span class="ln"> 5&lt;/span> ERROR: Failed to build gem native extension.
+&lt;span class="ln"> 6&lt;/span>
+&lt;span class="ln"> 7&lt;/span>    current directory: /Library/Ruby/Gems/2.6.0/gems/unf_ext-0.0.7.7/ext/unf_ext
+&lt;span class="ln"> 8&lt;/span>/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20201114-13904-1ksz595.rb extconf.rb
+&lt;span class="ln"> 9&lt;/span>checking &lt;span class="k">for&lt;/span> -lstdc++... *** extconf.rb failed ***
+&lt;span class="ln">10&lt;/span>Could not create Makefile due to some reason, probably lack of necessary libraries and/or headers.  Check the mkmf.log file &lt;span class="k">for&lt;/span> more details.  You may need configuration options.
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>新しいMacということもあり、コマンドラインツールのインストールを忘れたかと思ったが、&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="ln">1&lt;/span>htakeuchi@blubianco ~ % xcode-select --install
+&lt;span class="ln">2&lt;/span>xcode-select: error: command line tools are already installed, use &amp;#34;Software Update&amp;#34; to install updates
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>となり入っているっぽい。&lt;/p>
+&lt;p>自分とは環境が違うものの、コマンドラインツールをパッケージからのインストールで改善したという記事を見つけ、&lt;a href="https://developer.apple.com/download/more/">Command Line Tools for Xcode 12.2&lt;/a>をダウンロードしてインストールしたところ、うまくビルドできた。&lt;/p>
+&lt;p>たびたび、同じようなことをやっているので書き残しておく。&lt;/p></description></item></channel></rss>

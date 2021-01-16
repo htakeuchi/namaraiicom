@@ -1,0 +1,103 @@
+.amazon-widget {
+    margin: 2rem 0;
+    max-width: 480px;
+    position: relative;
+}
+.amazon-widget a {
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+}
+.amazon-widget-img {
+    border: 1px solid #E1E8ED;
+    border-radius: 15px 15px 0 0;
+    text-align: center;
+ }
+.amazon-widget-img img {
+    border: none;
+    margin: 0 auto;
+    max-height: 200px;
+    padding: 16px;
+}
+.amazon-widget-info {
+    border-right: 1px solid #E1E8ED;
+    border-bottom: 1px solid #E1E8ED;
+    border-left: 1px solid #E1E8ED;
+    padding:5px 10px 10px 10px;
+    border-radius:0 0 15px 15px;
+}
+.amazon-widget:hover .amazon-widget-info {
+    background-color: #E1E8ED;
+}
+.amazon-widget-title {
+    font-weight: bold;
+    display:block;
+}
+.amazon-widget-via {
+    color: #aaa;
+}
+.amazon-widget-via img {
+    border: none;
+    width: 18px;
+    height: 18px;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    vertical-align: text-bottom;
+}
+
+.exifTags {
+    font-size: 85%;
+    margin-top: 0;
+  
+    color: 555;
+    @media (prefers-color-scheme: dark) {
+      color: 555;
+    }
+}
+  
+.exifElement {
+    margin-left: 2px;
+    margin-right: 2px;
+    display:inline-block;
+}
+
+.photoFlame {
+    text-align: center;
+    margin-top: 1.5em;
+    margin-bottom: 0;
+}
+
+.photoFlame img {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+body, h1, h2 {
+    font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro", "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "メイリオ", sans-serif;
+}
+
+.searchBox > input {
+    font-size: 16px;
+    vertical-align: middle;
+    border-radius: 3px;
+}
+.searchBox > input[type="search"] {
+    border: solid 1px #ccc;
+    padding: 0.5em;
+}
+.searchBox > input[type="submit"] {
+    background: #5555aa;
+    color: white;
+    font-weight: bold;
+    border: none;
+    margin-left: 0.3em;
+    padding: 0.5em 1em;
+}
+
+.ad {
+    margin-top:1em;
+    margin-bottom: 1em;
+}

@@ -1,0 +1,100 @@
+html {
+  font-family: sans-serif;
+  font-size: 0.8em;
+}
+h1 {
+  font-size: 1.4em;
+}
+.panel {
+  display: inline-flex;
+  flex-direction: row;
+}
+.program {
+  display: inline-flex;
+  flex-direction: column;
+}
+.vblock {
+  border: solid 3px;
+  display: flex;
+  flex-direction: column;
+  margin: 0.2em;
+  padding: 0.2em;
+  background-color: #efefef;
+}
+.hblock {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu-settings {
+  display: flex;
+  flex-direction: row;
+}
+.menu-column {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  border: solid 3px white;
+  background-color: #ca0505;
+  color: white;
+}
+.menu-item .setting {
+  background-color: #990000
+}
+.menu-key {
+  padding: 0.3em;
+  border: solid 3px white;
+  background-color: #ca0505;;
+  color: white
+}
+.label {
+  font-size: 0.8em;
+}
+.setting {
+  font-size: 0.9em;
+  background-color: rgb(99, 97, 97);
+  color: white;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+}
+.hidden-control .setting {
+  background-color: rgb(153, 152, 152);
+  color: #e6e6e6;
+}
+.block-label {
+  font-size: 0.9em;
+  font-weight: bold;
+}
+.control {
+  padding: 0.3em;
+}
+.hidden-control {
+  color: #909090;
+}
+.rot-control {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.rot-control .label {
+  /* align-self: center; */
+}
+synth-knob {
+  width: 35px; height: 35px;
+  color: black;
+  border-color: #b0b0b0;
+  flood-color: #e0e0e0;
+
+}
+synth-knob.shifted {
+  color: #c00000;
+  flood-color: rgb(255, 204, 188)
+}
+synth-leds {
+  width: 20px; height: 5px;
+  color: #7c7c7c;
+  flood-color: #ff0000;
+  padding: 1px;
+}
+synth-leds[vertical] {
+  width: 5px; height: 20px;
+}

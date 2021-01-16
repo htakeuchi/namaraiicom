@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>rails on namaraii.com</title><link>https://namaraii.com/tags/rails/</link><description>Recent content in rails on namaraii.com</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright><lastBuildDate>Fri, 05 Sep 2008 00:00:00 +0000</lastBuildDate><atom:link href="https://namaraii.com/tags/rails/index.xml" rel="self" type="application/rss+xml"/><item><title>RailsからSalesforceのDBへ簡単にアクセスできるActiveSalesforceを味見してハマったこと</title><link>https://namaraii.com/post/2008/20080905_railssalesforcedbactivesalesforcedf9770a3cde0/</link><pubDate>Fri, 05 Sep 2008 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2008/20080905_railssalesforcedbactivesalesforcedf9770a3cde0/</guid><description>
+&lt;p>&lt;a href="http://activesfdc.rubyforge.org/">ActiveSalesforce&lt;/a>というSalesforceのデータベースをActiveRecord経由でアクセスできるアダプタを触ってみました。ちょっとハマった部分があるのでメモしておきます。&lt;/p>
+&lt;h4 id="インストールと設定">インストールと設定&lt;/h4>
+&lt;p>私が試した環境はRails 2.1.0です。Rails 2.xだと、&lt;/p>
+&lt;pre>&lt;code>$ gem install activerecord-activesalesforce-adapter
+&lt;/code>&lt;/pre>
+&lt;p>だけでOK。Rails
+1.xだとインストールと設定の手順が違いますので&lt;a href="http://activesfdc.rubyforge.org/">こちら&lt;/a>を参照してください。&lt;/p>
+&lt;p>インストール後、すぐに下にあるようなコードを書いて動かしてみたのですが、&lt;a href="http://rubyforge.org/tracker/?func=detail&amp;amp;group_id=1201&amp;amp;aid=19960&amp;amp;atid=4729">RubyForge: ActiveSalesforce: トラッカー詳細: 19960 defining belongs_to with :dependent =&amp;gt; :nullify is broken in edge rails &amp;gt; r8675&lt;/a>と同じ事象が発生し動作しませんでした。このチケットにあるパッチをあてたところ、うまく動くように。&lt;/p>
+&lt;p>次にRailsでプロジェクトを作成し、config/database.ymlを次のように書き換えます。&lt;br>
+[sourcecode language=”ruby”]&lt;br>
+development:&lt;br>
+ adapter: activesalesforce&lt;br>
+ url:
+&lt;a href="https://www.salesforce.com/services/Soap/u/8.0">https://www.salesforce.com/services/Soap/u/8.0&lt;/a>&lt;br>
+ username: Salesforceのアカウント&lt;br>
+ password: Salesforceのパスワード|セキュリティトークン&lt;br>
+[/sourcecode]&lt;br>
+ActiveSalesforceのドキュメントではパスワードだけを指定するように書かれていますが、今のSalesforceでは(ネットワークを信頼済みに設定しない限り）API経由でアクセスする際はパスワードに続けてセキュリティートークンを指定する必要があります。&lt;/p>
+&lt;p>セキュリティトークンはSalesforceにログインし、[設定] |
+[私の個人情報] | [セキュリティトークンのリセット] から参照できます。&lt;/p>
+&lt;p>尚、上記のconfig/database.ymlのサンプルでは、パスワードとセキュリティトークンの間に|がありますが、これは可読性のために入れてあります。&lt;/p>
+&lt;p>実際に指定するときはパスワードに続けてセキュリティトークンを指定してください。&lt;/p>
+&lt;h4 id="salesforceのデータにアクセスする">Salesforceのデータにアクセスする&lt;/h4>
+&lt;p>あとはRailsの世界です。ここではSalesforceの取引先(account)の一覧を出力してみます。accountのコントローラとビューを作成します。コントローラの方はこんな感じ。&lt;br>
+[sourcecode language=”ruby”]&lt;br>
+def index&lt;br>
+ @accounts = Account.find(:all)&lt;br>
+ respond_to do |format|&lt;br>
+ format.html # index.html.erb&lt;br>
+ format.xml { render :xml =&amp;amp;gt; @accounts }&lt;br>
+ end&lt;br>
+end&lt;br>
+[/sourcecode]&lt;br>
+ビュー(index.html.erb)はこんな感じ。&lt;br>
+[sourcecode language=”html”]&lt;br>
+&amp;amp;lt;h1&amp;amp;gt;取引先一覧&amp;amp;lt;/h1&amp;amp;gt;&lt;/p>
+&lt;p>&amp;amp;lt;table&amp;amp;gt;&lt;br>
+ &amp;amp;lt;tr&amp;amp;gt;&lt;br>
+ &amp;amp;lt;th&amp;amp;gt;取引先番号&amp;amp;lt;/th&amp;amp;gt;&lt;br>
+ &amp;amp;lt;th&amp;amp;gt;取引先名&amp;amp;lt;/th&amp;amp;gt;&lt;br>
+ &amp;amp;lt;th&amp;amp;gt;住所(請求先)&amp;amp;lt;/th&amp;amp;gt;&lt;br>
+ &amp;amp;lt;th&amp;amp;gt;電話&amp;amp;lt;/th&amp;amp;gt;&lt;br>
+ &amp;amp;lt;th&amp;amp;gt;Fax&amp;amp;lt;/th&amp;amp;gt; &lt;br>
+ &amp;amp;lt;th&amp;amp;gt;説明&amp;amp;lt;/th&amp;amp;gt; &lt;br>
+ &amp;amp;lt;/tr&amp;amp;gt;&lt;/p>
+&lt;p>&amp;amp;lt;% for account in @accounts %&amp;amp;gt;&lt;br>
+ &amp;amp;lt;tr&amp;amp;gt;&lt;br>
+ &amp;amp;lt;td&amp;amp;gt;&amp;amp;lt;%=h account.account_number
+%&amp;amp;gt;&amp;amp;lt;/td&amp;amp;gt;&lt;br>
+ &amp;amp;lt;td&amp;amp;gt;&amp;amp;lt;%=h account.name
+%&amp;amp;gt;&amp;amp;lt;/td&amp;amp;gt;&lt;br>
+ &amp;amp;lt;td&amp;amp;gt;&lt;br>
+ &amp;amp;lt;%=h account.billing_postal_code %&amp;amp;gt;&lt;br>
+ &amp;amp;lt;%=h account.billing_state %&amp;amp;gt;&lt;br>
+ &amp;amp;lt;%=h account.billing_city %&amp;amp;gt;&lt;br>
+ &amp;amp;lt;%=h account.billing_street %&amp;amp;gt;&lt;br>
+ &amp;amp;lt;/td&amp;amp;gt;&lt;br>
+ &amp;amp;lt;td&amp;amp;gt;&amp;amp;lt;%=h account.phone
+%&amp;amp;gt;&amp;amp;lt;/td&amp;amp;gt;&lt;br>
+ &amp;amp;lt;td&amp;amp;gt;&amp;amp;lt;%=h account.fax
+%&amp;amp;gt;&amp;amp;lt;/td&amp;amp;gt;&lt;br>
+ &amp;amp;lt;td&amp;amp;gt;&amp;amp;lt;%=h account.description
+%&amp;amp;gt;&amp;amp;lt;/td&amp;amp;gt;&lt;br>
+ &amp;amp;lt;/tr&amp;amp;gt;&lt;br>
+&amp;amp;lt;% end %&amp;amp;gt;&lt;br>
+&amp;amp;lt;/table&amp;amp;gt;&lt;br>
+[/sourcecode]&lt;br>
+http://localhost:3000/accountsへアクセスしたらこんな感じに。&lt;/p>
+&lt;p>うん、普通にRailsアプリですね。とは言え、Salesforceのスキーマを知らないと何もできません。&lt;/p>
+&lt;p>Salesforceのスキーマは&lt;a href="http://www.salesforce.com/us/developer/docs/api/index.htm">Force.com Web Services API Developer’s Guide&lt;/a>のReference — Standard
+Objectsから参照可能です。&lt;/p>
+&lt;p>なお、RailsからSalesforceのデータへアクセスする場合、メンバ名を以下のように読み替える必要がありますのでご注意。&lt;/p>
+&lt;p>Filed
+Name(ドキュメントの表記)Railsのメンバ名BillingPostalCodebilling_postal_code&lt;/p>
+&lt;p>Salesforceを導入するような企業は既に基幹システムを持っているケースも多いと思います。&lt;/p>
+&lt;p>その場合、Force.com
+APIを使ってAjaxリクエストでデータを取得したり、バッチを開発したりして既存システムとSalesforceのデータ連係を実現する方法が主流だと思いますが、ActiveSalesforce
++
+Railsという構成で、Railsの生産性の高さを生かしたSalesforce連携システム開発というのも可能性を感じます。&lt;/p>
+&lt;p>す。&lt;/p></description></item></channel></rss>

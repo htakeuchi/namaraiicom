@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>netlify on namaraii.com</title><link>https://namaraii.com/tags/netlify/</link><description>Recent content in netlify on namaraii.com</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright><lastBuildDate>Sat, 16 Dec 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://namaraii.com/tags/netlify/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugoで作ったサイトをNetlifyでホスティングするまでの手順</title><link>https://namaraii.com/post/2017/20171215_hugo-netlify/</link><pubDate>Sat, 16 Dec 2017 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2017/20171215_hugo-netlify/</guid><description>
+&lt;p>Hugoで作成した、このサイトを&lt;a href="https://goo.gl/vyAeqf">Netlify&lt;/a>でホスティングするまでのメモ。&lt;/p>
+&lt;h2 id="hugoで新規サイトを作成">Hugoで新規サイトを作成&lt;/h2>
+&lt;p>使用したHugoは0.31.1&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="ln">1&lt;/span>&lt;span class="c1"># 新規サイト作成〜Beautiful Hugoテーマのclone&lt;/span>
+&lt;span class="ln">2&lt;/span>$ hugo new site devnull
+&lt;span class="ln">3&lt;/span>$ &lt;span class="nb">cd&lt;/span> themes
+&lt;span class="ln">4&lt;/span>$ git clone https://github.com/halogenica/beautifulhugo.git beautifulhugo
+&lt;span class="ln">5&lt;/span>$ cp -r beautifulhugo/exampleSite/* ..
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>その後、config.tomlの編集、コンテンツの作成、テーマの調整などを行う。&lt;/p>
+&lt;h2 id="githubでリポジトリ作成">GitHubでリポジトリ作成&lt;/h2>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="ln">1&lt;/span>$ git init
+&lt;span class="ln">2&lt;/span>$ git remote add origin https://github.com/hogehoge/hogehoge.git
+&lt;span class="ln">3&lt;/span>$ git add .
+&lt;span class="ln">4&lt;/span>$ git commit -m &amp;#39;first commit&amp;#39;
+&lt;span class="ln">5&lt;/span>$ git push origin master
+&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="netlifyでホスティング">Netlifyでホスティング&lt;/h2>
+&lt;p>&lt;a href="https://goo.gl/vyAeqf">Netlify&lt;/a>にログインし、以下の設定を行う。&lt;/p>
+&lt;ol>
+&lt;li>[New site from Git]ボタンをクリック&lt;/li>
+&lt;li>[Limit GitHub access to public repositories.]をチェックし[GitHub]ボタンをクリック&lt;/li>
+&lt;li>ブランチにmaster、コマンドにhugo、Publishディレクトリにpublic/を設定&lt;/li>
+&lt;li>[Advanced Setting]をクリックし、キーにHUGO_VERSIONを値に0.31.1を指定&lt;/li>
+&lt;li>[Deploy Site]をクリック&lt;/li>
+&lt;/ol>
+&lt;h3 id="カスタムドメインの設定">カスタムドメインの設定&lt;/h3>
+&lt;ol>
+&lt;li>画面上部の[Settrings]メニューをクリック&lt;/li>
+&lt;li>画面左側の[Domain Management]をクリック&lt;/li>
+&lt;li>[Add custom domain]をクリックしてドメイン名を入力後、[Save]ボタンをクリック&lt;/li>
+&lt;li>[Point your domain at the Netlify servers]をクリックし、CNAMEレコードをみてDNSへ追加する。&lt;/li>
+&lt;/ol>
+&lt;h3 id="https化">HTTPS化&lt;/h3>
+&lt;ol>
+&lt;li>HTTPSセクションの[Let's Encrypt certificate]をクリック&lt;/li>
+&lt;li>Force HTTPSセクションの[Force HTTPS]をクリック&lt;/li>
+&lt;/ol>
+&lt;p>ローカルで記事を書きGitHubへpushすれば、自動的にデプロイされるのでお手軽で良い。&lt;/p>
+&lt;p>Netlifyは無料のPersonalプランでもカスタムドメイン・HTTPS・プライベートリポジトリが使えるのが素敵だ。&lt;/p></description></item></channel></rss>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>machine learning on namaraii.com</title><link>https://namaraii.com/tags/machine-learning/</link><description>Recent content in machine learning on namaraii.com</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright><lastBuildDate>Fri, 13 Apr 2018 10:03:50 +0900</lastBuildDate><atom:link href="https://namaraii.com/tags/machine-learning/index.xml" rel="self" type="application/rss+xml"/><item><title>Jupyter Notebooks上でTensorflow/Ruby/D3.jsを使えるDockerイメージを作った</title><link>https://namaraii.com/post/2018/20180413_docker-tensorflow-notebook-iruby/</link><pubDate>Fri, 13 Apr 2018 10:03:50 +0900</pubDate><guid>https://namaraii.com/post/2018/20180413_docker-tensorflow-notebook-iruby/</guid><description>
+&lt;p>データ解析やスクレイピングなど試行錯誤するタスクに便利なので、Jupyter NotebooksのDockerイメージを作った。&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/htakeuchi/docker-tensorflow-notebook-iruby">htakeuchi/docker-tensorflow-notebook-iruby: Jupyter Notebook Scientific Python Stack + Tensorflow + IRuby&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>せっかくなので、TensorflowやD3.j3、IRubyとデータ解析・グラフ描画のライブラリなども入れてごった煮に。&lt;/p>
+&lt;ul>
+&lt;li>Everything in &lt;a href="https://github.com/jupyter/docker-stacks/tree/master/scipy-notebook">Scipy Notebook&lt;/a>&lt;/li>
+&lt;li>Tensorflow and Keras for Python 3.x (without GPU support)&lt;/li>
+&lt;li>IRuby Notebook environment (Ruby 2.5.1)&lt;/li>
+&lt;li>&lt;a href="https://github.com/mrkn/pycall.rb">PyCall&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/mrkn/numpy.rb">mrkn/numpy.rb&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/mrkn/pandas.rb/">mrkn/pandas.rb&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/domitry/nyaplot">nyaplot&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://rubygems.org/gems/rbplotly/versions/0.1.2">rbplotly&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/SciRuby/daru">SciRuby/daru&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/genya0407/daru-plotly">daru-plotly&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/ResidentMario/py_d3">py_d3&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;a href="http://nbviewer.jupyter.org/gist/htakeuchi/8b1ce2b37919352b8b94ceca13b35729/IRuby-sample.ipynb">こちらにIRubyのサンプル&lt;/a>を置いときます。&lt;/p></description></item><item><title>機械学習のアルゴリズムの選び方『仕事ではじめる機械学習』読書メモ</title><link>https://namaraii.com/post/2018/20180304_ml-algorithm/</link><pubDate>Sun, 04 Mar 2018 16:46:08 +0900</pubDate><guid>https://namaraii.com/post/2018/20180304_ml-algorithm/</guid><description>
+&lt;div class="paragraph">
+&lt;p>&lt;a href="http://amzn.to/2tjt2CM">仕事ではじめる機械学習&lt;/a>という本を読んで勉強中なのですが、「やりたいことに対して、どのアルゴリズムを選ぶべきか」が述べられている2章のざっくりメモです。&lt;/p>
+&lt;/div>
+&lt;div class="sect1">
+&lt;h2 id="_scikit_learningのアルゴリズムチートシート">scikit-learningのアルゴリズムチートシート&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="paragraph">
+&lt;p>scikit-learnのチュートリアルに、データ数や目的、条件を元に適切なアルゴリズムを選定するためのフローチャートがある。(画像をクリックするとオリジナルサイトへ飛びます)&lt;/p>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;a class="image" href="http://scikit-learn.org/stable/tutorial/machine_learning_map/">&lt;img src="https://namaraii.com/images/ml_map.png" alt="scilit-learn algorithm cheat-sheet"/>&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect1">
+&lt;h2 id="_タイプ別のアルゴリズム一覧">タイプ別のアルゴリズム一覧&lt;/h2>
+&lt;div class="sectionbody">
+&lt;table class="tableblock frame-all grid-all stretch">
+&lt;colgroup>
+&lt;col style="width: 18.1818%;"/>
+&lt;col style="width: 27.2727%;"/>
+&lt;col style="width: 18.1818%;"/>
+&lt;col style="width: 36.3637%;"/>
+&lt;/colgroup>
+&lt;thead>
+&lt;tr>
+&lt;th class="tableblock halign-left valign-top">タイプ&lt;/th>
+&lt;th class="tableblock halign-left valign-top">概要&lt;/th>
+&lt;th class="tableblock halign-left valign-top">アルゴリズム&lt;/th>
+&lt;th class="tableblock halign-left valign-top">特徴&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top" rowspan="6">&lt;p class="tableblock">分類(Classfication)&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top" rowspan="6">&lt;div class="content">&lt;div class="paragraph">
+&lt;p>教師あり学習の一つ。カテゴリなどの離散的な値を予測する。&lt;br/>
+適用例:メールのスパム判定、画像に写っているものの判定&lt;/p>
+&lt;/div>&lt;/div>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">パーセプトロン(Perceptron)&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;div class="content">&lt;div class="paragraph">
+&lt;p>オンライン学習で学習する。予測性能はそこそこだが学習は早い。過学習しやすい。&lt;/p>
+&lt;/div>&lt;/div>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">ロジスティック回帰(Logistic Regression)&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;div class="content">&lt;div class="paragraph">
+&lt;p>クラスに所属する確率を出せる。オンライン学習、バッチ学習可能。予測性能はそこそこだが学習は早い。&lt;/p>
+&lt;/div>&lt;/div>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">SVM(Support Vector Machine)&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;div class="content">&lt;div class="paragraph">
+&lt;p>分類問題に非常によく使われる。非線形な分離が必要な問題にも適用可能。マージンを最大化し、滑らかな超平面を学習できる。線形カーネルで次元数の多い疎なデータも学習可能。パッチ学習、オンライン学習可能。&lt;/p>
+&lt;/div>&lt;/div>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">ニューラルネットワーク(Neural Network)&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;div class="content">&lt;div class="paragraph">
+&lt;p>非線形なデータを分離可能。学習に時間がかかる。過学習しやすい。重みの初期値に依存し、局所最適解になりやすい。&lt;/p>
+&lt;/div>&lt;/div>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">k-NN(K-Nearest Neighbor Method)&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;div class="content">&lt;div class="paragraph">
+&lt;p>データを1つずつ逐次学習する。予測計算に時間がかかる。データ数によるがそこそこの予測性能。&lt;/p>
+&lt;/div>&lt;/div>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">決定木(Decision Tree)&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;div class="content">&lt;div class="paragraph">
+&lt;p>学習したモデルを人間が見て解釈しやすい。入力データの正規化不要。特定の条件下では過学習しやすい。決定木の発展形として、ランダムフレス(Random Forest)、GBDT(Gradient Boosted Decision Tree)がある&lt;/p>
+&lt;/div>&lt;/div>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top" rowspan="2">&lt;p class="tableblock">回帰(Regression)&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top" rowspan="2">&lt;div class="content">&lt;div class="paragraph">
+&lt;p>教師ある学習の一つ。入力データから連続値を予測する。&lt;br/>
+適用例: 都市の電力消費量、Webサイトのアクセス数予測&lt;/p>
+&lt;/div>&lt;/div>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">線形回帰(Linear Regression)&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;div class="content">&lt;div class="paragraph">
+&lt;p>データを直線で近似する。&lt;/p>
+&lt;/div>&lt;/div>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">多項式回帰(Polynomial Regression)&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;div class="content">&lt;div class="paragraph">
+&lt;p>2次曲線や3次曲線の多項式を使った多項式でデータを近似する。&lt;/p>
+&lt;/div>&lt;/div>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top" rowspan="2">&lt;p class="tableblock">クラスタリング(Clustering)&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top" rowspan="2">&lt;div class="content">&lt;div class="paragraph">
+&lt;p>教師なし学習の一つ。主にデータの傾向を掴むために使われる。&lt;/p>
+&lt;/div>&lt;/div>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">階層的クラスタリング(Hierarchical Clustering)&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;div class="content">&lt;div class="paragraph">
+&lt;p>似ている組み合わせを順番にまとめていく。&lt;/p>
+&lt;/div>&lt;/div>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">k-means&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;div class="content">&lt;div class="paragraph">
+&lt;p>距離の近いもの同士をk個のグルーブに分割する。&lt;/p>
+&lt;/div>&lt;/div>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top" rowspan="3">&lt;p class="tableblock">次元削除(Dimension Reduction)&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top" rowspan="3">&lt;div class="content">&lt;div class="paragraph">
+&lt;p>高次元のデータからできるだけ情報を保存するよう低次元のデータに変換する。&lt;/p>
+&lt;/div>&lt;/div>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">主成分分析(PCA, Principal Component Analysis)&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;div class="content">&lt;div class="paragraph">
+&lt;p>有名な手法。&lt;/p>
+&lt;/div>&lt;/div>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">t-SNE&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;div class="content">&lt;div class="paragraph">
+&lt;p>見える化に用いられることが多い。&lt;/p>
+&lt;/div>&lt;/div>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Kaggle&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;div class="content">&lt;div class="paragraph">
+&lt;p>PCAよりもわかりやすく関係性を見える化できる。&lt;/p>
+&lt;/div>&lt;/div>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;div class="paragraph">
+&lt;p>以下の4つは手法ではなく、機械学習で「できること」&lt;/p>
+&lt;/div>
+&lt;div class="ulist">
+&lt;ul>
+&lt;li>
+&lt;p>推薦(Recommendation)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>異常検知(Anomaly Detection)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>頻出パターンマイニング(Frequent Pattern Mining)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>強化学習(Reinforcement Learning)&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/div>
+&lt;div style="padding-top: 2em">
+&lt;iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;amp;bc1=000000&amp;amp;IS2=1&amp;amp;bg1=FFFFFF&amp;amp;fc1=000000&amp;amp;lc1=0000FF&amp;amp;t=namaraiicom-22&amp;amp;o=9&amp;amp;p=8&amp;amp;l=as4&amp;amp;m=amazon&amp;amp;f=ifr&amp;amp;ref=as_ss_li_til&amp;amp;asins=4873118255&amp;amp;linkId=e4aa918ce1a651ab6d5722960f28424c">&lt;/iframe>
+&lt;/div>
+&lt;/div>
+&lt;/div></description></item></channel></rss>

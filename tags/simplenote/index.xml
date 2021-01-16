@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>simplenote on namaraii.com</title><link>https://namaraii.com/tags/simplenote/</link><description>Recent content in simplenote on namaraii.com</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright><lastBuildDate>Fri, 06 Sep 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://namaraii.com/tags/simplenote/index.xml" rel="self" type="application/rss+xml"/><item><title>vimで直接Simplenoteのノートを編集できるsimplenote.vimが便利</title><link>https://namaraii.com/post/2013/20130906_vimsimplenotesimplenotevim895ed843a588/</link><pubDate>Fri, 06 Sep 2013 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2013/20130906_vimsimplenotesimplenotevim895ed843a588/</guid><description>
+&lt;p>Simlenoteのノートをvimからアクセスするためのプラグイン&lt;a href="https://github.com/mrtazz/simplenote.vim">simplenote.vim&lt;/a>を試してみました。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/HpgtdqRo2BeyYG.jpg" alt="/images/HpgtdqRo2BeyYG.jpg">&lt;/p>
+&lt;h4 id="インストール">インストール&lt;/h4>
+&lt;p>vundleなどでプラグインをインストールして、~/.simplenptercを作成してユーザIDとパスワードを記述。&lt;/p>
+&lt;p>[code]&lt;br>
+let g:SimplenoteUsername = “your simplenote username”&lt;br>
+let g:SimplenotePassword = “your simplenote password”&lt;br>
+[/code]&lt;/p>
+&lt;p>~/.vimrcから~/.simplenotercをsourceで読み込むように。~/.vimrcに直接記述しても良いです。&lt;/p>
+&lt;h4 id="利用方法">利用方法&lt;/h4>
+&lt;pre>&lt;code>:Simplenote -l
+&lt;/code>&lt;/pre>
+&lt;p>とすると、ノート一覧が表示されます。引数に件数を指定することもできます。&lt;/p>
+&lt;p>表示された一覧をカーソルで移動して、参照・編集したいノートの上でリターンキーを押すと編集可能になります。&lt;/p>
+&lt;p>通常のファイルと同様に:wするとSimplenote上のノートが更新されます。横にブラウザで同じファイルを開いておくと、ノートが瞬時に更新される様を見ることができます。速い！&lt;/p>
+&lt;p>編集中のノートにタグを打ちたい場合は、&lt;/p>
+&lt;pre>&lt;code>:Simplenote -t
+&lt;/code>&lt;/pre>
+&lt;p>とするとプロンプトが表示されるので、タグをカンマ区切りで入力すればOK。残念ながらタグの補完はできないようです。&lt;/p>
+&lt;p>vimで直接Simplenoteを編集できるのはいいですねぇ。テキスト系のメモはSimplenoteに集約していこうと思います。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/pvIYDyvOsKb41G.jpg" alt="/images/pvIYDyvOsKb41G.jpg">
+&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4048916599/namaraiicom-22/">実践Vim 思考のスピードで編集しよう!&lt;/a>&lt;/p>
+&lt;p>posted with
+&lt;a href="http://yomereba.com">ヨメレバ&lt;/a>&lt;/p>
+&lt;p>Drew Neil アスキー・メディアワークス 2013–08–29&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4048916599/namaraiicom-22/">Amazon&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/gp/search?keywords=%8E%C0%91HVim%20%8Ev%8Dl%82%CC%83X%83s%81%5B%83h%82%C5%95%D2%8FW%82%B5%82%E6%82%A4%21&amp;amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;amp;url=node%3D2275256051&amp;amp;tag=namaraiicom-22">Kindle&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://hb.afl.rakuten.co.jp/hgc/0ffebcc2.9bf075da.0ffebcc3.ebe9049a/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F12424224%2F%3Fscid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2Fev%2Fbook%2F">楽天ブックス&lt;/a>&lt;/p></description></item><item><title>自分が書いたメモはシンプルに管理したいのでEvernoteからSimplenoteへ移行しようと思う</title><link>https://namaraii.com/post/2013/20130905_evernotesimplenote5e2a0737505b/</link><pubDate>Thu, 05 Sep 2013 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2013/20130905_evernotesimplenote5e2a0737505b/</guid><description>
+&lt;p>情報は一元化しておいた方が検索しやすいので、WebページのクリップやScanSnapでスキャンしたPDFやメモは全てEvernoteで管理しています。&lt;/p>
+&lt;p>Evernoteは高機能で良いのですが、メモはテキストで書きたいためEvenoteのエディタは自分にとってオーバースペックだったんですよね。&lt;/p>
+&lt;p>また、なんでも放り込むことができるので「自分で書いたメモ」の検索性が低下しつつあり、どうしたものかと考えて「自分で書いたメモ」は&lt;a href="http://simplenote.com/">SimpleNote&lt;/a>で管理することにしました。それ以外はいままで通りEvernoteで管理します。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/yR3nVsSG8yzcMP.jpg" alt="/images/yR3nVsSG8yzcMP.jpg">
+SimpleNoteはその名の通り、本当にシンプルな機能しかありませんね。だがそれが良い。気に入ったポイントは以下の通り。&lt;/p>
+&lt;ul>
+&lt;li>&lt;span
+id="d848">フォーマットはテキストのみという割り切り。Markdownに対応している。&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="eed7">ノートへはタグ付けのみ可能で、ノートブックやフォルダといった階層関係を定義できないシンプルさ。&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="a5e1">編集すると即時に同期される。保存ボタンが無い。&lt;/span>&lt;/li>
+&lt;li>&lt;span id="54d2">変更履歴が自動的に保存される。&lt;/span>&lt;/li>
+&lt;/ul>
+&lt;p>SimpleNoteの開発元であるSimperium社は、今年の初めにWordpressのAutomattic社に買収されましたが、&lt;a href="http://simplenote.com/2013/08/22/simplenote-relaunch/">SimpleNoteのブログエントリ&lt;/a>によると、&lt;/p>
+&lt;ul>
+&lt;li>&lt;span id="d3e3">Mac, Android,
+iPhone向け新アプリケーションを開発中&lt;/span>&lt;/li>
+&lt;li>&lt;span id="53dc">サーバを移転中(WordPress.comの環境へ)&lt;/span>&lt;/li>
+&lt;li>&lt;span id="2466">同期速度の改善を予定&lt;/span>&lt;/li>
+&lt;li>&lt;span id="5878">プレミアムプランの見直し&lt;/span>&lt;/li>
+&lt;/ul>
+&lt;p>などを進めているそうです。&lt;/p>
+&lt;p>また、&lt;a href="http://simplenote.com/api/">API&lt;/a>もプライベートテスト中とのことですので、現在はサービスリニューアルに向けた過渡期のようですね。&lt;/p>
+&lt;p>EvernoteのENEXフォーマットをインポートできそうので、まずは、過去メモをインポートしようかと考えています。&lt;/p>
+&lt;p>メモはプレーンテキストで良いよね～（これってプログラマだけ？）&lt;/p></description></item></channel></rss>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>redmine on namaraii.com</title><link>https://namaraii.com/tags/redmine/</link><description>Recent content in redmine on namaraii.com</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright><lastBuildDate>Fri, 21 Jun 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://namaraii.com/tags/redmine/index.xml" rel="self" type="application/rss+xml"/><item><title>使いやすくて情報が見やすい無料のRedmineアプリ RedminePM</title><link>https://namaraii.com/post/2013/20130621_redmineredminepm8db7b2dfcab0/</link><pubDate>Fri, 21 Jun 2013 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2013/20130621_redmineredminepm8db7b2dfcab0/</guid><description>
+&lt;p>RedminePMというRedmineのクライアントアプリが使いやすかったのでシェアします。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/V_BqFxe3elGVra.png" alt="/images/V_BqFxe3elGVra.png">
+&lt;a href="http://click.linksynergy.com/fs-bin/stat?id=4EVf/nY9Pr4&amp;amp;offerid=94348&amp;amp;type=3&amp;amp;subid=0&amp;amp;tmpid=2192&amp;amp;RD_PARM1=https%253A%252F%252Fitunes.apple.com%252Fjp%252Fapp%252Fredminepm%252Fid631915897%253Fmt%253D8%2526uo%253D4%2526partnerId%253D30">RedminePM&lt;/a>&lt;br>
+project mode, Inc.&lt;br>
+価格： 0円&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/HjUzs8GEuYkKjw.gif" alt="/images/HjUzs8GEuYkKjw.gif">
+posted with
+&lt;a href="http://sticky.linclip.com/linkmaker/">sticky&lt;/a>
+on 2013.6.21&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/Z4Z92Saxr6T-Cc.jpg" alt="/images/Z4Z92Saxr6T-Cc.jpg">
+プロジェクトの一覧。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/5CdSR3r_PPQUFr.jpg" alt="/images/5CdSR3r_PPQUFr.jpg">
+チケットの一覧。トラッカーが色分けされていて見やすいですね。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/ooi6GKLH2cr1V4.jpg" alt="/images/ooi6GKLH2cr1V4.jpg">
+チケットの参照画面。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/EDpHEHHokE6qnV.jpg" alt="/images/EDpHEHHokE6qnV.jpg">
+コメントの履歴が見やすいのが嬉しいなぁ。ここが見づらいと状態を掴めないんですよね。&lt;/p>
+&lt;p>その他、機能的な面ではiPhoneカメラ画像の添付ファイル登録、キーワード検索、チケットID検索、ウォッチリスト、カスタムクエリ（サーバで定義したものがそのまま使える）、マルチアカウント対応など。&lt;/p>
+&lt;p>出先で使用する上では十分すぎます。素晴らしい。外部から参照できるサーバでRedmineを使っている人は迷わずインストール！&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/bKoXV78WVfK6uq.png" alt="/images/bKoXV78WVfK6uq.png">
+&lt;a href="http://click.linksynergy.com/fs-bin/stat?id=4EVf/nY9Pr4&amp;amp;offerid=94348&amp;amp;type=3&amp;amp;subid=0&amp;amp;tmpid=2192&amp;amp;RD_PARM1=https%253A%252F%252Fitunes.apple.com%252Fjp%252Fapp%252Fredminepm%252Fid631915897%253Fmt%253D8%2526uo%253D4%2526partnerId%253D30">RedminePM&lt;/a>&lt;br>
+project mode, Inc.&lt;br>
+価格： 0円&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/h6lNs_cF6TIo8E.gif" alt="/images/h6lNs_cF6TIo8E.gif">
+posted with
+&lt;a href="http://sticky.linclip.com/linkmaker/">sticky&lt;/a>
+on 2013.6.21&lt;/p></description></item><item><title>.NETからRedmineへアクセスするライブラリを試してみた</title><link>https://namaraii.com/post/2009/20091124_netredmine9daad773398/</link><pubDate>Tue, 24 Nov 2009 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2009/20091124_netredmine9daad773398/</guid><description>
+&lt;p>&lt;img src="https://namaraii.com/images/y6jD5-goDFXK0I.jpg" alt="/images/y6jD5-goDFXK0I.jpg">
+&lt;a href="http://www.photodropper.com/photos/">photo&lt;/a>
+credit:
+&lt;a href="http://www.flickr.com/photos/37804979@N00/4125499571/">ahisgett&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://redmineclient.sourceforge.net/">Redmine Client&lt;/a>というアプリケーションがあります。Windows(.NET)上で動作するRedmineのクライアントで、機能的には、&lt;/p>
+&lt;ul>
+&lt;li>&lt;span id="35f6">チケットに費やした時間を計測する&lt;/span>&lt;/li>
+&lt;li>&lt;span id="a3e8">時間をRedmineへ登録する&lt;/span>&lt;/li>
+&lt;li>&lt;span id="ec88">新しいチケットを登録する&lt;/span>&lt;/li>
+&lt;/ul>
+&lt;p>というシンプルなものです。C#で書かれています。&lt;/p>
+&lt;p>このアプリケーションにはRedmineへアクセスするためのライブラリ(DLL)が添付されており、&lt;a href="http://redmineclient.sourceforge.net/apidoc/Index.html">APIの仕様&lt;/a>も公開されています。（どちらかと言うと、アプリケーションはこのライブラリのサンプル的な位置付けなのかな？）&lt;br>
+ &lt;br>
+Redmineは0.9でRESTfulになるらしいので、それまで待とうか…という気もしないではないのですが、このライブラリのFUTURE
+PLANSには“Making use of Redmine 0.9 RESTfull
+interface”とあり、0.9でRESTfullになったら対応する模様。&lt;/p>
+&lt;p>ということで、安心して？試してみました。&lt;/p>
+&lt;h4 id="インストールと設定">インストールと設定&lt;/h4>
+&lt;ol>
+&lt;li>&lt;span
+id="e3a0">&lt;a href="http://sourceforge.net/projects/redmineclient/files/">ここから&lt;/a>redmineclient-0.3.0.zipをダウンロードする。&lt;/span>&lt;/li>
+&lt;li>&lt;span id="be99">アーカイブを解凍しNohal.Redmine.dllをVisual
+Studioのプロジェクトで参照設定する。&lt;/span>&lt;/li>
+&lt;/ol>
+&lt;p>これだけです。&lt;/p>
+&lt;h4 id="チケット一覧を取得するための基本的な流れ">チケット一覧を取得するための基本的な流れ&lt;/h4>
+&lt;p>以下のような流れでチケット一覧を取得できます。簡単。&lt;/p>
+&lt;ol>
+&lt;li>&lt;span id="e8ca">Redmineオブジェクトの生成&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="a72d">RedmineのURLを設定(Redmine.RedmineBaseUriプロパティ)&lt;/span>&lt;/li>
+&lt;li>&lt;span id="6361">Redmineへのログイン(Redmine.LogInメソッド)&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="67ac">プロジェクト一覧の取得(Redmine.GetProjectsメソッド)&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="af3e">プロジェクトIDを指定してチケット一覧の取得（Redmine.GetIssuesメソッド)&lt;/span>&lt;/li>
+&lt;/ol>
+&lt;p>（載せるまでも無いですが）実際のコードはこんな感じ。&lt;/p>
+&lt;p>[csharp]&lt;br>
+using System;&lt;br>
+using System.Collections.Generic;&lt;br>
+using System.ComponentModel;&lt;br>
+using System.Data;&lt;br>
+using System.Drawing;&lt;br>
+using System.Linq;&lt;br>
+using System.Text;&lt;br>
+using System.Windows.Forms;&lt;br>
+using Nohal.Redmine;&lt;/p>
+&lt;p>namespace RedmineTest&lt;br>
+{&lt;br>
+ public partial class Form1 : Form&lt;br>
+ {&lt;br>
+ public Form1()&lt;br>
+ {&lt;br>
+ InitializeComponent();&lt;br>
+ }&lt;/p>
+&lt;p>private void button1_Click(object sender, EventArgs e)&lt;br>
+ {&lt;br>
+ Redmine redmine = new Redmine();&lt;br>
+ redmine.RedmineBaseUri = &amp;amp;quot;RedmineのURL&amp;amp;quot;;&lt;br>
+ redmine.LogIn(&amp;amp;quot;Redmineのユーザ名&amp;amp;quot;,
+&amp;amp;quot;Redmineのパスワード&amp;amp;quot;);&lt;/p>
+&lt;p>List&amp;amp;lt;Project&amp;amp;gt; projects = redmine.GetProjects();&lt;br>
+ textBox1.Text = &amp;amp;quot;プロジェクト一覧rn&amp;amp;quot;;&lt;br>
+ foreach (Project project in projects)&lt;br>
+ textBox1.Text += project.Id.ToString() + &amp;amp;quot;: &amp;amp;quot; +
+project.Name + &amp;amp;quot;rn&amp;amp;quot;;&lt;/p>
+&lt;p>textBox1.Text += &amp;amp;quot;チケット一覧rn&amp;amp;quot;;&lt;br>
+ //
+GetIssues(3)の3はプロジェクトID。本来はGetProjects()で取得したIDを指定する。&lt;br>
+ foreach (Issue issue in redmine.GetIssues(3))&lt;br>
+ textBox1.Text += issue.Id + &amp;amp;quot;: &amp;amp;quot; + issue.Subject +
+&amp;amp;quot;rn&amp;amp;quot;;&lt;br>
+ }&lt;br>
+ }&lt;br>
+}&lt;br>
+[/csharp]&lt;/p>
+&lt;p>ざっとAPI仕様を眺めた限りでは、条件を指定してチケットを絞り込む方法が無さそうです。&lt;br>
+このため、指定したプロジェクトの全チケットがListで返却されますので、チケット数が数千～数万のオーダーになると厳しいかもしれませんが、チケットの登録はイケるでしょう。&lt;/p>
+&lt;p>C#から簡単にRedmineへアクセスできるのはいいですね。Redmineクライアントの開発をお考えての方はお試しください。&lt;/p></description></item><item><title>RedmineやTracを上手に活用する6つのポイント</title><link>https://namaraii.com/post/2009/20091022_redminetrac64965192fb581/</link><pubDate>Thu, 22 Oct 2009 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2009/20091022_redminetrac64965192fb581/</guid><description>
+&lt;p>&lt;img src="https://namaraii.com/images/iE540turNblVW4.jpg" alt="/images/iE540turNblVW4.jpg">
+&lt;a href="http://www.photodropper.com/photos/">photo&lt;/a>
+credit:
+&lt;a href="http://www.flickr.com/photos/31931556@N04/4034905867/">Mackトラ&lt;/a>&lt;/p>
+&lt;p>ソフトウェア開発プロジェクトの現場では課題やバグ、タスクを管理するために、RedmineやTracなどのIssue
+Trackin
+System(課題追跡システム。以下ITSと表記)を使っていることが多いと思います。&lt;/p>
+&lt;p>ITSを使えばこれらの情報を一元化しプロジェクトメンバ間で共有できるため、うまく使えばとても役立ちますよね。&lt;/p>
+&lt;p>しかし、あまり深く考えずに導入すると、&lt;/p>
+&lt;p>「入力が大変だし余分な手間が増えただけだよ…」というメンバーからの不満の声&lt;br>
+「この課題って本当に終わってるの？」といった疑心暗鬼&lt;br>
+「このタスク、誰も進めてなかった！」という驚愕の事実が期限前日に判明&lt;/p>
+&lt;p>などといった状況に陥りがちです。&lt;/p>
+&lt;p>ここでは、いくつかのプロジェクトへ導入した経験から得た、ITSを運用する上で重要(と考える)な6つのポイントを紹介します。&lt;/p>
+&lt;h4 id="ポイント1-チケット項目はマネジメントから逆算しシンプルに">ポイント1 チケット項目はマネジメントから逆算しシンプルに&lt;/h4>
+&lt;p>チケットにはオリジナルの項目(属性)を追加できるため、いろいろ盛り込みたくなりますが、多くの入力項目があるチケット画面は見るだけでいやになりませんか？&lt;/p>
+&lt;p>それに、そもそも用途が明確でない項目を入力してもらうのは全くのムダです。&lt;/p>
+&lt;p>「どの情報をどのように見てマネジメントするか」から逆算してチケット項目を決定しましょう。できる限りシンプルに。&lt;/p>
+&lt;h4 id="ポイント2-チケットの運用フローと入力ルールを明確に">ポイント2 チケットの運用フローと入力ルールを明確に&lt;/h4>
+&lt;ul>
+&lt;li>&lt;span
+id="5344">誰がチケットを起票しどのように担当者をアサインするか&lt;/span>&lt;/li>
+&lt;li>&lt;span id="2626">チケットのクローズ条件&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="98ce">チケットの各項目(優先度、マイルストーンなど)へどのような情報を入力するか&lt;/span>&lt;/li>
+&lt;/ul>
+&lt;p>などのチケット運用ルールを事前に定義し、運用を開始する前にプロジェクトメンバーへ周知しておきましょう。これらのルールもポイント1に書いたようにマネジメントから逆算です。&lt;/p>
+&lt;p>RedmineやtracであればWikiに書いておくのが良いですね。&lt;/p>
+&lt;h4 id="ポイント3-itsをチケットの墓場にしない">ポイント3 ITSをチケットの墓場にしない&lt;/h4>
+&lt;ul>
+&lt;li>&lt;span id="1bcc">終了しているはずのチケットが閉じられていない&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="d213">誰にもアサインされていないチケットが放置されている&lt;/span>&lt;/li>
+&lt;/ul>
+&lt;p>このような状況は非常に危険です。ITSの情報が「あてにならない」ため、だんだん誰も使わなくなっていきます。そして、ITSはチケットの墓場に…&lt;/p>
+&lt;p>プロジェクトメンバーがチケットの運用に慣れるまでは週次でチケットの棚卸を行うなどして、チケットの情報鮮度を確保するようにしましょう。&lt;/p>
+&lt;h4 id="ポイント4-プロマネのチケットに要注意">ポイント4 プロマネのチケットに要注意&lt;/h4>
+&lt;p>プロマネやチームリーダーのチケットは要注意です。&lt;/p>
+&lt;p>管理すべき立場の人が期限切れのチケットを放置していたりすると、ほぼ確実にプロジェクト全体へ蔓延します。率先垂範を心がけましょう。&lt;/p>
+&lt;h4 id="ポイント5-一元管理を徹底する">ポイント5 一元管理を徹底する&lt;/h4>
+&lt;p>チケットへの情報集約を徹底しましょう。メールでやりとりされた内容、口頭で交わした内容などもチケットへ記入する習慣を。&lt;/p>
+&lt;p>また、社内の管理ルールにより、チケットへ入力した内容を社内の別システムへも入力しなければならないケースもあるでしょう。&lt;/p>
+&lt;p>そのような場合、プロジェクトメンバはチケットだけを入力すれば良いルールにして、社内システムへの転記は別の方法を考えましょう。二重投入が必要だとメンバにとっては「余分な手間が増えるだけ」です。&lt;/p>
+&lt;h4 id="ポイント6-チケットのオーナーシップを意識付ける">ポイント6 チケットのオーナーシップを意識付ける&lt;/h4>
+&lt;p>チケットの担当者が能動的にチケットを処理し、クローズまで責任を持って担当する土壌を作れるかはプロジェクト運営上、とても重要です。&lt;/p>
+&lt;p>まず、担当者が割り当たっていないチケットは、プロマネかチームリーダーが漏れなく割り当てるようにしましょう。&lt;/p>
+&lt;p>その上で、前述したチケットの棚卸で担当者別にフォローアップし、オーナーシップの意識付けを行えば良いと思います。&lt;/p>
+&lt;p>以上、私自身の経験から重要と考えている6つのポイントを紹介しました。&lt;/p>
+&lt;p>多少なりとも参考になる部分があればうれしいです。ただ、ITSの運用がうまくいってもプロジェクトがうまくとは限りません(^^)&lt;/p></description></item></channel></rss>

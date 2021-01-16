@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>todoist on namaraii.com</title><link>https://namaraii.com/tags/todoist/</link><description>Recent content in todoist on namaraii.com</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright><lastBuildDate>Mon, 18 Jan 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://namaraii.com/tags/todoist/index.xml" rel="self" type="application/rss+xml"/><item><title>写真かボイスメモをTodoistへタスクとして登録するWorkflowのワークフロー</title><link>https://namaraii.com/post/2016/20160118_iostodoistworkflowfca5d83ebd65/</link><pubDate>Mon, 18 Jan 2016 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2016/20160118_iostodoistworkflowfca5d83ebd65/</guid><description>
+&lt;p>ふとアイデアを思いついたとき、すばやくメモを取りたいときなど、フリック入力がまどろっこしい場合があります。&lt;/p>
+&lt;p>そんな時は、音声録音や写真でさっと記録することが多いのですが、このパターンで残した写真やボイスメモは、あとでなんらかのアクションを起こします。&lt;/p>
+&lt;p>このため&lt;a href="https://itunes.apple.com/jp/app/workflow-powerful-automation/id915249334?mt=8&amp;amp;uo=4&amp;amp;at=10lmwI">Workflow&lt;/a>を使ってTodoistへ直接登録するワークフローを作って、保存先を一元化するようにしてみました。&lt;/p>
+&lt;p>&lt;a href="https://workflow.is/workflows/5be782a5eb334701aa99cd1ce1e7be1c">Quick Todoist&lt;/a>&lt;br>
+&lt;a href="https://workflow.is/workflows/5be782a5eb334701aa99cd1ce1e7be1c">https://workflow.is/workflows/5be782a5eb334701aa99cd1ce1e7be1c&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/fbOGICfVA-UebO.png" alt="/images/fbOGICfVA-UebO.png">
+起動すると写真を撮るか音声録音をするかを聞かれます。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/2kHTKY5OC7cIVH.png" alt="/images/2kHTKY5OC7cIVH.png">
+“Record
+Audio”を選択すると、すぐに録音が始まります。タップで録音終了。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/3FDIzzK5oKgInz.png" alt="/images/3FDIzzK5oKgInz.png">
+”Take
+Photo”を選択するとフロントカメラが起動します。タップでパシャっと。&lt;/p>
+&lt;p>音声録音または写真撮影が終わると、Todoistへ日時をタスク名としたタスクが登録され、写真、音声ファイルはタスクのメモへ添付されます。（ファイル添付はプレミアムアカウントのみです）&lt;/p>
+&lt;p>Workflowは簡単にこういうツールを作れて便利ですね。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/WaiN5EoH0YWuDM.jpg" alt="/images/WaiN5EoH0YWuDM.jpg">
+&lt;a href="https://itunes.apple.com/jp/app/workflow-powerful-automation/id915249334?mt=8&amp;amp;uo=4&amp;amp;at=10lmwI">Workflow: Powerful Automation Made Simple&lt;/a>&lt;br>
+DeskConnect, Inc.&lt;br>
+ジャンル： 仕事効率化 — ユーティリティ&lt;br>
+リリース日： 2014–12–11&lt;br>
+価格： 360円&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/ZJubrtaPKp3dIw.png" alt="/images/ZJubrtaPKp3dIw.png">
+posted with
+&lt;a href="http://sticky.linclip.com/rank/">sticky&lt;/a>
+on 2016.1.17&lt;/p>
+&lt;p>作ったワークフローはこちらです。&lt;/p>
+&lt;p>&lt;a href="https://workflow.is/workflows/5be782a5eb334701aa99cd1ce1e7be1c">Quick Todoist&lt;/a>&lt;br>
+&lt;a href="https://workflow.is/workflows/5be782a5eb334701aa99cd1ce1e7be1c">https://workflow.is/workflows/5be782a5eb334701aa99cd1ce1e7be1c&lt;/a>&lt;/p></description></item></channel></rss>

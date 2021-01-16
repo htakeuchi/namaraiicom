@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javascript on namaraii.com</title><link>https://namaraii.com/tags/javascript/</link><description>Recent content in javascript on namaraii.com</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright><lastBuildDate>Wed, 11 Sep 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://namaraii.com/tags/javascript/index.xml" rel="self" type="application/rss+xml"/><item><title>日付が含まれているJSONをJavascriptで扱う場合の注意</title><link>https://namaraii.com/post/2013/20130911_jsonjavascript30fae7898413/</link><pubDate>Wed, 11 Sep 2013 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2013/20130911_jsonjavascript30fae7898413/</guid><description>
+&lt;p>RubyでTimeクラスのオブジェクトを含んだハッシュからJSONを生成し、そのJSONをJavascriptで扱う際、Dateインスタンスに変換するところで失敗したので対処内容をメモ。(Chromeだとパースしてくれたが、他のブラウザでNGだった）&lt;/p>
+&lt;p>RubyのJSONライブラリでTimeクラスのオブジェクトをto_jsonすると、&lt;/p>
+&lt;p>[bash]&lt;br>
+1.9.3p448 :003 &amp;gt; require ‘json’&lt;br>
+ =&amp;gt; true &lt;br>
+1.9.3p448 :004 &amp;gt; Time.now.to_json&lt;br>
+ =&amp;gt; “\”2013–09–08 12:12:12 +0900\”” &lt;br>
+[/bash]&lt;/p>
+&lt;p>のような形式で出力される。この形式が問題のようだ。&lt;/p>
+&lt;p>[javascript]&lt;br>
+var t1 = “2013–09–08 12:12:12 +0900”; &lt;br>
+var date1 = new Date(t1); // 変換に失敗する&lt;br>
+[/javascript]&lt;/p>
+&lt;p>RFC2822形式にすれば、主要なブラウザでは大丈夫そうなのでTimeクラスのto_jsonをオーバーライドする。&lt;/p>
+&lt;p>[ruby]&lt;br>
+class Time &lt;br>
+ def to_json(*a) &lt;br>
+ rfc2822.to_json(*a) &lt;br>
+ end &lt;br>
+end &lt;br>
+[/ruby]&lt;/p>
+&lt;p>もっと良い解がありそうな気もするが、とりあえず。&lt;/p></description></item><item><title>JavaScriptのレンダリングエンジンTempoが使いやすかった</title><link>https://namaraii.com/post/2013/20130827_javascripttempo5101d465d13e/</link><pubDate>Tue, 27 Aug 2013 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2013/20130827_javascripttempo5101d465d13e/</guid><description>
+&lt;p>JavaScriptのレンダリングエンジンをいくつか調べたのですが、その中でTempoが使いやすかったので、備忘録を兼ねてメモしておきます。&lt;/p>
+&lt;p>&lt;a href="http://twigkit.github.io/tempo/">Tempo :: The Intuitive JavaScript Template Engine by Twigkit&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/1jeUS28g62jhdG.jpg" alt="/images/1jeUS28g62jhdG.jpg">
+Tempoはビューとロジックを分けて記述できるため、JavaScript中にHTMLが現れることがありません。&lt;/p>
+&lt;p>例えば、こういうJSONデータがあったとして、&lt;br>
+[code lang=”js”]&lt;br>
+var data = [&lt;br>
+ {‘name’:{‘first’:’Leonard’,’last’:’Marx’},’nickname’:’Chico’},&lt;br>
+ {‘name’:{‘first’:’Adolph’,’last’:’Marx’},’nickname’:’Harpo’},&lt;br>
+ {‘name’:{‘first’:’Julius Henry’,’last’:’Marx’},’nickname’:’Groucho’},&lt;br>
+ {‘name’:{‘first’:’Milton’,’last’:’Marx’},’nickname’:’Gummo’},&lt;br>
+ {‘name’:{‘first’:’Herbert’,’last’:’Marx’},’nickname’:’Zeppo’}&lt;br>
+];&lt;br>
+[/code]&lt;/p>
+&lt;p>こういうテンプレートを記述し、&lt;/p>
+&lt;p>[code lang=”html”]&lt;br>
+&amp;lt;ol id=”marx-brothers”&amp;gt;&lt;br>
+ &amp;lt;li data-template&amp;gt;{{nickname}} {{name.last}}&amp;lt;/li&amp;gt;&lt;br>
+&amp;lt;/ol&amp;gt;&lt;br>
+[/code]&lt;/p>
+&lt;p>こうすると、&lt;/p>
+&lt;p>[code lang=”js”]&lt;br>
+Tempo.prepare(‘marx-brothers’).render( data );&lt;br>
+[/code]&lt;/p>
+&lt;p>このように展開されます。&lt;/p>
+&lt;p>[code lang=”plain”]&lt;/p>
+&lt;ol>
+&lt;li>Chico Marx&lt;/li>
+&lt;li>Harpo Marx&lt;/li>
+&lt;li>Groucho Marx&lt;/li>
+&lt;li>Gummo Marx&lt;/li>
+&lt;li>Zeppo Marx&lt;br>
+[/code]&lt;/li>
+&lt;/ol>
+&lt;p>このように識別子が無いケースでは、&lt;/p>
+&lt;p>[code lang=”js”]&lt;br>
+var data = [ ‘Leonard Marx’, ‘Adolph Marx’, ‘Julius Henry Marx’,
+‘Milton Marx’, ‘Herbert Marx’ ];&lt;br>
+[/code]&lt;/p>
+&lt;p>{{.}}を記述することでオブジェクトにアクセスすることができます。&lt;/p>
+&lt;p>[code lang=”html”]&lt;br>
+&amp;lt;ol id=”marx-brothers”&amp;gt;&lt;br>
+ &amp;lt;li data-template&amp;gt;{{.}}&amp;lt;/li&amp;gt;&lt;br>
+&amp;lt;/ol&amp;gt;&lt;br>
+[/code]&lt;/p>
+&lt;p>以下のように条件付きのテンプレートも記述できます。&lt;/p>
+&lt;p>[code lang=”html”]&lt;br>
+&amp;lt;ul id=”marx-brothers3&amp;quot;&amp;gt;&lt;br>
+ &amp;lt;li data-template data-if-nickname=”Groucho””&amp;gt;{{nickname}} (aka
+{{name.first}}) was grumpy!&amp;lt;/li&amp;gt;&lt;br>
+ &amp;lt;li data-template data-if-actor&amp;gt;{{name.first}}, nicknamed
+‘&amp;lt;i&amp;gt;{{nickname}} {{name.last}}&amp;lt;/i&amp;gt;’ was born on
+{{born}}&amp;lt;/li&amp;gt;&lt;/p>
+&lt;p>&amp;lt;! — Default template →&lt;br>
+ &amp;lt;li data-template&amp;gt;{{name.first}} {{name.last}} was not in any
+movies!&amp;lt;/li&amp;gt;&lt;br>
+&amp;lt;/ul&amp;gt;&lt;br>
+[/code]&lt;/p>
+&lt;p>JSONでデータが返却されるサービスをレンダリングする際などに便利ですな。&lt;/p>
+&lt;p>サポートしているブラウザは、&lt;/p>
+&lt;pre>&lt;code>Works in Safari, Chrome, FireFox, Opera, and Internet Explorer 6+
+&lt;/code>&lt;/pre>
+&lt;p>となっています。IE6も！&lt;/p></description></item></channel></rss>

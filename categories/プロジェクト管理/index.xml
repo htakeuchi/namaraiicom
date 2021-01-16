@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>プロジェクト管理 on namaraii.com</title><link>https://namaraii.com/categories/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E7%AE%A1%E7%90%86/</link><description>Recent content in プロジェクト管理 on namaraii.com</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright><lastBuildDate>Fri, 16 Sep 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://namaraii.com/categories/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>あなたのプロジェクトで「本当の」情報が報告されないのはなぜか？</title><link>https://namaraii.com/post/2016/20160916_e1bf89acd2fe/</link><pubDate>Fri, 16 Sep 2016 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2016/20160916_e1bf89acd2fe/</guid><description>
+&lt;h4 id="pdcaを機能させて大火事を予防する">PDCAを機能させて大火事を予防する&lt;/h4>
+&lt;p>円滑なプロジェクト運営には、PDCAサイクルを継続的に回すことが欠かせません。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/1nFPpvCAdBh1sVNWMbhT4xw.png" alt="/images/1nFPpvCAdBh1sVNWMbhT4xw.png">&lt;figcaption>PDCA Cycle by Karn G. Bulsuk (&lt;a href="http://www.bulsuk.com">http://www.bulsuk.com&lt;/a>). Originally published at &lt;a href="http://www.bulsuk.com/2009/02/taking-first-step-with-pdca.html">http://www.bulsuk.com/2009/02/taking-first-step-with-pdca.html&lt;/a>&lt;/figcaption>
+PDCAサイクルとはPlan(計画)、Do(実施・実行)、Check(点検・評価)、Act(処置・改善)という業務を継続的に改善していくプロセスです。&lt;/p>
+&lt;ul>
+&lt;li>&lt;span id="3fba">Plan :
+過去の実績やプロジェクトの特質、制約条件をもとにして計画を作成する。&lt;/span>&lt;/li>
+&lt;li>&lt;span id="c839">Do: 計画に従って実行する。&lt;/span>&lt;/li>
+&lt;li>&lt;span id="7dc3">Check:
+タスクの実施状況が計画に沿っているかどうかを確認する。&lt;/span>&lt;/li>
+&lt;li>&lt;span id="e319">Act:
+計画との差異を調査・分析し必要な改善を行う。&lt;/span>&lt;/li>
+&lt;/ul>
+&lt;p>PDCAを継続的に回し、短いスパンで小さな改善を積み重ねて、こきざみに火消しをすることにより、大火事を予防します。&lt;/p>
+&lt;h4 id="正しい情報を収集できていますか">正しい情報を収集できていますか？&lt;/h4>
+&lt;p>プロジェクトの状況を把握するためには、プロジェクトの特性に応じて、定量的な情報（進捗・品質・コストなど）と定性的な情報（課題状況、外部要因の変化、潜在リスクなど）をバランス良く収集する必要があります。&lt;/p>
+&lt;p>ほとんどのプロジェクトでは、日次・週次の進捗報告などで、一定期間ごとにプロジェクトデータを収集するしくみをつくりますよね。&lt;/p>
+&lt;p>しかし、その報告の精度は十分ですか？&lt;/p>
+&lt;p>進捗の遅延や、バグの多発など進捗会議で問題なりそうな情報を隠されたり、数値を「ナメられた」ことはありませんか？&lt;/p>
+&lt;p>PDCAを機能させるためには「正しい」情報が絶対に必要です。&lt;/p>
+&lt;p>正しい情報に基づき、適切なアクションを起こすからこそ、状況を是正できるのです。&lt;/p>
+&lt;h4 id="本当の情報が上がってこない理由">「本当の」情報が上がってこない理由&lt;/h4>
+&lt;p>都合の悪い情報が上がってこなかったり、情報の精度が低いといった問題は、なぜ発生するのでしょうか？&lt;/p>
+&lt;p>そのような経験があるプロマネは、以下の2つのポイントを確認してみてください。&lt;/p>
+&lt;h4 id="ポイント１-報告を真剣に確認しているか">ポイント１ 報告を真剣に確認しているか？&lt;/h4>
+&lt;p>現場から上がってきた情報(報告)はPM・PMOやチームリーダが「真剣に」確認しなければなりません。&lt;/p>
+&lt;p>そんなのあたりまえだろ…と思うかもしれませんが、実際には表層的にしか見ていないプロジェクトが非常に多い。&lt;/p>
+&lt;ul>
+&lt;li>&lt;span
+id="a89e">前回の報告時と比較して、不自然だったり問題が潜んでいると感じられる数値の変化はないか？&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="2c06">明確な基準に従って進捗・品質数値が集計されているか？&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="708e">報告者は、定量的なデータから推測される懸念点を認識できているか？
+（課題として報告されているか）&lt;/span>&lt;/li>
+&lt;/ul>
+&lt;p>など、報告された内容を鵜呑みにするのではなく、さまざまな角度から評価・分析し、気になったポイントをきちんと報告者へフィードバックするようにしましょう。&lt;/p>
+&lt;p>こうすることにより、情報の精度が向上していきます。&lt;/p>
+&lt;h4 id="ポイント２-ネガティブな情報への対応は適切か">ポイント２ ネガティブな情報への対応は適切か？&lt;/h4>
+&lt;p>計画に対して大幅に進捗が遅延している、想定以上にバグが多発し収束しない、要件の取りこぼしが見つかった…&lt;/p>
+&lt;p>プロジェクトを進めていく中で、できれば報告したくない、可能ならば隠してしまいたいネガティブな状況が発生します。&lt;/p>
+&lt;p>プロジェクトとしては、このようなネガティブな情報ほど、早期に把握し是正する必要があります。&lt;/p>
+&lt;p>このため、こういうネガティブな情報を報告しやすい風土づくりをすることが大切です。&lt;/p>
+&lt;p>「正直に報告しても支援もしてくれないし、ネチネチと詰問されるだけだから、とりあえずオンスケで報告しておこう…」などと感じさせてしまうような対応は禁物です。&lt;/p>
+&lt;p>ネガティブな情報に対しては、&lt;/p>
+&lt;ul>
+&lt;li>&lt;span
+id="fcb1">いつまでに、どのようなリカバリ計画を考えているのか？&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="d11f">プロジェクトとして支援して欲しいことはあるか？&lt;/span>&lt;/li>
+&lt;/ul>
+&lt;p>を確認し、プロジェクトとして可能な限り支援すること、早めに報告してくれたことに対する謝意を伝えましょう。&lt;/p>
+&lt;p>忙しいなか、貴重な時間を使って報告してくれた情報をていねいに扱い、適切な助言を伝える。&lt;/p>
+&lt;p>必要であれば、プロジェクトとして支援する姿勢を示すことで、徐々に信頼感が生まれ、タイムリーに「正しい」情報が伝わるようになることでしょう。&lt;/p>
+&lt;p>「報告のために使う時間がもったいない」となってしまうとプロジェクトはうまくいきません。&lt;/p>
+&lt;p>「早めに相談してみよう」と思われるオープンでポジティブな風土づくりを目指してみませんか？&lt;/p></description></item><item><title>「気が付かない後輩は伸びない」は思考停止である</title><link>https://namaraii.com/post/2013/20130903_7bd6cee2b21/</link><pubDate>Tue, 03 Sep 2013 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2013/20130903_7bd6cee2b21/</guid><description>
+&lt;p>&lt;a href="http://itpro.nikkeibp.co.jp/article/Watcher/20130823/499762/">記者の眼 — 「できない人」にいくら教えても「できる人」にならないのか：ITpro&lt;/a>という記事がおもしろかった。&lt;/p>
+&lt;p>システム開発のマネージャへのインタビューで内容が構成されており、以下の点などは現場でプロマネをしていた経験と照らして、うなずける内容でした。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/ELqpqaZgD1RRzb.jpg" alt="/images/ELqpqaZgD1RRzb.jpg">&lt;/p>
+&lt;ul>
+&lt;li>&lt;span
+id="3cde">要件定義は走りながら固める。初期フェーズでは顧客との信頼関係を築くことに注力する。&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="0810">単なる増員はそのプロジェクトの「素人」を増やすだけで効果が低い。最大の問題点を見極めて既存メンバをローテーションして充てる。&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="a130">場合によっては、完成しつつある設計やプログラムを捨て去る勇気も必要。&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="ab45">顧客に信用されることが大切。信頼関係があれば、調整できる範囲が広がり、成功の確率が高まる。&lt;/span>&lt;/li>
+&lt;/ul>
+&lt;p>プロマネ自身が自分でコントロールできる範囲を認識していなければ非常に危険な内容も含まれますが、でも、往々にして現実はこんなものだったりします。「信頼関係」大切。&lt;/p>
+&lt;p>記事では「できない人は教えてもできない」例として、こんな記述があります。&lt;/p>
+&lt;blockquote>
+&lt;p>「こことこことここをチェックしたら分かる、という話ではないからね。結局、経験を積んでもらうしかない。後輩と一緒に仕事をして、『さっきの報告をどう思う』と水を向けて、『なんだか変でしたねえ』と言ってきたら見込みがある」&lt;/p>
+&lt;/blockquote>
+&lt;p>「何も言ってこなかったら、教えてあげるのですか」という記者の問いに対して、&lt;/p>
+&lt;blockquote>
+&lt;p>「うーん。『こういう可能性があるから調べてみろ』と言うことはある。調べて『仰る通りでした。こんな問題がありました』と言ってくる。それで終わりかな。つまり、気が付かない後輩は伸びない」&lt;/p>
+&lt;/blockquote>
+&lt;p>とのこと。&lt;/p>
+&lt;p>一見、正論のようにも見えますが、本当は自分の無意識化のロジックを言語化できていないだけではないでしょうか。暗黙知を見える化できていないというか。&lt;/p>
+&lt;p>本当に「直感力」は鍛えることができないのでしょうか？&lt;/p>
+&lt;p>羽生善治
+『&lt;a href="http://www.amazon.co.jp/gp/product/B009GPMUGC/ref=as_li_ss_tl?ie=UTF8&amp;amp;camp=247&amp;amp;creative=7399&amp;amp;creativeASIN=B009GPMUGC&amp;amp;linkCode=as2&amp;amp;tag=namaraiicom-22">決断力 (角川oneテーマ21)&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/ohJlaCcWXj1e0r.gif" alt="/images/ohJlaCcWXj1e0r.gif">
+』に「直感」に関して以下の記述がありました。&lt;/p>
+&lt;blockquote>
+&lt;p>カーネギーメロン大学の金出武雄先生と対談をさせていただいたときに「論理的思考の蓄積が、思考スピードを速め、直感を導いてくれる。計算機の言葉でいえば、毎回決まったファンクションが実行されているうちにハードウェア化するようなものだ。それまでは毎回発火していた脳のニューロンが、その発火の仕方がいつも同じなので、そこに結合が生まれ、一種の学習が行われたということではないか」&lt;/p>
+&lt;/blockquote>
+&lt;p>直感は論理的思考の蓄積により鍛えられると読めます。さらに羽生善治二冠自身の言葉として、&lt;/p>
+&lt;blockquote>
+&lt;p>なんとなくここが中心ではないかとか、ここが急所ではないか、要点ではないかといったことを、それまでの自分自身の経験則や体験、習得してきたことのひとつのあらわれとしてつかむことができたなら（その瞬間には当然、そんなふうには考えないだろうが）、そこには直感が働いている。&lt;/p>
+&lt;/blockquote>
+&lt;p>とあります。直感は自分の経験則や体験、習得してきたものが原資となって生み出されると理解しました。&lt;/p>
+&lt;p>先ほどのマネージャーの例で言えば、「気が付かない後輩は伸びない」で終わるのではなく、どのようにして自分がそれに気付いたのかを見える化してみる。&lt;/p>
+&lt;p>つまり、無意識下の思考プロセスを紐解いて「着目したポイント」や「考え方」を伝えるようにすれば、後輩くんの論理的思考が蓄積され、直感力を向上できるんじゃないだろうか。&lt;/p>
+&lt;p>さらに、自分がどうしてそういう結論を出したか？を振り返ることにより、自分自身の思考プロセスを磨くのにも役立ちそうな気がします。&lt;/p>
+&lt;p>「気が付かない後輩は伸びない」は思考停止！&lt;/p>
+&lt;p>&lt;a href="http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;amp;bc1=000000&amp;amp;IS2=1&amp;amp;bg1=FFFFFF&amp;amp;fc1=000000&amp;amp;lc1=0000FF&amp;amp;t=namaraiicom-22&amp;amp;o=9&amp;amp;p=8&amp;amp;l=as4&amp;amp;m=amazon&amp;amp;f=ifr&amp;amp;ref=ss_til&amp;amp;asins=B009GPMUGC">http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;amp;bc1=000000&amp;amp;IS2=1&amp;amp;bg1=FFFFFF&amp;amp;fc1=000000&amp;amp;lc1=0000FF&amp;amp;t=namaraiicom-22&amp;amp;o=9&amp;amp;p=8&amp;amp;l=as4&amp;amp;m=amazon&amp;amp;f=ifr&amp;amp;ref=ss_til&amp;amp;asins=B009GPMUGC&lt;/a>&lt;/p></description></item><item><title>モウリーニョに学ぶリーダーとして大切なこと</title><link>https://namaraii.com/post/2013/20130624_53e448e6a27a/</link><pubDate>Mon, 24 Jun 2013 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2013/20130624_53e448e6a27a/</guid><description>
+&lt;p>スポーツで名将と呼ばれる人の言葉からは、多くのことを学ぶことができます。&lt;/p>
+&lt;p>監督の最も重要な仕事は、自らの方針や戦術を選手に理解・浸透させ、チーム全体でいかに具現化し結果を出すかではないでしょうか。&lt;/p>
+&lt;p>しかし、プロスポーツ、中でも強豪と呼ばれるチームに属する能力の高い選手は、当然、そのスポーツに対してそれぞれの見識を持っています。納得できる方針、勝てる(と思える)戦術を提示できなければ、要求通りのプレイなどしてくれないかもしれません。&lt;/p>
+&lt;p>プロのアスリートは勤め人ではなく、シビアな世界に生きる個人事業主ですから当然ですね。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/AamIdlM2LeM-4a.jpg" alt="/images/AamIdlM2LeM-4a.jpg">
+その意味で、プロ選手としてのキャリアが無いにも関わらず、数々のクラブで多くのタイトルを獲り、先期までスペインの強豪レアル・マドリーの監督を務めていたジョゼ・モウリョーニョの手腕はすごい。（残念ながらレアル・マドリーでは期待されていたほどの成績を収めることはできませんでしたが…それでも凄いけど）&lt;/p>
+&lt;p>少し前に、WOWOWで放映された&lt;a href="http://www.wowow.co.jp/pg_info/detail/066565/">ノンフィクションW 「王者の資質」レアル・マドリード監督ジョゼ・モウリーニョ&lt;/a>という番組は、多くの関係者のコメントを引用しつつ、モウリーニョ自身の経歴を読み解くという興味深い内容でした。&lt;/p>
+&lt;p>先日、自分のEvernoteを整理していた際に、その番組をメモしたテキストが発掘されたのですが、サッカーに閉じた内容ではなく、チームビルディングやリーダー論として役立ちそうに思えたので、ここでシェアします。&lt;/p>
+&lt;h4 id="目に見える成果を上げて結束を強める">目に見える成果を上げて結束を強める&lt;/h4>
+&lt;p>&lt;img src="https://namaraii.com/images/81PcksPGVgngSF.jpg" alt="/images/81PcksPGVgngSF.jpg">
+勝つことで人々は結束する。&lt;/p>
+&lt;blockquote>
+&lt;p>チームが勝ったり快挙を成し遂げたり大きな目標を達成したとき、大きな共感が産まれ監督と選手の距離も近くなる。これが大きな力になる。&lt;br>
+勝利がチームの問題を解決させていくんだ。&lt;/p>
+&lt;/blockquote>
+&lt;p>モウリーニョは目に見える成果を早く出すことに注力し、それによって、自分への信頼を獲得することで求心力を高めていきます。&lt;/p>
+&lt;p>だからこそ結果を出すことにこだわる。アンチフットボールと揶揄されたとしても、それが、結果を出すためにベストと判断するなら躊躇なくやり切る。それは「目に見える成果」を「少しでも早く」上げることに注力しているからなんでしょうね。&lt;/p>
+&lt;h4 id="常識を疑い新しいコンセプトを打ち立てる">「常識」を疑い新しいコンセプトを打ち立てる&lt;/h4>
+&lt;p>&lt;img src="https://namaraii.com/images/wHUzx-PWVAuof_.jpg" alt="/images/wHUzx-PWVAuof_.jpg">
+モウリーニョの練習時間は試合と同じ90分。走り込みなどのフィジカルトレーニングは一切ないそうです。&lt;/p>
+&lt;blockquote>
+&lt;p>仮にあなたがピアノをうまく弾きたいなら練習でピアノの周りを走るか？&lt;br>
+そんなことはないはずだ。ピアノを弾くだろう？&lt;br>
+サッカーも同じだ。グラウンドの周りを走って、いいサッカーはできない。&lt;/p>
+&lt;/blockquote>
+&lt;p>一般的な練習メニューをこなすのではなく、なぜそんな練習をするのか、その結果、どのような成果が得られるのかを考え抜いて選手へ伝える。&lt;/p>
+&lt;p>ポルトガル代表のポスティガはモウリーニョの練習に関してこんなコメントをしています。&lt;/p>
+&lt;blockquote>
+&lt;p>「次の試合はこうすれば勝てる」そんな自信が持てる練習なんだ。&lt;br>
+彼はいつも相手の弱点も長所も試合展開まで完全に予測していた。&lt;br>
+その上でどうプレイすれば相手を上回れるかを練習する。&lt;br>
+つまり試合の前から僕たちは有利になっているんだ。&lt;/p>
+&lt;/blockquote>
+&lt;p>さらにプロ経験が無いモウリーニョは、こんなことを言っています。&lt;/p>
+&lt;blockquote>
+&lt;p>私は優れた選手たちを、さらに上手くすることはできない。&lt;br>
+私はロナウドにキックを教えることはできない。&lt;br>
+カシージャスにセービングも教えられない。&lt;br>
+だがチームで戦うことを教えることはできる。&lt;br>
+全てはそのための練習だ。&lt;/p>
+&lt;/blockquote>
+&lt;p>レベルの高い選手を揃えているチームでなければ、同じようにはいかないかもしれませんが、監督の仕事は選手個々のスキルを高めることではなく、選手のストロングポイントを最大限に引き出して融和させ、チーム全体の力を選手の能力値の総和以上に高めること。&lt;/p>
+&lt;p>この視点はプロ選手としてのキャリアが無いモウリーニョならではなのかもしれません。&lt;/p>
+&lt;h4 id="外部の雑音から守る">外部の雑音から守る&lt;/h4>
+&lt;p>&lt;img src="https://namaraii.com/images/e2IwbSgJ7wih3b.jpg" alt="/images/e2IwbSgJ7wih3b.jpg">
+レアル・マドリーのマルセロはこんなコメントをしています。&lt;/p>
+&lt;blockquote>
+&lt;p>彼はすごくフレンドリーな人だよ。&lt;br>
+そして僕たちを守ってくれるんだ。&lt;br>
+命がけでまもってくれる。&lt;br>
+大きなクラブだから選手はよくマスコミの批判の的になるけど&lt;br>
+彼はその盾になってチーム全員守っているんだ。&lt;br>
+僕たちのために彼はやってくれる。&lt;br>
+だから僕たちも彼のために頑張る。&lt;br>
+彼の望みをピッチの上で叶えて勝たせてあげたいと思うんだ&lt;/p>
+&lt;/blockquote>
+&lt;p>マスコミへの対応が横柄かつ傲慢に見えるのは、外部からの雑音が全て自分に向くように、あえてそのように振舞っているということなんですね。&lt;/p>
+&lt;p>外部の人間になんと思われようが、チームのメンバーは自分が盾になって守り抜く。その意図をメンバーが理解しているとしたら、マルセロのコメントのように、リーダーのためにも頑張ろうという気持ちに繋がることでしょう。&lt;/p>
+&lt;h4 id="言葉のちからで士気を高める">「言葉のちから」で士気を高める&lt;/h4>
+&lt;p>&lt;img src="https://namaraii.com/images/LQLEhvJ_6CDmes.jpg" alt="/images/LQLEhvJ_6CDmes.jpg">
+私の力は誰よりも私自身が信じている。来シーズン、我々は優勝する。間違いなくね。(FCポルト監督就任会見)&lt;/p>
+&lt;blockquote>
+&lt;p>我々チェルシーには最高の選手たちがいる。そして今、傲慢に聞こえたら許して欲しいが、最高の監督を手に入れた。&lt;br>
+私はヨーロッパチャンピオンである。私は特別な存在(Special
+One)だ。(チェルシー監督就任記者会見)&lt;/p>
+&lt;/blockquote>
+&lt;p>いずれのコメントも、結果を出せなければただの大言壮語になってしまいます。自分の仕事に自信を持っているからこそ言えるのでしょうが、自分で追い込んで退路を断つ覚悟が感じられます。&lt;/p>
+&lt;blockquote>
+&lt;p>彼が監督になった時の記者会見が忘れられません。&lt;br>
+「我々は間違いなく優勝する」そう断言したのです。&lt;br>
+普通なら「優勝するために頑張る」でしょう。しかし彼は普通ではなかった。&lt;br>
+あの言葉で私たちもすっかりその気になってしまいました。&lt;/p>
+&lt;/blockquote>
+&lt;p>ポルトの監督就任時の中心選手、元ポルトガル代表のヴィトール・バイア(2002～2004年にモウリーニョのもとでプレー）はこのようにコメントしています。&lt;/p>
+&lt;p>新しい監督が自信を持ってこういう言葉を発すれば、選手の士気は高まるでしょう。&lt;/p>
+&lt;p>ただ、結果が出なかった場合、その揺り返しは大きくなりますから、「必ず結果を出す」という強い意思の元に確実に結果を出すことが求められます。&lt;/p>
+&lt;h4 id="成功するための強い意思を持つ">成功するための強い意思を持つ&lt;/h4>
+&lt;p>&lt;img src="https://namaraii.com/images/dcf4C7L8QV4Cey.jpg" alt="/images/dcf4C7L8QV4Cey.jpg">
+意思の力の大切さについては、2011年イスラエル国王杯決勝前のロッカールームで、&lt;/p>
+&lt;blockquote>
+&lt;p>電気より電子力より強い動力がある。&lt;br>
+「意思」の力だ。&lt;/p>
+&lt;/blockquote>
+&lt;p>と、アインシュタインの言葉を引用してコメントしています。&lt;/p>
+&lt;p>選手へ意思の力の大切さを説いているのですが、なによりもモウリーニョ自身が、目標を成し遂げるため、あらゆることに強い意思で望んでいることが感じられます。&lt;/p>
+&lt;h4 id="プロフェッショナルな姿勢を貫く">プロフェッショナルな姿勢を貫く&lt;/h4>
+&lt;p>&lt;img src="https://namaraii.com/images/Xqnvj0sDNGi3TS.jpg" alt="/images/Xqnvj0sDNGi3TS.jpg">
+モウリーニョが9歳か10歳のクリスマスの日、家族で食事を楽しんでいると電話がなりました。それは、サッカークラブの監督をしていた父親の解任を告げる電話だったそうです。&lt;/p>
+&lt;p>この出来事により「私はサッカーの世界がどういうものかを知った」と発言しています。&lt;br>
+試合後のインタビューでは、記者とこんなやりとりがありました。&lt;/p>
+&lt;blockquote>
+&lt;p>君は自分が世界一のジャーナリストだと思うかね？&lt;br>
+（記者）そうは思いません。&lt;br>
+そう？じゃあ君とは仕事できないな。そっちの君はどうだ？&lt;br>
+これは私の人生哲学だ。&lt;br>
+この競争の激しい世界で生きるなら自分は誰にも負けないと信じるべきだ。&lt;br>
+どんな強大な相手でも恐れてはいけない。&lt;br>
+リスクを怖がってはいけない。&lt;br>
+私が建築家なら、どんなひどい評価を受けるものを作っても自分だけは信じられないような傑作を作ったと思うだろう。&lt;br>
+これが競争社会で生きるプロフェッショナルの持つべき哲学だ。&lt;/p>
+&lt;/blockquote>
+&lt;p>自分の仕事に全力で取り組み、世界一の仕事をしているという自負を持ち、全ての責任を負うのがプロフェッショナルであると。&lt;/p>
+&lt;p>レアル名誉会長のディ・ステファノが2011年に1–1で引き分けたホームサンチャゴ・ベルナベウでのバルセロナ戦を受けて「レアル・マドリードはまるでライオンを前にしたネズミのようだった」とコメントしたことに対しては、&lt;/p>
+&lt;blockquote>
+&lt;p>私は名誉会長のように偉くはない。ひとりの監督にすぎない。&lt;br>
+だがチームのことを決めるのは監督。つまり私だけだ。&lt;/p>
+&lt;/blockquote>
+&lt;p>「自分の仕事」の範疇に対しては、相手が誰であっても干渉させず、自らが全責任を負うと。うーん…痺れる…&lt;/p>
+&lt;p>確か一時間の番組だったと思うのですが、それだけでこの濃さですからねぇ。良い番組でした。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/Gd0VY8u1x_4XJM.jpg" alt="/images/Gd0VY8u1x_4XJM.jpg">
+&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4583103603/namaraiicom-22/">モウリーニョvsグアルディオラ―最強集団をつくるリーダーの条件&lt;/a>&lt;/p>
+&lt;p>posted with
+&lt;a href="http://yomereba.com">ヨメレバ&lt;/a>&lt;/p>
+&lt;p>フアン・カルロス クベイロ,レオノール ガジャルド ベースボールマガジン社
+2011–11&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4583103603/namaraiicom-22/">Amazon&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/gp/search?keywords=%83%82%83E%83%8A%81%5B%83j%83%87vs%83O%83A%83%8B%83f%83B%83I%83%89%81%5C%8D%C5%8B%AD%8FW%92c%82%F0%82%C2%82%AD%82%E9%83%8A%81%5B%83_%81%5B%82%CC%8F%F0%8C%8F&amp;amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;amp;url=node%3D2275256051&amp;amp;tag=namaraiicom-22">Kindle&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://hb.afl.rakuten.co.jp/hgc/0443d780.506021ef.0443d781.f1347b70/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F11459928%2F%3Fscid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2Fev%2Fbook%2F">楽天ブックス&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/ZFWmD9SUn9x_IL.jpg" alt="/images/ZFWmD9SUn9x_IL.jpg">
+&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4309271324/namaraiicom-22/">モウリーニョの流儀&lt;/a>&lt;/p>
+&lt;p>posted with
+&lt;a href="http://yomereba.com">ヨメレバ&lt;/a>&lt;/p>
+&lt;p>片野道郎 河出書房新社 2009–09–03&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4309271324/namaraiicom-22/">Amazon&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/gp/search?keywords=%83%82%83E%83%8A%81%5B%83j%83%87%82%CC%97%AC%8BV&amp;amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;amp;url=node%3D2275256051&amp;amp;tag=namaraiicom-22">Kindle&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://hb.afl.rakuten.co.jp/hgc/0443d780.506021ef.0443d781.f1347b70/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F6153457%2F%3Fscid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2Fev%2Fbook%2F">楽天ブックス&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/cNMxJpwosVPWqZ.jpg" alt="/images/cNMxJpwosVPWqZ.jpg">
+&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4062133350/namaraiicom-22/">ジョゼ・モウリーニョ&lt;/a>&lt;/p>
+&lt;p>posted with
+&lt;a href="http://yomereba.com">ヨメレバ&lt;/a>&lt;/p>
+&lt;p>ルイス・ローレンス,ジョゼ・モウリーニョ 講談社 2006–02–28&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4062133350/namaraiicom-22/">Amazon&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/gp/search?keywords=%83W%83%87%83%5B%81E%83%82%83E%83%8A%81%5B%83j%83%87&amp;amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;amp;url=node%3D2275256051&amp;amp;tag=namaraiicom-22">Kindle&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://hb.afl.rakuten.co.jp/hgc/0443d780.506021ef.0443d781.f1347b70/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F3976638%2F%3Fscid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2Fev%2Fbook%2F">楽天ブックス&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/x0H148IxGk1HUs.jpg" alt="/images/x0H148IxGk1HUs.jpg">
+&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4797371536/namaraiicom-22/">モウリーニョの哲学&lt;/a>&lt;/p>
+&lt;p>posted with
+&lt;a href="http://yomereba.com">ヨメレバ&lt;/a>&lt;/p>
+&lt;p>フアン・カルロス・クベイロ,レオノール・ガジャルド
+ソフトバンククリエイティブ 2013–02–02&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4797371536/namaraiicom-22/">Amazon&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00CJ57A34/namaraiicom-22/">Kindle&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://hb.afl.rakuten.co.jp/hgc/0443d780.506021ef.0443d781.f1347b70/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F12172649%2F%3Fscid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2Fev%2Fbook%2F">楽天ブックス&lt;/a>&lt;/p></description></item><item><title>プロジェクトの運営で大切なこと。納得感とコミットメント</title><link>https://namaraii.com/post/2009/20091130_711063f1e975/</link><pubDate>Mon, 30 Nov 2009 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2009/20091130_711063f1e975/</guid><description>
+&lt;p>&lt;img src="https://namaraii.com/images/dcVwJ4bilS2kQw.jpg" alt="/images/dcVwJ4bilS2kQw.jpg">
+&lt;a href="http://www.photodropper.com/photos/">photo&lt;/a>
+credit:
+&lt;a href="http://www.flickr.com/photos/91555706@N00/3879260297/">orcmid&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://bizmakoto.jp/bizid/articles/0911/27/news017.html">誠 Biz.ID：新人マネジャー田所晋一の場合：やっかいな部下との評価面談、成功のカギは「納得を引き出す」&lt;/a>という記事より。&lt;/p>
+&lt;blockquote>
+&lt;p>「上司の詳しい説明があれば、部下にとっては次の期のヒントになる。つまり、上司が期待する水準というのが説明によって理解できれば、次はそこを意識しようと思えるということだ。逆にこの説明がなければ、どうがんばっても上司の好き嫌いで評価が決まるのだと思われてしまう。この差が大きいんだ」&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>「部下を納得させるためだけじゃない。評価の材料を集めることは、部下の足りない能力をどう伸ばすかという気づきにもつながる。その意味では、評価に手間暇をかけることが、自分のマネジメント力を向上していくことになるんだ」&lt;/p>
+&lt;/blockquote>
+&lt;p>過去に部下の評価面談をしていた際、全ての部下の仕事振りを普段から公平に見て、納得感を持ってもらえるような評価ができていたかというと…正直言って自信がありません。&lt;/p>
+&lt;p>この記事のように、普段から仕事上の事実（出来事とそれに対するアクションを）を集め、それに対する評価を伝えることができれば、きっと「ちゃんと見て評価しているんだな」という納得感を与えることができますし、自分自身のマネジメント力も向上するでしょうね。&lt;/p>
+&lt;p>「納得感」はプロジェクトマネジメントにおいても重要です。&lt;/p>
+&lt;p>例えば、プロマネが独断で作った納得できない(守れるとは思えない)スケジュールをメンバに強要した場合、プロジェクトはどうなるでしょう？&lt;/p>
+&lt;ul>
+&lt;li>&lt;span
+id="6dcc">スケジュールが形骸化し結果として大幅な進捗遅延を招く&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="14ac">メンバの長期・長時間の残業や休日出勤で、どうにか納期は厳守するがメンバが燃え尽きてしまう…&lt;/span>&lt;/li>
+&lt;/ul>
+&lt;p>残念ながら、上記のいずれかになってしまうケースが非常に多いのではないでしょうか。&lt;/p>
+&lt;p>そうならないためには、&lt;/p>
+&lt;ul>
+&lt;li>&lt;span
+id="6bf8">プロジェクトの制約事項、タスクのゴールイメージ(アウトプットの内容とレベル)、作業ボリューム(工数)についてメンバと話し合い、双方が納得できるスケジュールを作成する。&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="f4fa">スケジュールをコミットメントする。コミットメントは「約束」。プロジェクト全員が約束を守るため、全力を尽くす空気(風土)をつくりだす。&lt;/span>&lt;/li>
+&lt;/ul>
+&lt;p>これが大切です。&lt;/p>
+&lt;p>プロマネはメンバに納得感を与えること、そしてコミットメントを忘れないようにしたいものです。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/xkUjYapwQ7c2lF.jpg" alt="/images/xkUjYapwQ7c2lF.jpg">
+&lt;a href="http://www.amazon.co.jp/exec/obidos/ASIN/4757141556/offtheball2008-22/ref=nosim/">コミットメントの力―人と人がかかわるとき (NTT出版ライブラリーレゾナント)&lt;/a>&lt;/p>
+&lt;p>posted with
+&lt;a href="http://www.amazlet.com/browse/ASIN/4757141556/offtheball2008-22/ref=nosim/">amazlet&lt;/a>
+at 09.11.30&lt;/p>
+&lt;p>三砂 ちづる &lt;br>
+NTT出版 &lt;br>
+売り上げランキング: 275354&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/ASIN/4757141556/offtheball2008-22/ref=nosim/">Amazon.co.jp で詳細を見る&lt;/a>&lt;/p></description></item><item><title>データを見ないプロマネ</title><link>https://namaraii.com/post/2009/20091122_9308d9648eae/</link><pubDate>Sun, 22 Nov 2009 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2009/20091122_9308d9648eae/</guid><description>
+&lt;p>&lt;img src="https://namaraii.com/images/abxK9YB5VaMky2.jpg" alt="/images/abxK9YB5VaMky2.jpg">
+&lt;a href="http://www.photodropper.com/photos/">photo&lt;/a>
+credit:
+&lt;a href="http://www.flickr.com/photos/36840298@N05/4012182601/">stars.alive&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://www.tez.com/blog/archives/001489.html">isologue — by 磯崎哲也事務所: データを見ない人々（「オープン化」する社会での「分析」の価値）&lt;/a>より。&lt;/p>
+&lt;blockquote>
+&lt;p>マスコミの人って、データを全く見ないんですよね。代理店の人ですら。さすがにマーケの人は別だけど。&lt;br>
+例えば、子供向け出版物の売れ行きが落ちている説明として、会議で担当者が、&lt;br>
+「少子化が進んでいるので」&lt;br>
+なんて説明をしたりするけど、調べてみるとここ数年、実は小学生の数はほぼ横ばいなんですよ。&lt;br>
+今やインターネットで政府の統計なんか簡単にタダで調べられるのに、調べない。&lt;br>
+データがいくらオープンになって、タダでインターネットで見られるようになっても、見ない人は見ないんじゃないでしょうか。&lt;/p>
+&lt;/blockquote>
+&lt;p>マスコミや投資家といったインテリ層に属する人たちですら、大半はデータを見ずに「少子化が進んでいる」というような（データの裏付けが無い）前提に基づいて判断を下していることが多く「データを分析する機能」は今後も価値を持ち続けるだろうという内容です。&lt;/p>
+&lt;p>読んでいてプロジェクトマネジメントも同じだなと思いました。&lt;/p>
+&lt;p>ソフトウェアの開発プロジェクトでは課題やバグ数、テストケース数、生産物の出来高、コストと利益率など多くのメトリクスを扱います。&lt;/p>
+&lt;p>ほとんどのプロジェクトではこれらのデータを一定期間毎に集計し、社内や顧客への報告資料としてまとめていると思いますが、単に集計するだけで、それらの数値をきちんと分析していないプロマネが意外に多い。&lt;/p>
+&lt;p>収集したデータの特異値や傾向をきちんと分析することで、大きな問題になる前に早めのアクションが打てるようになります。PDCAサイクルのC(Check)とA(Act)ですね。&lt;/p>
+&lt;p>そんなの当たり前じゃないかと思いますよね。ですが、トラブルになるプロジェクトは経験上、&lt;/p>
+&lt;ul>
+&lt;li>&lt;span
+id="8919">プロジェクトデータを継続的に収集できる仕掛けがない&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="013e">メトリクスの分析とフィードバックが不十分(集計して眺めているだけ…）&lt;/span>&lt;/li>
+&lt;/ul>
+&lt;p>のいずれかが該当するはず。こういうプロジェクトは個人的にPDDD(Plan-Do-Do-Death)プロジェクトと呼んでます(^^)&lt;/p>
+&lt;p>オープンソースのプロマネツールも数多く存在する現状を考えると「プロジェクトデータを継続的に収集できる仕掛けがない」プロジェクトは減ってくでしょうから、プロジェクトデータを分析して、早めに適切なアクションを打つことができるプロマネの価値はさらに高まっていくのではないでしょうか。&lt;/p></description></item><item><title>オープンソースのテスト管理ツールTestLinkを使ってみての雑感</title><link>https://namaraii.com/post/2009/20091121_testlinkfac772779bda/</link><pubDate>Sat, 21 Nov 2009 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2009/20091121_testlinkfac772779bda/</guid><description>
+&lt;p>&lt;img src="https://namaraii.com/images/NsvsSc4Z_glnjo.jpg" alt="/images/NsvsSc4Z_glnjo.jpg">
+&lt;a href="http://www.photodropper.com/photos/">photo&lt;/a>
+credit:
+&lt;a href="http://www.flickr.com/photos/14516334@N00/4099849737/">aussiegall&lt;/a>&lt;/p>
+&lt;p>前から気になっていたオープンソースのテスト管理ツール&lt;a href="http://testlink.org/">TestLink&lt;/a>をインストールして使ってみました。&lt;/p>
+&lt;h4 id="好ましいと感じたポイント">好ましいと感じたポイント&lt;/h4>
+&lt;ul>
+&lt;li>&lt;span
+id="dda4">テスト仕様とテスト計画が独立しており、テスト計画でどのテストを実行するかを選択することができる。特定機能だけの再テスト計画を作成するなど、柔軟に使えそう。&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="16c6">テストケースにキーワードを設定し横串で検索できる。(境界・限界、異常系、追加テスト、顧客受入テスト…）&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="e39f">簡単な要件管理機能がありテストケースと関連付けてテストカバレジを参照できる。&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="9503">テスト計画やテストレポートをHTML、Word、Excel、OpenOffice形式で出力することができる。顧客や社内向けに簡単に「紙で」状況を報告できる仕掛けがあるのは嬉しい。弊社のプロジェクト管理ソフト&lt;a href="http://www.offtheball.jp/product/projectscape/tokucyou">Projectscape&lt;/a>のレポート機能、印刷機能と同じ思想。と、少し宣伝(^^;&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="17ea">失敗したテストケース、ブロックされたテストケースのみを出力したり、担当者がアサインされていないテストケースを抽出したりなど、実際の現場で役立ちそうな機能がある。&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="251e">「要件に基づくレポート」機能はスケジュール遅延や品質が悪い場合ケースで、事前に顧客へ制約事項を提示するのに便利そう。&lt;/span>&lt;/li>
+&lt;/ul>
+&lt;h4 id="こうだったら良いのにと感じたポイント">こうだったら良いのに…と感じたポイント&lt;/h4>
+&lt;ul>
+&lt;li>&lt;span
+id="0c82">ユーザインタフェースが直感的でなくテスト計画・テストスイート・テストケース・要件仕様ドキュメント・要件・ビルドなどのTestLink用語の意味と関係性を事前に理解しておかないと、どう操作して良いかわかりにくい。&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="e4fd">要件管理機能がシンプル（要件を階層的に管理できない、要件IDがツリーに表示されない、要件からテストケースを作成できないなど）OSRMTなど他の要件管理ツールとの連携ができないか。&lt;/span>&lt;/li>
+&lt;/ul>
+&lt;p>好ましいと感じたポイントが6つ、こうだったら良いのに…と感じたポイントが2つということで、個人的にはかなりのポテンシャルを感じるツールです。&lt;br>
+実際のプロジェクトで使い込んでみたいと思います。&lt;/p>
+&lt;p>最後にインストールして動かすまでにハマったポイントについてまとめておきます。&lt;/p>
+&lt;h4 id="テストケースと要件を関連付けを行うと以下のエラーが表示される">テストケースと要件を関連付けを行うと以下のエラーが表示される。&lt;/h4>
+&lt;p>[php]&lt;br>
+Fatal error: require_once() [function.require]: Failed opening
+required ‘tlAttachmentRepository.class.php’
+(include_path=’.:/usr/share/php:/usr/share/pear:.:/var/www/testlink/lib/functions/’)
+in /var/www/testlink/lib/functions/common.php on line 109&lt;br>
+[/php]&lt;/p>
+&lt;p>&lt;a href="http://www.teamst.org/phpBB2/viewtopic.php?p=5362&amp;amp;amp;sid=f950c01995a049b842c83575e121b407">TestLink :: View topic — Error while assiging reuirements to test cases&lt;/a>にある通り、/var/www/testlink/lib/functions/common.phpへ以下の行を追加。&lt;/p>
+&lt;p>[php]&lt;br>
+require_once(&amp;quot;testproject.class.php&amp;quot;);&lt;br>
+[/php]&lt;/p>
+&lt;h4 id="グラフに日本語が表示されない">グラフに日本語が表示されない。&lt;/h4>
+&lt;p>&lt;a href="http://testlinkjp.org/modules/pukiwiki/?TestLinkTips#ct71_1_1">こちらを参考に&lt;/a>日本語フォントをインストールして設定ファイルを変更。&lt;/p>
+&lt;h4 id="関連参考リンク">関連・参考リンク&lt;/h4>
+&lt;ul>
+&lt;li>&lt;span
+id="e55c">&lt;a href="http://gihyo.jp/dev/serial/01/testlink/">きちんと学びたいテストエンジニアのためのTestLink入門&lt;/a>&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="f1ea">&lt;a href="http://jibun.atmarkit.co.jp/lskill01/rensai/tool10/05/01.html">脱Excel！ TestLinkでアジャイルにテストをする&lt;/a>&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="2da6">&lt;a href="http://dev.ariel-networks.com/Members/inoue/testlink-report">TestLink使用レポート — ありえるえりあ&lt;/a>&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="fd74">&lt;a href="http://forza.cocolog-nifty.com/blog/2008/06/testlinkexcel_03ad.html">TestLinkがExcelのテスト仕様書よりも素晴らしい点: プログラマの思索&lt;/a>&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="ac66">&lt;a href="http://forza.cocolog-nifty.com/blog/2009/02/testlink-1389.html">TestLinkの可能性: プログラマの思索&lt;/a>&lt;/span>&lt;/li>
+&lt;/ul></description></item><item><title>優秀なメンバのモチベーションを下げる3つの方法</title><link>https://namaraii.com/post/2009/20091026_3940096304e5e/</link><pubDate>Mon, 26 Oct 2009 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2009/20091026_3940096304e5e/</guid><description>
+&lt;p>&lt;img src="https://namaraii.com/images/fZQ3zgzpECnlU5.jpg" alt="/images/fZQ3zgzpECnlU5.jpg">
+&lt;a href="http://www.photodropper.com/photos/">photo&lt;/a>
+credit:
+&lt;a href="http://www.flickr.com/photos/11738433@N03/4043364183/">Mukumbura&lt;/a>&lt;/p>
+&lt;p>プロジェクトの中に飛びぬけて優秀なメンバがいると扱いに困りませんか？&lt;/p>
+&lt;p>設計方針からプロジェクト運営、各種基準の制定など、様々な分野へ口を挟んできて、うるさくてたまりません。&lt;/p>
+&lt;p>そんな悩みを抱えるプロマネの皆様へ優秀なメンバのモチベーションを下げ、平均的メンバとして平準化する3つの方法を紹介したいと思います。&lt;/p>
+&lt;h4 id="1-作業計画を徹底して曖昧にする">1. 作業計画を徹底して曖昧にする&lt;/h4>
+&lt;p>優秀なメンバほど自分のタスクを効率よく片付けるための段取りを考えたり、作業の最適化をしたがります。&lt;/p>
+&lt;p>簡単に最適化させぬよう、作業分担やマイルストーン、全体のタスク量などは徹底して曖昧な状態に保ちましょう。&lt;/p>
+&lt;p>この不確実な世の中、なんでも計画通り行くわけがないという厳しい現実を思い知らせたいものです。&lt;/p>
+&lt;h4 id="2-抜け駆けを許さない">2. 抜け駆けを許さない&lt;/h4>
+&lt;p>優秀なだけに他メンバと比べて生産性が高く、同じボリュームのタスクをアサインしても何倍も早く終えてしまうことでしょう。&lt;/p>
+&lt;p>その場合、自分のタスクを終えたからといって、一人だけ早く帰宅しないよう常に監視するのが大切です。&lt;/p>
+&lt;p>帰宅しそうな雰囲気を感じたら即座に呼び止め、ダラダラ残業している他メンバのタスクをアサインしましょう。（カバンを持って立ち上がった瞬間がベストのタイミングです）&lt;/p>
+&lt;p>一人だけ早く帰られたりすると組織の輪が乱れます。「みんなで深夜までがんばろう！」という日本企業の伝統を守り抜きたいものですね。&lt;/p>
+&lt;h4 id="3-改善提案は全て却下する">3. 改善提案は全て却下する&lt;/h4>
+&lt;p>優秀なメンバは、プロジェクト運営や作業プロセスに非効率な部分があると必ず改善提案をしてきます。&lt;/p>
+&lt;p>あらゆる改善提案は即座に却下しましょう。&lt;/p>
+&lt;p>確かに、改善によってプロジェクトの生産性は向上するかもしれません。&lt;/p>
+&lt;p>しかし、たった一人のワガママで、せっかく皆で我慢してきた（非効率な）手順を変え、今までの他メンバの頑張り（ムダな我慢）を台無しにして良いのでしょうか？&lt;/p>
+&lt;p>プロジェクトを成功させるためにはメンバ間の「和」が大切です。「出る杭は打たれる」という諺の意味を十分に指導するよう心がけましょう。&lt;/p>
+&lt;p>いかがでしょう。ここで紹介した3つの方法は、いずれも今日から実行できるものばかりだと思います。実際の現場でお試しいただき、結果をフィードバックいただければ幸いです。&lt;/p></description></item><item><title>RedmineやTracを上手に活用する6つのポイント</title><link>https://namaraii.com/post/2009/20091022_redminetrac64965192fb581/</link><pubDate>Thu, 22 Oct 2009 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2009/20091022_redminetrac64965192fb581/</guid><description>
+&lt;p>&lt;img src="https://namaraii.com/images/iE540turNblVW4.jpg" alt="/images/iE540turNblVW4.jpg">
+&lt;a href="http://www.photodropper.com/photos/">photo&lt;/a>
+credit:
+&lt;a href="http://www.flickr.com/photos/31931556@N04/4034905867/">Mackトラ&lt;/a>&lt;/p>
+&lt;p>ソフトウェア開発プロジェクトの現場では課題やバグ、タスクを管理するために、RedmineやTracなどのIssue
+Trackin
+System(課題追跡システム。以下ITSと表記)を使っていることが多いと思います。&lt;/p>
+&lt;p>ITSを使えばこれらの情報を一元化しプロジェクトメンバ間で共有できるため、うまく使えばとても役立ちますよね。&lt;/p>
+&lt;p>しかし、あまり深く考えずに導入すると、&lt;/p>
+&lt;p>「入力が大変だし余分な手間が増えただけだよ…」というメンバーからの不満の声&lt;br>
+「この課題って本当に終わってるの？」といった疑心暗鬼&lt;br>
+「このタスク、誰も進めてなかった！」という驚愕の事実が期限前日に判明&lt;/p>
+&lt;p>などといった状況に陥りがちです。&lt;/p>
+&lt;p>ここでは、いくつかのプロジェクトへ導入した経験から得た、ITSを運用する上で重要(と考える)な6つのポイントを紹介します。&lt;/p>
+&lt;h4 id="ポイント1-チケット項目はマネジメントから逆算しシンプルに">ポイント1 チケット項目はマネジメントから逆算しシンプルに&lt;/h4>
+&lt;p>チケットにはオリジナルの項目(属性)を追加できるため、いろいろ盛り込みたくなりますが、多くの入力項目があるチケット画面は見るだけでいやになりませんか？&lt;/p>
+&lt;p>それに、そもそも用途が明確でない項目を入力してもらうのは全くのムダです。&lt;/p>
+&lt;p>「どの情報をどのように見てマネジメントするか」から逆算してチケット項目を決定しましょう。できる限りシンプルに。&lt;/p>
+&lt;h4 id="ポイント2-チケットの運用フローと入力ルールを明確に">ポイント2 チケットの運用フローと入力ルールを明確に&lt;/h4>
+&lt;ul>
+&lt;li>&lt;span
+id="5344">誰がチケットを起票しどのように担当者をアサインするか&lt;/span>&lt;/li>
+&lt;li>&lt;span id="2626">チケットのクローズ条件&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="98ce">チケットの各項目(優先度、マイルストーンなど)へどのような情報を入力するか&lt;/span>&lt;/li>
+&lt;/ul>
+&lt;p>などのチケット運用ルールを事前に定義し、運用を開始する前にプロジェクトメンバーへ周知しておきましょう。これらのルールもポイント1に書いたようにマネジメントから逆算です。&lt;/p>
+&lt;p>RedmineやtracであればWikiに書いておくのが良いですね。&lt;/p>
+&lt;h4 id="ポイント3-itsをチケットの墓場にしない">ポイント3 ITSをチケットの墓場にしない&lt;/h4>
+&lt;ul>
+&lt;li>&lt;span id="1bcc">終了しているはずのチケットが閉じられていない&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="d213">誰にもアサインされていないチケットが放置されている&lt;/span>&lt;/li>
+&lt;/ul>
+&lt;p>このような状況は非常に危険です。ITSの情報が「あてにならない」ため、だんだん誰も使わなくなっていきます。そして、ITSはチケットの墓場に…&lt;/p>
+&lt;p>プロジェクトメンバーがチケットの運用に慣れるまでは週次でチケットの棚卸を行うなどして、チケットの情報鮮度を確保するようにしましょう。&lt;/p>
+&lt;h4 id="ポイント4-プロマネのチケットに要注意">ポイント4 プロマネのチケットに要注意&lt;/h4>
+&lt;p>プロマネやチームリーダーのチケットは要注意です。&lt;/p>
+&lt;p>管理すべき立場の人が期限切れのチケットを放置していたりすると、ほぼ確実にプロジェクト全体へ蔓延します。率先垂範を心がけましょう。&lt;/p>
+&lt;h4 id="ポイント5-一元管理を徹底する">ポイント5 一元管理を徹底する&lt;/h4>
+&lt;p>チケットへの情報集約を徹底しましょう。メールでやりとりされた内容、口頭で交わした内容などもチケットへ記入する習慣を。&lt;/p>
+&lt;p>また、社内の管理ルールにより、チケットへ入力した内容を社内の別システムへも入力しなければならないケースもあるでしょう。&lt;/p>
+&lt;p>そのような場合、プロジェクトメンバはチケットだけを入力すれば良いルールにして、社内システムへの転記は別の方法を考えましょう。二重投入が必要だとメンバにとっては「余分な手間が増えるだけ」です。&lt;/p>
+&lt;h4 id="ポイント6-チケットのオーナーシップを意識付ける">ポイント6 チケットのオーナーシップを意識付ける&lt;/h4>
+&lt;p>チケットの担当者が能動的にチケットを処理し、クローズまで責任を持って担当する土壌を作れるかはプロジェクト運営上、とても重要です。&lt;/p>
+&lt;p>まず、担当者が割り当たっていないチケットは、プロマネかチームリーダーが漏れなく割り当てるようにしましょう。&lt;/p>
+&lt;p>その上で、前述したチケットの棚卸で担当者別にフォローアップし、オーナーシップの意識付けを行えば良いと思います。&lt;/p>
+&lt;p>以上、私自身の経験から重要と考えている6つのポイントを紹介しました。&lt;/p>
+&lt;p>多少なりとも参考になる部分があればうれしいです。ただ、ITSの運用がうまくいってもプロジェクトがうまくとは限りません(^^)&lt;/p></description></item></channel></rss>

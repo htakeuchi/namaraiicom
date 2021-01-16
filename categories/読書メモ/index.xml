@@ -1,0 +1,1130 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>読書メモ on namaraii.com</title><link>https://namaraii.com/categories/%E8%AA%AD%E6%9B%B8%E3%83%A1%E3%83%A2/</link><description>Recent content in 読書メモ on namaraii.com</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright><lastBuildDate>Sun, 04 Mar 2018 16:46:08 +0900</lastBuildDate><atom:link href="https://namaraii.com/categories/%E8%AA%AD%E6%9B%B8%E3%83%A1%E3%83%A2/index.xml" rel="self" type="application/rss+xml"/><item><title>機械学習のアルゴリズムの選び方『仕事ではじめる機械学習』読書メモ</title><link>https://namaraii.com/post/2018/20180304_ml-algorithm/</link><pubDate>Sun, 04 Mar 2018 16:46:08 +0900</pubDate><guid>https://namaraii.com/post/2018/20180304_ml-algorithm/</guid><description>
+&lt;div class="paragraph">
+&lt;p>&lt;a href="http://amzn.to/2tjt2CM">仕事ではじめる機械学習&lt;/a>という本を読んで勉強中なのですが、「やりたいことに対して、どのアルゴリズムを選ぶべきか」が述べられている2章のざっくりメモです。&lt;/p>
+&lt;/div>
+&lt;div class="sect1">
+&lt;h2 id="_scikit_learningのアルゴリズムチートシート">scikit-learningのアルゴリズムチートシート&lt;/h2>
+&lt;div class="sectionbody">
+&lt;div class="paragraph">
+&lt;p>scikit-learnのチュートリアルに、データ数や目的、条件を元に適切なアルゴリズムを選定するためのフローチャートがある。(画像をクリックするとオリジナルサイトへ飛びます)&lt;/p>
+&lt;/div>
+&lt;div class="imageblock">
+&lt;div class="content">
+&lt;a class="image" href="http://scikit-learn.org/stable/tutorial/machine_learning_map/">&lt;img src="https://namaraii.com/images/ml_map.png" alt="scilit-learn algorithm cheat-sheet"/>&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="sect1">
+&lt;h2 id="_タイプ別のアルゴリズム一覧">タイプ別のアルゴリズム一覧&lt;/h2>
+&lt;div class="sectionbody">
+&lt;table class="tableblock frame-all grid-all stretch">
+&lt;colgroup>
+&lt;col style="width: 18.1818%;"/>
+&lt;col style="width: 27.2727%;"/>
+&lt;col style="width: 18.1818%;"/>
+&lt;col style="width: 36.3637%;"/>
+&lt;/colgroup>
+&lt;thead>
+&lt;tr>
+&lt;th class="tableblock halign-left valign-top">タイプ&lt;/th>
+&lt;th class="tableblock halign-left valign-top">概要&lt;/th>
+&lt;th class="tableblock halign-left valign-top">アルゴリズム&lt;/th>
+&lt;th class="tableblock halign-left valign-top">特徴&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top" rowspan="6">&lt;p class="tableblock">分類(Classfication)&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top" rowspan="6">&lt;div class="content">&lt;div class="paragraph">
+&lt;p>教師あり学習の一つ。カテゴリなどの離散的な値を予測する。&lt;br/>
+適用例:メールのスパム判定、画像に写っているものの判定&lt;/p>
+&lt;/div>&lt;/div>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">パーセプトロン(Perceptron)&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;div class="content">&lt;div class="paragraph">
+&lt;p>オンライン学習で学習する。予測性能はそこそこだが学習は早い。過学習しやすい。&lt;/p>
+&lt;/div>&lt;/div>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">ロジスティック回帰(Logistic Regression)&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;div class="content">&lt;div class="paragraph">
+&lt;p>クラスに所属する確率を出せる。オンライン学習、バッチ学習可能。予測性能はそこそこだが学習は早い。&lt;/p>
+&lt;/div>&lt;/div>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">SVM(Support Vector Machine)&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;div class="content">&lt;div class="paragraph">
+&lt;p>分類問題に非常によく使われる。非線形な分離が必要な問題にも適用可能。マージンを最大化し、滑らかな超平面を学習できる。線形カーネルで次元数の多い疎なデータも学習可能。パッチ学習、オンライン学習可能。&lt;/p>
+&lt;/div>&lt;/div>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">ニューラルネットワーク(Neural Network)&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;div class="content">&lt;div class="paragraph">
+&lt;p>非線形なデータを分離可能。学習に時間がかかる。過学習しやすい。重みの初期値に依存し、局所最適解になりやすい。&lt;/p>
+&lt;/div>&lt;/div>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">k-NN(K-Nearest Neighbor Method)&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;div class="content">&lt;div class="paragraph">
+&lt;p>データを1つずつ逐次学習する。予測計算に時間がかかる。データ数によるがそこそこの予測性能。&lt;/p>
+&lt;/div>&lt;/div>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">決定木(Decision Tree)&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;div class="content">&lt;div class="paragraph">
+&lt;p>学習したモデルを人間が見て解釈しやすい。入力データの正規化不要。特定の条件下では過学習しやすい。決定木の発展形として、ランダムフレス(Random Forest)、GBDT(Gradient Boosted Decision Tree)がある&lt;/p>
+&lt;/div>&lt;/div>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top" rowspan="2">&lt;p class="tableblock">回帰(Regression)&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top" rowspan="2">&lt;div class="content">&lt;div class="paragraph">
+&lt;p>教師ある学習の一つ。入力データから連続値を予測する。&lt;br/>
+適用例: 都市の電力消費量、Webサイトのアクセス数予測&lt;/p>
+&lt;/div>&lt;/div>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">線形回帰(Linear Regression)&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;div class="content">&lt;div class="paragraph">
+&lt;p>データを直線で近似する。&lt;/p>
+&lt;/div>&lt;/div>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">多項式回帰(Polynomial Regression)&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;div class="content">&lt;div class="paragraph">
+&lt;p>2次曲線や3次曲線の多項式を使った多項式でデータを近似する。&lt;/p>
+&lt;/div>&lt;/div>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top" rowspan="2">&lt;p class="tableblock">クラスタリング(Clustering)&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top" rowspan="2">&lt;div class="content">&lt;div class="paragraph">
+&lt;p>教師なし学習の一つ。主にデータの傾向を掴むために使われる。&lt;/p>
+&lt;/div>&lt;/div>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">階層的クラスタリング(Hierarchical Clustering)&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;div class="content">&lt;div class="paragraph">
+&lt;p>似ている組み合わせを順番にまとめていく。&lt;/p>
+&lt;/div>&lt;/div>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">k-means&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;div class="content">&lt;div class="paragraph">
+&lt;p>距離の近いもの同士をk個のグルーブに分割する。&lt;/p>
+&lt;/div>&lt;/div>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top" rowspan="3">&lt;p class="tableblock">次元削除(Dimension Reduction)&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top" rowspan="3">&lt;div class="content">&lt;div class="paragraph">
+&lt;p>高次元のデータからできるだけ情報を保存するよう低次元のデータに変換する。&lt;/p>
+&lt;/div>&lt;/div>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">主成分分析(PCA, Principal Component Analysis)&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;div class="content">&lt;div class="paragraph">
+&lt;p>有名な手法。&lt;/p>
+&lt;/div>&lt;/div>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">t-SNE&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;div class="content">&lt;div class="paragraph">
+&lt;p>見える化に用いられることが多い。&lt;/p>
+&lt;/div>&lt;/div>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td class="tableblock halign-left valign-top">&lt;p class="tableblock">Kaggle&lt;/p>&lt;/td>
+&lt;td class="tableblock halign-left valign-top">&lt;div class="content">&lt;div class="paragraph">
+&lt;p>PCAよりもわかりやすく関係性を見える化できる。&lt;/p>
+&lt;/div>&lt;/div>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;div class="paragraph">
+&lt;p>以下の4つは手法ではなく、機械学習で「できること」&lt;/p>
+&lt;/div>
+&lt;div class="ulist">
+&lt;ul>
+&lt;li>
+&lt;p>推薦(Recommendation)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>異常検知(Anomaly Detection)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>頻出パターンマイニング(Frequent Pattern Mining)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>強化学習(Reinforcement Learning)&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/div>
+&lt;div style="padding-top: 2em">
+&lt;iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;amp;bc1=000000&amp;amp;IS2=1&amp;amp;bg1=FFFFFF&amp;amp;fc1=000000&amp;amp;lc1=0000FF&amp;amp;t=namaraiicom-22&amp;amp;o=9&amp;amp;p=8&amp;amp;l=as4&amp;amp;m=amazon&amp;amp;f=ifr&amp;amp;ref=as_ss_li_til&amp;amp;asins=4873118255&amp;amp;linkId=e4aa918ce1a651ab6d5722960f28424c">&lt;/iframe>
+&lt;/div>
+&lt;/div>
+&lt;/div></description></item><item><title>ファシリテーション・グラフィック―議論を「見える化」する技法</title><link>https://namaraii.com/post/2016/20160912_cdc42f5ea593/</link><pubDate>Mon, 12 Sep 2016 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2016/20160912_cdc42f5ea593/</guid><description>
+&lt;a href="https://www.amazon.co.jp/%E3%83%95%E3%82%A1%E3%82%B7%E3%83%AA%E3%83%86%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%BB%E3%82%B0%E3%83%A9%E3%83%95%E3%82%A3%E3%83%83%E3%82%AF%E2%80%95%E8%AD%B0%E8%AB%96%E3%82%92%E3%80%8C%E8%A6%8B%E3%81%88%E3%82%8B%E5%8C%96%E3%80%8D%E3%81%99%E3%82%8B%E6%8A%80%E6%B3%95-%E3%83%95%E3%82%A1%E3%82%B7%E3%83%AA%E3%83%86%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%BB%E3%82%B9%E3%82%AD%E3%83%AB%E3%82%BA-%E5%A0%80%E5%85%AC-%E4%BF%8A/dp/4532312884/ref=as_li_ss_il?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&amp;keywords=%E3%83%95%E3%82%A1%E3%82%B7%E3%83%AA%E3%83%86%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%BB%E3%82%B0%E3%83%A9%E3%83%95%E3%82%A3%E3%83%83%E3%82%AF%E2%80%95%E8%AD%B0%E8%AB%96%E3%82%92%E3%80%8C%E8%A6%8B%E3%81%88%E3%82%8B%E5%8C%96%E3%80%8D%E3%81%99%E3%82%8B%E6%8A%80%E6%B3%95&amp;qid=1584258574&amp;sr=8-2&amp;linkCode=li3&amp;tag=namaraiicom-22&amp;linkId=6b43007922d734c3285495b9ada9bed0&amp;language=ja_JP" target="_blank">&lt;img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;ASIN=4532312884&amp;Format=_SL250_&amp;ID=AsinImage&amp;MarketPlace=JP&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=namaraiicom-22&amp;language=ja_JP" >&lt;/a>&lt;img src="https://ir-jp.amazon-adsystem.com/e/ir?t=namaraiicom-22&amp;language=ja_JP&amp;l=li3&amp;o=9&amp;a=4532312884" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+&lt;p>あなたの周りにはいないだろうか？
+バラバラの意見が飛び交い議論が発散している会議で、さっそうと立ち上がり、ホワイトボードを使ってたちまち議論を整理し、本質的な部分への議論へ集中できるよう軌道修正して見せる人が。&lt;/p>
+&lt;p>そういう人に共通するのは、議論を整理するためのフレームワークを知っており、議論を「見える化」できるスキルを持っていることだ。&lt;/p>
+&lt;p>本書ではそのスキルをファシリテーション技術の中核と捉え「ファシリテーション・グラフィック」と呼び、ツール・表現方法・要約・図解・レイアウトのテクニックをまとめている。&lt;/p>
+&lt;p>テクニックの解説だけでなく、多数の実例（ホワイトボードに手書きしたそのままのイメージ）を紹介しており、眺めているだけでも「そういう切り口もあるのか」「これは使える」など参考になるし、おもしろい。&lt;/p>
+&lt;p>ただ、本書を読み進めていくにつれ、「確かにこうすれば上手くいきそうだな…でも、どういう思考プロセスを経て、そういう図を描こうと思ったのか？
+それを発想することこそが難しいのでは？」という思いが強まってきた。&lt;/p>
+&lt;p>しかし、本書では「4章
+ファシリテーターの頭の中を解剖する！？」で、それに対する解も用意している。&lt;/p>
+&lt;p>本章ではいくつかのケースを想定し、メンバのディスカッションの中でファシリテーターは何を考え、どういうファシリテーション・グラフィックを描いたかがまとめられており、ケーススタディとして非常に参考になる。&lt;/p>
+&lt;p>ファシリテーションを実践する人はぜひ。&lt;/p></description></item><item><title>ファシリテーターの道具箱―組織の問題解決に使えるパワーツール49</title><link>https://namaraii.com/post/2016/20160912_497371b3ae45a7/</link><pubDate>Mon, 12 Sep 2016 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2016/20160912_497371b3ae45a7/</guid><description>
+&lt;p>&lt;img src="https://namaraii.com/images/18IkjxdlY88aRP-4qJs9rMQ.png" alt="/images/18IkjxdlY88aRP-4qJs9rMQ.png">
+ファシリテーションで使える道具が49個紹介されている。&lt;/p>
+&lt;p>各ツールは、どういうときに使うのか? どう使うのか？
+注意点や活用するためのポイントは？という観点で、それぞれ2ページにまとめられている。&lt;/p>
+&lt;a href="https://www.amazon.co.jp/%E3%83%95%E3%82%A1%E3%82%B7%E3%83%AA%E3%83%86%E3%83%BC%E3%82%BF%E3%83%BC%E3%81%AE%E9%81%93%E5%85%B7%E7%AE%B1%E2%80%95%E7%B5%84%E7%B9%94%E3%81%AE%E5%95%8F%E9%A1%8C%E8%A7%A3%E6%B1%BA%E3%81%AB%E4%BD%BF%E3%81%88%E3%82%8B%E3%83%91%E3%83%AF%E3%83%BC%E3%83%84%E3%83%BC%E3%83%AB49-%E6%A3%AE-%E6%99%82%E5%BD%A6-%E3%83%95%E3%82%A1%E3%82%B7%E3%83%AA%E3%83%86%E3%83%BC%E3%82%BF%E3%83%BC%E3%81%AE%E9%81%93%E5%85%B7%E7%A0%94%E7%A9%B6%E4%BC%9A/dp/4478003963/ref=as_li_ss_il?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&amp;keywords=%E3%83%95%E3%82%A1%E3%82%B7%E3%83%AA%E3%83%86%E3%83%BC%E3%82%BF%E3%83%BC%E3%81%AE%E9%81%93%E5%85%B7%E7%AE%B1%E2%80%95%E7%B5%84%E7%B9%94%E3%81%AE%E5%95%8F%E9%A1%8C%E8%A7%A3%E6%B1%BA%E3%81%AB%E4%BD%BF%E3%81%88%E3%82%8B%E3%83%91%E3%83%AF%E3%83%BC%E3%83%84%E3%83%BC%E3%83%AB49&amp;qid=1584258454&amp;sr=8-1&amp;linkCode=li3&amp;tag=namaraiicom-22&amp;linkId=1dbc3fbdb3acbb2e4009cc238306c58c&amp;language=ja_JP" target="_blank">&lt;img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;ASIN=4478003963&amp;Format=_SL250_&amp;ID=AsinImage&amp;MarketPlace=JP&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=namaraiicom-22&amp;language=ja_JP" >&lt;/a>&lt;img src="https://ir-jp.amazon-adsystem.com/e/ir?t=namaraiicom-22&amp;language=ja_JP&amp;l=li3&amp;o=9&amp;a=4478003963" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+&lt;h4 id="目次">目次&lt;/h4>
+&lt;pre>&lt;code>はじめに
+序章 社内プロセスコンサルタントになろう!
+第1章 [入門キット]これだけは身につけたい道具8
+第2章 [初級キット]シンプルに考えるための道具13
+第3章 [中級キット]愉快にロジカルに進める道具16
+第4章 [上級キット]実行力を高める道具12
+あとがきに代えて
+&lt;/code>&lt;/pre>
+&lt;p>「あとがきに代えて」で東出氏が「実際に使っている道具は&lt;strong>5つぐらいで80%以上&lt;/strong>の場合をカバーしている」と述べている。&lt;/p>
+&lt;p>パレートの法則に従い、まずは、自分が使いたい道具を5つ程度選び、現場で試行錯誤しながら自分のモノにする。これが、ファシリテーションスキルを身につける上での近道ではないだろうか。&lt;/p>
+&lt;p>また、ファシリテーションに限らず、パラパラと眺めて一人ブレストすれば、抱えている問題を解決するための切り口を思いつくかもしれない。&lt;/p></description></item><item><title>『ぼくは数式で宇宙の美しさを伝えたい』できることに注目することで子供の才能は伸びる</title><link>https://namaraii.com/post/2014/20141003_f0b0adcf937e/</link><pubDate>Fri, 03 Oct 2014 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2014/20141003_f0b0adcf937e/</guid><description>
+&lt;p>10歳で大学に入学し、14歳の現在、量子物理学の博士課程に在学するジェイコブ・バーネットの母クリスティンの自伝『ぼくは数式で宇宙の美しさを伝えたい』を、何度も涙腺を決壊させながら読みました。&lt;/p>
+&lt;p>アインシュタインのIQをも超えていると言われるジェイコブですが、2歳のとき中度から重度の自閉症と診断されたそうです。&lt;/p>
+&lt;p>医師からジェイコブは一生会話をしたり、文を読んだりすることができない可能性が高く、靴紐を結ぶなどといった基本的な日常の活動を一人で行えるようにはならないだろうと。&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/dp/B00I5BS3UK?tag=namaraiicom-22">▼ぼくは数式で宇宙の美しさを伝えたい (角川書店単行本)&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/2HA9mQU-ZQV4eq.jpg" alt="/images/2HA9mQU-ZQV4eq.jpg">
+しかし、クリスティンは専門家の意見を鵜呑みにせず、母として直感を信じて独力で育てようと決心。&lt;/p>
+&lt;p>自らも脳卒中になったり、夫の失業などもあって経済的にも困窮し、時には絶望しそうになりつつも、我が子を良く観察して何が必要なのかを考え、可能な限りのものを与えてサポートし続けます。&lt;/p>
+&lt;p>やがて自閉症の症状は少しずつ改善し、強く興味を持っている分野に優れた能力があることがわかり、「興味のあることをとことんやらせる」という方針に従った結果、「読み書きできない」とまで言われていたジェイコブは10歳で大学の入学試験に合格します。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/JNInOrQpDRJX_J.jpg" alt="/images/JNInOrQpDRJX_J.jpg">
+子供を信じて何があっても負けない母クリスティンの愛と勇気。もし、クリスティンの子として産まれていなければ、ジェイコブの才能は一生、日の目を見なかったかもしれません。&lt;/p>
+&lt;blockquote>
+&lt;p>なぜみんな、この子たちができないことにばかり焦点を当てるのだろう？
+なぜできることにもっと注目しないのだろう？&lt;/p>
+&lt;/blockquote>
+&lt;p>クリスティンの言葉です。&lt;/p>
+&lt;p>わかっていても自分のこととなると、どうしても「できないこと」に焦点をあててしまいがちです。クリスティンは「そう考えるのが良いようだ」ではなく、それを信念にしているからこそ貫けたのでしょう。&lt;/p>
+&lt;p>子育てにかぎらず「人」を育てるという意味で、学ぶところが多いとても感動的な本でした。&lt;/p>
+&lt;p>ジェイコブ・バーネットがTEDでプレゼンしたときの映像です。&lt;/p>
+&lt;p>&lt;a href="http://logmi.jp/19098">「学ぶことを今すぐやめよう」 IQ170の13歳少年が語った、”天才”の条件 | ログミー[o_O]」&lt;/a>に翻訳がありました。&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/dp/B00I5BS3UK?tag=namaraiicom-22">▼ぼくは数式で宇宙の美しさを伝えたい (角川書店単行本)&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/9sLRHy4pOb4fEO.jpg" alt="/images/9sLRHy4pOb4fEO.jpg">&lt;/p></description></item><item><title>【読書メモ】最近Kindleで読んで面白かった漫画『東京トイボックス』『大東京トイボックス』『インベスターZ』</title><link>https://namaraii.com/post/2014/20140415_kindlez4454cf7c0350/</link><pubDate>Tue, 15 Apr 2014 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2014/20140415_kindlez4454cf7c0350/</guid><description>
+&lt;p>最近、Kindleで読んだ『東京トイボックス』『大東京トイボックス』『インベスターZ』という漫画が面白かった。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/anyYSOKtnLovXs.jpg" alt="/images/anyYSOKtnLovXs.jpg">
+&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4344809432/namaraiicom-22/">大東京トイボックス(1) (バーズコミックス)&lt;/a>&lt;/p>
+&lt;p>posted with
+&lt;a href="http://yomereba.com">ヨメレバ&lt;/a>&lt;/p>
+&lt;p>うめ 幻冬舎 2007–03–24&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4344809432/namaraiicom-22/">Amazon&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/ASIN/B0098ILS1K/namaraiicom-22/">Kindle&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d8mIwJYxp-cMrH.jpg" alt="/images/d8mIwJYxp-cMrH.jpg">
+&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4344810872/namaraiicom-22/">東京トイボックス(1) (バーズコミックス)&lt;/a>&lt;/p>
+&lt;p>posted with
+&lt;a href="http://yomereba.com">ヨメレバ&lt;/a>&lt;/p>
+&lt;p>うめ 幻冬舎 2007–09–22&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4344810872/namaraiicom-22/">Amazon&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00BQH93J0/namaraiicom-22/">Kindle&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://www.tv-tokyo.co.jp/tokyo_toybox/">テレビ東京でドラマ化もされた&lt;/a>秋葉原のゲーム制作会社スタジオG3を舞台とした物語。&lt;/p>
+&lt;p>「面白いゲーム」を作るために理想を追求するスタジオG3の社長
+天川太陽と、業績回復という名のもとに親会社から左遷されてやってきた月山星乃。&lt;/p>
+&lt;p>当初は「売れるゲーム」のために「大人の判断」で物事を進めようとした月山星乃だが、理想主義のアツい男
+天川太陽に接するうちに、徐々に惹かれていく心境の変化が読んでいて楽しかった。&lt;/p>
+&lt;p>理想と現実の中でどのように折り合いをつけるかの葛藤。ゲーム業界の経験はありませんが、似たような話はどの会社でもありますよね。&lt;/p>
+&lt;p>続編の『大東京トイボックス』も、よりストーリー展開が大きくて面白かった。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/dKlc53ThmMOnhQ.jpg" alt="/images/dKlc53ThmMOnhQ.jpg">
+&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/B00F4PDB3E/namaraiicom-22/">インベスターZ(1) (コルク)[Kindle版]&lt;/a>&lt;/p>
+&lt;p>posted with
+&lt;a href="http://yomereba.com">ヨメレバ&lt;/a>&lt;/p>
+&lt;p>三田紀房 コルク 2013–09–20&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00F4PDB3E/namaraiicom-22/">Kindle&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/ASIN/4063872572/namaraiicom-22/">Amazon[書籍版]&lt;/a>&lt;/p>
+&lt;p>作者は「ドラゴン桜」などの三田紀房。&lt;/p>
+&lt;p>創立130年の超進学校
+道塾学園にトップで合格した財前孝史が、各学年成績トップ6人だけが参加する極秘の「投資部」に入る。&lt;/p>
+&lt;p>投資部が3000億の資金を運用し8%以上の利回りを生み出すことことで、日本最高水準の教育設備を誇る道塾学園が学費無料であることを知る。&lt;/p>
+&lt;p>投資部の先輩の助言を受けながら実際に資金を運用し、投資について学んでいくというストーリー。ウォーレン・バフェットに憧れる女子中学生も登場する(笑)&lt;/p>
+&lt;p>ストーリーが面白く内容もわかりやすいので、株式投資の知識が無くても楽しめると思います。&lt;/p></description></item><item><title>【読書メモ】簡単、なのに美味い! 家めしこそ、最高のごちそうである。</title><link>https://namaraii.com/post/2014/20140410_989662b7056c/</link><pubDate>Thu, 10 Apr 2014 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2014/20140410_989662b7056c/</guid><description>
+&lt;p>佐々木俊尚さんの料理本『簡単、なのに美味い!
+家めしこそ、最高のごちそうである。 』を読みました。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/3EweeKRqAQZv3M.jpg" alt="/images/3EweeKRqAQZv3M.jpg">
+旬の食材と基礎調味料を使ってつくる、昔ながらのシンプルなごはんは、簡単、美味しい、お金がかかからない、健康的と良いことずくめ。&lt;/p>
+&lt;p>今の時代、家の料理こそが一番の贅沢であるというのが本書のメッセージです。&lt;/p>
+&lt;p>本書は、&lt;/p>
+&lt;p>第1章 バブルを経てわかった結論。家の料理が一番の贅沢。 &lt;br>
+第2章 道具はシンプル、食材は旬のもの。お金をかけずに、続ける方法。 &lt;br>
+第3章 食材をまず決め、7種の味から、違うものを選ぶ。最後に調理法。 &lt;br>
+第4章 手順も大事。さらに美味しく食べるための実践ポイント。 &lt;br>
+第5章 ひと手間で美味しさアップ。我が家で人気のレシピのコツ。&lt;/p>
+&lt;p>という5章から構成されますが、いわゆるレシピ本ではありません。&lt;/p>
+&lt;p>なぜ「家めし」が良いかに始まり、「家めし」を始めるときの道具の選びかた、献立はどのように考えるかなどのポイントを実例を交えつつ解説します。&lt;/p>
+&lt;p>個人的に最も参考になったのが「食材と味付けから献立を組み立てる」という考え方。&lt;/p>
+&lt;p>先に料理を決めてから必要な食材を買うのではなく、使う食材（旬の野菜中心）を決めてから、料理を考える。&lt;/p>
+&lt;p>考え方としてはわかるものの、敷居が高そうな気がしませんか？&lt;/p>
+&lt;p>本書を読み、どうすれば良いかがわかりました。詳細は書きませんが食材×味のパターンから発想するとは…眼から鱗でした。&lt;/p>
+&lt;p>また、シークァーサー果汁を使った自家製ポン酢、市販の焼きそばを美味しく作る手順など、高価な食材を使わずに、ひと味違った料理を作るためのアイデアも興味深かったです。きっと、すぐに真似したくなりますよ。&lt;/p>
+&lt;p>先日、さっそくこの本で紹介されている「鶏もも肉と白菜だけでつくる究極の水炊き、自家製ポン酢とともに」を作ってみましたが、いつも家で作っている水炊きとは違った味わいで、とても美味しかった。&lt;/p>
+&lt;p>▼&lt;a href="http://honz.jp/articles/-/40202">【連載】『家めしこそ、最高のごちそうである。』 レシピ①：鶏もも肉と白菜だけでつくる究極の水炊き、自家製ポン酢とともに — HONZ&lt;/a>&lt;/p>
+&lt;p>以前、紹介した『&lt;a href="http://namaraii.com/archives/19749">「The 男の料理」檀流クッキング&lt;/a>』と同様、食材の分量や火加減、詳細な手順は書かれていないため料理をしたことのない人が、この本をレシピとして「家めし」を作るのは少し難しいかもしれませんが、食のエッセイとして十分に楽しめると思います。&lt;/p>
+&lt;p>これからくり返し読む本になりそうです。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/i768x30lb-9M_S.jpg" alt="/images/i768x30lb-9M_S.jpg">
+&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4838726457/namaraiicom-22/">簡単、なのに美味い! 家めしこそ、最高のごちそうである。&lt;/a>&lt;/p>
+&lt;p>posted with
+&lt;a href="http://yomereba.com">ヨメレバ&lt;/a>&lt;/p>
+&lt;p>佐々木 俊尚 マガジンハウス 2014–02–27&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4838726457/namaraiicom-22/">Amazon&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00IO6CAWS/namaraiicom-22/">Kindle&lt;/a>&lt;/p></description></item><item><title>【読書メモ】『理系の子―高校生科学オリンピックの青春』〜「ハマれること」に出会うことの幸福</title><link>https://namaraii.com/post/2014/20140328_4541a169cb0e/</link><pubDate>Fri, 28 Mar 2014 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2014/20140328_4541a169cb0e/</guid><description>
+&lt;p>アメリカで盛んな、中高生が科学の自由研究を発表し成果を競うコンテスト「サイエンス・フェア」に関するノンフィクション『理系の子―高校生科学オリンピックの青春』を読みました。&lt;/p>
+&lt;p>地方の大会を勝ち抜いた精鋭だけが出場できるインテルISEFという大会があり、そこで受賞すると、賞金の他に奨学金の援助も受けられます。高校生の研究と言っても、&lt;/p>
+&lt;ul>
+&lt;li>&lt;span id="6f6d">核融合炉の製作&lt;/span>&lt;/li>
+&lt;li>&lt;span id="d0b3">自閉症の子供に対する教育プログラムの開発&lt;/span>&lt;/li>
+&lt;li>&lt;span id="bd90">PTSD患者を癒す馬を使ったセラピーの開発&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="53b8">ラジエーターを使った効率の良い太陽光発電装置の製作&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="7d37">テフロン生産時に排出される有害物質を低コストで除去する方式の開発&lt;/span>&lt;/li>
+&lt;/ul>
+&lt;p>などなど、とても高校生の研究テーマとは思えないハイレベルなものばかりです。&lt;/p>
+&lt;h4 id="困ったことを解決したいという切実な想い">「困ったこと」を解決したいという切実な想い&lt;/h4>
+&lt;p>なぜ、中高生がこんな研究をしよう考えて、最後までやりとげられるのか。&lt;/p>
+&lt;p>単純に対象への知的好奇心のケースもありますが、身の回りの「困ったこと」を解決したいという切実な想いから始めた研究の場合、最後までやりとげようという気持ちが強くなり、ストーリーとしても感動的なものが多かったです。&lt;/p>
+&lt;p>例えばラジエーターを使った効率の良い太陽光発電装置の製作をした13際のギャレット・ヤジー。ギャレットはインディアン保護特別保留地でトレーラーハウスに暮らす貧しいネイティブアメリカンの家庭に生まれました。&lt;/p>
+&lt;p>住んでいるアリゾナ州ピニョンは冬になると気温が氷点下まで下りますが、トレーラーハウスにある暖房は石炭ストーブひとつだけ。石炭は高価な上、妹が喘息の発作を起こす原因になるため、毛布を体に巻いて暖を取る家族。しかし、寒気は容赦なく家族を襲います。&lt;/p>
+&lt;p>ギャレットは毎日放課後に、何時間も学校のコンピュータで石炭を使わずに暖を取る方法が無いかを調べ続けます。廃品の山から材料を探し、苦労の末太陽光発電装置を作りあげてトレーラハウスに設置。&lt;/p>
+&lt;p>その日の夕食後、お湯で皿を洗うことができた母親は「おまえのことを誇りに思う」とギャレットに伝えます。&lt;/p>
+&lt;p>ギャレットはその言葉を聞けただけでも満足しましたが、AISEF(アリゾナ・アメリカン・インディアン科学／工学フェア）へ研究を発表し、500以上の研究の中から一位に選ばれました。&lt;/p>
+&lt;h4 id="ハマれることに出会うことの幸福">「ハマれること」に出会うことの幸福&lt;/h4>
+&lt;p>本書ではギャレットも含めて6人を取材し、それぞれのバックボーン、研究テーマを見つけるプロセスから研究発表までをまとめていますが、そのそれぞれに、バラエティに富む感動的なドラマがあります。&lt;/p>
+&lt;p>本書では「理系の子」をテーマにしていますが、別にサイエンスの分野に限らず、「夢中になれること」を見つけることで、人はこれほどまでに能力を発揮できるということを思い知らされました。「好きこそものの上手なれ」というのはこういうことかと。&lt;/p>
+&lt;p>子供が自ら興味を持ったことであれば、それがどんな内容だったとしても、やりたい気持ち、調べたい気持ちをスポイルするようなことだけはしちゃダメですね。子育てなんて、それだけで良いのかもしれません。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/2xSmEg8OcsA_Rk.jpg" alt="/images/2xSmEg8OcsA_Rk.jpg">
+&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4163750800/namaraiicom-22/">理系の子―高校生科学オリンピックの青春&lt;/a>&lt;/p>
+&lt;p>posted with
+&lt;a href="http://yomereba.com">ヨメレバ&lt;/a>&lt;/p>
+&lt;p>ジュディ ダットン 文藝春秋 2012–03&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4163750800/namaraiicom-22/">Amazon&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/gp/search?keywords=%97%9D%8Cn%82%CC%8Eq%81%5C%8D%82%8DZ%90%B6%89%C8%8Aw%83I%83%8A%83%93%83s%83b%83N%82%CC%90%C2%8Ft&amp;amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;amp;url=node%3D2275256051&amp;amp;tag=namaraiicom-22">Kindle&lt;/a>&lt;/p></description></item><item><title>【本】「The 男の料理」檀流クッキング</title><link>https://namaraii.com/post/2014/20140130_the96639915d9b8/</link><pubDate>Thu, 30 Jan 2014 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2014/20140130_the96639915d9b8/</guid><description>
+&lt;p>学生時代、家呑みのつまみを作り始めてから、料理をつくるのが好きになりました。今でも週末は料理をつくることが多く、このブログでもいくつか料理記事を書いてますが、どれもレシピ的な書き方にはしていません。&lt;/p>
+&lt;p>これは、檀一雄の『檀流クッキング』という本を読み、レシピでなくてもいいのだと思っているからです。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/zqipCv3akx9FHH.jpg" alt="/images/zqipCv3akx9FHH.jpg">
+『檀流クッキング』は昭和40年台、檀一雄が産経新聞に連載していた料理コラムをまとめた本。&lt;/p>
+&lt;p>さまざまな国の料理を92種類紹介していますが、細かな手順や食材の分量などはザクッと割愛しています。レシピ本ではないのです。&lt;/p>
+&lt;p>どんな食材と調味料を使うのかと、ポイントとなる手順は何かのみを提示し、あとは好みでやってみればよろしいというスタンス。&lt;/p>
+&lt;p>例えば、オカラを使った「大正コロッケ」には、こんな説明があります。&lt;/p>
+&lt;blockquote>
+&lt;p>そのトビウオなり、アジなり、イシモチなりの肉を包丁でこそぎとり、スリ鉢で、よくつきほぐす。魚肉のスリ身ができるわけである。その魚肉のスリ身の中に五円分のオカラを入れる。よく混ぜあわせ、ネギのザク切りと、乾したサクラエビを適当に混ぜあわせれば、それで良い。&lt;/p>
+&lt;/blockquote>
+&lt;p>なんというワイルドさ。「The 男の料理」です。&lt;/p>
+&lt;p>とは言え、ある程度、料理ができる人なら、これぐらいの説明でも作れるんじゃないでしょうか。現に『檀流クッキング』の全レシピを再現されている方もいらっしゃいます。&lt;/p>
+&lt;p>▼&lt;a href="http://oisiso.com/dan_top.html">檀流クッキング完全再現&lt;/a>&lt;/p>
+&lt;p>圧巻ですね。&lt;/p>
+&lt;p>趣味で料理を楽しんでいる私のようなタイプは、詳細で複雑なレシピだと、逆に作ってみようという意欲が低下してしまうので、これぐらいの塩梅で、さまざまなジャンルの料理を紹介してくれるほうがありがたいんですよね。&lt;/p>
+&lt;p>食を題材とした本やコミックが好きなんですが、それも同じ理由です。&lt;/p>
+&lt;p>料理を作らない人でも、四季の旬の食材を使った料理であったり、昭和40年台の食材事情がかいま見えたり、「こんな時期には、よく、その太宰治と二人、荻窪の屋台のウナギ屋へ出かけていったものだ」などという記述もあったりして、食を軸としたエッセイとして楽しめるのではないかと。&lt;/p>
+&lt;p>また、料理を作りたくなる一冊でした。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/cBGblUsywXm3Jg.jpg" alt="/images/cBGblUsywXm3Jg.jpg">
+&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4122040949/namaraiicom-22/">檀流クッキング (中公文庫BIBLIO)&lt;/a>&lt;/p>
+&lt;p>posted with
+&lt;a href="http://yomereba.com">ヨメレバ&lt;/a>&lt;/p>
+&lt;p>檀 一雄 中央公論新社 2002–09–25&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4122040949/namaraiicom-22/">Amazon&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00C2GWCF6/namaraiicom-22/">Kindle&lt;/a>&lt;/p></description></item><item><title>オフシーズンの楽しみ『J2白書2013』 \#jleague</title><link>https://namaraii.com/post/2014/20140129_j22013jleague6c9360d74fbe/</link><pubDate>Wed, 29 Jan 2014 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2014/20140129_j22013jleague6c9360d74fbe/</guid><description>
+&lt;p>2009年版から、毎年オフシーズの楽しみになっているJ2白書。&lt;/p>
+&lt;p>J1と比べてマスコミへの露出や情報が著しく少ないJ2クラブを応援している私にとって、本書は貴重な一冊です。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/vIpmWo-j6Sn5lG.jpg" alt="/images/vIpmWo-j6Sn5lG.jpg">
+(2012が見当たらない…)&lt;/p>
+&lt;p>『J2白書2013』は1章でクラブ別の総括、2章は月別のトピックス、3章はJ’s
+Goalで連載しているJ2日記のスペシャルセレクトという構成になっています。&lt;/p>
+&lt;p>2章、3章で2013シーズンを振り返るのも楽しいですし、1章の各クラブの担当ライターが執筆したシーズンの総括が、またいいんです。&lt;/p>
+&lt;p>J2はクラブ数も多く、自分が応援しているクラブ以外は、どのような状況にあるのか、シーズンを終えてサポーターはどんな温度感なのかなどを把握するのは難しいですよね。&lt;/p>
+&lt;p>でも、本書の1章の総括を読み進めると、それらが、なんとなく見えてきます。&lt;/p>
+&lt;p>見出しだけ抜粋します。&lt;/p>
+&lt;p>クラブ見出しコンサドーレ札幌J1昇格プレーオフは目前で逃すも、若いチームが躍動モンテディオ山形進化した攻撃、伸び悩んだ勝ち点水戸ホーリーホック着実に地域に浸透したことを実感できたシーズン栃木SCクラブ史上初の1桁順位でフィニッシュ！ザスパクサツ群馬過酷すぎる残留争い
+苦悩のシーズンジェフユナイテッド千葉最後まで『１点』に泣く試合運びでJ1昇格ならず東京ヴェルディ最後まで、チームとして１つになりきれず&lt;strong>横浜FC&lt;/strong>新加入選手による進化が不発。昇格の悲願は達成できず松本山雅FC継続と成長が生んだ２年目の検討。そして夢は未来へカターレ富山“美しさ”への挑戦。内容良化し来季へ布石FC岐阜そこにあった“熱”。これからの“熱”京都サンガFCまたも昇格を逃す。悔しさのにじむ涙の年にガンバ大阪戦力の充実を図り、いざJ1へヴィッセル神戸“重圧”を跳ね返し、勝ち取った１年でのJ1復帰ガイナーレ鳥取J2・JFL入れ替え戦のチャンス生かせず、無念のJ2降格ファジアーノ岡山一体となって戦った１年。そして味わった初めての挫折徳島ヴォルティス苦しいシーズン前半を乗り越え、ついに悲願達成！愛媛FC石丸新体制でチームの土台を築いたシーズンアビスパ福岡変化を積み重ねた１年は新たな歴史の第一歩ギラヴァンツ北九州ゼロからのチーム作り。降格予想を覆したのは、己を信じる力V・ファーレン長崎Jリーグって最高！
+イケイケフットボールで旋風！ロアッソ熊本理想と現実の間で苦悩し、足元を見つめなおした６年め&lt;/p>
+&lt;p>どうですか？&lt;/p>
+&lt;p>見出しだけでも、2013シーズンの結果とクラブを取り巻く空気感が伝わってきませんか？&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/MWJ-6UTcDHpKjt.jpg" alt="/images/MWJ-6UTcDHpKjt.jpg">
+通読して感じたのは、J2ではごく一部のクラブを除いて、プロスポーツとしてかなり厳しい予算・環境の中で創意工夫しながら、さまざまなトライをしているんだなということ。&lt;/p>
+&lt;p>あるクラブは、戦力に見合った「現実的」なチーム戦術と、綿密なスカウティングで格上のクラブと伍して戦い、勝ち点を積み上げる。&lt;/p>
+&lt;p>あるクラブは「J1でも通用する」サッカーを目指してスタートしながらも、なかなか結果を出せず、シーズン終盤に「現実的」なサッカーに切り替えて、なんとか降格を回避する。&lt;/p>
+&lt;p>予算や環境の制約が厳しい分、J2ではさまざまなアプローチがあり、それぞれにドラマがあるなと改めて感じました。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/_uNeFawQxQevLo.jpg" alt="/images/_uNeFawQxQevLo.jpg">
+さて、今シーズン横浜FCはJ1へ昇格します（予定）&lt;/p>
+&lt;p>でも、J1に上がっても、きっとJ2白書は読み続けるだろうな…と、2013版を読み終えて感じました。読み物として面白いですから。&lt;/p>
+&lt;p>もし、J2クラブを応援していて、まだJ2白書を読んだことのないという方は、一読されてはいかがでしょうか。&lt;/p>
+&lt;p>シーズン開幕が待ち遠しいですね。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/nTdpSCpY_9Hc5h.jpg" alt="/images/nTdpSCpY_9Hc5h.jpg">
+&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4809411877/namaraiicom-22/">J2白書〈2013〉&lt;/a>&lt;/p>
+&lt;p>posted with
+&lt;a href="http://yomereba.com">ヨメレバ&lt;/a>&lt;/p>
+&lt;p>J’s GOAL J2ライター班 東邦出版 2014–01&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4809411877/namaraiicom-22/">Amazon&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/gp/search?keywords=J2%94%92%8F%91%81q2013%81r&amp;amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;amp;url=node%3D2275256051&amp;amp;tag=namaraiicom-22">Kindle&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://hb.afl.rakuten.co.jp/hgc/0ffebcc2.9bf075da.0ffebcc3.ebe9049a/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F12642040%2F%3Fscid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2Fev%2Fbook%2F">楽天ブックス&lt;/a>&lt;/p></description></item><item><title>『俺のイタリアン 俺のフレンチ』疑うこと、信じること</title><link>https://namaraii.com/post/2014/20140108_bec47aed0f51/</link><pubDate>Wed, 08 Jan 2014 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2014/20140108_bec47aed0f51/</guid><description>
+&lt;p>人気レストラン「俺のイタリアン」「俺のフレンチ」創業者
+坂本孝氏が「俺の…」を創業してから、現在の繁盛店にするまでをまとめた本です。&lt;/p>
+&lt;p>どのようにして、人気店「俺の…」は作られたのか。ポイントは「疑うこと」と「信じること」です。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/H0RIrXhxuk4H71.jpg" alt="/images/H0RIrXhxuk4H71.jpg">&lt;/p>
+&lt;h4 id="疑うこと">疑うこと&lt;/h4>
+&lt;p>異業種から参入してきた企業が「業界の常識」にとらわれず、革新的な業態を生み出すことがあります。&lt;/p>
+&lt;p>QBハウスの創業者
+小西国義さんは大学卒業後、入社した昭和電工を退して、医療機器商社の経営をしていたそうです。(&lt;a href="http://www.mediabox.co.jp/topics/qb-house/qb-3.html">QB・創業者にインタビュー&lt;/a>より)&lt;/p>
+&lt;p>商社の仕事で全国の理容店を利用するなかで、&lt;/p>
+&lt;p>&lt;strong>なぜ、理容店は決まりきったメニューなのか？&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>なぜ、長時間拘束されなければならないのか？&lt;/strong>&lt;/p>
+&lt;p>などの疑問を抱き、それがQBハウス創業のきっかけになりました。&lt;/p>
+&lt;p>本書の著者 坂本孝氏は「俺の…」の前に「ブックオフ」を創業しています。&lt;/p>
+&lt;p>ブックオフは「古書店は目利きが必要な商売。これは、マーケットのニーズではなく趣味の世界ではないか？」という疑問から始まりました。&lt;/p>
+&lt;p>業界の常識を疑った結果、&lt;/p>
+&lt;ul>
+&lt;li>&lt;span
+id="8789">「目利き」を排除して本のキレイさだけで値付けする。&lt;/span>&lt;/li>
+&lt;li>&lt;span id="b858">1000円の本を100円で仕入れて500円で売る。&lt;/span>&lt;/li>
+&lt;li>&lt;span id="6b19">一ヶ月経って売れなければ100円に値下げする。&lt;/span>&lt;/li>
+&lt;/ul>
+&lt;p>という、新しい古書店のビジネスモデルが生まれたわけです。&lt;/p>
+&lt;p>「俺の…」は、まず「一流の料理人が、一流の料理をつくり、かつてないおいしさをリーズナブルな価格で提供する」というコンセプトがありました。&lt;/p>
+&lt;p>飲食店は一般的に原価率30%以内に収めて、その中でいかに美味しい料理を提供するかが常識だと言われます。&lt;/p>
+&lt;p>坂本社長は原価率30%以内という常識を疑います。&lt;/p>
+&lt;p>良質な食材を使い、倍近い原価率にしたとして、本当に商売にならないのか？&lt;/p>
+&lt;p>試算の結果、客の回転率を高めれば可能ということがわかり、回転率を高めるためには立食だ。ということで、立食のイタリアン・フレンチのレストランという異色のスタイルが生まれました。&lt;/p>
+&lt;p>両方に&lt;strong>共通しているのは「業界の常識」を疑う&lt;/strong>ことです。&lt;/p>
+&lt;p>素人目線で感じた疑問に着目し、解決策を考えぬく。これにより、新しいビジネスモデルを構築しているんですね。&lt;/p>
+&lt;h4 id="信じること">信じること&lt;/h4>
+&lt;p>すでに書いた通り「一流の料理人が、一流の料理をつくり、かつてないおいしさをリーズナブルな価格で提供する」これが「俺の…」のコンセプトです。&lt;/p>
+&lt;p>このコンセプトを見た時、最も難しいのは「一流の料理人が」の部分だと思いました。&lt;/p>
+&lt;p>一流の店で客単価3万円の高級料理を作っていた料理人を、いかにして立ち飲みで客単価3千円の店へスカウトするのか。普通の感覚では格落ちにも見えます。&lt;/p>
+&lt;p>本書の中にも採用面接の際、どういう店かを説明した瞬間、料理人の表情が急変したとあります。&lt;/p>
+&lt;p>そのとき、どのようにして一流の料理人を口説いたのか？…については、ぜひ、本書を読んでみてください。&lt;/p>
+&lt;p>では、なぜ一流の料理人が入社を決断したのか？&lt;/p>
+&lt;p>持ち株や高水準な報酬？&lt;/p>
+&lt;p>それも理由の一つではあるでしょう。&lt;/p>
+&lt;p>しかし、最大の理由は&lt;strong>料理人を信じて大きな裁量を与えた&lt;/strong>ことではないでしょうか。&lt;/p>
+&lt;p>料理人には仕入れ交渉をさせないのが、業界の常識だそうです。&lt;/p>
+&lt;p>料理人が業者と癒着して、不公正な仕入れをする可能性があるというのが、その理由。性悪説ですね。&lt;/p>
+&lt;p>それに対して坂本社長は、あくまでも性善説を取りたいと言います。&lt;/p>
+&lt;blockquote>
+&lt;p>各店舗のシェフが現金100万円を懐に入れて毎朝築地へ行って、「あれちょうだい」「これちょうだい」「それ全部ちょうだい」と言えるような会社になりたいのです。私は、これまでの飲食店の常識にある性悪説の防波堤になって行きたい。&lt;/p>
+&lt;/blockquote>
+&lt;p>原価率30%以内、メニューや価格を自由に決められない、食材の仕入れに関与できないなど、一般的なレストランの常識を壊し、料理人を信頼して任せる。&lt;/p>
+&lt;p>料理人は仕事へのやりがいを感じ、さらに良い店にしようと努力する。その結果、店はますます繁盛する。好循環が生まれます。&lt;/p>
+&lt;p>坂本社長は稲盛和夫氏が主催する盛和塾の塾生とのことですが、稲盛氏の教えの中でも特に「利他の心」を大切にしているそうです。&lt;/p>
+&lt;p>「利他の心」とは、人のために何かをやって、人も喜び自分も喜ぶこと。これが人生の中で最も尊いと思った時に不思議と会社が伸びていくと言います。&lt;/p>
+&lt;p>**業界の常識は疑うが、社員は信じて大切にする。**これが、「俺の…」が成功した大きなポイントではないでしょうか。&lt;/p>
+&lt;p>この他にも、競争優位性をどのように作るのか、なぜ銀座8丁目に集中出店するのか、従業員のインタビュー、稲盛和夫氏の教えなど興味深い内容が多々あります。&lt;/p>
+&lt;p>読み応えがある一冊でした。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/X-5JzXps9vtw5E.jpg" alt="/images/X-5JzXps9vtw5E.jpg">
+&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4785504544/namaraiicom-22/">俺のイタリアン、俺のフレンチ―ぶっちぎりで勝つ競争優位性のつくり方&lt;/a>&lt;/p>
+&lt;p>posted with
+&lt;a href="http://yomereba.com">ヨメレバ&lt;/a>&lt;/p>
+&lt;p>坂本 孝 商業界 2013–04–03&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4785504544/namaraiicom-22/">Amazon&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00CSFTS3K/namaraiicom-22/">Kindle&lt;/a>&lt;/p></description></item><item><title>『お笑いラジオの時間』お笑い芸人のラジオへのこだわり</title><link>https://namaraii.com/post/2013/20131225_c3f30294c97c/</link><pubDate>Wed, 25 Dec 2013 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2013/20131225_c3f30294c97c/</guid><description>
+&lt;p>ラジオおもしろいですよね。&lt;/p>
+&lt;p>昔はビートたけしのANNや三宅裕司のヤングパラダイスなど（北海道に住んでいたので）電波が弱いのにも負けず、いろいろ聴いてました。就職してから聴かなくなっていたのですがpodcastとradikoのおかげで、また聴くようになりました。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/iUAuAlG19-uFby.jpg" alt="/images/iUAuAlG19-uFby.jpg">
+ラジオはパーソナリティの「素」の部分が見えたり、テレビでは話せないであろう過激な話題もあったりするので楽しい。有吉弘行の『SUNDAY
+NIGHT DREAMER』なんて本当にヒドい(^^)&lt;/p>
+&lt;p>先日『たまむすび』で吉田豪が、おぎやはぎをインタビューしたという話をしていて、それを収録した『&lt;a href="http://www.amazon.co.jp/gp/product/4862981119/ref=as_li_ss_tl?ie=UTF8&amp;amp;camp=247&amp;amp;creative=7399&amp;amp;creativeASIN=4862981119&amp;amp;linkCode=as2&amp;amp;tag=namaraiicom-22">お笑いラジオの時間&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/MIadOc9avTsDhR.gif" alt="/images/MIadOc9avTsDhR.gif">
+』というムックがあることを知り読んでみました。&lt;/p>
+&lt;p>Amazonの内容紹介より引用します。&lt;/p>
+&lt;blockquote>
+&lt;p>「ラジオが面白い芸人」は「本物」である――。&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>テレビに比べて制約が少なく、自由に個性を発揮できる「ラジオ」で、&lt;br>
+お笑い芸人の魅力と本音を紐解く「お笑いラジオ」に特化した一冊!&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>ラジオ番組の根本にある「面白さ」を検証するために、&lt;br>
+現在進行形で放送されている番組のパーソナリティはもちろん、&lt;br>
+過去の人気番組を担当したお笑い芸人や構成作家、&lt;br>
+裏方である番組のスタッフにも取材を敢行。&lt;br>
+お笑い芸人とラジオの間にある“共犯関係”に迫る! &lt;br>
+真夜中、眠い目をこすりながらお笑い芸人のラジオを聴き、&lt;br>
+寝ている家族を起こさないよう必死に笑いをこらえたあの日々――。&lt;br>
+そんな青春時代を過ごした(過ごしている)人たちに贈る&lt;br>
+一冊丸ごと“お笑いラジオ”のムック本!&lt;/p>
+&lt;/blockquote>
+&lt;p>おぎはやぎ、オードリー、山里亮太、大谷ノブ彦、山田ルイ53世、東京ポッド許可局、松村邦洋、水道橋博士、番組のスタッフへのラジオを軸にしたインタビューやRAM
+RIDER、てれびのスキマ、村上謙三久のコラムなど内容は盛りだくさん。&lt;/p>
+&lt;p>それぞれのインタビューは3〜4段組で10ページ以上あって読み応えがあり、それぞれのラジオに対する姿勢や考え方がうかがい知れて、興味深いです。&lt;/p>
+&lt;p>おぎやはぎだけは、通常運転の脱力感漂うインタビューとなっており異色を放っていますが（笑）いずれもラジオを大切にしている気持ちが伝わってきます。&lt;/p>
+&lt;p>テレビで活躍しているお笑い芸人のラジオって、華やかな舞台（テレビ）の舞台裏や楽屋をのぞくような感覚がありますが、このムックは舞台裏や楽屋の、さらに奥深い部分をのぞくような趣があり、芸人のラジオ好きにはたまらない内容だと思います。&lt;/p>
+&lt;h4 id="おぎはやぎ">おぎはやぎ&lt;/h4>
+&lt;blockquote>
+&lt;p>（スペシャルウィークのゲストに裏番組のナイナイは出川哲朗とオードリーをゲストへ呼んだのに対して「メガネびいき」では吉田豪を呼んだことに対して）&lt;br>
+吉田豪：あっちは出川哲朗さんとオードリーの３人で、それに対抗するのが吉田豪って異常ですよ！&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>小木：いやあ、じゅうぶんでしょ（笑）&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>矢作：じゅうぶん、じゅうぶん。いいんですよ、それで。ラジオなんですから（笑）。&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="オードリー">オードリー&lt;/h4>
+&lt;blockquote>
+&lt;p>若林：２人の会話をあえて土曜の、しかも深夜１時〜３時にわざわざ２人の会話を聴いてくれるっていうことに対して、こっちとしては好きにならざるを得ないですよ。ありがたいと思っちゃいますね、どうしても。&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="山里亮太">山里亮太&lt;/h4>
+&lt;blockquote>
+&lt;p>『JUNK』のワクでひとりでやらせてもらっている幸せがデカすぎて、人にバカにされたり、ネット上で「おもしろくない」と悪口を言われたりしても全部消えちゃうんですよね。&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="大谷ノブ彦">大谷ノブ彦&lt;/h4>
+&lt;blockquote>
+&lt;p>自分の恥部をさらけ出してもリスナーが一緒になっていじってくれたり、ダメな自分を熱く語ってもいい場所っていうか。そこからスタートするエンターテイメントみたいな感じですかね。&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="松村邦洋">松村邦洋&lt;/h4>
+&lt;blockquote>
+&lt;p>テレビっていうとボクらからしたら「代打」のような感じですよ。（中略）反対にラジオは「全打席フルで出ている」と。15分だったら15分を自分だけが喋れるんで。そういう意味ではありがたいですよ。&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="水道橋博士">水道橋博士&lt;/h4>
+&lt;blockquote>
+&lt;p>「俺のために放送してる」「このパーソナリティは俺に向かって喋ってる」と思っちゃうの。そこがテレビとラジオの違うところなんだよね。&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="山田ルイ53世">山田ルイ53世&lt;/h4>
+&lt;blockquote>
+&lt;p>ラジオだと格好が見えませんから、本当のところを喋れたりするんじゃないかなと思いますよね。ラジオだとグラスを持たなくていいんですよ（笑）&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="東京ポッド許可局">東京ポッド許可局&lt;/h4>
+&lt;blockquote>
+&lt;p>タツオ：映像っていうのは「誰が言っているか」ってことが大事なんですよ。（中略）だけど音声だと、「誰がいうか」じゃなくて「何を言うか」なんです。情報を削ることで、言ってることの本質をそのまま受け入れられるというか。&lt;/p>
+&lt;/blockquote>
+&lt;p>最初に買おうとしたときは、どのオンライン書店も品切れになっていて焦りましたが、再入荷しているようですね。&lt;/p>
+&lt;p>おもしろかった！&lt;/p>
+&lt;p>&lt;a href="http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;amp;bc1=000000&amp;amp;IS2=1&amp;amp;bg1=FFFFFF&amp;amp;fc1=000000&amp;amp;lc1=0000FF&amp;amp;t=namaraiicom-22&amp;amp;o=9&amp;amp;p=8&amp;amp;l=as4&amp;amp;m=amazon&amp;amp;f=ifr&amp;amp;ref=ss_til&amp;amp;asins=4862981119">http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;amp;bc1=000000&amp;amp;IS2=1&amp;amp;bg1=FFFFFF&amp;amp;fc1=000000&amp;amp;lc1=0000FF&amp;amp;t=namaraiicom-22&amp;amp;o=9&amp;amp;p=8&amp;amp;l=as4&amp;amp;m=amazon&amp;amp;f=ifr&amp;amp;ref=ss_til&amp;amp;asins=4862981119&lt;/a>&lt;/p></description></item><item><title>ひとり呑みに行きたくなる本 『酒場歳時記』ほか2冊</title><link>https://namaraii.com/post/2013/20131224_26b8e971ae89f/</link><pubDate>Tue, 24 Dec 2013 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2013/20131224_26b8e971ae89f/</guid><description>
+&lt;p>&lt;img src="https://namaraii.com/images/4b5FgJMVgOsUhJ.jpg" alt="/images/4b5FgJMVgOsUhJ.jpg">
+美味しんぼ、孤独のグルメ、深夜食堂、神の雫など、食をテーマとした作品が作品が好きなのですが、最近、読んだ「酒」にまつわるエッセイで良かったもの3冊を紹介します。&lt;/p>
+&lt;h4 id="酒場歳時記吉田類">『酒場歳時記』吉田類&lt;/h4>
+&lt;p>&lt;a href="http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;amp;bc1=000000&amp;amp;IS2=1&amp;amp;bg1=FFFFFF&amp;amp;fc1=000000&amp;amp;lc1=0000FF&amp;amp;t=namaraiicom-22&amp;amp;o=9&amp;amp;p=8&amp;amp;l=as4&amp;amp;m=amazon&amp;amp;f=ifr&amp;amp;ref=ss_til&amp;amp;asins=4140881208">http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;amp;bc1=000000&amp;amp;IS2=1&amp;amp;bg1=FFFFFF&amp;amp;fc1=000000&amp;amp;lc1=0000FF&amp;amp;t=namaraiicom-22&amp;amp;o=9&amp;amp;p=8&amp;amp;l=as4&amp;amp;m=amazon&amp;amp;f=ifr&amp;amp;ref=ss_til&amp;amp;asins=4140881208&lt;/a>&lt;/p>
+&lt;p>『吉田類の酒場放浪記（BS-TBS)』でお馴染みの吉田類による文章で読む酒場放浪記。&lt;/p>
+&lt;p>この本は、どの酒場のどの料理がうまいといった紹介本ではありません。&lt;/p>
+&lt;p>個性的で魅力あふれる大衆酒場へ集う人たちの人間模様や繰り広げられるドラマ、酒に関する考え方、時には人生観までを吉田類の視点で描きます。&lt;/p>
+&lt;p>映像で見る『酒場放浪記』とは違い、大衆酒場の雰囲気やにおいを文章から喚起されるのが楽しい。&lt;/p>
+&lt;p>巻末にある「酒場八十八句集」という俳句集もしみじみと良いです。こんな感じ。&lt;/p>
+&lt;blockquote>
+&lt;p>朴訥と板場の技の冴ゆる夜や&lt;/p>
+&lt;/blockquote>
+&lt;p>紹介されている店を訪れて、同じ酒場をどのように感じるか。その違いを感じてみたい。&lt;/p>
+&lt;p>一人で呑みに行きたくなる一冊です。&lt;/p>
+&lt;h4 id="酒しゅにまじわればなぎら健壱">『酒（しゅ）にまじわれば』なぎら健壱&lt;/h4>
+&lt;p>&lt;a href="http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;amp;bc1=000000&amp;amp;IS2=1&amp;amp;bg1=FFFFFF&amp;amp;fc1=000000&amp;amp;lc1=0000FF&amp;amp;t=namaraiicom-22&amp;amp;o=9&amp;amp;p=8&amp;amp;l=as4&amp;amp;m=amazon&amp;amp;f=ifr&amp;amp;ref=ss_til&amp;amp;asins=416370390X">http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;amp;bc1=000000&amp;amp;IS2=1&amp;amp;bg1=FFFFFF&amp;amp;fc1=000000&amp;amp;lc1=0000FF&amp;amp;t=namaraiicom-22&amp;amp;o=9&amp;amp;p=8&amp;amp;l=as4&amp;amp;m=amazon&amp;amp;f=ifr&amp;amp;ref=ss_til&amp;amp;asins=416370390X&lt;/a>&lt;/p>
+&lt;p>なぎら健壱による飲兵衛エッセイ。この本も吉田類『酒場歳時記』と同様、紹介本ではありません。&lt;/p>
+&lt;p>自身が訪れた酒場でおこったさまざまなエピソードを、アルコール臭ただよう雰囲気のある写真とともにつづります。&lt;/p>
+&lt;p>なぎらさんは写真を趣味にしているだけあって、どの写真も味があります。渋い。&lt;/p>
+&lt;p>▼&lt;a href="http://doraku.asahi.com/kiwameru/camera/061010.html">なぎら健壱さん 散歩の楽しみを教えてくれたカメラ（1/1） — 有名人のお宝カメラ — 極める — [どらく]&lt;/a>&lt;/p>
+&lt;p>下町、酒場、そこに集うひとたちへの愛を感じるエッセイ。読むとほっこりとします。&lt;/p>
+&lt;h4 id="昼のセント酒久住昌之">『昼のセント酒』久住昌之&lt;/h4>
+&lt;p>&lt;a href="http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;amp;bc1=000000&amp;amp;IS2=1&amp;amp;bg1=FFFFFF&amp;amp;fc1=000000&amp;amp;lc1=0000FF&amp;amp;t=namaraiicom-22&amp;amp;o=9&amp;amp;p=8&amp;amp;l=as4&amp;amp;m=amazon&amp;amp;f=ifr&amp;amp;ref=ss_til&amp;amp;asins=4862551157">http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;amp;bc1=000000&amp;amp;IS2=1&amp;amp;bg1=FFFFFF&amp;amp;fc1=000000&amp;amp;lc1=0000FF&amp;amp;t=namaraiicom-22&amp;amp;o=9&amp;amp;p=8&amp;amp;l=as4&amp;amp;m=amazon&amp;amp;f=ifr&amp;amp;ref=ss_til&amp;amp;asins=4862551157&lt;/a>&lt;/p>
+&lt;p>『孤独のグルメ』原作者 久住昌之による「銭湯」×「ビール」のエッセイ。&lt;/p>
+&lt;p>街の銭湯につかり、近くの酒場へ行って明るいうちから一杯やる「昼のセント酒」&lt;/p>
+&lt;p>広い湯船にゆっくりとつかり、さっぱりしたからだへ流し込む冷えたビール。鉄板の至福。&lt;/p>
+&lt;p>それを「明るいうち」からやってしまう背徳感が、悦楽を何倍か増しにするんでしょうね。お金をかけずに得られる贅沢な時間です。&lt;/p>
+&lt;p>あぁ、「銭湯」×「ビール」×「昼間」のコンボをキメてみたい。暖かくなったら、絶対にやってみよう。&lt;/p></description></item><item><title>『誰も教えなかった自分流写真の方法』</title><link>https://namaraii.com/post/2013/20131218_5f3fb008cc14/</link><pubDate>Wed, 18 Dec 2013 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2013/20131218_5f3fb008cc14/</guid><description>
+&lt;p>最近、あまり写真を撮ってません。&lt;/p>
+&lt;p>撮影のためだけに出かけることがほとんどなくなりました。一時は早朝から一日中撮ることも少なくなかったんですけどね。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/w76B28jecVuKcA.jpg" alt="/images/w76B28jecVuKcA.jpg">
+なんでかなぁ？と考えていたところ、Kindleストアでこの本を見かけ、タイトルに惹かれて読んでみました。&lt;/p>
+&lt;p>この本には撮影の技術やテクニックについては一切書かれていません。&lt;/p>
+&lt;p>それどころか、それらにこだわりすぎた個性の無い「上手」な写真はつまらないと言います。&lt;/p>
+&lt;blockquote>
+&lt;p>写真を始めたころ撮影技術は未熟だったかもしれないけど、対象を見る目は、生き生きとしていたはずです。それが、「傑作」に仕上げる撮り方を覚えていくにつれて失われていく。手慣れたテクニックで、表面だけの画作りをまとめようとするからです。&lt;/p>
+&lt;/blockquote>
+&lt;p>例えば、少しでも構図の勉強をすると、被写体を画面の真ん中に置く、いわゆる日の丸構図は初心者っぽいんだなとか、これは三分割法にうまくハマるな、などと考えてしまうことがあります。&lt;/p>
+&lt;p>自分本来の感性や欲求が、生半可な知識に引きづられてスポイルされる感じ。&lt;/p>
+&lt;p>テクニックを学ぶのは大切だと思いますが、受験勉強じゃないんだから、それが絶対の解ではないですし、それに引きづられて本当に撮りたいかたちで撮れなくなるのは本末転倒ですね。&lt;/p>
+&lt;blockquote>
+&lt;p>(絶景スポットなど)何かがあるから撮りに行くということを続けていると、苦労して撮ったとしても結局二番煎じの写真になりかねない。&lt;/p>
+&lt;/blockquote>
+&lt;p>有名な絶景スポットへ行き、高性能な機材で、きちんとしたテクニックで撮れば、きれいな写真は撮れる。&lt;/p>
+&lt;p>しかし、そこに自分の個性や表現したいことが入っていなければ、「上手だけどつまらない」という指摘です。&lt;/p>
+&lt;p>誰も注目しないようなものでも、自分の心に引っかかれば撮る。それこそが独自の視点であり個性だと。&lt;/p>
+&lt;p>たしかに同じ場所で撮影しても、そこをそう撮るか！という写真は心に残るもんなぁ。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/0CbXxr1V3tZd6Z.jpg" alt="/images/0CbXxr1V3tZd6Z.jpg">
+単なる子供のスナップです。&lt;/p>
+&lt;p>手ブレしてるし構図もなにもあったもんじゃない。&lt;/p>
+&lt;p>兄弟でカゴに入り、楽しそうに遊んでいるところを見て撮りたい！と思って撮りました。&lt;/p>
+&lt;p>自分の子供だから…というのを差し引いても、早朝からでかけて撮った「きれいな風景写真」よりも、後から見て楽しいし、当時の色々なことが思い出されます。&lt;/p>
+&lt;p>写真を職業にしているのなら、第三者に求められる写真を撮らなければなりませんが、せっかくの趣味です。&lt;/p>
+&lt;p>撮りたいものを感性がおもむくまま、気軽に撮ればいいんだなと、この本を読んであらためて感じました。&lt;/p>
+&lt;p>趣味まで習い事のようにしてしまうのは良くないですね。息抜けないもの^^;&lt;/p>
+&lt;p>&lt;a href="http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;amp;bc1=000000&amp;amp;IS2=1&amp;amp;bg1=FFFFFF&amp;amp;fc1=000000&amp;amp;lc1=0000FF&amp;amp;t=namaraiicom-22&amp;amp;o=9&amp;amp;p=8&amp;amp;l=as4&amp;amp;m=amazon&amp;amp;f=ifr&amp;amp;ref=ss_til&amp;amp;asins=B00EZG8HJG">http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;amp;bc1=000000&amp;amp;IS2=1&amp;amp;bg1=FFFFFF&amp;amp;fc1=000000&amp;amp;lc1=0000FF&amp;amp;t=namaraiicom-22&amp;amp;o=9&amp;amp;p=8&amp;amp;l=as4&amp;amp;m=amazon&amp;amp;f=ifr&amp;amp;ref=ss_til&amp;amp;asins=B00EZG8HJG&lt;/a>&lt;/p></description></item><item><title>『I AM ZLATAN ズラタン・イブラヒモビッチ自伝』</title><link>https://namaraii.com/post/2013/20130926_iamzlatan862271501d66/</link><pubDate>Thu, 26 Sep 2013 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2013/20130926_iamzlatan862271501d66/</guid><description>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4809410765/namaraiicom-22/">『I AM ZLATAN ズラタン・イブラヒモビッチ自伝』&lt;/a>を読んだ。&lt;/p>
+&lt;p>ズラタン・イブラヒモビッチはパリ・サンジェルマンFCに所属するプロサッカー選手。195cmのフィジカルを活かしたプレイだけでなく、足元の技術も高くスピードもある万能型のフォワードだ。&lt;/p>
+&lt;p>スウェーデンきっての悪童と知られ、監督や選手との衝突も少なくない。思ったことをハッキリと口に出し、しばしばメディアに話題を提供してきた。&lt;/p>
+&lt;p>この本はズラタンの生い立ちからプロデビューするまで、何度かの移籍の舞台裏やチーム内の人間関係などを赤裸々に書いた自伝だ。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/1e2MMa1k1BNM8H.jpg" alt="/images/1e2MMa1k1BNM8H.jpg">
+悪童と呼ばれる男だけに、その赤裸々具合が半端ではない。&lt;/p>
+&lt;p>確執があったグアルディオラ監督へはロッカールームで「モウリーニョの前じゃビビッてお漏らしか！
+このタマ無し野郎が！」と罵り、「シャビ、イニエスタ、メッシ。あいつら、ロッカールームでも優等生気取りだ」と同僚までもバッサリと切り捨てる。&lt;/p>
+&lt;p>自転車を盗んで練習場へ通ったり、他人の家の敷地へ爆竹を投げ込んで遊んだり、明け方までテレビゲームをして2～3時間しか寝ずに練習へ行ったり、ポルシェで300km以上のスピードを出してパトカーを巻いたりなど、やりたい放題だ。&lt;/p>
+&lt;p>しかし不思議なことに、読み進めるにつれ、こんな破天荒な行動をとるズラタンにシンパシーが沸いてくる。&lt;/p>
+&lt;p>それは、単に無茶苦茶やっているのではなく、間違っていると思うことや理不尽なことに対してのみ、躊躇せずストレートな意見や感情を表現しているだけとわかるからだろう。大きな「子供」なのだ。&lt;/p>
+&lt;p>そして、もう一つは仕事に対する真摯な姿勢。&lt;/p>
+&lt;p>あたり前の話だが才能だけで、あれだけのビッグクラブを渡り歩いて結果を残せるはずがない。&lt;/p>
+&lt;p>この本で一番興味深く、かつ、パブリック・イメージとのギャップが大きく新鮮だったのは、この部分だ。&lt;/p>
+&lt;p>特に印象に残ったポイントを紹介する。&lt;/p>
+&lt;h4 id="内省と向上心">内省と向上心&lt;/h4>
+&lt;blockquote>
+&lt;p>「俺はズラタンだ。文句あるか？」といつも強気で押し通せるようなおめでたい人間じゃない。むしろ逆だ。自分のプレイシーンを頭で再生しては「あのときこうしていたら、どうなったのだろう？」「こうするほうが良かったのではないか？」と繰り返し自問する。&lt;br>
+他人の動きを見ては「彼らから何を学べるだろう？
+俺には何が足りないんだ？」と悩みぬく。自分のプレー上のミスを徹底的に考察する。改善を試みる。&lt;/p>
+&lt;/blockquote>
+&lt;p>まさに「俺はズラタンだ。文句あるか？」で押し通しているのかとおもいきや、自らのプレイを俯瞰し常に改善点を探る。また、他のプレイヤー優れた点を貪欲に吸収する柔軟性も持っている。&lt;/p>
+&lt;p>ビッグクラブへの移籍で「上がり」になるのではなく、新しい場所でさらなる成長を求める姿勢が素晴らしい。&lt;/p>
+&lt;h4 id="組織を変革する">組織を変革する&lt;/h4>
+&lt;p>17年間スクデットから遠ざかっていたインテルへ移籍した際、チーム内に派閥があることに気づく。その派閥は、気があう人同士のものではなく国籍によるものだった。&lt;/p>
+&lt;blockquote>
+&lt;p>ピッチ上では一緒にサッカーをしても、それ以外の時間はまったく別の世界で生きていた。そこを変えない限り、リーグ優勝はあり得ないと思ったよ。&lt;br>
+（中略）&lt;br>
+ピッチの外での結束がないと、それが試合に表れてしまう。モチベーションを上げるためには大事なことなんだ。&lt;/p>
+&lt;/blockquote>
+&lt;p>ズラタンはチームへ進言し、この状況を改善する。&lt;/p>
+&lt;p>さらに、当時のインテルでは勝利給が高額だったため、逆に最終的な目標（スクデット獲得=優勝）へのモチベーションが下がってしまっていると考えて、チームの会長へこう言った。&lt;/p>
+&lt;blockquote>
+&lt;p>会長、少しボーナスを抑えるほうがいいと思いますよ。1試合勝っただけでボーナスをもらえるとそれだけで満足してしまいます。もちろん、スクデットを獲得したときのボーナスは大歓迎ですよ。&lt;/p>
+&lt;/blockquote>
+&lt;p>チームの結束と最終的なゴールに対するチーム全体モチベーションを高めたことが、結果的に2006–2007シーズンのスクデット獲得に繋がったのかもしれない。&lt;/p>
+&lt;h4 id="ファンを大切にする">ファンを大切にする&lt;/h4>
+&lt;blockquote>
+&lt;p>友達はサインをもらえたのに、自分だけもらえなかったらがっがりするだろう。俺だって若かったから、そういう子の気持ちはよくわかっていたんだ。俺は少年たちに喜んでもらいたかった。&lt;/p>
+&lt;/blockquote>
+&lt;p>こう言って、サインを求める全てのファンに対してサインする。二人目の子供が生まれて最初の試合で、インテルのウルトラスから「ようこそ、マキリミリアン」（子供の名前）という横断幕を掲出され、携帯で写真を撮り妻のヘレナと喜びあったエピソードが紹介されているが、丁寧なファンサービスをしているからこそファンから愛されるのだろう。&lt;/p>
+&lt;h4 id="聞くが聞かない">聞くが、聞かない&lt;/h4>
+&lt;p>他人からのアドバイスは聞くが、納得が行くもの以外は受け入れず自分流を貫く。&lt;/p>
+&lt;p>これは、誰のどんなアドバイスを受け入れるかのバランスが難しく、下手をすると自らの成長が止まってしまう可能性がある。何を信じるか。&lt;/p>
+&lt;p>アヤックス在籍時、監督から「もっと下がって守備にも貢献しないといけない」と言われ、悩んだ挙句ファン・バステンに相談する。&lt;/p>
+&lt;blockquote>
+&lt;p>「監督の言うことは聞かなくていいよ」彼は言った。&lt;br>
+「守備でエネルギーを消耗しすぎないほうがいい」そうくわえた。&lt;br>
+「エネルギーは攻撃のためにとっておけ。君は攻撃してゴールを決めてこそ、チームの役に立てる。前線に戻るために体力を使い果たすべきじゃないね」&lt;/p>
+&lt;/blockquote>
+&lt;p>この言葉で自分が信じる方法でやってみようと決心する。自分が信じる人の言葉だけを信じて自らの軸をブラさない。シンプルだが強力だ。だが危険でもある。&lt;/p>
+&lt;h4 id="自分の信じる道をいく">自分の信じる道をいく&lt;/h4>
+&lt;p>「悪童」ズラタンのことだから、幼少期からさまざまな「大人」にスポイルされそうになった。しかし、自らの信じる道を進んだ結果、今の成功があるわけで、そのことに関してこう言っている。&lt;/p>
+&lt;blockquote>
+&lt;p>世の中には何千もの道がある。中には曲がりくねった道や、通り抜けにくい道もあるだろう。しかし、そんな道が、最高の道であることもある。”普通”とは違う人間をつぶそうとする行為を俺は憎む。もし、俺が「変わった人間」じゃなかったら、今の俺はここにいないだろう。&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>「我が道を進め」と俺は言いたい。それがどんな道であってもだ。&lt;/p>
+&lt;/blockquote>
+&lt;p>アップル創始者スティーブ・ジョブスが、スタンフォード大学の卒業生たちに贈った、有名なスピーチに相通じるものがあるのではないだろうか。&lt;/p>
+&lt;blockquote>
+&lt;p>今日が人生最後の日なら、今日することは自分がしたいことだろうか。&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>生きる時間は限られている。&lt;br>
+だから他人の人生を生きて、おのれの時間をムダにしないことだ。&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>自分の心と直感に従う勇気を持つことだ。&lt;br>
+あなたが本当にどうなりたいのか、自分の心が既に知っている。&lt;br>
+他のことはすべて二の次だ。&lt;/p>
+&lt;/blockquote>
+&lt;p>サッカー界の個性あふれる人物たちのエピソードや、通常では知りえない移籍交渉の裏側など、サッカーに詳しくない人でも楽しめる一冊だが、欧州サッカーに興味がある人ならさらに数倍増しで楽しめるだろう。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/Gnkc86Yj1V3tk9.jpg" alt="/images/Gnkc86Yj1V3tk9.jpg">
+&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4809410765/namaraiicom-22/">I AM ZLATAN ズラタン・イブラヒモビッチ自伝&lt;/a>&lt;/p>
+&lt;p>posted with
+&lt;a href="http://yomereba.com">ヨメレバ&lt;/a>&lt;/p>
+&lt;p>ズラタン・イブラヒモビッチ,ダビド・ラーゲルクランツ 東邦出版 2012–12–01&lt;/p></description></item><item><title>スライドは「メッセージ」を伝えるために作成する『外資系コンサルのスライド作成術―図解表現23のテクニック』</title><link>https://namaraii.com/post/2013/20130117_2324199890db18/</link><pubDate>Thu, 17 Jan 2013 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2013/20130117_2324199890db18/</guid><description>
+&lt;p>良いスライドを作るために必要なテクニック、考え方を系統的に紹介する&lt;a href="http://www.amazon.co.jp/gp/product/4492557202/ref=as_li_ss_tl?ie=UTF8&amp;amp;camp=247&amp;amp;creative=7399&amp;amp;creativeASIN=4492557202&amp;amp;linkCode=as2&amp;amp;tag=offtheball2008-22">外資系コンサルのスライド作成術―図解表現23のテクニック&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/psuVAFluzx8Yfw.gif" alt="/images/psuVAFluzx8Yfw.gif">
+が良かったのでご紹介。&lt;/p>
+&lt;blockquote>
+&lt;p>わかりやすいスライドを作成する技術もまた必須の能力だと考えています。&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>なぜなら、文脈や価値観を異にする多様な人々と遠く離れて協働し、成果を生み出していくことが求められる局面では、文書によってこちらの意図や考察を精密に伝達する能力が非常に重要になってくるからです。&lt;/p>
+&lt;/blockquote>
+&lt;p>上の引用は「グローバルに活躍するビジネスマンにとって大切なこと」という文脈なのですが、国内で働くビジネスマンにとっても同じことが言えますね。&lt;/p>
+&lt;p>自分の主張や意見をわかりやすくまとめ、説得する。仕事をしていれば、さまざまなシーンで必要な能力です。&lt;/p>
+&lt;p>その意味で、自分の主張を説得力を持たせて見える化するための「スライド作成の技術」が重要というのは良くわかります。&lt;/p>
+&lt;p>過去に一緒に仕事をしたコンサルタントに共通するのは、生産性をとことん追求するマインド、そしてアウトプットの質です。もちろん、スライドはとてもわかりやすい。&lt;/p>
+&lt;p>生産性の高さとアウトプットの質は別の次元の話ですので、まずは、「わかりやすいスライド」を作るためのテクニックを学びたい。という人には参考になる部分が多い一冊だと思います。&lt;/p>
+&lt;p>本書の目次は以下の通り。&lt;/p>
+&lt;pre>&lt;code>PART1　スライド作成の基本
+１　スライドの構成要素とレイアウト
+２　スライドの作成手順
+３　メッセージの３条件
+４　メッセージの作り方
+PART2　グラフの作り方～数値を視覚化する～
+５　グラフ作成における基本フォーマット
+６　ボリュームをヴィジュアルで表す
+７　グラフを合成する
+８　フォーカスする
+９　「そのもの」をフォーマットに使う
+10　数値の動きを視覚化する
+11　グラフ間の関係を明確化する
+12　さらなる上級者になるためのヒント
+PART3　チャートの作り方〜概念や関係構造を視覚化する〜
+13　チャートの基本フォーマット
+14　縦と横の軸を決める
+15　メッセージと軸を整合させる
+16　非冗長性のルール
+17　矢印のルール
+18　プレグナンツの法則
+19　さらなる上級者になるためのヒント
+PART4 シンプルなスライドに磨き上げる
+20　Less is More
+21　SN比を改善する①「必要・不必要」
+22　SN比を改善する②「効率・非効率」
+23　“Surprising yet right”
+PART５　練習問題
+「おわりに」に変えての、長いお願い
+本書の内容の大部分はスライドを作るためのテクニックですが、一番重要なのは以下の点だと思います。
+本来スライドは、メッセージが「主」でグラフ／チャートが「従」の構造であるはずなので、これでは主客が逆転してしまうことになります。
+ですから、まずそのスライドで伝えたいことを書く＝「②メッセージを書く」、というのがスライド作成の第一歩になります
+グラフやチャートから言えることを書くのではなく、メッセージを伝えるためにグラフやチャートを書く。手段が目的化しないように注意せよということですね。
+一読して終わりという本ではなく、何度もリファレンス的に読み返したい内容です。Kindle版を買ったのですが、紙の本にすれば良かったかな…
+&lt;/code>&lt;/pre>
+&lt;p>&lt;img src="https://namaraii.com/images/4GZAXN_n4e4gpN.jpg" alt="/images/4GZAXN_n4e4gpN.jpg">
+外資系コンサルのスライド作成術―図解表現23のテクニック&lt;/p>
+&lt;pre>&lt;code>posted with ヨメレバ
+山口 周 東洋経済新報社 2012-10-19
+Amazon
+Kindle
+楽天ブックス
+&lt;/code>&lt;/pre></description></item><item><title>一ヶ月に300冊の本を読む読書法 ー『読書の技法』佐藤優</title><link>https://namaraii.com/post/2013/20130115_300bd37bade0334/</link><pubDate>Tue, 15 Jan 2013 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2013/20130115_300bd37bade0334/</guid><description>
+&lt;p>&lt;a href="http://hb.afl.rakuten.co.jp/hgc/0ffebcc2.9bf075da.0ffebcc3.ebe9049a/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F11758856%2F%3Fscid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2Fev%2Fbook%2F">読書の技法（佐藤優）&lt;/a>の読書法が凄いです。&lt;/p>
+&lt;p>この本は熟読する本の選び方や、小説や漫画の読み方、本をいつどこで読むかなど、読書法に関する話題を広く扱っているのですが、中でも強く印象に残ったのが多読の方法です。&lt;/p>
+&lt;blockquote>
+&lt;p>献本が月平均１００冊近くある。これは１冊の例外もなく、速読で全ページに目を通している。それから新刊本を70～80冊、古本を１２０～１３０冊くらい買う。これも全部読んでいる。&lt;/p>
+&lt;/blockquote>
+&lt;p>月に300冊ということは、1日あたり10冊のペースですよ。すごい…&lt;/p>
+&lt;p>ということで、この本の中から「限られた時間の中で、いかに多くの本を読み、自分の知識として定着させるか」にフォーカスした読書メモをシェアします。&lt;/p>
+&lt;blockquote>
+&lt;p>筆者が毎月目を通している３００冊のうち、熟読している本は洋書を含めて平均４～５冊である。５００冊を超える場合でも、熟読しているのは６～７冊だ。熟読する本を２冊増やすのは、そう簡単なことではない。&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>熟読する以外の本は、速読、超速読のいずれかで処理する。&lt;/p>
+&lt;/blockquote>
+&lt;p>熟読する本と速読、超速読で処理する本を分別するんですね。&lt;/p>
+&lt;blockquote>
+&lt;p>「超速読」は、前述の書籍を５分程度で読む技法で、試し読みと言ってもよい。この試し読みによって、書籍を次の４つの範疇（カテゴリー）に区分する。&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>&lt;span id="a7b0">熟読する必要があるもの&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="33e0">普通の速読の対象にして、読書ノートを作成するもの&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="b861">普通の速読の対象にするが、読書ノートを作成するには及ばないもの&lt;/span>&lt;/li>
+&lt;li>&lt;span id="1461">超速読にとどめるもの&lt;/span>&lt;/li>
+&lt;/ul>
+&lt;p>まず最初に5分という時間の制約を設けて、本の下読みをして、どのレベルで読む本かを評価し、本全体の中でどこ部分を読むべきかに当たりをつけるのが「超速読」&lt;/p>
+&lt;blockquote>
+&lt;p>まず序文の最初１ページと目次を読み、それ以外はひたすらページをめくる。このとき文字を読まない。とにかくページ全体を見るのだ。&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>ビジネス書で強調箇所が太字やゴシック体で書かれている本は、ページ全体を見るには値せず、太字やゴシック体の文字だけを追っていけばよい。&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>図表や資料はおのずと目に飛び込んでくるので、他と同様に扱う。&lt;/p>
+&lt;/blockquote>
+&lt;p>超速読に方法はいわゆるフォトリーディングに近い感じですね。超速読の結果、速読の対象と判断したものは…&lt;/p>
+&lt;blockquote>
+&lt;p>また速読をする場合には、必要とする情報についての明確な目的意識も必要だ。&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>たとえば、藤原正彦『国家の品格』（新潮新書）を読む場合に、「藤原氏のレトリックから学ぶ」という問題意識を持つ場合と、「同書の論理構成とウィトゲンシュタインの『論理哲学論考』（岩波文庫）とが類似している部分を調べる」という問題意識を持つ場合とでは、着目する箇所が自から異なってくる。&lt;/p>
+&lt;/blockquote>
+&lt;p>「何を目的として読むか」をベースに着目するポイントを決定すると。&lt;/p>
+&lt;blockquote>
+&lt;p>まず、目次と初版まえがきを注意深く読み、それから結びを読む。&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>（中略）&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>いつものようにシャーペンとポストイットを持ち、この２つの章のいずれかを、端から文字を追って読む。重要と思う部分は線で囲み、ポストイットを貼る。&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>同じ行に何度も目がいき、速読がうまくいかない場合は、定規を当てながら読む。第四章ならば56ページあるが、ここまでなら17分以内で処理できる。
+そして残った時間で、それ以外のページを超速読するのだ。&lt;/p>
+&lt;/blockquote>
+&lt;p>筆者が主張したい部分は結論にあるので、結びは必ず読む。&lt;/p>
+&lt;p>そして目次とまえがきを注意深く読み、限られた時間で読むべき章に当たりをつけて、プライオリティを設定した上で読む。&lt;/p>
+&lt;blockquote>
+&lt;p>普通の速読においては、内容を細かく理解する必要もなければ、すべてを記憶する必要もない。内容を大雑把に理解・記憶し、「あの本のあの部分に、こういうことが書かれていた」「あの箇所に当たれば、あの情報が出てくる」という「インデックス」を頭の中に整理して作ることが最も重要になる。&lt;/p>
+&lt;/blockquote>
+&lt;p>「普通の速読」の対象に選んだ本は、全ての内容を把握する必要は無い。どこに何が書いているかを、頭の中でざっくりとインデックス化しておけば良い。&lt;/p>
+&lt;blockquote>
+&lt;p>新聞も、端から端までじっくり読むような読み方をしていたら、それで一日が終わってしまう。
+ざっと見出しを見て当たりをつけ、どれを読んでどれを読まないかを判断する。そのうえで、既存の情報は適度に飛ばし、必要な未知の情報だけを拾い読みする。その原理を読書にも応用するのだ1151&lt;/p>
+&lt;/blockquote>
+&lt;p>なるほど。確かに新聞をは端から端まで読むような読み方はあまりしませんね。&lt;/p>
+&lt;p>書籍の場合、どうしても「せっかく買ったのにもったいない」という心理が働き、つまらない本、あまり役に立たなそうな本でも、全体を読まなければと思いがちですよね。&lt;/p>
+&lt;p>しかし、貴重な時間を無駄にしないためにも、まずは読むべき本かどうかをフィルタリングする。そして、その中でも特に読むべきポイントを精査すべきだと。&lt;/p>
+&lt;blockquote>
+&lt;p>「ノートを作る時間があったら他の本を読んだほういい」「その時間がもったいない」と主張する論者もいるが、筆者はその意見には与しない。&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>そういう読書では、自分の得意な分野の知識しか身につかない（自分の苦手分野や未知の分野の知識を効率よく身につけられない）うえに、得意分野さえも十分には伸ばすことができない。&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>（中略）&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>自分の「判断」に加えて、「意見」も書き込むようにする。&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>「私はこうは思わない」「この部分は、あの本のパクリだ」「同じデータに関して、あの専門家は別の評価をしている」など自分の「意見」も書き込めるようになれば、十分理解して自分で運用できる水準になっている。&lt;/p>
+&lt;/blockquote>
+&lt;p>読みっぱなしでは頭の中に定着しない。重要だと感じだポイントをノートにまとめ、自分なりの見解を追記することで、知識が頭の中に深く刻まれ、使える知識になると。&lt;/p>
+&lt;p>ここまで、超速読と速読のポイントを引用してきましたが、速読するためには「熟読」の方法を理解する必要があります。&lt;/p>
+&lt;p>本書では「熟読」の方法はもちろん、コストパフォーマンスが高い「本」というメディアから効率良く情報を収集し、知識を自分の血と肉に変えるための実践的なノウハウが満載です。&lt;/p>
+&lt;p>読書好きの方はもちろん、本を道具として効率よく活用したい方もぜひ！&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/VVKr-bIYNsQSIt.jpg" alt="/images/VVKr-bIYNsQSIt.jpg">
+&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4492044698/offtheball2008-22/">読書の技法 誰でも本物の知識が身につく熟読術・速読術「超」入門&lt;/a>&lt;/p>
+&lt;p>posted with
+&lt;a href="http://yomereba.com">ヨメレバ&lt;/a>&lt;/p>
+&lt;p>佐藤 優 東洋経済新報社 2012–07–27&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4492044698/offtheball2008-22/">Amazon&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/ASIN/B009APH6WG/offtheball2008-22/">Kindle&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://hb.afl.rakuten.co.jp/hgc/0ffebcc2.9bf075da.0ffebcc3.ebe9049a/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F11758856%2F%3Fscid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2Fev%2Fbook%2F">楽天ブックス&lt;/a>&lt;/p>
+&lt;h4 id="考えたこと">考えたこと&lt;/h4>
+&lt;p>私も比較的、多読な方だと思うのですが、読んだ本の内容が自分の知識としてなかなか定着しないと感じていました。&lt;/p>
+&lt;p>読書メモを作りつつ、このブロクでシェアすることで、効果的な読書にできないかを模索して行きたいと思います。&lt;/p></description></item><item><title>読んで面白かった20冊のサッカー本</title><link>https://namaraii.com/post/2013/20130114_20b0d21ce9dd0/</link><pubDate>Mon, 14 Jan 2013 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2013/20130114_20b0d21ce9dd0/</guid><description>
+&lt;p>Jリーグの開幕まで何か面白いサッカー本は無いかな？と物色する毎日です。早く3月にならないものか。&lt;/p>
+&lt;p>さて、これまでに多くのサッカー本を節操なく読んできました。&lt;/p>
+&lt;p>監督本からはチームマネジメントを学び、戦術本からはサッカーの見方・楽しみ方を学び、エッセイや小説・コミックスではサッカーを軸とした「物語」に没頭し…などという御託は良いですね。&lt;/p>
+&lt;p>単に面白いから読んでます。(^^)&lt;/p>
+&lt;p>自分はどんなサッカー本が好きなのかを再確認する意味も込めて、読んで面白かったサッカー本をまとめてみます。&lt;/p>
+&lt;h4 id="監督にスポットをあてた本">監督にスポットをあてた本&lt;/h4>
+&lt;p>チーム内へどのように競争原理を導入するか、選手のモチベーションをどのように管理するか？などのチームマネジメントや、チームの戦力に応じた戦略、戦術策定の方法など、仕事にも役立つ内容が多く含まれるので好きなんですよねぇ。&lt;/p>
+&lt;h4 id="モウリーニョの流儀">モウリーニョの流儀&lt;/h4>
+&lt;p>&lt;img src="https://namaraii.com/images/pXbjHo6wyljxtJ.jpg" alt="/images/pXbjHo6wyljxtJ.jpg">
+&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4309271324/offtheball2008-22/">モウリーニョの流儀&lt;/a>&lt;/p>
+&lt;p>posted with
+&lt;a href="http://yomereba.com">ヨメレバ&lt;/a>&lt;/p>
+&lt;p>片野道郎 河出書房新社 2009–09–03&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4309271324/offtheball2008-22/">Amazon&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/gp/search?keywords=%83%82%83E%83%8A%81%5B%83j%83%87%82%CC%97%AC%8BV&amp;amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;amp;url=node%3D2275256051&amp;amp;tag=offtheball2008-22">Kindle&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://hb.afl.rakuten.co.jp/hgc/0ffebcc2.9bf075da.0ffebcc3.ebe9049a/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F6153457%2F%3Fscid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2Fev%2Fbook%2F">楽天ブックス&lt;/a>&lt;/p>
+&lt;p>日本人の著者によるモウリーニョ本。インテル時代のノンフィクションで、どのようにしてスター選手をモチベートし、自分の戦術にフィットさせていくのか。リーダー論としても楽しめます。&lt;/p>
+&lt;h4 id="ジョゼモウリーニョ">ジョゼ・モウリーニョ&lt;/h4>
+&lt;p>&lt;img src="https://namaraii.com/images/XTKviRCG8IBoxM.jpg" alt="/images/XTKviRCG8IBoxM.jpg">
+&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4062133350/offtheball2008-22/">ジョゼ・モウリーニョ&lt;/a>&lt;/p>
+&lt;p>posted with
+&lt;a href="http://yomereba.com">ヨメレバ&lt;/a>&lt;/p>
+&lt;p>ルイス・ローレンス,ジョゼ・モウリーニョ 講談社 2006–02–28&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4062133350/offtheball2008-22/">Amazon&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/gp/search?keywords=%83W%83%87%83%5B%81E%83%82%83E%83%8A%81%5B%83j%83%87&amp;amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;amp;url=node%3D2275256051&amp;amp;tag=offtheball2008-22">Kindle&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://hb.afl.rakuten.co.jp/hgc/0ffebcc2.9bf075da.0ffebcc3.ebe9049a/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F3976638%2F%3Fscid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2Fev%2Fbook%2F">楽天ブックス&lt;/a>&lt;/p>
+&lt;p>FCポルトからチェルシーまでの話。傲慢な振るまいや言動は意図的で、選手へのマスコミや他のクラブからの攻撃を自分が盾になるためというのは、スカパー！のモウリーニョ特集でも見ました。&lt;/p>
+&lt;p>2013年J2長崎の監督 高木琢也監督は本書を以下のように評しています。&lt;/p>
+&lt;blockquote>
+&lt;p>モウリーニョは意識的に2つの顔を使い分けている計算高い戦略家だ。&lt;/p>
+&lt;p>傲慢かつ厳格な性格の持ち主に見える彼の印象は、実は対外的な一面にすぎない。メディアや他クラブからの批判は、逆境に立ち向かう選手たちの意識付けとして想定されたものだろう。&lt;/p>
+&lt;p>彼の本当の姿は、選手との対話を重んじ、最大級のモチベーションでピッチに送り出すところにある。ゲーム戦術と同時に、戦う意識を最大限引き出す。&lt;/p>
+&lt;p>モウリーニョの成功は、モチベーターとしての二面性を兼ね備え、かつその理想を具現化した証だ。彼が現在の地位を築く様が詳細に描かれたこの本は、単なる雑誌の特集とは深さが違う。&lt;/p>
+&lt;p>フットボールはもとより、あらゆるスポーツの関係者のみならず、一般のビジネスマンにも、必ずや心に響く紆余曲折のストーリーが展開されている。なるほど、華やかな成功の陰には、真の苦労があったのだ。指導者への道を本格的に歩き始めた私にとっても、これほどモチベーションが上がる本はない&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="モウリーニョのリーダー論-世界最強チームの束ね方">モウリーニョのリーダー論 世界最強チームの束ね方&lt;/h4>
+&lt;p>&lt;img src="https://namaraii.com/images/hrJmpihQ-gj1MR.jpg" alt="/images/hrJmpihQ-gj1MR.jpg">
+&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4408453927/offtheball2008-22/">モウリーニョのリーダー論 世界最強チームの束ね方&lt;/a>&lt;/p>
+&lt;p>posted with
+&lt;a href="http://yomereba.com">ヨメレバ&lt;/a>&lt;/p>
+&lt;p>ルイス・ローレンス 実業之日本社 2012–05–19&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4408453927/offtheball2008-22/">Amazon&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/gp/search?keywords=%83%82%83E%83%8A%81%5B%83j%83%87%82%CC%83%8A%81%5B%83_%81%5B%98_%20%90%A2%8AE%8D%C5%8B%AD%83%60%81%5B%83%80%82%CC%91%A9%82%CB%95%FB&amp;amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;amp;url=node%3D2275256051&amp;amp;tag=offtheball2008-22">Kindle&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://hb.afl.rakuten.co.jp/hgc/0ffebcc2.9bf075da.0ffebcc3.ebe9049a/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F11698466%2F%3Fscid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2Fev%2Fbook%2F">楽天ブックス&lt;/a>&lt;/p>
+&lt;p>モウリーニョの発言を多く引用し、そこからリーダー論を展開する内容。&lt;/p>
+&lt;p>「リーダーとは何か。それは命令を下すことではない、ガイドすることだ」&lt;/p>
+&lt;h4 id="ベンゲルノート">ベンゲル・ノート&lt;/h4>
+&lt;p>&lt;img src="https://namaraii.com/images/wR0ROpCEjvA-74.jpg" alt="/images/wR0ROpCEjvA-74.jpg">
+&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4344002016/offtheball2008-22/">ベンゲル・ノート&lt;/a>&lt;/p>
+&lt;p>posted with
+&lt;a href="http://yomereba.com">ヨメレバ&lt;/a>&lt;/p>
+&lt;p>中西 哲生,戸塚 啓 幻冬舎 2002–05&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4344002016/offtheball2008-22/">Amazon&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/gp/search?keywords=%83x%83%93%83Q%83%8B%81E%83m%81%5B%83g&amp;amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;amp;url=node%3D2275256051&amp;amp;tag=offtheball2008-22">Kindle&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://hb.afl.rakuten.co.jp/hgc/0ffebcc2.9bf075da.0ffebcc3.ebe9049a/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F1448244%2F%3Fscid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2Fev%2Fbook%2F">楽天ブックス&lt;/a>&lt;/p>
+&lt;p>中西哲生が名古屋グランパス時代に作成していた、ベンゲル監督のトレーニングメニューやミーティングでの発言のメモを元に構成されたベンゲルの理論と戦術をまとめた一冊。&lt;/p>
+&lt;h4 id="名将への挑戦状-世界のサッカー監督論">名将への挑戦状 ～世界のサッカー監督論～&lt;/h4>
+&lt;p>&lt;img src="https://namaraii.com/images/uKTR4N93iMgpr9.jpg" alt="/images/uKTR4N93iMgpr9.jpg">
+&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4809409694/offtheball2008-22/">名将への挑戦状 ～世界のサッカー監督論～&lt;/a>&lt;/p>
+&lt;p>posted with
+&lt;a href="http://yomereba.com">ヨメレバ&lt;/a>&lt;/p>
+&lt;p>ヘスス・スアレス,小宮 良之 東邦出版 2011–08–06&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4809409694/offtheball2008-22/">Amazon&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/gp/search?keywords=%96%BC%8F%AB%82%D6%82%CC%92%A7%90%ED%8F%F3%20%81%60%90%A2%8AE%82%CC%83T%83b%83J%81%5B%8A%C4%93%C2%98_%81%60&amp;amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;amp;url=node%3D2275256051&amp;amp;tag=offtheball2008-22">Kindle&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://hb.afl.rakuten.co.jp/hgc/0ffebcc2.9bf075da.0ffebcc3.ebe9049a/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F11313627%2F%3Fscid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2Fev%2Fbook%2F">楽天ブックス&lt;/a>&lt;/p>
+&lt;p>雑誌『ワールドサッカーダイジェスト』でコラムを連載しているヘスス・スアレスが13人の大物監督について語るコラム。&lt;/p>
+&lt;ol>
+&lt;li>&lt;span id="dfdf">ジョゼップ・グアルディオラ&lt;/span>&lt;/li>
+&lt;li>&lt;span id="9c8a">ファビオ・カペッロ&lt;/span>&lt;/li>
+&lt;li>&lt;span id="3ce3">ウナイ・エメリ&lt;/span>&lt;/li>
+&lt;li>&lt;span id="669b">ルイ・ファン・ハール&lt;/span>&lt;/li>
+&lt;li>&lt;span id="895a">ホセ・アントニオ・カマーチョ&lt;/span>&lt;/li>
+&lt;li>&lt;span id="bce6">マルセロ・ビエルサ&lt;/span>&lt;/li>
+&lt;li>&lt;span id="349d">ミカエル・ラウドルップ&lt;/span>&lt;/li>
+&lt;li>&lt;span id="bd6e">ビセンテ・デルボスケ&lt;/span>&lt;/li>
+&lt;li>&lt;span id="87bd">ドゥンガ&lt;/span>&lt;/li>
+&lt;li>&lt;span id="3553">ラファエル・ベニテス&lt;/span>&lt;/li>
+&lt;li>&lt;span id="c102">ビクトール・フェルナンデス&lt;/span>&lt;/li>
+&lt;li>&lt;span id="8986">アーセン・ベンゲル&lt;/span>&lt;/li>
+&lt;li>&lt;span id="371c">ジョゼ・モウリーニョ&lt;/span>&lt;/li>
+&lt;/ol>
+&lt;h4 id="戦術論サッカーの見方がわかる本">戦術論、サッカーの見方がわかる本&lt;/h4>
+&lt;h4 id="サッカー戦術クロニクル">サッカー戦術クロニクル&lt;/h4>
+&lt;p>&lt;img src="https://namaraii.com/images/RuBTumZK2FP3Tg.jpg" alt="/images/RuBTumZK2FP3Tg.jpg">
+&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4862550169/offtheball2008-22/">サッカー戦術クロニクル&lt;/a>&lt;/p>
+&lt;p>posted with
+&lt;a href="http://yomereba.com">ヨメレバ&lt;/a>&lt;/p>
+&lt;p>西部 謙司 カンゼン 2008–07–19&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4862550169/offtheball2008-22/">Amazon&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/gp/search?keywords=%83T%83b%83J%81%5B%90%ED%8Fp%83N%83%8D%83j%83N%83%8B&amp;amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;amp;url=node%3D2275256051&amp;amp;tag=offtheball2008-22">Kindle&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://hb.afl.rakuten.co.jp/hgc/0ffebcc2.9bf075da.0ffebcc3.ebe9049a/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F5803619%2F%3Fscid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2Fev%2Fbook%2F">楽天ブックス&lt;/a>&lt;/p>
+&lt;p>トータルフットボールというキーワードを軸に戦術の変遷を紐解いていく。ミケルス、ACミラン、ヨハン・クライフ、アルゼンチンとマラドーナ、ジダンとアヤックス、銀河系時代のレアル・マドリード、モウリーニョの4–3–3、ハードワークの時代などがキーワード。&lt;/p>
+&lt;h4 id="サッカー戦術クロニクルii">サッカー戦術クロニクルII&lt;/h4>
+&lt;p>&lt;img src="https://namaraii.com/images/ZTQlFdnhdjoSro.jpg" alt="/images/ZTQlFdnhdjoSro.jpg">
+&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4862550460/offtheball2008-22/">サッカー戦術クロニクルII&lt;/a>&lt;/p>
+&lt;p>posted with
+&lt;a href="http://yomereba.com">ヨメレバ&lt;/a>&lt;/p>
+&lt;p>西部謙司 カンゼン 2009–09–02&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4862550460/offtheball2008-22/">Amazon&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/gp/search?keywords=%83T%83b%83J%81%5B%90%ED%8Fp%83N%83%8D%83j%83N%83%8BII&amp;amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;amp;url=node%3D2275256051&amp;amp;tag=offtheball2008-22">Kindle&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://hb.afl.rakuten.co.jp/hgc/0ffebcc2.9bf075da.0ffebcc3.ebe9049a/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F6172564%2F%3Fscid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2Fev%2Fbook%2F">楽天ブックス&lt;/a>&lt;/p>
+&lt;p>テーマは「消えた戦術と現代サッカーを読む」。カウンターアタック、マンツーマン、ロングボール、リバプールとビルドアップ、スペインとバロセロナ、マンチェスター・ユナイテッド、チェルシー、ジェノア、セットプレーの変遷など。&lt;/p>
+&lt;h4 id="サッカーの見方は1日で変えられる">サッカーの見方は1日で変えられる&lt;/h4>
+&lt;p>&lt;img src="https://namaraii.com/images/8W3b8FZCRtzcbv.jpg" alt="/images/8W3b8FZCRtzcbv.jpg">
+&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4492043756/offtheball2008-22/">サッカーの見方は1日で変えられる&lt;/a>&lt;/p>
+&lt;p>posted with
+&lt;a href="http://yomereba.com">ヨメレバ&lt;/a>&lt;/p>
+&lt;p>木崎 伸也 東洋経済新報社 2010–04–29&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4492043756/offtheball2008-22/">Amazon&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/gp/search?keywords=%83T%83b%83J%81%5B%82%CC%8C%A9%95%FB%82%CD1%93%FA%82%C5%95%CF%82%A6%82%E7%82%EA%82%E9&amp;amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;amp;url=node%3D2275256051&amp;amp;tag=offtheball2008-22">Kindle&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://hb.afl.rakuten.co.jp/hgc/0ffebcc2.9bf075da.0ffebcc3.ebe9049a/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F6470380%2F%3Fscid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2Fev%2Fbook%2F">楽天ブックス&lt;/a>&lt;/p>
+&lt;p>『ボールを追うのは3流、フォーメーションを論じるのは2流。では、「本当のプロ」はどこを見ているのか?』どのような視点で何を見ると、よりサッカーを楽しめるかを手引きしてくれる一冊。&lt;/p>
+&lt;h4 id="アンチェロッティの戦術ノート">アンチェロッティの戦術ノート&lt;/h4>
+&lt;p>&lt;img src="https://namaraii.com/images/rUY_DFvg9Q3n9h.jpg" alt="/images/rUY_DFvg9Q3n9h.jpg">
+&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4309271901/offtheball2008-22/">アンチェロッティの戦術ノート&lt;/a>&lt;/p>
+&lt;p>posted with
+&lt;a href="http://yomereba.com">ヨメレバ&lt;/a>&lt;/p>
+&lt;p>カルロ・アンチェロッティ,片野 道郎 河出書房新社 2010–05–10&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4309271901/offtheball2008-22/">Amazon&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/gp/search?keywords=%83A%83%93%83%60%83F%83%8D%83b%83e%83B%82%CC%90%ED%8Fp%83m%81%5B%83g&amp;amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;amp;url=node%3D2275256051&amp;amp;tag=offtheball2008-22">Kindle&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://hb.afl.rakuten.co.jp/hgc/0ffebcc2.9bf075da.0ffebcc3.ebe9049a/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F6471896%2F%3Fscid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2Fev%2Fbook%2F">楽天ブックス&lt;/a>&lt;/p>
+&lt;p>アンチェロッティの戦術論、選手論、監督論がまとめられた本。実際の試合についての分析が興味深い。&lt;/p>
+&lt;h4 id="宮本式ワンランク上のサッカー観戦術">宮本式・ワンランク上のサッカー観戦術&lt;/h4>
+&lt;p>&lt;img src="https://namaraii.com/images/cDCFh7VZ6QwZq4.jpg" alt="/images/cDCFh7VZ6QwZq4.jpg">
+&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4022734531/offtheball2008-22/">宮本式・ワンランク上のサッカー観戦術 (朝日新書)&lt;/a>&lt;/p>
+&lt;p>posted with
+&lt;a href="http://yomereba.com">ヨメレバ&lt;/a>&lt;/p>
+&lt;p>宮本恒靖 朝日新聞出版 2012–06–13&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4022734531/offtheball2008-22/">Amazon&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00AAQTPOG/offtheball2008-22/">Kindle&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://hb.afl.rakuten.co.jp/hgc/0ffebcc2.9bf075da.0ffebcc3.ebe9049a/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F11692459%2F%3Fscid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2Fev%2Fbook%2F">楽天ブックス&lt;/a>&lt;/p>
+&lt;p>『サッカーの見方は1日で変えられる』に近い切り口。サッカー観戦のレベルの上げ方、楽しみ方をツネ様が指南。&lt;/p>
+&lt;h4 id="センターバック専門講座">センターバック専門講座&lt;/h4>
+&lt;p>&lt;img src="https://namaraii.com/images/FX1Pr9EkSnRaep.jpg" alt="/images/FX1Pr9EkSnRaep.jpg">
+&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4809410625/offtheball2008-22/">センターバック専門講座&lt;/a>&lt;/p>
+&lt;p>posted with
+&lt;a href="http://yomereba.com">ヨメレバ&lt;/a>&lt;/p>
+&lt;p>秋田 豊 東邦出版 2012–08–02&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4809410625/offtheball2008-22/">Amazon&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/gp/search?keywords=%83Z%83%93%83%5E%81%5B%83o%83b%83N%90%EA%96%E5%8Du%8D%C0&amp;amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;amp;url=node%3D2275256051&amp;amp;tag=offtheball2008-22">Kindle&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://hb.afl.rakuten.co.jp/hgc/0ffebcc2.9bf075da.0ffebcc3.ebe9049a/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F11805190%2F%3Fscid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2Fev%2Fbook%2F">楽天ブックス&lt;/a>&lt;/p>
+&lt;p>元日本代表の秋田豊が自らの経験を元にヘディングの技術、1対1の対応、守備システム、ラインコントロール、攻撃、メンタルまでを深く解説する。&lt;/p>
+&lt;h4 id="エッセイドキュメントなどの読み物">エッセイ・ドキュメントなどの読み物&lt;/h4>
+&lt;h4 id="ボクらの蹴活夢をかなえた19人の少年時代">ボクらの蹴活―夢をかなえた19人の少年時代&lt;/h4>
+&lt;p>&lt;img src="https://namaraii.com/images/fphsB2D5JfpT5u.jpg" alt="/images/fphsB2D5JfpT5u.jpg">
+&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4054042252/offtheball2008-22/">ボクらの蹴活―夢をかなえた19人の少年時代 (GAKKEN SPORTS BOOKS)&lt;/a>&lt;/p>
+&lt;p>posted with
+&lt;a href="http://yomereba.com">ヨメレバ&lt;/a>&lt;/p>
+&lt;p>ストライカー編集部 学習研究社 2009–07&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4054042252/offtheball2008-22/">Amazon&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/gp/search?keywords=%83%7B%83N%82%E7%82%CC%8FR%8A%88%81%5C%96%B2%82%F0%82%A9%82%C8%82%A6%82%BD19%90l%82%CC%8F%AD%94N%8E%9E%91%E3%20%28GAKKEN%20SPORTS%20BOOKS%29&amp;amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;amp;url=node%3D2275256051&amp;amp;tag=offtheball2008-22">Kindle&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://hb.afl.rakuten.co.jp/hgc/0ffebcc2.9bf075da.0ffebcc3.ebe9049a/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F6128603%2F%3Fscid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2Fev%2Fbook%2F">楽天ブックス&lt;/a>&lt;/p>
+&lt;p>内田篤人、岡崎慎司、玉田圭司、中村憲剛、前田遼一などの19選手の少年時代。日本代表の選手と言えども、ずっと順風満帆できたわけでないことがわかる。&lt;/p>
+&lt;h4 id="日本サッカーと世界基準">日本サッカーと「世界基準」&lt;/h4>
+&lt;p>&lt;img src="https://namaraii.com/images/l45nWdtNxsIKi0.jpg" alt="/images/l45nWdtNxsIKi0.jpg">
+&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4396110464/offtheball2008-22/">日本サッカーと「世界基準」 (祥伝社新書 (046))&lt;/a>&lt;/p>
+&lt;p>posted with
+&lt;a href="http://yomereba.com">ヨメレバ&lt;/a>&lt;/p>
+&lt;p>セルジオ越後 祥伝社 2006–08&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4396110464/offtheball2008-22/">Amazon&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/gp/search?keywords=%93%FA%96%7B%83T%83b%83J%81%5B%82%C6%81u%90%A2%8AE%8A%EE%8F%80%81v%20%28%8F%CB%93%60%8E%D0%90V%8F%91%20%28046%29%29&amp;amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;amp;url=node%3D2275256051&amp;amp;tag=offtheball2008-22">Kindle&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://hb.afl.rakuten.co.jp/hgc/0ffebcc2.9bf075da.0ffebcc3.ebe9049a/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F4117921%2F%3Fscid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2Fev%2Fbook%2F">楽天ブックス&lt;/a>&lt;/p>
+&lt;p>いつものセルジオ節で日本サッカーの問題点を提言する一冊。&lt;/p>
+&lt;h4 id="やめないよ">やめないよ&lt;/h4>
+&lt;p>&lt;img src="https://namaraii.com/images/vvluupOQNiD1If.jpg" alt="/images/vvluupOQNiD1If.jpg">
+&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4106104059/offtheball2008-22/">やめないよ (新潮新書)&lt;/a>&lt;/p>
+&lt;p>posted with
+&lt;a href="http://yomereba.com">ヨメレバ&lt;/a>&lt;/p>
+&lt;p>三浦知良 新潮社 2011–01–14&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4106104059/offtheball2008-22/">Amazon&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/gp/search?keywords=%82%E2%82%DF%82%C8%82%A2%82%E6%20%28%90V%92%AA%90V%8F%91%29&amp;amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;amp;url=node%3D2275256051&amp;amp;tag=offtheball2008-22">Kindle&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://hb.afl.rakuten.co.jp/hgc/0ffebcc2.9bf075da.0ffebcc3.ebe9049a/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F6945338%2F%3Fscid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2Fev%2Fbook%2F">楽天ブックス&lt;/a>&lt;/p>
+&lt;p>キング・カズの日経新聞コラムをまとめたもの。プロローグの1行目が「横浜FC」で始まるのが胸熱。&lt;/p>
+&lt;p>読みやすい内容ながら、プロフェッショナルな姿勢や考え方など多くのことを学べます。&lt;/p>
+&lt;h4 id="文体とパスの精度">文体とパスの精度&lt;/h4>
+&lt;p>&lt;img src="https://namaraii.com/images/XqteuGyquVFZx5.jpg" alt="/images/XqteuGyquVFZx5.jpg">
+&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4087475719/offtheball2008-22/">文体とパスの精度 (集英社文庫)&lt;/a>&lt;/p>
+&lt;p>posted with
+&lt;a href="http://yomereba.com">ヨメレバ&lt;/a>&lt;/p>
+&lt;p>村上 龍,中田 英寿 集英社 2003–04–17&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4087475719/offtheball2008-22/">Amazon&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/gp/search?keywords=%95%B6%91%CC%82%C6%83p%83X%82%CC%90%B8%93x%20%28%8FW%89p%8E%D0%95%B6%8C%C9%29&amp;amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;amp;url=node%3D2275256051&amp;amp;tag=offtheball2008-22">Kindle&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://hb.afl.rakuten.co.jp/hgc/0ffebcc2.9bf075da.0ffebcc3.ebe9049a/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F1549192%2F%3Fscid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2Fev%2Fbook%2F">楽天ブックス&lt;/a>&lt;/p>
+&lt;p>村上龍と中田英寿の対談、メールの内容をまとめたもの。パルマ在籍中の話。この時の中田英寿とのやりとりが、&lt;a href="http://www.amazon.co.jp/gp/product/4344404777/ref=as_li_ss_tl?ie=UTF8&amp;amp;camp=247&amp;amp;creative=7399&amp;amp;creativeASIN=4344404777&amp;amp;linkCode=as2&amp;amp;tag=offtheball2008-22">悪魔のパス 天使のゴール (幻冬舎文庫)&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/_ySSqsdrR55wVQ.gif" alt="/images/_ySSqsdrR55wVQ.gif">
+の描写に活かされることになる。&lt;/p>
+&lt;h4 id="最後の新聞-サッカー専門紙エルゴラッソの成功">「最後」の新聞 ～サッカー専門紙「エル・ゴラッソ」の成功～&lt;/h4>
+&lt;p>&lt;img src="https://namaraii.com/images/Uv66qRcx7GDH8g.jpg" alt="/images/Uv66qRcx7GDH8g.jpg">
+&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4847060296/offtheball2008-22/">「最後」の新聞 ～サッカー専門紙「エル・ゴラッソ」の成功～ (ワニブックスPLUS新書)&lt;/a>&lt;/p>
+&lt;p>posted with
+&lt;a href="http://yomereba.com">ヨメレバ&lt;/a>&lt;/p>
+&lt;p>山田 泰 ワニブックス 2010–12–08&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4847060296/offtheball2008-22/">Amazon&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/gp/search?keywords=%81u%8D%C5%8C%E3%81v%82%CC%90V%95%B7%20%81%60%83T%83b%83J%81%5B%90%EA%96%E5%8E%86%81u%83G%83%8B%81E%83S%83%89%83b%83%5C%81v%82%CC%90%AC%8C%F7%81%60%20%28%83%8F%83j%83u%83b%83N%83XPLUS%90V%8F%91%29&amp;amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;amp;url=node%3D2275256051&amp;amp;tag=offtheball2008-22">Kindle&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://hb.afl.rakuten.co.jp/hgc/0ffebcc2.9bf075da.0ffebcc3.ebe9049a/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F6858018%2F%3Fscid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2Fev%2Fbook%2F">楽天ブックス&lt;/a>&lt;/p>
+&lt;p>愛読紙「エル・ゴラッソ」が創刊されるまでのドキュメント。「素人」だったからこそ業界の常識にとらわれず、新しい「新聞」を生み出すことができたのでしょう。「知らない」ことは武器でもあります。&lt;/p>
+&lt;h4 id="日本人はなぜシュートを打たないのか">日本人はなぜシュートを打たないのか?&lt;/h4>
+&lt;p>&lt;img src="https://namaraii.com/images/sT0xAX-zHyEyzS.jpg" alt="/images/sT0xAX-zHyEyzS.jpg">
+&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4756149553/offtheball2008-22/">日本人はなぜシュートを打たないのか? (アスキー新書 018)&lt;/a>&lt;/p>
+&lt;p>posted with
+&lt;a href="http://yomereba.com">ヨメレバ&lt;/a>&lt;/p>
+&lt;p>湯浅 健二 アスキー 2007–07–10&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4756149553/offtheball2008-22/">Amazon&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/ASIN/B009KZBXHU/offtheball2008-22/">Kindle&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://hb.afl.rakuten.co.jp/hgc/0ffebcc2.9bf075da.0ffebcc3.ebe9049a/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F4450290%2F%3Fscid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2Fev%2Fbook%2F">楽天ブックス&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>「何故シュートを打たないんだ!
+シュートを打たなきゃ、ゴールなんて絶対に生まれないんだぞ!!」&lt;br>
+日本代表のゲームやJリーグの試合を観ながら、何度となく心のなかで叫んだものだ。とにかく日本人は、チャンスがあるのにシュートを打たない傾向が強い。&lt;br>
+攻撃の目的はシュートを打つことであり、ゴールは結果にしか過ぎない。とにかくシュートを打たなければ、まったく何も起きないのだ。&lt;/p>
+&lt;/blockquote>
+&lt;p>最近の若い世代はガンガン打つ選手が多いですね。これからが楽しみです。&lt;/p>
+&lt;h4 id="小説コミックス">小説・コミックス&lt;/h4>
+&lt;h4 id="さよならフットボール">さよならフットボール&lt;/h4>
+&lt;p>&lt;img src="https://namaraii.com/images/IGLjkfc3Yb62na.jpg" alt="/images/IGLjkfc3Yb62na.jpg">
+&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4063758729/offtheball2008-22/">さよならフットボール(1) (KCデラックス)&lt;/a>&lt;/p>
+&lt;p>posted with
+&lt;a href="http://yomereba.com">ヨメレバ&lt;/a>&lt;/p>
+&lt;p>新川 直司 講談社 2010–02–17&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4063758729/offtheball2008-22/">Amazon&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/gp/search?keywords=%82%B3%82%E6%82%C8%82%E7%83t%83b%83g%83%7B%81%5B%83%8B%281%29%20%28KC%83f%83%89%83b%83N%83X%29&amp;amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;amp;url=node%3D2275256051&amp;amp;tag=offtheball2008-22">Kindle&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://hb.afl.rakuten.co.jp/hgc/0ffebcc2.9bf075da.0ffebcc3.ebe9049a/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F6314723%2F%3Fscid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2Fev%2Fbook%2F">楽天ブックス&lt;/a>&lt;/p>
+&lt;p>男子顔負けの技術を持ちながら、フィジカルのハンデに苦悩しながらも決して諦めず、挑戦し続ける女子中学生のお話。素晴らしい作品。泣けます。&lt;/p>
+&lt;h4 id="giant-killing">GIANT KILLING&lt;/h4>
+&lt;p>&lt;img src="https://namaraii.com/images/FHAx3Z_H_ZDFWr.jpg" alt="/images/FHAx3Z_H_ZDFWr.jpg">
+&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4063725936/offtheball2008-22/">GIANT KILLING(1) (モーニングKC)&lt;/a>&lt;/p>
+&lt;p>posted with
+&lt;a href="http://yomereba.com">ヨメレバ&lt;/a>&lt;/p>
+&lt;p>ツジトモ 講談社 2007–04–23&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4063725936/offtheball2008-22/">Amazon&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/ASIN/B009KWTIFM/offtheball2008-22/">Kindle&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://hb.afl.rakuten.co.jp/hgc/0ffebcc2.9bf075da.0ffebcc3.ebe9049a/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F4334987%2F%3Fscid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2Fev%2Fbook%2F">楽天ブックス&lt;/a>&lt;/p>
+&lt;p>いわずと知れた「ジャイキリ」ストーリーも面白いし、何よりもサポーターの心理が良く描かれているところが好き。Jリーグのサポならのめり込むこと必至です。&lt;/p>
+&lt;h4 id="悪魔のパス-天使のゴール">悪魔のパス 天使のゴール&lt;/h4>
+&lt;p>&lt;img src="https://namaraii.com/images/DiiQPd9E38b-il.jpg" alt="/images/DiiQPd9E38b-il.jpg">
+&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4344404777/offtheball2008-22/">悪魔のパス 天使のゴール (幻冬舎文庫)&lt;/a>&lt;/p>
+&lt;p>posted with
+&lt;a href="http://yomereba.com">ヨメレバ&lt;/a>&lt;/p>
+&lt;p>村上 龍 幻冬舎 2004–01&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4344404777/offtheball2008-22/">Amazon&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/gp/search?keywords=%88%AB%96%82%82%CC%83p%83X%20%93V%8Eg%82%CC%83S%81%5B%83%8B%20%28%8C%B6%93%7E%8E%C9%95%B6%8C%C9%29&amp;amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;amp;url=node%3D2275256051&amp;amp;tag=offtheball2008-22">Kindle&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://hb.afl.rakuten.co.jp/hgc/0ffebcc2.9bf075da.0ffebcc3.ebe9049a/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F1631346%2F%3Fscid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2Fev%2Fbook%2F">楽天ブックス&lt;/a>&lt;/p>
+&lt;p>試合で活躍した選手が心臓麻痺で死ぬという事件を解き明かそうとする、小説家
+矢崎とセリエAの日本人プレイヤー冬次の物語。物語の面白さに加えてサッカーの描写が精緻で素晴らしい。&lt;/p>
+&lt;p>こうして眺めてみると、サッカーをより楽しむための本（戦術や見方）と一流のアスリートからの学びを得るための本（監督本）を多く読んでいるようです。&lt;/p>
+&lt;p>他におすすめのサッカー本をご存知でしたら、ぜひ教えてください！&lt;/p></description></item><item><title>リンダ・グラットン『ワーク・シフト ― 孤独と貧困から自由になる働き方の未来図』 (読書メモ)</title><link>https://namaraii.com/post/2012/20120910_e982949e3b2c/</link><pubDate>Mon, 10 Sep 2012 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2012/20120910_e982949e3b2c/</guid><description>
+&lt;blockquote>
+&lt;p>2025年、私たちはどんなふうに働いているだろうか?&lt;br>
+「漫然と迎える未来」には孤独で貧困な人生が待ち受け、&lt;br>
+「主体的に築く未来」には自由で創造的な人生がある。&lt;br>
+どちらの人生になるかは、〈ワーク・シフト〉できるか否かにかかっている。&lt;/p>
+&lt;/blockquote>
+&lt;p>社会や仕事を取りまくさまざまな変化に対し、「個人として」どのように対応して生き残るか。新しい働き方を考えるきっかけを与えてくれる本です。&lt;/p>
+&lt;p>読んでいるとグサグサ刺さる人が多いんじゃないでしょうか。少なくとも私は刺さりまくりました。&lt;/p>
+&lt;p>以下、読書メモを共有します。&lt;/p>
+&lt;h4 id="第一のシフト-ゼネラリストから連続スペシャリストへ">第一のシフト ゼネラリストから「連続スペシャリスト」へ&lt;/h4>
+&lt;p>専門技能の習熟に土台を置くキャリアを意識的に築くこと。&lt;/p>
+&lt;blockquote>
+&lt;p>世界の50億人がインターネットにアクセスし、つながり合う世界が出現すれば、ゼネラリストの時代が幕を下ろすことは明らかだ&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>未来にどういう技能と能力が評価されるかを知り、その分野で高度な技能を磨くのと当時に、状況に応じて専門分野を変えることが求められるのだ。&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>個人の差別化がますます難しくなるなかで、セルフマーケティングをおこなって自分を売り込み、自分の技量を証明する材料を確立する必要性も高まる。&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="大勢のなかで自分の存在を際立たせるために有効な方法">大勢のなかで自分の存在を際立たせるために有効な方法&lt;/h4>
+&lt;p>1.自分の仕事に自分の刻印を押すなり、署名を書き込むなりすること。つまり、あなたの手がけた仕事が誰の目にもあなたの仕事だとわかるように、明確な特徴をもたせる。&lt;/p>
+&lt;p>2.弁護士や医師のような専門職にならって、ギルド（同業者組合）やそれに類する組織をつくること&lt;/p>
+&lt;p>3.教会のカリヨン・ツリー型のキャリアを実践する&lt;br>
+いくつもの小さな釣鐘が連なって職業人生を形づくる「カリヨン・ツリー型」のキャリア。精力的に仕事に打ち込む期間と、長期休業して学業やボランティア活動に専念したり、仕事のペースを落として私生活を優先させたりする期間を交互に経験し、ジグザグ模様を描きながら仕事のエネルギーや技能を高めていくのである。&lt;/p>
+&lt;h4 id="第二のシフト-孤独の競争から協力して起こすイノベーションへ">第二のシフト 孤独の競争から「協力して起こすイノベーション」へ&lt;/h4>
+&lt;p>自分を中心に据えつつも、ほかの人たちとの強い関わりを保った働き方を見いだすこと。未来の世界には、孤独にあくせく競い合うのではなく、ほかの人たちとつながり合いながら、もっとイノベーション精神を発揮できるようになる可能性が広がっている。&lt;/p>
+&lt;p>3つのタイプの人的ネットワークを積極的に築いていく必要がある。&lt;br>
+(1)ポッセ（同じ志をもつ仲間）&lt;br>
+いざというときに頼りになり、長期にわたって互恵的な関係を築ける少人数のグループ&lt;/p>
+&lt;p>(2) ビックアイデア・クラウド（大きなアイデアの源となる群衆）&lt;br>
+多様性に富んだ大人数のネットワーク。スケールの大きなアイデアや新たなコネともたらす機能を果たす。&lt;/p>
+&lt;p>(3) 自己再生のコミュニティ&lt;br>
+頻繁に会い、一緒に笑い、食事を共にすることにより、リラックスし、リフレッシュできる人たちのこと。&lt;/p>
+&lt;h4 id="第三のソフト-大量消費から情熱を傾けられる経験へ">第三のソフト 大量消費から「情熱を傾けられる経験」へ&lt;/h4>
+&lt;blockquote>
+&lt;p>どういう職業人生が幸せかという常識を問い直すべきだ。これまでの常識どおり、貪欲に大量のモノを消費し続けることが幸せなのか。それともそうしたライフスタイルが代償をともなうことを明確に認識した上で、質の高い経験と人生のバランスを重んじる姿勢に転換する方が幸せなのか。&lt;/p>
+&lt;/blockquote>
+&lt;p>ある程度以上の収入を手にすると、「欲しいモノ」はどんどん減ってきます。自分にとって何が大切か、どんな生活をしたいのかを認識した上で、どちらに舵を切るかを考えるべきだということですね。&lt;/p>
+&lt;p>400ページ近い書籍ですが、書き込みしながら一気に読んでしまいました。オススメです。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/bobrZibCqUZhqI.jpg" alt="/images/bobrZibCqUZhqI.jpg">
+&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4833420163/namaraiicom-22/">ワーク・シフト ― 孤独と貧困から自由になる働き方の未来図〈2025〉&lt;/a>&lt;/p>
+&lt;p>posted with
+&lt;a href="http://yomereba.com">ヨメレバ&lt;/a>&lt;/p>
+&lt;p>リンダ・グラットン プレジデント社 2012–07–28&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4833420163/namaraiicom-22/">Amazon&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://hb.afl.rakuten.co.jp/hgc/0ffebcc2.9bf075da.0ffebcc3.ebe9049a/?pc=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F11798043%2F%3Fscid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2Fev%2Fbook%2F">楽天ブックス&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://click.linksynergy.com/fs-bin/click?id=4EVf/nY9Pr4&amp;amp;subid=&amp;amp;offerid=197738.1&amp;amp;type=10&amp;amp;tmpid=1787&amp;amp;RD_PARM1=http%253A%252F%252Fwww.7netshopping.jp%252Fbooks%252Fsearch_result%252F%253Fctgy%253Dbooks%2526code%253D4833420163">7net&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://click.linksynergy.com/fs-bin/click?id=4EVf/nY9Pr4&amp;amp;subid=&amp;amp;offerid=169505.1&amp;amp;type=10&amp;amp;tmpid=3677&amp;amp;RD_PARM1=http%253A%252F%252Fwww.bookoffonline.co.jp%252Fdisplay%252FL001%252Cbg%253D12%252Cq%253D9784833420167">ブックオフ&lt;/a>&lt;/p></description></item><item><title>小さなチーム、大きな仕事―37シグナルズ成功の法則</title><link>https://namaraii.com/post/2010/20100717_37953a1dd2d90e/</link><pubDate>Sat, 17 Jul 2010 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2010/20100717_37953a1dd2d90e/</guid><description>
+&lt;p>&lt;img src="https://namaraii.com/images/4WFAUG8S2ro4Ts.jpg" alt="/images/4WFAUG8S2ro4Ts.jpg">
+&lt;a href="http://www.photodropper.com/photos/">photo&lt;/a>
+credit:
+&lt;a href="http://www.flickr.com/photos/23136508@N00/4700039263/">mattbuck4950&lt;/a>&lt;/p>
+&lt;p>37signalsによる書籍。&lt;a href="http://htakeuchi.offtheball.jp/archives/3318">かなり前&lt;/a>に読み終わっていたが印象に残った部分を抜き書き。&lt;/p>
+&lt;p>「会社を大きくせずに、小さな企業やグループが楽に仕事できるようなソフトウェアを開発する」という考え方には深く共感するし、自分もそうありたい。&lt;/p>
+&lt;h4 id="サービスを生み出す方法">サービスを生み出す方法&lt;/h4>
+&lt;blockquote>
+&lt;p>あなたに必要なものを作るすごい製品やサービスを生み出すもっとも単純な方法は、あなたが使いたいものを作ることだ。自分の知っているものをデザインするのなら、作っているものがいいかどうかすぐに判断がつく。&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="時間がないは言い訳にならない">「時間がない」は言い訳にならない&lt;/h4>
+&lt;blockquote>
+&lt;p>一番多い言い訳は「時間がない」だ。会社を立ち上げたい、楽器を学びたい、発明を売り込みたい、本を書きたい、しかし十分な時間がない、と人は言う。&lt;br>
+そんなわけはない。ただし使えば時間はあるものだ。仕事を辞めなければと考える必要もない。普通の仕事をしながら、夜中にプロジェクトをスタートさせればいい。&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="芯から始める">芯から始める&lt;/h4>
+&lt;blockquote>
+&lt;p>芯の部分を見つけるには、「もしこれを手放しても、自分が売るものはまだ残っているか？」と自身に問いかけることだ。&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="変わらないものに目を向ける">変わらないものに目を向ける&lt;/h4>
+&lt;blockquote>
+&lt;p>多くの会社は「次の大きなこと」に目を向けている。人気が急上昇しているもの、新しいものに金をつぎ込み、最新のトレンドや技術に飛びつくのだ。&lt;br>
+それは愚かな戦略だ。ものそのものではなく、流行という常に変わり続けるものだけに焦点を絞ることになる。&lt;br>
+ビジネスを立ち上げるなら、その核は変わらないものであるべきだ。人々が今日欲しいと思う、そして１０年後も欲しいと思うもの。そうしたものにこそ力を投入すべきだ。&lt;br>
+３７シグナルズが焦点を当てているものは、早さ、シンプルさ、使いやすさ、わかりやすさだ。&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="やめた方がいいものを考える">やめた方がいいものを考える&lt;/h4>
+&lt;blockquote>
+&lt;ol>
+&lt;li>なぜ行うのか？&lt;br>
+ 2. どういった問題を解決するのか？&lt;br>
+ 3. これは本当に役に立つのか？&lt;br>
+ 4. 何か価値を加えているか？&lt;br>
+ 5. それは行動を変えるのか？&lt;br>
+ 6. もっと簡単な方法はないのか？&lt;br>
+ 7. かわりに何をすることができるのか？&lt;br>
+ 8. 本当にその価値があるのか？&lt;/li>
+&lt;/ol>
+&lt;/blockquote>
+&lt;h4 id="熱意を優先順位と混同するな">熱意を優先順位と混同するな&lt;/h4>
+&lt;blockquote>
+&lt;p>「すばらしいアイディア」はしばらく棚に上げておこう。多くの「すばらしいアイディア」を思いつくことはいいことだ。ひらめきに刺激され興奮することもいい。だが、瞬時の熱意に押されて行動してはいけない。アイディアを書き留めて、何日か棚に上げておこう。落ち着いてから、そのアイディアの優先順位を評価してみるのだ。&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="料理人を見習う">料理人を見習う&lt;/h4>
+&lt;blockquote>
+&lt;p>著名な料理人を見習おう。彼らは料理し、料理本を書く。あなたは？
+あなたの「レシピ」、あなたの「料理本」とは？
+教える価値があり、プロモーションにもなるネタとは何だろうか？
+この本が僕たちの料理本だ。ではあなたのは？&lt;/p>
+&lt;/blockquote></description></item></channel></rss>

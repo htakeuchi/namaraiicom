@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>テレワーク on namaraii.com</title><link>https://namaraii.com/tags/%E3%83%86%E3%83%AC%E3%83%AF%E3%83%BC%E3%82%AF/</link><description>Recent content in テレワーク on namaraii.com</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright><lastBuildDate>Sat, 16 Jan 2021 08:51:14 +0900</lastBuildDate><atom:link href="https://namaraii.com/tags/%E3%83%86%E3%83%AC%E3%83%AF%E3%83%BC%E3%82%AF/index.xml" rel="self" type="application/rss+xml"/><item><title>オンライン会議環境(2021年1月現在)</title><link>https://namaraii.com/post/2021/zoom-2021/</link><pubDate>Sat, 16 Jan 2021 08:51:14 +0900</pubDate><guid>https://namaraii.com/post/2021/zoom-2021/</guid><description>
+&lt;p>2020年の3月末ぐらいから、ほぼ全期間テレワークしています。最初の頃はオンライン会議でさまざまなトラブルがあったり、機材選びに悩んだりしていたのですが、ここ最近はかなり安定してきましたので、現時点での環境を書き記しておきます。&lt;/p>
+&lt;h1 id="音声環境">■音声環境&lt;/h1>
+&lt;p>音声関係で使っている機材はオンライン会議用に揃えたわけではなく、DTM機材として持っていたものをそのまま使っています。
+　&lt;/p>
+&lt;h3 id="マイクaudio-technica-at2020">マイク（audio-technica AT2020）&lt;/h3>
+&lt;p>コンデンサーマイクのAT2020を使っています。自分の場合、室内が比較的静かな環境であること、あまり声を張って話したくないなどの条件もあり、持っていたのがコンデンサーマイクでビンゴでした。&lt;/p>
+&lt;p>感度、音質ともに必要十分。通常の会話のボリュームで話して、聴き取りにくいと言われたことはありません。&lt;/p>
+&lt;div class="amazon-widget">
+&lt;a target="_blank" href="https://www.amazon.co.jp/gp/product/B000Y0FBY6/?tag=namaraiicom-22">&lt;/a>
+&lt;div class="amazon-widget-img">
+&lt;img src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;MarketPlace=JP&amp;ASIN=B000Y0FBY6&amp;ServiceVersion=20070822&amp;ID=AsinImage&amp;WS=1&amp;Format=_SL350_&amp;tag=namaraiicom-22" />
+&lt;/div>
+&lt;div class="amazon-widget-info">
+&lt;span class="amazon-widget-title">
+audio-technica コンデンサーマイクロホン AT2020 動画配信・宅録・ポッドキャスト・実況・DTM ブラック 【国内正規品】
+&lt;/span>
+&lt;span class="amazon-widget-via">
+&lt;img src="https://www.amazon.co.jp/favicon.ico" />
+amazon.co.jp
+&lt;/span>
+&lt;/div>
+&lt;/div>
+&lt;p>デスクに固定できるマイクスタンド。付属していたポップガードをそのまま使っています。&lt;/p>
+&lt;div class="amazon-widget">
+&lt;a target="_blank" href="https://www.amazon.co.jp/gp/product/B07D33F6JK/?tag=namaraiicom-22">&lt;/a>
+&lt;div class="amazon-widget-img">
+&lt;img src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;MarketPlace=JP&amp;ASIN=B07D33F6JK&amp;ServiceVersion=20070822&amp;ID=AsinImage&amp;WS=1&amp;Format=_SL350_&amp;tag=namaraiicom-22" />
+&lt;/div>
+&lt;div class="amazon-widget-info">
+&lt;span class="amazon-widget-title">
+Roycel マイクスタンド ポップガード マイクアーム コンデンサーマイク用 卓上マイクスタンド 実況 配信 収録 カラオケ (ポップガードセット)
+&lt;/span>
+&lt;span class="amazon-widget-via">
+&lt;img src="https://www.amazon.co.jp/favicon.ico" />
+amazon.co.jp
+&lt;/span>
+&lt;/div>
+&lt;/div>
+&lt;h3 id="オーディオインタフェースsteinberg-ur22mkii">オーディオインタフェース（Steinberg UR22mkII）&lt;/h3>
+&lt;p>使っているAT2020はUSBモデルもありますが、私が持っているのはXLRモデルなので、オーディオインタフェース経由で接続しています。&lt;/p>
+&lt;p>オーディオインタンタフェースは、DTM初心者向けの定番UR22mkIIを使っています。音楽制作に使えるぐらいなので、オンライン会議用途なら楽勝です。&lt;/p>
+&lt;div class="amazon-widget">
+&lt;a target="_blank" href="https://www.amazon.co.jp/gp/product/B017MVUAHM/?tag=namaraiicom-22">&lt;/a>
+&lt;div class="amazon-widget-img">
+&lt;img src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;MarketPlace=JP&amp;ASIN=B017MVUAHM&amp;ServiceVersion=20070822&amp;ID=AsinImage&amp;WS=1&amp;Format=_SL350_&amp;tag=namaraiicom-22" />
+&lt;/div>
+&lt;div class="amazon-widget-info">
+&lt;span class="amazon-widget-title">
+Steinberg スタインバーグ 2x2 USB2.0 24bit/192kHz オーディオインターフェース UR22mkII
+&lt;/span>
+&lt;span class="amazon-widget-via">
+&lt;img src="https://www.amazon.co.jp/favicon.ico" />
+amazon.co.jp
+&lt;/span>
+&lt;/div>
+&lt;/div>
+&lt;div class="amazon-widget">
+&lt;a target="_blank" href="https://www.amazon.co.jp/gp/product/B00Y7ZPVIK/?tag=namaraiicom-22">&lt;/a>
+&lt;div class="amazon-widget-img">
+&lt;img src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;MarketPlace=JP&amp;ASIN=B00Y7ZPVIK&amp;ServiceVersion=20070822&amp;ID=AsinImage&amp;WS=1&amp;Format=_SL350_&amp;tag=namaraiicom-22" />
+&lt;/div>
+&lt;div class="amazon-widget-info">
+&lt;span class="amazon-widget-title">
+CANARE XLRケーブル マイクケーブル ノイトリックコネクター 黒色 1.5ｍ EC015-B/黒
+&lt;/span>
+&lt;span class="amazon-widget-via">
+&lt;img src="https://www.amazon.co.jp/favicon.ico" />
+amazon.co.jp
+&lt;/span>
+&lt;/div>
+&lt;/div>
+&lt;h3 id="スピーカーik-multimedia-iloud-micro-monitor">スピーカー（IK Multimedia iLoud Micro Monitor)&lt;/h3>
+&lt;p>テレワーク始めたての頃はヘッドホン、またはイヤホンを使っていたのですが、この生活がしばらく続くとしたら、耳に負担をかけないようにしたほうが良さそうだと思い、リモート会議はスピーカーとマイクで行っています。骨伝導ヘッドセットなども良さそうですね。&lt;/p>
+&lt;div class="amazon-widget">
+&lt;a target="_blank" href="https://www.amazon.co.jp/gp/product/B01KSS9YX2/?tag=namaraiicom-22">&lt;/a>
+&lt;div class="amazon-widget-img">
+&lt;img src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;MarketPlace=JP&amp;ASIN=B01KSS9YX2&amp;ServiceVersion=20070822&amp;ID=AsinImage&amp;WS=1&amp;Format=_SL350_&amp;tag=namaraiicom-22" />
+&lt;/div>
+&lt;div class="amazon-widget-info">
+&lt;span class="amazon-widget-title">
+IK Multimedia iLoud Micro Monitor コンパクト・リファレンス・モニター Black【国内正規品】
+&lt;/span>
+&lt;span class="amazon-widget-via">
+&lt;img src="https://www.amazon.co.jp/favicon.ico" />
+amazon.co.jp
+&lt;/span>
+&lt;/div>
+&lt;/div>
+&lt;h3 id="ヘッドホンsony-wh-1000xm4">ヘッドホン(SONY WH-1000XM4)&lt;/h3>
+&lt;p>基本的にスピーカー＋マイクでリモート会議を行っていますが、議題と状況によっては音声をスピーカーで流したくないケースもあり、その場合はヘッドホンを使っています。&lt;/p>
+&lt;p>WH-1000XM4はノイズキャンセリングの性能が素晴らしく、集中して作業したい場合にも最高。ノイズキャンセリングがオンになった瞬間にスッと静寂が訪れる感じが気持ちいいです。柔らかな装着感も気に入っています。&lt;/p>
+&lt;div class="amazon-widget">
+&lt;a target="_blank" href="https://www.amazon.co.jp/gp/product/B08F2866Q3/?tag=namaraiicom-22">&lt;/a>
+&lt;div class="amazon-widget-img">
+&lt;img src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;MarketPlace=JP&amp;ASIN=B08F2866Q3&amp;ServiceVersion=20070822&amp;ID=AsinImage&amp;WS=1&amp;Format=_SL350_&amp;tag=namaraiicom-22" />
+&lt;/div>
+&lt;div class="amazon-widget-info">
+&lt;span class="amazon-widget-title">
+ソニー ワイヤレスノイズキャンセリングヘッドホン WH-1000XM4 : LDAC/Amazon Alexa搭載/Bluetooth/ハイレゾ 最大30時間連続再生 密閉型 マイク付 2020年モデル ブラック WH-1000XM4 B
+&lt;/span>
+&lt;span class="amazon-widget-via">
+&lt;img src="https://www.amazon.co.jp/favicon.ico" />
+amazon.co.jp
+&lt;/span>
+&lt;/div>
+&lt;/div>
+&lt;h1 id="映像環境">■映像環境&lt;/h1>
+&lt;p>映像環境の機材はリモート会議用に新しく導入したものです。&lt;/p>
+&lt;h2 id="ウェブカメラlogicool-c920n">ウェブカメラ(logicool C920n)&lt;/h2>
+&lt;p>画質はソコソコといった感じでしょうか。会議参加者から、画質についての良し悪しを言及されることはない程度の及第点レベル。&lt;/p>
+&lt;p>Amazonのレビューにもありますが、カメラの感度があまり高くなく、光量が足りないと残念な写りになってしまうので、なんらかの照明をプラスしたほうが良いと思います。&lt;/p>
+&lt;p>logicoolのサイトでダウンロードできるCamera Settingsというアプリで輝度の調整はできるものの、輝度をあげていくと画質も劣化してしまうので、そもそもの明るさを確保したほうが良いかと。このカメラに限った話ではありませんがね。&lt;/p>
+&lt;p>ディスプレイ上部に挟んで使用してますが、カメラと被写体の距離を確保できるため、引きの映像にできるのが良いです。&lt;/p>
+&lt;div class="amazon-widget">
+&lt;a target="_blank" href="https://www.amazon.co.jp/gp/product/B07QQR6G5N/?tag=namaraiicom-22">&lt;/a>
+&lt;div class="amazon-widget-img">
+&lt;img src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;MarketPlace=JP&amp;ASIN=B07QQR6G5N&amp;ServiceVersion=20070822&amp;ID=AsinImage&amp;WS=1&amp;Format=_SL350_&amp;tag=namaraiicom-22" />
+&lt;/div>
+&lt;div class="amazon-widget-info">
+&lt;span class="amazon-widget-title">
+ロジクール ウェブカメラ C920n ブラック フルHD 1080P ウェブカム ストリーミング 自動フォーカス ステレオマイク 国内正規品 2年間メーカー保証 ブラック
+&lt;/span>
+&lt;span class="amazon-widget-via">
+&lt;img src="https://www.amazon.co.jp/favicon.ico" />
+amazon.co.jp
+&lt;/span>
+&lt;/div>
+&lt;/div>
+&lt;p>ところで、一部の好事家がSigma fpをWebカメラにして圧倒的な画質を楽しんでいるようですね。&lt;/p>
+&lt;p>私もSigma fpを持っているのですが、冴えないおっさんの映像を高画質で配信する社会的な意義はなく、むしろ害悪でしかないと考え自粛しています。C920nのそこそこの画質＆引きの画角が限界です。&lt;/p>
+&lt;div class="amazon-widget">
+&lt;a target="_blank" href="https://www.amazon.co.jp/gp/product/B07YV8SH3R/?tag=namaraiicom-22">&lt;/a>
+&lt;div class="amazon-widget-img">
+&lt;img src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;MarketPlace=JP&amp;ASIN=B07YV8SH3R&amp;ServiceVersion=20070822&amp;ID=AsinImage&amp;WS=1&amp;Format=_SL350_&amp;tag=namaraiicom-22" />
+&lt;/div>
+&lt;div class="amazon-widget-info">
+&lt;span class="amazon-widget-title">
+SIGMA フルサイズミラーレス一眼カメラ fp &amp;amp; 45mm F2.8 DG DN kit ブラック 937317
+&lt;/span>
+&lt;span class="amazon-widget-via">
+&lt;img src="https://www.amazon.co.jp/favicon.ico" />
+amazon.co.jp
+&lt;/span>
+&lt;/div>
+&lt;/div>
+&lt;h2 id="照明クリップライトled照明">照明（クリップライトLED照明）&lt;/h2>
+&lt;p>撮影用の照明はどうしても大きくなり、デスクにちょこんと配置するのが難しいものが多く、安価でコンパクトなLED照明を探していて、適当に買ったものなのですが、これは買って良かった（1800円ぐらい）です。&lt;/p>
+&lt;div class="amazon-widget">
+&lt;a target="_blank" href="https://www.amazon.co.jp/gp/product/B0829QTY95/?tag=namaraiicom-22">&lt;/a>
+&lt;div class="amazon-widget-img">
+&lt;img src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;MarketPlace=JP&amp;ASIN=B0829QTY95&amp;ServiceVersion=20070822&amp;ID=AsinImage&amp;WS=1&amp;Format=_SL350_&amp;tag=namaraiicom-22" />
+&lt;/div>
+&lt;div class="amazon-widget-info">
+&lt;span class="amazon-widget-title">
+Semlos クリップライト24 LED 電気スタンド 3階段調色 10階段調光 800ルーメン 8ｗ LEDライト 360°回転 読書灯 読書ランプ 目に優しい 記憶機能 仕事 勉強 卓上 勉強機 本棚 ベッドサイド 寝室 書斎 オフィス イーゼル
+&lt;/span>
+&lt;span class="amazon-widget-via">
+&lt;img src="https://www.amazon.co.jp/favicon.ico" />
+amazon.co.jp
+&lt;/span>
+&lt;/div>
+&lt;/div>
+&lt;p>昼光色、白色、電球色を切り替え可能で、自分の場合は部屋の照明（白色蛍光灯）に加えて、このライトを昼光色に設定することで、なかなか良い色味になっています。&lt;/p></description></item></channel></rss>

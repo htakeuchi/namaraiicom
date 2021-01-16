@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>virtualbox on namaraii.com</title><link>https://namaraii.com/tags/virtualbox/</link><description>Recent content in virtualbox on namaraii.com</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright><lastBuildDate>Sat, 16 Dec 2017 14:33:33 +0900</lastBuildDate><atom:link href="https://namaraii.com/tags/virtualbox/index.xml" rel="self" type="application/rss+xml"/><item><title>VagrantとVirtualBoxでMac上に開発環境を作るメモ(CentOS7/Ruby 2.4.3)</title><link>https://namaraii.com/post/2017/20171216_vagrant-virtualbox/</link><pubDate>Sat, 16 Dec 2017 14:33:33 +0900</pubDate><guid>https://namaraii.com/post/2017/20171216_vagrant-virtualbox/</guid><description>
+&lt;p>MacでVagrantとVirtualBoxを使って開発環境を作るメモです。&lt;/p>
+&lt;h2 id="インストール">インストール&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://goo.gl/h5HGVd">Download - Vagrant by HashiCorp&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://goo.gl/l3wrf">Downloads – Oracle VM VirtualBox&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>今回はCentOS7のBOXを使用したが、他のBOXは以下から探せる。&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://goo.gl/qqX7GZ">Discover Vagrant Boxes - Vagrant Cloud&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://goo.gl/GYN3i">A list of base boxes for Vagrant - Vagrantbox.es&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="vagrantの環境設定">Vagrantの環境設定&lt;/h2>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="ln">1&lt;/span>$ &lt;span class="nb">cd&lt;/span> your_project_directory
+&lt;span class="ln">2&lt;/span>$ vagrant init
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Vagrantfileを作成する。&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-ruby" data-lang="ruby">&lt;span class="ln"> 1&lt;/span>&lt;span class="c1"># -*- mode: ruby -*-&lt;/span>
+&lt;span class="ln"> 2&lt;/span>&lt;span class="c1"># vi: set ft=ruby :&lt;/span>
+&lt;span class="ln"> 3&lt;/span>
+&lt;span class="ln"> 4&lt;/span>&lt;span class="no">Vagrant&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">configure&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;2&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="k">do&lt;/span> &lt;span class="o">|&lt;/span>&lt;span class="n">config&lt;/span>&lt;span class="o">|&lt;/span>
+&lt;span class="ln"> 5&lt;/span> &lt;span class="n">config&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">vm&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">box&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s2">&amp;#34;centos/7&amp;#34;&lt;/span>
+&lt;span class="ln"> 6&lt;/span> &lt;span class="n">config&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">vm&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">network&lt;/span> &lt;span class="s2">&amp;#34;forwarded_port&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="ss">guest&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">3000&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="ss">host&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">3000&lt;/span>
+&lt;span class="ln"> 7&lt;/span> &lt;span class="n">config&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">vm&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">provider&lt;/span> &lt;span class="s2">&amp;#34;virtualbox&amp;#34;&lt;/span> &lt;span class="k">do&lt;/span> &lt;span class="o">|&lt;/span>&lt;span class="n">vb&lt;/span>&lt;span class="o">|&lt;/span>
+&lt;span class="ln"> 8&lt;/span> &lt;span class="n">vb&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">memory&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s2">&amp;#34;2048&amp;#34;&lt;/span>
+&lt;span class="ln"> 9&lt;/span> &lt;span class="k">end&lt;/span>
+&lt;span class="ln">10&lt;/span> &lt;span class="n">config&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">vm&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">provision&lt;/span> &lt;span class="s2">&amp;#34;shell&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="ss">path&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;provision.sh&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="ss">privileged&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kp">false&lt;/span>
+&lt;span class="ln">11&lt;/span>&lt;span class="k">end&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Chef、PuppetやAnsibleなどのプロビジョニング・ツールとも連携できるが、とりまシェルスクリプトで。provision.shを作成する。&lt;/p>
+&lt;p>Railsを使うためRuby2.4.3とNode.js、PostgreSQL、Redisをインストール。&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="ln"> 1&lt;/span>sudo yum -y update
+&lt;span class="ln"> 2&lt;/span>
+&lt;span class="ln"> 3&lt;/span>&lt;span class="c1">## Developer Toolset 7&lt;/span>
+&lt;span class="ln"> 4&lt;/span>&lt;span class="c1">## https://www.softwarecollections.org/en/scls/rhscl/devtoolset-7/&lt;/span>
+&lt;span class="ln"> 5&lt;/span>sudo yum -y install centos-release-scl
+&lt;span class="ln"> 6&lt;/span>sudo yum-config-manager --enable rhel-server-rhscl-7-rpms
+&lt;span class="ln"> 7&lt;/span>sudo yum -y install devtoolset-7
+&lt;span class="ln"> 8&lt;/span>
+&lt;span class="ln"> 9&lt;/span>&lt;span class="c1">## Another packages&lt;/span>
+&lt;span class="ln">10&lt;/span>sudo yum -y install git zlib-devel openssl-devel readline-devel libyaml-devel sqlite-devel libxml2-devel libxslt-devel libcurl-devel libffi-devel
+&lt;span class="ln">11&lt;/span>
+&lt;span class="ln">12&lt;/span>&lt;span class="c1">## Ruby 2.4.3&lt;/span>
+&lt;span class="ln">13&lt;/span>git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+&lt;span class="ln">14&lt;/span>git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
+&lt;span class="ln">15&lt;/span>&lt;span class="nb">cd&lt;/span> ~/.rbenv &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> src/configure &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> make -C src
+&lt;span class="ln">16&lt;/span>&lt;span class="nb">echo&lt;/span> &lt;span class="s1">&amp;#39;export PATH=&amp;#34;$HOME/.rbenv/bin:$PATH&amp;#34;&amp;#39;&lt;/span> &amp;gt;&amp;gt; ~/.bash_profile
+&lt;span class="ln">17&lt;/span>~/.rbenv/bin/rbenv init
+&lt;span class="ln">18&lt;/span>&lt;span class="nb">echo&lt;/span> &lt;span class="s1">&amp;#39;eval &amp;#34;$(rbenv init -)&amp;#34;&amp;#39;&lt;/span> &amp;gt;&amp;gt; ~/.bash_profile
+&lt;span class="ln">19&lt;/span>. ~/.bash_profile
+&lt;span class="ln">20&lt;/span>rbenv install 2.4.3
+&lt;span class="ln">21&lt;/span>rbenv global 2.4.3
+&lt;span class="ln">22&lt;/span>rbenv rehash
+&lt;span class="ln">23&lt;/span>gem install bundler
+&lt;span class="ln">24&lt;/span>
+&lt;span class="ln">25&lt;/span>&lt;span class="c1">## Node.js&lt;/span>
+&lt;span class="ln">26&lt;/span>curl -sL https://rpm.nodesource.com/setup_6.x &lt;span class="p">|&lt;/span> sudo bash -
+&lt;span class="ln">27&lt;/span>sudo yum install -y nodejs
+&lt;span class="ln">28&lt;/span>
+&lt;span class="ln">29&lt;/span>&lt;span class="c1">## PostgreSQL&lt;/span>
+&lt;span class="ln">30&lt;/span>sudo yum -y install postgresql-server postgresql-devel
+&lt;span class="ln">31&lt;/span>sudo postgresql-setup initdb
+&lt;span class="ln">32&lt;/span>sudo service postgresql start
+&lt;span class="ln">33&lt;/span>sudo systemctl start postgresql.service
+&lt;span class="ln">34&lt;/span>sudo systemctl &lt;span class="nb">enable&lt;/span> postgresql.service
+&lt;span class="ln">35&lt;/span>
+&lt;span class="ln">36&lt;/span>&lt;span class="c1">## Redis&lt;/span>
+&lt;span class="ln">37&lt;/span>sudo yum -y install epel-release
+&lt;span class="ln">38&lt;/span>sudo yum install -y wget
+&lt;span class="ln">39&lt;/span>sudo rpm -Uvh remi-release-7*.rpm
+&lt;span class="ln">40&lt;/span>sudo yum --enablerepo&lt;span class="o">=&lt;/span>remi,remi-test,epel install -y redis
+&lt;span class="ln">41&lt;/span>sudo systemctl start redis.service
+&lt;span class="ln">42&lt;/span>sudo systemctl &lt;span class="nb">enable&lt;/span> redis.service
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>provision.shを作成したら、コマンドラインからvagrantを起動する。&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="ln">1&lt;/span>$ vagrant up
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>インストールが終わるまでしばし待ち、sshで接続する。&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="ln">1&lt;/span>$ vagrant ssh
+&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="vagrantのコマンド">Vagrantのコマンド&lt;/h2>
+&lt;h3 id="リロード">リロード&lt;/h3>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="ln">1&lt;/span>$ vagrant reload
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="シャットダウン">シャットダウン&lt;/h3>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="ln">1&lt;/span>$ vagrant halt
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="サスペンド">サスペンド&lt;/h3>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="ln">1&lt;/span>$ vagrant &lt;span class="nb">suspend&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="vmの削除">VMの削除&lt;/h3>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="ln">1&lt;/span>$ vagrant destroy
+&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="ホストosとのファイル共有">ホストOSとのファイル共有&lt;/h2>
+&lt;p>デフォルトではVagrantfileのディレクトリがホストOSの/vargrantに同期される（ホスト→ゲストの一方通行）。ただしrsyncのため(90秒インターバル？）ホスト側でvagrant rsync-autoを起動しておく必要がある。&lt;/p>
+&lt;p>同期のタイプとしてSMB、NFS、VirtualBOX、rsyncがあるが、パフォーマンスや信頼性の点でrsyncが良さそう。&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://goo.gl/oMsvYQ">【Vagrantドキュメント意訳】11.同期フォルダ - Qiita&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="scpを使う">scpを使う&lt;/h2>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="ln">1&lt;/span>$ vagrant ssh-config &amp;gt; ssh.config
+&lt;span class="ln">2&lt;/span>$ scp -F ssh.config vagrant@default:/var/lib/redmine/erd.pdf .
+&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="参考リンク">参考リンク&lt;/h2>
+&lt;ul>
+&lt;li>CentOSのコレクションを探す &lt;a href="https://goo.gl/MSdgbD">Directory — Software Collections&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://goo.gl/z7WLKo">Vagrant + VirtualBoxでつくるRails 5の環境構築 - Qiita&lt;/a>&lt;/li>
+&lt;/ul></description></item></channel></rss>
