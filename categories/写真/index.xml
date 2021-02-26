@@ -10,7 +10,7 @@
 &lt;p>をリーズナブルに実現したい。&lt;/p>
 &lt;h3 id="試用の感想">試用の感想&lt;/h3>
 &lt;p>昔の写真をギャラリーとして公開しながら試用したところ、実現したいことは全てクリアしてそうな感じでしたし、SmugMugの個人ページ(Photo Site)での公開に関しては、Flickrよりもできることが多く、ユーザインタフェースもわかりやすい。&lt;/p>
-&lt;p>Photo Siteにはテーマ・フォルダ・ページなどCMSチックな概念があり、見ためやどの写真をどのように公開するかを柔軟にカスタマイズできます。&lt;/p>
+&lt;p>Photo Siteにはテンプレート、テーマ、フォルダ、ページなどCMSチックな概念があり、見ためやどの写真をどのように公開するかを柔軟にカスタマイズできます。&lt;/p>
 &lt;p>自分はこんな感じのページを作成して、独自ドメイン(photos.namaraii.com)を設定しました。&lt;/p>
 &lt;p>&lt;img src="smugmug.jpg" alt="">
 &lt;a href="https://photos.namaraii.com/">Hiotshi TAKEUCHI | https://photos.namaraii.com/&lt;/a>&lt;/p>
