@@ -1,124 +1,186 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>wordpress on namaraii.com</title><link>https://namaraii.com/tags/wordpress/</link><description>Recent content in wordpress on namaraii.com</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright><lastBuildDate>Fri, 06 Jan 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://namaraii.com/tags/wordpress/index.xml" rel="self" type="application/rss+xml"/><item><title>namaraii.comをWordpressからMediumへ移行した</title><link>https://namaraii.com/post/2017/20170106_namaraiicomwordpressmedium4af34fdf3acf/</link><pubDate>Fri, 06 Jan 2017 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2017/20170106_namaraiicomwordpressmedium4af34fdf3acf/</guid><description>
-&lt;p>レンタルサーバでWordpressを立てて運用していたnamaraii.comをMediumへ移行しました。&lt;/p>
-&lt;p>頻繁に更新していたわけではないけれど、各種アプリやプラグインなどのメンテナンスをサボるわけにはいかず、サーバのお守りは本業でお腹いっぱいなのです…&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/1PE9pb3JHvciDjIINk33kUw.jpeg" alt="/images/1PE9pb3JHvciDjIINk33kUw.jpeg">
-下記のページに従って移行を進めましたが、Wordpressの記事をエクスポートする際、XMLが途中で切れてしまう問題が発生。&lt;/p>
-&lt;p>&lt;a href="https://help.medium.com/hc/en-us/articles/218572107-How-to-move-to-Medium" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://help.medium.com/hc/en-us/articles/218572107-How-to-move-to-Medium">&lt;strong>How to move to Medium&lt;/strong>&lt;br />
-&lt;em>Ready to start publishing on Medium? Let's look at what's available. WordPress migration If you have a single-author…&lt;/em>help.medium.com&lt;/a>&lt;a href="https://help.medium.com/hc/en-us/articles/218572107-How-to-move-to-Medium" class="js-mixtapeImage mixtapeImage u-ignoreBlock">&lt;/a>&lt;/p>
-&lt;p>調査したところ、エクスポートに時間がかかりphp.iniで設定しているスクリプト実行時のタイムアウト時間を超えていたことが原因とわかり、一時的にmax_execution_timeを0にしてリトライしエクスポート完了。&lt;/p>
-&lt;p>あとは手順通りにMediumへインポートしてpublish、独自ドメインのマッピングのためDNSレコードを追加し、現在に至ります。&lt;/p>
-&lt;p>インポートすると自動的にリダイレクトが設定されたり、（自サーバでは面倒で後回しにしていた）HTTPS対応になったり、エディタも使いやすいし、かなりの好印象です。&lt;/p>
-&lt;p>とりあえず移行しただけで、ビジュアルを含め何も設定していませんが、おいおいと。&lt;/p></description></item><item><title>WordpressからOctopressへパーマリンクを変えずに乗り換えてみた</title><link>https://namaraii.com/post/2013/20130611_wordpressoctopress4b2eb3c1b46/</link><pubDate>Tue, 11 Jun 2013 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2013/20130611_wordpressoctopress4b2eb3c1b46/</guid><description>
-&lt;p>いままでこのブログはWordpressで運営していましたが、Octopressに乗り換えました。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/cOjPGgxjUmALG1.jpg" alt="/images/cOjPGgxjUmALG1.jpg">
-Wordpressは機能的な面では、なんら不満がなかったのですが、デフォルトのままではレスポンスが悪く、パフォーマンス・チューニングを突き詰めるのも面倒なので、&lt;br>
-いっそのこと静的なHTMLを生成するOctopressへ切り替えてみようかと。&lt;/p>
-&lt;p>Octopressはシンプルですし、Rubyで書かれているので自分で手を入れるのも楽しそうですしね。&lt;/p>
-&lt;p>ブログを移行する場合、既存コンテンツをどうやって移行するかが問題になりますが、Octopressが使用しているJekyllで&lt;a href="http://jekyllrb.com/docs/migrations/">移行ツール&lt;/a>が提供されていますので、既存コンテンツと画像は問題なく移行できました。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/m68Eyggyx5alT9.jpg" alt="/images/m68Eyggyx5alT9.jpg">
-カテゴリとタグも移行ツールが付与してくれますが、なぜかカテゴリとタグがカテゴリとしてマージされてしまったので、この際、カテゴリは廃止してタグだけを使用するシンプルな運用に。（内部的には全てカテゴリになっている状態）&lt;/p>
-&lt;p>あとは、パーマリンクをどうるすかですが、
-移行ツールはエントリーのタイトルをURLにします。このブログはWordpressのパーマリンクを「数字ベース」で運営していため、そのままではパーマリンクが変わってしまいます。 &lt;br>
-なので、移行ツール(wordpressdotcom.rb)に手を入れてポストIDでURLを生成するように修正。&lt;/p>
-&lt;p>&lt;a href="https://github.com/htakeuchi/jekyll-import/blob/master/lib/jekyll/jekyll-import/wordpressdotcom.rb">jekyll-import/lib/jekyll/jekyll-import/wordpressdotcom.rb at master · htakeuchi/jekyll-import&lt;/a>&lt;/p>
-&lt;p>あとは、_config.ymlを&lt;/p>
-&lt;pre>&lt;code>permalink: /archives/:title
-&lt;/code>&lt;/pre>
-&lt;p>とすれば、ひとまず過去エントリはパーマリンクを維持したまま移行できます。が、タイトルだけでパーマリンクを構成してしまうと、過去に同じタイトルで記事を書いているとバッティングしてしまいますね。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/-YA-fkoh7lhZjA.jpg" alt="/images/-YA-fkoh7lhZjA.jpg">
-とりあえずタイトルを「YYYY-MM-DD-タイトル」とて入力することで回避（はやくRakefile直そう）&lt;/p>
-&lt;p>ということで、Octopressの新規エントリポストをちょっと試すつもりが、書きすぎてしまいましたので、このへんで。&lt;/p></description></item><item><title>サイトまるごとバックアップできるWordPressのプラグインを比較した結果「BackWPup」を使ってみようと思う</title><link>https://namaraii.com/post/2013/20130203_wordpressbackwpup5dc18e08650a/</link><pubDate>Sun, 03 Feb 2013 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2013/20130203_wordpressbackwpup5dc18e08650a/</guid><description>
-&lt;p>&lt;a href="http://htakeuchi.offtheball.jp/archives/6025">WordPressのバックアップで間違えがちな5つのポイント&lt;/a>にある要件を満たすプラグイン探しの続きです。&lt;/p>
-&lt;h4 id="バックアップするプラグインの比較">バックアップするプラグインの比較&lt;/h4>
-&lt;p>要件としては「一定期間ごとに自動で、データベースと関連ファイルを別サーバへまるごとバックアップできること」でした。&lt;/p>
-&lt;p>この要件を満たすプラグイン選ぶため、候補にあげたプラグインの特徴をまとめてみました。&lt;/p>
-&lt;p>プラグイン自動別鯖その他&lt;a href="http://wordpress.org/extend/plugins/backwpup/">BackWPup&lt;/a>◯◯&lt;/p>
-&lt;ul>
-&lt;li>&lt;span id="0c12">フォルダ・FTPサーバ・Amazon S3・Google
-Storage・Dropbox・SugarSyncなどへバックアップ可能&lt;/span>&lt;/li>
-&lt;li>&lt;span id="620e">zip, tar, tar.gz,
-tar.bz2フォーマットをサポート&lt;/span>&lt;/li>
-&lt;li>&lt;span id="f956">ログ・バックアップをメール送信&lt;/span>&lt;/li>
-&lt;li>&lt;span id="c1ed">マルチサイトサポート&lt;/span>&lt;/li>
-&lt;/ul>
-&lt;p>&lt;a href="http://wordpress.org/extend/plugins/total-backup/">Total Backup&lt;/a>☓☓&lt;/p>
-&lt;ul>
-&lt;li>&lt;span id="4c9e">日本製のプラグイン&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="3c12">同一サーバの任意のディレクトリへバックアップファイルを作成&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="d0d0">バックアップボタンを押すとバックアップが終了するまでメンテナンスモードに入る。&lt;/span>&lt;/li>
-&lt;/ul>
-&lt;p>&lt;a href="http://wordpress.org/extend/plugins/wordpress-backup-to-dropbox/">WordPress Backup to Dropbox&lt;/a>◯◯&lt;/p>
-&lt;ul>
-&lt;li>&lt;span id="1e47">Dropboxへバックアップ可能&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="54d3">バックアップボタンを押すとバックアップが終了するまでメンテナンスモードに入る。&lt;/span>&lt;/li>
-&lt;li>&lt;span id="e68f">ZIP圧縮とメール通知はそれぞれ有料($19/$9)&lt;/span>&lt;/li>
-&lt;/ul>
-&lt;p>&lt;a href="http://wordpress.org/extend/plugins/backupwordpress/">BackUpWordPress&lt;/a>◯☓&lt;/p>
-&lt;ul>
-&lt;li>&lt;span id="b234">ZIP圧縮とmysqldumpnにより高速にバックアップ&lt;/span>&lt;/li>
-&lt;li>&lt;span id="f016">少ないメモリで動作可能&lt;/span>&lt;/li>
-&lt;/ul>
-&lt;p>比較の結果、今回の要件を満たしているのは&lt;a href="http://wordpress.org/extend/plugins/backwpup/">BackWPup&lt;/a>と、&lt;a href="http://wordpress.org/extend/plugins/wordpress-backup-to-dropbox/">WordPress Backup to Dropbox&lt;/a>ということになりました。&lt;/p>
-&lt;p>WordPress Backup to
-Dropboxの方はZIP圧縮とメール通知が有料ということで、今回は&lt;a href="http://wordpress.org/extend/plugins/backwpup/">BackWPup&lt;/a>を使ってみることにします。&lt;/p>
-&lt;h4 id="backwpup使用レポート">BackWPup使用レポート&lt;/h4>
-&lt;p>すでにBackWPupを使っている方の声を集めてみました。&lt;/p>
-&lt;p>▼&lt;a href="http://did2memo.net/2012/06/25/wordpress-backup-and-restore-backwpup/">今こそ安心できるWordPressバックアップを！復旧作業まで実際にやってみたWordPress丸ごとバックアップ法 | 情報科学屋さんを目指す人のメモ&lt;/a>&lt;/p>
-&lt;p>実際にレストアまでやっていて、その経験を踏まえて必要と感じた情報をまとめられており参考になります。&lt;/p>
-&lt;p>▼&lt;a href="http://takahashifumiki.com/web/programing/2492/">backWPupとちょっとしたコストでWordPressを安心バックアップ | 高橋文樹.com&lt;/a>&lt;/p>
-&lt;p>バックアップ先をDropboxにして、parckrat（変更履歴を無限に保存できるオプション）と組み合わせて使い、Dropboxの容量を圧迫せずにバックアップファイルの履歴を管理。&lt;/p>
-&lt;p>Dropboxのバックアップ先フォルダはPCとの同期対象から外す。なるほど。&lt;/p>
-&lt;p>▼&lt;a href="http://knk-n.com/2012/06/08/backwpup_wordpress_backup-plugin/">[K] データベースもファイルもこれ一本で大丈夫！WordPressバックアッププラグイン「BackWPup」を使ってみた&lt;/a>&lt;/p>
-&lt;p>Dropboxへのバックアップ設定手順を詳しく解説。&lt;/p>
-&lt;p>ということで、BackWPupでのバックアップ運用を始めてみたいと思います。しばらく運用してから、またレポートなどを。&lt;/p></description></item><item><title>WordPressのバックアップで間違えがちな5つのポイント</title><link>https://namaraii.com/post/2013/20130131_wordpress5b07e5ebdafec/</link><pubDate>Thu, 31 Jan 2013 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2013/20130131_wordpress5b07e5ebdafec/</guid><description>
-&lt;p>&lt;a href="http://wphacks.com/5-common-mistakes-when-backing-up-wordpress/">5 Common Mistakes When Backing Up WordPress&lt;/a>でWordPressをバックアップするときに、やってしまいがちな5つの間違いを紹介しています。&lt;/p>
-&lt;p>バックアップはツールやプラグインの選定も大切ですが、むしろ、それらを使い「どのようにバックアップするか」という運用を考えることの方が重要かもしれません。&lt;/p>
-&lt;p>上の記事は主に運用面に焦点をあてて書かれています。参考になりますのでポイントをまとめてみました。&lt;/p>
-&lt;p>&lt;em>備考：この表記は私が追記した部分です&lt;/em>&lt;/p>
-&lt;h4 id="１記事だけをバックアップしている">１．記事だけをバックアップしている&lt;/h4>
-&lt;p>他にバックアップすべき要素としてページ、テーマのカスタマイズ内容、プラグインが含まれていることを忘れないように。&lt;/p>
-&lt;p>&lt;a href="http://ithemes.com/purchase/backupbuddy/">BackupBuddy&lt;/a>のようなツールを使うとサイトをまるごとバックアップできるので、復旧も簡単。&lt;/p>
-&lt;h4 id="２定期的にバックアップしていない">２．定期的にバックアップしていない&lt;/h4>
-&lt;p>定期的にバックアップしていないのは危険です。&lt;/p>
-&lt;p>定期的にバックアップしていたとしても、毎日更新している場合、週1回のバックアップでは、いつかの記事とコメントが失われてしまいます。&lt;/p>
-&lt;p>それらのページに外部リンクが貼られていたり、ソーシャルメディアでシェアされていたら、リンク切れを起こしてしまいます。&lt;/p>
-&lt;h4 id="３手動でバックアップしている">３．手動でバックアップしている&lt;/h4>
-&lt;p>手作業でバックアップを取るのは時間の無駄であり、長期にわたって続けるのは困難です。自動化を考えるべきでしょう。&lt;/p>
-&lt;h4 id="４同じサーバへバックアップしている">４．同じサーバへバックアップしている&lt;/h4>
-&lt;p>悪意を持つ第三者にサーバへ侵入され、ウィルスを混入されたケースを考えると、バックアップへもウィルスを混入させられる可能性があります。&lt;/p>
-&lt;p>FileZillaなどを使って別の場所へバックアップするのが安全です。&lt;/p>
-&lt;p>&lt;em>ハードウェア故障を想定すると物理的に異なるサーバ(or
-ディスク)へバックアップした方が安全です。&lt;/em>&lt;/p>
-&lt;h4 id="５バックアップからのリストアをテストしていない">５．バックアップからのリストアをテストしていない&lt;/h4>
-&lt;p>バックアップを取っていたとしても、それを使って本当にリストアできるかをテストしていなければ意味がありません。&lt;/p>
-&lt;p>最悪の事態に備えて、意図した情報が完全に復元できるかをテストしておきましょう。&lt;/p>
-&lt;p>&lt;em>ありがちですねえ。ツールを動かして「よし、バックアップファイルが作成された！」と満足してしまって、障害時にリストアしようと思ったらできないとか…&lt;/em>&lt;/p>
-&lt;h4 id="これらの要件を満たすプラグインは">これらの要件を満たすプラグインは？&lt;/h4>
-&lt;p>以上が&lt;a href="http://wphacks.com/5-common-mistakes-when-backing-up-wordpress/">5 Common Mistakes When Backing Up WordPress&lt;/a>で紹介されているWordPressのバックアップで間違えがちなポイントでした。&lt;/p>
-&lt;p>では、これらの要件を満たすプラグインは何か？ですが、記事中で紹介されている&lt;a href="http://ithemes.com/purchase/backupbuddy/">BackupBuddy&lt;/a>(有償）や&lt;a href="http://wordpress.org/extend/plugins/backupwordpress/">BackUpWordPress&lt;/a>の他にもいろいろなプラグインがありますね。ざっと見ただけでも、こんな感じ。&lt;/p>
-&lt;ul>
-&lt;li>&lt;span
-id="8132">&lt;a href="http://wordpress.org/extend/plugins/wp-dbmanager/">WP-DBManager&lt;/a>&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="6507">&lt;a href="http://wordpress.org/extend/plugins/wp-db-backup/">WP-DB-Backup&lt;/a>&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="768d">&lt;a href="http://wordpress.org/extend/plugins/backwpup/">BackWPup&lt;/a>&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="9a61">&lt;a href="http://wordpress.org/extend/plugins/total-backup/">Total Backup&lt;/a>&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="fc4b">&lt;a href="http://wordpress.org/extend/plugins/automatic-wordpress-backup/">Automatic WordPress Backup&lt;/a>&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="14b2">&lt;a href="http://wordpress.org/extend/plugins/wordpress-backup-to-dropbox/">WordPress Backup to Dropbox&lt;/a>&lt;/span>&lt;/li>
-&lt;/ul>
-&lt;p>これらのうちWP-DBManager、WP-DB-Backupはデータベースのバックアップしかできないため、ここでは除外。&lt;/p>
-&lt;p>Automatic WordPress
-Backupは2年以上メンテされていないようなので同様に除外します。&lt;/p>
-&lt;p>…と、ちょっと長くなってしまいましたので、残りのBackWPup、Total
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wordpress on namaraii.com</title>
+    <link>https://namaraii.com/tags/wordpress/</link>
+    <description>Recent content in wordpress on namaraii.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright>
+    <lastBuildDate>Fri, 06 Jan 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://namaraii.com/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>namaraii.comをWordpressからMediumへ移行した</title>
+      <link>https://namaraii.com/post/2017/20170106_namaraiicomwordpressmedium4af34fdf3acf/</link>
+      <pubDate>Fri, 06 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2017/20170106_namaraiicomwordpressmedium4af34fdf3acf/</guid>
+      <description>
+        
+          &lt;p&gt;レンタルサーバでWordpressを立てて運用していたnamaraii.comをMediumへ移行しました。&lt;/p&gt;
+&lt;p&gt;頻繁に更新していたわけではないけれど、各種アプリやプラグインなどのメンテナンスをサボるわけにはいかず、サーバのお守りは本業でお腹いっぱいなのです…&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/1PE9pb3JHvciDjIINk33kUw.jpeg&#34; alt=&#34;/images/1PE9pb3JHvciDjIINk33kUw.jpeg&#34;&gt;
+下記のページに従って移行を進めましたが、Wordpressの記事をエクスポートする際、XMLが途中で切れてしまう問題が発生。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://help.medium.com/hc/en-us/articles/218572107-How-to-move-to-Medium&#34; class=&#34;markup--anchor markup--mixtapeEmbed-anchor&#34; title=&#34;https://help.medium.com/hc/en-us/articles/218572107-How-to-move-to-Medium&#34;&gt;&lt;strong&gt;How to move to Medium&lt;/strong&gt;&lt;br /&gt;
+&lt;em&gt;Ready to start publishing on Medium? Let&#39;s look at what&#39;s available. WordPress migration If you have a single-author…&lt;/em&gt;help.medium.com&lt;/a&gt;&lt;a href=&#34;https://help.medium.com/hc/en-us/articles/218572107-How-to-move-to-Medium&#34; class=&#34;js-mixtapeImage mixtapeImage u-ignoreBlock&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;調査したところ、エクスポートに時間がかかりphp.iniで設定しているスクリプト実行時のタイムアウト時間を超えていたことが原因とわかり、一時的にmax_execution_timeを0にしてリトライしエクスポート完了。&lt;/p&gt;
+&lt;p&gt;あとは手順通りにMediumへインポートしてpublish、独自ドメインのマッピングのためDNSレコードを追加し、現在に至ります。&lt;/p&gt;
+&lt;p&gt;インポートすると自動的にリダイレクトが設定されたり、（自サーバでは面倒で後回しにしていた）HTTPS対応になったり、エディタも使いやすいし、かなりの好印象です。&lt;/p&gt;
+&lt;p&gt;とりあえず移行しただけで、ビジュアルを含め何も設定していませんが、おいおいと。&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>WordpressからOctopressへパーマリンクを変えずに乗り換えてみた</title>
+      <link>https://namaraii.com/post/2013/20130611_wordpressoctopress4b2eb3c1b46/</link>
+      <pubDate>Tue, 11 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2013/20130611_wordpressoctopress4b2eb3c1b46/</guid>
+      <description>
+        
+          &lt;p&gt;いままでこのブログはWordpressで運営していましたが、Octopressに乗り換えました。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/cOjPGgxjUmALG1.jpg&#34; alt=&#34;/images/cOjPGgxjUmALG1.jpg&#34;&gt;
+Wordpressは機能的な面では、なんら不満がなかったのですが、デフォルトのままではレスポンスが悪く、パフォーマンス・チューニングを突き詰めるのも面倒なので、&lt;br&gt;
+いっそのこと静的なHTMLを生成するOctopressへ切り替えてみようかと。&lt;/p&gt;
+&lt;p&gt;Octopressはシンプルですし、Rubyで書かれているので自分で手を入れるのも楽しそうですしね。&lt;/p&gt;
+&lt;p&gt;ブログを移行する場合、既存コンテンツをどうやって移行するかが問題になりますが、Octopressが使用しているJekyllで&lt;a href=&#34;http://jekyllrb.com/docs/migrations/&#34;&gt;移行ツール&lt;/a&gt;が提供されていますので、既存コンテンツと画像は問題なく移行できました。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/m68Eyggyx5alT9.jpg&#34; alt=&#34;/images/m68Eyggyx5alT9.jpg&#34;&gt;
+カテゴリとタグも移行ツールが付与してくれますが、なぜかカテゴリとタグがカテゴリとしてマージされてしまったので、この際、カテゴリは廃止してタグだけを使用するシンプルな運用に。（内部的には全てカテゴリになっている状態）&lt;/p&gt;
+&lt;p&gt;あとは、パーマリンクをどうるすかですが、
+移行ツールはエントリーのタイトルをURLにします。このブログはWordpressのパーマリンクを「数字ベース」で運営していため、そのままではパーマリンクが変わってしまいます。 &lt;br&gt;
+なので、移行ツール(wordpressdotcom.rb)に手を入れてポストIDでURLを生成するように修正。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/htakeuchi/jekyll-import/blob/master/lib/jekyll/jekyll-import/wordpressdotcom.rb&#34;&gt;jekyll-import/lib/jekyll/jekyll-import/wordpressdotcom.rb at master · htakeuchi/jekyll-import&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;あとは、_config.ymlを&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;permalink: /archives/:title
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;とすれば、ひとまず過去エントリはパーマリンクを維持したまま移行できます。が、タイトルだけでパーマリンクを構成してしまうと、過去に同じタイトルで記事を書いているとバッティングしてしまいますね。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/-YA-fkoh7lhZjA.jpg&#34; alt=&#34;/images/-YA-fkoh7lhZjA.jpg&#34;&gt;
+とりあえずタイトルを「YYYY-MM-DD-タイトル」とて入力することで回避（はやくRakefile直そう）&lt;/p&gt;
+&lt;p&gt;ということで、Octopressの新規エントリポストをちょっと試すつもりが、書きすぎてしまいましたので、このへんで。&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>サイトまるごとバックアップできるWordPressのプラグインを比較した結果「BackWPup」を使ってみようと思う</title>
+      <link>https://namaraii.com/post/2013/20130203_wordpressbackwpup5dc18e08650a/</link>
+      <pubDate>Sun, 03 Feb 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2013/20130203_wordpressbackwpup5dc18e08650a/</guid>
+      <description>
+        
+          &lt;p&gt;&lt;a href=&#34;http://htakeuchi.offtheball.jp/archives/6025&#34;&gt;WordPressのバックアップで間違えがちな5つのポイント&lt;/a&gt;にある要件を満たすプラグイン探しの続きです。&lt;/p&gt;
+&lt;h4 id=&#34;バックアップするプラグインの比較&#34;&gt;バックアップするプラグインの比較&lt;/h4&gt;
+&lt;p&gt;要件としては「一定期間ごとに自動で、データベースと関連ファイルを別サーバへまるごとバックアップできること」でした。&lt;/p&gt;
+&lt;p&gt;この要件を満たすプラグイン選ぶため、候補にあげたプラグインの特徴をまとめてみました。&lt;/p&gt;
+&lt;p&gt;プラグイン自動別鯖その他&lt;a href=&#34;http://wordpress.org/extend/plugins/backwpup/&#34;&gt;BackWPup&lt;/a&gt;◯◯&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span id=&#34;0c12&#34;&gt;フォルダ・FTPサーバ・Amazon S3・Google
+Storage・Dropbox・SugarSyncなどへバックアップ可能&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;620e&#34;&gt;zip, tar, tar.gz,
+tar.bz2フォーマットをサポート&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;f956&#34;&gt;ログ・バックアップをメール送信&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;c1ed&#34;&gt;マルチサイトサポート&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;http://wordpress.org/extend/plugins/total-backup/&#34;&gt;Total Backup&lt;/a&gt;☓☓&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span id=&#34;4c9e&#34;&gt;日本製のプラグイン&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;3c12&#34;&gt;同一サーバの任意のディレクトリへバックアップファイルを作成&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;d0d0&#34;&gt;バックアップボタンを押すとバックアップが終了するまでメンテナンスモードに入る。&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;http://wordpress.org/extend/plugins/wordpress-backup-to-dropbox/&#34;&gt;WordPress Backup to Dropbox&lt;/a&gt;◯◯&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span id=&#34;1e47&#34;&gt;Dropboxへバックアップ可能&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;54d3&#34;&gt;バックアップボタンを押すとバックアップが終了するまでメンテナンスモードに入る。&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;e68f&#34;&gt;ZIP圧縮とメール通知はそれぞれ有料($19/$9)&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;http://wordpress.org/extend/plugins/backupwordpress/&#34;&gt;BackUpWordPress&lt;/a&gt;◯☓&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span id=&#34;b234&#34;&gt;ZIP圧縮とmysqldumpnにより高速にバックアップ&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;f016&#34;&gt;少ないメモリで動作可能&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;比較の結果、今回の要件を満たしているのは&lt;a href=&#34;http://wordpress.org/extend/plugins/backwpup/&#34;&gt;BackWPup&lt;/a&gt;と、&lt;a href=&#34;http://wordpress.org/extend/plugins/wordpress-backup-to-dropbox/&#34;&gt;WordPress Backup to Dropbox&lt;/a&gt;ということになりました。&lt;/p&gt;
+&lt;p&gt;WordPress Backup to
+Dropboxの方はZIP圧縮とメール通知が有料ということで、今回は&lt;a href=&#34;http://wordpress.org/extend/plugins/backwpup/&#34;&gt;BackWPup&lt;/a&gt;を使ってみることにします。&lt;/p&gt;
+&lt;h4 id=&#34;backwpup使用レポート&#34;&gt;BackWPup使用レポート&lt;/h4&gt;
+&lt;p&gt;すでにBackWPupを使っている方の声を集めてみました。&lt;/p&gt;
+&lt;p&gt;▼&lt;a href=&#34;http://did2memo.net/2012/06/25/wordpress-backup-and-restore-backwpup/&#34;&gt;今こそ安心できるWordPressバックアップを！復旧作業まで実際にやってみたWordPress丸ごとバックアップ法 | 情報科学屋さんを目指す人のメモ&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;実際にレストアまでやっていて、その経験を踏まえて必要と感じた情報をまとめられており参考になります。&lt;/p&gt;
+&lt;p&gt;▼&lt;a href=&#34;http://takahashifumiki.com/web/programing/2492/&#34;&gt;backWPupとちょっとしたコストでWordPressを安心バックアップ | 高橋文樹.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;バックアップ先をDropboxにして、parckrat（変更履歴を無限に保存できるオプション）と組み合わせて使い、Dropboxの容量を圧迫せずにバックアップファイルの履歴を管理。&lt;/p&gt;
+&lt;p&gt;Dropboxのバックアップ先フォルダはPCとの同期対象から外す。なるほど。&lt;/p&gt;
+&lt;p&gt;▼&lt;a href=&#34;http://knk-n.com/2012/06/08/backwpup_wordpress_backup-plugin/&#34;&gt;[K] データベースもファイルもこれ一本で大丈夫！WordPressバックアッププラグイン「BackWPup」を使ってみた&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Dropboxへのバックアップ設定手順を詳しく解説。&lt;/p&gt;
+&lt;p&gt;ということで、BackWPupでのバックアップ運用を始めてみたいと思います。しばらく運用してから、またレポートなどを。&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>WordPressのバックアップで間違えがちな5つのポイント</title>
+      <link>https://namaraii.com/post/2013/20130131_wordpress5b07e5ebdafec/</link>
+      <pubDate>Thu, 31 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2013/20130131_wordpress5b07e5ebdafec/</guid>
+      <description>
+        
+          &lt;p&gt;&lt;a href=&#34;http://wphacks.com/5-common-mistakes-when-backing-up-wordpress/&#34;&gt;5 Common Mistakes When Backing Up WordPress&lt;/a&gt;でWordPressをバックアップするときに、やってしまいがちな5つの間違いを紹介しています。&lt;/p&gt;
+&lt;p&gt;バックアップはツールやプラグインの選定も大切ですが、むしろ、それらを使い「どのようにバックアップするか」という運用を考えることの方が重要かもしれません。&lt;/p&gt;
+&lt;p&gt;上の記事は主に運用面に焦点をあてて書かれています。参考になりますのでポイントをまとめてみました。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;備考：この表記は私が追記した部分です&lt;/em&gt;&lt;/p&gt;
+&lt;h4 id=&#34;１記事だけをバックアップしている&#34;&gt;１．記事だけをバックアップしている&lt;/h4&gt;
+&lt;p&gt;他にバックアップすべき要素としてページ、テーマのカスタマイズ内容、プラグインが含まれていることを忘れないように。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://ithemes.com/purchase/backupbuddy/&#34;&gt;BackupBuddy&lt;/a&gt;のようなツールを使うとサイトをまるごとバックアップできるので、復旧も簡単。&lt;/p&gt;
+&lt;h4 id=&#34;２定期的にバックアップしていない&#34;&gt;２．定期的にバックアップしていない&lt;/h4&gt;
+&lt;p&gt;定期的にバックアップしていないのは危険です。&lt;/p&gt;
+&lt;p&gt;定期的にバックアップしていたとしても、毎日更新している場合、週1回のバックアップでは、いつかの記事とコメントが失われてしまいます。&lt;/p&gt;
+&lt;p&gt;それらのページに外部リンクが貼られていたり、ソーシャルメディアでシェアされていたら、リンク切れを起こしてしまいます。&lt;/p&gt;
+&lt;h4 id=&#34;３手動でバックアップしている&#34;&gt;３．手動でバックアップしている&lt;/h4&gt;
+&lt;p&gt;手作業でバックアップを取るのは時間の無駄であり、長期にわたって続けるのは困難です。自動化を考えるべきでしょう。&lt;/p&gt;
+&lt;h4 id=&#34;４同じサーバへバックアップしている&#34;&gt;４．同じサーバへバックアップしている&lt;/h4&gt;
+&lt;p&gt;悪意を持つ第三者にサーバへ侵入され、ウィルスを混入されたケースを考えると、バックアップへもウィルスを混入させられる可能性があります。&lt;/p&gt;
+&lt;p&gt;FileZillaなどを使って別の場所へバックアップするのが安全です。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;ハードウェア故障を想定すると物理的に異なるサーバ(or
+ディスク)へバックアップした方が安全です。&lt;/em&gt;&lt;/p&gt;
+&lt;h4 id=&#34;５バックアップからのリストアをテストしていない&#34;&gt;５．バックアップからのリストアをテストしていない&lt;/h4&gt;
+&lt;p&gt;バックアップを取っていたとしても、それを使って本当にリストアできるかをテストしていなければ意味がありません。&lt;/p&gt;
+&lt;p&gt;最悪の事態に備えて、意図した情報が完全に復元できるかをテストしておきましょう。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;ありがちですねえ。ツールを動かして「よし、バックアップファイルが作成された！」と満足してしまって、障害時にリストアしようと思ったらできないとか…&lt;/em&gt;&lt;/p&gt;
+&lt;h4 id=&#34;これらの要件を満たすプラグインは&#34;&gt;これらの要件を満たすプラグインは？&lt;/h4&gt;
+&lt;p&gt;以上が&lt;a href=&#34;http://wphacks.com/5-common-mistakes-when-backing-up-wordpress/&#34;&gt;5 Common Mistakes When Backing Up WordPress&lt;/a&gt;で紹介されているWordPressのバックアップで間違えがちなポイントでした。&lt;/p&gt;
+&lt;p&gt;では、これらの要件を満たすプラグインは何か？ですが、記事中で紹介されている&lt;a href=&#34;http://ithemes.com/purchase/backupbuddy/&#34;&gt;BackupBuddy&lt;/a&gt;(有償）や&lt;a href=&#34;http://wordpress.org/extend/plugins/backupwordpress/&#34;&gt;BackUpWordPress&lt;/a&gt;の他にもいろいろなプラグインがありますね。ざっと見ただけでも、こんな感じ。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span
+id=&#34;8132&#34;&gt;&lt;a href=&#34;http://wordpress.org/extend/plugins/wp-dbmanager/&#34;&gt;WP-DBManager&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;6507&#34;&gt;&lt;a href=&#34;http://wordpress.org/extend/plugins/wp-db-backup/&#34;&gt;WP-DB-Backup&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;768d&#34;&gt;&lt;a href=&#34;http://wordpress.org/extend/plugins/backwpup/&#34;&gt;BackWPup&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;9a61&#34;&gt;&lt;a href=&#34;http://wordpress.org/extend/plugins/total-backup/&#34;&gt;Total Backup&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;fc4b&#34;&gt;&lt;a href=&#34;http://wordpress.org/extend/plugins/automatic-wordpress-backup/&#34;&gt;Automatic WordPress Backup&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;14b2&#34;&gt;&lt;a href=&#34;http://wordpress.org/extend/plugins/wordpress-backup-to-dropbox/&#34;&gt;WordPress Backup to Dropbox&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;これらのうちWP-DBManager、WP-DB-Backupはデータベースのバックアップしかできないため、ここでは除外。&lt;/p&gt;
+&lt;p&gt;Automatic WordPress
+Backupは2年以上メンテされていないようなので同様に除外します。&lt;/p&gt;
+&lt;p&gt;…と、ちょっと長くなってしまいましたので、残りのBackWPup、Total
 Backup、WordPress Backup to
-Dropbox、BackUpWordPressの機能比較は別エントリにまとめたいと思います。&lt;/p>
-&lt;h4 id="追記">追記&lt;/h4>
-&lt;p>以下の記事を書きました。(2013年2月3日)&lt;/p>
-&lt;p>▼&lt;a href="https://namaraii.com/archives/6028">サイトまるごとバックアップできるWordPressのプラグインを比較した結果「BackWPup」を使ってみようと思う #WordPressJP&lt;/a>&lt;/p></description></item></channel></rss>
+Dropbox、BackUpWordPressの機能比較は別エントリにまとめたいと思います。&lt;/p&gt;
+&lt;h4 id=&#34;追記&#34;&gt;追記&lt;/h4&gt;
+&lt;p&gt;以下の記事を書きました。(2013年2月3日)&lt;/p&gt;
+&lt;p&gt;▼&lt;a href=&#34;https://namaraii.com/archives/6028&#34;&gt;サイトまるごとバックアップできるWordPressのプラグインを比較した結果「BackWPup」を使ってみようと思う #WordPressJP&lt;/a&gt;&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

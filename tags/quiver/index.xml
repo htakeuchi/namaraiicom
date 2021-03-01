@@ -1,65 +1,112 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>quiver on namaraii.com</title><link>https://namaraii.com/tags/quiver/</link><description>Recent content in quiver on namaraii.com</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright><lastBuildDate>Sun, 14 Feb 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://namaraii.com/tags/quiver/index.xml" rel="self" type="application/rss+xml"/><item><title>Quiverへ移行するためKobitoのMarkdownデータを抽出するRubyスクリプトを書いた</title><link>https://namaraii.com/post/2016/20160214_quiverkobitomarkdownruby788934135ce5/</link><pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2016/20160214_quiverkobitomarkdownruby788934135ce5/</guid><description>
-&lt;p>&lt;img src="https://namaraii.com/images/KIuKFY8dBNXpoS.png" alt="/images/KIuKFY8dBNXpoS.png">
-Kobitoで管理していたMarkdownのメモを、簡単なスクリプトを書いて&lt;a href="http://happenapps.com/#quiver">Quiver&lt;/a>へ移行しました。&lt;/p>
-&lt;p>&lt;strong>（が、以下の内容は完全に無保証ですので、ふーんという感じで読んでください）&lt;/strong>&lt;/p>
-&lt;p>Kobito(2.3.3)のデータベースはsqlite3らしく、ざっとテーブルの構成を眺めてみるとMarkdownを抜けそうな雰囲気。&lt;/p>
-&lt;p>簡単なスクリプトを書いて試してみました。&lt;a href="https://gist.github.com/htakeuchi/933064d05c2178da9da3#file-kobito2markdown-rb">KobitoのデータベースからMarkdownを抽出&lt;/a>&lt;/p>
-&lt;ol>
-&lt;li>&lt;span
-id="21f6">~/Library/Containers/com.qiita.Kobito/Data/Library/Kobito/Kobito.dbにあるKobitoのデータベースを念のため他のディレクトリへコピー&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="0aa1">スクリプトのKOBITO_DBで1.のデータベースパスを指定&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="a085">スクリプトのEXPORT_PATHでMarkdownを出力するパスを指定&lt;/span>&lt;/li>
-&lt;/ol>
-&lt;p>そして、&lt;/p>
-&lt;pre>&lt;code>$ ruby kobito2markdown.rb
-&lt;/code>&lt;/pre>
-&lt;p>一応、抜けたようです。&lt;/p>
-&lt;p>EXPORT_PATHで指定したディレクトリ配下に、”Kobitoのタイトル.md”というファイル名でMarkdownファイルが出力されます。&lt;/p>
-&lt;p>あとは、Quiverの[File]-[Import]-[Markdown]で一括してインポートすればOK。&lt;/p>
-&lt;p>ただ、タグや作成日時、更新日時などは引き継がれません。やろうと思えばなんとかなる気がしますが、とりあえずここまでにします。&lt;/p></description></item><item><title>プログラマ向けノートアプリQuiverが素晴らしい(Mac用アプリ)</title><link>https://namaraii.com/post/2016/20160212_quivermacdaac2b1ced42/</link><pubDate>Fri, 12 Feb 2016 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2016/20160212_quivermacdaac2b1ced42/</guid><description>
-&lt;p>Markdownをサポートしたメモアプリは数多くありますが、技術系のメモやスニペットを書き溜めるのに適したものはそれほど多くありません。&lt;/p>
-&lt;p>個人的な要件としては、&lt;/p>
-&lt;ol>
-&lt;li>&lt;span
-id="a4d7">データフォーマットがオープンで好みのクラウドサービスで同期できること&lt;/span>&lt;/li>
-&lt;li>&lt;span id="a414">Markdown(GFM)を扱えてプレビューできること&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="25f2">コードの取り扱いが簡単なこと(できればシンタクスハイライトも)&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="60b2">ファイルを意識しないで使えること(ファイル名を考えたりしなくて良い。オートセーブされる)&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="42ec">ノートブック、タグなどでノートを整理・分類できること&lt;/span>&lt;/li>
-&lt;/ol>
-&lt;p>ぐらいなのですが、すべてを満たしたアプリをなかなか見つけられず、Day
-OneやUlysses、Kobitoなどを併用して凌いでいましたが、最近、知ったQuiverというアプリがこれらの要件をすべて満たしており、これに一本化することに。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/GjEkYo-twFT1WR.png" alt="/images/GjEkYo-twFT1WR.png">
-あまりにも気に入ったため、思わず公式ドキュメントを翻訳してしまいました。さらに詳しい情報はこちらをどうぞ。&lt;/p>
-&lt;p>&lt;a href="https://github.com/HappenApps/Quiver/wiki/Quiver%E3%82%92%E3%81%AF%E3%81%98%E3%82%81%E3%82%88%E3%81%86">Quiverをはじめよう · HappenApps/Quiver Wiki&lt;/a>&lt;/p>
-&lt;p>Markdownエディタとしての機能だけでも満足なのですが、Quiverでは「セル」という概念があり、LaTeXやシーケンス図なども簡単に扱うことができます。&lt;/p>
-&lt;p>たとえば、&lt;/p>
-&lt;pre>&lt;code>[
-\sum_{n=1}^\infty \frac{1}{n^s} \ \ (s &amp;gt; 0)
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>quiver on namaraii.com</title>
+    <link>https://namaraii.com/tags/quiver/</link>
+    <description>Recent content in quiver on namaraii.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright>
+    <lastBuildDate>Sun, 14 Feb 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://namaraii.com/tags/quiver/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quiverへ移行するためKobitoのMarkdownデータを抽出するRubyスクリプトを書いた</title>
+      <link>https://namaraii.com/post/2016/20160214_quiverkobitomarkdownruby788934135ce5/</link>
+      <pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2016/20160214_quiverkobitomarkdownruby788934135ce5/</guid>
+      <description>
+        
+          &lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/KIuKFY8dBNXpoS.png&#34; alt=&#34;/images/KIuKFY8dBNXpoS.png&#34;&gt;
+Kobitoで管理していたMarkdownのメモを、簡単なスクリプトを書いて&lt;a href=&#34;http://happenapps.com/#quiver&#34;&gt;Quiver&lt;/a&gt;へ移行しました。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;（が、以下の内容は完全に無保証ですので、ふーんという感じで読んでください）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Kobito(2.3.3)のデータベースはsqlite3らしく、ざっとテーブルの構成を眺めてみるとMarkdownを抜けそうな雰囲気。&lt;/p&gt;
+&lt;p&gt;簡単なスクリプトを書いて試してみました。&lt;a href=&#34;https://gist.github.com/htakeuchi/933064d05c2178da9da3#file-kobito2markdown-rb&#34;&gt;KobitoのデータベースからMarkdownを抽出&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;span
+id=&#34;21f6&#34;&gt;~/Library/Containers/com.qiita.Kobito/Data/Library/Kobito/Kobito.dbにあるKobitoのデータベースを念のため他のディレクトリへコピー&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;0aa1&#34;&gt;スクリプトのKOBITO_DBで1.のデータベースパスを指定&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;a085&#34;&gt;スクリプトのEXPORT_PATHでMarkdownを出力するパスを指定&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;そして、&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ ruby kobito2markdown.rb
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;一応、抜けたようです。&lt;/p&gt;
+&lt;p&gt;EXPORT_PATHで指定したディレクトリ配下に、”Kobitoのタイトル.md”というファイル名でMarkdownファイルが出力されます。&lt;/p&gt;
+&lt;p&gt;あとは、Quiverの[File]-[Import]-[Markdown]で一括してインポートすればOK。&lt;/p&gt;
+&lt;p&gt;ただ、タグや作成日時、更新日時などは引き継がれません。やろうと思えばなんとかなる気がしますが、とりあえずここまでにします。&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>プログラマ向けノートアプリQuiverが素晴らしい(Mac用アプリ)</title>
+      <link>https://namaraii.com/post/2016/20160212_quivermacdaac2b1ced42/</link>
+      <pubDate>Fri, 12 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2016/20160212_quivermacdaac2b1ced42/</guid>
+      <description>
+        
+          &lt;p&gt;Markdownをサポートしたメモアプリは数多くありますが、技術系のメモやスニペットを書き溜めるのに適したものはそれほど多くありません。&lt;/p&gt;
+&lt;p&gt;個人的な要件としては、&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;span
+id=&#34;a4d7&#34;&gt;データフォーマットがオープンで好みのクラウドサービスで同期できること&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;a414&#34;&gt;Markdown(GFM)を扱えてプレビューできること&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;25f2&#34;&gt;コードの取り扱いが簡単なこと(できればシンタクスハイライトも)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;60b2&#34;&gt;ファイルを意識しないで使えること(ファイル名を考えたりしなくて良い。オートセーブされる)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;42ec&#34;&gt;ノートブック、タグなどでノートを整理・分類できること&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;ぐらいなのですが、すべてを満たしたアプリをなかなか見つけられず、Day
+OneやUlysses、Kobitoなどを併用して凌いでいましたが、最近、知ったQuiverというアプリがこれらの要件をすべて満たしており、これに一本化することに。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/GjEkYo-twFT1WR.png&#34; alt=&#34;/images/GjEkYo-twFT1WR.png&#34;&gt;
+あまりにも気に入ったため、思わず公式ドキュメントを翻訳してしまいました。さらに詳しい情報はこちらをどうぞ。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/HappenApps/Quiver/wiki/Quiver%E3%82%92%E3%81%AF%E3%81%98%E3%82%81%E3%82%88%E3%81%86&#34;&gt;Quiverをはじめよう · HappenApps/Quiver Wiki&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Markdownエディタとしての機能だけでも満足なのですが、Quiverでは「セル」という概念があり、LaTeXやシーケンス図なども簡単に扱うことができます。&lt;/p&gt;
+&lt;p&gt;たとえば、&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[
+
+\sum_{n=1}^\infty \frac{1}{n^s}  \ \ (s &amp;gt; 0)
+
 ]
+
 は $s &amp;gt; 1$ ならば収束し, $s \le 1$ ならば発散する.
-&lt;/code>&lt;/pre>
-&lt;p>などと書くと、&lt;/p>
-&lt;p>∑n=1∞1ns (s&amp;gt;0)&lt;/p>
-&lt;p>は s&amp;gt;1 ならば収束し, s≤1 ならば発散する.&lt;/p>
-&lt;p>のようにレンダリングされますし、&lt;/p>
-&lt;pre>&lt;code>Title: ポップアップイベント\n(Markdown/生成リクエスト)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;などと書くと、&lt;/p&gt;
+&lt;p&gt;∑n=1∞1ns (s&amp;gt;0)&lt;/p&gt;
+&lt;p&gt;は s&amp;gt;1 ならば収束し, s≤1 ならば発散する.&lt;/p&gt;
+&lt;p&gt;のようにレンダリングされますし、&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Title: ポップアップイベント\n(Markdown/生成リクエスト)
+
 user-&amp;gt;popup: アイコンクリック
+
 popup-&amp;gt;background: postMessage(トピック取得要求)
+
 background-&amp;gt;content: postMessage(トピック取得要求)
+
 Note right of content: WorkFlowyのDOMから\n選択中のトピック取得
+
 content--&amp;gt;background: callback(トピック)
+
 background--&amp;gt;popup: postMessage(エレメント)
+
 Note right of popup: 指定形式に整形
+
 popup--&amp;gt;user: Markdown/HTML
-&lt;/code>&lt;/pre>
-&lt;p>このように書けば、&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/RTuHZSTFY8K1DQ.png" alt="/images/RTuHZSTFY8K1DQ.png">
-のようにレンダリングされるという高機能ぶり。嬉しい誤算でした。&lt;/p>
-&lt;p>価格も1200円とリーズナブルですし、&lt;a href="http://happenapps.com/#quiver">こちらからトライアル版をダウンロードできます&lt;/a>ので、Markdownを扱えるメモアプリをお探しの方はお試しを。&lt;/p>
-&lt;p>&lt;a href="https://itunes.apple.com/jp/app/quiver-programmers-notebook/id866773894?mt=12">Quiver: The Programmer’s Notebook を Mac App Store で&lt;/a>&lt;/p></description></item></channel></rss>
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;このように書けば、&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/RTuHZSTFY8K1DQ.png&#34; alt=&#34;/images/RTuHZSTFY8K1DQ.png&#34;&gt;
+のようにレンダリングされるという高機能ぶり。嬉しい誤算でした。&lt;/p&gt;
+&lt;p&gt;価格も1200円とリーズナブルですし、&lt;a href=&#34;http://happenapps.com/#quiver&#34;&gt;こちらからトライアル版をダウンロードできます&lt;/a&gt;ので、Markdownを扱えるメモアプリをお探しの方はお試しを。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://itunes.apple.com/jp/app/quiver-programmers-notebook/id866773894?mt=12&#34;&gt;Quiver: The Programmer’s Notebook を Mac App Store で&lt;/a&gt;&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

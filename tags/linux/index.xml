@@ -1,23 +1,46 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>linux on namaraii.com</title><link>https://namaraii.com/tags/linux/</link><description>Recent content in linux on namaraii.com</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright><lastBuildDate>Thu, 03 Oct 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://namaraii.com/tags/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>Linux Mint 15 Fceは古いノート(Let’s Note R7)でも快適に使えそう</title><link>https://namaraii.com/post/2013/20131003_linuxmint15fceletsnoter78c3d6250e816/</link><pubDate>Thu, 03 Oct 2013 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2013/20131003_linuxmint15fceletsnoter78c3d6250e816/</guid><description>
-&lt;p>すこし前に使っていた古いノート(Let’s Note
-R7)へ&lt;a href="http://linuxmint-jp.net/">Linux Mint 15&lt;/a>をインストールしてみた。&lt;/p>
-&lt;p>Linux
-MintはUbuntuをベースにしたディストリビューションで「洗練され、最新で快適なLinuxデスクトップを提供すること」が目標としている。&lt;/p>
-&lt;p>R7はマシンスペックが高くないので、デスクトップ環境は軽いと評判の&lt;a href="http://ja.wikipedia.org/wiki/Xfce">Xfce&lt;/a>を選択。&lt;/p>
-&lt;p>インストールはあっさりと完了。ファンクションキーによる輝度調整、サスペンド、ハイバネーション、すべて何の設定もせずに動く。Let’s
-Noteの特徴であるホイールパッドによるスクロールまでも。&lt;/p>
-&lt;p>このお手軽さは何なんだ…拍子抜けだよ。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/yOF258VD0Z0EZK.png" alt="/images/yOF258VD0Z0EZK.png">
-XfceのUIはWindows 95に似てるかな？ そして、とにかく軽い。&lt;/p>
-&lt;p>スタートメニューをクリックするとスパっとメニューが表示されるし、アプリケーションの切り替えもサクサクだ。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/YiD5Id5qHxPtfQ.png" alt="/images/YiD5Id5qHxPtfQ.png">
-ちなみに、R7のスペックはこんな感じ。&lt;/p>
-&lt;p>CPUCore(™)2 Duo
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>linux on namaraii.com</title>
+    <link>https://namaraii.com/tags/linux/</link>
+    <description>Recent content in linux on namaraii.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright>
+    <lastBuildDate>Thu, 03 Oct 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://namaraii.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux Mint 15 Fceは古いノート(Let’s Note R7)でも快適に使えそう</title>
+      <link>https://namaraii.com/post/2013/20131003_linuxmint15fceletsnoter78c3d6250e816/</link>
+      <pubDate>Thu, 03 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2013/20131003_linuxmint15fceletsnoter78c3d6250e816/</guid>
+      <description>
+        
+          &lt;p&gt;すこし前に使っていた古いノート(Let’s Note
+R7)へ&lt;a href=&#34;http://linuxmint-jp.net/&#34;&gt;Linux Mint 15&lt;/a&gt;をインストールしてみた。&lt;/p&gt;
+&lt;p&gt;Linux
+MintはUbuntuをベースにしたディストリビューションで「洗練され、最新で快適なLinuxデスクトップを提供すること」が目標としている。&lt;/p&gt;
+&lt;p&gt;R7はマシンスペックが高くないので、デスクトップ環境は軽いと評判の&lt;a href=&#34;http://ja.wikipedia.org/wiki/Xfce&#34;&gt;Xfce&lt;/a&gt;を選択。&lt;/p&gt;
+&lt;p&gt;インストールはあっさりと完了。ファンクションキーによる輝度調整、サスペンド、ハイバネーション、すべて何の設定もせずに動く。Let’s
+Noteの特徴であるホイールパッドによるスクロールまでも。&lt;/p&gt;
+&lt;p&gt;このお手軽さは何なんだ…拍子抜けだよ。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/yOF258VD0Z0EZK.png&#34; alt=&#34;/images/yOF258VD0Z0EZK.png&#34;&gt;
+XfceのUIはWindows 95に似てるかな？ そして、とにかく軽い。&lt;/p&gt;
+&lt;p&gt;スタートメニューをクリックするとスパっとメニューが表示されるし、アプリケーションの切り替えもサクサクだ。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/YiD5Id5qHxPtfQ.png&#34; alt=&#34;/images/YiD5Id5qHxPtfQ.png&#34;&gt;
+ちなみに、R7のスペックはこんな感じ。&lt;/p&gt;
+&lt;p&gt;CPUCore(™)2 Duo
 1.06Gメモリ2GB(標準は1GB)ハードディスクSSDに換装済(標準は80GB Serial
-ATA)ビデオチップIntel GM965 Express&lt;/p>
-&lt;p>うーむ、こうしてみるとWindowsで使うには厳しいが、Linuxならなかなかのスペックかもしれない。&lt;/p>
-&lt;p>それはさておき。R7はメールや文書の作成、コーディングに使えれば…と環境を作ったため、性能的に問題が無いことを確認後、続けてDropbox、Chrome、mozc-ibasもインストール。こちらもなんの問題もなかった。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/zRJ9p4vKW_LCGk.png" alt="/images/zRJ9p4vKW_LCGk.png">
-何の設定もせずに、もろもろがうまく動くなんて素晴らしい。&lt;/p>
-&lt;p>最近のLinuxは、標準のデスクトップ環境が重いからな…と思っていたけど、これならひと昔まえのマシンでも十二分に使えそう。&lt;/p>
-&lt;p>持て余している古めのマシンがあれば試してみる価値があるかと。&lt;/p></description></item></channel></rss>
+ATA)ビデオチップIntel GM965 Express&lt;/p&gt;
+&lt;p&gt;うーむ、こうしてみるとWindowsで使うには厳しいが、Linuxならなかなかのスペックかもしれない。&lt;/p&gt;
+&lt;p&gt;それはさておき。R7はメールや文書の作成、コーディングに使えれば…と環境を作ったため、性能的に問題が無いことを確認後、続けてDropbox、Chrome、mozc-ibasもインストール。こちらもなんの問題もなかった。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/zRJ9p4vKW_LCGk.png&#34; alt=&#34;/images/zRJ9p4vKW_LCGk.png&#34;&gt;
+何の設定もせずに、もろもろがうまく動くなんて素晴らしい。&lt;/p&gt;
+&lt;p&gt;最近のLinuxは、標準のデスクトップ環境が重いからな…と思っていたけど、これならひと昔まえのマシンでも十二分に使えそう。&lt;/p&gt;
+&lt;p&gt;持て余している古めのマシンがあれば試してみる価値があるかと。&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

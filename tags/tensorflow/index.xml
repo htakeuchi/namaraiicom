@@ -1,20 +1,42 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>tensorflow on namaraii.com</title><link>https://namaraii.com/tags/tensorflow/</link><description>Recent content in tensorflow on namaraii.com</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright><lastBuildDate>Fri, 13 Apr 2018 10:03:50 +0900</lastBuildDate><atom:link href="https://namaraii.com/tags/tensorflow/index.xml" rel="self" type="application/rss+xml"/><item><title>Jupyter Notebooks上でTensorflow/Ruby/D3.jsを使えるDockerイメージを作った</title><link>https://namaraii.com/post/2018/20180413_docker-tensorflow-notebook-iruby/</link><pubDate>Fri, 13 Apr 2018 10:03:50 +0900</pubDate><guid>https://namaraii.com/post/2018/20180413_docker-tensorflow-notebook-iruby/</guid><description>
-&lt;p>データ解析やスクレイピングなど試行錯誤するタスクに便利なので、Jupyter NotebooksのDockerイメージを作った。&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/htakeuchi/docker-tensorflow-notebook-iruby">htakeuchi/docker-tensorflow-notebook-iruby: Jupyter Notebook Scientific Python Stack + Tensorflow + IRuby&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>せっかくなので、TensorflowやD3.j3、IRubyとデータ解析・グラフ描画のライブラリなども入れてごった煮に。&lt;/p>
-&lt;ul>
-&lt;li>Everything in &lt;a href="https://github.com/jupyter/docker-stacks/tree/master/scipy-notebook">Scipy Notebook&lt;/a>&lt;/li>
-&lt;li>Tensorflow and Keras for Python 3.x (without GPU support)&lt;/li>
-&lt;li>IRuby Notebook environment (Ruby 2.5.1)&lt;/li>
-&lt;li>&lt;a href="https://github.com/mrkn/pycall.rb">PyCall&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/mrkn/numpy.rb">mrkn/numpy.rb&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/mrkn/pandas.rb/">mrkn/pandas.rb&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/domitry/nyaplot">nyaplot&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://rubygems.org/gems/rbplotly/versions/0.1.2">rbplotly&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/SciRuby/daru">SciRuby/daru&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/genya0407/daru-plotly">daru-plotly&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/ResidentMario/py_d3">py_d3&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>&lt;a href="http://nbviewer.jupyter.org/gist/htakeuchi/8b1ce2b37919352b8b94ceca13b35729/IRuby-sample.ipynb">こちらにIRubyのサンプル&lt;/a>を置いときます。&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tensorflow on namaraii.com</title>
+    <link>https://namaraii.com/tags/tensorflow/</link>
+    <description>Recent content in tensorflow on namaraii.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright>
+    <lastBuildDate>Fri, 13 Apr 2018 10:03:50 +0900</lastBuildDate><atom:link href="https://namaraii.com/tags/tensorflow/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jupyter Notebooks上でTensorflow/Ruby/D3.jsを使えるDockerイメージを作った</title>
+      <link>https://namaraii.com/post/2018/20180413_docker-tensorflow-notebook-iruby/</link>
+      <pubDate>Fri, 13 Apr 2018 10:03:50 +0900</pubDate>
+      
+      <guid>https://namaraii.com/post/2018/20180413_docker-tensorflow-notebook-iruby/</guid>
+      <description>
+        
+          &lt;p&gt;データ解析やスクレイピングなど試行錯誤するタスクに便利なので、Jupyter NotebooksのDockerイメージを作った。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/htakeuchi/docker-tensorflow-notebook-iruby&#34;&gt;htakeuchi/docker-tensorflow-notebook-iruby: Jupyter Notebook Scientific Python Stack + Tensorflow + IRuby&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;せっかくなので、TensorflowやD3.j3、IRubyとデータ解析・グラフ描画のライブラリなども入れてごった煮に。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Everything in &lt;a href=&#34;https://github.com/jupyter/docker-stacks/tree/master/scipy-notebook&#34;&gt;Scipy Notebook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tensorflow and Keras for Python 3.x (without GPU support)&lt;/li&gt;
+&lt;li&gt;IRuby Notebook environment (Ruby 2.5.1)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mrkn/pycall.rb&#34;&gt;PyCall&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mrkn/numpy.rb&#34;&gt;mrkn/numpy.rb&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mrkn/pandas.rb/&#34;&gt;mrkn/pandas.rb&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/domitry/nyaplot&#34;&gt;nyaplot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rubygems.org/gems/rbplotly/versions/0.1.2&#34;&gt;rbplotly&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/SciRuby/daru&#34;&gt;SciRuby/daru&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/genya0407/daru-plotly&#34;&gt;daru-plotly&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ResidentMario/py_d3&#34;&gt;py_d3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;http://nbviewer.jupyter.org/gist/htakeuchi/8b1ce2b37919352b8b94ceca13b35729/IRuby-sample.ipynb&#34;&gt;こちらにIRubyのサンプル&lt;/a&gt;を置いときます。&lt;/p&gt;
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

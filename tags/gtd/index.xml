@@ -1,24 +1,47 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>gtd on namaraii.com</title><link>https://namaraii.com/tags/gtd/</link><description>Recent content in gtd on namaraii.com</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright><lastBuildDate>Mon, 22 Sep 2008 00:00:00 +0000</lastBuildDate><atom:link href="https://namaraii.com/tags/gtd/index.xml" rel="self" type="application/rss+xml"/><item><title>ThinkingRock+DropboxでGTD</title><link>https://namaraii.com/post/2008/20080922_thinkingrockdropboxgtde43cac756ec/</link><pubDate>Mon, 22 Sep 2008 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2008/20080922_thinkingrockdropboxgtde43cac756ec/</guid><description>
-&lt;p>GTDのシステムとして&lt;a href="http://www.thinkingrock.com.au/">ThinkingRock&lt;/a>を試してます。シンプルかつGTDのワークフローに忠実なので使いやすいですね。あと、ThinkingRockが作るデータファイルはXMLなので、何かあったときでもデータを復旧しやすいのもポイントが高い。&lt;/p>
-&lt;p>私は複数のPCを使って仕事しているため、GTDのリストをそれぞれの環境で参照したいのですが、ThinkingRockはJavaで書かれておりMac、Windows、Linuxで動作します。いいね。&lt;/p>
-&lt;p>ではデータファイルの共有をどうするか…ということになるのですが、ここで&lt;a href="http://www.getdropbox.com/">Dropbox&lt;/a>ですよ。&lt;/p>
-&lt;p>DropboxもMac、Windows、Linuxで動作するので、Dropboxで同期しているフォルダ配下にThinkingRockのデータファイルを置けば、どの環境からもリストを参照、更新できるようになるじゃないですか。&lt;/p>
-&lt;p>ということで、しばらくRTMはinbox専用にして、ThinkingRock+DropboxでGTDをやっていきたいと考えています。&lt;/p>
-&lt;p>ただ、&lt;/p>
-&lt;ul>
-&lt;li>&lt;span id="16b6">複数のPCで同時にThinkingRockを立ち上げる&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="aa70">あるPCで更新した後、違うPCでDropboxの同期前にThinkingRockを立ち上げる&lt;/span>&lt;/li>
-&lt;/ul>
-&lt;p>など、&lt;strong>問題になりそうなオペレーションが数多く想定されますので、試す場合は自己責任&lt;/strong>ということでお願いします。&lt;/p>
-&lt;h4 id="関連リンク">関連リンク&lt;/h4>
-&lt;ul>
-&lt;li>&lt;span
-id="0aa5">&lt;a href="http://www.naney.org/diki/d/2008-06-23-ThinkingRock.html">nDiki: サブプロジェクトが使える GTD ツール ThinkingRock 2.0.1 (2008–06–23)&lt;/a>&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="e717">&lt;a href="http://mugenmirai.livedoor.biz/archives/50666749.html">自己実現寺:最強のオフラインGTDツール “ThinkingRock” — livedoor Blog（ブログ）&lt;/a>&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="98cf">&lt;a href="http://www.tidbits.com/tb-issues/lang/jp/TidBITS-jp-850.html#lnk4">TidBITS 日本語版 #850/09-Oct-06&lt;/a>&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="8284">&lt;a href="http://veadardiary.blog29.fc2.com/blog-entry-880.html">ThinkingRock | Macの手書き説明書&lt;/a>&lt;/span>&lt;/li>
-&lt;/ul></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>gtd on namaraii.com</title>
+    <link>https://namaraii.com/tags/gtd/</link>
+    <description>Recent content in gtd on namaraii.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright>
+    <lastBuildDate>Mon, 22 Sep 2008 00:00:00 +0000</lastBuildDate><atom:link href="https://namaraii.com/tags/gtd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ThinkingRock&#43;DropboxでGTD</title>
+      <link>https://namaraii.com/post/2008/20080922_thinkingrockdropboxgtde43cac756ec/</link>
+      <pubDate>Mon, 22 Sep 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2008/20080922_thinkingrockdropboxgtde43cac756ec/</guid>
+      <description>
+        
+          &lt;p&gt;GTDのシステムとして&lt;a href=&#34;http://www.thinkingrock.com.au/&#34;&gt;ThinkingRock&lt;/a&gt;を試してます。シンプルかつGTDのワークフローに忠実なので使いやすいですね。あと、ThinkingRockが作るデータファイルはXMLなので、何かあったときでもデータを復旧しやすいのもポイントが高い。&lt;/p&gt;
+&lt;p&gt;私は複数のPCを使って仕事しているため、GTDのリストをそれぞれの環境で参照したいのですが、ThinkingRockはJavaで書かれておりMac、Windows、Linuxで動作します。いいね。&lt;/p&gt;
+&lt;p&gt;ではデータファイルの共有をどうするか…ということになるのですが、ここで&lt;a href=&#34;http://www.getdropbox.com/&#34;&gt;Dropbox&lt;/a&gt;ですよ。&lt;/p&gt;
+&lt;p&gt;DropboxもMac、Windows、Linuxで動作するので、Dropboxで同期しているフォルダ配下にThinkingRockのデータファイルを置けば、どの環境からもリストを参照、更新できるようになるじゃないですか。&lt;/p&gt;
+&lt;p&gt;ということで、しばらくRTMはinbox専用にして、ThinkingRock+DropboxでGTDをやっていきたいと考えています。&lt;/p&gt;
+&lt;p&gt;ただ、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span id=&#34;16b6&#34;&gt;複数のPCで同時にThinkingRockを立ち上げる&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;aa70&#34;&gt;あるPCで更新した後、違うPCでDropboxの同期前にThinkingRockを立ち上げる&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;など、&lt;strong&gt;問題になりそうなオペレーションが数多く想定されますので、試す場合は自己責任&lt;/strong&gt;ということでお願いします。&lt;/p&gt;
+&lt;h4 id=&#34;関連リンク&#34;&gt;関連リンク&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span
+id=&#34;0aa5&#34;&gt;&lt;a href=&#34;http://www.naney.org/diki/d/2008-06-23-ThinkingRock.html&#34;&gt;nDiki: サブプロジェクトが使える GTD ツール ThinkingRock 2.0.1 (2008–06–23)&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;e717&#34;&gt;&lt;a href=&#34;http://mugenmirai.livedoor.biz/archives/50666749.html&#34;&gt;自己実現寺:最強のオフラインGTDツール “ThinkingRock” — livedoor Blog（ブログ）&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;98cf&#34;&gt;&lt;a href=&#34;http://www.tidbits.com/tb-issues/lang/jp/TidBITS-jp-850.html#lnk4&#34;&gt;TidBITS 日本語版 #850/09-Oct-06&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;8284&#34;&gt;&lt;a href=&#34;http://veadardiary.blog29.fc2.com/blog-entry-880.html&#34;&gt;ThinkingRock | Macの手書き説明書&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

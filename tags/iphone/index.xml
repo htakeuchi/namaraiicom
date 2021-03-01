@@ -1,355 +1,514 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>iphone on namaraii.com</title><link>https://namaraii.com/tags/iphone/</link><description>Recent content in iphone on namaraii.com</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright><lastBuildDate>Mon, 12 Sep 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://namaraii.com/tags/iphone/index.xml" rel="self" type="application/rss+xml"/><item><title>iOSアプリ開発(Swift+Xcode)の基本を学ぶのにおすすめのチュートリアル</title><link>https://namaraii.com/post/2016/20160912_iosswiftxcoded7208aa331c9/</link><pubDate>Mon, 12 Sep 2016 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2016/20160912_iosswiftxcoded7208aa331c9/</guid><description>
-&lt;p>過去にいくつかiOSアプリを開発してきましたが、どうしてもObjective-Cの文法に違和感があり、すべてRubyMotionで書いてきました。&lt;/p>
-&lt;p>が、やはり標準的な開発方法も押さえておきたいと思い、Swift +
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>iphone on namaraii.com</title>
+    <link>https://namaraii.com/tags/iphone/</link>
+    <description>Recent content in iphone on namaraii.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright>
+    <lastBuildDate>Mon, 12 Sep 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://namaraii.com/tags/iphone/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>iOSアプリ開発(Swift&#43;Xcode)の基本を学ぶのにおすすめのチュートリアル</title>
+      <link>https://namaraii.com/post/2016/20160912_iosswiftxcoded7208aa331c9/</link>
+      <pubDate>Mon, 12 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2016/20160912_iosswiftxcoded7208aa331c9/</guid>
+      <description>
+        
+          &lt;p&gt;過去にいくつかiOSアプリを開発してきましたが、どうしてもObjective-Cの文法に違和感があり、すべてRubyMotionで書いてきました。&lt;/p&gt;
+&lt;p&gt;が、やはり標準的な開発方法も押さえておきたいと思い、Swift +
 Xcodeのチュートリアルを探したところ、Appleが提供しているStart Developing
-iOS Apps (Swift)というチュートリアルがとてもよかったです。&lt;/p>
-&lt;p>&lt;a href="https://developer.apple.com/library/ios/referencelibrary/GettingStarted/DevelopiOSAppsSwift/" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://developer.apple.com/library/ios/referencelibrary/GettingStarted/DevelopiOSAppsSwift/">&lt;strong>Start Developing iOS Apps (Swift): Jump Right In&lt;/strong>&lt;br />
-&lt;em>A hands-on introduction to iOS app development using Swift.&lt;/em>developer.apple.com&lt;/a>&lt;a href="https://developer.apple.com/library/ios/referencelibrary/GettingStarted/DevelopiOSAppsSwift/" class="js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock">&lt;/a>&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/10yWr4J5tSv37C89SjiNWXw.png" alt="/images/10yWr4J5tSv37C89SjiNWXw.png">
-チュートリアルではFood Trackerというアプリの作成を通して、&lt;/p>
-&lt;ul>
-&lt;li>&lt;span id="f2de">Xcodeの基本操作&lt;/span>&lt;/li>
-&lt;li>&lt;span id="51ae">オートレイアウト&lt;/span>&lt;/li>
-&lt;li>&lt;span id="1a5d">UIとコードの接続(アウトレット)&lt;/span>&lt;/li>
-&lt;li>&lt;span id="712a">ビューコントローラと画面遷移&lt;/span>&lt;/li>
-&lt;li>&lt;span id="85b6">テーブルビュー&lt;/span>&lt;/li>
-&lt;li>&lt;span id="489a">カスタムコントロールの作成&lt;/span>&lt;/li>
-&lt;li>&lt;span id="26e7">データモデルと永続化&lt;/span>&lt;/li>
-&lt;/ul>
-&lt;p>などを学べます。&lt;/p>
-&lt;p>プログラミング経験がまったくない人には厳しいかもしれませんが、iOSアプリ開発の基本を味見するのに良いと思いますよ&lt;/p></description></item><item><title>Apple純正のiPhone Lightning Dockが届いた…が…</title><link>https://namaraii.com/post/2015/20150524_appleiphonelightningdockdb38a673c526/</link><pubDate>Sun, 24 May 2015 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2015/20150524_appleiphonelightningdockdb38a673c526/</guid><description>
-&lt;p>Apple純正の&lt;a href="http://store.apple.com/jp/product/MGRM2AM/A/iphone-lightning-dock">iPhone Lightning Dock&lt;/a>が届きました。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/g9cJfpwA1pMx2Y.jpg" alt="/images/g9cJfpwA1pMx2Y.jpg">
-以前、Amazonでサードパーティ製のDockを買ったことがあるんですが、数ヶ月でDockへ刺しても認識しなくなったという苦い思い出があるんですよね。&lt;/p>
-&lt;p>&lt;a href="http://namaraii.com/archives/5761">iPhone 5 Lightning Dock(Lightning Dock PRO)その後… | namaraii.com @htakeuchi&lt;/a>&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/hcw9e1ik07cLi2.jpg" alt="/images/hcw9e1ik07cLi2.jpg">&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/3wtmqEGKFx16rS.jpg" alt="/images/3wtmqEGKFx16rS.jpg">
-iPhone6 Plusを指すと、こんな感じです。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/mCwSQ1QlocKPHf.jpg" alt="/images/mCwSQ1QlocKPHf.jpg">
-横から見るとこんな感じ。&lt;a href="http://blog.esuteru.com/archives/8185835.html" class="markup--anchor markup--p-anchor">【試される信仰心】アップル純正のiPhone Lightning Dockがすごく折れ&lt;br />
-そうだと話題に！これ絶対壊すやつだｗｗｗｗ : はちま起稿&lt;/a>にもありますが、コネクタが折れるのでは？という不安に駆られます。&lt;/p>
-&lt;blockquote>
-&lt;p>&lt;a href="https://twitter.com/akoustam/status/602013730361212928">&lt;/a>&lt;/p>
-&lt;/blockquote>
-&lt;p>ほんと、そんな感じでDockかiPhoneのどちらかが逝きそうな香りがします。いや、満を持して発売されたし、そんなことは無いと信じたいのですが…&lt;/p>
-&lt;p>おっかなびっくり使ってみます(^^;&lt;/p></description></item><item><title>SIMフリーのiPhone6 Plusを買ったのでソフトバンクからIIJmioへMNPした</title><link>https://namaraii.com/post/2014/20141117_simiphone6plusiijmiomnpe24c9a11e52b/</link><pubDate>Mon, 17 Nov 2014 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2014/20141117_simiphone6plusiijmiomnpe24c9a11e52b/</guid><description>
-&lt;p>SIMフリーのiPhone6 Plusを購入したため、いいかげんキャリアの2年縛りから卒業しようとIIJmioにMNPしました。&lt;/p>
-&lt;p>IIJmioはネットか&lt;a href="https://www.iijmio.jp/bicsim/counter.html">BIC SIMカウンター&lt;/a>での申し込みが可能です。&lt;a href="https://www.iijmio.jp/bicsim/counter.html">BIC SIMカウンター&lt;/a>へ持ち込めば、当日中にSIMカードを発行できますが、私は仕事の都合上、ネットでの申し込みを選択。&lt;/p>
-&lt;p>ネットでの申し込みはすべてオンラインで完結して楽なのですが、携帯が使えなくなるタイミングが発生してしまいます。&lt;/p>
-&lt;p>このため、私と同様にIIJmioへのMNPを検討されている方の参考になればと、申込みから開通までの流れを時系列でまとめてみました。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/2aFHwwP9i0wy-4.jpg" alt="/images/2aFHwwP9i0wy-4.jpg">
-photo by Hitoshi TAKEUCHI&lt;/p>
-&lt;p>RICOH IMAGING COMPANY, LTD. GR, 18.3 mm, f5.6, ISO 100, 1/45sec, 0EV,
-Aperture 3.5.1&lt;br>
+iOS Apps (Swift)というチュートリアルがとてもよかったです。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://developer.apple.com/library/ios/referencelibrary/GettingStarted/DevelopiOSAppsSwift/&#34; class=&#34;markup--anchor markup--mixtapeEmbed-anchor&#34; title=&#34;https://developer.apple.com/library/ios/referencelibrary/GettingStarted/DevelopiOSAppsSwift/&#34;&gt;&lt;strong&gt;Start Developing iOS Apps (Swift): Jump Right In&lt;/strong&gt;&lt;br /&gt;
+&lt;em&gt;A hands-on introduction to iOS app development using Swift.&lt;/em&gt;developer.apple.com&lt;/a&gt;&lt;a href=&#34;https://developer.apple.com/library/ios/referencelibrary/GettingStarted/DevelopiOSAppsSwift/&#34; class=&#34;js-mixtapeImage mixtapeImage mixtapeImage--empty u-ignoreBlock&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/10yWr4J5tSv37C89SjiNWXw.png&#34; alt=&#34;/images/10yWr4J5tSv37C89SjiNWXw.png&#34;&gt;
+チュートリアルではFood Trackerというアプリの作成を通して、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span id=&#34;f2de&#34;&gt;Xcodeの基本操作&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;51ae&#34;&gt;オートレイアウト&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;1a5d&#34;&gt;UIとコードの接続(アウトレット)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;712a&#34;&gt;ビューコントローラと画面遷移&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;85b6&#34;&gt;テーブルビュー&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;489a&#34;&gt;カスタムコントロールの作成&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;26e7&#34;&gt;データモデルと永続化&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;などを学べます。&lt;/p&gt;
+&lt;p&gt;プログラミング経験がまったくない人には厳しいかもしれませんが、iOSアプリ開発の基本を味見するのに良いと思いますよ&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Apple純正のiPhone Lightning Dockが届いた…が…</title>
+      <link>https://namaraii.com/post/2015/20150524_appleiphonelightningdockdb38a673c526/</link>
+      <pubDate>Sun, 24 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2015/20150524_appleiphonelightningdockdb38a673c526/</guid>
+      <description>
+        
+          &lt;p&gt;Apple純正の&lt;a href=&#34;http://store.apple.com/jp/product/MGRM2AM/A/iphone-lightning-dock&#34;&gt;iPhone Lightning Dock&lt;/a&gt;が届きました。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/g9cJfpwA1pMx2Y.jpg&#34; alt=&#34;/images/g9cJfpwA1pMx2Y.jpg&#34;&gt;
+以前、Amazonでサードパーティ製のDockを買ったことがあるんですが、数ヶ月でDockへ刺しても認識しなくなったという苦い思い出があるんですよね。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://namaraii.com/archives/5761&#34;&gt;iPhone 5 Lightning Dock(Lightning Dock PRO)その後… | namaraii.com @htakeuchi&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/hcw9e1ik07cLi2.jpg&#34; alt=&#34;/images/hcw9e1ik07cLi2.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/3wtmqEGKFx16rS.jpg&#34; alt=&#34;/images/3wtmqEGKFx16rS.jpg&#34;&gt;
+iPhone6 Plusを指すと、こんな感じです。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/mCwSQ1QlocKPHf.jpg&#34; alt=&#34;/images/mCwSQ1QlocKPHf.jpg&#34;&gt;
+横から見るとこんな感じ。&lt;a href=&#34;http://blog.esuteru.com/archives/8185835.html&#34; class=&#34;markup--anchor markup--p-anchor&#34;&gt;【試される信仰心】アップル純正のiPhone Lightning Dockがすごく折れ&lt;br /&gt;
+そうだと話題に！これ絶対壊すやつだｗｗｗｗ : はちま起稿&lt;/a&gt;にもありますが、コネクタが折れるのでは？という不安に駆られます。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/akoustam/status/602013730361212928&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;ほんと、そんな感じでDockかiPhoneのどちらかが逝きそうな香りがします。いや、満を持して発売されたし、そんなことは無いと信じたいのですが…&lt;/p&gt;
+&lt;p&gt;おっかなびっくり使ってみます(^^;&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>SIMフリーのiPhone6 Plusを買ったのでソフトバンクからIIJmioへMNPした</title>
+      <link>https://namaraii.com/post/2014/20141117_simiphone6plusiijmiomnpe24c9a11e52b/</link>
+      <pubDate>Mon, 17 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2014/20141117_simiphone6plusiijmiomnpe24c9a11e52b/</guid>
+      <description>
+        
+          &lt;p&gt;SIMフリーのiPhone6 Plusを購入したため、いいかげんキャリアの2年縛りから卒業しようとIIJmioにMNPしました。&lt;/p&gt;
+&lt;p&gt;IIJmioはネットか&lt;a href=&#34;https://www.iijmio.jp/bicsim/counter.html&#34;&gt;BIC SIMカウンター&lt;/a&gt;での申し込みが可能です。&lt;a href=&#34;https://www.iijmio.jp/bicsim/counter.html&#34;&gt;BIC SIMカウンター&lt;/a&gt;へ持ち込めば、当日中にSIMカードを発行できますが、私は仕事の都合上、ネットでの申し込みを選択。&lt;/p&gt;
+&lt;p&gt;ネットでの申し込みはすべてオンラインで完結して楽なのですが、携帯が使えなくなるタイミングが発生してしまいます。&lt;/p&gt;
+&lt;p&gt;このため、私と同様にIIJmioへのMNPを検討されている方の参考になればと、申込みから開通までの流れを時系列でまとめてみました。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/2aFHwwP9i0wy-4.jpg&#34; alt=&#34;/images/2aFHwwP9i0wy-4.jpg&#34;&gt;
+photo by Hitoshi TAKEUCHI&lt;/p&gt;
+&lt;p&gt;RICOH IMAGING COMPANY, LTD. GR, 18.3 mm, f5.6, ISO 100, 1/45sec, 0EV,
+Aperture 3.5.1&lt;br&gt;
 generated by
-&lt;a href="https://itunes.apple.com/jp/app/flickurl/id817330241?mt=8">FlickURL&lt;/a>&lt;/p>
-&lt;h4 id="事前準備1-iijmio-sim-音声通話パックの購入">事前準備1 IIJmio SIM 音声通話パックの購入&lt;/h4>
-&lt;p>&lt;a href="http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;amp;bc1=000000&amp;amp;IS2=1&amp;amp;bg1=FFFFFF&amp;amp;fc1=000000&amp;amp;lc1=0000FF&amp;amp;t=namaraiicom-22&amp;amp;o=9&amp;amp;p=8&amp;amp;l=as4&amp;amp;m=amazon&amp;amp;f=ifr&amp;amp;ref=ss_til&amp;amp;asins=B00J8B7WWG">http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;amp;bc1=000000&amp;amp;IS2=1&amp;amp;bg1=FFFFFF&amp;amp;fc1=000000&amp;amp;lc1=0000FF&amp;amp;t=namaraiicom-22&amp;amp;o=9&amp;amp;p=8&amp;amp;l=as4&amp;amp;m=amazon&amp;amp;f=ifr&amp;amp;ref=ss_til&amp;amp;asins=B00J8B7WWG&lt;/a>&lt;/p>
-&lt;p>Amazonで&lt;a href="http://www.amazon.co.jp/dp/B00J8B7WWG/ref=as_sl_pc_tf_lc?tag=namaraiicom-22&amp;amp;camp=1027&amp;amp;creative=7407&amp;amp;linkCode=as4&amp;amp;creativeASIN=B00J8B7WWG&amp;amp;adid=0FYNA7D13WC7SFWEP2W1&amp;amp;&amp;amp;ref-refURL=http%3A%2F%2Frcm-fe.amazon-adsystem.com%2Fe%2Fcm%3Flt1%3D_blank%26bc1%3D000000%26IS2%3D1%26bg1%3DFFFFFF%26fc1%3D000000%26lc1%3D0000FF%26t%3Dnamaraiicom-22%26o%3D9%26p%3D8%26l%3Das4%26m%3Damazon%26f%3Difr%26ref%3Dss_til%26asins%3DB00J8B7WWG">IIJ IIJmio SIM 音声通話 パック みおふぉん IM-B043&lt;/a>を購入しました。&lt;/p>
-&lt;p>この商品にはSIMカードは含まれていません。Webから申し込みを行う際に入力する「エントリーコード」が記載された紙が入っています。&lt;/p>
-&lt;h4 id="事前準備2-mnp転出の申し込み">事前準備2 MNP転出の申し込み&lt;/h4>
-&lt;p>電話でMNP転出の申し込みをします。&lt;a href="http://mb.softbank.jp/biz/procedure/MNP/leave/">ソフトバンクの場合はこちら&lt;/a>から。&lt;/p>
-&lt;p>本人確認後、オペレータさんといくつかのQ&amp;amp;Aと、転出の引き留めなどｗのやりとりを終え、電話を切ってしばらくすると、ショートメールでMNP予約番号が届きます。&lt;/p>
-&lt;h4 id="事前準備3-本人確認書類の準備">事前準備3 本人確認書類の準備&lt;/h4>
-&lt;p>IIJmio申し込みの際、運転免許証、日本国パスポート、保険証などの本人確認書類が必要になります。JPEGかPDFで準備する必要があるため、スマホ等で撮影してファイルを準備しておきます。500KB以内になるよう注意。&lt;/p>
-&lt;h4 id="iijmioでの手続き">IIJmioでの手続き&lt;/h4>
-&lt;p>&lt;a href="https://www.iijmio.jp/hdd/service/order.jsp?l=0m367a">IIJmioのサービス申し込みページ&lt;/a>から必要情報を入力します。&lt;/p>
-&lt;p>その際、事前準備で用意したエントリーコード、MNP予約番号が必要になります。また、契約プランも選ぶことになりますので、事前に決めておきましょう。&lt;/p>
-&lt;p>必要事項を全て記入すると、本人確認書類画像をアップロードしろというメールが届くので、メールに記載されたURLからアップロードします。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/SVAGHz6JbpcoCF.jpg" alt="/images/SVAGHz6JbpcoCF.jpg">
-photo by Hitoshi TAKEUCHI&lt;/p>
-&lt;p>Apple iPhone 6 Plus, 4.2 mm, f2.2, ISO 32, 1/249sec, 0EV, 8.0&lt;br>
+&lt;a href=&#34;https://itunes.apple.com/jp/app/flickurl/id817330241?mt=8&#34;&gt;FlickURL&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;事前準備1-iijmio-sim-音声通話パックの購入&#34;&gt;事前準備1 IIJmio SIM 音声通話パックの購入&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;amp;bc1=000000&amp;amp;IS2=1&amp;amp;bg1=FFFFFF&amp;amp;fc1=000000&amp;amp;lc1=0000FF&amp;amp;t=namaraiicom-22&amp;amp;o=9&amp;amp;p=8&amp;amp;l=as4&amp;amp;m=amazon&amp;amp;f=ifr&amp;amp;ref=ss_til&amp;amp;asins=B00J8B7WWG&#34;&gt;http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;amp;bc1=000000&amp;amp;IS2=1&amp;amp;bg1=FFFFFF&amp;amp;fc1=000000&amp;amp;lc1=0000FF&amp;amp;t=namaraiicom-22&amp;amp;o=9&amp;amp;p=8&amp;amp;l=as4&amp;amp;m=amazon&amp;amp;f=ifr&amp;amp;ref=ss_til&amp;amp;asins=B00J8B7WWG&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Amazonで&lt;a href=&#34;http://www.amazon.co.jp/dp/B00J8B7WWG/ref=as_sl_pc_tf_lc?tag=namaraiicom-22&amp;amp;camp=1027&amp;amp;creative=7407&amp;amp;linkCode=as4&amp;amp;creativeASIN=B00J8B7WWG&amp;amp;adid=0FYNA7D13WC7SFWEP2W1&amp;amp;&amp;amp;ref-refURL=http%3A%2F%2Frcm-fe.amazon-adsystem.com%2Fe%2Fcm%3Flt1%3D_blank%26bc1%3D000000%26IS2%3D1%26bg1%3DFFFFFF%26fc1%3D000000%26lc1%3D0000FF%26t%3Dnamaraiicom-22%26o%3D9%26p%3D8%26l%3Das4%26m%3Damazon%26f%3Difr%26ref%3Dss_til%26asins%3DB00J8B7WWG&#34;&gt;IIJ IIJmio SIM 音声通話 パック みおふぉん IM-B043&lt;/a&gt;を購入しました。&lt;/p&gt;
+&lt;p&gt;この商品にはSIMカードは含まれていません。Webから申し込みを行う際に入力する「エントリーコード」が記載された紙が入っています。&lt;/p&gt;
+&lt;h4 id=&#34;事前準備2-mnp転出の申し込み&#34;&gt;事前準備2 MNP転出の申し込み&lt;/h4&gt;
+&lt;p&gt;電話でMNP転出の申し込みをします。&lt;a href=&#34;http://mb.softbank.jp/biz/procedure/MNP/leave/&#34;&gt;ソフトバンクの場合はこちら&lt;/a&gt;から。&lt;/p&gt;
+&lt;p&gt;本人確認後、オペレータさんといくつかのQ&amp;amp;Aと、転出の引き留めなどｗのやりとりを終え、電話を切ってしばらくすると、ショートメールでMNP予約番号が届きます。&lt;/p&gt;
+&lt;h4 id=&#34;事前準備3-本人確認書類の準備&#34;&gt;事前準備3 本人確認書類の準備&lt;/h4&gt;
+&lt;p&gt;IIJmio申し込みの際、運転免許証、日本国パスポート、保険証などの本人確認書類が必要になります。JPEGかPDFで準備する必要があるため、スマホ等で撮影してファイルを準備しておきます。500KB以内になるよう注意。&lt;/p&gt;
+&lt;h4 id=&#34;iijmioでの手続き&#34;&gt;IIJmioでの手続き&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.iijmio.jp/hdd/service/order.jsp?l=0m367a&#34;&gt;IIJmioのサービス申し込みページ&lt;/a&gt;から必要情報を入力します。&lt;/p&gt;
+&lt;p&gt;その際、事前準備で用意したエントリーコード、MNP予約番号が必要になります。また、契約プランも選ぶことになりますので、事前に決めておきましょう。&lt;/p&gt;
+&lt;p&gt;必要事項を全て記入すると、本人確認書類画像をアップロードしろというメールが届くので、メールに記載されたURLからアップロードします。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/SVAGHz6JbpcoCF.jpg&#34; alt=&#34;/images/SVAGHz6JbpcoCF.jpg&#34;&gt;
+photo by Hitoshi TAKEUCHI&lt;/p&gt;
+&lt;p&gt;Apple iPhone 6 Plus, 4.2 mm, f2.2, ISO 32, 1/249sec, 0EV, 8.0&lt;br&gt;
 generated by
-&lt;a href="https://itunes.apple.com/jp/app/flickurl/id817330241?mt=8">FlickURL&lt;/a>&lt;/p>
-&lt;h4 id="その後simカードが届くまでの流れ">その後、SIMカードが届くまでの流れ&lt;/h4>
-&lt;p>ここからの流れは時系列でまとめます。&lt;/p>
-&lt;p>日付時刻内容11月14日(金)18:21「本人確認書類画像受付完了のご連絡」というメールが届く。（アップロード後、数分で届きました）11月15日(土)21:08「MNP
+&lt;a href=&#34;https://itunes.apple.com/jp/app/flickurl/id817330241?mt=8&#34;&gt;FlickURL&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;その後simカードが届くまでの流れ&#34;&gt;その後、SIMカードが届くまでの流れ&lt;/h4&gt;
+&lt;p&gt;ここからの流れは時系列でまとめます。&lt;/p&gt;
+&lt;p&gt;日付時刻内容11月14日(金)18:21「本人確認書類画像受付完了のご連絡」というメールが届く。（アップロード後、数分で届きました）11月15日(土)21:08「MNP
 転入による電話番号停止予定のお知らせ」というメールが届く11月16日(日)正午前後ソフトバンクが利用不可になる（圏外表示）11月17日(月)6:16「IIJmioサービス
-ご利用開始日確定のお知らせ」というメールが届く11月17日(月)9:30宅配便でSIMカードが到着する。（神奈川県在住です）&lt;/p>
-&lt;p>ということで、私の場合では日曜の昼から月曜の朝まで圏外になりましたが、個人携帯ですし、そもそも音声通話はほとんど使わないので、特に問題ありませんでした。&lt;/p>
-&lt;p>半日も圏外になるのは困るという方は、&lt;a href="https://www.iijmio.jp/bicsim/counter.html">BIC SIMカウンター&lt;/a>を利用された方が良いと思います。&lt;/p>
-&lt;p>IIJmioの申し込みサイトは丁寧な作りでわかりやすかったです。また、土日を挟んだにも関わらず迅速に対応していただき、全体的にとても好印象でした。&lt;/p>
-&lt;p>料金プランもシンプルでわかりやすくいいですね。ようやく、複雑怪奇で理解不能な料金プランから解放されたぞ！&lt;/p></description></item><item><title>FlickURLの次期リリースバージョンについて(ブラウズモード/iPhone6解像度対応)</title><link>https://namaraii.com/post/2014/20141011_flickurliphone6f2563c0eb3e4/</link><pubDate>Sat, 11 Oct 2014 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2014/20141011_flickurliphone6f2563c0eb3e4/</guid><description>
-&lt;p>Flickrの写真をブログで簡単に使えるようにするiPhoneアプリFlickURLの1.4の新機能を紹介します。&lt;/p>
-&lt;h4 id="選択した写真を拡大表示して確認できるブラウズモードの追加">選択した写真を拡大表示して確認できるブラウズモードの追加&lt;/h4>
-&lt;p>FlickURLのサムネイルは写真を正方形表示するため、似た写真が複数ある場合に選択するのが不便でした。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/hMZVxAnsV-P62V.png" alt="/images/hMZVxAnsV-P62V.png">
-新機能のブラウズモードは、サムネイル上でざくっと候補の写真を選びブラウズボタンをタップすると、選んだ写真を拡大表示するモードへ移行します。左右フリックで写真を切り替えつつ、右上のチェックボタンで選択/非選択を個別に指定できます。&lt;/p>
-&lt;p>私の場合、写真を取捨選択せずにFlickrへアップするので、似た構図の写真が連続してまうことが多く、正方形のサムネイルだけで写真を選ぶのは面倒だったんですよね。私のようにFlickrを写真倉庫として使っている方には便利な機能ではないかと。&lt;/p>
-&lt;h4 id="iphone6-iphone6-plus解像度対応">iPhone6, iPhone6 Plus解像度対応&lt;/h4>
-&lt;p>テキスト主体のアプリではないため、それほど恩恵はありませんが。&lt;/p>
-&lt;h4 id="ダウンロードはこちらから">ダウンロードはこちらから&lt;/h4>
-&lt;p>（2014年10月12日現在 レビュー待ちです）&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/gui4UpLD6PaUhB.png" alt="/images/gui4UpLD6PaUhB.png">
-&lt;a href="https://itunes.apple.com/jp/app/flickurl/id817330241?mt=8&amp;amp;uo=4&amp;amp;at=10lmwI">&lt;strong>FlickURL&lt;/strong>&lt;/a>&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/G6fXsNXmG9Rt2s.gif" alt="/images/G6fXsNXmG9Rt2s.gif">
-カテゴリ: 写真／ビデオ&lt;/p>
-&lt;p>価格: 無料&lt;/p></description></item><item><title>【重要】FlickURL 1.3をリリースしました（Flickr APIの仕様変更対応）</title><link>https://namaraii.com/post/2014/20140708_flickurl13flickrapi33e530b12323/</link><pubDate>Tue, 08 Jul 2014 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2014/20140708_flickurl13flickrapi33e530b12323/</guid><description>
-&lt;p>モブログ支援アプリFlickURL 1.3をリリースしました。&lt;/p>
-&lt;p>今回は機能追加はなく、下記のFlickr APIの仕様変更対応のみです。&lt;/p>
-&lt;p>&lt;a href="http://code.flickr.net/2014/04/30/flickr-api-going-ssl-only-on-june-27th-2014/">Flickr API Going SSL-Only on June 27th, 2014 | code.flickr.com&lt;/a>&lt;/p>
-&lt;p>この仕様変更により&lt;strong>バージョン1.2以前のものは使えなくなっています&lt;/strong>。&lt;/p>
-&lt;p>ご利用の方は、お手数ですがバージョンアップをお願いします。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/zRhXu6HdAtPbne.jpg" alt="/images/zRhXu6HdAtPbne.jpg">
-by Hitoshi TAKEUCHI&lt;/p>
-&lt;p>Canon EOS 7D, 60.0 mm, f8.0, ISO 100, 1/500sec, 0EV, Aperture 3.5.1&lt;br>
+ご利用開始日確定のお知らせ」というメールが届く11月17日(月)9:30宅配便でSIMカードが到着する。（神奈川県在住です）&lt;/p&gt;
+&lt;p&gt;ということで、私の場合では日曜の昼から月曜の朝まで圏外になりましたが、個人携帯ですし、そもそも音声通話はほとんど使わないので、特に問題ありませんでした。&lt;/p&gt;
+&lt;p&gt;半日も圏外になるのは困るという方は、&lt;a href=&#34;https://www.iijmio.jp/bicsim/counter.html&#34;&gt;BIC SIMカウンター&lt;/a&gt;を利用された方が良いと思います。&lt;/p&gt;
+&lt;p&gt;IIJmioの申し込みサイトは丁寧な作りでわかりやすかったです。また、土日を挟んだにも関わらず迅速に対応していただき、全体的にとても好印象でした。&lt;/p&gt;
+&lt;p&gt;料金プランもシンプルでわかりやすくいいですね。ようやく、複雑怪奇で理解不能な料金プランから解放されたぞ！&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>FlickURLの次期リリースバージョンについて(ブラウズモード/iPhone6解像度対応)</title>
+      <link>https://namaraii.com/post/2014/20141011_flickurliphone6f2563c0eb3e4/</link>
+      <pubDate>Sat, 11 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2014/20141011_flickurliphone6f2563c0eb3e4/</guid>
+      <description>
+        
+          &lt;p&gt;Flickrの写真をブログで簡単に使えるようにするiPhoneアプリFlickURLの1.4の新機能を紹介します。&lt;/p&gt;
+&lt;h4 id=&#34;選択した写真を拡大表示して確認できるブラウズモードの追加&#34;&gt;選択した写真を拡大表示して確認できるブラウズモードの追加&lt;/h4&gt;
+&lt;p&gt;FlickURLのサムネイルは写真を正方形表示するため、似た写真が複数ある場合に選択するのが不便でした。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/hMZVxAnsV-P62V.png&#34; alt=&#34;/images/hMZVxAnsV-P62V.png&#34;&gt;
+新機能のブラウズモードは、サムネイル上でざくっと候補の写真を選びブラウズボタンをタップすると、選んだ写真を拡大表示するモードへ移行します。左右フリックで写真を切り替えつつ、右上のチェックボタンで選択/非選択を個別に指定できます。&lt;/p&gt;
+&lt;p&gt;私の場合、写真を取捨選択せずにFlickrへアップするので、似た構図の写真が連続してまうことが多く、正方形のサムネイルだけで写真を選ぶのは面倒だったんですよね。私のようにFlickrを写真倉庫として使っている方には便利な機能ではないかと。&lt;/p&gt;
+&lt;h4 id=&#34;iphone6-iphone6-plus解像度対応&#34;&gt;iPhone6, iPhone6 Plus解像度対応&lt;/h4&gt;
+&lt;p&gt;テキスト主体のアプリではないため、それほど恩恵はありませんが。&lt;/p&gt;
+&lt;h4 id=&#34;ダウンロードはこちらから&#34;&gt;ダウンロードはこちらから&lt;/h4&gt;
+&lt;p&gt;（2014年10月12日現在 レビュー待ちです）&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/gui4UpLD6PaUhB.png&#34; alt=&#34;/images/gui4UpLD6PaUhB.png&#34;&gt;
+&lt;a href=&#34;https://itunes.apple.com/jp/app/flickurl/id817330241?mt=8&amp;amp;uo=4&amp;amp;at=10lmwI&#34;&gt;&lt;strong&gt;FlickURL&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/G6fXsNXmG9Rt2s.gif&#34; alt=&#34;/images/G6fXsNXmG9Rt2s.gif&#34;&gt;
+カテゴリ: 写真／ビデオ&lt;/p&gt;
+&lt;p&gt;価格: 無料&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>【重要】FlickURL 1.3をリリースしました（Flickr APIの仕様変更対応）</title>
+      <link>https://namaraii.com/post/2014/20140708_flickurl13flickrapi33e530b12323/</link>
+      <pubDate>Tue, 08 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2014/20140708_flickurl13flickrapi33e530b12323/</guid>
+      <description>
+        
+          &lt;p&gt;モブログ支援アプリFlickURL 1.3をリリースしました。&lt;/p&gt;
+&lt;p&gt;今回は機能追加はなく、下記のFlickr APIの仕様変更対応のみです。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://code.flickr.net/2014/04/30/flickr-api-going-ssl-only-on-june-27th-2014/&#34;&gt;Flickr API Going SSL-Only on June 27th, 2014 | code.flickr.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;この仕様変更により&lt;strong&gt;バージョン1.2以前のものは使えなくなっています&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;ご利用の方は、お手数ですがバージョンアップをお願いします。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/zRhXu6HdAtPbne.jpg&#34; alt=&#34;/images/zRhXu6HdAtPbne.jpg&#34;&gt;
+by Hitoshi TAKEUCHI&lt;/p&gt;
+&lt;p&gt;Canon EOS 7D, 60.0 mm, f8.0, ISO 100, 1/500sec, 0EV, Aperture 3.5.1&lt;br&gt;
 generated by
-&lt;a href="https://itunes.apple.com/jp/app/flickurl/id817330241?mt=8">FlickURL&lt;/a>&lt;/p>
-&lt;p>via PressSync&lt;/p></description></item><item><title>サッカーワールドカップ2014ブラジル大会に向けて入れた3本のアプリ</title><link>https://namaraii.com/post/2014/20140611_iphone20143aa32fe5081f2/</link><pubDate>Wed, 11 Jun 2014 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2014/20140611_iphone20143aa32fe5081f2/</guid><description>
-&lt;p>いよいよ明日からワールドカップが始まりますね。&lt;/p>
-&lt;p>私はワールドカップをより楽しめそうな、iPhoneアプリを3本インストールし準備万端です。いずれも特徴がある良いアプリなので、シェアします。&lt;/p>
-&lt;h4 id="fifa-officialapp">FIFA Official App&lt;/h4>
-&lt;p>FIFAが提供する公式アプリ。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/hdPzExliAwiSqb.png" alt="/images/hdPzExliAwiSqb.png">
-ニュース、グループリーグ毎の成績、各国のプロフィール、スタッツなどを参照できます。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/KA395Gc56UJqXs.png" alt="/images/KA395Gc56UJqXs.png">
-応援する国を登録すると出場選手の発表、キックオフ、得点、レッドカードなどのタイミングで通知をしてくれる機能があります。期間中はあちこちでバイブ音が響くのかな？&lt;/p>
-&lt;p>表示する言語は選べますが、残念ながら日本語はありません。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/x-VshC2ZYmSq7D.png" alt="/images/x-VshC2ZYmSq7D.png">
-&lt;a href="https://itunes.apple.com/jp/app/fifa-official-app/id756904853?mt=8&amp;amp;uo=4&amp;amp;at=10lmwI">FIFA Official App&lt;/a>&lt;br>
+&lt;a href=&#34;https://itunes.apple.com/jp/app/flickurl/id817330241?mt=8&#34;&gt;FlickURL&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;via PressSync&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>サッカーワールドカップ2014ブラジル大会に向けて入れた3本のアプリ</title>
+      <link>https://namaraii.com/post/2014/20140611_iphone20143aa32fe5081f2/</link>
+      <pubDate>Wed, 11 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2014/20140611_iphone20143aa32fe5081f2/</guid>
+      <description>
+        
+          &lt;p&gt;いよいよ明日からワールドカップが始まりますね。&lt;/p&gt;
+&lt;p&gt;私はワールドカップをより楽しめそうな、iPhoneアプリを3本インストールし準備万端です。いずれも特徴がある良いアプリなので、シェアします。&lt;/p&gt;
+&lt;h4 id=&#34;fifa-officialapp&#34;&gt;FIFA Official App&lt;/h4&gt;
+&lt;p&gt;FIFAが提供する公式アプリ。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/hdPzExliAwiSqb.png&#34; alt=&#34;/images/hdPzExliAwiSqb.png&#34;&gt;
+ニュース、グループリーグ毎の成績、各国のプロフィール、スタッツなどを参照できます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/KA395Gc56UJqXs.png&#34; alt=&#34;/images/KA395Gc56UJqXs.png&#34;&gt;
+応援する国を登録すると出場選手の発表、キックオフ、得点、レッドカードなどのタイミングで通知をしてくれる機能があります。期間中はあちこちでバイブ音が響くのかな？&lt;/p&gt;
+&lt;p&gt;表示する言語は選べますが、残念ながら日本語はありません。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/x-VshC2ZYmSq7D.png&#34; alt=&#34;/images/x-VshC2ZYmSq7D.png&#34;&gt;
+&lt;a href=&#34;https://itunes.apple.com/jp/app/fifa-official-app/id756904853?mt=8&amp;amp;uo=4&amp;amp;at=10lmwI&#34;&gt;FIFA Official App&lt;/a&gt;&lt;br&gt;
 販売元:
-&lt;a href="https://itunes.apple.com/jp/artist/fifa/id375974040?uo=4&amp;amp;at=10lmwI">Federation Internationale de Football Association&lt;/a>&lt;br>
-価格: 無料&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/FijacsVvrR6S8J.gif" alt="/images/FijacsVvrR6S8J.gif">
+&lt;a href=&#34;https://itunes.apple.com/jp/artist/fifa/id375974040?uo=4&amp;amp;at=10lmwI&#34;&gt;Federation Internationale de Football Association&lt;/a&gt;&lt;br&gt;
+価格: 無料&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/FijacsVvrR6S8J.gif&#34; alt=&#34;/images/FijacsVvrR6S8J.gif&#34;&gt;
 generated by
-&lt;a href="https://itunes.apple.com/us/app/presssync/id635867378?l=ja&amp;amp;ls=1&amp;amp;mt=8">PressSync&lt;/a>
-on 2014年6月12日&lt;/p>
-&lt;h4 id="日経w杯2014">日経W杯2014&lt;/h4>
-&lt;p>日本経済新聞社が提供するワールドカップブラジル大会専用アプリ。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/VIl0LtMr10OD7X.png" alt="/images/VIl0LtMr10OD7X.png">
-ニュースやコラム、グループリーグの組み合わせや試合日程、出場国、競技場などの情報を参照できます。日本語で豊富な情報を得られのはうれしい。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/-NjzurkpJDDGgL.png" alt="/images/-NjzurkpJDDGgL.png">
-各国、選手の詳細な情報が見られるのもいいですね。&lt;/p>
-&lt;p>グループリーグの順位を予想し、自分だけの決勝トーナメント表を作ったりなどエンタメ系の機能もあります。&lt;/p>
-&lt;p>初回起動がウソ？っていうほど遅いですが、あわてずに待ちましょう。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/PPe0XtQtMXNaP3.png" alt="/images/PPe0XtQtMXNaP3.png">
-&lt;a href="https://itunes.apple.com/jp/app/ri-jingw-bei2014/id827608126?mt=8&amp;amp;uo=4&amp;amp;at=10lmwI">日経W杯2014&lt;/a>&lt;br>
+&lt;a href=&#34;https://itunes.apple.com/us/app/presssync/id635867378?l=ja&amp;amp;ls=1&amp;amp;mt=8&#34;&gt;PressSync&lt;/a&gt;
+on 2014年6月12日&lt;/p&gt;
+&lt;h4 id=&#34;日経w杯2014&#34;&gt;日経W杯2014&lt;/h4&gt;
+&lt;p&gt;日本経済新聞社が提供するワールドカップブラジル大会専用アプリ。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/VIl0LtMr10OD7X.png&#34; alt=&#34;/images/VIl0LtMr10OD7X.png&#34;&gt;
+ニュースやコラム、グループリーグの組み合わせや試合日程、出場国、競技場などの情報を参照できます。日本語で豊富な情報を得られのはうれしい。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/-NjzurkpJDDGgL.png&#34; alt=&#34;/images/-NjzurkpJDDGgL.png&#34;&gt;
+各国、選手の詳細な情報が見られるのもいいですね。&lt;/p&gt;
+&lt;p&gt;グループリーグの順位を予想し、自分だけの決勝トーナメント表を作ったりなどエンタメ系の機能もあります。&lt;/p&gt;
+&lt;p&gt;初回起動がウソ？っていうほど遅いですが、あわてずに待ちましょう。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/PPe0XtQtMXNaP3.png&#34; alt=&#34;/images/PPe0XtQtMXNaP3.png&#34;&gt;
+&lt;a href=&#34;https://itunes.apple.com/jp/app/ri-jingw-bei2014/id827608126?mt=8&amp;amp;uo=4&amp;amp;at=10lmwI&#34;&gt;日経W杯2014&lt;/a&gt;&lt;br&gt;
 販売元:
-&lt;a href="https://itunes.apple.com/jp/artist/nikkei-inc./id367309142?uo=4&amp;amp;at=10lmwI">NIKKEI INC.&lt;/a>&lt;br>
-価格: 無料&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/YhBItHxvbE-bDr.gif" alt="/images/YhBItHxvbE-bDr.gif">
+&lt;a href=&#34;https://itunes.apple.com/jp/artist/nikkei-inc./id367309142?uo=4&amp;amp;at=10lmwI&#34;&gt;NIKKEI INC.&lt;/a&gt;&lt;br&gt;
+価格: 無料&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/YhBItHxvbE-bDr.gif&#34; alt=&#34;/images/YhBItHxvbE-bDr.gif&#34;&gt;
 generated by
-&lt;a href="https://itunes.apple.com/us/app/presssync/id635867378?l=ja&amp;amp;ls=1&amp;amp;mt=8">PressSync&lt;/a>
-on 2014年6月12日&lt;/p>
-&lt;h4 id="legends-stadium2014">Legends Stadium 2014&lt;/h4>
-&lt;p>出場32ヶ国の全選手データ、ニュース速報、スタッツ、ランキング、放送予定など豊富な情報を日本語で見られます。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/zu6wH2nW6awDGv.png" alt="/images/zu6wH2nW6awDGv.png">
-キックオフ時間を通知するアラーム機能や、友達と楽しむトトカルチョ機能なども。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/rwDmtZLDfS7rAp.png" alt="/images/rwDmtZLDfS7rAp.png">
-まだ大会が始まってないため、わからないのですが、たぶんこのアプリは映像系の機能がウリなんだと思います。&lt;/p>
-&lt;p>360°すべての角度からプレイを見られるマルチアングルビュー機能や、試合後すぐに見られる映像を提供するようです。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/crK2YSniw8pFx4.png" alt="/images/crK2YSniw8pFx4.png">
-&lt;a href="https://itunes.apple.com/jp/app/legends-stadium-2014/id879378419?mt=8&amp;amp;uo=4&amp;amp;at=10lmwI">Legends Stadium 2014&lt;/a>&lt;br>
+&lt;a href=&#34;https://itunes.apple.com/us/app/presssync/id635867378?l=ja&amp;amp;ls=1&amp;amp;mt=8&#34;&gt;PressSync&lt;/a&gt;
+on 2014年6月12日&lt;/p&gt;
+&lt;h4 id=&#34;legends-stadium2014&#34;&gt;Legends Stadium 2014&lt;/h4&gt;
+&lt;p&gt;出場32ヶ国の全選手データ、ニュース速報、スタッツ、ランキング、放送予定など豊富な情報を日本語で見られます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/zu6wH2nW6awDGv.png&#34; alt=&#34;/images/zu6wH2nW6awDGv.png&#34;&gt;
+キックオフ時間を通知するアラーム機能や、友達と楽しむトトカルチョ機能なども。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/rwDmtZLDfS7rAp.png&#34; alt=&#34;/images/rwDmtZLDfS7rAp.png&#34;&gt;
+まだ大会が始まってないため、わからないのですが、たぶんこのアプリは映像系の機能がウリなんだと思います。&lt;/p&gt;
+&lt;p&gt;360°すべての角度からプレイを見られるマルチアングルビュー機能や、試合後すぐに見られる映像を提供するようです。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/crK2YSniw8pFx4.png&#34; alt=&#34;/images/crK2YSniw8pFx4.png&#34;&gt;
+&lt;a href=&#34;https://itunes.apple.com/jp/app/legends-stadium-2014/id879378419?mt=8&amp;amp;uo=4&amp;amp;at=10lmwI&#34;&gt;Legends Stadium 2014&lt;/a&gt;&lt;br&gt;
 販売元:
-&lt;a href="https://itunes.apple.com/jp/artist/presentcast-inc./id544610425?uo=4&amp;amp;at=10lmwI">PRESENTCAST INC.&lt;/a>&lt;br>
-価格: 無料&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/FKNcz8b-EHBfpf.gif" alt="/images/FKNcz8b-EHBfpf.gif">
+&lt;a href=&#34;https://itunes.apple.com/jp/artist/presentcast-inc./id544610425?uo=4&amp;amp;at=10lmwI&#34;&gt;PRESENTCAST INC.&lt;/a&gt;&lt;br&gt;
+価格: 無料&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/FKNcz8b-EHBfpf.gif&#34; alt=&#34;/images/FKNcz8b-EHBfpf.gif&#34;&gt;
 generated by
-&lt;a href="https://itunes.apple.com/us/app/presssync/id635867378?l=ja&amp;amp;ls=1&amp;amp;mt=8">PressSync&lt;/a>
-on 2014年6月12日&lt;/p>
-&lt;h4 id="まとめ">まとめ&lt;/h4>
-&lt;p>こうしてみると、どれか1本に絞るのは難しく3本とも使うことになりそうです。&lt;/p>
-&lt;p>データの速報性と精度は公式のFIFA Official
+&lt;a href=&#34;https://itunes.apple.com/us/app/presssync/id635867378?l=ja&amp;amp;ls=1&amp;amp;mt=8&#34;&gt;PressSync&lt;/a&gt;
+on 2014年6月12日&lt;/p&gt;
+&lt;h4 id=&#34;まとめ&#34;&gt;まとめ&lt;/h4&gt;
+&lt;p&gt;こうしてみると、どれか1本に絞るのは難しく3本とも使うことになりそうです。&lt;/p&gt;
+&lt;p&gt;データの速報性と精度は公式のFIFA Official
 App、豊富な情報や読み物の日経W杯2014、ハイライト映像はLegends Stadium
-2014という感じ。&lt;/p>
-&lt;p>いや～いよいよ始まりますね。楽しみ！&lt;/p></description></item><item><title>Bitbucketのイシュー管理に特化したシンプルなアプリBitissues</title><link>https://namaraii.com/post/2014/20140524_iphonebitbucketbitissues9383491b7935/</link><pubDate>Sat, 24 May 2014 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2014/20140524_iphonebitbucketbitissues9383491b7935/</guid><description>
-&lt;p>Bitbucketはプライベートリポジトリを無料で作れるので、いくつかのプロジェクトを置いています。&lt;/p>
-&lt;p>出先でも、ふと思いついた時にイシューを更新したいことがあり、アプリを探したところBitissuesを発見。&lt;/p>
-&lt;p>Bitissuesはイシューの管理に特化したシンプルなアプリです。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/7_I7IeW9zs_NK3.png" alt="/images/7_I7IeW9zs_NK3.png">
-ログインしてユーザを選択するとリポジトリの一覧が表示されます。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/oEE0s2k575TVwQ.png" alt="/images/oEE0s2k575TVwQ.png">
-リポジトリを選ぶと、Openしているイシューが一覧表示されます。一覧表示のフィルタ条件も変更可能です。&lt;/p>
-&lt;p>&lt;a href="http://tnakamura.hatenablog.com/entry/2013/09/06/064932">開発者のブログ&lt;/a>によると、&lt;/p>
-&lt;blockquote>
-&lt;p>CodeBucket
+2014という感じ。&lt;/p&gt;
+&lt;p&gt;いや～いよいよ始まりますね。楽しみ！&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Bitbucketのイシュー管理に特化したシンプルなアプリBitissues</title>
+      <link>https://namaraii.com/post/2014/20140524_iphonebitbucketbitissues9383491b7935/</link>
+      <pubDate>Sat, 24 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2014/20140524_iphonebitbucketbitissues9383491b7935/</guid>
+      <description>
+        
+          &lt;p&gt;Bitbucketはプライベートリポジトリを無料で作れるので、いくつかのプロジェクトを置いています。&lt;/p&gt;
+&lt;p&gt;出先でも、ふと思いついた時にイシューを更新したいことがあり、アプリを探したところBitissuesを発見。&lt;/p&gt;
+&lt;p&gt;Bitissuesはイシューの管理に特化したシンプルなアプリです。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/7_I7IeW9zs_NK3.png&#34; alt=&#34;/images/7_I7IeW9zs_NK3.png&#34;&gt;
+ログインしてユーザを選択するとリポジトリの一覧が表示されます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/oEE0s2k575TVwQ.png&#34; alt=&#34;/images/oEE0s2k575TVwQ.png&#34;&gt;
+リポジトリを選ぶと、Openしているイシューが一覧表示されます。一覧表示のフィルタ条件も変更可能です。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://tnakamura.hatenablog.com/entry/2013/09/06/064932&#34;&gt;開発者のブログ&lt;/a&gt;によると、&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;CodeBucket
 は多機能で完成度が高いアプリですが、有料な上に自分はそんなに機能を必要としていないので、購入をためらいました。
-一方 IssueBucket は単純に使い心地が自分に合いませんでした。&lt;/p>
-&lt;/blockquote>
-&lt;blockquote>
-&lt;p>GitHub には Github:Issues という公式の iPhone
+一方 IssueBucket は単純に使い心地が自分に合いませんでした。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;GitHub には Github:Issues という公式の iPhone
 アプリがあって、愛用しているのですが、
 これと同じような使い心地のアプリが欲しかった。
-機能はイシューだけでいい。&lt;/p>
-&lt;/blockquote>
-&lt;p>そう、私もイシュー管理さえできれば良かったので、IssueBucketはドンピシャでした。&lt;/p>
-&lt;p>あと、RubyMotionで書かれているという点に勝手にシンパシーを感じていたり^^&lt;/p>
-&lt;p>便利なアプリに感謝！&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/NqdGzNA2nq6YOr.png" alt="/images/NqdGzNA2nq6YOr.png">
-&lt;a href="https://itunes.apple.com/jp/app/bitissues/id693561154?mt=8&amp;amp;uo=4&amp;amp;at=10lmwI">Bitissues&lt;/a>&lt;br>
+機能はイシューだけでいい。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;そう、私もイシュー管理さえできれば良かったので、IssueBucketはドンピシャでした。&lt;/p&gt;
+&lt;p&gt;あと、RubyMotionで書かれているという点に勝手にシンパシーを感じていたり^^&lt;/p&gt;
+&lt;p&gt;便利なアプリに感謝！&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/NqdGzNA2nq6YOr.png&#34; alt=&#34;/images/NqdGzNA2nq6YOr.png&#34;&gt;
+&lt;a href=&#34;https://itunes.apple.com/jp/app/bitissues/id693561154?mt=8&amp;amp;uo=4&amp;amp;at=10lmwI&#34;&gt;Bitissues&lt;/a&gt;&lt;br&gt;
 販売元:
-&lt;a href="https://itunes.apple.com/jp/artist/takashi-nakamura/id693561157?uo=4&amp;amp;at=10lmwI">Takashi Nakamura&lt;/a>&lt;br>
-価格: 無料&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/ewkDLdJ0uKTdyO.gif" alt="/images/ewkDLdJ0uKTdyO.gif">
+&lt;a href=&#34;https://itunes.apple.com/jp/artist/takashi-nakamura/id693561157?uo=4&amp;amp;at=10lmwI&#34;&gt;Takashi Nakamura&lt;/a&gt;&lt;br&gt;
+価格: 無料&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/ewkDLdJ0uKTdyO.gif&#34; alt=&#34;/images/ewkDLdJ0uKTdyO.gif&#34;&gt;
 generated by
-&lt;a href="https://itunes.apple.com/us/app/presssync/id635867378?l=ja&amp;amp;ls=1&amp;amp;mt=8">PressSync&lt;/a>
-on 2014年5月24日&lt;/p>
-&lt;p>via
-&lt;a href="https://itunes.apple.com/jp/app/presssync-pro-wordpress-blogging/id635867378?mt=8">PressSync Pro&lt;/a>&lt;/p></description></item><item><title>FlickURL 1.2をリリースしました。EXIF出力サポート/出力HTML形式変更</title><link>https://namaraii.com/post/2014/20140522_flickurl12exifhtml15dd1f204e3c/</link><pubDate>Thu, 22 May 2014 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2014/20140522_flickurl12exifhtml15dd1f204e3c/</guid><description>
-&lt;p>Flickrの写真を簡単にブログへ貼り付けできる、モブログ支援アプリFlickURL
-1.2をリリースしました。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/iHmgilT-eEE_6B.png" alt="/images/iHmgilT-eEE_6B.png">&lt;/p>
-&lt;h4 id="注意事項">注意事項&lt;/h4>
-&lt;p>1.2をインストールするとカスタムHTMLがデフォルトに戻ってしまいます。&lt;/p>
-&lt;p>お手数ですがカスタムHTMLを設定されている方は、別途、控えておいてください。&lt;/p>
-&lt;p>次のバージョンで修正します。&lt;/p>
-&lt;h4 id="exif出力">EXIF出力&lt;/h4>
-&lt;p>EXIF出力をサポートしました。設定画面でEXIF出力の有無と出力形式のテンプレートを設定できます。&lt;/p>
-&lt;p>出力形式のテンプレートで使用できるキーワードは以下の通り。(これ以外に使いたいEXIFのタグがあれば
-@htakeuchi までメンションください）&lt;/p>
-&lt;p>キーワード説明%camera%カメラのメーカー・機種名%FocalLength%焦点距離%ISO%ISO値%ExposureTime%シャッタースピード%ExposureCompensation%露出補正%Software%ソフトウェア&lt;/p>
-&lt;p>EXIFのテンプレートで、&lt;/p>
-&lt;pre>&lt;code>%camera%, %FocalLength%, f%FNumber%, ISO %ISO%, %ExposureTime%sec, %ExposureCompensation%EV, %Software%
-&lt;/code>&lt;/pre>
-&lt;p>のように指定して、HTMLのテンプレートで、&lt;/p>
-&lt;pre>&lt;code>&amp;lt;span class=&amp;quot;flickurl_exif&amp;quot;&amp;gt;%photo.exif%&amp;lt;/span&amp;gt;
-&lt;/code>&lt;/pre>
-&lt;p>などとすると、EXIFテンプレートで指定した形式が%photo.exif%の箇所へ展開されます。&lt;/p>
-&lt;p>HTMLテンプレートで使用可能なキーワードは&lt;a href="https://namaraii.com/archives/20266">こちら&lt;/a>を参照してください。&lt;/p>
-&lt;p>EXIFはこんな感じで表示されます。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/hotjBscgW6-Dnm.jpg" alt="/images/hotjBscgW6-Dnm.jpg">
-photo by Hitoshi TAKEUCHI&lt;/p>
-&lt;p>Canon EOS 5D Mark II, 70.0 mm, f4.0, ISO 1250, 1/80sec, 0EV, Aperture
-3.5.1&lt;br>
+&lt;a href=&#34;https://itunes.apple.com/us/app/presssync/id635867378?l=ja&amp;amp;ls=1&amp;amp;mt=8&#34;&gt;PressSync&lt;/a&gt;
+on 2014年5月24日&lt;/p&gt;
+&lt;p&gt;via
+&lt;a href=&#34;https://itunes.apple.com/jp/app/presssync-pro-wordpress-blogging/id635867378?mt=8&#34;&gt;PressSync Pro&lt;/a&gt;&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>FlickURL 1.2をリリースしました。EXIF出力サポート/出力HTML形式変更</title>
+      <link>https://namaraii.com/post/2014/20140522_flickurl12exifhtml15dd1f204e3c/</link>
+      <pubDate>Thu, 22 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2014/20140522_flickurl12exifhtml15dd1f204e3c/</guid>
+      <description>
+        
+          &lt;p&gt;Flickrの写真を簡単にブログへ貼り付けできる、モブログ支援アプリFlickURL
+1.2をリリースしました。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/iHmgilT-eEE_6B.png&#34; alt=&#34;/images/iHmgilT-eEE_6B.png&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;注意事項&#34;&gt;注意事項&lt;/h4&gt;
+&lt;p&gt;1.2をインストールするとカスタムHTMLがデフォルトに戻ってしまいます。&lt;/p&gt;
+&lt;p&gt;お手数ですがカスタムHTMLを設定されている方は、別途、控えておいてください。&lt;/p&gt;
+&lt;p&gt;次のバージョンで修正します。&lt;/p&gt;
+&lt;h4 id=&#34;exif出力&#34;&gt;EXIF出力&lt;/h4&gt;
+&lt;p&gt;EXIF出力をサポートしました。設定画面でEXIF出力の有無と出力形式のテンプレートを設定できます。&lt;/p&gt;
+&lt;p&gt;出力形式のテンプレートで使用できるキーワードは以下の通り。(これ以外に使いたいEXIFのタグがあれば
+@htakeuchi までメンションください）&lt;/p&gt;
+&lt;p&gt;キーワード説明%camera%カメラのメーカー・機種名%FocalLength%焦点距離%ISO%ISO値%ExposureTime%シャッタースピード%ExposureCompensation%露出補正%Software%ソフトウェア&lt;/p&gt;
+&lt;p&gt;EXIFのテンプレートで、&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;%camera%, %FocalLength%, f%FNumber%, ISO %ISO%, %ExposureTime%sec, %ExposureCompensation%EV, %Software%
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;のように指定して、HTMLのテンプレートで、&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;span class=&amp;quot;flickurl_exif&amp;quot;&amp;gt;%photo.exif%&amp;lt;/span&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;などとすると、EXIFテンプレートで指定した形式が%photo.exif%の箇所へ展開されます。&lt;/p&gt;
+&lt;p&gt;HTMLテンプレートで使用可能なキーワードは&lt;a href=&#34;https://namaraii.com/archives/20266&#34;&gt;こちら&lt;/a&gt;を参照してください。&lt;/p&gt;
+&lt;p&gt;EXIFはこんな感じで表示されます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/hotjBscgW6-Dnm.jpg&#34; alt=&#34;/images/hotjBscgW6-Dnm.jpg&#34;&gt;
+photo by Hitoshi TAKEUCHI&lt;/p&gt;
+&lt;p&gt;Canon EOS 5D Mark II, 70.0 mm, f4.0, ISO 1250, 1/80sec, 0EV, Aperture
+3.5.1&lt;br&gt;
 generated by
-&lt;a href="https://itunes.apple.com/jp/app/flickurl/id817330241?mt=8">FlickURL&lt;/a>&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/_ijXv5Yuf08Z04.jpg" alt="/images/_ijXv5Yuf08Z04.jpg">
-photo by Hitoshi TAKEUCHI&lt;/p>
-&lt;p>RICOH GXR A16, 46.5 mm, f8.6, ISO 200, 1/203sec, 0EV, Aperture 3.5.1&lt;br>
+&lt;a href=&#34;https://itunes.apple.com/jp/app/flickurl/id817330241?mt=8&#34;&gt;FlickURL&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/_ijXv5Yuf08Z04.jpg&#34; alt=&#34;/images/_ijXv5Yuf08Z04.jpg&#34;&gt;
+photo by Hitoshi TAKEUCHI&lt;/p&gt;
+&lt;p&gt;RICOH GXR A16, 46.5 mm, f8.6, ISO 200, 1/203sec, 0EV, Aperture 3.5.1&lt;br&gt;
 generated by
-&lt;a href="https://itunes.apple.com/jp/app/flickurl/id817330241?mt=8">FlickURL&lt;/a>&lt;/p>
-&lt;h4 id="出力html形式の変更">出力HTML形式の変更&lt;/h4>
-&lt;p>デフォルトのHTMLテンプレートがこんな感じになりました。&lt;/p>
-&lt;pre>&lt;code>&amp;lt;div class=&amp;quot;flickurl&amp;quot; style=&amp;quot;margin-bottom: 1em;&amp;quot;&amp;gt;[![http://farm6.staticflickr.com/5105/14142208775_2e42bfe524_c.jpg](http://farm6.staticflickr.com/5105/14142208775_2e42bfe524_c.jpg)](http://www.flickr.com/photos/htakeuchi/14142208775/sizes/c/)&amp;lt;br /&amp;gt;
+&lt;a href=&#34;https://itunes.apple.com/jp/app/flickurl/id817330241?mt=8&#34;&gt;FlickURL&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;出力html形式の変更&#34;&gt;出力HTML形式の変更&lt;/h4&gt;
+&lt;p&gt;デフォルトのHTMLテンプレートがこんな感じになりました。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&amp;quot;flickurl&amp;quot; style=&amp;quot;margin-bottom: 1em;&amp;quot;&amp;gt;[![http://farm6.staticflickr.com/5105/14142208775_2e42bfe524_c.jpg](http://farm6.staticflickr.com/5105/14142208775_2e42bfe524_c.jpg)](http://www.flickr.com/photos/htakeuchi/14142208775/sizes/c/)&amp;lt;br /&amp;gt;
 &amp;lt;span class=&amp;quot;flickurl_caption&amp;quot;&amp;gt;photo by Hitoshi TAKEUCHI&amp;lt;/span&amp;gt;&amp;lt;br /&amp;gt;
 &amp;lt;span class=&amp;quot;flickurl_generator&amp;quot; style=&amp;quot;font-size:xx-small;&amp;quot;&amp;gt;generated by &amp;lt;a href=&amp;quot;https://itunes.apple.com/jp/app/flickurl/id817330241?mt=8&amp;quot;&amp;gt;FlickURL&amp;lt;/a&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt;
-&lt;/code>&lt;/pre>
-&lt;p>EXIF出力をONにすると、著作者情報とFlickURLページへのリンクの間に追加されます。&lt;/p>
-&lt;p>写真好きのモブロガー各位、ご利用ください。&lt;/p>
-&lt;p>via
-&lt;a href="https://itunes.apple.com/jp/app/presssync-pro-wordpress-blogging/id635867378?mt=8">PressSync Pro&lt;/a>&lt;/p></description></item><item><title>FlickURL1.1をリリースしました。著作者情報表示/HTMLカスタマイズ/URLスキーム/写真サイズ追加</title><link>https://namaraii.com/post/2014/20140509_flickurl11htmlurl578b522ca8a6/</link><pubDate>Fri, 09 May 2014 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2014/20140509_flickurl11htmlurl578b522ca8a6/</guid><description>
-&lt;p>FlickURL 1.1をリリースしました。変更点は以下の通りです。&lt;/p>
-&lt;ul>
-&lt;li>&lt;span id="8a51">著作者情報の表示&lt;/span>&lt;/li>
-&lt;li>&lt;span id="d823">出力HTMLのカスタマイズ&lt;/span>&lt;/li>
-&lt;li>&lt;span id="9717">URLスキームのサポート&lt;/span>&lt;/li>
-&lt;li>&lt;span id="7158">写真サイズ追加&lt;/span>&lt;/li>
-&lt;/ul>
-&lt;h4 id="著作者情報の表示">著作者情報の表示&lt;/h4>
-&lt;p>クリエィティブ・コモンズ・ライセンスの写真を利用するときに、写真の著作者情報を表示するようにHTMLを変更しました。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/r-lymY93OjBVwg.jpg" alt="/images/r-lymY93OjBVwg.jpg">
-photo by Hitoshi TAKEUCHI&lt;/p>
-&lt;p>このように画像の下へ著作者情報が追加されます。出力するHTMLはこんな感じです。&lt;/p>
-&lt;pre>&lt;code>&amp;lt;a href=&amp;quot;http://www.flickr.com/photos/htakeuchi/14026522792/sizes/m/&amp;quot; title=&amp;quot;2014-04-26_横浜FCvs湘南ベルマーレ&amp;quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;EXIF出力をONにすると、著作者情報とFlickURLページへのリンクの間に追加されます。&lt;/p&gt;
+&lt;p&gt;写真好きのモブロガー各位、ご利用ください。&lt;/p&gt;
+&lt;p&gt;via
+&lt;a href=&#34;https://itunes.apple.com/jp/app/presssync-pro-wordpress-blogging/id635867378?mt=8&#34;&gt;PressSync Pro&lt;/a&gt;&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>FlickURL1.1をリリースしました。著作者情報表示/HTMLカスタマイズ/URLスキーム/写真サイズ追加</title>
+      <link>https://namaraii.com/post/2014/20140509_flickurl11htmlurl578b522ca8a6/</link>
+      <pubDate>Fri, 09 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2014/20140509_flickurl11htmlurl578b522ca8a6/</guid>
+      <description>
+        
+          &lt;p&gt;FlickURL 1.1をリリースしました。変更点は以下の通りです。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span id=&#34;8a51&#34;&gt;著作者情報の表示&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;d823&#34;&gt;出力HTMLのカスタマイズ&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;9717&#34;&gt;URLスキームのサポート&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;7158&#34;&gt;写真サイズ追加&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;著作者情報の表示&#34;&gt;著作者情報の表示&lt;/h4&gt;
+&lt;p&gt;クリエィティブ・コモンズ・ライセンスの写真を利用するときに、写真の著作者情報を表示するようにHTMLを変更しました。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/r-lymY93OjBVwg.jpg&#34; alt=&#34;/images/r-lymY93OjBVwg.jpg&#34;&gt;
+photo by Hitoshi TAKEUCHI&lt;/p&gt;
+&lt;p&gt;このように画像の下へ著作者情報が追加されます。出力するHTMLはこんな感じです。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;a href=&amp;quot;http://www.flickr.com/photos/htakeuchi/14026522792/sizes/m/&amp;quot; title=&amp;quot;2014-04-26_横浜FCvs湘南ベルマーレ&amp;quot;&amp;gt;
 ![http://farm3.staticflickr.com/2925/14026522792_e47a971bee.jpg](http://farm3.staticflickr.com/2925/14026522792_e47a971bee.jpg)
 &amp;lt;/a&amp;gt;
 &amp;lt;p class=&amp;quot;flickurl_caption&amp;quot;&amp;gt;photo by Hitoshi TAKEUCHI&amp;lt;/p&amp;gt;
-&lt;/code>&lt;/pre>
-&lt;p>imgタグとpタグにクラスをあててますので、CSSでお好みのスタイルに設定して使ってください。後述する出力HTMLのカスタマイズで、まったく異なる形式にすることもできます。&lt;/p>
-&lt;h4 id="出力htmlのカスタマイズ">出力HTMLのカスタマイズ&lt;/h4>
-&lt;p>出力するHTMLをカスタマイズできるようにしました。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/PezSKN1t3u3c4Y.jpg" alt="/images/PezSKN1t3u3c4Y.jpg">
-設定画面のカスタムHTMLをタップすると、テンプレート編集画面が表示されます。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/62ZFYI_Sqk0x0A.jpg" alt="/images/62ZFYI_Sqk0x0A.jpg">
-この画面でテンプレートをお好みの形式にカスタマイズしてください。テンプレートでは以下のキーワードを使用できます。&lt;/p>
-&lt;p>キーワード説明%photo.url%Flickr上のページを表すURL%photo.title%写真のタイトル%photo.source%写真のURL%photo.width%写真の横幅%photo.height%写真の高さ%photo.author%写真の著作者(本名がある場合は本名、無い場合はFlickrのユーザID)%photo.exif%EXIF
-(バージョン1.2から追加)&lt;/p>
-&lt;p>カスタムHTMLを使用する場合、オプション画面のHTMLタイプをcustomに設定してください。&lt;/p>
-&lt;h4 id="urlスキーム">URLスキーム&lt;/h4>
-&lt;p>URLスキームが公開されているアプリに対して、FlickURLが生成したHTMLを直接渡せるようにしました。設定画面のURLスキームから設定してください。&lt;/p>
-&lt;p>&amp;lt;@@&amp;gt;というキーワードがFlickURLが生成したHTMLに変換されます。以下に設定例を示します。&lt;/p>
-&lt;p>アプリケーション設定PressSync
-Propresssync:///newPost?content=&amp;lt;@@&amp;gt;するぷろslpro://&amp;lt;@@&amp;gt;&lt;/p>
-&lt;h4 id="写真サイズの追加">写真サイズの追加&lt;/h4>
-&lt;p>&lt;img src="https://namaraii.com/images/e2_Cz2MaP6fIi8.jpg" alt="/images/e2_Cz2MaP6fIi8.jpg">
-Medium(500x375)、Small(240x180)を追加しました。これでFlickrがサポートしているすべてのサイズを取得できるようになりました。&lt;/p>
-&lt;h4 id="flickurlをご紹介いただいたブログ">FlickURLをご紹介いただいたブログ&lt;/h4>
-&lt;p>以下のブログでご紹介いただきました。こんなニッチで地味なアプリを紹介していただき、ありがとうございます。それにしても、ぜんぜん宣伝もしていないのに良くみつけますねぇ。みなさんアンテナ高すぎます。&lt;/p>
-&lt;ul>
-&lt;li>&lt;span
-id="27a4">&lt;a href="http://renewal49.hateblo.jp/entry/flickurl">iPhoneモブログ専用。Flickrから画像のHTMLタグを取得できるアプリ『FlickURL』[原石№461] — リニューアル式&lt;/a>&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="bd3f">&lt;a href="http://aganama.net/2014/04/21/iphone_app_flickurl/">【アプリ】写真素材を探している時にはもってこい！「FlickURL」&lt;/a>&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="95f9">&lt;a href="http://www.feelingplace.com/2014/04/24/070900/">Flickr2HTMLにライバル出現！？FlickrのHTMLを取得できるアプリ、FlickURL。 | Feelingplace&lt;/a>&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="bb0e">&lt;a href="http://twi-papa.com/archives/11020">[iPhone][アプリ]iPhoneでFlickrの写真を簡単に検索・貼り付けできる秀逸アプリがお気に入りな件 | ツインズパパの徒然日記 Ver.2&lt;/a>&lt;/span>&lt;/li>
-&lt;/ul>
-&lt;p>ご紹介いただき、ありがとうございました。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/rl9PHtOVZuL4Td.png" alt="/images/rl9PHtOVZuL4Td.png">
-&lt;a href="https://itunes.apple.com/jp/app/flickurl/id817330241?mt=8&amp;amp;uo=4">FlickURL&lt;/a>&lt;br>
-バージョン: 1.1&lt;br>
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;imgタグとpタグにクラスをあててますので、CSSでお好みのスタイルに設定して使ってください。後述する出力HTMLのカスタマイズで、まったく異なる形式にすることもできます。&lt;/p&gt;
+&lt;h4 id=&#34;出力htmlのカスタマイズ&#34;&gt;出力HTMLのカスタマイズ&lt;/h4&gt;
+&lt;p&gt;出力するHTMLをカスタマイズできるようにしました。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/PezSKN1t3u3c4Y.jpg&#34; alt=&#34;/images/PezSKN1t3u3c4Y.jpg&#34;&gt;
+設定画面のカスタムHTMLをタップすると、テンプレート編集画面が表示されます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/62ZFYI_Sqk0x0A.jpg&#34; alt=&#34;/images/62ZFYI_Sqk0x0A.jpg&#34;&gt;
+この画面でテンプレートをお好みの形式にカスタマイズしてください。テンプレートでは以下のキーワードを使用できます。&lt;/p&gt;
+&lt;p&gt;キーワード説明%photo.url%Flickr上のページを表すURL%photo.title%写真のタイトル%photo.source%写真のURL%photo.width%写真の横幅%photo.height%写真の高さ%photo.author%写真の著作者(本名がある場合は本名、無い場合はFlickrのユーザID)%photo.exif%EXIF
+(バージョン1.2から追加)&lt;/p&gt;
+&lt;p&gt;カスタムHTMLを使用する場合、オプション画面のHTMLタイプをcustomに設定してください。&lt;/p&gt;
+&lt;h4 id=&#34;urlスキーム&#34;&gt;URLスキーム&lt;/h4&gt;
+&lt;p&gt;URLスキームが公開されているアプリに対して、FlickURLが生成したHTMLを直接渡せるようにしました。設定画面のURLスキームから設定してください。&lt;/p&gt;
+&lt;p&gt;&amp;lt;@@&amp;gt;というキーワードがFlickURLが生成したHTMLに変換されます。以下に設定例を示します。&lt;/p&gt;
+&lt;p&gt;アプリケーション設定PressSync
+Propresssync:///newPost?content=&amp;lt;@@&amp;gt;するぷろslpro://&amp;lt;@@&amp;gt;&lt;/p&gt;
+&lt;h4 id=&#34;写真サイズの追加&#34;&gt;写真サイズの追加&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/e2_Cz2MaP6fIi8.jpg&#34; alt=&#34;/images/e2_Cz2MaP6fIi8.jpg&#34;&gt;
+Medium(500x375)、Small(240x180)を追加しました。これでFlickrがサポートしているすべてのサイズを取得できるようになりました。&lt;/p&gt;
+&lt;h4 id=&#34;flickurlをご紹介いただいたブログ&#34;&gt;FlickURLをご紹介いただいたブログ&lt;/h4&gt;
+&lt;p&gt;以下のブログでご紹介いただきました。こんなニッチで地味なアプリを紹介していただき、ありがとうございます。それにしても、ぜんぜん宣伝もしていないのに良くみつけますねぇ。みなさんアンテナ高すぎます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span
+id=&#34;27a4&#34;&gt;&lt;a href=&#34;http://renewal49.hateblo.jp/entry/flickurl&#34;&gt;iPhoneモブログ専用。Flickrから画像のHTMLタグを取得できるアプリ『FlickURL』[原石№461] — リニューアル式&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;bd3f&#34;&gt;&lt;a href=&#34;http://aganama.net/2014/04/21/iphone_app_flickurl/&#34;&gt;【アプリ】写真素材を探している時にはもってこい！「FlickURL」&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;95f9&#34;&gt;&lt;a href=&#34;http://www.feelingplace.com/2014/04/24/070900/&#34;&gt;Flickr2HTMLにライバル出現！？FlickrのHTMLを取得できるアプリ、FlickURL。 | Feelingplace&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;bb0e&#34;&gt;&lt;a href=&#34;http://twi-papa.com/archives/11020&#34;&gt;[iPhone][アプリ]iPhoneでFlickrの写真を簡単に検索・貼り付けできる秀逸アプリがお気に入りな件 | ツインズパパの徒然日記 Ver.2&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;ご紹介いただき、ありがとうございました。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/rl9PHtOVZuL4Td.png&#34; alt=&#34;/images/rl9PHtOVZuL4Td.png&#34;&gt;
+&lt;a href=&#34;https://itunes.apple.com/jp/app/flickurl/id817330241?mt=8&amp;amp;uo=4&#34;&gt;FlickURL&lt;/a&gt;&lt;br&gt;
+バージョン: 1.1&lt;br&gt;
 販売元:
-&lt;a href="https://itunes.apple.com/jp/artist/hitoshi-takeuchi/id817330244?uo=4">Hitoshi Takeuchi&lt;/a>&lt;br>
-リリース日: 2014年02月23日&lt;br>
-カテゴリ: 写真／ビデオ, ユーティリティ&lt;br>
-サイズ: 8.3 MB&lt;br>
-価格: 無料&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/friWcYa73OdE9I.gif" alt="/images/friWcYa73OdE9I.gif">
+&lt;a href=&#34;https://itunes.apple.com/jp/artist/hitoshi-takeuchi/id817330244?uo=4&#34;&gt;Hitoshi Takeuchi&lt;/a&gt;&lt;br&gt;
+リリース日: 2014年02月23日&lt;br&gt;
+カテゴリ: 写真／ビデオ, ユーティリティ&lt;br&gt;
+サイズ: 8.3 MB&lt;br&gt;
+価格: 無料&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/friWcYa73OdE9I.gif&#34; alt=&#34;/images/friWcYa73OdE9I.gif&#34;&gt;
 generated by
-&lt;a href="https://itunes.apple.com/us/app/presssync/id635867378?l=ja&amp;amp;ls=1&amp;amp;mt=8">PressSync&lt;/a>
-on 2014年05月10日&lt;/p></description></item><item><title>【iPhone】Flickrの写真を簡単にブログで使うためのアプリflickURLを公開しました</title><link>https://namaraii.com/post/2014/20140224_iphoneflickrflickurlfdff189f4fb3/</link><pubDate>Mon, 24 Feb 2014 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2014/20140224_iphoneflickrflickurlfdff189f4fb3/</guid><description>
-&lt;p>初めてiPhoneアプリを公開してみました。flickURLというアプリです。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/vq4Xn-BHTaRM1L.jpg" alt="/images/vq4Xn-BHTaRM1L.jpg">
-flickrの写真をブログで扱う場合、写真URLの取得が面倒なので、@drikinさんが開発された&lt;a href="http://flickr2tag.drikin.com/">Flickr2Tag&lt;/a>を便利に使わせていただいてますが、これと同等の機能を画面の小さなiPhoneでも使いたい。というのが開発の動機です。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/4RXJBlcDWvBwSI.png" alt="/images/4RXJBlcDWvBwSI.png">
-こんな感じで使います。&lt;/p>
-&lt;ul>
-&lt;li>&lt;span id="0f60">条件を入力してflickrを検索&lt;/span>&lt;/li>
-&lt;li>&lt;span id="dc24">サムネイルから使いたい写真をタップして選択&lt;/span>&lt;/li>
-&lt;li>&lt;span id="ba1f">まとめてHTMLを生成（画像サイズ選択可能）&lt;/span>&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://namaraii.com/images/lsx_Yz8zzdQtOU.png" alt="/images/lsx_Yz8zzdQtOU.png">
-100%自分のニーズで開発したので、当然のことながら、とても便利に使ってます。(自分は)&lt;/p>
-&lt;p>無料、広告無しなのでモブログされてる方はお試しを。&lt;/p>
-&lt;p>▼FlickURL&lt;br>
-&lt;a href="http://flickurl.namaraii.com/%20">http://flickurl.namaraii.com/&lt;/a>&lt;/p></description></item><item><title>【iPhone】Ultimate Guitar TabsはTab Proアドオンを買うと別次元のアプリに</title><link>https://namaraii.com/post/2014/20140213_iphoneultimateguitartabstabproad59303997b8/</link><pubDate>Thu, 13 Feb 2014 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2014/20140213_iphoneultimateguitartabstabproad59303997b8/</guid><description>
-&lt;p>Ultimate Guitar
-Tabsというギター練習用のiPhoneアプリがなかなか良いです。80万曲を超えるタブ譜が内蔵されているだけでなく、日々、新しい曲が無料でアップデートされるとのこと。&lt;/p>
-&lt;p>楽曲はアーティスト名、曲名の他、評価や難易度などでも検索できます。日本語での検索はできませんが、ローマ字で検索したら日本の楽曲もヒットしました。恋するフォーチュンクッキーまでありましたよ。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/HJKIgQBjK9GZ6P.png" alt="/images/HJKIgQBjK9GZ6P.png">
-RainbowのKill the Kingを検索してみました。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/QTRcWO7NT7H1-J.png" alt="/images/QTRcWO7NT7H1-J.png">
+&lt;a href=&#34;https://itunes.apple.com/us/app/presssync/id635867378?l=ja&amp;amp;ls=1&amp;amp;mt=8&#34;&gt;PressSync&lt;/a&gt;
+on 2014年05月10日&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>【iPhone】Flickrの写真を簡単にブログで使うためのアプリflickURLを公開しました</title>
+      <link>https://namaraii.com/post/2014/20140224_iphoneflickrflickurlfdff189f4fb3/</link>
+      <pubDate>Mon, 24 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2014/20140224_iphoneflickrflickurlfdff189f4fb3/</guid>
+      <description>
+        
+          &lt;p&gt;初めてiPhoneアプリを公開してみました。flickURLというアプリです。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/vq4Xn-BHTaRM1L.jpg&#34; alt=&#34;/images/vq4Xn-BHTaRM1L.jpg&#34;&gt;
+flickrの写真をブログで扱う場合、写真URLの取得が面倒なので、@drikinさんが開発された&lt;a href=&#34;http://flickr2tag.drikin.com/&#34;&gt;Flickr2Tag&lt;/a&gt;を便利に使わせていただいてますが、これと同等の機能を画面の小さなiPhoneでも使いたい。というのが開発の動機です。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/4RXJBlcDWvBwSI.png&#34; alt=&#34;/images/4RXJBlcDWvBwSI.png&#34;&gt;
+こんな感じで使います。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span id=&#34;0f60&#34;&gt;条件を入力してflickrを検索&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;dc24&#34;&gt;サムネイルから使いたい写真をタップして選択&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;ba1f&#34;&gt;まとめてHTMLを生成（画像サイズ選択可能）&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/lsx_Yz8zzdQtOU.png&#34; alt=&#34;/images/lsx_Yz8zzdQtOU.png&#34;&gt;
+100%自分のニーズで開発したので、当然のことながら、とても便利に使ってます。(自分は)&lt;/p&gt;
+&lt;p&gt;無料、広告無しなのでモブログされてる方はお試しを。&lt;/p&gt;
+&lt;p&gt;▼FlickURL&lt;br&gt;
+&lt;a href=&#34;http://flickurl.namaraii.com/%20&#34;&gt;http://flickurl.namaraii.com/&lt;/a&gt;&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>【iPhone】Ultimate Guitar TabsはTab Proアドオンを買うと別次元のアプリに</title>
+      <link>https://namaraii.com/post/2014/20140213_iphoneultimateguitartabstabproad59303997b8/</link>
+      <pubDate>Thu, 13 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2014/20140213_iphoneultimateguitartabstabproad59303997b8/</guid>
+      <description>
+        
+          &lt;p&gt;Ultimate Guitar
+Tabsというギター練習用のiPhoneアプリがなかなか良いです。80万曲を超えるタブ譜が内蔵されているだけでなく、日々、新しい曲が無料でアップデートされるとのこと。&lt;/p&gt;
+&lt;p&gt;楽曲はアーティスト名、曲名の他、評価や難易度などでも検索できます。日本語での検索はできませんが、ローマ字で検索したら日本の楽曲もヒットしました。恋するフォーチュンクッキーまでありましたよ。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/HJKIgQBjK9GZ6P.png&#34; alt=&#34;/images/HJKIgQBjK9GZ6P.png&#34;&gt;
+RainbowのKill the Kingを検索してみました。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/QTRcWO7NT7H1-J.png&#34; alt=&#34;/images/QTRcWO7NT7H1-J.png&#34;&gt;
 タブ譜はこのように表示されます。正直…見た目はいけてませんね…ですがこのアプリはTab
-Proというアドオンを買うことで別次元になります。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/XluExqHzlsLYq6.png" alt="/images/XluExqHzlsLYq6.png">
-アドオンを購入すると…&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/0AxruTibW4Emtk.png" alt="/images/0AxruTibW4Emtk.png">
-ほぼ別アプリですね。画面右上のプレイボタンを押すと曲が流れ出し、曲に合わせてタブ譜が自動的にスクロールします。押さえる弦とフレットまでシンクロして表示される細やかさ。&lt;/p>
-&lt;p>任意の地点をループしたりテンポを変更したりもできるので、ギターの練習に使えそうです。ただ、iPhoneは画面が小さいのでBPMが速い曲だと追いきれないかな(^^;&lt;/p>
-&lt;p>さらにこのアプリ、ウクレレのコードにも対応しています。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/CDfADM9PkXh6ui.png" alt="/images/CDfADM9PkXh6ui.png">
-タブ譜ではありませんが、その楽曲で使用するウクレレのコードを表示してくれるので、いちいちウクレレのコードブックを調べる必要がなく便利ですね。&lt;/p>
-&lt;p>実はこのUltimate Guitar
-Tabs、息子が先に使っていて教えてもらいました。息子からアプリの紹介を受ける日が来るとは…&lt;/p>
-&lt;p>せっかく教えてもらったので、ギターとウクレレの練習を再開しようかなぁ。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/NU4okk72L-ej44.png" alt="/images/NU4okk72L-ej44.png">
-&lt;a href="https://itunes.apple.com/jp/app/ultimate-guitar-tabs-largest/id357828853?mt=8&amp;amp;uo=4&amp;amp;at=10lmwI">&lt;strong>Ultimate Guitar Tabs — largest catalog of songs with guitar and ukulele chords, tabs and lyrics&lt;/strong>&lt;/a>&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/AFU7EvO6cNkAgw.gif" alt="/images/AFU7EvO6cNkAgw.gif">
-カテゴリ: ミュージック&lt;/p>
-&lt;p>価格: ￥300&lt;/p></description></item><item><title>Chrome Apps for MobileでサンプルアプリをiPhoneシミュレータへデプロイしてみた</title><link>https://namaraii.com/post/2014/20140207_chromeappsformobileiphoneb39de9be6d01/</link><pubDate>Fri, 07 Feb 2014 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2014/20140207_chromeappsformobileiphoneb39de9be6d01/</guid><description>
-&lt;p>&lt;a href="http://www.eisbahn.jp/yoichiro/2014/02/chrome-apps-for-mobile%E3%81%AE%E9%96%8B%E7%99%BA%E6%96%B9%E6%B3%95.html">天使やカイザーと呼ばれて » Chrome Apps for mobileの開発方法&lt;/a>を参考に、Chrome
-AppsのサンプルをiPhoneシミュレータへデプロイするところまで試してみた。&lt;/p>
-&lt;h4 id="開発ツールのインストール">開発ツールのインストール&lt;/h4>
-&lt;h4 id="前提条件">前提条件&lt;/h4>
-&lt;p>Xcodeやシミュレータなど、既にMac上のiOS開発環境ができていることが前提。&lt;/p>
-&lt;p>&lt;strong>Node.js&lt;/strong>&lt;br>
-&lt;a href="http://nodejs.org/">node.js&lt;/a>からパッケージをダウンロードしてインストール。&lt;/p>
-&lt;p>&lt;strong>ios-deploy&lt;/strong>&lt;/p>
-&lt;pre>&lt;code>$ [sudo] npm install -g ios-deploy
-&lt;/code>&lt;/pre>
-&lt;p>&lt;strong>ios-sim&lt;/strong>&lt;/p>
-&lt;pre>&lt;code>$ [sudo] npm install -g ios-sim
-&lt;/code>&lt;/pre>
-&lt;p>&lt;strong>cca&lt;/strong>&lt;/p>
-&lt;pre>&lt;code>$ [sudo] npm install -g cca
-&lt;/code>&lt;/pre>
-&lt;h4 id="サンプルソースのダウンロードとプロジェクトの作成">サンプルソースのダウンロードとプロジェクトの作成&lt;/h4>
-&lt;p>chrome-app-samplesをダウンロードする。&lt;/p>
-&lt;pre>&lt;code>$ git clone https://github.com/GoogleChrome/chrome-app-samples.git
-&lt;/code>&lt;/pre>
-&lt;p>chrome-app-samplesには複数のサンプルアプリが含まれてるが、今回はtodomvcというアプリを試す。&lt;/p>
-&lt;pre>&lt;code>$ cca create Todo --link-to=./chrome-app-samples/todomvc/manifest.json
+Proというアドオンを買うことで別次元になります。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/XluExqHzlsLYq6.png&#34; alt=&#34;/images/XluExqHzlsLYq6.png&#34;&gt;
+アドオンを購入すると…&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/0AxruTibW4Emtk.png&#34; alt=&#34;/images/0AxruTibW4Emtk.png&#34;&gt;
+ほぼ別アプリですね。画面右上のプレイボタンを押すと曲が流れ出し、曲に合わせてタブ譜が自動的にスクロールします。押さえる弦とフレットまでシンクロして表示される細やかさ。&lt;/p&gt;
+&lt;p&gt;任意の地点をループしたりテンポを変更したりもできるので、ギターの練習に使えそうです。ただ、iPhoneは画面が小さいのでBPMが速い曲だと追いきれないかな(^^;&lt;/p&gt;
+&lt;p&gt;さらにこのアプリ、ウクレレのコードにも対応しています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/CDfADM9PkXh6ui.png&#34; alt=&#34;/images/CDfADM9PkXh6ui.png&#34;&gt;
+タブ譜ではありませんが、その楽曲で使用するウクレレのコードを表示してくれるので、いちいちウクレレのコードブックを調べる必要がなく便利ですね。&lt;/p&gt;
+&lt;p&gt;実はこのUltimate Guitar
+Tabs、息子が先に使っていて教えてもらいました。息子からアプリの紹介を受ける日が来るとは…&lt;/p&gt;
+&lt;p&gt;せっかく教えてもらったので、ギターとウクレレの練習を再開しようかなぁ。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/NU4okk72L-ej44.png&#34; alt=&#34;/images/NU4okk72L-ej44.png&#34;&gt;
+&lt;a href=&#34;https://itunes.apple.com/jp/app/ultimate-guitar-tabs-largest/id357828853?mt=8&amp;amp;uo=4&amp;amp;at=10lmwI&#34;&gt;&lt;strong&gt;Ultimate Guitar Tabs — largest catalog of songs with guitar and ukulele chords, tabs and lyrics&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/AFU7EvO6cNkAgw.gif&#34; alt=&#34;/images/AFU7EvO6cNkAgw.gif&#34;&gt;
+カテゴリ: ミュージック&lt;/p&gt;
+&lt;p&gt;価格: ￥300&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Chrome Apps for MobileでサンプルアプリをiPhoneシミュレータへデプロイしてみた</title>
+      <link>https://namaraii.com/post/2014/20140207_chromeappsformobileiphoneb39de9be6d01/</link>
+      <pubDate>Fri, 07 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2014/20140207_chromeappsformobileiphoneb39de9be6d01/</guid>
+      <description>
+        
+          &lt;p&gt;&lt;a href=&#34;http://www.eisbahn.jp/yoichiro/2014/02/chrome-apps-for-mobile%E3%81%AE%E9%96%8B%E7%99%BA%E6%96%B9%E6%B3%95.html&#34;&gt;天使やカイザーと呼ばれて » Chrome Apps for mobileの開発方法&lt;/a&gt;を参考に、Chrome
+AppsのサンプルをiPhoneシミュレータへデプロイするところまで試してみた。&lt;/p&gt;
+&lt;h4 id=&#34;開発ツールのインストール&#34;&gt;開発ツールのインストール&lt;/h4&gt;
+&lt;h4 id=&#34;前提条件&#34;&gt;前提条件&lt;/h4&gt;
+&lt;p&gt;Xcodeやシミュレータなど、既にMac上のiOS開発環境ができていることが前提。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Node.js&lt;/strong&gt;&lt;br&gt;
+&lt;a href=&#34;http://nodejs.org/&#34;&gt;node.js&lt;/a&gt;からパッケージをダウンロードしてインストール。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ios-deploy&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ [sudo] npm install -g ios-deploy
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;ios-sim&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ [sudo] npm install -g ios-sim
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;cca&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ [sudo] npm install -g cca
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;サンプルソースのダウンロードとプロジェクトの作成&#34;&gt;サンプルソースのダウンロードとプロジェクトの作成&lt;/h4&gt;
+&lt;p&gt;chrome-app-samplesをダウンロードする。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ git clone https://github.com/GoogleChrome/chrome-app-samples.git
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;chrome-app-samplesには複数のサンプルアプリが含まれてるが、今回はtodomvcというアプリを試す。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ cca create Todo --link-to=./chrome-app-samples/todomvc/manifest.json 
 cca v0.0.5
 Loading command: create
 ## Checking that tools are installed
@@ -357,7 +516,7 @@ Android not detected (`android` command not detected on your PATH).
 Xcode detected.
 Searching for Chrome app source in /Users/hitoshi/project/chrome-app-samples/todomvc
 ## Creating Your Application
-create Todo ToDoMVC ToDoMVC
+create Todo ToDoMVC ToDoMVC 
 Writing config.xml
 Changing directory to: /Users/hitoshi/project/Todo
 platform add ios
@@ -380,548 +539,734 @@ plugin add org.chromium.FileChooser
 plugin add org.chromium.syncFileSystem
 prepare
 Done!
+
 Your project has been created, with web assets symlinked to the following chrome app:
 /Users/hitoshi/project/Todo/www --&amp;gt; /Users/hitoshi/project/chrome-app-samples/todomvc
+
 Remember to run `cca prepare` after making changes (full instructions: http://goo.gl/iCaCFG).
+
 これでTodoプロジェクトができた。ここで指定した&amp;quot;--link-to&amp;quot;は、指定したパスにあるアプリへのシンボリックリンクを作成してプロジェクトを作成するオプションだが、&amp;quot;–copy-from&amp;quot;を指定するとコピーしてプロジェクトを作成できるようだ。
+
 シミュレータで実行する
+
 $ cd Todo
 $ cca emulate ios
-&lt;/code>&lt;/pre>
-&lt;p>&lt;img src="https://namaraii.com/images/Eyg4x0XOdlmCEI.png" alt="/images/Eyg4x0XOdlmCEI.png">
-あっさりと起動した。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/9ndW0Gy0MUaswH.png" alt="/images/9ndW0Gy0MUaswH.png">
-実際にTodoを入力してみる。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/cKpvV4IsI-aDtv.png" alt="/images/cKpvV4IsI-aDtv.png">
-Provisioning Profileをセットアップ済なら、&lt;/p>
-&lt;pre>&lt;code>$ cca run ios
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/Eyg4x0XOdlmCEI.png&#34; alt=&#34;/images/Eyg4x0XOdlmCEI.png&#34;&gt;
+あっさりと起動した。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/9ndW0Gy0MUaswH.png&#34; alt=&#34;/images/9ndW0Gy0MUaswH.png&#34;&gt;
+実際にTodoを入力してみる。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/cKpvV4IsI-aDtv.png&#34; alt=&#34;/images/cKpvV4IsI-aDtv.png&#34;&gt;
+Provisioning Profileをセットアップ済なら、&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ cca run ios
+
 で実機へデプロイできるとあったが、
+
 $ cca run ios
 cca v0.0.5
 Generating config.xml from defaults for platform &amp;quot;ios&amp;quot;
 Preparing ios project
-Running app on platform &amp;quot;ios&amp;quot; via command &amp;quot;/Users/hitoshi/project/Todo/platforms/ios/cordova/run&amp;quot;
+Running app on platform &amp;quot;ios&amp;quot; via command &amp;quot;/Users/hitoshi/project/Todo/platforms/ios/cordova/run&amp;quot; 
 Error: An error occurred while running the ios project.** BUILD FAILED **
+
 The following build commands failed:
-Check dependencies
+  Check dependencies
 (1 failure)
+
 at ChildProcess. (/usr/local/lib/node_modules/cca/node_modules/cordova/src/run.js:66:22)
-at ChildProcess.EventEmitter.emit (events.js:98:17)
-at maybeClose (child_process.js:743:16)
-at Socket. (child_process.js:956:11)
-at Socket.EventEmitter.emit (events.js:95:17)
-at Pipe.close (net.js:466:12)
+    at ChildProcess.EventEmitter.emit (events.js:98:17)
+    at maybeClose (child_process.js:743:16)
+    at Socket. (child_process.js:956:11)
+    at Socket.EventEmitter.emit (events.js:95:17)
+    at Pipe.close (net.js:466:12)
+
 となってしまった。とりあえず今回はここまでにして別途調べる。
-&lt;/code>&lt;/pre></description></item><item><title>【iPhone】無料の画像編集アプリSnapseedで写真の暗い部分だけを明るくする方法</title><link>https://namaraii.com/post/2014/20140203_iphonesnapseeddf611ec9c6a/</link><pubDate>Mon, 03 Feb 2014 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2014/20140203_iphonesnapseeddf611ec9c6a/</guid><description>
-&lt;p>写真の暗い部分を簡単に明るくできるInstaFlashというアプリの紹介記事を読んだのですが、それSnapseedでできるよ。ということで手順を紹介します。&lt;/p>
-&lt;p>SnapseedはGoogleが提供している無料の画像編集アプリ。無料とは思えないほど豊富な機能があり、iPhonegrapherとしても著名な写真家
-三井公一さんも使用されているそうです。（&lt;a href="http://namaraii.com/archives/6060">CP+2013で印象に残ったiPhoneographyで有名な写真家 三井公一さんのセミナー「iPhoneで日常を写真生活に」&lt;/a>）&lt;/p>
-&lt;p>写真の暗い部分だけを明るくする手順は簡単です。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/uljvm2auAsn5TX.jpg" alt="/images/uljvm2auAsn5TX.jpg">
-例としてこの写真を使います。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/y1pxb6nUe4rASp.png" alt="/images/y1pxb6nUe4rASp.png">
+&lt;/code&gt;&lt;/pre&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>【iPhone】無料の画像編集アプリSnapseedで写真の暗い部分だけを明るくする方法</title>
+      <link>https://namaraii.com/post/2014/20140203_iphonesnapseeddf611ec9c6a/</link>
+      <pubDate>Mon, 03 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2014/20140203_iphonesnapseeddf611ec9c6a/</guid>
+      <description>
+        
+          &lt;p&gt;写真の暗い部分を簡単に明るくできるInstaFlashというアプリの紹介記事を読んだのですが、それSnapseedでできるよ。ということで手順を紹介します。&lt;/p&gt;
+&lt;p&gt;SnapseedはGoogleが提供している無料の画像編集アプリ。無料とは思えないほど豊富な機能があり、iPhonegrapherとしても著名な写真家
+三井公一さんも使用されているそうです。（&lt;a href=&#34;http://namaraii.com/archives/6060&#34;&gt;CP+2013で印象に残ったiPhoneographyで有名な写真家 三井公一さんのセミナー「iPhoneで日常を写真生活に」&lt;/a&gt;）&lt;/p&gt;
+&lt;p&gt;写真の暗い部分だけを明るくする手順は簡単です。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/uljvm2auAsn5TX.jpg&#34; alt=&#34;/images/uljvm2auAsn5TX.jpg&#34;&gt;
+例としてこの写真を使います。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/y1pxb6nUe4rASp.png&#34; alt=&#34;/images/y1pxb6nUe4rASp.png&#34;&gt;
 まず、補正したい写真を読み込んで下のメニューから「TUNE
-IMAGE」をタップします。&lt;/p>
-&lt;p>次に写真を表示している領域で上下にスワイプすると、メニューが表示されるので「シャドウ」を選びます。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/S8HcxwUwJBAe7j.png" alt="/images/S8HcxwUwJBAe7j.png">
-写真を表示している領域で左右にスワイプすると、暗い部分の明るさを調整できます。&lt;/p>
-&lt;p>好みの明るさになったら右下のチェックボタンをタップすれば完了。&lt;/p>
-&lt;p>簡単ですね。&lt;/p>
-&lt;p>でき上がりはこちら。効果をわかりやすくするため、最大補正してみました。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/-h6jQMdfsx4byV.jpg" alt="/images/-h6jQMdfsx4byV.jpg">
-Snapseedは各種のフィルタも豊富ですが、輝度や彩度、コントラスト、シャドウの調整やクロップ（一部を切り出す）など、基本機能もツボを押さえており、私が日常的に行うレタッチはこれ一本で済んでしまう優れもの。&lt;/p>
-&lt;p>いまでは無料になりましたが、有料の時代から、ずっと愛用しているアプリです。いいですよ。&lt;/p>
-&lt;h4 id="関連記事">関連記事&lt;/h4>
-&lt;p>▼&lt;a href="http://www.itmedia.co.jp/mobile/articles/1307/23/news049.html">荻窪圭のiPhoneカメラ講座：第22回 SnapSeedで学ぶ、iPhone写真レタッチの基本 — ITmedia Mobile&lt;/a>&lt;/p>
-&lt;p>▼&lt;a href="http://namaraii.com/archives/6145">いろいろ使ってきたけど最終的にヘビロテしている iPhone 写真アプリ7本&lt;/a>&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/SYGFfV2rf_znn3.jpg" alt="/images/SYGFfV2rf_znn3.jpg">
-&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4844135465/namaraiicom-22/">iPhonegrapher―写真を撮り、歩き続けるための80の言葉&lt;/a>&lt;/p>
-&lt;p>posted with
-&lt;a href="http://yomereba.com">ヨメレバ&lt;/a>&lt;/p>
-&lt;p>三井公一 雷鳥社 2010–08–07&lt;/p>
-&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4844135465/namaraiicom-22/">Amazon&lt;/a>&lt;/p>
-&lt;p>&lt;a href="http://www.amazon.co.jp/gp/search?keywords=iPhonegrapher%81%5C%8E%CA%90%5E%82%F0%8EB%82%E8%81A%95%E0%82%AB%91%B1%82%AF%82%E9%82%BD%82%DF%82%CC80%82%CC%8C%BE%97t&amp;amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;amp;url=node%3D2275256051&amp;amp;tag=namaraiicom-22">Kindle&lt;/a>&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/lrLXq5v8Cs_t2N.png" alt="/images/lrLXq5v8Cs_t2N.png">
-&lt;a href="https://itunes.apple.com/jp/app/snapseed/id439438619?mt=8&amp;amp;uo=4&amp;amp;at=10lmwI">&lt;strong>Snapseed&lt;/strong>&lt;/a>&lt;br>
-カテゴリ: 写真／ビデオ, ライフスタイル&lt;/p></description></item><item><title>【iOS】クラウド上のmp3を再生できるCloudBeatsを使うと、ラジオを聴くのが捗る</title><link>https://namaraii.com/post/2014/20140202_iosmp3cloudbeats20fb0b043327/</link><pubDate>Sun, 02 Feb 2014 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2014/20140202_iosmp3cloudbeats20fb0b043327/</guid><description>
-&lt;p>クラウドストレージに対応した音楽プレイヤーとして、Music Player
-All-in-OneやTuneboxを使ってきましたが、最近知った&lt;a href="https://itunes.apple.com/jp/app/cloudbeats-kuraudo-yin-lepureiya/id573192227?mt=8&amp;amp;uo=4&amp;amp;at=10lmwI">&lt;strong>CloudBeats&lt;/strong>&lt;/a>というアプリは、対応しているクラウドサービスが多く、機能的にも自分の主な用途（録音したラジオを聴く）にフィットして気に入っています。&lt;/p>
-&lt;p>外国語の勉強やテープ起こしなどにも便利に使えるんじゃないかと。&lt;/p>
-&lt;h4 id="対応しているクラウドストレージサービス">対応しているクラウドストレージサービス&lt;/h4>
-&lt;p>&lt;img src="https://namaraii.com/images/as8FQHXdVdK99g.png" alt="/images/as8FQHXdVdK99g.png">
-対応しているクラウドストレージサービスは、現時点で以下の5つです。&lt;/p>
-&lt;ul>
-&lt;li>&lt;span id="8240">Box&lt;/span>&lt;/li>
-&lt;li>&lt;span id="9582">Dropbox&lt;/span>&lt;/li>
-&lt;li>&lt;span id="edb1">Google Drive&lt;/span>&lt;/li>
-&lt;li>&lt;span id="b12f">Mediafire&lt;/span>&lt;/li>
-&lt;li>&lt;span id="3d96">SkyDrive&lt;/span>&lt;/li>
-&lt;/ul>
-&lt;p>クラウドサービスを横断したプレイリストを作成できるので、それぞれのサービスへ分散してmp3を置いてプレイリストでまとめる。といった使い方が可能です。&lt;/p>
-&lt;h4 id="録音したラジオを聞くのに便利な機能">録音したラジオを聞くのに便利な機能&lt;/h4>
-&lt;p>ラジオを聴くのに重宝しているのが以下の機能。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/8PhKhPDtFvc58X.png" alt="/images/8PhKhPDtFvc58X.png">
-（１）早送り・巻き戻し&lt;br>
-ボタンのタップで、簡単に10秒/30秒の巻き戻し/早送りが可能。広告のスキップ、聞き取れなかった部分を巻き戻して聞きなおすなど。&lt;/p>
-&lt;p>（２）再生速度の変更&lt;br>
-再生速度を0.5倍から2.5倍まで変更できます。ニュース系のラジオで速度を上げる、テープおこしでは遅めに再生するなど。&lt;/p>
-&lt;p>CloudBeatsのおかげでラジオリスニングが捗りそうです。これはいい。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/HzdeI7IWJ4_vF9.png" alt="/images/HzdeI7IWJ4_vF9.png">
-&lt;a href="https://itunes.apple.com/jp/app/cloudbeats-kuraudo-yin-lepureiya/id573192227?mt=8&amp;amp;uo=4&amp;amp;at=10lmwI">&lt;strong>CloudBeats — クラウド音楽プレイヤー Dropbox, Box, SkyDrive, Google Drive, Mediafire&lt;/strong>&lt;/a>&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/5ZCClYt-nocKos.gif" alt="/images/5ZCClYt-nocKos.gif">
-カテゴリ: ミュージック&lt;/p>
-&lt;p>価格: ￥500&lt;/p></description></item><item><title>水彩画で巡るニッパツ三ツ沢球技場（Waterlogue作例）</title><link>https://namaraii.com/post/2014/20140123_waterlogueb74cd4cbc0c3/</link><pubDate>Thu, 23 Jan 2014 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2014/20140123_waterlogueb74cd4cbc0c3/</guid><description>
-&lt;p>三ツ沢の風景をWaterlogueで水彩画チックにしてみました。こういう写真もなかなかハマりますね。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/eRpY5RNaJVWzG7.jpg" alt="/images/eRpY5RNaJVWzG7.jpg">&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/jBG3vasXyB0kUf.jpg" alt="/images/jBG3vasXyB0kUf.jpg">
-キックオフを待ちつつ、マッチデープログラムを眺めながら生ビールを。このひとときのために生きてると言っても過言ではありません(^^)&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/CVfrEVyIEaL8Ts.jpg" alt="/images/CVfrEVyIEaL8Ts.jpg">&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/FKnJ4-bKcrbPue.jpg" alt="/images/FKnJ4-bKcrbPue.jpg">
-晴天の三ツ沢。子供も楽しそう。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/YreD-I4yGUmz94.jpg" alt="/images/YreD-I4yGUmz94.jpg">&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/SF0c5vHWrNCIZL.jpg" alt="/images/SF0c5vHWrNCIZL.jpg">&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/82TR72AYdlp65l.jpg" alt="/images/82TR72AYdlp65l.jpg">
+IMAGE」をタップします。&lt;/p&gt;
+&lt;p&gt;次に写真を表示している領域で上下にスワイプすると、メニューが表示されるので「シャドウ」を選びます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/S8HcxwUwJBAe7j.png&#34; alt=&#34;/images/S8HcxwUwJBAe7j.png&#34;&gt;
+写真を表示している領域で左右にスワイプすると、暗い部分の明るさを調整できます。&lt;/p&gt;
+&lt;p&gt;好みの明るさになったら右下のチェックボタンをタップすれば完了。&lt;/p&gt;
+&lt;p&gt;簡単ですね。&lt;/p&gt;
+&lt;p&gt;でき上がりはこちら。効果をわかりやすくするため、最大補正してみました。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/-h6jQMdfsx4byV.jpg&#34; alt=&#34;/images/-h6jQMdfsx4byV.jpg&#34;&gt;
+Snapseedは各種のフィルタも豊富ですが、輝度や彩度、コントラスト、シャドウの調整やクロップ（一部を切り出す）など、基本機能もツボを押さえており、私が日常的に行うレタッチはこれ一本で済んでしまう優れもの。&lt;/p&gt;
+&lt;p&gt;いまでは無料になりましたが、有料の時代から、ずっと愛用しているアプリです。いいですよ。&lt;/p&gt;
+&lt;h4 id=&#34;関連記事&#34;&gt;関連記事&lt;/h4&gt;
+&lt;p&gt;▼&lt;a href=&#34;http://www.itmedia.co.jp/mobile/articles/1307/23/news049.html&#34;&gt;荻窪圭のiPhoneカメラ講座：第22回 SnapSeedで学ぶ、iPhone写真レタッチの基本 — ITmedia Mobile&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;▼&lt;a href=&#34;http://namaraii.com/archives/6145&#34;&gt;いろいろ使ってきたけど最終的にヘビロテしている iPhone 写真アプリ7本&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/SYGFfV2rf_znn3.jpg&#34; alt=&#34;/images/SYGFfV2rf_znn3.jpg&#34;&gt;
+&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/asin/4844135465/namaraiicom-22/&#34;&gt;iPhonegrapher―写真を撮り、歩き続けるための80の言葉&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;posted with
+&lt;a href=&#34;http://yomereba.com&#34;&gt;ヨメレバ&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;三井公一 雷鳥社 2010–08–07&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/asin/4844135465/namaraiicom-22/&#34;&gt;Amazon&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.amazon.co.jp/gp/search?keywords=iPhonegrapher%81%5C%8E%CA%90%5E%82%F0%8EB%82%E8%81A%95%E0%82%AB%91%B1%82%AF%82%E9%82%BD%82%DF%82%CC80%82%CC%8C%BE%97t&amp;amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;amp;url=node%3D2275256051&amp;amp;tag=namaraiicom-22&#34;&gt;Kindle&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/lrLXq5v8Cs_t2N.png&#34; alt=&#34;/images/lrLXq5v8Cs_t2N.png&#34;&gt;
+&lt;a href=&#34;https://itunes.apple.com/jp/app/snapseed/id439438619?mt=8&amp;amp;uo=4&amp;amp;at=10lmwI&#34;&gt;&lt;strong&gt;Snapseed&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;
+カテゴリ: 写真／ビデオ, ライフスタイル&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>【iOS】クラウド上のmp3を再生できるCloudBeatsを使うと、ラジオを聴くのが捗る</title>
+      <link>https://namaraii.com/post/2014/20140202_iosmp3cloudbeats20fb0b043327/</link>
+      <pubDate>Sun, 02 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2014/20140202_iosmp3cloudbeats20fb0b043327/</guid>
+      <description>
+        
+          &lt;p&gt;クラウドストレージに対応した音楽プレイヤーとして、Music Player
+All-in-OneやTuneboxを使ってきましたが、最近知った&lt;a href=&#34;https://itunes.apple.com/jp/app/cloudbeats-kuraudo-yin-lepureiya/id573192227?mt=8&amp;amp;uo=4&amp;amp;at=10lmwI&#34;&gt;&lt;strong&gt;CloudBeats&lt;/strong&gt;&lt;/a&gt;というアプリは、対応しているクラウドサービスが多く、機能的にも自分の主な用途（録音したラジオを聴く）にフィットして気に入っています。&lt;/p&gt;
+&lt;p&gt;外国語の勉強やテープ起こしなどにも便利に使えるんじゃないかと。&lt;/p&gt;
+&lt;h4 id=&#34;対応しているクラウドストレージサービス&#34;&gt;対応しているクラウドストレージサービス&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/as8FQHXdVdK99g.png&#34; alt=&#34;/images/as8FQHXdVdK99g.png&#34;&gt;
+対応しているクラウドストレージサービスは、現時点で以下の5つです。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span id=&#34;8240&#34;&gt;Box&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;9582&#34;&gt;Dropbox&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;edb1&#34;&gt;Google Drive&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;b12f&#34;&gt;Mediafire&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;3d96&#34;&gt;SkyDrive&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;クラウドサービスを横断したプレイリストを作成できるので、それぞれのサービスへ分散してmp3を置いてプレイリストでまとめる。といった使い方が可能です。&lt;/p&gt;
+&lt;h4 id=&#34;録音したラジオを聞くのに便利な機能&#34;&gt;録音したラジオを聞くのに便利な機能&lt;/h4&gt;
+&lt;p&gt;ラジオを聴くのに重宝しているのが以下の機能。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/8PhKhPDtFvc58X.png&#34; alt=&#34;/images/8PhKhPDtFvc58X.png&#34;&gt;
+（１）早送り・巻き戻し&lt;br&gt;
+ボタンのタップで、簡単に10秒/30秒の巻き戻し/早送りが可能。広告のスキップ、聞き取れなかった部分を巻き戻して聞きなおすなど。&lt;/p&gt;
+&lt;p&gt;（２）再生速度の変更&lt;br&gt;
+再生速度を0.5倍から2.5倍まで変更できます。ニュース系のラジオで速度を上げる、テープおこしでは遅めに再生するなど。&lt;/p&gt;
+&lt;p&gt;CloudBeatsのおかげでラジオリスニングが捗りそうです。これはいい。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/HzdeI7IWJ4_vF9.png&#34; alt=&#34;/images/HzdeI7IWJ4_vF9.png&#34;&gt;
+&lt;a href=&#34;https://itunes.apple.com/jp/app/cloudbeats-kuraudo-yin-lepureiya/id573192227?mt=8&amp;amp;uo=4&amp;amp;at=10lmwI&#34;&gt;&lt;strong&gt;CloudBeats — クラウド音楽プレイヤー Dropbox, Box, SkyDrive, Google Drive, Mediafire&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/5ZCClYt-nocKos.gif&#34; alt=&#34;/images/5ZCClYt-nocKos.gif&#34;&gt;
+カテゴリ: ミュージック&lt;/p&gt;
+&lt;p&gt;価格: ￥500&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>水彩画で巡るニッパツ三ツ沢球技場（Waterlogue作例）</title>
+      <link>https://namaraii.com/post/2014/20140123_waterlogueb74cd4cbc0c3/</link>
+      <pubDate>Thu, 23 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2014/20140123_waterlogueb74cd4cbc0c3/</guid>
+      <description>
+        
+          &lt;p&gt;三ツ沢の風景をWaterlogueで水彩画チックにしてみました。こういう写真もなかなかハマりますね。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/eRpY5RNaJVWzG7.jpg&#34; alt=&#34;/images/eRpY5RNaJVWzG7.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/jBG3vasXyB0kUf.jpg&#34; alt=&#34;/images/jBG3vasXyB0kUf.jpg&#34;&gt;
+キックオフを待ちつつ、マッチデープログラムを眺めながら生ビールを。このひとときのために生きてると言っても過言ではありません(^^)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/CVfrEVyIEaL8Ts.jpg&#34; alt=&#34;/images/CVfrEVyIEaL8Ts.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/FKnJ4-bKcrbPue.jpg&#34; alt=&#34;/images/FKnJ4-bKcrbPue.jpg&#34;&gt;
+晴天の三ツ沢。子供も楽しそう。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/YreD-I4yGUmz94.jpg&#34; alt=&#34;/images/YreD-I4yGUmz94.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/SF0c5vHWrNCIZL.jpg&#34; alt=&#34;/images/SF0c5vHWrNCIZL.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/82TR72AYdlp65l.jpg&#34; alt=&#34;/images/82TR72AYdlp65l.jpg&#34;&gt;
 ゴール！
-武岡がゴールを決めてシュナイダー潤之介へ駆け寄ったところ。感動的なシーンでした…&lt;/p>
-&lt;p>3月2日の開幕が待ち遠しい！&lt;/p>
-&lt;h4 id="waterlogue関連記事">Waterlogue関連記事&lt;/h4>
-&lt;ul>
-&lt;li>&lt;span
-id="a7a2">&lt;a href="http://namaraii.com/archives/19402">水彩画で巡る弘明寺商店街（Waterlogue作例）&lt;/a>&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="931d">&lt;a href="http://namaraii.com/archives/19428">Waterlogueで同じ写真に全12種類のエフェクトを適用して特徴をつかむ&lt;/a>&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="5294">&lt;a href="http://namaraii.com/archives/19446">Waterlogueのパラメタでどのように絵が変化するのか？&lt;/a>&lt;/span>&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://namaraii.com/images/zGbJgQbEAz2Nok.png" alt="/images/zGbJgQbEAz2Nok.png">
-&lt;a href="https://itunes.apple.com/jp/app/waterlogue/id764925064?mt=8&amp;amp;uo=4&amp;amp;at=10lmwI">&lt;strong>Waterlogue&lt;/strong>&lt;/a>&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/18L9uNpMCAInNB.gif" alt="/images/18L9uNpMCAInNB.gif">
-カテゴリ: 写真／ビデオ&lt;/p>
-&lt;p>価格: ￥300&lt;/p></description></item><item><title>Waterlogueのパラメタでどのように絵が変化するのか？</title><link>https://namaraii.com/post/2014/20140118_waterlogue417dc707b3fb/</link><pubDate>Sat, 18 Jan 2014 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2014/20140118_waterlogue417dc707b3fb/</guid><description>
-&lt;p>&lt;a href="https://itunes.apple.com/jp/app/waterlogue/id764925064?mt=8&amp;amp;uo=4&amp;amp;at=10lmwI">Waterlogue&lt;/a>のパラメタでSmall/Medium/Large/Giantというのがあります。&lt;/p>
-&lt;p>出力される画像のサイズかな？と思っていたのですが、ディテールの描画レベルのようですね。Smallが一番荒く、Giantが最も詳細まで描きこまれます。&lt;/p>
-&lt;p>それでは、サンプルをどうぞ。エフェクトはNatural、明るさはNormalに固定しています。&lt;/p>
-&lt;h4 id="small">Small&lt;/h4>
-&lt;p>&lt;img src="https://namaraii.com/images/RUBgIDcr2ODTKu.jpg" alt="/images/RUBgIDcr2ODTKu.jpg">&lt;/p>
-&lt;h4 id="medium">Medium&lt;/h4>
-&lt;p>&lt;img src="https://namaraii.com/images/4YuWOM6wP2IkGe.jpg" alt="/images/4YuWOM6wP2IkGe.jpg">&lt;/p>
-&lt;h4 id="large">Large&lt;/h4>
-&lt;p>&lt;img src="https://namaraii.com/images/x9UTwngV9OjkhR.jpg" alt="/images/x9UTwngV9OjkhR.jpg">&lt;/p>
-&lt;h4 id="giant">Giant&lt;/h4>
-&lt;p>&lt;img src="https://namaraii.com/images/VIXxQ_LzILDCQG.jpg" alt="/images/VIXxQ_LzILDCQG.jpg">
-ディテールが詳細なほど、色も濃く出ていますね。細部まで描画したい場合はディティールをGiantに近づけて、ざっくりと描きたい場合はSmall方向へ。このサンプルだとSmallやMediumが好きだなぁ。&lt;/p>
-&lt;p>Dark/Darker/Normal/Lighter/Lightは画像の明るさです。エフェクトはNatural、ディティールはMediumに固定しています。&lt;/p>
-&lt;h4 id="dark">Dark&lt;/h4>
-&lt;p>&lt;img src="https://namaraii.com/images/yob3CneYaPzcDq.jpg" alt="/images/yob3CneYaPzcDq.jpg">&lt;/p>
-&lt;h4 id="darker">Darker&lt;/h4>
-&lt;p>&lt;img src="https://namaraii.com/images/Rh9xwIdtsZJslB.jpg" alt="/images/Rh9xwIdtsZJslB.jpg">&lt;/p>
-&lt;h4 id="normal">Normal&lt;/h4>
-&lt;p>&lt;img src="https://namaraii.com/images/0yzB1nJc3ykyXm.jpg" alt="/images/0yzB1nJc3ykyXm.jpg">&lt;/p>
-&lt;h4 id="lighter">Lighter&lt;/h4>
-&lt;p>&lt;img src="https://namaraii.com/images/KBZDE7CHhR86Z5.jpg" alt="/images/KBZDE7CHhR86Z5.jpg">&lt;/p>
-&lt;h4 id="light">Light&lt;/h4>
-&lt;p>&lt;img src="https://namaraii.com/images/0ksoBQVAYN-fnw.jpg" alt="/images/0ksoBQVAYN-fnw.jpg">
-明るさは全体の雰囲気を見て、お好みで良さそうですね。&lt;/p>
-&lt;h4 id="waterlogue関連記事">Waterlogue関連記事&lt;/h4>
-&lt;ul>
-&lt;li>&lt;span
-id="bdb8">&lt;a href="http://namaraii.com/archives/19402">水彩画で巡る弘明寺商店街（Waterlogue作例）&lt;/a>&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="0895">&lt;a href="http://namaraii.com/archives/19428">Waterlogueで同じ写真に全12種類のエフェクトを適用して特徴をつかむ&lt;/a>&lt;/span>&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://namaraii.com/images/V5Aqa2nglvhXHt.png" alt="/images/V5Aqa2nglvhXHt.png">
-&lt;a href="https://itunes.apple.com/jp/app/waterlogue/id764925064?mt=8&amp;amp;uo=4&amp;amp;at=10lmwI">&lt;strong>Waterlogue&lt;/strong>&lt;/a>&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/7Pwj7cSqYd9M9k.gif" alt="/images/7Pwj7cSqYd9M9k.gif">
-カテゴリ: 写真／ビデオ&lt;/p>
-&lt;p>価格: ￥300&lt;/p></description></item><item><title>Waterlogueで同じ写真に全12種類のエフェクトを適用して特徴をつかむ</title><link>https://namaraii.com/post/2014/20140117_waterlogue124401832ba4aa/</link><pubDate>Fri, 17 Jan 2014 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2014/20140117_waterlogue124401832ba4aa/</guid><description>
-&lt;p>&lt;a href="https://itunes.apple.com/jp/app/waterlogue/id764925064?mt=8&amp;amp;uo=4&amp;amp;at=10lmwI">Waterlogue&lt;/a>(V1.0.1)には12種類のエフェクトタイプが用意されています。&lt;/p>
-&lt;p>写真によって、ハマるエフェクトとそうでもないものがあるので、順にいくつかのエフェクトを適用してみることが多いんですが、画像処理にそれなりに時間がかかりますよね。&lt;/p>
-&lt;p>なので、あらかじめ各エフェクトの特徴を把握し、完成画像をイメージできるようになっておけばが捗りそうです。ということで、同じ写真に対して各エフェクトを適用した結果をまとめてみました。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/avk-yrISVqxmDg.jpg" alt="/images/avk-yrISVqxmDg.jpg">
-サムネイルにしてみました。字が読みにくいですがご容赦。&lt;/p>
-&lt;p>以下、エフェクトごとの出力例を。(Medium/Normal)&lt;/p>
-&lt;h4 id="オリジナルの写真">オリジナルの写真&lt;/h4>
-&lt;p>&lt;img src="https://namaraii.com/images/hljcXV0n6EGj4K.jpg" alt="/images/hljcXV0n6EGj4K.jpg">&lt;/p>
-&lt;h4 id="natural">Natural&lt;/h4>
-&lt;p>&lt;img src="https://namaraii.com/images/SOFqlDVJRhN2Pa.jpg" alt="/images/SOFqlDVJRhN2Pa.jpg">&lt;/p>
-&lt;h4 id="bold">Bold&lt;/h4>
-&lt;p>&lt;img src="https://namaraii.com/images/jBBKFsDgw0oc8y.jpg" alt="/images/jBBKFsDgw0oc8y.jpg">&lt;/p>
-&lt;h4 id="luminous">Luminous&lt;/h4>
-&lt;p>&lt;img src="https://namaraii.com/images/TIMhLREhZI5A3-.jpg" alt="/images/TIMhLREhZI5A3-.jpg">&lt;/p>
-&lt;h4 id="its-technical">It’s Technical&lt;/h4>
-&lt;p>&lt;img src="https://namaraii.com/images/2hlGxN2Dw2FLGS.jpg" alt="/images/2hlGxN2Dw2FLGS.jpg">&lt;/p>
-&lt;h4 id="travelogue">Travelogue&lt;/h4>
-&lt;p>&lt;img src="https://namaraii.com/images/uRQOQZKyfmCeY7.jpg" alt="/images/uRQOQZKyfmCeY7.jpg">&lt;/p>
-&lt;h4 id="rainy">Rainy&lt;/h4>
-&lt;p>&lt;img src="https://namaraii.com/images/1oNx6ePBbMV3XE.jpg" alt="/images/1oNx6ePBbMV3XE.jpg">&lt;/p>
-&lt;h4 id="illustration">Illustration&lt;/h4>
-&lt;p>&lt;img src="https://namaraii.com/images/_bFCvvej1xKN6Z.jpg" alt="/images/_bFCvvej1xKN6Z.jpg">&lt;/p>
-&lt;h4 id="soaked">Soaked&lt;/h4>
-&lt;p>&lt;img src="https://namaraii.com/images/lt6aKDC7ZJgzGr.jpg" alt="/images/lt6aKDC7ZJgzGr.jpg">&lt;/p>
-&lt;h4 id="shallow">Shallow&lt;/h4>
-&lt;p>&lt;img src="https://namaraii.com/images/gmVCQMgW9O_ZbP.jpg" alt="/images/gmVCQMgW9O_ZbP.jpg">&lt;/p>
-&lt;h4 id="color-bloom">Color Bloom&lt;/h4>
-&lt;p>&lt;img src="https://namaraii.com/images/4xmULVOvfNv8sP.jpg" alt="/images/4xmULVOvfNv8sP.jpg">&lt;/p>
-&lt;h4 id="fashinable">Fashinable&lt;/h4>
-&lt;p>&lt;img src="https://namaraii.com/images/dRjl7riFSAVRGZ.jpg" alt="/images/dRjl7riFSAVRGZ.jpg">&lt;/p>
-&lt;h4 id="blotted">Blotted&lt;/h4>
-&lt;p>&lt;img src="https://namaraii.com/images/QBCboQJq0UJdYF.jpg" alt="/images/QBCboQJq0UJdYF.jpg">
-エフェクトによって、できあがりのイメージはかなりちがいますね。今回サンプルで使った写真だと、木の描画が好きだなぁ。&lt;/p>
-&lt;p>エフェクトタイプ以外のパラメータについては、別エントリでまとめたいと思います。Waterlogueいいですね。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/jFROJ_rq__SJcj.png" alt="/images/jFROJ_rq__SJcj.png">
-&lt;a href="https://itunes.apple.com/jp/app/waterlogue/id764925064?mt=8&amp;amp;uo=4&amp;amp;at=10lmwI">&lt;strong>Waterlogue&lt;/strong>&lt;/a>&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/4jnUQJESWFy3e-.gif" alt="/images/4jnUQJESWFy3e-.gif">
-カテゴリ: 写真／ビデオ&lt;/p>
-&lt;p>価格: ￥300&lt;/p></description></item><item><title>水彩画で巡る弘明寺商店街（Waterlogue作例）</title><link>https://namaraii.com/post/2014/20140115_waterloguebe425ca46b19/</link><pubDate>Wed, 15 Jan 2014 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2014/20140115_waterloguebe425ca46b19/</guid><description>
-&lt;p>水彩画というのは嘘で本当は流行りの&lt;a href="https://itunes.apple.com/jp/app/waterlogue/id764925064?mt=8&amp;amp;uo=4&amp;amp;at=10lmwI">Waterlogue&lt;/a>を使って写真を水彩画風に加工した画像です。&lt;/p>
-&lt;p>Waterlogueいいですねぇ。&lt;/p>
-&lt;p>これまでにも写真を絵画風に加工するアプリは、いろいろありました。このブログでも、過去に下記のアプリの記事を書いています。&lt;/p>
-&lt;ul>
-&lt;li>&lt;span
-id="6547">&lt;a href="http://namaraii.com/archives/1070">写真を60年代のポップアートのような画像に変換できる — PhotoTropedelic&lt;/a>&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="0050">&lt;a href="http://namaraii.com/archives/806">オバマのようなポスター画像を作成できるアプリ — Hope Poster&lt;/a>&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="d7ce">&lt;a href="http://namaraii.com/archives/779">写真をコミックス風のタッチに加工してくれるアプリ- ToonPAINT&lt;/a>&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="5507">&lt;a href="http://namaraii.com/archives/645">写真を手書きのイラスト風に変換できるアプリ — Sketch Camera&lt;/a>&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="ae61">&lt;a href="http://namaraii.com/archives/635">アンディ・ウォーホル風に画像を変換できる無料アプリ — Pop Art Lite&lt;/a>&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="8b12">&lt;a href="http://namaraii.com/archives/573">写真を版画風に変換するアプリ — Re:NancyKPH&lt;/a>&lt;/span>&lt;/li>
-&lt;/ul>
-&lt;p>それぞれ個性があって楽しいのですが、Waterlogueが生成する水彩画風画像のクオリティはすごい。つまらない写真でも、かなりの確率で「作品」チックに仕上げてくれます。&lt;/p>
-&lt;p>作例として、近所の弘明寺商店街（横浜市南区）で撮った写真をWaterlogueで加工した画像を紹介します。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/oYcuRkk_zwAg19.jpg" alt="/images/oYcuRkk_zwAg19.jpg">&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/TvSqG9ZvaJ5BnF.jpg" alt="/images/TvSqG9ZvaJ5BnF.jpg">&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/LJhh1s3F65gFqr.jpg" alt="/images/LJhh1s3F65gFqr.jpg">&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/ZtX5CALVokTO2-.jpg" alt="/images/ZtX5CALVokTO2-.jpg">&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/-a5jcDKzQoxGtT.jpg" alt="/images/-a5jcDKzQoxGtT.jpg">&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/DeKKEBOcBKAjzy.jpg" alt="/images/DeKKEBOcBKAjzy.jpg">&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/5zFXy_r5Fy70Sa.jpg" alt="/images/5zFXy_r5Fy70Sa.jpg">&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/FaAZqdpETzFMyR.jpg" alt="/images/FaAZqdpETzFMyR.jpg">&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/yxYbQw1iFsYzMC.jpg" alt="/images/yxYbQw1iFsYzMC.jpg">
+武岡がゴールを決めてシュナイダー潤之介へ駆け寄ったところ。感動的なシーンでした…&lt;/p&gt;
+&lt;p&gt;3月2日の開幕が待ち遠しい！&lt;/p&gt;
+&lt;h4 id=&#34;waterlogue関連記事&#34;&gt;Waterlogue関連記事&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span
+id=&#34;a7a2&#34;&gt;&lt;a href=&#34;http://namaraii.com/archives/19402&#34;&gt;水彩画で巡る弘明寺商店街（Waterlogue作例）&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;931d&#34;&gt;&lt;a href=&#34;http://namaraii.com/archives/19428&#34;&gt;Waterlogueで同じ写真に全12種類のエフェクトを適用して特徴をつかむ&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;5294&#34;&gt;&lt;a href=&#34;http://namaraii.com/archives/19446&#34;&gt;Waterlogueのパラメタでどのように絵が変化するのか？&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/zGbJgQbEAz2Nok.png&#34; alt=&#34;/images/zGbJgQbEAz2Nok.png&#34;&gt;
+&lt;a href=&#34;https://itunes.apple.com/jp/app/waterlogue/id764925064?mt=8&amp;amp;uo=4&amp;amp;at=10lmwI&#34;&gt;&lt;strong&gt;Waterlogue&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/18L9uNpMCAInNB.gif&#34; alt=&#34;/images/18L9uNpMCAInNB.gif&#34;&gt;
+カテゴリ: 写真／ビデオ&lt;/p&gt;
+&lt;p&gt;価格: ￥300&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Waterlogueのパラメタでどのように絵が変化するのか？</title>
+      <link>https://namaraii.com/post/2014/20140118_waterlogue417dc707b3fb/</link>
+      <pubDate>Sat, 18 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2014/20140118_waterlogue417dc707b3fb/</guid>
+      <description>
+        
+          &lt;p&gt;&lt;a href=&#34;https://itunes.apple.com/jp/app/waterlogue/id764925064?mt=8&amp;amp;uo=4&amp;amp;at=10lmwI&#34;&gt;Waterlogue&lt;/a&gt;のパラメタでSmall/Medium/Large/Giantというのがあります。&lt;/p&gt;
+&lt;p&gt;出力される画像のサイズかな？と思っていたのですが、ディテールの描画レベルのようですね。Smallが一番荒く、Giantが最も詳細まで描きこまれます。&lt;/p&gt;
+&lt;p&gt;それでは、サンプルをどうぞ。エフェクトはNatural、明るさはNormalに固定しています。&lt;/p&gt;
+&lt;h4 id=&#34;small&#34;&gt;Small&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/RUBgIDcr2ODTKu.jpg&#34; alt=&#34;/images/RUBgIDcr2ODTKu.jpg&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;medium&#34;&gt;Medium&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/4YuWOM6wP2IkGe.jpg&#34; alt=&#34;/images/4YuWOM6wP2IkGe.jpg&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;large&#34;&gt;Large&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/x9UTwngV9OjkhR.jpg&#34; alt=&#34;/images/x9UTwngV9OjkhR.jpg&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;giant&#34;&gt;Giant&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/VIXxQ_LzILDCQG.jpg&#34; alt=&#34;/images/VIXxQ_LzILDCQG.jpg&#34;&gt;
+ディテールが詳細なほど、色も濃く出ていますね。細部まで描画したい場合はディティールをGiantに近づけて、ざっくりと描きたい場合はSmall方向へ。このサンプルだとSmallやMediumが好きだなぁ。&lt;/p&gt;
+&lt;p&gt;Dark/Darker/Normal/Lighter/Lightは画像の明るさです。エフェクトはNatural、ディティールはMediumに固定しています。&lt;/p&gt;
+&lt;h4 id=&#34;dark&#34;&gt;Dark&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/yob3CneYaPzcDq.jpg&#34; alt=&#34;/images/yob3CneYaPzcDq.jpg&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;darker&#34;&gt;Darker&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/Rh9xwIdtsZJslB.jpg&#34; alt=&#34;/images/Rh9xwIdtsZJslB.jpg&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;normal&#34;&gt;Normal&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/0yzB1nJc3ykyXm.jpg&#34; alt=&#34;/images/0yzB1nJc3ykyXm.jpg&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;lighter&#34;&gt;Lighter&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/KBZDE7CHhR86Z5.jpg&#34; alt=&#34;/images/KBZDE7CHhR86Z5.jpg&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;light&#34;&gt;Light&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/0ksoBQVAYN-fnw.jpg&#34; alt=&#34;/images/0ksoBQVAYN-fnw.jpg&#34;&gt;
+明るさは全体の雰囲気を見て、お好みで良さそうですね。&lt;/p&gt;
+&lt;h4 id=&#34;waterlogue関連記事&#34;&gt;Waterlogue関連記事&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span
+id=&#34;bdb8&#34;&gt;&lt;a href=&#34;http://namaraii.com/archives/19402&#34;&gt;水彩画で巡る弘明寺商店街（Waterlogue作例）&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;0895&#34;&gt;&lt;a href=&#34;http://namaraii.com/archives/19428&#34;&gt;Waterlogueで同じ写真に全12種類のエフェクトを適用して特徴をつかむ&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/V5Aqa2nglvhXHt.png&#34; alt=&#34;/images/V5Aqa2nglvhXHt.png&#34;&gt;
+&lt;a href=&#34;https://itunes.apple.com/jp/app/waterlogue/id764925064?mt=8&amp;amp;uo=4&amp;amp;at=10lmwI&#34;&gt;&lt;strong&gt;Waterlogue&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/7Pwj7cSqYd9M9k.gif&#34; alt=&#34;/images/7Pwj7cSqYd9M9k.gif&#34;&gt;
+カテゴリ: 写真／ビデオ&lt;/p&gt;
+&lt;p&gt;価格: ￥300&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Waterlogueで同じ写真に全12種類のエフェクトを適用して特徴をつかむ</title>
+      <link>https://namaraii.com/post/2014/20140117_waterlogue124401832ba4aa/</link>
+      <pubDate>Fri, 17 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2014/20140117_waterlogue124401832ba4aa/</guid>
+      <description>
+        
+          &lt;p&gt;&lt;a href=&#34;https://itunes.apple.com/jp/app/waterlogue/id764925064?mt=8&amp;amp;uo=4&amp;amp;at=10lmwI&#34;&gt;Waterlogue&lt;/a&gt;(V1.0.1)には12種類のエフェクトタイプが用意されています。&lt;/p&gt;
+&lt;p&gt;写真によって、ハマるエフェクトとそうでもないものがあるので、順にいくつかのエフェクトを適用してみることが多いんですが、画像処理にそれなりに時間がかかりますよね。&lt;/p&gt;
+&lt;p&gt;なので、あらかじめ各エフェクトの特徴を把握し、完成画像をイメージできるようになっておけばが捗りそうです。ということで、同じ写真に対して各エフェクトを適用した結果をまとめてみました。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/avk-yrISVqxmDg.jpg&#34; alt=&#34;/images/avk-yrISVqxmDg.jpg&#34;&gt;
+サムネイルにしてみました。字が読みにくいですがご容赦。&lt;/p&gt;
+&lt;p&gt;以下、エフェクトごとの出力例を。(Medium/Normal)&lt;/p&gt;
+&lt;h4 id=&#34;オリジナルの写真&#34;&gt;オリジナルの写真&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/hljcXV0n6EGj4K.jpg&#34; alt=&#34;/images/hljcXV0n6EGj4K.jpg&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;natural&#34;&gt;Natural&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/SOFqlDVJRhN2Pa.jpg&#34; alt=&#34;/images/SOFqlDVJRhN2Pa.jpg&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;bold&#34;&gt;Bold&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/jBBKFsDgw0oc8y.jpg&#34; alt=&#34;/images/jBBKFsDgw0oc8y.jpg&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;luminous&#34;&gt;Luminous&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/TIMhLREhZI5A3-.jpg&#34; alt=&#34;/images/TIMhLREhZI5A3-.jpg&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;its-technical&#34;&gt;It’s Technical&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/2hlGxN2Dw2FLGS.jpg&#34; alt=&#34;/images/2hlGxN2Dw2FLGS.jpg&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;travelogue&#34;&gt;Travelogue&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/uRQOQZKyfmCeY7.jpg&#34; alt=&#34;/images/uRQOQZKyfmCeY7.jpg&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;rainy&#34;&gt;Rainy&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/1oNx6ePBbMV3XE.jpg&#34; alt=&#34;/images/1oNx6ePBbMV3XE.jpg&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;illustration&#34;&gt;Illustration&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/_bFCvvej1xKN6Z.jpg&#34; alt=&#34;/images/_bFCvvej1xKN6Z.jpg&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;soaked&#34;&gt;Soaked&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/lt6aKDC7ZJgzGr.jpg&#34; alt=&#34;/images/lt6aKDC7ZJgzGr.jpg&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;shallow&#34;&gt;Shallow&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/gmVCQMgW9O_ZbP.jpg&#34; alt=&#34;/images/gmVCQMgW9O_ZbP.jpg&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;color-bloom&#34;&gt;Color Bloom&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/4xmULVOvfNv8sP.jpg&#34; alt=&#34;/images/4xmULVOvfNv8sP.jpg&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;fashinable&#34;&gt;Fashinable&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/dRjl7riFSAVRGZ.jpg&#34; alt=&#34;/images/dRjl7riFSAVRGZ.jpg&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;blotted&#34;&gt;Blotted&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/QBCboQJq0UJdYF.jpg&#34; alt=&#34;/images/QBCboQJq0UJdYF.jpg&#34;&gt;
+エフェクトによって、できあがりのイメージはかなりちがいますね。今回サンプルで使った写真だと、木の描画が好きだなぁ。&lt;/p&gt;
+&lt;p&gt;エフェクトタイプ以外のパラメータについては、別エントリでまとめたいと思います。Waterlogueいいですね。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/jFROJ_rq__SJcj.png&#34; alt=&#34;/images/jFROJ_rq__SJcj.png&#34;&gt;
+&lt;a href=&#34;https://itunes.apple.com/jp/app/waterlogue/id764925064?mt=8&amp;amp;uo=4&amp;amp;at=10lmwI&#34;&gt;&lt;strong&gt;Waterlogue&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/4jnUQJESWFy3e-.gif&#34; alt=&#34;/images/4jnUQJESWFy3e-.gif&#34;&gt;
+カテゴリ: 写真／ビデオ&lt;/p&gt;
+&lt;p&gt;価格: ￥300&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>水彩画で巡る弘明寺商店街（Waterlogue作例）</title>
+      <link>https://namaraii.com/post/2014/20140115_waterloguebe425ca46b19/</link>
+      <pubDate>Wed, 15 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2014/20140115_waterloguebe425ca46b19/</guid>
+      <description>
+        
+          &lt;p&gt;水彩画というのは嘘で本当は流行りの&lt;a href=&#34;https://itunes.apple.com/jp/app/waterlogue/id764925064?mt=8&amp;amp;uo=4&amp;amp;at=10lmwI&#34;&gt;Waterlogue&lt;/a&gt;を使って写真を水彩画風に加工した画像です。&lt;/p&gt;
+&lt;p&gt;Waterlogueいいですねぇ。&lt;/p&gt;
+&lt;p&gt;これまでにも写真を絵画風に加工するアプリは、いろいろありました。このブログでも、過去に下記のアプリの記事を書いています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span
+id=&#34;6547&#34;&gt;&lt;a href=&#34;http://namaraii.com/archives/1070&#34;&gt;写真を60年代のポップアートのような画像に変換できる — PhotoTropedelic&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;0050&#34;&gt;&lt;a href=&#34;http://namaraii.com/archives/806&#34;&gt;オバマのようなポスター画像を作成できるアプリ — Hope Poster&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;d7ce&#34;&gt;&lt;a href=&#34;http://namaraii.com/archives/779&#34;&gt;写真をコミックス風のタッチに加工してくれるアプリ- ToonPAINT&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;5507&#34;&gt;&lt;a href=&#34;http://namaraii.com/archives/645&#34;&gt;写真を手書きのイラスト風に変換できるアプリ — Sketch Camera&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;ae61&#34;&gt;&lt;a href=&#34;http://namaraii.com/archives/635&#34;&gt;アンディ・ウォーホル風に画像を変換できる無料アプリ — Pop Art Lite&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;8b12&#34;&gt;&lt;a href=&#34;http://namaraii.com/archives/573&#34;&gt;写真を版画風に変換するアプリ — Re:NancyKPH&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;それぞれ個性があって楽しいのですが、Waterlogueが生成する水彩画風画像のクオリティはすごい。つまらない写真でも、かなりの確率で「作品」チックに仕上げてくれます。&lt;/p&gt;
+&lt;p&gt;作例として、近所の弘明寺商店街（横浜市南区）で撮った写真をWaterlogueで加工した画像を紹介します。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/oYcuRkk_zwAg19.jpg&#34; alt=&#34;/images/oYcuRkk_zwAg19.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/TvSqG9ZvaJ5BnF.jpg&#34; alt=&#34;/images/TvSqG9ZvaJ5BnF.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/LJhh1s3F65gFqr.jpg&#34; alt=&#34;/images/LJhh1s3F65gFqr.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/ZtX5CALVokTO2-.jpg&#34; alt=&#34;/images/ZtX5CALVokTO2-.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/-a5jcDKzQoxGtT.jpg&#34; alt=&#34;/images/-a5jcDKzQoxGtT.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/DeKKEBOcBKAjzy.jpg&#34; alt=&#34;/images/DeKKEBOcBKAjzy.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/5zFXy_r5Fy70Sa.jpg&#34; alt=&#34;/images/5zFXy_r5Fy70Sa.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/FaAZqdpETzFMyR.jpg&#34; alt=&#34;/images/FaAZqdpETzFMyR.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/yxYbQw1iFsYzMC.jpg&#34; alt=&#34;/images/yxYbQw1iFsYzMC.jpg&#34;&gt;
 どうでしょうか？
-元は平凡な写真ばかりなのですが、なかなか味のある絵に仕上がっている気がします。&lt;/p>
-&lt;p>Waterlogueおすすめです！&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/Zl9Sc6CmcCJLwF.png" alt="/images/Zl9Sc6CmcCJLwF.png">
-&lt;a href="https://itunes.apple.com/jp/app/waterlogue/id764925064?mt=8&amp;amp;uo=4&amp;amp;at=10lmwI">&lt;strong>Waterlogue&lt;/strong>&lt;/a>&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/E1ypybfSfeb0fR.gif" alt="/images/E1ypybfSfeb0fR.gif">
-カテゴリ: 写真／ビデオ&lt;/p>
-&lt;p>価格: ￥300&lt;/p></description></item><item><title>新聞や雑誌の記事の切り抜きに便利な無料のiPhoneアプリ『CamScanner Free』</title><link>https://namaraii.com/post/2013/20131014_iphonecamscannerfree3a61ba8aae8c/</link><pubDate>Mon, 14 Oct 2013 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2013/20131014_iphonecamscannerfree3a61ba8aae8c/</guid><description>
-&lt;p>以前、&lt;a href="http://namaraii.com/archives/5870">新聞や雑誌の記事をスクラップするのに便利な無料アプリ「キングジムSHOT DOCS」&lt;/a>で紹介したSHOT
-DOCSはスキャンした画像はメールで送信するか、カメラロールへ保存するかの二択です。&lt;/p>
-&lt;p>直接EvernoteやDropboxへ保存できるアプリは無いものかと、無料のスキャンアプリをいくつか試してみました。試したアプリは以下の通り。&lt;/p>
-&lt;ul>
-&lt;li>&lt;span id="9ad9">JotNot Scanner Free&lt;/span>&lt;/li>
-&lt;li>&lt;span id="e73b">Scan Pages&lt;/span>&lt;/li>
-&lt;li>&lt;span id="a7f3">Genius Scan — PDF Scanner&lt;/span>&lt;/li>
-&lt;li>&lt;span id="dc07">CamScanner Free&lt;/span>&lt;/li>
-&lt;li>&lt;span id="a336">すきゃんぴ&lt;/span>&lt;/li>
-&lt;li>&lt;span id="21bc">SharpScan&lt;/span>&lt;/li>
-&lt;/ul>
-&lt;p>重視したポイントは、&lt;/p>
-&lt;ul>
-&lt;li>&lt;span id="587a">輪郭抽出の精度&lt;/span>&lt;/li>
-&lt;li>&lt;span id="65d6">保存（共有）方法の豊富さ&lt;/span>&lt;/li>
-&lt;li>&lt;span id="5e4b">スキャン画質&lt;/span>&lt;/li>
-&lt;/ul>
-&lt;p>です。&lt;/p>
-&lt;p>SHOT
-DOCSの輪郭抽出が優れているため、同じようになるべく手で補正する必要が無い方が望ましいし、前述したようにEvernoteやDropboxへ直接保存したい。肝心のスキャン画質も重視したい。&lt;/p>
-&lt;p>これらの観点でアプリを試した結果、CamScanner
-Freeがいちばん自分にマッチしそうでした。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/ddrKIfI8DyX0jj.jpg" alt="/images/ddrKIfI8DyX0jj.jpg">
+元は平凡な写真ばかりなのですが、なかなか味のある絵に仕上がっている気がします。&lt;/p&gt;
+&lt;p&gt;Waterlogueおすすめです！&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/Zl9Sc6CmcCJLwF.png&#34; alt=&#34;/images/Zl9Sc6CmcCJLwF.png&#34;&gt;
+&lt;a href=&#34;https://itunes.apple.com/jp/app/waterlogue/id764925064?mt=8&amp;amp;uo=4&amp;amp;at=10lmwI&#34;&gt;&lt;strong&gt;Waterlogue&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/E1ypybfSfeb0fR.gif&#34; alt=&#34;/images/E1ypybfSfeb0fR.gif&#34;&gt;
+カテゴリ: 写真／ビデオ&lt;/p&gt;
+&lt;p&gt;価格: ￥300&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>新聞や雑誌の記事の切り抜きに便利な無料のiPhoneアプリ『CamScanner Free』</title>
+      <link>https://namaraii.com/post/2013/20131014_iphonecamscannerfree3a61ba8aae8c/</link>
+      <pubDate>Mon, 14 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2013/20131014_iphonecamscannerfree3a61ba8aae8c/</guid>
+      <description>
+        
+          &lt;p&gt;以前、&lt;a href=&#34;http://namaraii.com/archives/5870&#34;&gt;新聞や雑誌の記事をスクラップするのに便利な無料アプリ「キングジムSHOT DOCS」&lt;/a&gt;で紹介したSHOT
+DOCSはスキャンした画像はメールで送信するか、カメラロールへ保存するかの二択です。&lt;/p&gt;
+&lt;p&gt;直接EvernoteやDropboxへ保存できるアプリは無いものかと、無料のスキャンアプリをいくつか試してみました。試したアプリは以下の通り。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span id=&#34;9ad9&#34;&gt;JotNot Scanner Free&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;e73b&#34;&gt;Scan Pages&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;a7f3&#34;&gt;Genius Scan — PDF Scanner&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;dc07&#34;&gt;CamScanner Free&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;a336&#34;&gt;すきゃんぴ&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;21bc&#34;&gt;SharpScan&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;重視したポイントは、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span id=&#34;587a&#34;&gt;輪郭抽出の精度&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;65d6&#34;&gt;保存（共有）方法の豊富さ&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;5e4b&#34;&gt;スキャン画質&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;です。&lt;/p&gt;
+&lt;p&gt;SHOT
+DOCSの輪郭抽出が優れているため、同じようになるべく手で補正する必要が無い方が望ましいし、前述したようにEvernoteやDropboxへ直接保存したい。肝心のスキャン画質も重視したい。&lt;/p&gt;
+&lt;p&gt;これらの観点でアプリを試した結果、CamScanner
+Freeがいちばん自分にマッチしそうでした。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/ddrKIfI8DyX0jj.jpg&#34; alt=&#34;/images/ddrKIfI8DyX0jj.jpg&#34;&gt;
 輪郭の自動認識精度はアプリによって、かなりばらつきがあったのですが、試した限りCamScanner
-Freeが安定している印象でした。&lt;/p>
-&lt;p>上の画像はフリーペーパーの一部を撮影して自動認識された輪郭。この例では左側にやや余分な空白があったので、○のポイントをドラッグして調節しました。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/5LzvpYB0T32wjm.jpg" alt="/images/5LzvpYB0T32wjm.jpg">
-スキャンした画像はワンタップで鮮明化、増強・鮮明化などの補正を行うことができます。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/BaLBM_Icl14vQ0.jpg" alt="/images/BaLBM_Icl14vQ0.jpg">
-グレイスケールにも簡単に。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/THFnwte8eaE88P.png" alt="/images/THFnwte8eaE88P.png">
+Freeが安定している印象でした。&lt;/p&gt;
+&lt;p&gt;上の画像はフリーペーパーの一部を撮影して自動認識された輪郭。この例では左側にやや余分な空白があったので、○のポイントをドラッグして調節しました。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/5LzvpYB0T32wjm.jpg&#34; alt=&#34;/images/5LzvpYB0T32wjm.jpg&#34;&gt;
+スキャンした画像はワンタップで鮮明化、増強・鮮明化などの補正を行うことができます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/BaLBM_Icl14vQ0.jpg&#34; alt=&#34;/images/BaLBM_Icl14vQ0.jpg&#34;&gt;
+グレイスケールにも簡単に。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/THFnwte8eaE88P.png&#34; alt=&#34;/images/THFnwte8eaE88P.png&#34;&gt;
 スキャンした画像はAirPrintによる印刷、メール送信、アルバムへの保存の他、box/Dropbox/Evernote/Google
-Driveへのアップロードをサポートしており、スキャン後の活用もバッチリ。&lt;/p>
-&lt;p>有料のCamScanner+もあるようですが、個人的にはCamScanner
-Freeで必要十分な感じなので、メモやホワイトボードの電子化には当面フリー版を使ってみようと思います。&lt;/p></description></item><item><title>使いやすくて情報が見やすい無料のRedmineアプリ RedminePM</title><link>https://namaraii.com/post/2013/20130621_redmineredminepm8db7b2dfcab0/</link><pubDate>Fri, 21 Jun 2013 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2013/20130621_redmineredminepm8db7b2dfcab0/</guid><description>
-&lt;p>RedminePMというRedmineのクライアントアプリが使いやすかったのでシェアします。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/V_BqFxe3elGVra.png" alt="/images/V_BqFxe3elGVra.png">
-&lt;a href="http://click.linksynergy.com/fs-bin/stat?id=4EVf/nY9Pr4&amp;amp;offerid=94348&amp;amp;type=3&amp;amp;subid=0&amp;amp;tmpid=2192&amp;amp;RD_PARM1=https%253A%252F%252Fitunes.apple.com%252Fjp%252Fapp%252Fredminepm%252Fid631915897%253Fmt%253D8%2526uo%253D4%2526partnerId%253D30">RedminePM&lt;/a>&lt;br>
-project mode, Inc.&lt;br>
-価格： 0円&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/HjUzs8GEuYkKjw.gif" alt="/images/HjUzs8GEuYkKjw.gif">
+Driveへのアップロードをサポートしており、スキャン後の活用もバッチリ。&lt;/p&gt;
+&lt;p&gt;有料のCamScanner+もあるようですが、個人的にはCamScanner
+Freeで必要十分な感じなので、メモやホワイトボードの電子化には当面フリー版を使ってみようと思います。&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>使いやすくて情報が見やすい無料のRedmineアプリ RedminePM</title>
+      <link>https://namaraii.com/post/2013/20130621_redmineredminepm8db7b2dfcab0/</link>
+      <pubDate>Fri, 21 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2013/20130621_redmineredminepm8db7b2dfcab0/</guid>
+      <description>
+        
+          &lt;p&gt;RedminePMというRedmineのクライアントアプリが使いやすかったのでシェアします。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/V_BqFxe3elGVra.png&#34; alt=&#34;/images/V_BqFxe3elGVra.png&#34;&gt;
+&lt;a href=&#34;http://click.linksynergy.com/fs-bin/stat?id=4EVf/nY9Pr4&amp;amp;offerid=94348&amp;amp;type=3&amp;amp;subid=0&amp;amp;tmpid=2192&amp;amp;RD_PARM1=https%253A%252F%252Fitunes.apple.com%252Fjp%252Fapp%252Fredminepm%252Fid631915897%253Fmt%253D8%2526uo%253D4%2526partnerId%253D30&#34;&gt;RedminePM&lt;/a&gt;&lt;br&gt;
+project mode, Inc.&lt;br&gt;
+価格： 0円&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/HjUzs8GEuYkKjw.gif&#34; alt=&#34;/images/HjUzs8GEuYkKjw.gif&#34;&gt;
 posted with
-&lt;a href="http://sticky.linclip.com/linkmaker/">sticky&lt;/a>
-on 2013.6.21&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/Z4Z92Saxr6T-Cc.jpg" alt="/images/Z4Z92Saxr6T-Cc.jpg">
-プロジェクトの一覧。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/5CdSR3r_PPQUFr.jpg" alt="/images/5CdSR3r_PPQUFr.jpg">
-チケットの一覧。トラッカーが色分けされていて見やすいですね。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/ooi6GKLH2cr1V4.jpg" alt="/images/ooi6GKLH2cr1V4.jpg">
-チケットの参照画面。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/EDpHEHHokE6qnV.jpg" alt="/images/EDpHEHHokE6qnV.jpg">
-コメントの履歴が見やすいのが嬉しいなぁ。ここが見づらいと状態を掴めないんですよね。&lt;/p>
-&lt;p>その他、機能的な面ではiPhoneカメラ画像の添付ファイル登録、キーワード検索、チケットID検索、ウォッチリスト、カスタムクエリ（サーバで定義したものがそのまま使える）、マルチアカウント対応など。&lt;/p>
-&lt;p>出先で使用する上では十分すぎます。素晴らしい。外部から参照できるサーバでRedmineを使っている人は迷わずインストール！&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/bKoXV78WVfK6uq.png" alt="/images/bKoXV78WVfK6uq.png">
-&lt;a href="http://click.linksynergy.com/fs-bin/stat?id=4EVf/nY9Pr4&amp;amp;offerid=94348&amp;amp;type=3&amp;amp;subid=0&amp;amp;tmpid=2192&amp;amp;RD_PARM1=https%253A%252F%252Fitunes.apple.com%252Fjp%252Fapp%252Fredminepm%252Fid631915897%253Fmt%253D8%2526uo%253D4%2526partnerId%253D30">RedminePM&lt;/a>&lt;br>
-project mode, Inc.&lt;br>
-価格： 0円&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/h6lNs_cF6TIo8E.gif" alt="/images/h6lNs_cF6TIo8E.gif">
+&lt;a href=&#34;http://sticky.linclip.com/linkmaker/&#34;&gt;sticky&lt;/a&gt;
+on 2013.6.21&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/Z4Z92Saxr6T-Cc.jpg&#34; alt=&#34;/images/Z4Z92Saxr6T-Cc.jpg&#34;&gt;
+プロジェクトの一覧。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/5CdSR3r_PPQUFr.jpg&#34; alt=&#34;/images/5CdSR3r_PPQUFr.jpg&#34;&gt;
+チケットの一覧。トラッカーが色分けされていて見やすいですね。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/ooi6GKLH2cr1V4.jpg&#34; alt=&#34;/images/ooi6GKLH2cr1V4.jpg&#34;&gt;
+チケットの参照画面。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/EDpHEHHokE6qnV.jpg&#34; alt=&#34;/images/EDpHEHHokE6qnV.jpg&#34;&gt;
+コメントの履歴が見やすいのが嬉しいなぁ。ここが見づらいと状態を掴めないんですよね。&lt;/p&gt;
+&lt;p&gt;その他、機能的な面ではiPhoneカメラ画像の添付ファイル登録、キーワード検索、チケットID検索、ウォッチリスト、カスタムクエリ（サーバで定義したものがそのまま使える）、マルチアカウント対応など。&lt;/p&gt;
+&lt;p&gt;出先で使用する上では十分すぎます。素晴らしい。外部から参照できるサーバでRedmineを使っている人は迷わずインストール！&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/bKoXV78WVfK6uq.png&#34; alt=&#34;/images/bKoXV78WVfK6uq.png&#34;&gt;
+&lt;a href=&#34;http://click.linksynergy.com/fs-bin/stat?id=4EVf/nY9Pr4&amp;amp;offerid=94348&amp;amp;type=3&amp;amp;subid=0&amp;amp;tmpid=2192&amp;amp;RD_PARM1=https%253A%252F%252Fitunes.apple.com%252Fjp%252Fapp%252Fredminepm%252Fid631915897%253Fmt%253D8%2526uo%253D4%2526partnerId%253D30&#34;&gt;RedminePM&lt;/a&gt;&lt;br&gt;
+project mode, Inc.&lt;br&gt;
+価格： 0円&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/h6lNs_cF6TIo8E.gif&#34; alt=&#34;/images/h6lNs_cF6TIo8E.gif&#34;&gt;
 posted with
-&lt;a href="http://sticky.linclip.com/linkmaker/">sticky&lt;/a>
-on 2013.6.21&lt;/p></description></item><item><title>いろいろ使ってきたけど最終的にヘビロテしている iPhone 写真アプリ7本</title><link>https://namaraii.com/post/2013/20130206_iphone7342f7748eddf/</link><pubDate>Wed, 06 Feb 2013 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2013/20130206_iphone7342f7748eddf/</guid><description>
-&lt;h3 id="いろいろ使ってきたけど最終的にヘビロテしている-iphone写真アプリ7本">いろいろ使ってきたけど最終的にヘビロテしている iPhone 写真アプリ7本&lt;/h3>
-&lt;p>撮った写真を Instagram へアップする際、あまり Instagram
-のフィルタを使わなくなりました。&lt;/p>
-&lt;p>ほとんどの場合、他のアプリで加工してから Instagram へアップします。&lt;/p>
-&lt;p>もともと写真を撮るのが好きなので、かなりの数の写真アプリを使ってきましたが、最近は常用するアプリが固まってきました。&lt;/p>
-&lt;p>ということで、最終的にヘビロテしている iPhone
-写真アプリ7本を紹介します。&lt;/p>
-&lt;h4 id="写真を加工するなら必ず押さえたいアプリ-snapseed">写真を加工するなら必ず押さえたいアプリ SnapSeed&lt;/h4>
-&lt;p>自動補正や水平調整、切り抜きや各種のフィルタまで入った万能アプリ。使いやすいシンプルなユーザインタフェースで細かなパラメタ調整も可能。そして無料。&lt;/p>
-&lt;p>まだ使ってないなら、だまって押さえときましょう。すばらしいです。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/HA01izkyrrpajl.png" alt="/images/HA01izkyrrpajl.png">
-&lt;a href="http://click.linksynergy.com/fs-bin/stat?id=4EVf/nY9Pr4&amp;amp;offerid=94348&amp;amp;type=3&amp;amp;subid=0&amp;amp;tmpid=2192&amp;amp;RD_PARM1=https%253A%252F%252Fitunes.apple.com%252Fjp%252Fapp%252Fsnapseed%252Fid439438619%253Fmt%253D8%2526uo%253D4%2526partnerId%253D30">Snapseed&lt;/a>&lt;br>
-Nik Software, Inc.&lt;br>
-ジャンル： 写真／ビデオ — ライフスタイル&lt;br>
-リリース日： 2011–06–07&lt;br>
-価格： 0円&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/HbHNfYt22PAlTb.gif" alt="/images/HbHNfYt22PAlTb.gif">
+&lt;a href=&#34;http://sticky.linclip.com/linkmaker/&#34;&gt;sticky&lt;/a&gt;
+on 2013.6.21&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>いろいろ使ってきたけど最終的にヘビロテしている iPhone 写真アプリ7本</title>
+      <link>https://namaraii.com/post/2013/20130206_iphone7342f7748eddf/</link>
+      <pubDate>Wed, 06 Feb 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2013/20130206_iphone7342f7748eddf/</guid>
+      <description>
+        
+          &lt;h3 id=&#34;いろいろ使ってきたけど最終的にヘビロテしている-iphone写真アプリ7本&#34;&gt;いろいろ使ってきたけど最終的にヘビロテしている iPhone 写真アプリ7本&lt;/h3&gt;
+&lt;p&gt;撮った写真を Instagram へアップする際、あまり Instagram
+のフィルタを使わなくなりました。&lt;/p&gt;
+&lt;p&gt;ほとんどの場合、他のアプリで加工してから Instagram へアップします。&lt;/p&gt;
+&lt;p&gt;もともと写真を撮るのが好きなので、かなりの数の写真アプリを使ってきましたが、最近は常用するアプリが固まってきました。&lt;/p&gt;
+&lt;p&gt;ということで、最終的にヘビロテしている iPhone
+写真アプリ7本を紹介します。&lt;/p&gt;
+&lt;h4 id=&#34;写真を加工するなら必ず押さえたいアプリ-snapseed&#34;&gt;写真を加工するなら必ず押さえたいアプリ SnapSeed&lt;/h4&gt;
+&lt;p&gt;自動補正や水平調整、切り抜きや各種のフィルタまで入った万能アプリ。使いやすいシンプルなユーザインタフェースで細かなパラメタ調整も可能。そして無料。&lt;/p&gt;
+&lt;p&gt;まだ使ってないなら、だまって押さえときましょう。すばらしいです。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/HA01izkyrrpajl.png&#34; alt=&#34;/images/HA01izkyrrpajl.png&#34;&gt;
+&lt;a href=&#34;http://click.linksynergy.com/fs-bin/stat?id=4EVf/nY9Pr4&amp;amp;offerid=94348&amp;amp;type=3&amp;amp;subid=0&amp;amp;tmpid=2192&amp;amp;RD_PARM1=https%253A%252F%252Fitunes.apple.com%252Fjp%252Fapp%252Fsnapseed%252Fid439438619%253Fmt%253D8%2526uo%253D4%2526partnerId%253D30&#34;&gt;Snapseed&lt;/a&gt;&lt;br&gt;
+Nik Software, Inc.&lt;br&gt;
+ジャンル： 写真／ビデオ — ライフスタイル&lt;br&gt;
+リリース日： 2011–06–07&lt;br&gt;
+価格： 0円&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/HbHNfYt22PAlTb.gif&#34; alt=&#34;/images/HbHNfYt22PAlTb.gif&#34;&gt;
 posted with
-&lt;a href="http://sticky.linclip.com/rank/">sticky&lt;/a>
-on 2013.2.6&lt;/p>
-&lt;p>&lt;a href="http://instagram.com/p/Q9vrsYwlzM/">Photo by htakeuchi * Instagram&lt;/a>
+&lt;a href=&#34;http://sticky.linclip.com/rank/&#34;&gt;sticky&lt;/a&gt;
+on 2013.2.6&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://instagram.com/p/Q9vrsYwlzM/&#34;&gt;Photo by htakeuchi * Instagram&lt;/a&gt;
 Photo by
-&lt;a href="http://instagram.com/htakeuchi">htakeuchi&lt;/a>&lt;/p>
-&lt;h4 id="不要な部分を簡単に消せる驚きのアプリ-touchretouch">不要な部分を簡単に消せる驚きのアプリ TouchRetouch&lt;/h4>
-&lt;p>消したい部分をグリっと囲んでスタートボタンを押せば、良い感じに消してくれるアプリです。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/p4NwTfKoUm4GR9.png" alt="/images/p4NwTfKoUm4GR9.png">
-&lt;a href="http://click.linksynergy.com/fs-bin/stat?id=4EVf/nY9Pr4&amp;amp;offerid=94348&amp;amp;type=3&amp;amp;subid=0&amp;amp;tmpid=2192&amp;amp;RD_PARM1=https%253A%252F%252Fitunes.apple.com%252Fjp%252Fapp%252Ftouchretouch%252Fid373311252%253Fmt%253D8%2526uo%253D4%2526partnerId%253D30">TouchRetouch&lt;/a>&lt;br>
-Adva-Soft&lt;br>
-価格： 85円&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/qIUrBf9UX0k-bP.gif" alt="/images/qIUrBf9UX0k-bP.gif">
+&lt;a href=&#34;http://instagram.com/htakeuchi&#34;&gt;htakeuchi&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;不要な部分を簡単に消せる驚きのアプリ-touchretouch&#34;&gt;不要な部分を簡単に消せる驚きのアプリ TouchRetouch&lt;/h4&gt;
+&lt;p&gt;消したい部分をグリっと囲んでスタートボタンを押せば、良い感じに消してくれるアプリです。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/p4NwTfKoUm4GR9.png&#34; alt=&#34;/images/p4NwTfKoUm4GR9.png&#34;&gt;
+&lt;a href=&#34;http://click.linksynergy.com/fs-bin/stat?id=4EVf/nY9Pr4&amp;amp;offerid=94348&amp;amp;type=3&amp;amp;subid=0&amp;amp;tmpid=2192&amp;amp;RD_PARM1=https%253A%252F%252Fitunes.apple.com%252Fjp%252Fapp%252Ftouchretouch%252Fid373311252%253Fmt%253D8%2526uo%253D4%2526partnerId%253D30&#34;&gt;TouchRetouch&lt;/a&gt;&lt;br&gt;
+Adva-Soft&lt;br&gt;
+価格： 85円&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/qIUrBf9UX0k-bP.gif&#34; alt=&#34;/images/qIUrBf9UX0k-bP.gif&#34;&gt;
 posted with
-&lt;a href="http://sticky.linclip.com/linkmaker/">sticky&lt;/a>
-on 2013.2.6&lt;/p>
-&lt;p>こちら(↓)が修正前です。&lt;/p>
-&lt;p>修正後はこんな感じに(↓) 手前のご夫婦がいなくなっているのがわかりますか？&lt;/p>
-&lt;p>初めて使ったとき感動したなあ。&lt;/p>
-&lt;h4 id="写真に動きをつけられる-focallab">写真に動きをつけられる FocalLab&lt;/h4>
-&lt;p>&lt;img src="https://namaraii.com/images/4cbXbR3XsxYwOO.png" alt="/images/4cbXbR3XsxYwOO.png">
-&lt;a href="http://click.linksynergy.com/fs-bin/stat?id=4EVf/nY9Pr4&amp;amp;offerid=94348&amp;amp;type=3&amp;amp;subid=0&amp;amp;tmpid=2192&amp;amp;RD_PARM1=https%253A%252F%252Fitunes.apple.com%252Fjp%252Fapp%252Ffocallab%252Fid305703970%253Fmt%253D8%2526uo%253D4%2526partnerId%253D30">FocalLab&lt;/a>&lt;br>
-Nexvio Inc.&lt;br>
-価格： 85円&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/MwLsMQKe4zADOu.gif" alt="/images/MwLsMQKe4zADOu.gif">
+&lt;a href=&#34;http://sticky.linclip.com/linkmaker/&#34;&gt;sticky&lt;/a&gt;
+on 2013.2.6&lt;/p&gt;
+&lt;p&gt;こちら(↓)が修正前です。&lt;/p&gt;
+&lt;p&gt;修正後はこんな感じに(↓) 手前のご夫婦がいなくなっているのがわかりますか？&lt;/p&gt;
+&lt;p&gt;初めて使ったとき感動したなあ。&lt;/p&gt;
+&lt;h4 id=&#34;写真に動きをつけられる-focallab&#34;&gt;写真に動きをつけられる FocalLab&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/4cbXbR3XsxYwOO.png&#34; alt=&#34;/images/4cbXbR3XsxYwOO.png&#34;&gt;
+&lt;a href=&#34;http://click.linksynergy.com/fs-bin/stat?id=4EVf/nY9Pr4&amp;amp;offerid=94348&amp;amp;type=3&amp;amp;subid=0&amp;amp;tmpid=2192&amp;amp;RD_PARM1=https%253A%252F%252Fitunes.apple.com%252Fjp%252Fapp%252Ffocallab%252Fid305703970%253Fmt%253D8%2526uo%253D4%2526partnerId%253D30&#34;&gt;FocalLab&lt;/a&gt;&lt;br&gt;
+Nexvio Inc.&lt;br&gt;
+価格： 85円&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/MwLsMQKe4zADOu.gif&#34; alt=&#34;/images/MwLsMQKe4zADOu.gif&#34;&gt;
 posted with
-&lt;a href="http://sticky.linclip.com/linkmaker/">sticky&lt;/a>
-on 2013.2.6&lt;/p>
-&lt;p>正確には動きをつけるだけでなく全体的にぼかしたり、ソフトフォーカスで仕上げたり「ぶれ」を楽しむアプリです。&lt;/p>
-&lt;p>&lt;a href="http://instagram.com/p/QBbJPLwl3C/">タイムスリップなう。移動時間で遊んでみました(^-^)&lt;/a>
+&lt;a href=&#34;http://sticky.linclip.com/linkmaker/&#34;&gt;sticky&lt;/a&gt;
+on 2013.2.6&lt;/p&gt;
+&lt;p&gt;正確には動きをつけるだけでなく全体的にぼかしたり、ソフトフォーカスで仕上げたり「ぶれ」を楽しむアプリです。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://instagram.com/p/QBbJPLwl3C/&#34;&gt;タイムスリップなう。移動時間で遊んでみました(^-^)&lt;/a&gt;
 Photo by
-&lt;a href="http://instagram.com/htakeuchi">htakeuchi&lt;/a>&lt;/p>
-&lt;h4 id="写真の一部分だけ色を付ける-colorblast">写真の一部分だけ色を付ける Color Blast!&lt;/h4>
-&lt;p>&lt;img src="https://namaraii.com/images/SI1b3fQh_unHsi.png" alt="/images/SI1b3fQh_unHsi.png">
-&lt;a href="http://click.linksynergy.com/fs-bin/stat?id=4EVf/nY9Pr4&amp;amp;offerid=94348&amp;amp;type=3&amp;amp;subid=0&amp;amp;tmpid=2192&amp;amp;RD_PARM1=https%253A%252F%252Fitunes.apple.com%252Fjp%252Fapp%252Fcolor-blast%2521-color-splash%252Fid380588086%253Fmt%253D8%2526uo%253D4%2526partnerId%253D30">Color Blast! — Color Splash and Photo Recolor Effects for Facebook, Instagram and more&lt;/a>&lt;br>
-East Coast Pixels, Inc.&lt;br>
-価格： 85円&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/Rfx6G9Dl9qa6uR.gif" alt="/images/Rfx6G9Dl9qa6uR.gif">
+&lt;a href=&#34;http://instagram.com/htakeuchi&#34;&gt;htakeuchi&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;写真の一部分だけ色を付ける-colorblast&#34;&gt;写真の一部分だけ色を付ける Color Blast!&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/SI1b3fQh_unHsi.png&#34; alt=&#34;/images/SI1b3fQh_unHsi.png&#34;&gt;
+&lt;a href=&#34;http://click.linksynergy.com/fs-bin/stat?id=4EVf/nY9Pr4&amp;amp;offerid=94348&amp;amp;type=3&amp;amp;subid=0&amp;amp;tmpid=2192&amp;amp;RD_PARM1=https%253A%252F%252Fitunes.apple.com%252Fjp%252Fapp%252Fcolor-blast%2521-color-splash%252Fid380588086%253Fmt%253D8%2526uo%253D4%2526partnerId%253D30&#34;&gt;Color Blast! — Color Splash and Photo Recolor Effects for Facebook, Instagram and more&lt;/a&gt;&lt;br&gt;
+East Coast Pixels, Inc.&lt;br&gt;
+価格： 85円&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/Rfx6G9Dl9qa6uR.gif&#34; alt=&#34;/images/Rfx6G9Dl9qa6uR.gif&#34;&gt;
 posted with
-&lt;a href="http://sticky.linclip.com/linkmaker/">sticky&lt;/a>
-on 2013.2.6&lt;/p>
-&lt;p>広告やポスターなどで、唇にだけ色の付いた写真を見たことありませんか？
-あんな感じの写真を簡単につくれます。&lt;/p>
-&lt;p>&lt;a href="http://instagram.com/p/UvXiW0Ql2I/">鴎とバス&lt;/a>
+&lt;a href=&#34;http://sticky.linclip.com/linkmaker/&#34;&gt;sticky&lt;/a&gt;
+on 2013.2.6&lt;/p&gt;
+&lt;p&gt;広告やポスターなどで、唇にだけ色の付いた写真を見たことありませんか？
+あんな感じの写真を簡単につくれます。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://instagram.com/p/UvXiW0Ql2I/&#34;&gt;鴎とバス&lt;/a&gt;
 Photo by
-&lt;a href="http://instagram.com/htakeuchi">htakeuchi&lt;/a>&lt;/p>
-&lt;h4 id="2枚の写真を合成できる-imageblender">2枚の写真を合成できる Image Blender&lt;/h4>
-&lt;p>&lt;img src="https://namaraii.com/images/qyxWH7WzqDRrb-.png" alt="/images/qyxWH7WzqDRrb-.png">
-&lt;a href="http://click.linksynergy.com/fs-bin/stat?id=4EVf/nY9Pr4&amp;amp;offerid=94348&amp;amp;type=3&amp;amp;subid=0&amp;amp;tmpid=2192&amp;amp;RD_PARM1=https%253A%252F%252Fitunes.apple.com%252Fjp%252Fapp%252Fimage-blender%252Fid414544492%253Fmt%253D8%2526uo%253D4%2526partnerId%253D30">Image Blender&lt;/a>&lt;br>
-Johan Andersson&lt;br>
-価格： 250円&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/AR6Eu3Y0uBK-T1.gif" alt="/images/AR6Eu3Y0uBK-T1.gif">
+&lt;a href=&#34;http://instagram.com/htakeuchi&#34;&gt;htakeuchi&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;2枚の写真を合成できる-imageblender&#34;&gt;2枚の写真を合成できる Image Blender&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/qyxWH7WzqDRrb-.png&#34; alt=&#34;/images/qyxWH7WzqDRrb-.png&#34;&gt;
+&lt;a href=&#34;http://click.linksynergy.com/fs-bin/stat?id=4EVf/nY9Pr4&amp;amp;offerid=94348&amp;amp;type=3&amp;amp;subid=0&amp;amp;tmpid=2192&amp;amp;RD_PARM1=https%253A%252F%252Fitunes.apple.com%252Fjp%252Fapp%252Fimage-blender%252Fid414544492%253Fmt%253D8%2526uo%253D4%2526partnerId%253D30&#34;&gt;Image Blender&lt;/a&gt;&lt;br&gt;
+Johan Andersson&lt;br&gt;
+価格： 250円&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/AR6Eu3Y0uBK-T1.gif&#34; alt=&#34;/images/AR6Eu3Y0uBK-T1.gif&#34;&gt;
 posted with
-&lt;a href="http://sticky.linclip.com/linkmaker/">sticky&lt;/a>
-on 2013.2.6&lt;/p>
-&lt;p>2枚の写真を選び、重ね合わせの配分を指定して1枚に合成するアプリ。なかなか使うのが難しいですが、ハマるとかっこいい。&lt;/p>
-&lt;h4 id="豊富なフィルタでバリエーションにとんだ加工ができる-photofx">豊富なフィルタでバリエーションにとんだ加工ができる Photo fx&lt;/h4>
-&lt;p>&lt;img src="https://namaraii.com/images/mxCcEDM4agP8yA.png" alt="/images/mxCcEDM4agP8yA.png">
-&lt;a href="http://click.linksynergy.com/fs-bin/stat?id=4EVf/nY9Pr4&amp;amp;offerid=94348&amp;amp;type=3&amp;amp;subid=0&amp;amp;tmpid=2192&amp;amp;RD_PARM1=https%253A%252F%252Fitunes.apple.com%252Fjp%252Fapp%252Fphoto-fx%252Fid300630942%253Fmt%253D8%2526uo%253D4%2526partnerId%253D30">Photo fx&lt;/a>&lt;br>
-The Tiffen Company&lt;br>
-価格： 250円&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/3d3JpUrubw03qE.gif" alt="/images/3d3JpUrubw03qE.gif">
-SnapSeedがでる前は、こればっかり使ってました。&lt;/p>
-&lt;p>奇をてらったような派手なフィルタは、実際にはあまり使えないものです。&lt;/p>
-&lt;p>その点 Photo fx は使えるフィルタが数多く用意されています。SnapSeed
-と同様に押さえときたいアプリだと思います。&lt;/p>
-&lt;h4 id="食べ物の写真を美味しそうに加工する-美味カメラ">食べ物の写真を美味しそうに加工する 美味カメラ&lt;/h4>
-&lt;p>&lt;img src="https://namaraii.com/images/dilz0fU3De07FG.png" alt="/images/dilz0fU3De07FG.png">
-&lt;a href="http://click.linksynergy.com/fs-bin/stat?id=4EVf/nY9Pr4&amp;amp;offerid=94348&amp;amp;type=3&amp;amp;subid=0&amp;amp;tmpid=2192&amp;amp;RD_PARM1=https%253A%252F%252Fitunes.apple.com%252Fjp%252Fapp%252Fmei-weikamera%252Fid370531033%253Fmt%253D8%2526uo%253D4%2526partnerId%253D30">美味カメラ&lt;/a>&lt;br>
-MAKE SOFTWARE, INC.&lt;br>
-価格： 85円&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/0OX8d3wtOHWwXD.gif" alt="/images/0OX8d3wtOHWwXD.gif">
+&lt;a href=&#34;http://sticky.linclip.com/linkmaker/&#34;&gt;sticky&lt;/a&gt;
+on 2013.2.6&lt;/p&gt;
+&lt;p&gt;2枚の写真を選び、重ね合わせの配分を指定して1枚に合成するアプリ。なかなか使うのが難しいですが、ハマるとかっこいい。&lt;/p&gt;
+&lt;h4 id=&#34;豊富なフィルタでバリエーションにとんだ加工ができる-photofx&#34;&gt;豊富なフィルタでバリエーションにとんだ加工ができる Photo fx&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/mxCcEDM4agP8yA.png&#34; alt=&#34;/images/mxCcEDM4agP8yA.png&#34;&gt;
+&lt;a href=&#34;http://click.linksynergy.com/fs-bin/stat?id=4EVf/nY9Pr4&amp;amp;offerid=94348&amp;amp;type=3&amp;amp;subid=0&amp;amp;tmpid=2192&amp;amp;RD_PARM1=https%253A%252F%252Fitunes.apple.com%252Fjp%252Fapp%252Fphoto-fx%252Fid300630942%253Fmt%253D8%2526uo%253D4%2526partnerId%253D30&#34;&gt;Photo fx&lt;/a&gt;&lt;br&gt;
+The Tiffen Company&lt;br&gt;
+価格： 250円&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/3d3JpUrubw03qE.gif&#34; alt=&#34;/images/3d3JpUrubw03qE.gif&#34;&gt;
+SnapSeedがでる前は、こればっかり使ってました。&lt;/p&gt;
+&lt;p&gt;奇をてらったような派手なフィルタは、実際にはあまり使えないものです。&lt;/p&gt;
+&lt;p&gt;その点 Photo fx は使えるフィルタが数多く用意されています。SnapSeed
+と同様に押さえときたいアプリだと思います。&lt;/p&gt;
+&lt;h4 id=&#34;食べ物の写真を美味しそうに加工する-美味カメラ&#34;&gt;食べ物の写真を美味しそうに加工する 美味カメラ&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/dilz0fU3De07FG.png&#34; alt=&#34;/images/dilz0fU3De07FG.png&#34;&gt;
+&lt;a href=&#34;http://click.linksynergy.com/fs-bin/stat?id=4EVf/nY9Pr4&amp;amp;offerid=94348&amp;amp;type=3&amp;amp;subid=0&amp;amp;tmpid=2192&amp;amp;RD_PARM1=https%253A%252F%252Fitunes.apple.com%252Fjp%252Fapp%252Fmei-weikamera%252Fid370531033%253Fmt%253D8%2526uo%253D4%2526partnerId%253D30&#34;&gt;美味カメラ&lt;/a&gt;&lt;br&gt;
+MAKE SOFTWARE, INC.&lt;br&gt;
+価格： 85円&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/0OX8d3wtOHWwXD.gif&#34; alt=&#34;/images/0OX8d3wtOHWwXD.gif&#34;&gt;
 posted with
-&lt;a href="http://sticky.linclip.com/linkmaker/">sticky&lt;/a>
-on 2013.2.6&lt;/p>
-&lt;p>肉、野菜、魚、麺などのカテゴリーを選ぶだけで、美味しそうに調整してくれます。&lt;/p>
-&lt;p>食べ物の写真をアップするのは出先のことが大半なので、かんたん操作がうれしい。&lt;/p>
-&lt;p>&lt;a href="http://instagram.com/p/VVYaRMwlzy/">横浜で期間限定オープン中の広島オイスターロード「かき小屋」の焼き牡蠣&lt;/a>
+&lt;a href=&#34;http://sticky.linclip.com/linkmaker/&#34;&gt;sticky&lt;/a&gt;
+on 2013.2.6&lt;/p&gt;
+&lt;p&gt;肉、野菜、魚、麺などのカテゴリーを選ぶだけで、美味しそうに調整してくれます。&lt;/p&gt;
+&lt;p&gt;食べ物の写真をアップするのは出先のことが大半なので、かんたん操作がうれしい。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://instagram.com/p/VVYaRMwlzy/&#34;&gt;横浜で期間限定オープン中の広島オイスターロード「かき小屋」の焼き牡蠣&lt;/a&gt;
 Photo by
-&lt;a href="http://instagram.com/htakeuchi">htakeuchi&lt;/a>&lt;/p>
-&lt;p>iPhone 4以降だとカメラの性能は高いですし、App
-Storeには写真で遊べるアプリが豊富あります。無料のもたくさん。&lt;/p>
-&lt;p>これじゃあコンデジが売れなくもなるよなあ…
-でも、コンデジは悪くない。iPhoneの写真アプリが面白すぎるんや！&lt;/p>
-&lt;h4 id="関連リンク">関連リンク&lt;/h4>
-&lt;p>&lt;a href="http://htakeuchi.offtheball.jp/archives/6060">CP+2013で印象に残ったiPhoneographyで有名な写真家 三井公一さんのセミナー「iPhoneで日常を写真生活に&lt;/a>&lt;/p></description></item><item><title>いまさらながらDraftPadが便利すぎることに気付いた件</title><link>https://namaraii.com/post/2013/20130205_draftpade49ccd2efd23/</link><pubDate>Tue, 05 Feb 2013 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2013/20130205_draftpade49ccd2efd23/</guid><description>
-&lt;p>いまさらながらDraftPadの素晴らしさに気付きました。&lt;/p>
-&lt;p>存在自体はかなり前から知っていたのですが、それほど使い込んでいなかったため「ファイルという概念がないシンプルなテキストエディタ。アシストで機能拡張できる」ぐらいのゆるい認識でした。&lt;/p>
-&lt;p>それ自体は間違いでないと思いますが、このアプリの肝はアシスト機能。アシストでできること、それによって何がどのように快適になるのかは、実際に使い込んでみなければわかりませんね。&lt;/p>
-&lt;p>ということで、本当にいまさら感が漂いますが空気を読まず、まずはテキストエディタとして見た時の特徴から。&lt;/p>
-&lt;h4 id="起動が速い">起動が速い&lt;/h4>
-&lt;p>思いたった時にすぐに文章を書くためには、起動が速くないと辛い。起動がおっくうと感じるアプリだと、書くこと自体を躊躇してしまいます。&lt;/p>
-&lt;p>DraftPadは起動が速い。アイコンをタップすれば、すぐに文章を書き始められます。&lt;/p>
-&lt;h4 id="シンプルで使いやすいユーザインタフェース">シンプルで使いやすいユーザインタフェース&lt;/h4>
-&lt;p>あるのはナビゲーションバーとエディタ領域だけ。迷いようがないユーザインタフェースです。「下書きを書く」ことに特化したムダをそぎ落としたスタイル。&lt;/p>
-&lt;h4 id="ファイルを意識する必要がない">ファイルを意識する必要がない&lt;/h4>
-&lt;p>DraftPadにはファイルという概念がありません。&lt;/p>
-&lt;p>エディタで下書きを書き、他アプリへ連携したら、すべてを消していちから別の文章を書き始めます。&lt;/p>
-&lt;p>それじゃ、過去に書いた文章を参照できないの？と心配になるかもしれませんが、自動的に編集履歴が取られるので、過去のテキストを読み込むことも可能です。&lt;/p>
-&lt;h4 id="安定した動作">安定した動作&lt;/h4>
-&lt;p>DraftPadはアシストでさまざまな機能を拡張できるとはいえ、テキストエディタとしてのコアはとてもシンプルです。&lt;/p>
-&lt;p>そのせいもあるのか、とても動作が安定しています。いまのところ使っていて落ちたことは一度もありません。開発者のインタビューでも安定性を重視したとありました。&lt;/p>
-&lt;p>▼&lt;a href="http://manabuueno.tumblr.com/post/840857300/draftpad-16-820">untitled — DraftPad 開発者への 16,820 文字インタビュー&lt;/a>&lt;/p>
-&lt;p>また、一分ごとに自動保存してくれる点も安心です。&lt;/p>
-&lt;h4 id="icloud対応">iCloud対応&lt;/h4>
-&lt;p>例えば、iPhoneでの編集を中断してiPadでDraftPadを立ち上げると、書きかけのテキストがあらわれます。&lt;/p>
-&lt;p>デバイスを変えてもすぐに続きを書き始めることができるわけです。&lt;/p>
-&lt;h4 id="アシスト機能できることほんの一例">アシスト機能できること（ほんの一例）&lt;/h4>
-&lt;p>どうですか？
-エディタ機能だけでも、かなりいい感じですよね。それに加えてDraftPadには強力なアシスト機能があります。&lt;/p>
-&lt;p>アシスト機能によって、DraftPadはテキストを中心とした情報フローの中心に位置する、アプリ連携のハブになるのです。&lt;/p>
-&lt;p>では、例えばどんなことができるのか？
-私が良く使ってるアシストでできることを紹介します。&lt;/p>
-&lt;ul>
-&lt;li>&lt;span
-id="c484">文書を書いているときに、本筋と関係ないアイデアを思いついたのでToodledoへ登録する。標準のEmailアシストをカスタマイズすれば可能。あて先を自分のToodledoのメアドにして、サブジェクトはお好みで（期限やコンテキストなどを指定できます）。&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="bb94">頻繁にメールする相手の場合、メーラでメアドを選ぶのが面倒。簡単にメールしたい。標準のEmailアシストで、あて先を事前に設定しておけば、1行目がサブジェクト、2行目以降が本文に設定された状態でメーラが起動します。&lt;/span>&lt;/li>
-&lt;li>&lt;span id="47a8">カレンダーへ簡単に予定を登録する。標準のAdd Event in
-Calendarアシスト。1行目がイベント、2行目以降がメモに設定された状態で標準のイベント登録画面が開きます。&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="edcb">カーソル移動を改善し快適に推敲する。&lt;a href="http://d.hatena.ne.jp/wineroses/20130117/p1">DarkRoomアシスト&lt;/a>を使えば、左右にフリックするだけでカーソルがビュンビュン移動します。&lt;/span>&lt;/li>
-&lt;li>&lt;span id="c2f0">賢い漢字変換を使って文章を書く。標準のEdit with ATOK
+&lt;a href=&#34;http://instagram.com/htakeuchi&#34;&gt;htakeuchi&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;iPhone 4以降だとカメラの性能は高いですし、App
+Storeには写真で遊べるアプリが豊富あります。無料のもたくさん。&lt;/p&gt;
+&lt;p&gt;これじゃあコンデジが売れなくもなるよなあ…
+でも、コンデジは悪くない。iPhoneの写真アプリが面白すぎるんや！&lt;/p&gt;
+&lt;h4 id=&#34;関連リンク&#34;&gt;関連リンク&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;http://htakeuchi.offtheball.jp/archives/6060&#34;&gt;CP+2013で印象に残ったiPhoneographyで有名な写真家 三井公一さんのセミナー「iPhoneで日常を写真生活に&lt;/a&gt;&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>いまさらながらDraftPadが便利すぎることに気付いた件</title>
+      <link>https://namaraii.com/post/2013/20130205_draftpade49ccd2efd23/</link>
+      <pubDate>Tue, 05 Feb 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2013/20130205_draftpade49ccd2efd23/</guid>
+      <description>
+        
+          &lt;p&gt;いまさらながらDraftPadの素晴らしさに気付きました。&lt;/p&gt;
+&lt;p&gt;存在自体はかなり前から知っていたのですが、それほど使い込んでいなかったため「ファイルという概念がないシンプルなテキストエディタ。アシストで機能拡張できる」ぐらいのゆるい認識でした。&lt;/p&gt;
+&lt;p&gt;それ自体は間違いでないと思いますが、このアプリの肝はアシスト機能。アシストでできること、それによって何がどのように快適になるのかは、実際に使い込んでみなければわかりませんね。&lt;/p&gt;
+&lt;p&gt;ということで、本当にいまさら感が漂いますが空気を読まず、まずはテキストエディタとして見た時の特徴から。&lt;/p&gt;
+&lt;h4 id=&#34;起動が速い&#34;&gt;起動が速い&lt;/h4&gt;
+&lt;p&gt;思いたった時にすぐに文章を書くためには、起動が速くないと辛い。起動がおっくうと感じるアプリだと、書くこと自体を躊躇してしまいます。&lt;/p&gt;
+&lt;p&gt;DraftPadは起動が速い。アイコンをタップすれば、すぐに文章を書き始められます。&lt;/p&gt;
+&lt;h4 id=&#34;シンプルで使いやすいユーザインタフェース&#34;&gt;シンプルで使いやすいユーザインタフェース&lt;/h4&gt;
+&lt;p&gt;あるのはナビゲーションバーとエディタ領域だけ。迷いようがないユーザインタフェースです。「下書きを書く」ことに特化したムダをそぎ落としたスタイル。&lt;/p&gt;
+&lt;h4 id=&#34;ファイルを意識する必要がない&#34;&gt;ファイルを意識する必要がない&lt;/h4&gt;
+&lt;p&gt;DraftPadにはファイルという概念がありません。&lt;/p&gt;
+&lt;p&gt;エディタで下書きを書き、他アプリへ連携したら、すべてを消していちから別の文章を書き始めます。&lt;/p&gt;
+&lt;p&gt;それじゃ、過去に書いた文章を参照できないの？と心配になるかもしれませんが、自動的に編集履歴が取られるので、過去のテキストを読み込むことも可能です。&lt;/p&gt;
+&lt;h4 id=&#34;安定した動作&#34;&gt;安定した動作&lt;/h4&gt;
+&lt;p&gt;DraftPadはアシストでさまざまな機能を拡張できるとはいえ、テキストエディタとしてのコアはとてもシンプルです。&lt;/p&gt;
+&lt;p&gt;そのせいもあるのか、とても動作が安定しています。いまのところ使っていて落ちたことは一度もありません。開発者のインタビューでも安定性を重視したとありました。&lt;/p&gt;
+&lt;p&gt;▼&lt;a href=&#34;http://manabuueno.tumblr.com/post/840857300/draftpad-16-820&#34;&gt;untitled — DraftPad 開発者への 16,820 文字インタビュー&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;また、一分ごとに自動保存してくれる点も安心です。&lt;/p&gt;
+&lt;h4 id=&#34;icloud対応&#34;&gt;iCloud対応&lt;/h4&gt;
+&lt;p&gt;例えば、iPhoneでの編集を中断してiPadでDraftPadを立ち上げると、書きかけのテキストがあらわれます。&lt;/p&gt;
+&lt;p&gt;デバイスを変えてもすぐに続きを書き始めることができるわけです。&lt;/p&gt;
+&lt;h4 id=&#34;アシスト機能できることほんの一例&#34;&gt;アシスト機能できること（ほんの一例）&lt;/h4&gt;
+&lt;p&gt;どうですか？
+エディタ機能だけでも、かなりいい感じですよね。それに加えてDraftPadには強力なアシスト機能があります。&lt;/p&gt;
+&lt;p&gt;アシスト機能によって、DraftPadはテキストを中心とした情報フローの中心に位置する、アプリ連携のハブになるのです。&lt;/p&gt;
+&lt;p&gt;では、例えばどんなことができるのか？
+私が良く使ってるアシストでできることを紹介します。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span
+id=&#34;c484&#34;&gt;文書を書いているときに、本筋と関係ないアイデアを思いついたのでToodledoへ登録する。標準のEmailアシストをカスタマイズすれば可能。あて先を自分のToodledoのメアドにして、サブジェクトはお好みで（期限やコンテキストなどを指定できます）。&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;bb94&#34;&gt;頻繁にメールする相手の場合、メーラでメアドを選ぶのが面倒。簡単にメールしたい。標準のEmailアシストで、あて先を事前に設定しておけば、1行目がサブジェクト、2行目以降が本文に設定された状態でメーラが起動します。&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;47a8&#34;&gt;カレンダーへ簡単に予定を登録する。標準のAdd Event in
+Calendarアシスト。1行目がイベント、2行目以降がメモに設定された状態で標準のイベント登録画面が開きます。&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;edcb&#34;&gt;カーソル移動を改善し快適に推敲する。&lt;a href=&#34;http://d.hatena.ne.jp/wineroses/20130117/p1&#34;&gt;DarkRoomアシスト&lt;/a&gt;を使えば、左右にフリックするだけでカーソルがビュンビュン移動します。&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;c2f0&#34;&gt;賢い漢字変換を使って文章を書く。標準のEdit with ATOK
 Pad Appアシスト。起動するとATOK Padが開くので文書を入力。ATOK
-Padを閉じると書いた文書が引きつがれ、自動的にDraftPadへ戻ります。&lt;/span>&lt;/li>
-&lt;/ul>
-&lt;p>どうですか？
-どれも痒いところに手が届く、気が利いた機能だと思いませんか？&lt;/p>
-&lt;p>標準で提供されているアシストには、これ以外にも辞書の検索やtwitterへの書き込み、Google
-Mapの検索など、いろいろありますし、ユーザが開発したアシストも多数公開されています。&lt;/p>
-&lt;p>▼&lt;a href="http://modelessdesign.com/draftpadassistlibrary/">DraftPad Assist Library（公式）&lt;/a>&lt;br>
-▼&lt;a href="http://ma2mars.org/?p=13993">DraftPad Assist unofficial Library « したっけ! 鈍がめ 備忘録&lt;/a>&lt;/p>
-&lt;p>これだけできて無料、さらに広告も入りません。なんと太っ腹な…iPhoneでメモや文書を書くことが多い人は必携のアプリだと思います。&lt;/p>
-&lt;p>ちなみに、このエントリもDraftPadで書きました。快適です！&lt;/p>
-&lt;p>いまさら、こんなエントリを書いてしまう情弱がお届けしました。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/M6y3lMGRUlcFBU.png" alt="/images/M6y3lMGRUlcFBU.png">
-&lt;a href="https://itunes.apple.com/jp/app/draftpad/id358067114?mt=8&amp;amp;uo=4">DraftPad&lt;/a>&lt;br>
-Manabu Ueno&lt;br>
-価格： 0円&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/FEswxxidtRDmIN.gif" alt="/images/FEswxxidtRDmIN.gif">
+Padを閉じると書いた文書が引きつがれ、自動的にDraftPadへ戻ります。&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;どうですか？
+どれも痒いところに手が届く、気が利いた機能だと思いませんか？&lt;/p&gt;
+&lt;p&gt;標準で提供されているアシストには、これ以外にも辞書の検索やtwitterへの書き込み、Google
+Mapの検索など、いろいろありますし、ユーザが開発したアシストも多数公開されています。&lt;/p&gt;
+&lt;p&gt;▼&lt;a href=&#34;http://modelessdesign.com/draftpadassistlibrary/&#34;&gt;DraftPad Assist Library（公式）&lt;/a&gt;&lt;br&gt;
+▼&lt;a href=&#34;http://ma2mars.org/?p=13993&#34;&gt;DraftPad Assist unofficial Library « したっけ! 鈍がめ 備忘録&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;これだけできて無料、さらに広告も入りません。なんと太っ腹な…iPhoneでメモや文書を書くことが多い人は必携のアプリだと思います。&lt;/p&gt;
+&lt;p&gt;ちなみに、このエントリもDraftPadで書きました。快適です！&lt;/p&gt;
+&lt;p&gt;いまさら、こんなエントリを書いてしまう情弱がお届けしました。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/M6y3lMGRUlcFBU.png&#34; alt=&#34;/images/M6y3lMGRUlcFBU.png&#34;&gt;
+&lt;a href=&#34;https://itunes.apple.com/jp/app/draftpad/id358067114?mt=8&amp;amp;uo=4&#34;&gt;DraftPad&lt;/a&gt;&lt;br&gt;
+Manabu Ueno&lt;br&gt;
+価格： 0円&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/FEswxxidtRDmIN.gif&#34; alt=&#34;/images/FEswxxidtRDmIN.gif&#34;&gt;
 posted with
-&lt;a href="http://sticky.linclip.com/linkmaker/">sticky&lt;/a>
-on 2013.2.5&lt;/p></description></item><item><title>ウェブページを見ながら同じ画面で文書を書けるアプリ「ブラウザノート」が便利</title><link>https://namaraii.com/post/2013/20130128_49df9d6e86ed/</link><pubDate>Mon, 28 Jan 2013 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2013/20130128_49df9d6e86ed/</guid><description>
-&lt;p>iPhoneは基本的にひとつの画面しか開けませんので、ブラウザなど他のアプリの情報を見ながらメモをまとめる場合、いちいちアプリの切り替えが必要となり不便です。&lt;/p>
-&lt;p>この問題を解決する「ブラウザノート」というアプリを使ってみました。&lt;/p>
-&lt;p>結論から言うと、iPhoneでブログの下書きをしたり、辞書を活用しながら英文の下訳したりするのに、かなり便利です。&lt;/p>
-&lt;p>アプリを起動すると、画面の上にノートを入力するエリア、下にブラウザが表示されます。&lt;/p>
-&lt;p>ブラウザからGoogleで検索したり、URLを入力して見たいWebページを開きます。&lt;/p>
-&lt;p>その後、上のメモエリアをタップするとWebページを表示しながらノートを入力できます。&lt;/p>
-&lt;p>作成したノートはアプリの中で管理されます。フォルダを作成して、その中へ保存することも可能。&lt;/p>
-&lt;p>ブラウザのエリアへ辞書や各種Webサイトの検索結果を表示することもできます。&lt;/p>
-&lt;p>この例は類語辞典で「辟易」を調べたところ。&lt;/p>
-&lt;p>うーん、いいですね。現在のところiPad版は無いようですが、iPadの広い画面で使えたら、さらに便利なんじゃないかなぁ。&lt;/p>
-&lt;p>iPhoneでパソコンのように調べ物をしながら、文書を書きたい方におすすめです。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/h8OKlVpIHlx4ES.png" alt="/images/h8OKlVpIHlx4ES.png">
-&lt;a href="http://click.linksynergy.com/fs-bin/stat?id=4EVf/nY9Pr4&amp;amp;offerid=94348&amp;amp;type=3&amp;amp;subid=0&amp;amp;tmpid=2192&amp;amp;RD_PARM1=https%253A%252F%252Fitunes.apple.com%252Fjp%252Fapp%252Fburauzanoto%252Fid564964668%253Fmt%253D8%2526uo%253D4%2526partnerId%253D30">ブラウザノート&lt;/a>&lt;br>
-kimihiro kubota&lt;br>
-価格： 85円&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/hcG3R8Ykt0yGF5.gif" alt="/images/hcG3R8Ykt0yGF5.gif">
+&lt;a href=&#34;http://sticky.linclip.com/linkmaker/&#34;&gt;sticky&lt;/a&gt;
+on 2013.2.5&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>ウェブページを見ながら同じ画面で文書を書けるアプリ「ブラウザノート」が便利</title>
+      <link>https://namaraii.com/post/2013/20130128_49df9d6e86ed/</link>
+      <pubDate>Mon, 28 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2013/20130128_49df9d6e86ed/</guid>
+      <description>
+        
+          &lt;p&gt;iPhoneは基本的にひとつの画面しか開けませんので、ブラウザなど他のアプリの情報を見ながらメモをまとめる場合、いちいちアプリの切り替えが必要となり不便です。&lt;/p&gt;
+&lt;p&gt;この問題を解決する「ブラウザノート」というアプリを使ってみました。&lt;/p&gt;
+&lt;p&gt;結論から言うと、iPhoneでブログの下書きをしたり、辞書を活用しながら英文の下訳したりするのに、かなり便利です。&lt;/p&gt;
+&lt;p&gt;アプリを起動すると、画面の上にノートを入力するエリア、下にブラウザが表示されます。&lt;/p&gt;
+&lt;p&gt;ブラウザからGoogleで検索したり、URLを入力して見たいWebページを開きます。&lt;/p&gt;
+&lt;p&gt;その後、上のメモエリアをタップするとWebページを表示しながらノートを入力できます。&lt;/p&gt;
+&lt;p&gt;作成したノートはアプリの中で管理されます。フォルダを作成して、その中へ保存することも可能。&lt;/p&gt;
+&lt;p&gt;ブラウザのエリアへ辞書や各種Webサイトの検索結果を表示することもできます。&lt;/p&gt;
+&lt;p&gt;この例は類語辞典で「辟易」を調べたところ。&lt;/p&gt;
+&lt;p&gt;うーん、いいですね。現在のところiPad版は無いようですが、iPadの広い画面で使えたら、さらに便利なんじゃないかなぁ。&lt;/p&gt;
+&lt;p&gt;iPhoneでパソコンのように調べ物をしながら、文書を書きたい方におすすめです。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/h8OKlVpIHlx4ES.png&#34; alt=&#34;/images/h8OKlVpIHlx4ES.png&#34;&gt;
+&lt;a href=&#34;http://click.linksynergy.com/fs-bin/stat?id=4EVf/nY9Pr4&amp;amp;offerid=94348&amp;amp;type=3&amp;amp;subid=0&amp;amp;tmpid=2192&amp;amp;RD_PARM1=https%253A%252F%252Fitunes.apple.com%252Fjp%252Fapp%252Fburauzanoto%252Fid564964668%253Fmt%253D8%2526uo%253D4%2526partnerId%253D30&#34;&gt;ブラウザノート&lt;/a&gt;&lt;br&gt;
+kimihiro kubota&lt;br&gt;
+価格： 85円&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/hcG3R8Ykt0yGF5.gif&#34; alt=&#34;/images/hcG3R8Ykt0yGF5.gif&#34;&gt;
 posted with
-&lt;a href="http://sticky.linclip.com/linkmaker/">sticky&lt;/a>
-on 2013.1.28&lt;/p></description></item><item><title>新聞や雑誌の記事をスクラップするのに便利な無料アプリ「キングジムSHOT DOCS」</title><link>https://namaraii.com/post/2013/20130127_shotdocs44d81cde7643/</link><pubDate>Sun, 27 Jan 2013 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2013/20130127_shotdocs44d81cde7643/</guid><description>
-&lt;p>キングジムが出しているSHOT DOCSというiPhone向けの無料アプリがあります。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/IUHjFJj8yHeF8-.png" alt="/images/IUHjFJj8yHeF8-.png">
-&lt;a href="http://click.linksynergy.com/fs-bin/stat?id=4EVf/nY9Pr4&amp;amp;offerid=94348&amp;amp;type=3&amp;amp;subid=0&amp;amp;tmpid=2192&amp;amp;RD_PARM1=https%253A%252F%252Fitunes.apple.com%252Fjp%252Fapp%252Fshot-docs%252Fid535706678%253Fmt%253D8%2526uo%253D4%2526partnerId%253D30">SHOT DOCS&lt;/a>&lt;br>
-KING JIM CO.,LTD.&lt;br>
-価格： 0円&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/Oo8XPKEpu5BK7R.gif" alt="/images/Oo8XPKEpu5BK7R.gif">
+&lt;a href=&#34;http://sticky.linclip.com/linkmaker/&#34;&gt;sticky&lt;/a&gt;
+on 2013.1.28&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>新聞や雑誌の記事をスクラップするのに便利な無料アプリ「キングジムSHOT DOCS」</title>
+      <link>https://namaraii.com/post/2013/20130127_shotdocs44d81cde7643/</link>
+      <pubDate>Sun, 27 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2013/20130127_shotdocs44d81cde7643/</guid>
+      <description>
+        
+          &lt;p&gt;キングジムが出しているSHOT DOCSというiPhone向けの無料アプリがあります。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/IUHjFJj8yHeF8-.png&#34; alt=&#34;/images/IUHjFJj8yHeF8-.png&#34;&gt;
+&lt;a href=&#34;http://click.linksynergy.com/fs-bin/stat?id=4EVf/nY9Pr4&amp;amp;offerid=94348&amp;amp;type=3&amp;amp;subid=0&amp;amp;tmpid=2192&amp;amp;RD_PARM1=https%253A%252F%252Fitunes.apple.com%252Fjp%252Fapp%252Fshot-docs%252Fid535706678%253Fmt%253D8%2526uo%253D4%2526partnerId%253D30&#34;&gt;SHOT DOCS&lt;/a&gt;&lt;br&gt;
+KING JIM CO.,LTD.&lt;br&gt;
+価格： 0円&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/Oo8XPKEpu5BK7R.gif&#34; alt=&#34;/images/Oo8XPKEpu5BK7R.gif&#34;&gt;
 posted with
-&lt;a href="http://sticky.linclip.com/linkmaker/">sticky&lt;/a>
-on 2013.1.27&lt;/p>
-&lt;p>いままで、キングジムから発売されている専用ノート（ショットノート）でないと使えないと思っていたのですが、雑誌や新聞の切り抜きにも使えるんですね！&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/G1VyVxo_KgEYvq.jpg" alt="/images/G1VyVxo_KgEYvq.jpg">&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/LeI9lJ8hpTv90A.jpg" alt="/images/LeI9lJ8hpTv90A.jpg">&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/ArfXZFhzSKah-x.jpg" alt="/images/ArfXZFhzSKah-x.jpg">
+&lt;a href=&#34;http://sticky.linclip.com/linkmaker/&#34;&gt;sticky&lt;/a&gt;
+on 2013.1.27&lt;/p&gt;
+&lt;p&gt;いままで、キングジムから発売されている専用ノート（ショットノート）でないと使えないと思っていたのですが、雑誌や新聞の切り抜きにも使えるんですね！&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/G1VyVxo_KgEYvq.jpg&#34; alt=&#34;/images/G1VyVxo_KgEYvq.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/LeI9lJ8hpTv90A.jpg&#34; alt=&#34;/images/LeI9lJ8hpTv90A.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/ArfXZFhzSKah-x.jpg&#34; alt=&#34;/images/ArfXZFhzSKah-x.jpg&#34;&gt;
 例えば、上の新聞から一部の記事だけを切り抜きたい場合、SHOT
-DOCSのカメラでその記事の全体が含まれるように撮影すると…&lt;/p>
-&lt;p>こんな感じにキレイに切り抜いてくれます。&lt;/p>
-&lt;p>このアプリは背景との色差により書類の輪郭を認識して歪みを補正するのですが、上の例では自動的に輪郭を認識し、画像補正してくれました。&lt;/p>
-&lt;p>つまり、撮影しただけで上の切り抜きが完成したわけです。&lt;/p>
-&lt;p>撮影条件によっては、輪郭の検出に失敗する場合もあります。&lt;/p>
-&lt;p>その場合、丸い点が4つ現れるのでドラッグして四隅を合わせて、補正ボタンを押すと、&lt;/p>
-&lt;p>このように補正してくれます。&lt;/p>
-&lt;p>コンビニのレシートなどのように丸まりやすい紙をスキャンしたい場合、キングジムから出ているホルダーへはさんで撮影すると良いようですね。&lt;/p>
-&lt;p>さっそく、ショットノートと一緒に買いました。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/AaLucvbTwwQq-W.jpg" alt="/images/AaLucvbTwwQq-W.jpg">
-&lt;a href="http://www.amazon.co.jp/exec/obidos/ASIN/B008YB1FVU/offtheball2008-22/ref=nosim/">キングジム SHOT DOCS ハードホルダー 757SDアオ&lt;/a>&lt;/p>
-&lt;p>posted with
-&lt;a href="http://kaereba.com">カエレバ&lt;/a>&lt;/p>
-&lt;p>キングジム&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/Ung3Giks9vgVgX.jpg" alt="/images/Ung3Giks9vgVgX.jpg">
-&lt;a href="http://www.amazon.co.jp/exec/obidos/ASIN/B008YB2ZCI/offtheball2008-22/ref=nosim/">キングジム SHOT DOCS クリアーホルダー 735SD3アカ&lt;/a>&lt;/p>
-&lt;p>posted with
-&lt;a href="http://kaereba.com">カエレバ&lt;/a>&lt;/p>
-&lt;p>キングジム&lt;/p>
-&lt;p>私はスキャンスナップを使っているのですが、雑誌や新聞のスクラップしたり、裁断できない資料やスキャンしにくい紙などは、SHOT
-DOCSの方が良さそうですね。&lt;/p>
-&lt;p>会議中にホワイトボードへ書いたメモをデジタル化するのにも使えそう。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/gu3OhIMsLGnzRQ.png" alt="/images/gu3OhIMsLGnzRQ.png">
-&lt;a href="http://click.linksynergy.com/fs-bin/stat?id=4EVf/nY9Pr4&amp;amp;offerid=94348&amp;amp;type=3&amp;amp;subid=0&amp;amp;tmpid=2192&amp;amp;RD_PARM1=https%253A%252F%252Fitunes.apple.com%252Fjp%252Fapp%252Fshot-docs%252Fid535706678%253Fmt%253D8%2526uo%253D4%2526partnerId%253D30">SHOT DOCS&lt;/a>&lt;br>
-KING JIM CO.,LTD.&lt;br>
-価格： 0円&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/J6mtV_P409lpIK.gif" alt="/images/J6mtV_P409lpIK.gif">
+DOCSのカメラでその記事の全体が含まれるように撮影すると…&lt;/p&gt;
+&lt;p&gt;こんな感じにキレイに切り抜いてくれます。&lt;/p&gt;
+&lt;p&gt;このアプリは背景との色差により書類の輪郭を認識して歪みを補正するのですが、上の例では自動的に輪郭を認識し、画像補正してくれました。&lt;/p&gt;
+&lt;p&gt;つまり、撮影しただけで上の切り抜きが完成したわけです。&lt;/p&gt;
+&lt;p&gt;撮影条件によっては、輪郭の検出に失敗する場合もあります。&lt;/p&gt;
+&lt;p&gt;その場合、丸い点が4つ現れるのでドラッグして四隅を合わせて、補正ボタンを押すと、&lt;/p&gt;
+&lt;p&gt;このように補正してくれます。&lt;/p&gt;
+&lt;p&gt;コンビニのレシートなどのように丸まりやすい紙をスキャンしたい場合、キングジムから出ているホルダーへはさんで撮影すると良いようですね。&lt;/p&gt;
+&lt;p&gt;さっそく、ショットノートと一緒に買いました。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/AaLucvbTwwQq-W.jpg&#34; alt=&#34;/images/AaLucvbTwwQq-W.jpg&#34;&gt;
+&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/B008YB1FVU/offtheball2008-22/ref=nosim/&#34;&gt;キングジム SHOT DOCS ハードホルダー 757SDアオ&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;posted with
+&lt;a href=&#34;http://kaereba.com&#34;&gt;カエレバ&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;キングジム&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/Ung3Giks9vgVgX.jpg&#34; alt=&#34;/images/Ung3Giks9vgVgX.jpg&#34;&gt;
+&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/B008YB2ZCI/offtheball2008-22/ref=nosim/&#34;&gt;キングジム SHOT DOCS クリアーホルダー 735SD3アカ&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;posted with
+&lt;a href=&#34;http://kaereba.com&#34;&gt;カエレバ&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;キングジム&lt;/p&gt;
+&lt;p&gt;私はスキャンスナップを使っているのですが、雑誌や新聞のスクラップしたり、裁断できない資料やスキャンしにくい紙などは、SHOT
+DOCSの方が良さそうですね。&lt;/p&gt;
+&lt;p&gt;会議中にホワイトボードへ書いたメモをデジタル化するのにも使えそう。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/gu3OhIMsLGnzRQ.png&#34; alt=&#34;/images/gu3OhIMsLGnzRQ.png&#34;&gt;
+&lt;a href=&#34;http://click.linksynergy.com/fs-bin/stat?id=4EVf/nY9Pr4&amp;amp;offerid=94348&amp;amp;type=3&amp;amp;subid=0&amp;amp;tmpid=2192&amp;amp;RD_PARM1=https%253A%252F%252Fitunes.apple.com%252Fjp%252Fapp%252Fshot-docs%252Fid535706678%253Fmt%253D8%2526uo%253D4%2526partnerId%253D30&#34;&gt;SHOT DOCS&lt;/a&gt;&lt;br&gt;
+KING JIM CO.,LTD.&lt;br&gt;
+価格： 0円&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/J6mtV_P409lpIK.gif&#34; alt=&#34;/images/J6mtV_P409lpIK.gif&#34;&gt;
 posted with
-&lt;a href="http://sticky.linclip.com/linkmaker/">sticky&lt;/a>
-on 2013.1.27&lt;/p>
-&lt;h4 id="追記2013年10月14日">追記(2013年10月14日)&lt;/h4>
-&lt;p>ほぼ同様の機能があり、EvernoteやDropboxへ直接保存もできるアプリの紹介記事を書きましたので、よろしければ、そちらもどうぞ。&lt;/p>
-&lt;p>▼&lt;a href="http://namaraii.com/archives/18855">新聞や雑誌の記事の切り抜きに便利な『CamScanner Free』 | namaraii.com&lt;/a>&lt;/p></description></item><item><title>iPhone5のバッテリーが異常に早く減る…断捨離したら改善したかも（ただし経過観察を要する）</title><link>https://namaraii.com/post/2013/20130126_iphone58925b79184d3/</link><pubDate>Sat, 26 Jan 2013 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2013/20130126_iphone58925b79184d3/</guid><description>
-&lt;p>先週、iPhone5のバッテリー消費が異常に早くなる現象が発生しました。&lt;/p>
-&lt;p>胸ポケットに入れたiPhone5がいつもより熱い。取りだしてみるとバッテリー残量が50%を切ってます。&lt;/p>
-&lt;p>いつもなら、その時間帯は80%程度残っているはず。何かがおかしい。&lt;/p>
-&lt;p>とりあえずホームボタンとスリープボタン長押しの再起動をして、一切使わずに1時間放置しました。&lt;/p>
-&lt;p>バッテリー残量をチェックすると40%を切っています。あきらかにおかしい。&lt;/p>
-&lt;p>このままではマズイ…と調べたら、似たような現象が発生した方のブログを発見しました。&lt;/p>
-&lt;p>▼&lt;a href="http://blog.livedoor.jp/gs1220/archives/50788054.html">iOS6に更新後バッテリーが異常に早く減る原因 : iPad,Mac,Linux.Web Site etc.&lt;/a>&lt;/p>
-&lt;blockquote>
-&lt;p>元々データ量が多いiPhoneのバックアップから復元を行ったりすると、このSpotlightプロセスがバックグラウンドが走るせいで、使わずに置いておいても半日でバッテリーが無くなったりしている可能性がかなり高いと思います。&lt;/p>
-&lt;/blockquote>
-&lt;p>うーん、最近、バックアップから復元を行ったりしていないので、微妙にちがう。&lt;/p>
-&lt;p>でも、インストールしたものの、ほとんど使わないで放置しているアプリも100以上あるし、64Gほぼ使い切ってるし、これは断捨離の良い機会！と思い、おもいきって工場出荷状態へ戻すことにしました。&lt;/p>
-&lt;p>▼&lt;a href="http://support.apple.com/kb/ht2110?viewlocale=ja_JP">iOS：「すべてのコンテンツと設定を消去」について&lt;/a>&lt;/p>
-&lt;p>「すべてのコンテンツと設定を消去」した後、こんなことをやりました。&lt;/p>
-&lt;ul>
-&lt;li>&lt;span
-id="4818">&lt;strong>バックアップからの復元はせず&lt;/strong>、必要なアプリだけを再インストール&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="c29e">iPhoneへ入れる音楽はリストを作っているのでiTunesで同期設定&lt;/span>&lt;/li>
-&lt;li>&lt;span id="2e27">iTunesであらためて写真の同期設定&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="b44d">Spotlightは全てオフ（もともと使ってなかったので）&lt;/span>&lt;/li>
-&lt;/ul>
-&lt;p>これらをやって今日で2日目ですが、バッテリーの減り方も普通、いや、むしろ前より良くなりました。発熱もありません。&lt;/p>
-&lt;p>最近は、多くのデータをクラウドへ置いてあるので、全データを消去しても、それほど苦労せずに環境を戻せて便利だなあ。&lt;/p>
-&lt;p>アプリの断捨離もできてよかった。&lt;/p>
-&lt;p>今後はインストール後、継続して使う可能性が低いものは、こまめにアンインストールしようと思います。シンプルがいちばん。&lt;/p>
-&lt;p>再発しないことを祈りつつ。&lt;/p></description></item></channel></rss>
+&lt;a href=&#34;http://sticky.linclip.com/linkmaker/&#34;&gt;sticky&lt;/a&gt;
+on 2013.1.27&lt;/p&gt;
+&lt;h4 id=&#34;追記2013年10月14日&#34;&gt;追記(2013年10月14日)&lt;/h4&gt;
+&lt;p&gt;ほぼ同様の機能があり、EvernoteやDropboxへ直接保存もできるアプリの紹介記事を書きましたので、よろしければ、そちらもどうぞ。&lt;/p&gt;
+&lt;p&gt;▼&lt;a href=&#34;http://namaraii.com/archives/18855&#34;&gt;新聞や雑誌の記事の切り抜きに便利な『CamScanner Free』 | namaraii.com&lt;/a&gt;&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>iPhone5のバッテリーが異常に早く減る…断捨離したら改善したかも（ただし経過観察を要する）</title>
+      <link>https://namaraii.com/post/2013/20130126_iphone58925b79184d3/</link>
+      <pubDate>Sat, 26 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2013/20130126_iphone58925b79184d3/</guid>
+      <description>
+        
+          &lt;p&gt;先週、iPhone5のバッテリー消費が異常に早くなる現象が発生しました。&lt;/p&gt;
+&lt;p&gt;胸ポケットに入れたiPhone5がいつもより熱い。取りだしてみるとバッテリー残量が50%を切ってます。&lt;/p&gt;
+&lt;p&gt;いつもなら、その時間帯は80%程度残っているはず。何かがおかしい。&lt;/p&gt;
+&lt;p&gt;とりあえずホームボタンとスリープボタン長押しの再起動をして、一切使わずに1時間放置しました。&lt;/p&gt;
+&lt;p&gt;バッテリー残量をチェックすると40%を切っています。あきらかにおかしい。&lt;/p&gt;
+&lt;p&gt;このままではマズイ…と調べたら、似たような現象が発生した方のブログを発見しました。&lt;/p&gt;
+&lt;p&gt;▼&lt;a href=&#34;http://blog.livedoor.jp/gs1220/archives/50788054.html&#34;&gt;iOS6に更新後バッテリーが異常に早く減る原因 : iPad,Mac,Linux.Web Site etc.&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;元々データ量が多いiPhoneのバックアップから復元を行ったりすると、このSpotlightプロセスがバックグラウンドが走るせいで、使わずに置いておいても半日でバッテリーが無くなったりしている可能性がかなり高いと思います。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;うーん、最近、バックアップから復元を行ったりしていないので、微妙にちがう。&lt;/p&gt;
+&lt;p&gt;でも、インストールしたものの、ほとんど使わないで放置しているアプリも100以上あるし、64Gほぼ使い切ってるし、これは断捨離の良い機会！と思い、おもいきって工場出荷状態へ戻すことにしました。&lt;/p&gt;
+&lt;p&gt;▼&lt;a href=&#34;http://support.apple.com/kb/ht2110?viewlocale=ja_JP&#34;&gt;iOS：「すべてのコンテンツと設定を消去」について&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;「すべてのコンテンツと設定を消去」した後、こんなことをやりました。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span
+id=&#34;4818&#34;&gt;&lt;strong&gt;バックアップからの復元はせず&lt;/strong&gt;、必要なアプリだけを再インストール&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;c29e&#34;&gt;iPhoneへ入れる音楽はリストを作っているのでiTunesで同期設定&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;2e27&#34;&gt;iTunesであらためて写真の同期設定&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;b44d&#34;&gt;Spotlightは全てオフ（もともと使ってなかったので）&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;これらをやって今日で2日目ですが、バッテリーの減り方も普通、いや、むしろ前より良くなりました。発熱もありません。&lt;/p&gt;
+&lt;p&gt;最近は、多くのデータをクラウドへ置いてあるので、全データを消去しても、それほど苦労せずに環境を戻せて便利だなあ。&lt;/p&gt;
+&lt;p&gt;アプリの断捨離もできてよかった。&lt;/p&gt;
+&lt;p&gt;今後はインストール後、継続して使う可能性が低いものは、こまめにアンインストールしようと思います。シンプルがいちばん。&lt;/p&gt;
+&lt;p&gt;再発しないことを祈りつつ。&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

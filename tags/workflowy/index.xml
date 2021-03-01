@@ -1,559 +1,699 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>workflowy on namaraii.com</title><link>https://namaraii.com/tags/workflowy/</link><description>Recent content in workflowy on namaraii.com</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright><lastBuildDate>Sat, 07 Jan 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://namaraii.com/tags/workflowy/index.xml" rel="self" type="application/rss+xml"/><item><title>Porter for WorkFlowyユーザマニュアル</title><link>https://namaraii.com/post/2017/20170107_porterforworkflowy51fbd37bf52a/</link><pubDate>Sat, 07 Jan 2017 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2017/20170107_porterforworkflowy51fbd37bf52a/</guid><description>
-&lt;p>Porter for
-WorkFlowyはオンラインで使えるアウトライナー&lt;a href="https://workflowy.com/">WorkFlowy&lt;/a>
-の機能を拡張するGoogle Chrome拡張です。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/1tvO-cKqn96NB9braY843lQ.png" alt="/images/1tvO-cKqn96NB9braY843lQ.png">
-&lt;strong>インストール方法&lt;/strong>&lt;/p>
-&lt;p>Chromeで&lt;a href="https://chrome.google.com/webstore/detail/porter-for-workflowy/jbcgipgkafpibecoejadaebkkbjnbcaj">Porter for WorkFlowy&lt;/a>
-を開いてインストールしてください。&lt;/p>
-&lt;p>&lt;strong>機能&lt;/strong>&lt;/p>
-&lt;p>現時点(2016/02/26)の最新バージョン1.4の機能は以下の通りです。&lt;/p>
-&lt;ul>
-&lt;li>&lt;span id="0dc0">テーマ機能&lt;/span>&lt;/li>
-&lt;li>&lt;span id="3bb0">ブックマーク機能(V1.4 NEW!)&lt;/span>&lt;/li>
-&lt;li>&lt;span id="6386">トピックナビ機能(V1.4 NEW!)&lt;/span>&lt;/li>
-&lt;li>&lt;span id="2df3">プレビュー機能(V1.4 NEW!)&lt;/span>&lt;/li>
-&lt;li>&lt;span id="a669">エクスポート機能(Markdown/HTML)&lt;/span>&lt;/li>
-&lt;li>&lt;span id="ebcc">新規トピックウィンドウ作成機能&lt;/span>&lt;/li>
-&lt;li>&lt;span id="92a1">文字数カウント機能&lt;/span>&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>テーマ機能&lt;/strong>&lt;/p>
-&lt;p>あらかじめ組みこまれている「テーマ」を選ぶことで、WorkFlowyの見た目を変更することができます。&lt;/p>
-&lt;p>テーマ機能を使用するにはオプション画面を開きます。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/11H59lX4CzxutWTCLg6Rw4w.png" alt="/images/11H59lX4CzxutWTCLg6Rw4w.png">
-テーマはPorterのデフォルトテーマに加えて、&lt;a href="https://userstyles.org/styles/browse/workflowy">Workflowy themes and skins — userstyles.org&lt;/a>
-で公開されている下記のテーマを選択することができます。&lt;/p>
-&lt;ul>
-&lt;li>&lt;span
-id="aeda">&lt;a href="https://userstyles.org/styles/123191/work-a-simpler-flowy-v2-0">Work a Simpler Flowy v2.0&lt;/a>&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="560a">&lt;a href="https://userstyles.org/styles/103816/workflowy-com-clean-and-bright">workflowy.com — clean and bright&lt;/a>&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="e3b9">&lt;a href="https://userstyles.org/styles/111747/workflowy-for-writers">Workflowy for Writers&lt;/a>&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="a750">&lt;a href="https://userstyles.org/styles/108530/workflowy-monokai">Workflowy Monokai&lt;/a>&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="9e51">&lt;a href="https://userstyles.org/styles/118547/workflowy-itemized">Workflowy Itemized&lt;/a>&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="e54e">&lt;a href="https://userstyles.org/styles/115738/workflowygiffmex">WorkFlowyGiffmex&lt;/a>&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="44ea">&lt;a href="https://userstyles.org/styles/100418/big-black-workflowy">Big Black Workflowy&lt;/a>&lt;/span>&lt;/li>
-&lt;/ul>
-&lt;p>「追加するCSS」の横にある「エディタを表示」をクリックするとエディタが開き、追加のCSSを入力することができます。&lt;/p>
-&lt;p>テーマ適用後、WorkFlowyのタブをリロードするとテーマが有効になります。&lt;/p>
-&lt;p>&lt;strong>ブックマーク機能&lt;/strong>&lt;/p>
-&lt;p>マウスカーソルを画面の右下へ移動させるとブックマークを管理するエリアが表示されます。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/11LcrsQU9rxP2pJr5QTvudw.png" alt="/images/11LcrsQU9rxP2pJr5QTvudw.png">
-WorkFlowyのトピック専用のブックマークですので、Chromeの他のブックマークと混在することがありません。フォルダを作りブックマークを階層的に管理することも可能です。&lt;/p>
-&lt;p>&lt;em>&lt;strong>注意事項&lt;/strong>&lt;/em>&lt;/p>
-&lt;p>V1.3ではWorkFlowyのキーボードショートカットのヘルプエリアへブックマークを表示していましたが、V1.4からは専用のエリアへ表示するように変更しました。&lt;/p>
-&lt;p>これにより、キーボードショットカットのヘルプとブックマークを併用することができます。&lt;/p>
-&lt;p>&lt;strong>トピックナビ機能&lt;/strong>&lt;/p>
-&lt;p>トピックナビとは、表示中のトピックの最上位階層と、その下の階層にあるトピックを一覧する機能です。クリックするとそのトピックへ移動することができます。&lt;/p>
-&lt;p>トピックナビはマウスカーソルを画面の右下へ移動すると表示されます。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/1QoKOeJM3qNTeF3PC1RIwGw.png" alt="/images/1QoKOeJM3qNTeF3PC1RIwGw.png">
-&lt;em>&lt;strong>注意事項&lt;/strong>&lt;/em>&lt;/p>
-&lt;p>最上位レベルのトピックであっても、子要素を持たない場合、トピックナビでは表示されませんので、ご注意ください。&lt;/p>
-&lt;p>&lt;strong>ブックマーク・トピックナビの表示スイッチ&lt;/strong>&lt;/p>
-&lt;p>画面の上にあるブックマークアイコンをクリックすると、ブックマークとトピックナビの表示・非表示を切り替えすることができます。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/1x10xdpkRW8RzMeJ6nVokmg.png" alt="/images/1x10xdpkRW8RzMeJ6nVokmg.png">
-&lt;strong>プレビュー機能&lt;/strong>&lt;/p>
-&lt;p>表示しているトピックをHTMLへ変換し、プレビューすることができます。読みやすいスタイルで表示されるため、文書の推敲に便利な機能です。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/1epvghbaic5NJa-BWXzGbuw.png" alt="/images/1epvghbaic5NJa-BWXzGbuw.png">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>workflowy on namaraii.com</title>
+    <link>https://namaraii.com/tags/workflowy/</link>
+    <description>Recent content in workflowy on namaraii.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright>
+    <lastBuildDate>Sat, 07 Jan 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://namaraii.com/tags/workflowy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Porter for WorkFlowyユーザマニュアル</title>
+      <link>https://namaraii.com/post/2017/20170107_porterforworkflowy51fbd37bf52a/</link>
+      <pubDate>Sat, 07 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2017/20170107_porterforworkflowy51fbd37bf52a/</guid>
+      <description>
+        
+          &lt;p&gt;Porter for
+WorkFlowyはオンラインで使えるアウトライナー&lt;a href=&#34;https://workflowy.com/&#34;&gt;WorkFlowy&lt;/a&gt;
+の機能を拡張するGoogle Chrome拡張です。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/1tvO-cKqn96NB9braY843lQ.png&#34; alt=&#34;/images/1tvO-cKqn96NB9braY843lQ.png&#34;&gt;
+&lt;strong&gt;インストール方法&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Chromeで&lt;a href=&#34;https://chrome.google.com/webstore/detail/porter-for-workflowy/jbcgipgkafpibecoejadaebkkbjnbcaj&#34;&gt;Porter for WorkFlowy&lt;/a&gt;
+を開いてインストールしてください。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;機能&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;現時点(2016/02/26)の最新バージョン1.4の機能は以下の通りです。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span id=&#34;0dc0&#34;&gt;テーマ機能&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;3bb0&#34;&gt;ブックマーク機能(V1.4 NEW!)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;6386&#34;&gt;トピックナビ機能(V1.4 NEW!)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;2df3&#34;&gt;プレビュー機能(V1.4 NEW!)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;a669&#34;&gt;エクスポート機能(Markdown/HTML)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;ebcc&#34;&gt;新規トピックウィンドウ作成機能&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;92a1&#34;&gt;文字数カウント機能&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;テーマ機能&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;あらかじめ組みこまれている「テーマ」を選ぶことで、WorkFlowyの見た目を変更することができます。&lt;/p&gt;
+&lt;p&gt;テーマ機能を使用するにはオプション画面を開きます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/11H59lX4CzxutWTCLg6Rw4w.png&#34; alt=&#34;/images/11H59lX4CzxutWTCLg6Rw4w.png&#34;&gt;
+テーマはPorterのデフォルトテーマに加えて、&lt;a href=&#34;https://userstyles.org/styles/browse/workflowy&#34;&gt;Workflowy themes and skins — userstyles.org&lt;/a&gt;
+で公開されている下記のテーマを選択することができます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span
+id=&#34;aeda&#34;&gt;&lt;a href=&#34;https://userstyles.org/styles/123191/work-a-simpler-flowy-v2-0&#34;&gt;Work a Simpler Flowy v2.0&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;560a&#34;&gt;&lt;a href=&#34;https://userstyles.org/styles/103816/workflowy-com-clean-and-bright&#34;&gt;workflowy.com — clean and bright&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;e3b9&#34;&gt;&lt;a href=&#34;https://userstyles.org/styles/111747/workflowy-for-writers&#34;&gt;Workflowy for Writers&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;a750&#34;&gt;&lt;a href=&#34;https://userstyles.org/styles/108530/workflowy-monokai&#34;&gt;Workflowy Monokai&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;9e51&#34;&gt;&lt;a href=&#34;https://userstyles.org/styles/118547/workflowy-itemized&#34;&gt;Workflowy Itemized&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;e54e&#34;&gt;&lt;a href=&#34;https://userstyles.org/styles/115738/workflowygiffmex&#34;&gt;WorkFlowyGiffmex&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;44ea&#34;&gt;&lt;a href=&#34;https://userstyles.org/styles/100418/big-black-workflowy&#34;&gt;Big Black Workflowy&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;「追加するCSS」の横にある「エディタを表示」をクリックするとエディタが開き、追加のCSSを入力することができます。&lt;/p&gt;
+&lt;p&gt;テーマ適用後、WorkFlowyのタブをリロードするとテーマが有効になります。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ブックマーク機能&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;マウスカーソルを画面の右下へ移動させるとブックマークを管理するエリアが表示されます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/11LcrsQU9rxP2pJr5QTvudw.png&#34; alt=&#34;/images/11LcrsQU9rxP2pJr5QTvudw.png&#34;&gt;
+WorkFlowyのトピック専用のブックマークですので、Chromeの他のブックマークと混在することがありません。フォルダを作りブックマークを階層的に管理することも可能です。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;注意事項&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;V1.3ではWorkFlowyのキーボードショートカットのヘルプエリアへブックマークを表示していましたが、V1.4からは専用のエリアへ表示するように変更しました。&lt;/p&gt;
+&lt;p&gt;これにより、キーボードショットカットのヘルプとブックマークを併用することができます。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;トピックナビ機能&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;トピックナビとは、表示中のトピックの最上位階層と、その下の階層にあるトピックを一覧する機能です。クリックするとそのトピックへ移動することができます。&lt;/p&gt;
+&lt;p&gt;トピックナビはマウスカーソルを画面の右下へ移動すると表示されます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/1QoKOeJM3qNTeF3PC1RIwGw.png&#34; alt=&#34;/images/1QoKOeJM3qNTeF3PC1RIwGw.png&#34;&gt;
+&lt;em&gt;&lt;strong&gt;注意事項&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;最上位レベルのトピックであっても、子要素を持たない場合、トピックナビでは表示されませんので、ご注意ください。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ブックマーク・トピックナビの表示スイッチ&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;画面の上にあるブックマークアイコンをクリックすると、ブックマークとトピックナビの表示・非表示を切り替えすることができます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/1x10xdpkRW8RzMeJ6nVokmg.png&#34; alt=&#34;/images/1x10xdpkRW8RzMeJ6nVokmg.png&#34;&gt;
+&lt;strong&gt;プレビュー機能&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;表示しているトピックをHTMLへ変換し、プレビューすることができます。読みやすいスタイルで表示されるため、文書の推敲に便利な機能です。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/1epvghbaic5NJa-BWXzGbuw.png&#34; alt=&#34;/images/1epvghbaic5NJa-BWXzGbuw.png&#34;&gt;
 WorkFlowyを開いた状態でマウスの右ボタンをクリックすると表示されるコンテキストメニューで、[Porter
 for
-WorkFlowy] — [プレビュー」を選ぶと、WorkFlowyのタブでプレビューが表示されます。&lt;/p>
-&lt;p>PorterではMarkdown形式で画像リンクを記述できるため、プレビューでは画像も含めたトピックの全体像を確認することができます。&lt;/p>
-&lt;p>プレビュー表示されているウインドウの見出しには、対応するWorkFlowyのトピックへのリンクが設定されています。&lt;/p>
-&lt;p>見出しをクリックすれば直接WorkFlowyのトピックを開けるため、プレビューで見つけた誤字を修正したり、構成の見直しを素早く行うことができます。&lt;/p>
-&lt;p>&lt;strong>エクスポート機能(Markdown/HTML)&lt;/strong>&lt;/p>
-&lt;p>Chromeのアドレスバーに表示されているアイコンをクリックすると、表示しているトピックをMarkdown、またはHTMLで出力することができます。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/15cH8JnyxUmEgpg8mFkMu2A.png" alt="/images/15cH8JnyxUmEgpg8mFkMu2A.png">&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/1VFuH1hmWlIbv-CVEnSf32A.png" alt="/images/1VFuH1hmWlIbv-CVEnSf32A.png">
-&lt;strong>Porter が生成するHTML&lt;/strong>&lt;/p>
-&lt;p>PorterではWorkFlowyのデータを一旦Markdownへ変換してから、&lt;a href="https://github.com/chjj/marked">marked&lt;/a>
-というライブラリでHTMLに変換しています。&lt;/p>
-&lt;p>Markedは&lt;a href="https://help.github.com/articles/working-with-advanced-formatting/">GFM(GitHub Flavored Markdown)&lt;/a>
-と呼ばれる、拡張されたMarkdowをサポートしているので、&lt;strong>Porter単体でGFMからHTMLへ変換&lt;/strong>することができます。&lt;/p>
-&lt;p>&lt;strong>Markdown(GFM)を意識した文書作成のポイント&lt;/strong>&lt;/p>
-&lt;p>&lt;strong>段落&lt;/strong>&lt;/p>
-&lt;p>子トピックがいないトピックは段落として扱われます。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/1tglwNLonP1BRdEoZoMkTOA.png" alt="/images/1tglwNLonP1BRdEoZoMkTOA.png">
-&lt;strong>リスト&lt;/strong>&lt;/p>
-&lt;p>先頭が「*」または「+」または「-」で始まり、1つ以上のスペースがあるトピックは、リストとして出力されます。&lt;/p>
-&lt;p>トピックのレベル（インデント）でリストをネストすることができます。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/1eQYLZBrrOgw1eq_hnw_ZwA.png" alt="/images/1eQYLZBrrOgw1eq_hnw_ZwA.png">
-&lt;strong>番号付きリスト&lt;/strong>&lt;/p>
-&lt;p>先頭が数字で始まり、数字が続いた後にスペースがあるトピックは、リストとして出力されます。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/1iUpGf1boox7TOaP5P1cTUg.png" alt="/images/1iUpGf1boox7TOaP5P1cTUg.png">
-&lt;strong>引用&lt;/strong>&lt;/p>
-&lt;p>先頭が「&amp;gt;」で始まるトピックは引用になります。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/1jdoksbOc2Kwl1MfcOQ6eHQ.png" alt="/images/1jdoksbOc2Kwl1MfcOQ6eHQ.png">
-というトピックは、以下のようになります。&lt;/p>
-&lt;p>&lt;em>You can’t connect the dots looking forward; you can only connect them
+WorkFlowy] — [プレビュー」を選ぶと、WorkFlowyのタブでプレビューが表示されます。&lt;/p&gt;
+&lt;p&gt;PorterではMarkdown形式で画像リンクを記述できるため、プレビューでは画像も含めたトピックの全体像を確認することができます。&lt;/p&gt;
+&lt;p&gt;プレビュー表示されているウインドウの見出しには、対応するWorkFlowyのトピックへのリンクが設定されています。&lt;/p&gt;
+&lt;p&gt;見出しをクリックすれば直接WorkFlowyのトピックを開けるため、プレビューで見つけた誤字を修正したり、構成の見直しを素早く行うことができます。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;エクスポート機能(Markdown/HTML)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Chromeのアドレスバーに表示されているアイコンをクリックすると、表示しているトピックをMarkdown、またはHTMLで出力することができます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/15cH8JnyxUmEgpg8mFkMu2A.png&#34; alt=&#34;/images/15cH8JnyxUmEgpg8mFkMu2A.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/1VFuH1hmWlIbv-CVEnSf32A.png&#34; alt=&#34;/images/1VFuH1hmWlIbv-CVEnSf32A.png&#34;&gt;
+&lt;strong&gt;Porter が生成するHTML&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;PorterではWorkFlowyのデータを一旦Markdownへ変換してから、&lt;a href=&#34;https://github.com/chjj/marked&#34;&gt;marked&lt;/a&gt;
+というライブラリでHTMLに変換しています。&lt;/p&gt;
+&lt;p&gt;Markedは&lt;a href=&#34;https://help.github.com/articles/working-with-advanced-formatting/&#34;&gt;GFM(GitHub Flavored Markdown)&lt;/a&gt;
+と呼ばれる、拡張されたMarkdowをサポートしているので、&lt;strong&gt;Porter単体でGFMからHTMLへ変換&lt;/strong&gt;することができます。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Markdown(GFM)を意識した文書作成のポイント&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;段落&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;子トピックがいないトピックは段落として扱われます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/1tglwNLonP1BRdEoZoMkTOA.png&#34; alt=&#34;/images/1tglwNLonP1BRdEoZoMkTOA.png&#34;&gt;
+&lt;strong&gt;リスト&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;先頭が「*」または「+」または「-」で始まり、1つ以上のスペースがあるトピックは、リストとして出力されます。&lt;/p&gt;
+&lt;p&gt;トピックのレベル（インデント）でリストをネストすることができます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/1eQYLZBrrOgw1eq_hnw_ZwA.png&#34; alt=&#34;/images/1eQYLZBrrOgw1eq_hnw_ZwA.png&#34;&gt;
+&lt;strong&gt;番号付きリスト&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;先頭が数字で始まり、数字が続いた後にスペースがあるトピックは、リストとして出力されます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/1iUpGf1boox7TOaP5P1cTUg.png&#34; alt=&#34;/images/1iUpGf1boox7TOaP5P1cTUg.png&#34;&gt;
+&lt;strong&gt;引用&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;先頭が「&amp;gt;」で始まるトピックは引用になります。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/1jdoksbOc2Kwl1MfcOQ6eHQ.png&#34; alt=&#34;/images/1jdoksbOc2Kwl1MfcOQ6eHQ.png&#34;&gt;
+というトピックは、以下のようになります。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;You can’t connect the dots looking forward; you can only connect them
 looking backwards. So you have to trust that the dots will somehow
-connect in your future.&lt;/em>&lt;/p>
-&lt;p>&lt;em>&lt;strong>Steve Jobs&lt;/strong>&lt;/em>&lt;/p>
-&lt;p>&lt;strong>テーブル&lt;/strong>&lt;/p>
-&lt;p>GFM構文でテーブルを記述できます。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/1WihPJfsLVMcNNkJP3sUPfA.png" alt="/images/1WihPJfsLVMcNNkJP3sUPfA.png">
-行数が多い場合はノートに記述したほうがよいかもしれません。&lt;/p>
-&lt;p>&lt;strong>その他のMarkdown記法&lt;/strong>&lt;/p>
-&lt;p>&lt;strong>リンク&lt;/strong>&lt;/p>
-&lt;p>リンクしたいテキストを半角 [] で囲み、それに続く半角 ()
-にリンク先URLを書くとリンクになります。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/1aAcrnJOcV1eLOIDvopcgeg.png" alt="/images/1aAcrnJOcV1eLOIDvopcgeg.png">
-と書くと以下のようになります。&lt;/p>
-&lt;p>ウェブ関連技術の標準化は
-&lt;a href="http://www.w3.org/">World Wide Web Consortium (W3C)&lt;/a>
-などによって行われています。&lt;/p>
-&lt;p>URLを記述するだけで自動的にリンクになります。&lt;a href="http://namaraii.com/">http://namaraii.com/&lt;/a>&lt;/p>
-&lt;p>&lt;strong>画像&lt;/strong>&lt;/p>
-&lt;p>リンクと似ていますが、先頭を!で開始して、&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/1laGG49zfggmGHW_iWOheXQ.png" alt="/images/1laGG49zfggmGHW_iWOheXQ.png">
-のように書くと画像の参照になります。&lt;/p>
-&lt;p>&lt;strong>強調&lt;/strong>&lt;/p>
-&lt;p>&lt;em>強調したい文字&lt;/em>を「*」で囲むと、強調になります。&lt;/p>
-&lt;p>&lt;strong>さらに強い強調&lt;/strong>をしたい場合「**」で囲みます。&lt;/p>
-&lt;p>&lt;strong>水平線&lt;/strong>&lt;/p>
-&lt;p>トピックの先頭から「*」か「-」を3つ以上書くと水平線になります。&lt;/p>
-&lt;p>&lt;strong>取り消し線&lt;/strong>&lt;/p>
-&lt;p>「~」2個で囲んだ文字は取り消し線が設定されます。&lt;/p>
-&lt;p>&lt;strong>コードの引用&lt;/strong>&lt;/p>
-&lt;p>先頭にチルダ3つ書き、後ろに対象シンタックスの言語名を記述します。&lt;/p>
-&lt;p>コードをはさみ最後をチルダ3つで閉じます。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/1LvxIzXk10a7QOAYbdHALYg.png" alt="/images/1LvxIzXk10a7QOAYbdHALYg.png">
-と書くと、以下のようなHTMLが生成されます。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/1HhGCO9YYedkvy49nlkjnCQ.png" alt="/images/1HhGCO9YYedkvy49nlkjnCQ.png">
-トピックにも書けますが、コードはノートに書いたほうが良いと思います。&lt;/p>
-&lt;p>&lt;strong>ノートの出力&lt;/strong>&lt;/p>
-&lt;p>エクスポート画面で「ノートを出力する」をチェックすると、WorkFlowyのトピックに書かれているノートを出力します。ノートは見出しにはならず、パラグラフとして出力されます。&lt;/p>
-&lt;p>&lt;strong>目次の出力&lt;/strong>&lt;/p>
-&lt;p>エクスポート画面で「目次を出力する」をチェックすると、この文書の冒頭にあるようなページ内の目次を出力します。&lt;/p>
-&lt;p>&lt;strong>新規トピックウィンドウ作成機能&lt;/strong>&lt;/p>
-&lt;p>WorkFlowyを開いた状態でマウスの右ボタンをクリックすると、コンテキストメニューが表示されます。&lt;/p>
-&lt;p>[Porter for
-WorkFlowy] — [新しいウィンドゥで開く]を選ぶと、表示しているトピックを新しいウインドウで開くことができます。&lt;/p>
-&lt;p>新しいウィンドゥはタブやアドレスバーが無いシンプルな表示のため、フルスクリーン表示することで、文章作成に集中することができます。&lt;/p>
-&lt;p>&lt;strong>文字数カウント機能&lt;/strong>&lt;/p>
-&lt;p>入力中のトピックの文字数を（ほぼ）リアルタイムに文字数をカウントすることができます。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/13utCFs6Mgy-3OLkl3Gql4A.png" alt="/images/13utCFs6Mgy-3OLkl3Gql4A.png">
-画面上部の「文字数カウント」をクリックすると、文字数のカウントが開始します。カウント中にもう一度クリックするとカウントを停止します。&lt;/p></description></item><item><title>トピックナビとブックマークの表示スイッチの追加（Porter for WorkFlowy)</title><link>https://namaraii.com/post/2016/20160227_porterforworkflowy1ace5ac5f9f0/</link><pubDate>Sat, 27 Feb 2016 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2016/20160227_porterforworkflowy1ace5ac5f9f0/</guid><description>
-&lt;p>オンラインで使えるアウトライナー&lt;a href="https://workflowy.com/">WorkFlowy&lt;/a>
+connect in your future.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Steve Jobs&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;テーブル&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;GFM構文でテーブルを記述できます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/1WihPJfsLVMcNNkJP3sUPfA.png&#34; alt=&#34;/images/1WihPJfsLVMcNNkJP3sUPfA.png&#34;&gt;
+行数が多い場合はノートに記述したほうがよいかもしれません。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;その他のMarkdown記法&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;リンク&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;リンクしたいテキストを半角 [] で囲み、それに続く半角 ()
+にリンク先URLを書くとリンクになります。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/1aAcrnJOcV1eLOIDvopcgeg.png&#34; alt=&#34;/images/1aAcrnJOcV1eLOIDvopcgeg.png&#34;&gt;
+と書くと以下のようになります。&lt;/p&gt;
+&lt;p&gt;ウェブ関連技術の標準化は
+&lt;a href=&#34;http://www.w3.org/&#34;&gt;World Wide Web Consortium (W3C)&lt;/a&gt;
+などによって行われています。&lt;/p&gt;
+&lt;p&gt;URLを記述するだけで自動的にリンクになります。&lt;a href=&#34;http://namaraii.com/&#34;&gt;http://namaraii.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;画像&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;リンクと似ていますが、先頭を!で開始して、&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/1laGG49zfggmGHW_iWOheXQ.png&#34; alt=&#34;/images/1laGG49zfggmGHW_iWOheXQ.png&#34;&gt;
+のように書くと画像の参照になります。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;強調&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;強調したい文字&lt;/em&gt;を「*」で囲むと、強調になります。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;さらに強い強調&lt;/strong&gt;をしたい場合「**」で囲みます。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;水平線&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;トピックの先頭から「*」か「-」を3つ以上書くと水平線になります。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;取り消し線&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;「~」2個で囲んだ文字は取り消し線が設定されます。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;コードの引用&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;先頭にチルダ3つ書き、後ろに対象シンタックスの言語名を記述します。&lt;/p&gt;
+&lt;p&gt;コードをはさみ最後をチルダ3つで閉じます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/1LvxIzXk10a7QOAYbdHALYg.png&#34; alt=&#34;/images/1LvxIzXk10a7QOAYbdHALYg.png&#34;&gt;
+と書くと、以下のようなHTMLが生成されます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/1HhGCO9YYedkvy49nlkjnCQ.png&#34; alt=&#34;/images/1HhGCO9YYedkvy49nlkjnCQ.png&#34;&gt;
+トピックにも書けますが、コードはノートに書いたほうが良いと思います。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ノートの出力&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;エクスポート画面で「ノートを出力する」をチェックすると、WorkFlowyのトピックに書かれているノートを出力します。ノートは見出しにはならず、パラグラフとして出力されます。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;目次の出力&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;エクスポート画面で「目次を出力する」をチェックすると、この文書の冒頭にあるようなページ内の目次を出力します。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;新規トピックウィンドウ作成機能&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;WorkFlowyを開いた状態でマウスの右ボタンをクリックすると、コンテキストメニューが表示されます。&lt;/p&gt;
+&lt;p&gt;[Porter for
+WorkFlowy] — [新しいウィンドゥで開く]を選ぶと、表示しているトピックを新しいウインドウで開くことができます。&lt;/p&gt;
+&lt;p&gt;新しいウィンドゥはタブやアドレスバーが無いシンプルな表示のため、フルスクリーン表示することで、文章作成に集中することができます。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;文字数カウント機能&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;入力中のトピックの文字数を（ほぼ）リアルタイムに文字数をカウントすることができます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/13utCFs6Mgy-3OLkl3Gql4A.png&#34; alt=&#34;/images/13utCFs6Mgy-3OLkl3Gql4A.png&#34;&gt;
+画面上部の「文字数カウント」をクリックすると、文字数のカウントが開始します。カウント中にもう一度クリックするとカウントを停止します。&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>トピックナビとブックマークの表示スイッチの追加（Porter for WorkFlowy)</title>
+      <link>https://namaraii.com/post/2016/20160227_porterforworkflowy1ace5ac5f9f0/</link>
+      <pubDate>Sat, 27 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2016/20160227_porterforworkflowy1ace5ac5f9f0/</guid>
+      <description>
+        
+          &lt;p&gt;オンラインで使えるアウトライナー&lt;a href=&#34;https://workflowy.com/&#34;&gt;WorkFlowy&lt;/a&gt;
 の機能を拡張するGoogle
-Chrome拡張&lt;a href="https://chrome.google.com/webstore/detail/porter-for-workflowy/jbcgipgkafpibecoejadaebkkbjnbcaj">Porter for WorkFlowy&lt;/a>
-のバージョン1.4.1を公開しました。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/8HLNATvIdjy9Ht.png" alt="/images/8HLNATvIdjy9Ht.png">
-V1.4でトピックナビとブックマークをサポートしましたが、文書作成に集中したいときに、表示がジャマになるケースがありますので、表示オンオフを切り替えられるようにしました。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/b5hdDrQdgQ8J8m.png" alt="/images/b5hdDrQdgQ8J8m.png">
-文字数カウンタの横にあるブックマークアイコンをクリックすると、トピックナビとブックマークの表示する・しないを切り替えることができます。&lt;/p>
-&lt;p>&lt;a href="https://chrome.google.com/webstore/detail/porter-for-workflowy/jbcgipgkafpibecoejadaebkkbjnbcaj">ダウンロードはこちらから&lt;/a>
-どうぞ。&lt;/p>
-&lt;p>Porter for WorkFlowyの機能一覧はこちらを。&lt;/p>
-&lt;ul>
-&lt;li>&lt;span
-id="b345">&lt;a href="http://namaraii.com/porter-for-workflowy">http://namaraii.com/porter-for-workflowy&lt;/a>&lt;/span>&lt;/li>
-&lt;/ul></description></item><item><title>Porter for WorkFlowy 1.4をリリースしました（トピックナビとプレビュー機能の追加）</title><link>https://namaraii.com/post/2016/20160226_porterforworkflowy1491af0eabc93b/</link><pubDate>Fri, 26 Feb 2016 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2016/20160226_porterforworkflowy1491af0eabc93b/</guid><description>
-&lt;p>オンラインで使えるアウトライナー&lt;a href="https://workflowy.com/">WorkFlowy&lt;/a>
+Chrome拡張&lt;a href=&#34;https://chrome.google.com/webstore/detail/porter-for-workflowy/jbcgipgkafpibecoejadaebkkbjnbcaj&#34;&gt;Porter for WorkFlowy&lt;/a&gt;
+のバージョン1.4.1を公開しました。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/8HLNATvIdjy9Ht.png&#34; alt=&#34;/images/8HLNATvIdjy9Ht.png&#34;&gt;
+V1.4でトピックナビとブックマークをサポートしましたが、文書作成に集中したいときに、表示がジャマになるケースがありますので、表示オンオフを切り替えられるようにしました。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/b5hdDrQdgQ8J8m.png&#34; alt=&#34;/images/b5hdDrQdgQ8J8m.png&#34;&gt;
+文字数カウンタの横にあるブックマークアイコンをクリックすると、トピックナビとブックマークの表示する・しないを切り替えることができます。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://chrome.google.com/webstore/detail/porter-for-workflowy/jbcgipgkafpibecoejadaebkkbjnbcaj&#34;&gt;ダウンロードはこちらから&lt;/a&gt;
+どうぞ。&lt;/p&gt;
+&lt;p&gt;Porter for WorkFlowyの機能一覧はこちらを。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span
+id=&#34;b345&#34;&gt;&lt;a href=&#34;http://namaraii.com/porter-for-workflowy&#34;&gt;http://namaraii.com/porter-for-workflowy&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Porter for WorkFlowy 1.4をリリースしました（トピックナビとプレビュー機能の追加）</title>
+      <link>https://namaraii.com/post/2016/20160226_porterforworkflowy1491af0eabc93b/</link>
+      <pubDate>Fri, 26 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2016/20160226_porterforworkflowy1491af0eabc93b/</guid>
+      <description>
+        
+          &lt;p&gt;オンラインで使えるアウトライナー&lt;a href=&#34;https://workflowy.com/&#34;&gt;WorkFlowy&lt;/a&gt;
 の機能を拡張するGoogle
-Chrome拡張&lt;a href="https://chrome.google.com/webstore/detail/porter-for-workflowy/jbcgipgkafpibecoejadaebkkbjnbcaj">Porter for WorkFlowy&lt;/a>
-のバージョン1.4を公開しました。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/stjekMt5qfOSHZ.png" alt="/images/stjekMt5qfOSHZ.png">&lt;/p>
-&lt;h4 id="トピックナビ">トピックナビ&lt;/h4>
-&lt;p>トピックナビ機能とは表示中のトピックの最上位階層と、その下の階層にあるトピックを一覧する機能です。いわば、アウトラインのアウトラインですね。&lt;/p>
-&lt;p>&amp;lt;img src=&amp;quot;/images/olz3HB4hRwT&lt;/p></description></item><item><title>WorkFlowyから出力するHTMLの仕様に関する考察</title><link>https://namaraii.com/post/2016/20160222_workflowyhtmle3b6f85b5db4/</link><pubDate>Mon, 22 Feb 2016 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2016/20160222_workflowyhtmle3b6f85b5db4/</guid><description>
-&lt;h4 id="目次">目次&lt;/h4>
-&lt;ol>
-&lt;li>&lt;span
-id="2658">&lt;a href="#%E3%81%AF%E3%81%98%E3%82%81%E3%81%AB">はじめに&lt;/a>&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="a472">&lt;a href="#wftohtml%E3%81%A8porter%E3%81%AEhtml%E5%87%BA%E5%8A%9B%E4%BB%95%E6%A7%98%E3%81%AE%E9%81%95%E3%81%84">WFtoHTMLとPorterのHTML出力仕様の違い&lt;/a>&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="df88">&lt;a href="#%E5%9F%BA%E6%9C%AC%E4%BB%95%E6%A7%98">基本仕様&lt;/a>&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="69ad">&lt;a href="#wftohtml%E3%81%AE%E7%8B%AC%E8%87%AA%E3%83%9E%E3%83%BC%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97%E4%BB%95%E6%A7%98%EF%BC%88%E2%98%85%EF%BC%89">WFtoHTMLの独自マークアップ仕様（★）&lt;/a>&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="f3d5">&lt;a href="#porter%E3%81%AE%E7%8B%AC%E8%87%AA%E3%83%9E%E3%83%BC%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97%E4%BB%95%E6%A7%98">Porterの独自マークアップ仕様&lt;/a>&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="2098">&lt;a href="#%E8%80%83%E5%AF%9F">考察&lt;/a>&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="d465">&lt;a href="#%E7%A2%BA%E8%AA%8D%E3%81%97%E3%81%9F%E3%81%84wftohtml%E3%81%AE%E4%BB%95%E6%A7%98">確認したいWFtoHTMLの仕様&lt;/a>&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="ea5c">&lt;a href="#%E3%81%8A%E3%82%8F%E3%82%8A%E3%81%AB">おわりに&lt;/a>&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="5c64">&lt;a href="#%E5%8F%82%E7%85%A7%E8%B3%87%E6%96%99">参照資料&lt;/a>&lt;/span>&lt;/li>
-&lt;/ol>
-&lt;h4 id="workflowyから出力するhtml仕様に関する考察">WorkFlowyから出力するHTML仕様に関する考察&lt;/h4>
-&lt;h4 id="はじめに">はじめに&lt;/h4>
-&lt;p>twitterでマロ。さんから、WorkFlowyから出力するHTMLについて、WFtoHTMLとPorterで仕様を合わせませんか？という提案をいただきました。&lt;/p>
-&lt;blockquote>
-&lt;p>&lt;a href="https://twitter.com/maro_draft/status/701550132777463808">&lt;/a>&lt;/p>
-&lt;/blockquote>
-&lt;p>PorterのHTML出力ルールは自分自身が使いやすい仕様で、独自に設計しましたが、WorkFlowyからHTMLを生成するツールが複数あり、それぞれで出力仕様が異なるというのは、ユーザから見て好ましい状況ではありません。&lt;/p>
-&lt;p>このため、共通仕様に向けた検討をしてみます。ほぼ私信かもしれません。（WFtoHTMLの仕様に間違いがあれば、コメントください＞マロ。さん）&lt;/p>
-&lt;h4 id="wftohtmlとporterのhtml出力仕様の違い">WFtoHTMLとPorterのHTML出力仕様の違い&lt;/h4>
-&lt;h4 id="基本仕様">基本仕様&lt;/h4>
-&lt;p>WFtoHTMLの基本的なHTML出力は下記の仕様を前提としています。&lt;/p>
-&lt;ul>
-&lt;li>&lt;span
-id="3bd6">選択したレベルを基準にh1タグからh2、h3とレベルごとにタグ付けする。&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="4ff6">基本として各レベルはhタグで括られるが、その項目に子レベルがない場合は本文として扱いpタグで括られる。&lt;/span>&lt;/li>
-&lt;li>&lt;span id="69bc">Workflowyのnote部分は書き出さない。&lt;/span>&lt;/li>
-&lt;/ul>
-&lt;p>これらはPorterも同じ仕様（オプションでnoteも出力できますが）であり、大枠では問題ありません。&lt;/p>
-&lt;p>このため、双方で仕様をすりあわせすべきなのは、それぞれが採用している独自のマークアップ部分ということになります。&lt;/p>
-&lt;h4 id="wftohtmlの独自マークアップ仕様">WFtoHTMLの独自マークアップ仕様（★）&lt;/h4>
-&lt;p>以下にWFtoHTMLの独自マークアップと、対応するPorterでの書き方をまとめます。&lt;/p>
-&lt;p>要素WFtoHTMLの独自マークアップPorterでの書き方リスト「ulリスト」「olリスト」と書いたトピック以下の子要素はulタグ・olタグで囲まれる先頭が「*」または「+」または「-」で始まり、1つ以上のスペースがあるトピックは、リストとして出力される。&lt;br>
-「数字.」で始まり1つ以上のスペースがあるトピックは番号付きリスト。&lt;br>
-トピックのレベル（インデント）でリストをネストすることができる引用「bq」以下がblockquoteタグで囲まれる。citeも記述可能先頭が「＞」で始まるトピックは引用になる&lt;br>
-citeは未サポートテーブルtb以下がtableタグで囲まれる。配下のトピックが各行の1列名になり、その配下のトピックが行を構成する列になる&lt;a href="https://help.github.com/articles/organizing-information-with-tables/">https://help.github.com/articles/organizing-information-with-tables/&lt;/a>HTMLタグそのまま出力されるそのまま出力される&lt;/p>
-&lt;h4 id="porterの独自マークアップ仕様">Porterの独自マークアップ仕様&lt;/h4>
-&lt;p>Porterでは内部的に一旦Markdownに変換してからHTMLへ変換しています。HTMLへの変換はMarkedというMarkdownパーサーを使っており、例えば以下のような書き方もサポートしています。&lt;/p>
-&lt;ul>
-&lt;li>&lt;span id="ed06">リンクしたいテキストを［］
-で囲み、それに続く（）の中へURLを書くとリンクになる。&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="afda">強調したい文字を「＊」で囲むと、強調になる。さらに強い強調をしたい場合「＊＊」で囲む。&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="6ce1">トピックの先頭から「＊」か「－」を3つ以上書くと水平線になる。&lt;/span>&lt;/li>
-&lt;/ul>
-&lt;p>この他にもサポートしている記法があり、マークアップのバリエーションはPorterの方が多い状況です。&lt;/p>
-&lt;h4 id="考察">考察&lt;/h4>
-&lt;p>以上を踏まえると、仕様をすりあわせるためのアプローチとして、&lt;/p>
-&lt;ol>
-&lt;li>&lt;span
-id="fb45">Porterだけでサポートしている記法を削りWFtoHTMLと共通化する&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="fe06">WFtoHTMLへPorterだけでサポートしている記法を取りこむ&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="5622">WFtoHTMLの独自マークアップ記法（★）に該当する部分に限定して、双方で互換性を持たせる&lt;/span>&lt;/li>
-&lt;/ol>
-&lt;p>があると思います。&lt;/p>
-&lt;p>案1はPorterの設計をガラポンで見直しする必要があることと、個人的に困る（使っている記法があるため）ことから「×」&lt;/p>
-&lt;p>案2はWFtoHTMLがブックマークレットで作成されているため、PorterがサポートしているMarkdownチックな記法を全て取りこむのは（ブックマークレットという性質上）難しそうなので「△」&lt;/p>
-&lt;p>ということで、案3かなぁと考えていますがいかがでしょう？ ＞ マロ。さん&lt;/p>
-&lt;p>WFtoHTML側での対応が難しいということであれば（特にテーブルが難しそう）、PorterへWFtoHTMLの独自記法を取りこむだけでもメリットはありそうです。（ユーザ数はWFtoHTMLの方が圧倒的に多いでしょうから）&lt;/p>
-&lt;h4 id="確認したいwftohtmlの仕様">確認したいWFtoHTMLの仕様&lt;/h4>
-&lt;ol>
-&lt;li>&lt;span id="f8bf">リストをネストすることはできるのか？&lt;/span>&lt;/li>
-&lt;li>&lt;span id="8c43">テーブル出力時THタグを出力する方法はあるか？&lt;/span>&lt;/li>
-&lt;/ol>
-&lt;h4 id="おわりに">おわりに&lt;/h4>
-&lt;p>以上、現時点で思いつく範囲で仕様の差異と、今後の進め方の案をまとめてみました。これをたたき台として、仕様をすりあわせできればと考えてます。&lt;/p>
-&lt;h4 id="参照資料">参照資料&lt;/h4>
-&lt;ul>
-&lt;li>&lt;span
-id="1308">&lt;a href="https://note.mu/maro_draft/n/nd022bf9d4e3a">WFtoHTML irodrawEdithionバージョンアップ（引用/Table機能追加）&lt;/a>&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="7bf3">&lt;a href="http://namaraii.com/porter-for-workflowy#%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%88%E6%A9%9F%E8%83%BD%28markdown/html">Porter for WorkFlowyエクスポート機能&lt;/a>)&lt;/span>&lt;/li>
-&lt;/ul></description></item><item><title>Porter for WorkFlowy 1.3をリリースしました</title><link>https://namaraii.com/post/2016/20160221_porterforworkflowy1379100f653558/</link><pubDate>Sun, 21 Feb 2016 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2016/20160221_porterforworkflowy1379100f653558/</guid><description>
-&lt;p>オンラインで使えるアウトライナー&lt;a href="https://workflowy.com/">WorkFlowy&lt;/a>
+Chrome拡張&lt;a href=&#34;https://chrome.google.com/webstore/detail/porter-for-workflowy/jbcgipgkafpibecoejadaebkkbjnbcaj&#34;&gt;Porter for WorkFlowy&lt;/a&gt;
+のバージョン1.4を公開しました。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/stjekMt5qfOSHZ.png&#34; alt=&#34;/images/stjekMt5qfOSHZ.png&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;トピックナビ&#34;&gt;トピックナビ&lt;/h4&gt;
+&lt;p&gt;トピックナビ機能とは表示中のトピックの最上位階層と、その下の階層にあるトピックを一覧する機能です。いわば、アウトラインのアウトラインですね。&lt;/p&gt;
+&lt;p&gt;&amp;lt;img src=&amp;quot;/images/olz3HB4hRwT&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>WorkFlowyから出力するHTMLの仕様に関する考察</title>
+      <link>https://namaraii.com/post/2016/20160222_workflowyhtmle3b6f85b5db4/</link>
+      <pubDate>Mon, 22 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2016/20160222_workflowyhtmle3b6f85b5db4/</guid>
+      <description>
+        
+          &lt;h4 id=&#34;目次&#34;&gt;目次&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;span
+id=&#34;2658&#34;&gt;&lt;a href=&#34;#%E3%81%AF%E3%81%98%E3%82%81%E3%81%AB&#34;&gt;はじめに&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;a472&#34;&gt;&lt;a href=&#34;#wftohtml%E3%81%A8porter%E3%81%AEhtml%E5%87%BA%E5%8A%9B%E4%BB%95%E6%A7%98%E3%81%AE%E9%81%95%E3%81%84&#34;&gt;WFtoHTMLとPorterのHTML出力仕様の違い&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;df88&#34;&gt;&lt;a href=&#34;#%E5%9F%BA%E6%9C%AC%E4%BB%95%E6%A7%98&#34;&gt;基本仕様&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;69ad&#34;&gt;&lt;a href=&#34;#wftohtml%E3%81%AE%E7%8B%AC%E8%87%AA%E3%83%9E%E3%83%BC%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97%E4%BB%95%E6%A7%98%EF%BC%88%E2%98%85%EF%BC%89&#34;&gt;WFtoHTMLの独自マークアップ仕様（★）&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;f3d5&#34;&gt;&lt;a href=&#34;#porter%E3%81%AE%E7%8B%AC%E8%87%AA%E3%83%9E%E3%83%BC%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97%E4%BB%95%E6%A7%98&#34;&gt;Porterの独自マークアップ仕様&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;2098&#34;&gt;&lt;a href=&#34;#%E8%80%83%E5%AF%9F&#34;&gt;考察&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;d465&#34;&gt;&lt;a href=&#34;#%E7%A2%BA%E8%AA%8D%E3%81%97%E3%81%9F%E3%81%84wftohtml%E3%81%AE%E4%BB%95%E6%A7%98&#34;&gt;確認したいWFtoHTMLの仕様&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;ea5c&#34;&gt;&lt;a href=&#34;#%E3%81%8A%E3%82%8F%E3%82%8A%E3%81%AB&#34;&gt;おわりに&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;5c64&#34;&gt;&lt;a href=&#34;#%E5%8F%82%E7%85%A7%E8%B3%87%E6%96%99&#34;&gt;参照資料&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;workflowyから出力するhtml仕様に関する考察&#34;&gt;WorkFlowyから出力するHTML仕様に関する考察&lt;/h4&gt;
+&lt;h4 id=&#34;はじめに&#34;&gt;はじめに&lt;/h4&gt;
+&lt;p&gt;twitterでマロ。さんから、WorkFlowyから出力するHTMLについて、WFtoHTMLとPorterで仕様を合わせませんか？という提案をいただきました。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/maro_draft/status/701550132777463808&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;PorterのHTML出力ルールは自分自身が使いやすい仕様で、独自に設計しましたが、WorkFlowyからHTMLを生成するツールが複数あり、それぞれで出力仕様が異なるというのは、ユーザから見て好ましい状況ではありません。&lt;/p&gt;
+&lt;p&gt;このため、共通仕様に向けた検討をしてみます。ほぼ私信かもしれません。（WFtoHTMLの仕様に間違いがあれば、コメントください＞マロ。さん）&lt;/p&gt;
+&lt;h4 id=&#34;wftohtmlとporterのhtml出力仕様の違い&#34;&gt;WFtoHTMLとPorterのHTML出力仕様の違い&lt;/h4&gt;
+&lt;h4 id=&#34;基本仕様&#34;&gt;基本仕様&lt;/h4&gt;
+&lt;p&gt;WFtoHTMLの基本的なHTML出力は下記の仕様を前提としています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span
+id=&#34;3bd6&#34;&gt;選択したレベルを基準にh1タグからh2、h3とレベルごとにタグ付けする。&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;4ff6&#34;&gt;基本として各レベルはhタグで括られるが、その項目に子レベルがない場合は本文として扱いpタグで括られる。&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;69bc&#34;&gt;Workflowyのnote部分は書き出さない。&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;これらはPorterも同じ仕様（オプションでnoteも出力できますが）であり、大枠では問題ありません。&lt;/p&gt;
+&lt;p&gt;このため、双方で仕様をすりあわせすべきなのは、それぞれが採用している独自のマークアップ部分ということになります。&lt;/p&gt;
+&lt;h4 id=&#34;wftohtmlの独自マークアップ仕様&#34;&gt;WFtoHTMLの独自マークアップ仕様（★）&lt;/h4&gt;
+&lt;p&gt;以下にWFtoHTMLの独自マークアップと、対応するPorterでの書き方をまとめます。&lt;/p&gt;
+&lt;p&gt;要素WFtoHTMLの独自マークアップPorterでの書き方リスト「ulリスト」「olリスト」と書いたトピック以下の子要素はulタグ・olタグで囲まれる先頭が「*」または「+」または「-」で始まり、1つ以上のスペースがあるトピックは、リストとして出力される。&lt;br&gt;
+「数字.」で始まり1つ以上のスペースがあるトピックは番号付きリスト。&lt;br&gt;
+トピックのレベル（インデント）でリストをネストすることができる引用「bq」以下がblockquoteタグで囲まれる。citeも記述可能先頭が「＞」で始まるトピックは引用になる&lt;br&gt;
+citeは未サポートテーブルtb以下がtableタグで囲まれる。配下のトピックが各行の1列名になり、その配下のトピックが行を構成する列になる&lt;a href=&#34;https://help.github.com/articles/organizing-information-with-tables/&#34;&gt;https://help.github.com/articles/organizing-information-with-tables/&lt;/a&gt;HTMLタグそのまま出力されるそのまま出力される&lt;/p&gt;
+&lt;h4 id=&#34;porterの独自マークアップ仕様&#34;&gt;Porterの独自マークアップ仕様&lt;/h4&gt;
+&lt;p&gt;Porterでは内部的に一旦Markdownに変換してからHTMLへ変換しています。HTMLへの変換はMarkedというMarkdownパーサーを使っており、例えば以下のような書き方もサポートしています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span id=&#34;ed06&#34;&gt;リンクしたいテキストを［］
+で囲み、それに続く（）の中へURLを書くとリンクになる。&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;afda&#34;&gt;強調したい文字を「＊」で囲むと、強調になる。さらに強い強調をしたい場合「＊＊」で囲む。&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;6ce1&#34;&gt;トピックの先頭から「＊」か「－」を3つ以上書くと水平線になる。&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;この他にもサポートしている記法があり、マークアップのバリエーションはPorterの方が多い状況です。&lt;/p&gt;
+&lt;h4 id=&#34;考察&#34;&gt;考察&lt;/h4&gt;
+&lt;p&gt;以上を踏まえると、仕様をすりあわせるためのアプローチとして、&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;span
+id=&#34;fb45&#34;&gt;Porterだけでサポートしている記法を削りWFtoHTMLと共通化する&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;fe06&#34;&gt;WFtoHTMLへPorterだけでサポートしている記法を取りこむ&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;5622&#34;&gt;WFtoHTMLの独自マークアップ記法（★）に該当する部分に限定して、双方で互換性を持たせる&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;があると思います。&lt;/p&gt;
+&lt;p&gt;案1はPorterの設計をガラポンで見直しする必要があることと、個人的に困る（使っている記法があるため）ことから「×」&lt;/p&gt;
+&lt;p&gt;案2はWFtoHTMLがブックマークレットで作成されているため、PorterがサポートしているMarkdownチックな記法を全て取りこむのは（ブックマークレットという性質上）難しそうなので「△」&lt;/p&gt;
+&lt;p&gt;ということで、案3かなぁと考えていますがいかがでしょう？ ＞ マロ。さん&lt;/p&gt;
+&lt;p&gt;WFtoHTML側での対応が難しいということであれば（特にテーブルが難しそう）、PorterへWFtoHTMLの独自記法を取りこむだけでもメリットはありそうです。（ユーザ数はWFtoHTMLの方が圧倒的に多いでしょうから）&lt;/p&gt;
+&lt;h4 id=&#34;確認したいwftohtmlの仕様&#34;&gt;確認したいWFtoHTMLの仕様&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;span id=&#34;f8bf&#34;&gt;リストをネストすることはできるのか？&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;8c43&#34;&gt;テーブル出力時THタグを出力する方法はあるか？&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;おわりに&#34;&gt;おわりに&lt;/h4&gt;
+&lt;p&gt;以上、現時点で思いつく範囲で仕様の差異と、今後の進め方の案をまとめてみました。これをたたき台として、仕様をすりあわせできればと考えてます。&lt;/p&gt;
+&lt;h4 id=&#34;参照資料&#34;&gt;参照資料&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span
+id=&#34;1308&#34;&gt;&lt;a href=&#34;https://note.mu/maro_draft/n/nd022bf9d4e3a&#34;&gt;WFtoHTML irodrawEdithionバージョンアップ（引用/Table機能追加）&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;7bf3&#34;&gt;&lt;a href=&#34;http://namaraii.com/porter-for-workflowy#%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%88%E6%A9%9F%E8%83%BD%28markdown/html&#34;&gt;Porter for WorkFlowyエクスポート機能&lt;/a&gt;)&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Porter for WorkFlowy 1.3をリリースしました</title>
+      <link>https://namaraii.com/post/2016/20160221_porterforworkflowy1379100f653558/</link>
+      <pubDate>Sun, 21 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2016/20160221_porterforworkflowy1379100f653558/</guid>
+      <description>
+        
+          &lt;p&gt;オンラインで使えるアウトライナー&lt;a href=&#34;https://workflowy.com/&#34;&gt;WorkFlowy&lt;/a&gt;
 の機能を拡張するGoogle
-Chrome拡張&lt;a href="https://chrome.google.com/webstore/detail/porter-for-workflowy/jbcgipgkafpibecoejadaebkkbjnbcaj">Porter for WorkFlowy&lt;/a>
-のバージョン1.3を公開しました。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/OwIQuYPY-2epMa.png" alt="/images/OwIQuYPY-2epMa.png">&lt;/p>
-&lt;ol>
-&lt;li>&lt;span
-id="d3e8">&lt;a href="#%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E3%82%A2%E3%83%83%E3%83%97%E3%81%AE%E5%86%85%E5%AE%B9">バージョンアップの内容&lt;/a>&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="9c02">&lt;a href="#%E3%83%96%E3%83%83%E3%82%AF%E3%83%9E%E3%83%BC%E3%82%AF%E6%A9%9F%E8%83%BD">ブックマーク機能&lt;/a>&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="cf28">&lt;a href="#%E7%9B%AE%E6%AC%A1%E5%87%BA%E5%8A%9B%E6%A9%9F%E8%83%BD">目次出力機能&lt;/a>&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="1e1c">&lt;a href="#%E6%96%B0%E8%A6%8F%E3%83%88%E3%83%94%E3%83%83%E3%82%AF%E3%82%A6%E3%82%A3%E3%83%B3%E3%83%89%E3%82%A6%E4%BD%9C%E6%88%90%E6%A9%9F%E8%83%BD">新規トピックウィンドウ作成機能&lt;/a>&lt;/span>&lt;/li>
-&lt;/ol>
-&lt;h4 id="バージョンアップの内容">バージョンアップの内容&lt;/h4>
-&lt;h4 id="ブックマーク機能">ブックマーク機能&lt;/h4>
-&lt;p>オプション画面の「一般」タブで「ブックマークを有効にする」をチェックすると、ブックマーク機能を使用できます。&lt;/p>
-&lt;p>WorkFlowyのトピック専用のブックマークですので、Chromeの他のブックマークと混在することがありません。フォルダを作りブックマークを階層的に管理することも可能です。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/Y9g0Ng2syw0vf4.png" alt="/images/Y9g0Ng2syw0vf4.png">
-ブックマークはWorkFlowyのヘルプ画面（キーボードショートカットキーのヘルプ）を、ブックマーク表示エリアに置き換えて表示します。&lt;/p>
-&lt;p>このため、WorkFlowyのヘルプ画面と同じショートカットキー（Macは「⌘
-+ ?」Windowsは「Ctrl + ?」）で表示・非表示を切り替えることができます。&lt;/p>
-&lt;p>ブックマーク機能使用中は、WorkFlowyオリジナルのヘルプ画面を参照できなくなりますが、「ブックマークを有効にする」のチェックを外し、WorkFlowyをリロードすれば、オリジナルのヘルプ画面に戻ります。&lt;/p>
-&lt;h4 id="目次出力機能">目次出力機能&lt;/h4>
-&lt;p>エクスポート画面で「目次を出力する」をチェックすると、この文書の冒頭にあるようなページ内の目次を出力できるようにしました。&lt;/p>
-&lt;p>目次出力はHTMLフォーマット時のみ有効です。&lt;/p>
-&lt;h4 id="新規トピックウィンドウ作成機能">新規トピックウィンドウ作成機能&lt;/h4>
-&lt;p>WorkFlowyを開いた状態でマウスの右ボタンをクリックすると、コンテキストメニューが表示されます。&lt;/p>
-&lt;p>[Porter for
-WorkFlowy] — [表示しているトピックを新しいウィンドゥで表示する]を選ぶと、表示しているトピックを新しいウインドウで開くことができます。&lt;/p>
-&lt;p>新しいウィンドゥはタブやアドレスバーが無いシンプルな画面です。この画面をフルスクリーンで表示すれば、WorkFlowy以外の情報が遮断され、文章作成に集中することができます。&lt;/p>
-&lt;p>細かな機能が増えてきたため、下記のページにまとめていくことにしました。併せてご覧ください。&lt;/p>
-&lt;ul>
-&lt;li>&lt;span
-id="1235">&lt;a href="http://namaraii.com/porter-for-workflowy">http://namaraii.com/porter-for-workflowy&lt;/a>&lt;/span>&lt;/li>
-&lt;/ul></description></item><item><title>Porter for WorkFlowy 1.2をリリースしました</title><link>https://namaraii.com/post/2016/20160208_porterforworkflowy1265a4d7d0bef8/</link><pubDate>Mon, 08 Feb 2016 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2016/20160208_porterforworkflowy1265a4d7d0bef8/</guid><description>
-&lt;p>オンラインで使えるアウトライナー&lt;a href="https://workflowy.com/">WorkFlowy&lt;/a>
+Chrome拡張&lt;a href=&#34;https://chrome.google.com/webstore/detail/porter-for-workflowy/jbcgipgkafpibecoejadaebkkbjnbcaj&#34;&gt;Porter for WorkFlowy&lt;/a&gt;
+のバージョン1.3を公開しました。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/OwIQuYPY-2epMa.png&#34; alt=&#34;/images/OwIQuYPY-2epMa.png&#34;&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;span
+id=&#34;d3e8&#34;&gt;&lt;a href=&#34;#%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E3%82%A2%E3%83%83%E3%83%97%E3%81%AE%E5%86%85%E5%AE%B9&#34;&gt;バージョンアップの内容&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;9c02&#34;&gt;&lt;a href=&#34;#%E3%83%96%E3%83%83%E3%82%AF%E3%83%9E%E3%83%BC%E3%82%AF%E6%A9%9F%E8%83%BD&#34;&gt;ブックマーク機能&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;cf28&#34;&gt;&lt;a href=&#34;#%E7%9B%AE%E6%AC%A1%E5%87%BA%E5%8A%9B%E6%A9%9F%E8%83%BD&#34;&gt;目次出力機能&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;1e1c&#34;&gt;&lt;a href=&#34;#%E6%96%B0%E8%A6%8F%E3%83%88%E3%83%94%E3%83%83%E3%82%AF%E3%82%A6%E3%82%A3%E3%83%B3%E3%83%89%E3%82%A6%E4%BD%9C%E6%88%90%E6%A9%9F%E8%83%BD&#34;&gt;新規トピックウィンドウ作成機能&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;バージョンアップの内容&#34;&gt;バージョンアップの内容&lt;/h4&gt;
+&lt;h4 id=&#34;ブックマーク機能&#34;&gt;ブックマーク機能&lt;/h4&gt;
+&lt;p&gt;オプション画面の「一般」タブで「ブックマークを有効にする」をチェックすると、ブックマーク機能を使用できます。&lt;/p&gt;
+&lt;p&gt;WorkFlowyのトピック専用のブックマークですので、Chromeの他のブックマークと混在することがありません。フォルダを作りブックマークを階層的に管理することも可能です。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/Y9g0Ng2syw0vf4.png&#34; alt=&#34;/images/Y9g0Ng2syw0vf4.png&#34;&gt;
+ブックマークはWorkFlowyのヘルプ画面（キーボードショートカットキーのヘルプ）を、ブックマーク表示エリアに置き換えて表示します。&lt;/p&gt;
+&lt;p&gt;このため、WorkFlowyのヘルプ画面と同じショートカットキー（Macは「⌘
++ ?」Windowsは「Ctrl + ?」）で表示・非表示を切り替えることができます。&lt;/p&gt;
+&lt;p&gt;ブックマーク機能使用中は、WorkFlowyオリジナルのヘルプ画面を参照できなくなりますが、「ブックマークを有効にする」のチェックを外し、WorkFlowyをリロードすれば、オリジナルのヘルプ画面に戻ります。&lt;/p&gt;
+&lt;h4 id=&#34;目次出力機能&#34;&gt;目次出力機能&lt;/h4&gt;
+&lt;p&gt;エクスポート画面で「目次を出力する」をチェックすると、この文書の冒頭にあるようなページ内の目次を出力できるようにしました。&lt;/p&gt;
+&lt;p&gt;目次出力はHTMLフォーマット時のみ有効です。&lt;/p&gt;
+&lt;h4 id=&#34;新規トピックウィンドウ作成機能&#34;&gt;新規トピックウィンドウ作成機能&lt;/h4&gt;
+&lt;p&gt;WorkFlowyを開いた状態でマウスの右ボタンをクリックすると、コンテキストメニューが表示されます。&lt;/p&gt;
+&lt;p&gt;[Porter for
+WorkFlowy] — [表示しているトピックを新しいウィンドゥで表示する]を選ぶと、表示しているトピックを新しいウインドウで開くことができます。&lt;/p&gt;
+&lt;p&gt;新しいウィンドゥはタブやアドレスバーが無いシンプルな画面です。この画面をフルスクリーンで表示すれば、WorkFlowy以外の情報が遮断され、文章作成に集中することができます。&lt;/p&gt;
+&lt;p&gt;細かな機能が増えてきたため、下記のページにまとめていくことにしました。併せてご覧ください。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span
+id=&#34;1235&#34;&gt;&lt;a href=&#34;http://namaraii.com/porter-for-workflowy&#34;&gt;http://namaraii.com/porter-for-workflowy&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Porter for WorkFlowy 1.2をリリースしました</title>
+      <link>https://namaraii.com/post/2016/20160208_porterforworkflowy1265a4d7d0bef8/</link>
+      <pubDate>Mon, 08 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2016/20160208_porterforworkflowy1265a4d7d0bef8/</guid>
+      <description>
+        
+          &lt;p&gt;オンラインで使えるアウトライナー&lt;a href=&#34;https://workflowy.com/&#34;&gt;WorkFlowy&lt;/a&gt;
 の機能を拡張するGoogle
-Chrome拡張&lt;a href="https://chrome.google.com/webstore/detail/porter-for-workflowy/jbcgipgkafpibecoejadaebkkbjnbcaj">Porter for WorkFlowy&lt;/a>
-のバージョン1.2を公開しました。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/DXvmi1YFH2OaRK.png" alt="/images/DXvmi1YFH2OaRK.png">&lt;/p>
-&lt;h4 id="バージョンアップの内容">バージョンアップの内容&lt;/h4>
-&lt;h4 id="markdownhtml出力機能の強化">Markdown/HTML出力機能の強化&lt;/h4>
-&lt;ul>
-&lt;li>&lt;span
-id="e8da">トピックの段差を反映したリスト生成をサポートしました。せっかくアウトライナーを使っているんですから、これは欲しかった（自分自身が）。&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="b869">その他、テーブル・引用（フラットなトピックでもテーブルor引用であればパラグラフに変換しない）の改善なども行っています。&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="799b">これに伴い、出力モードは廃止しました。Markdown/HTMLのどちらで出力するかと、ノートの出力要否だけを指定するシンプルな仕様になりました。&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="d556">Markdown/HTMLエクスポートの詳細な内容は、&lt;a href="http://namaraii.com/archives/39572">Markdown/HTMLエクスポート機能を見直ししています(Porter for WorkFlowy)&lt;/a>
-をご覧ください。&lt;/span>&lt;/li>
-&lt;/ul>
-&lt;h4 id="カスタムcssの扱いを変更">カスタムCSSの扱いを変更&lt;/h4>
-&lt;p>前バージョンでは組み込みテーマを使うか、カスタムCSSを使うかの二択でしたが、1.2では以下のようにしました。&lt;/p>
-&lt;ul>
-&lt;li>&lt;span
-id="67cd">組み込みテーマを指定しカスタムCSSを書くと、組み込みテーマのCSSをカスタムCSSで上書きできる。&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="b752">→組み込みテーマの一部分だけを書き換えたい場合に使用&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="4dca">テーマを選択せず(CUSTOMを選ぶ)にカスタムCSSを書くと、カスタムCSSだけが適用される。&lt;/span>&lt;/li>
-&lt;li>&lt;span id="db3b">→自分のオリジナルテーマを作りたい場合に使用&lt;/span>&lt;/li>
-&lt;/ul>
-&lt;h4 id="その他">その他&lt;/h4>
-&lt;p>その他、細かなバグフィックス、Porterテーマの修正なども行っています。&lt;/p>
-&lt;p>お楽しみください！&lt;/p></description></item><item><title>Markdown/HTMLエクスポート機能を見直ししています(Porter for WorkFlowy)</title><link>https://namaraii.com/post/2016/20160207_markdownhtmlporterforworkflowyf3e9729adcf0/</link><pubDate>Sun, 07 Feb 2016 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2016/20160207_markdownhtmlporterforworkflowyf3e9729adcf0/</guid><description>
-&lt;p>&lt;img src="https://namaraii.com/images/jikiqeXHlC7GjK.png" alt="/images/jikiqeXHlC7GjK.png">&lt;/p>
-&lt;h4 id="はじめに">はじめに&lt;/h4>
-&lt;p>&lt;a href="https://workflowy.com/">WorkFlowy&lt;/a>
-の機能を拡張するChrome拡張の&lt;a href="https://chrome.google.com/webstore/detail/porter-for-workflowy/jbcgipgkafpibecoejadaebkkbjnbcaj">Porter for WorkFlowy&lt;/a>
-のMarkdown/HTML出力の仕様を見直ししています。&lt;/p>
-&lt;p>現バージョン(1.1.2)のPorterではリスト・引用・テーブルを書こうとすると、ノートへ書くしかなく、お世辞にも使いやすいとは言えません。&lt;/p>
-&lt;p>特にリストに関しては、せっかくアウトライナーをつかっているのですから、トピックのインデントを活かして書きたいところ。&lt;/p>
-&lt;p>実装はほぼ完成しており、近日中に公開できる見込みですが、先行して新しい仕様を紹介します。&lt;/p>
-&lt;h4 id="porterが生成するhtml">Porterが生成するHTML&lt;/h4>
-&lt;p>まず、PorterのHTML変換について。&lt;/p>
-&lt;p>PorterdではWorkFlowyのデータを一旦Markdownへ変換してから、&lt;a href="https://github.com/chjj/marked">marked&lt;/a>
-というライブラリでHTMLに変換しています。&lt;/p>
-&lt;p>Markedは&lt;a href="https://help.github.com/articles/working-with-advanced-formatting/">GFM(GitHub Flavored Markdown)&lt;/a>
-と呼ばれる、拡張されたMarkdowをサポートしているので、&lt;strong>Porter単体でGFMからHTMLへ変換&lt;/strong>できるという隠れ機能？があります。&lt;/p>
-&lt;p>これにより、&lt;/p>
-&lt;ol>
-&lt;li>&lt;span
-id="6d4e">WorkFlowyで文書を作成(書き上げるまではマークアップのことは気にしない）&lt;/span>&lt;/li>
-&lt;li>&lt;span id="7c43">意図したMarkdownになるよう多少の修正&lt;/span>&lt;/li>
-&lt;li>&lt;span id="d4db">PorterでHTMLをエクスポート&lt;/span>&lt;/li>
-&lt;li>&lt;span id="c0b6">Wordpressの投稿画面へペーストして公開&lt;/span>&lt;/li>
-&lt;/ol>
-&lt;p>というワークフローが可能になります。&lt;/p>
-&lt;p>実際、&lt;strong>この記事自体もこのワークフローで書きました&lt;/strong>。WorkFlowyのアウトラインを下記で公開していますので、興味のある方はご覧ください。&lt;/p>
-&lt;ul>
-&lt;li>&lt;span
-id="eb70">&lt;a href="https://workflowy.com/s/lCwjoKN3Xz">https://workflowy.com/s/lCwjoKN3Xz&lt;/a>&lt;/span>&lt;/li>
-&lt;/ul>
-&lt;h4 id="markdowngfmを意識した文書作成のポイント">Markdown(GFM)を意識した文書作成のポイント&lt;/h4>
-&lt;p>では、WorkFlowy+Porterで「意図したMarkdownになるよう多少の修正」する上で知っておくべきポイントをまとめます。&lt;/p>
-&lt;h4 id="段落">段落&lt;/h4>
-&lt;p>子トピックがいないトピックは段落として扱われます。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/8W2tfR7ArFquTf.png" alt="/images/8W2tfR7ArFquTf.png">&lt;/p>
-&lt;h4 id="リスト新仕様">リスト(新仕様)&lt;/h4>
-&lt;p>先頭が「*」または「+」または「-」で始まり、1つ以上のスペースがあるトピックは、リストとして出力されます。&lt;/p>
-&lt;p>トピックのレベル（インデント）でリストをネストすることができます。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/BgbUIHoOa8uKaj.png" alt="/images/BgbUIHoOa8uKaj.png">
-と書くと以下のようになります。&lt;/p>
-&lt;ul>
-&lt;li>&lt;span id="29eb">リスト1&lt;/span>&lt;/li>
-&lt;li>&lt;span id="6b79">リスト1–1&lt;/span>&lt;/li>
-&lt;li>&lt;span id="4f86">リスト1–2&lt;/span>&lt;/li>
-&lt;li>&lt;span id="ed25">リスト1–2–1&lt;/span>&lt;/li>
-&lt;li>&lt;span id="19c6">リスト1–3&lt;/span>&lt;/li>
-&lt;li>&lt;span id="7852">リスト2&lt;/span>&lt;/li>
-&lt;/ul>
-&lt;h4 id="番号付きリスト新仕様">番号付きリスト(新仕様)&lt;/h4>
-&lt;p>先頭が数字で始まり、数字が続いた後にスペースがあるトピックは、リストとして出力されます。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/A3qgK214quHBRU.png" alt="/images/A3qgK214quHBRU.png">
-と書くと以下のようになります。&lt;/p>
-&lt;ol>
-&lt;li>&lt;span id="b2af">横浜市&lt;/span>&lt;/li>
-&lt;li>&lt;span id="a758">横浜FC&lt;/span>&lt;/li>
-&lt;li>&lt;span id="28f8">YSCC&lt;/span>&lt;/li>
-&lt;li>&lt;span id="989a">横浜Fマリノス&lt;/span>&lt;/li>
-&lt;/ol>
-&lt;h4 id="引用新仕様">引用(新仕様)&lt;/h4>
-&lt;p>先頭が「&amp;gt;」で始まるトピックは引用になります。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/j55D7LFT3T3L5d.png" alt="/images/j55D7LFT3T3L5d.png">
-というトピックは、以下のようになります。&lt;/p>
-&lt;blockquote>
-&lt;p>You can’t connect the dots looking forward; you can only connect them
+Chrome拡張&lt;a href=&#34;https://chrome.google.com/webstore/detail/porter-for-workflowy/jbcgipgkafpibecoejadaebkkbjnbcaj&#34;&gt;Porter for WorkFlowy&lt;/a&gt;
+のバージョン1.2を公開しました。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/DXvmi1YFH2OaRK.png&#34; alt=&#34;/images/DXvmi1YFH2OaRK.png&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;バージョンアップの内容&#34;&gt;バージョンアップの内容&lt;/h4&gt;
+&lt;h4 id=&#34;markdownhtml出力機能の強化&#34;&gt;Markdown/HTML出力機能の強化&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span
+id=&#34;e8da&#34;&gt;トピックの段差を反映したリスト生成をサポートしました。せっかくアウトライナーを使っているんですから、これは欲しかった（自分自身が）。&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;b869&#34;&gt;その他、テーブル・引用（フラットなトピックでもテーブルor引用であればパラグラフに変換しない）の改善なども行っています。&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;799b&#34;&gt;これに伴い、出力モードは廃止しました。Markdown/HTMLのどちらで出力するかと、ノートの出力要否だけを指定するシンプルな仕様になりました。&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;d556&#34;&gt;Markdown/HTMLエクスポートの詳細な内容は、&lt;a href=&#34;http://namaraii.com/archives/39572&#34;&gt;Markdown/HTMLエクスポート機能を見直ししています(Porter for WorkFlowy)&lt;/a&gt;
+をご覧ください。&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;カスタムcssの扱いを変更&#34;&gt;カスタムCSSの扱いを変更&lt;/h4&gt;
+&lt;p&gt;前バージョンでは組み込みテーマを使うか、カスタムCSSを使うかの二択でしたが、1.2では以下のようにしました。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span
+id=&#34;67cd&#34;&gt;組み込みテーマを指定しカスタムCSSを書くと、組み込みテーマのCSSをカスタムCSSで上書きできる。&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;b752&#34;&gt;→組み込みテーマの一部分だけを書き換えたい場合に使用&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;4dca&#34;&gt;テーマを選択せず(CUSTOMを選ぶ)にカスタムCSSを書くと、カスタムCSSだけが適用される。&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;db3b&#34;&gt;→自分のオリジナルテーマを作りたい場合に使用&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;その他&#34;&gt;その他&lt;/h4&gt;
+&lt;p&gt;その他、細かなバグフィックス、Porterテーマの修正なども行っています。&lt;/p&gt;
+&lt;p&gt;お楽しみください！&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Markdown/HTMLエクスポート機能を見直ししています(Porter for WorkFlowy)</title>
+      <link>https://namaraii.com/post/2016/20160207_markdownhtmlporterforworkflowyf3e9729adcf0/</link>
+      <pubDate>Sun, 07 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2016/20160207_markdownhtmlporterforworkflowyf3e9729adcf0/</guid>
+      <description>
+        
+          &lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/jikiqeXHlC7GjK.png&#34; alt=&#34;/images/jikiqeXHlC7GjK.png&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;はじめに&#34;&gt;はじめに&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;https://workflowy.com/&#34;&gt;WorkFlowy&lt;/a&gt;
+の機能を拡張するChrome拡張の&lt;a href=&#34;https://chrome.google.com/webstore/detail/porter-for-workflowy/jbcgipgkafpibecoejadaebkkbjnbcaj&#34;&gt;Porter for WorkFlowy&lt;/a&gt;
+のMarkdown/HTML出力の仕様を見直ししています。&lt;/p&gt;
+&lt;p&gt;現バージョン(1.1.2)のPorterではリスト・引用・テーブルを書こうとすると、ノートへ書くしかなく、お世辞にも使いやすいとは言えません。&lt;/p&gt;
+&lt;p&gt;特にリストに関しては、せっかくアウトライナーをつかっているのですから、トピックのインデントを活かして書きたいところ。&lt;/p&gt;
+&lt;p&gt;実装はほぼ完成しており、近日中に公開できる見込みですが、先行して新しい仕様を紹介します。&lt;/p&gt;
+&lt;h4 id=&#34;porterが生成するhtml&#34;&gt;Porterが生成するHTML&lt;/h4&gt;
+&lt;p&gt;まず、PorterのHTML変換について。&lt;/p&gt;
+&lt;p&gt;PorterdではWorkFlowyのデータを一旦Markdownへ変換してから、&lt;a href=&#34;https://github.com/chjj/marked&#34;&gt;marked&lt;/a&gt;
+というライブラリでHTMLに変換しています。&lt;/p&gt;
+&lt;p&gt;Markedは&lt;a href=&#34;https://help.github.com/articles/working-with-advanced-formatting/&#34;&gt;GFM(GitHub Flavored Markdown)&lt;/a&gt;
+と呼ばれる、拡張されたMarkdowをサポートしているので、&lt;strong&gt;Porter単体でGFMからHTMLへ変換&lt;/strong&gt;できるという隠れ機能？があります。&lt;/p&gt;
+&lt;p&gt;これにより、&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;span
+id=&#34;6d4e&#34;&gt;WorkFlowyで文書を作成(書き上げるまではマークアップのことは気にしない）&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;7c43&#34;&gt;意図したMarkdownになるよう多少の修正&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;d4db&#34;&gt;PorterでHTMLをエクスポート&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;c0b6&#34;&gt;Wordpressの投稿画面へペーストして公開&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;というワークフローが可能になります。&lt;/p&gt;
+&lt;p&gt;実際、&lt;strong&gt;この記事自体もこのワークフローで書きました&lt;/strong&gt;。WorkFlowyのアウトラインを下記で公開していますので、興味のある方はご覧ください。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span
+id=&#34;eb70&#34;&gt;&lt;a href=&#34;https://workflowy.com/s/lCwjoKN3Xz&#34;&gt;https://workflowy.com/s/lCwjoKN3Xz&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;markdowngfmを意識した文書作成のポイント&#34;&gt;Markdown(GFM)を意識した文書作成のポイント&lt;/h4&gt;
+&lt;p&gt;では、WorkFlowy+Porterで「意図したMarkdownになるよう多少の修正」する上で知っておくべきポイントをまとめます。&lt;/p&gt;
+&lt;h4 id=&#34;段落&#34;&gt;段落&lt;/h4&gt;
+&lt;p&gt;子トピックがいないトピックは段落として扱われます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/8W2tfR7ArFquTf.png&#34; alt=&#34;/images/8W2tfR7ArFquTf.png&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;リスト新仕様&#34;&gt;リスト(新仕様)&lt;/h4&gt;
+&lt;p&gt;先頭が「*」または「+」または「-」で始まり、1つ以上のスペースがあるトピックは、リストとして出力されます。&lt;/p&gt;
+&lt;p&gt;トピックのレベル（インデント）でリストをネストすることができます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/BgbUIHoOa8uKaj.png&#34; alt=&#34;/images/BgbUIHoOa8uKaj.png&#34;&gt;
+と書くと以下のようになります。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span id=&#34;29eb&#34;&gt;リスト1&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;6b79&#34;&gt;リスト1–1&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;4f86&#34;&gt;リスト1–2&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;ed25&#34;&gt;リスト1–2–1&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;19c6&#34;&gt;リスト1–3&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;7852&#34;&gt;リスト2&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;番号付きリスト新仕様&#34;&gt;番号付きリスト(新仕様)&lt;/h4&gt;
+&lt;p&gt;先頭が数字で始まり、数字が続いた後にスペースがあるトピックは、リストとして出力されます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/A3qgK214quHBRU.png&#34; alt=&#34;/images/A3qgK214quHBRU.png&#34;&gt;
+と書くと以下のようになります。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;span id=&#34;b2af&#34;&gt;横浜市&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;a758&#34;&gt;横浜FC&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;28f8&#34;&gt;YSCC&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;989a&#34;&gt;横浜Fマリノス&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;引用新仕様&#34;&gt;引用(新仕様)&lt;/h4&gt;
+&lt;p&gt;先頭が「&amp;gt;」で始まるトピックは引用になります。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/j55D7LFT3T3L5d.png&#34; alt=&#34;/images/j55D7LFT3T3L5d.png&#34;&gt;
+というトピックは、以下のようになります。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;You can’t connect the dots looking forward; you can only connect them
 looking backwards. So you have to trust that the dots will somehow
-connect in your future.&lt;br>
-&lt;strong>Steve Jobs&lt;/strong>&lt;/p>
-&lt;/blockquote>
-&lt;h4 id="テーブル新仕様">テーブル(新仕様)&lt;/h4>
-&lt;p>GFM構文でテーブルを記述できます。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/VzAKNLPaPRQ16N.png" alt="/images/VzAKNLPaPRQ16N.png">
-と書くと以下のようになります。&lt;/p>
-&lt;p>header1header2header3align leftalign rightalign centerabc&lt;/p>
-&lt;p>行数が多い場合はノートに記述したほうがよいかもしれません。&lt;/p>
-&lt;p>以上、WorkFlowy+PorterでMarkdown/HTMLの文書を作成するときのポイントでした。&lt;/p>
-&lt;h4 id="よく使うであろうmarkdown記法">よく使う(であろう)Markdown記法&lt;/h4>
-&lt;p>以下によく使うと思われる記法をまとめておきます。&lt;/p>
-&lt;h4 id="リンク">リンク&lt;/h4>
-&lt;p>リンクしたいテキストを半角 [] で囲み、それに続く半角 ()
-にリンク先URLを書くとリンクになります。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/2snwe1odEL-jYo.png" alt="/images/2snwe1odEL-jYo.png">
-と書くと以下のようになります。&lt;/p>
-&lt;p>ウェブ関連技術の標準化は
-&lt;a href="http://www.w3.org/">World Wide Web Consortium (W3C)&lt;/a>
-などによって行われています。&lt;/p>
-&lt;p>URLを記述するだけで自動的にリンクになります。&lt;a href="http://namaraii.com/">http://namaraii.com/&lt;/a>&lt;/p>
-&lt;h4 id="画像">画像&lt;/h4>
-&lt;p>リンクと似ていますが、先頭を!で開始して、&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/onxYtN6vWxmAD5.png" alt="/images/onxYtN6vWxmAD5.png">
-のように書くと画像の参照になります。&lt;/p>
-&lt;h4 id="強調">強調&lt;/h4>
-&lt;p>&lt;em>強調したい文字&lt;/em>を「*」で囲むと、強調になります。&lt;/p>
-&lt;p>&lt;strong>さらに強い強調&lt;/strong>をしたい場合「**」で囲みます。&lt;/p>
-&lt;h4 id="水平線">水平線&lt;/h4>
-&lt;p>トピックの先頭から「*」か「-」を3つ以上書くと水平線になります。&lt;/p>
-&lt;hr>
-&lt;h4 id="取り消し線">取り消し線&lt;/h4>
-&lt;p>「~」2個で囲んだ文字は取り消し線が設定されます。&lt;/p>
-&lt;h4 id="コードの引用">コードの引用&lt;/h4>
-&lt;p>先頭にチルダ3つ書き、後ろに対象シンタックスの言語名を記述します。&lt;/p>
-&lt;p>コードをはさみ最後をチルダ3つで閉じます。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/qSP-MoRwzZwrJi.png" alt="/images/qSP-MoRwzZwrJi.png">
-と書くと、以下のようなHTMLが生成されます。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/Ei0MamffG70kmF.png" alt="/images/Ei0MamffG70kmF.png">
-トピックにも書けますが、コードはノートに書いたほうが良いと思います。&lt;/p>
-&lt;h4 id="廃止予定の機能">廃止予定の機能&lt;/h4>
-&lt;p>リスト出力の強化に伴い、出力モード(Headings/Bulleted/Numbers)は廃止する予定です。これに伴いエクスポートの際は、&lt;/p>
-&lt;ul>
-&lt;li>&lt;span id="92e1">Markdown/HTMLのどちらで出力するか&lt;/span>&lt;/li>
-&lt;li>&lt;span id="af98">ノートの出力要否&lt;/span>&lt;/li>
-&lt;/ul>
-&lt;p>を指定するだけになり、よりシンプルでわかりやすくなると考えています。&lt;/p></description></item><item><title>Porter for WorkFlowy 1.1をリリースしました</title><link>https://namaraii.com/post/2016/20160205_porterforworkflowy1115989a4e1cb5/</link><pubDate>Fri, 05 Feb 2016 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2016/20160205_porterforworkflowy1115989a4e1cb5/</guid><description>
-&lt;p>アウトライナー&lt;a href="https://workflowy.com/">WorkFlowy&lt;/a>
+connect in your future.&lt;br&gt;
+&lt;strong&gt;Steve Jobs&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;テーブル新仕様&#34;&gt;テーブル(新仕様)&lt;/h4&gt;
+&lt;p&gt;GFM構文でテーブルを記述できます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/VzAKNLPaPRQ16N.png&#34; alt=&#34;/images/VzAKNLPaPRQ16N.png&#34;&gt;
+と書くと以下のようになります。&lt;/p&gt;
+&lt;p&gt;header1header2header3align leftalign rightalign centerabc&lt;/p&gt;
+&lt;p&gt;行数が多い場合はノートに記述したほうがよいかもしれません。&lt;/p&gt;
+&lt;p&gt;以上、WorkFlowy+PorterでMarkdown/HTMLの文書を作成するときのポイントでした。&lt;/p&gt;
+&lt;h4 id=&#34;よく使うであろうmarkdown記法&#34;&gt;よく使う(であろう)Markdown記法&lt;/h4&gt;
+&lt;p&gt;以下によく使うと思われる記法をまとめておきます。&lt;/p&gt;
+&lt;h4 id=&#34;リンク&#34;&gt;リンク&lt;/h4&gt;
+&lt;p&gt;リンクしたいテキストを半角 [] で囲み、それに続く半角 ()
+にリンク先URLを書くとリンクになります。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/2snwe1odEL-jYo.png&#34; alt=&#34;/images/2snwe1odEL-jYo.png&#34;&gt;
+と書くと以下のようになります。&lt;/p&gt;
+&lt;p&gt;ウェブ関連技術の標準化は
+&lt;a href=&#34;http://www.w3.org/&#34;&gt;World Wide Web Consortium (W3C)&lt;/a&gt;
+などによって行われています。&lt;/p&gt;
+&lt;p&gt;URLを記述するだけで自動的にリンクになります。&lt;a href=&#34;http://namaraii.com/&#34;&gt;http://namaraii.com/&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;画像&#34;&gt;画像&lt;/h4&gt;
+&lt;p&gt;リンクと似ていますが、先頭を!で開始して、&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/onxYtN6vWxmAD5.png&#34; alt=&#34;/images/onxYtN6vWxmAD5.png&#34;&gt;
+のように書くと画像の参照になります。&lt;/p&gt;
+&lt;h4 id=&#34;強調&#34;&gt;強調&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;強調したい文字&lt;/em&gt;を「*」で囲むと、強調になります。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;さらに強い強調&lt;/strong&gt;をしたい場合「**」で囲みます。&lt;/p&gt;
+&lt;h4 id=&#34;水平線&#34;&gt;水平線&lt;/h4&gt;
+&lt;p&gt;トピックの先頭から「*」か「-」を3つ以上書くと水平線になります。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;取り消し線&#34;&gt;取り消し線&lt;/h4&gt;
+&lt;p&gt;「~」2個で囲んだ文字は取り消し線が設定されます。&lt;/p&gt;
+&lt;h4 id=&#34;コードの引用&#34;&gt;コードの引用&lt;/h4&gt;
+&lt;p&gt;先頭にチルダ3つ書き、後ろに対象シンタックスの言語名を記述します。&lt;/p&gt;
+&lt;p&gt;コードをはさみ最後をチルダ3つで閉じます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/qSP-MoRwzZwrJi.png&#34; alt=&#34;/images/qSP-MoRwzZwrJi.png&#34;&gt;
+と書くと、以下のようなHTMLが生成されます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/Ei0MamffG70kmF.png&#34; alt=&#34;/images/Ei0MamffG70kmF.png&#34;&gt;
+トピックにも書けますが、コードはノートに書いたほうが良いと思います。&lt;/p&gt;
+&lt;h4 id=&#34;廃止予定の機能&#34;&gt;廃止予定の機能&lt;/h4&gt;
+&lt;p&gt;リスト出力の強化に伴い、出力モード(Headings/Bulleted/Numbers)は廃止する予定です。これに伴いエクスポートの際は、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span id=&#34;92e1&#34;&gt;Markdown/HTMLのどちらで出力するか&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;af98&#34;&gt;ノートの出力要否&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;を指定するだけになり、よりシンプルでわかりやすくなると考えています。&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Porter for WorkFlowy 1.1をリリースしました</title>
+      <link>https://namaraii.com/post/2016/20160205_porterforworkflowy1115989a4e1cb5/</link>
+      <pubDate>Fri, 05 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2016/20160205_porterforworkflowy1115989a4e1cb5/</guid>
+      <description>
+        
+          &lt;p&gt;アウトライナー&lt;a href=&#34;https://workflowy.com/&#34;&gt;WorkFlowy&lt;/a&gt;
 の機能を拡張するGoogle
-Chrome拡張&lt;a href="https://chrome.google.com/webstore/detail/porter-for-workflowy/jbcgipgkafpibecoejadaebkkbjnbcaj">Porter for WorkFlowy&lt;/a>
-のバージョン1.1を公開しました。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/O5qevjW4Mqc1_s.png" alt="/images/O5qevjW4Mqc1_s.png">
-前バージョンの1.0は、WorkFlowyのアウトラインをMarkdown、またはHTMLでエクスポートするシンプルなChrome拡張でしたが、今回はすこし趣の異なる機能を盛り込んでいます。&lt;/p>
-&lt;h4 id="テーマ機能">テーマ機能&lt;/h4>
-&lt;p>オプション画面で「テーマ」を選ぶことで、WorkFlowyの見た目を変更することができます。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/L4Z-Y8EuMioB-p.png" alt="/images/L4Z-Y8EuMioB-p.png">
-テーマは&lt;a href="https://userstyles.org/styles/browse/workflowy">Workflowy themes and skins — userstyles.org&lt;/a>
-で公開されている、下記のものから選べます。&lt;/p>
-&lt;ul>
-&lt;li>&lt;span
-id="04a3">&lt;a href="https://userstyles.org/styles/123191/work-a-simpler-flowy-v2-0">Work a Simpler Flowy v2.0&lt;/a>&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="82ae">&lt;a href="https://userstyles.org/styles/103816/workflowy-com-clean-and-bright">workflowy.com — clean and bright&lt;/a>&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="bc0a">&lt;a href="https://userstyles.org/styles/111747/workflowy-for-writers">Workflowy for Writers&lt;/a>&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="ac3f">&lt;a href="https://userstyles.org/styles/108530/workflowy-monokai">Workflowy Monokai&lt;/a>&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="70ce">&lt;a href="https://userstyles.org/styles/118547/workflowy-itemized">Workflowy Itemized&lt;/a>&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="b579">&lt;a href="https://userstyles.org/styles/115738/workflowygiffmex">WorkFlowyGiffmex&lt;/a>&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="2f06">&lt;a href="https://userstyles.org/styles/100418/big-black-workflowy">Big Black Workflowy&lt;/a>&lt;/span>&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://namaraii.com/images/0UqlF_AsOhD3US.png" alt="/images/0UqlF_AsOhD3US.png">
+Chrome拡張&lt;a href=&#34;https://chrome.google.com/webstore/detail/porter-for-workflowy/jbcgipgkafpibecoejadaebkkbjnbcaj&#34;&gt;Porter for WorkFlowy&lt;/a&gt;
+のバージョン1.1を公開しました。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/O5qevjW4Mqc1_s.png&#34; alt=&#34;/images/O5qevjW4Mqc1_s.png&#34;&gt;
+前バージョンの1.0は、WorkFlowyのアウトラインをMarkdown、またはHTMLでエクスポートするシンプルなChrome拡張でしたが、今回はすこし趣の異なる機能を盛り込んでいます。&lt;/p&gt;
+&lt;h4 id=&#34;テーマ機能&#34;&gt;テーマ機能&lt;/h4&gt;
+&lt;p&gt;オプション画面で「テーマ」を選ぶことで、WorkFlowyの見た目を変更することができます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/L4Z-Y8EuMioB-p.png&#34; alt=&#34;/images/L4Z-Y8EuMioB-p.png&#34;&gt;
+テーマは&lt;a href=&#34;https://userstyles.org/styles/browse/workflowy&#34;&gt;Workflowy themes and skins — userstyles.org&lt;/a&gt;
+で公開されている、下記のものから選べます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span
+id=&#34;04a3&#34;&gt;&lt;a href=&#34;https://userstyles.org/styles/123191/work-a-simpler-flowy-v2-0&#34;&gt;Work a Simpler Flowy v2.0&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;82ae&#34;&gt;&lt;a href=&#34;https://userstyles.org/styles/103816/workflowy-com-clean-and-bright&#34;&gt;workflowy.com — clean and bright&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;bc0a&#34;&gt;&lt;a href=&#34;https://userstyles.org/styles/111747/workflowy-for-writers&#34;&gt;Workflowy for Writers&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;ac3f&#34;&gt;&lt;a href=&#34;https://userstyles.org/styles/108530/workflowy-monokai&#34;&gt;Workflowy Monokai&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;70ce&#34;&gt;&lt;a href=&#34;https://userstyles.org/styles/118547/workflowy-itemized&#34;&gt;Workflowy Itemized&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;b579&#34;&gt;&lt;a href=&#34;https://userstyles.org/styles/115738/workflowygiffmex&#34;&gt;WorkFlowyGiffmex&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;2f06&#34;&gt;&lt;a href=&#34;https://userstyles.org/styles/100418/big-black-workflowy&#34;&gt;Big Black Workflowy&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/0UqlF_AsOhD3US.png&#34; alt=&#34;/images/0UqlF_AsOhD3US.png&#34;&gt;
 Porterのデフォルトテーマも作ってみました。（お気にいりのWork a
 Simpler
-Flowyをベースに、彩郎さんの三色ボールペンWorkFlowyを参考にした蛍光ペンスタイル追加など）&lt;/p>
-&lt;p>▼&lt;a href="http://www.tjsg-kokoro.com/2015/07/27/kai-3colors/">改・WorkFlowyで「三色ボールペン方式」&lt;/a>&lt;/p>
-&lt;p>テーマを選択するコンボボックスから「CUSTOM」を選ぶと、エディタ画面が表示され、これらのビルトインテーマを使わずにオリジナルのCSSを書くこともできます。&lt;/p>
-&lt;p>テーマ適用後、WorkFlowyのタブをリロードすると有効になります。&lt;/p>
-&lt;p>オリジナルのCSSを作られていて、取り込んでもいいよと言う方がいらっしゃいましたら&lt;a href="https://twitter.com/htakeuchi">@htakeuchi&lt;/a>
-までメンション飛ばしてください。&lt;/p>
-&lt;h4 id="文字数のカウント">文字数のカウント&lt;/h4>
-&lt;p>（ほぼ）リアルタイムに文字数をカウントする機能を追加しました。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/6m5lc0VYohTcJL.png" alt="/images/6m5lc0VYohTcJL.png">
-この機能はマロ。さんの&lt;a href="https://note.mu/maro_draft/n/n6487afd187c0">WorkFlowyの文字数カウントブックマークレット&lt;/a>
-とtakasekさんの&lt;a href="https://gist.github.com/takasek/cafee5c07da759f76f9e">Text counter for WorkFlowy&lt;/a>
-にインスパイアされて実装しました。かなりの部分を参考にさせていただき、お二人に感謝です。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/h_LBGcIIS8OeTZ.png" alt="/images/h_LBGcIIS8OeTZ.png">&lt;/p>
-&lt;h4 id="その他の機能">その他の機能&lt;/h4>
-&lt;p>エクスポート時にノートを出力するかどうかを選択できるようにしました。ノートは見出しにはならず、パラグラフとして出力します。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/CWFe8a5eOeC_wW.png" alt="/images/CWFe8a5eOeC_wW.png">
-あと、機能というほどではありませんが、エクスポートダイアログの上部にエクスポートしたトピックのタイトル、URLをMarkdown形式で表示するようにしました。&lt;/p>
-&lt;p>リンクを他のドキュメントで使いたい時などにどうぞ。&lt;/p>
-&lt;p>▼&lt;a href="https://chrome.google.com/webstore/detail/porter-for-workflowy/jbcgipgkafpibecoejadaebkkbjnbcaj">Porter for WorkFlowy&lt;/a>&lt;/p></description></item><item><title>WorkFlowyのデータへアクセスする非公式API</title><link>https://namaraii.com/post/2016/20160204_workflowyapi5cddc517e98b/</link><pubDate>Thu, 04 Feb 2016 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2016/20160204_workflowyapi5cddc517e98b/</guid><description>
-&lt;p>WorkFlowyのAPI公開を望んでいる人は多いと思うんですけど、なかなか公開されませんねぇ。&lt;/p>
-&lt;p>GitHubには待ちきれなかった人たちの、オレオレAPIがいくつかあります。&lt;/p>
-&lt;ul>
-&lt;li>&lt;span
-id="f0ce">&lt;a href="https://github.com/cotto/www-workflowy">cotto/www-workflowy: unofficial reverse-engineered Perl 5 interface to Workflowy&lt;/a>&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="f50e">&lt;a href="https://github.com/EcmaXp/wfapi">EcmaXp/wfapi: Workflowy API for Python&lt;/a>&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="6243">&lt;a href="https://github.com/johansatge/workflowy-php">johansatge/workflowy-php: An unofficial WorkFlowy API written in PHP.&lt;/a>&lt;/span>&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://namaraii.com/images/lYb31YcpnBr6QL.jpg" alt="/images/lYb31YcpnBr6QL.jpg">
-photo by Hitoshi TAKEUCHI&lt;/p>
-&lt;p>RICOH IMAGING COMPANY, LTD. GR, 18.3 mm, f2.8, ISO 100, 1/100sec, 0EV,
-GR Firmware Ver 03.00&lt;br>
+Flowyをベースに、彩郎さんの三色ボールペンWorkFlowyを参考にした蛍光ペンスタイル追加など）&lt;/p&gt;
+&lt;p&gt;▼&lt;a href=&#34;http://www.tjsg-kokoro.com/2015/07/27/kai-3colors/&#34;&gt;改・WorkFlowyで「三色ボールペン方式」&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;テーマを選択するコンボボックスから「CUSTOM」を選ぶと、エディタ画面が表示され、これらのビルトインテーマを使わずにオリジナルのCSSを書くこともできます。&lt;/p&gt;
+&lt;p&gt;テーマ適用後、WorkFlowyのタブをリロードすると有効になります。&lt;/p&gt;
+&lt;p&gt;オリジナルのCSSを作られていて、取り込んでもいいよと言う方がいらっしゃいましたら&lt;a href=&#34;https://twitter.com/htakeuchi&#34;&gt;@htakeuchi&lt;/a&gt;
+までメンション飛ばしてください。&lt;/p&gt;
+&lt;h4 id=&#34;文字数のカウント&#34;&gt;文字数のカウント&lt;/h4&gt;
+&lt;p&gt;（ほぼ）リアルタイムに文字数をカウントする機能を追加しました。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/6m5lc0VYohTcJL.png&#34; alt=&#34;/images/6m5lc0VYohTcJL.png&#34;&gt;
+この機能はマロ。さんの&lt;a href=&#34;https://note.mu/maro_draft/n/n6487afd187c0&#34;&gt;WorkFlowyの文字数カウントブックマークレット&lt;/a&gt;
+とtakasekさんの&lt;a href=&#34;https://gist.github.com/takasek/cafee5c07da759f76f9e&#34;&gt;Text counter for WorkFlowy&lt;/a&gt;
+にインスパイアされて実装しました。かなりの部分を参考にさせていただき、お二人に感謝です。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/h_LBGcIIS8OeTZ.png&#34; alt=&#34;/images/h_LBGcIIS8OeTZ.png&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;その他の機能&#34;&gt;その他の機能&lt;/h4&gt;
+&lt;p&gt;エクスポート時にノートを出力するかどうかを選択できるようにしました。ノートは見出しにはならず、パラグラフとして出力します。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/CWFe8a5eOeC_wW.png&#34; alt=&#34;/images/CWFe8a5eOeC_wW.png&#34;&gt;
+あと、機能というほどではありませんが、エクスポートダイアログの上部にエクスポートしたトピックのタイトル、URLをMarkdown形式で表示するようにしました。&lt;/p&gt;
+&lt;p&gt;リンクを他のドキュメントで使いたい時などにどうぞ。&lt;/p&gt;
+&lt;p&gt;▼&lt;a href=&#34;https://chrome.google.com/webstore/detail/porter-for-workflowy/jbcgipgkafpibecoejadaebkkbjnbcaj&#34;&gt;Porter for WorkFlowy&lt;/a&gt;&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>WorkFlowyのデータへアクセスする非公式API</title>
+      <link>https://namaraii.com/post/2016/20160204_workflowyapi5cddc517e98b/</link>
+      <pubDate>Thu, 04 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2016/20160204_workflowyapi5cddc517e98b/</guid>
+      <description>
+        
+          &lt;p&gt;WorkFlowyのAPI公開を望んでいる人は多いと思うんですけど、なかなか公開されませんねぇ。&lt;/p&gt;
+&lt;p&gt;GitHubには待ちきれなかった人たちの、オレオレAPIがいくつかあります。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span
+id=&#34;f0ce&#34;&gt;&lt;a href=&#34;https://github.com/cotto/www-workflowy&#34;&gt;cotto/www-workflowy: unofficial reverse-engineered Perl 5 interface to Workflowy&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;f50e&#34;&gt;&lt;a href=&#34;https://github.com/EcmaXp/wfapi&#34;&gt;EcmaXp/wfapi: Workflowy API for Python&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;6243&#34;&gt;&lt;a href=&#34;https://github.com/johansatge/workflowy-php&#34;&gt;johansatge/workflowy-php: An unofficial WorkFlowy API written in PHP.&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/lYb31YcpnBr6QL.jpg&#34; alt=&#34;/images/lYb31YcpnBr6QL.jpg&#34;&gt;
+photo by Hitoshi TAKEUCHI&lt;/p&gt;
+&lt;p&gt;RICOH IMAGING COMPANY, LTD. GR, 18.3 mm, f2.8, ISO 100, 1/100sec, 0EV,
+GR Firmware Ver 03.00&lt;br&gt;
 generated by
-&lt;a href="https://itunes.apple.com/jp/app/flickurl/id817330241?mt=8">FlickURL&lt;/a>&lt;/p>
-&lt;p>最近、&lt;a href="https://chrome.google.com/webstore/detail/workflowy-clipper/pmolhkonbppmihdpjmgclnclfppjndom">WorkFlowy clipper&lt;/a>
-というChrome拡張を知りました。&lt;/p>
-&lt;p>WorkFlowy
-clipperは開いているWebページのタイトルとURLを、あらかじめ設定しておいたWorkFlowyのトピック配下へクリップできるChrome拡張です。&lt;/p>
-&lt;p>下記でソースコードが公開されていたので、ざっと読んでみました。&lt;/p>
-&lt;ul>
-&lt;li>&lt;span
-id="36fa">&lt;a href="https://github.com/rosulek/workflowy-clipper">rosulek/workflowy-clipper: WorkFlowy clipper: Chrome extension&lt;/a>&lt;/span>&lt;/li>
-&lt;/ul>
-&lt;p>Chrome拡張であることを活かし、認証周りはさくっと省略。&lt;br>
-&lt;a href="https://workflowy.com/get_initialization_data?client_version=15">https://workflowy.com/get_initialization_data?client_version=15&lt;/a>
-をGETして得られた情報をローカルストレージに保存して使い回すという、うまい作りになっていました。&lt;/p>
-&lt;p>トピックの追加周りの処理を含め参考になりました。&lt;/p>
-&lt;p>非公式なAPIで更新系の処理を行うのは、ちょっとためらわれますが、Chrome拡張のPage
-Actionと組み合わせれば、おもしろいことができるかも…と妄想が広がります。&lt;/p>
-&lt;p>あと、WorkFlowyってOPMLのペーストに対応しているんですね。例えば、&lt;/p>
-&lt;p>[html]&lt;br>
-&amp;lt;opml&amp;gt;&lt;br>
- &amp;lt;body&amp;gt;&lt;br>
- &amp;lt;outline text=”Google” _note=”https://www.google.co.jp/ “ /&amp;gt;&lt;br>
- &amp;lt;/body&amp;gt;&lt;br>
-&amp;lt;/opml&amp;gt;&lt;br>
-[/html]&lt;/p>
-&lt;p>というテキストがクリップボードにある状態でWorkFlowyへペーストすると、Googleがトピックに、https://www.google.co.jp/
-がノートへ追加されます。&lt;/p>
-&lt;p>細かなところまで作りこまれてますね。&lt;/p></description></item><item><title>WorkFlowyをMarkdown/HTMLへ変換するChrome拡張 — Porter for WorkFlowy</title><link>https://namaraii.com/post/2016/20160201_workflowymarkdownhtmlchromeporterforworkflowyaad4ba38c902/</link><pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2016/20160201_workflowymarkdownhtmlchromeporterforworkflowyaad4ba38c902/</guid><description>
-&lt;p>&lt;img src="https://namaraii.com/images/VuT1T6ExXaXiRq.png" alt="/images/VuT1T6ExXaXiRq.png">&lt;/p>
-&lt;h4 id="はじめに">はじめに&lt;/h4>
-&lt;p>ここ1年ほど&lt;a href="https://workflowy.com/">WorkFlowy&lt;/a>WorkFlowyというアウトライナーを文章や議事録の作成、ひとりブレストなどに使っています。&lt;/p>
-&lt;p>操作性が良く動作も快適で、年間約$50のプロアカウントにしたほど気に入っているのですが、作ったデータを他のアプリで使おうとした場合、標準ではOPML/Plain
-Text/Formattedのいずれかのフォーマットでしかエクスポートできません。&lt;/p>
-&lt;p>個人的にMarkdownやHTMLで出力したいことが多く、WorkFlowyのアウトラインをMarkdownとHTMLで出力するChrome拡張を作りました。&lt;/p>
-&lt;h4 id="porter-for-workflowy">Porter for WorkFlowy&lt;/h4>
-&lt;h4 id="使い方">使い方&lt;/h4>
-&lt;p>&lt;a href="https://chrome.google.com/webstore/detail/porter-for-workflowy/jbcgipgkafpibecoejadaebkkbjnbcaj">Chromeウェブストア&lt;/a>からChrome拡張をインストールします。&lt;/p>
-&lt;p>WorkFlowyでエクスポートしたいノードにズームインします。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/3cYth0AdI8jJBL.png" alt="/images/3cYth0AdI8jJBL.png">
+&lt;a href=&#34;https://itunes.apple.com/jp/app/flickurl/id817330241?mt=8&#34;&gt;FlickURL&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;最近、&lt;a href=&#34;https://chrome.google.com/webstore/detail/workflowy-clipper/pmolhkonbppmihdpjmgclnclfppjndom&#34;&gt;WorkFlowy clipper&lt;/a&gt;
+というChrome拡張を知りました。&lt;/p&gt;
+&lt;p&gt;WorkFlowy
+clipperは開いているWebページのタイトルとURLを、あらかじめ設定しておいたWorkFlowyのトピック配下へクリップできるChrome拡張です。&lt;/p&gt;
+&lt;p&gt;下記でソースコードが公開されていたので、ざっと読んでみました。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span
+id=&#34;36fa&#34;&gt;&lt;a href=&#34;https://github.com/rosulek/workflowy-clipper&#34;&gt;rosulek/workflowy-clipper: WorkFlowy clipper: Chrome extension&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Chrome拡張であることを活かし、認証周りはさくっと省略。&lt;br&gt;
+&lt;a href=&#34;https://workflowy.com/get_initialization_data?client_version=15&#34;&gt;https://workflowy.com/get_initialization_data?client_version=15&lt;/a&gt;
+をGETして得られた情報をローカルストレージに保存して使い回すという、うまい作りになっていました。&lt;/p&gt;
+&lt;p&gt;トピックの追加周りの処理を含め参考になりました。&lt;/p&gt;
+&lt;p&gt;非公式なAPIで更新系の処理を行うのは、ちょっとためらわれますが、Chrome拡張のPage
+Actionと組み合わせれば、おもしろいことができるかも…と妄想が広がります。&lt;/p&gt;
+&lt;p&gt;あと、WorkFlowyってOPMLのペーストに対応しているんですね。例えば、&lt;/p&gt;
+&lt;p&gt;[html]&lt;br&gt;
+&amp;lt;opml&amp;gt;&lt;br&gt;
+ &amp;lt;body&amp;gt;&lt;br&gt;
+ &amp;lt;outline text=”Google” _note=”https://www.google.co.jp/ “ /&amp;gt;&lt;br&gt;
+ &amp;lt;/body&amp;gt;&lt;br&gt;
+&amp;lt;/opml&amp;gt;&lt;br&gt;
+[/html]&lt;/p&gt;
+&lt;p&gt;というテキストがクリップボードにある状態でWorkFlowyへペーストすると、Googleがトピックに、https://www.google.co.jp/
+がノートへ追加されます。&lt;/p&gt;
+&lt;p&gt;細かなところまで作りこまれてますね。&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>WorkFlowyをMarkdown/HTMLへ変換するChrome拡張 — Porter for WorkFlowy</title>
+      <link>https://namaraii.com/post/2016/20160201_workflowymarkdownhtmlchromeporterforworkflowyaad4ba38c902/</link>
+      <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2016/20160201_workflowymarkdownhtmlchromeporterforworkflowyaad4ba38c902/</guid>
+      <description>
+        
+          &lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/VuT1T6ExXaXiRq.png&#34; alt=&#34;/images/VuT1T6ExXaXiRq.png&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;はじめに&#34;&gt;はじめに&lt;/h4&gt;
+&lt;p&gt;ここ1年ほど&lt;a href=&#34;https://workflowy.com/&#34;&gt;WorkFlowy&lt;/a&gt;WorkFlowyというアウトライナーを文章や議事録の作成、ひとりブレストなどに使っています。&lt;/p&gt;
+&lt;p&gt;操作性が良く動作も快適で、年間約$50のプロアカウントにしたほど気に入っているのですが、作ったデータを他のアプリで使おうとした場合、標準ではOPML/Plain
+Text/Formattedのいずれかのフォーマットでしかエクスポートできません。&lt;/p&gt;
+&lt;p&gt;個人的にMarkdownやHTMLで出力したいことが多く、WorkFlowyのアウトラインをMarkdownとHTMLで出力するChrome拡張を作りました。&lt;/p&gt;
+&lt;h4 id=&#34;porter-for-workflowy&#34;&gt;Porter for WorkFlowy&lt;/h4&gt;
+&lt;h4 id=&#34;使い方&#34;&gt;使い方&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;https://chrome.google.com/webstore/detail/porter-for-workflowy/jbcgipgkafpibecoejadaebkkbjnbcaj&#34;&gt;Chromeウェブストア&lt;/a&gt;からChrome拡張をインストールします。&lt;/p&gt;
+&lt;p&gt;WorkFlowyでエクスポートしたいノードにズームインします。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/3cYth0AdI8jJBL.png&#34; alt=&#34;/images/3cYth0AdI8jJBL.png&#34;&gt;
 アドレスバーに表示されているPorter for
-WorkFlowyのアイコンをクリックすると、ポップアップが開きます。&lt;/p>
-&lt;p>ポップアップ画面では出力フォーマット(Markdown/HTML)と出力モード(Heading/Bulleted/Numbers)を選択できます。（出力モードは後述します）&lt;/p>
-&lt;p>画面中のラジオボタンをクリックすると、テキストエリアに指定したフォーマット、出力タイプのテキストが表示されますのでコピペしてご利用ください。&lt;/p>
-&lt;h4 id="出力モードとは">出力モードとは&lt;/h4>
-&lt;p>出力モードにはHeading/Bulleted/Numbersがありますが、意味的にはHeadingとBulleted/Numbersの2パターンにわかれます。&lt;/p>
-&lt;h4 id="heading">Heading&lt;/h4>
-&lt;p>HeadingはWorkflowyでブログや技術系のメモなど、見出しつきの構造を持つ文章を作成することを想定したモードです。以下のルールでアウトラインを変換します。&lt;/p>
-&lt;ul>
-&lt;li>&lt;span id="aeb5">子供がいるノードは見出しに変換する。&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="cbe3">見出しのレベルはアウトラインの階層に応じて変換する。&lt;/span>&lt;/li>
-&lt;li>&lt;span id="dd99">子供がいないノードはそのまま出力&lt;/span>&lt;/li>
-&lt;/ul>
-&lt;p>いまいち、わかりにくいかもしれませんが、このブログエントリ自体もWorkflowyで作成し、PorterでHTMLへ変換しました。&lt;/p>
-&lt;p>&lt;a href="https://workflowy.com/s/lzXTU95lsT">こちらでアウトラインを公開しています&lt;/a>のでご参考まで。&lt;/p>
-&lt;h4 id="bulletednumbers">Bulleted/Numbers&lt;/h4>
-&lt;p>Bulleted/Numbersはすべてのノードをリスト要素として扱います。アウトラインの階層をそのままリストの階層に変換します。WorkFlowyで見たままの構造が出力されるイメージです。&lt;/p>
-&lt;p>Bulletedは番号なしリスト(HTMLではul、Markdownでは#)、Numbersは番号付きリスト(HTMLではol、Markdownでは1.)に変換します。&lt;/p>
-&lt;h4 id="注意事項">注意事項&lt;/h4>
-&lt;p>閉じているノードの配下は出力されません。&lt;/p>
-&lt;p>全てを出力したい場合は、WorkFlowy上ですべてのノードを開いてから、Porter
-for WorkFlowyを起動してください。&lt;/p>
-&lt;h4 id="おわりに">おわりに&lt;/h4>
-&lt;p>ソースコードは&lt;a href="https://github.com/htakeuchi/porter">htakeuchi/porter&lt;/a>で公開しています。&lt;/p>
-&lt;p>今回、必要にかられて初めてChrome
-Extensionを作りましたが、WorkFlowyのAPIが公開されればもっと面白いことができそうです。&lt;/p></description></item></channel></rss>
+WorkFlowyのアイコンをクリックすると、ポップアップが開きます。&lt;/p&gt;
+&lt;p&gt;ポップアップ画面では出力フォーマット(Markdown/HTML)と出力モード(Heading/Bulleted/Numbers)を選択できます。（出力モードは後述します）&lt;/p&gt;
+&lt;p&gt;画面中のラジオボタンをクリックすると、テキストエリアに指定したフォーマット、出力タイプのテキストが表示されますのでコピペしてご利用ください。&lt;/p&gt;
+&lt;h4 id=&#34;出力モードとは&#34;&gt;出力モードとは&lt;/h4&gt;
+&lt;p&gt;出力モードにはHeading/Bulleted/Numbersがありますが、意味的にはHeadingとBulleted/Numbersの2パターンにわかれます。&lt;/p&gt;
+&lt;h4 id=&#34;heading&#34;&gt;Heading&lt;/h4&gt;
+&lt;p&gt;HeadingはWorkflowyでブログや技術系のメモなど、見出しつきの構造を持つ文章を作成することを想定したモードです。以下のルールでアウトラインを変換します。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span id=&#34;aeb5&#34;&gt;子供がいるノードは見出しに変換する。&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;cbe3&#34;&gt;見出しのレベルはアウトラインの階層に応じて変換する。&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;dd99&#34;&gt;子供がいないノードはそのまま出力&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;いまいち、わかりにくいかもしれませんが、このブログエントリ自体もWorkflowyで作成し、PorterでHTMLへ変換しました。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://workflowy.com/s/lzXTU95lsT&#34;&gt;こちらでアウトラインを公開しています&lt;/a&gt;のでご参考まで。&lt;/p&gt;
+&lt;h4 id=&#34;bulletednumbers&#34;&gt;Bulleted/Numbers&lt;/h4&gt;
+&lt;p&gt;Bulleted/Numbersはすべてのノードをリスト要素として扱います。アウトラインの階層をそのままリストの階層に変換します。WorkFlowyで見たままの構造が出力されるイメージです。&lt;/p&gt;
+&lt;p&gt;Bulletedは番号なしリスト(HTMLではul、Markdownでは#)、Numbersは番号付きリスト(HTMLではol、Markdownでは1.)に変換します。&lt;/p&gt;
+&lt;h4 id=&#34;注意事項&#34;&gt;注意事項&lt;/h4&gt;
+&lt;p&gt;閉じているノードの配下は出力されません。&lt;/p&gt;
+&lt;p&gt;全てを出力したい場合は、WorkFlowy上ですべてのノードを開いてから、Porter
+for WorkFlowyを起動してください。&lt;/p&gt;
+&lt;h4 id=&#34;おわりに&#34;&gt;おわりに&lt;/h4&gt;
+&lt;p&gt;ソースコードは&lt;a href=&#34;https://github.com/htakeuchi/porter&#34;&gt;htakeuchi/porter&lt;/a&gt;で公開しています。&lt;/p&gt;
+&lt;p&gt;今回、必要にかられて初めてChrome
+Extensionを作りましたが、WorkFlowyのAPIが公開されればもっと面白いことができそうです。&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,84 +1,78 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Boox Note Air on namaraii.com</title><link>https://namaraii.com/tags/boox-note-air/</link><description>Recent content in Boox Note Air on namaraii.com</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright><lastBuildDate>Fri, 15 Jan 2021 21:23:18 +0900</lastBuildDate><atom:link href="https://namaraii.com/tags/boox-note-air/index.xml" rel="self" type="application/rss+xml"/><item><title>E Inkな大型読書端末としてのBoox Note Air</title><link>https://namaraii.com/post/2021/boox-note-air/</link><pubDate>Fri, 15 Jan 2021 21:23:18 +0900</pubDate><guid>https://namaraii.com/post/2021/boox-note-air/</guid><description>
-&lt;p>Kindle本や自炊した書籍を読むための端末として、Android E inkタブレットBoox Note Airを導入して、１ヶ月ほど運用したので感想を記しておきます。&lt;/p>
-&lt;div class="amazon-widget">
-&lt;a target="_blank" href="https://www.amazon.co.jp/gp/product/B08H83GCBT/?tag=namaraiicom-22">&lt;/a>
-&lt;div class="amazon-widget-img">
-&lt;img src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;MarketPlace=JP&amp;ASIN=B08H83GCBT&amp;ServiceVersion=20070822&amp;ID=AsinImage&amp;WS=1&amp;Format=_SL350_&amp;tag=namaraiicom-22" />
-&lt;/div>
-&lt;div class="amazon-widget-info">
-&lt;span class="amazon-widget-title">
-BOOX Note Air 10.3 インチE Ink,電子ペーパー,Android,タブレット
-&lt;/span>
-&lt;span class="amazon-widget-via">
-&lt;img src="https://www.amazon.co.jp/favicon.ico" />
-amazon.co.jp
-&lt;/span>
-&lt;/div>
-&lt;/div>
-&lt;h3 id="なぜ導入したのか">なぜ導入したのか？&lt;/h3>
-&lt;p>電子ペーパーは液晶と比較して目が疲れにくいため、ここ数年はなるべくKindle Oasisを使うようにしていたのですが、技術書や雑誌、仕事の資料（PDF）など大版の読み物だとディスプレイサイズ的に厳しく、それらはやむなく11インチiPad Proで読んでたんですよね。&lt;/p>
-&lt;p>大型のKindleがあればよかったのですが、2010年にでた9.7インチのKindle DXが商業的にうまくいかなかったのか、その後、後継機がでる気配もないため、読書のE Ink率を高めるべくBoox Note Airを導入した次第です。&lt;/p>
-&lt;h3 id="何が良いのか">何が良いのか？&lt;/h3>
-&lt;p>Boox Note Airの（私にとっての）価値は「大型(10.3インチ)のE Inkを搭載したAndorid端末である」ことに尽きます。&lt;/p>
-&lt;p>この手の端末は独自OSを採用していたり、LinuxやAndroidなどを採用していても、アプリのインストールができなかったり、機能制限されていたりなど、メーカーが想定した使い方しかできないケースが多いんですよね。&lt;/p>
-&lt;p>Boox Note AirはGoogle Playストアからアプリをインストールできて、それらをE Ink上で使用できる。もちろん、E Inkのレスポンスを考えると、あらゆるアプリを快適に使えるわけではないですが、本や雑誌、Webページをじっくりと読むような用途では快適です。&lt;/p>
-&lt;p>なお、デジタルノートとしてもかなりの可能性がありそうなのですが、私は読書端末としてしか使っていないため、ちゃんとしたレビューを読みたい場合は、&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://win-tab.net/android/boox_note_air_review_2010312/">BOOX Note Airの実機レビュー － 圧倒的な存在感！10.3インチ新世代電子ペーパータブレットは、デザインも機能も新たな段階へ&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://kimihiro-n.appspot.com/show/1604405111794">BOOX Note Airが想像の10倍以上使い勝手よかった&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>などをどうぞ。&lt;/p>
-&lt;h3 id="何をどんなアプリで読んでいるのか">何をどんなアプリで読んでいるのか？&lt;/h3>
-&lt;p>基本的にiPadで使っているアプリを、そのままBOOX Note Airへインストールして使っています。&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>対象&lt;/th>
-&lt;th>使用しているアプリ&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>PDF（技術書、自炊本、マニュアル・仕事の資料など）&lt;/td>
-&lt;td>&lt;a href="https://play.google.com/store/apps/details?id=jp.co.tokyo_ip.SideBooks">SideBooks&lt;/a>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>電子書籍&lt;/td>
-&lt;td>&lt;a href="https://play.google.com/store/apps/details?id=com.amazon.kindle">Kindle&lt;/a>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>雑誌&lt;/td>
-&lt;td>&lt;a href="https://play.google.com/store/apps/details?id=jp.co.rakuten.magazine">楽天マガジン&lt;/a>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>RSS Feed&lt;/td>
-&lt;td>&lt;a href="https://play.google.com/store/apps/details?id=com.instapaper.android">Instapaper&lt;/a> / &lt;a href="https://play.google.com/store/apps/details?id=com.devhd.feedly">Feedly&lt;/a>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>&lt;img src="image2.jpeg" alt="iPad Pro 11インチとBoox Note Airを並べてみた">&lt;/p>
-&lt;p>&lt;img src="image4.jpeg" alt="Kindleアプリでフィックス型の技術書を読む">&lt;/p>
-&lt;p>&lt;img src="image1.jpeg" alt="SideBooksで自炊した本(PDF)を読む">&lt;/p>
-&lt;p>&lt;img src="image3.jpeg" alt="FeedlyでRSSフィードを読む">&lt;/p>
-&lt;h3 id="結論">結論&lt;/h3>
-&lt;p>&lt;a href="https://kimihiro-n.appspot.com/show/1604405111794">BOOX Note Airが想像の10倍以上使い勝手よかった&lt;/a>に書かれている、&lt;/p>
-&lt;blockquote>
-&lt;p>目を疲れさせずに無限にテキストページ読めてしまうというのは恐ろしい魅力です。&lt;/p>
-&lt;/blockquote>
-&lt;p>に激しく同意です。&lt;/p>
-&lt;p>読書専用端末として考えると、ちょっと価格的には厳しいものがありますが、満足度はそうとう高いです。&lt;/p>
-&lt;div class="amazon-widget">
-&lt;a target="_blank" href="https://www.amazon.co.jp/gp/product/B08H83GCBT/?tag=namaraiicom-22">&lt;/a>
-&lt;div class="amazon-widget-img">
-&lt;img src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;MarketPlace=JP&amp;ASIN=B08H83GCBT&amp;ServiceVersion=20070822&amp;ID=AsinImage&amp;WS=1&amp;Format=_SL350_&amp;tag=namaraiicom-22" />
-&lt;/div>
-&lt;div class="amazon-widget-info">
-&lt;span class="amazon-widget-title">
-BOOX Note Air 10.3 インチE Ink,電子ペーパー,Android,タブレット
-&lt;/span>
-&lt;span class="amazon-widget-via">
-&lt;img src="https://www.amazon.co.jp/favicon.ico" />
-amazon.co.jp
-&lt;/span>
-&lt;/div>
-&lt;/div></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Boox Note Air on namaraii.com</title>
+    <link>https://namaraii.com/tags/boox-note-air/</link>
+    <description>Recent content in Boox Note Air on namaraii.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright>
+    <lastBuildDate>Fri, 15 Jan 2021 21:23:18 +0900</lastBuildDate><atom:link href="https://namaraii.com/tags/boox-note-air/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>E Inkな大型読書端末としてのBoox Note Air</title>
+      <link>https://namaraii.com/post/2021/boox-note-air/</link>
+      <pubDate>Fri, 15 Jan 2021 21:23:18 +0900</pubDate>
+      
+      <guid>https://namaraii.com/post/2021/boox-note-air/</guid>
+      <description>
+        
+          &lt;p&gt;Kindle本や自炊した書籍を読むための端末として、Android E inkタブレットBoox Note Airを導入して、１ヶ月ほど運用したので感想を記しておきます。&lt;/p&gt;
+&lt;iframe style=&#34;width:120px;height:240px;&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; src=&#34;//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;bc1=000000&amp;IS2=1&amp;bg1=FFFFFF&amp;fc1=000000&amp;lc1=0000FF&amp;t=namaraiicom-22&amp;language=ja_JP&amp;o=9&amp;p=8&amp;l=as4&amp;m=amazon&amp;f=ifr&amp;ref=as_ss_li_til&amp;asins=B08H83GCBT&amp;linkId=3ec5aa30869cbf5248a48919fe2e23bc&#34;&gt;&lt;/iframe&gt;
+&lt;h3 id=&#34;なぜ導入したのか&#34;&gt;なぜ導入したのか？&lt;/h3&gt;
+&lt;p&gt;電子ペーパーは液晶と比較して目が疲れにくいため、ここ数年はなるべくKindle Oasisを使うようにしていたのですが、技術書や雑誌、仕事の資料（PDF）など大版の読み物だとディスプレイサイズ的に厳しく、それらはやむなく11インチiPad Proで読んでたんですよね。&lt;/p&gt;
+&lt;p&gt;大型のKindleがあればよかったのですが、2010年にでた9.7インチのKindle DXが商業的にうまくいかなかったのか、その後、後継機がでる気配もないため、読書のE Ink率を高めるべくBoox Note Airを導入した次第です。&lt;/p&gt;
+&lt;h3 id=&#34;何が良いのか&#34;&gt;何が良いのか？&lt;/h3&gt;
+&lt;p&gt;Boox Note Airの（私にとっての）価値は「大型(10.3インチ)のE Inkを搭載したAndorid端末である」ことに尽きます。&lt;/p&gt;
+&lt;p&gt;この手の端末は独自OSを採用していたり、LinuxやAndroidなどを採用していても、アプリのインストールができなかったり、機能制限されていたりなど、メーカーが想定した使い方しかできないケースが多いんですよね。&lt;/p&gt;
+&lt;p&gt;Boox Note AirはGoogle Playストアからアプリをインストールできて、それらをE Ink上で使用できる。もちろん、E Inkのレスポンスを考えると、あらゆるアプリを快適に使えるわけではないですが、本や雑誌、Webページをじっくりと読むような用途では快適です。&lt;/p&gt;
+&lt;p&gt;なお、デジタルノートとしてもかなりの可能性がありそうなのですが、私は読書端末としてしか使っていないため、ちゃんとしたレビューを読みたい場合は、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://win-tab.net/android/boox_note_air_review_2010312/&#34;&gt;BOOX Note Airの実機レビュー － 圧倒的な存在感！10.3インチ新世代電子ペーパータブレットは、デザインも機能も新たな段階へ&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kimihiro-n.appspot.com/show/1604405111794&#34;&gt;BOOX Note Airが想像の10倍以上使い勝手よかった&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;などをどうぞ。&lt;/p&gt;
+&lt;h3 id=&#34;何をどんなアプリで読んでいるのか&#34;&gt;何をどんなアプリで読んでいるのか？&lt;/h3&gt;
+&lt;p&gt;基本的にiPadで使っているアプリを、そのままBOOX Note Airへインストールして使っています。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;対象&lt;/th&gt;
+&lt;th&gt;使用しているアプリ&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;PDF（技術書、自炊本、マニュアル・仕事の資料など）&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=jp.co.tokyo_ip.SideBooks&#34;&gt;SideBooks&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;電子書籍&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.amazon.kindle&#34;&gt;Kindle&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;雑誌&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=jp.co.rakuten.magazine&#34;&gt;楽天マガジン&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;RSS Feed&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.instapaper.android&#34;&gt;Instapaper&lt;/a&gt; / &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.devhd.feedly&#34;&gt;Feedly&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;img src=&#34;image2.jpeg&#34; alt=&#34;iPad Pro 11インチとBoox Note Airを並べてみた&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;image4.jpeg&#34; alt=&#34;Kindleアプリでフィックス型の技術書を読む&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;image1.jpeg&#34; alt=&#34;SideBooksで自炊した本(PDF)を読む&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;image3.jpeg&#34; alt=&#34;FeedlyでRSSフィードをを読む&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;結論&#34;&gt;結論&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://kimihiro-n.appspot.com/show/1604405111794&#34;&gt;BOOX Note Airが想像の10倍以上使い勝手よかった&lt;/a&gt;に書かれている、&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;目を疲れさせずに無限にテキストページ読めてしまうというのは恐ろしい魅力です。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;に激しく同意です。&lt;/p&gt;
+&lt;p&gt;読書専用端末として考えると、ちょっと価格的には厳しいものがありますが、満足度はそうとう高いです。&lt;/p&gt;
+&lt;iframe style=&#34;width:120px;height:240px;&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; src=&#34;//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;bc1=000000&amp;IS2=1&amp;bg1=FFFFFF&amp;fc1=000000&amp;lc1=0000FF&amp;t=namaraiicom-22&amp;language=ja_JP&amp;o=9&amp;p=8&amp;l=as4&amp;m=amazon&amp;f=ifr&amp;ref=as_ss_li_til&amp;asins=B08H83GCBT&amp;linkId=3ec5aa30869cbf5248a48919fe2e23bc&#34;&gt;&lt;/iframe&gt;
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

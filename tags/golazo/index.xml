@@ -1,54 +1,103 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>golazo on namaraii.com</title><link>https://namaraii.com/tags/golazo/</link><description>Recent content in golazo on namaraii.com</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright><lastBuildDate>Tue, 04 Sep 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://namaraii.com/tags/golazo/index.xml" rel="self" type="application/rss+xml"/><item><title>請求書・見積書作成サービスGolazoに領収書発行機能をサポートしました</title><link>https://namaraii.com/post/2012/20120904_golazo9faf955e0187/</link><pubDate>Tue, 04 Sep 2012 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2012/20120904_golazo9faf955e0187/</guid><description>
-&lt;p>&lt;a href="https://golazo.biz/">請求書・見積書作成サービスGolazo&lt;/a>へ新機能を追加しました。&lt;/p>
-&lt;p>(1) 領収書発行機能のサポート&lt;br>
-請求書一覧、請求書表示画面からワンクリックで対応する領収書を発行することができます。&lt;/p>
-&lt;p>(2) 帳票内の文字縮小機能のサポート&lt;br>
-お客様の住所、社名や品名、備考などが長くなってしまった場合、従来は一定の長さまでしか表示されませんでしたが、本バージョンからはフォントサイズが縮小され全てが収まるように表示されます。&lt;/p>
-&lt;p>この機能は、&lt;a href="http://www.thinreports.org/">ThinReports 0.7.5&lt;/a>でサポートされたオーバフロープロパティを使っています。&lt;br>
-以前、要望した機能を0.7.5で実装していただきました。感謝です！&lt;/p>
-&lt;p>Golazoは月に10通前後の請求書を発行するフリーランスの方に良くご利用いただいております。無料で全機能を使用できますので、お気軽にお試しください。&lt;/p></description></item><item><title>Golazoから請求書・見積書を直接メールできるようにしました</title><link>https://namaraii.com/post/2012/20120416_golazof79331c0eab6/</link><pubDate>Mon, 16 Apr 2012 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2012/20120416_golazof79331c0eab6/</guid><description>
-&lt;p>&lt;a href="https://golazo.biz/">請求書・見積書作成サービスGolazo&lt;/a>に新機能を追加しました。&lt;br>
-例によってとっても地味な機能です。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/fyLta0PP5snHAv.jpg" alt="/images/fyLta0PP5snHAv.jpg">&lt;/p>
-&lt;h4 id="メール送信機能">メール送信機能&lt;/h4>
-&lt;p>これまではGolazoで作成した請求書・見積書をメール送信するためにはPDFで保存し、メールソフトを立ち上げてメールに手動で添付する必要がありました。&lt;br>
-今回サポートした機能により、請求書・見積書作成後すぐにお客様へメールで送信することができます。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/tJZxxtL2GUGA7Y.jpg" alt="/images/tJZxxtL2GUGA7Y.jpg">&lt;/p>
-&lt;h4 id="メールテンプレート機能">メールテンプレート機能&lt;/h4>
-&lt;p>メール送信時の文面をテンプレートとして登録できる機能をサポートしました。&lt;br>
-これにより時間をかけずに、より簡単に請求書・見積書をメールで送信することができます。&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/mVj_8q7IdtaW4q.jpg" alt="/images/mVj_8q7IdtaW4q.jpg">
-テンプレート中では以下のキーワードを使って、各種の情報をメール中へ展開することができます。&lt;br>
-実際の使い方は、サンプルのテンプレートをご覧ください。（設定メニュー→テンプレート）&lt;/p>
-&lt;p>顧客情報&lt;/p>
-&lt;p>$customer_name$会社名$customer_department$部署名$customer_contact$担当者名&lt;/p>
-&lt;p>自社情報&lt;/p>
-&lt;p>$company_name$会社名$company_department$部署名$company_contact$担当者名$company_postalcode$郵便番号$company_address1$住所１$company_address2$住所２$company_tel$電話番号$company_fax$FAX番号$company_email$メールアドレス&lt;/p>
-&lt;p>見積書情報&lt;/p>
-&lt;p>$estimate_subject$件名$estimate_total$見積額$estimate_duedate$見積有効期限$estimate_number$見積書番号&lt;/p>
-&lt;p>請求書情報&lt;/p>
-&lt;p>$invoice_subject$件名$invoice_total$請求額$invoice_duedate$支払期限$invoice_number$請求書番号&lt;/p>
-&lt;p>&lt;img src="https://namaraii.com/images/2mXnJXXltPLfTi.jpg" alt="/images/2mXnJXXltPLfTi.jpg">
-今回の新機能も派手なものではありませんが、これからも業務で真に必要な機能を厳選し、シンプルで使いやすいサービスに育てていきたいと思います。&lt;/p></description></item><item><title>請求書・見積書の作成サービスGolazoを公開しました</title><link>https://namaraii.com/post/2012/20120229_golazobefafce9891c/</link><pubDate>Wed, 29 Feb 2012 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2012/20120229_golazobefafce9891c/</guid><description>
-&lt;p>本日、昨年から少しずつ開発を進めていた、&lt;a href="http://golazo.biz">請求書・見積書作成サービスGolazo&lt;/a>を公開しました。&lt;/p>
-&lt;p>クラウド上で使える請求書・見積書作成サービスは、すでに先発のものがいくつかありますが、Golazoの一番の特徴は帳票(PDF)の作成に&lt;a href="http://www.thinreports.org/">Rubyで記述された帳票ソリューションThinReports&lt;/a>を使っているため、パソコン向けの業務アプリと遜色のない帳票を出力できることです。&lt;/p>
-&lt;p>このため、例えば請求書内のアイテム数が多く、複数ページに渡るような帳票でも、&lt;/p>
-&lt;ul>
-&lt;li>&lt;span
-id="5280">帳票の固定部分は各ページの決まった場所に印刷される&lt;/span>&lt;/li>
-&lt;li>&lt;span id="984d">ページごとに小計、最終ページに合計を表示する&lt;/span>&lt;/li>
-&lt;/ul>
-&lt;p>という「帳票処理」が可能になります。&lt;/p>
-&lt;p>ThinReportsはビジュアルに帳票を編集できるエディタも提供されてますので、今後、ユーザ独自の帳票フォーマットのサポートや、帳票バリエーションの拡充など、高品質な帳票をさらに活用できる機能追加を検討していきます。&lt;/p>
-&lt;p>ThinReportsはAPIも使いやすく、Rubyで日本語の帳票を作成する場合、かなりおすすめですよ。&lt;/p>
-&lt;p>他の機能としては、ホーム画面で支払い期限、見積期限を超過している見積書、請求を一覧できるため、入金の確認や、お客様のフォローアップなどにご活用いただけると思います。&lt;/p>
-&lt;p>iPad、iPhoneのSafariからも使えますので、「社内処理で使いたいので紙は後でいいから、すぐに請求書のPDFを送ってほしい」というような、お客様からの急なご要望にもお答えできるかと思います。&lt;/p>
-&lt;p>Golazoの開発中、実際にそのシチュエーションがあり、自分自身もすごく助かりました。(^^)&lt;/p>
-&lt;p>現在、提供している機能については、すべて無料でご利用いただけます。&lt;/p>
-&lt;p>ExcelやWordなどでの見積書・請求書作成に、不便さを感じている方は、ぜひお試しください。&lt;/p>
-&lt;ul>
-&lt;li>&lt;span
-id="a497">&lt;a href="http://golazo.biz">フリーランスやスタートアップ、中小企業の方々に最適な無料の請求書・領収書作成サービス Golazo&lt;/a>&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="7ee1">&lt;a href="http://www.thinreports.org/">帳票ソリューション ThinReports&lt;/a>&lt;/span>&lt;/li>
-&lt;/ul></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>golazo on namaraii.com</title>
+    <link>https://namaraii.com/tags/golazo/</link>
+    <description>Recent content in golazo on namaraii.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright>
+    <lastBuildDate>Tue, 04 Sep 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://namaraii.com/tags/golazo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>請求書・見積書作成サービスGolazoに領収書発行機能をサポートしました</title>
+      <link>https://namaraii.com/post/2012/20120904_golazo9faf955e0187/</link>
+      <pubDate>Tue, 04 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2012/20120904_golazo9faf955e0187/</guid>
+      <description>
+        
+          &lt;p&gt;&lt;a href=&#34;https://golazo.biz/&#34;&gt;請求書・見積書作成サービスGolazo&lt;/a&gt;へ新機能を追加しました。&lt;/p&gt;
+&lt;p&gt;(1) 領収書発行機能のサポート&lt;br&gt;
+請求書一覧、請求書表示画面からワンクリックで対応する領収書を発行することができます。&lt;/p&gt;
+&lt;p&gt;(2) 帳票内の文字縮小機能のサポート&lt;br&gt;
+お客様の住所、社名や品名、備考などが長くなってしまった場合、従来は一定の長さまでしか表示されませんでしたが、本バージョンからはフォントサイズが縮小され全てが収まるように表示されます。&lt;/p&gt;
+&lt;p&gt;この機能は、&lt;a href=&#34;http://www.thinreports.org/&#34;&gt;ThinReports 0.7.5&lt;/a&gt;でサポートされたオーバフロープロパティを使っています。&lt;br&gt;
+以前、要望した機能を0.7.5で実装していただきました。感謝です！&lt;/p&gt;
+&lt;p&gt;Golazoは月に10通前後の請求書を発行するフリーランスの方に良くご利用いただいております。無料で全機能を使用できますので、お気軽にお試しください。&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Golazoから請求書・見積書を直接メールできるようにしました</title>
+      <link>https://namaraii.com/post/2012/20120416_golazof79331c0eab6/</link>
+      <pubDate>Mon, 16 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2012/20120416_golazof79331c0eab6/</guid>
+      <description>
+        
+          &lt;p&gt;&lt;a href=&#34;https://golazo.biz/&#34;&gt;請求書・見積書作成サービスGolazo&lt;/a&gt;に新機能を追加しました。&lt;br&gt;
+例によってとっても地味な機能です。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/fyLta0PP5snHAv.jpg&#34; alt=&#34;/images/fyLta0PP5snHAv.jpg&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;メール送信機能&#34;&gt;メール送信機能&lt;/h4&gt;
+&lt;p&gt;これまではGolazoで作成した請求書・見積書をメール送信するためにはPDFで保存し、メールソフトを立ち上げてメールに手動で添付する必要がありました。&lt;br&gt;
+今回サポートした機能により、請求書・見積書作成後すぐにお客様へメールで送信することができます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/tJZxxtL2GUGA7Y.jpg&#34; alt=&#34;/images/tJZxxtL2GUGA7Y.jpg&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;メールテンプレート機能&#34;&gt;メールテンプレート機能&lt;/h4&gt;
+&lt;p&gt;メール送信時の文面をテンプレートとして登録できる機能をサポートしました。&lt;br&gt;
+これにより時間をかけずに、より簡単に請求書・見積書をメールで送信することができます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/mVj_8q7IdtaW4q.jpg&#34; alt=&#34;/images/mVj_8q7IdtaW4q.jpg&#34;&gt;
+テンプレート中では以下のキーワードを使って、各種の情報をメール中へ展開することができます。&lt;br&gt;
+実際の使い方は、サンプルのテンプレートをご覧ください。（設定メニュー→テンプレート）&lt;/p&gt;
+&lt;p&gt;顧客情報&lt;/p&gt;
+&lt;p&gt;$customer_name$会社名$customer_department$部署名$customer_contact$担当者名&lt;/p&gt;
+&lt;p&gt;自社情報&lt;/p&gt;
+&lt;p&gt;$company_name$会社名$company_department$部署名$company_contact$担当者名$company_postalcode$郵便番号$company_address1$住所１$company_address2$住所２$company_tel$電話番号$company_fax$FAX番号$company_email$メールアドレス&lt;/p&gt;
+&lt;p&gt;見積書情報&lt;/p&gt;
+&lt;p&gt;$estimate_subject$件名$estimate_total$見積額$estimate_duedate$見積有効期限$estimate_number$見積書番号&lt;/p&gt;
+&lt;p&gt;請求書情報&lt;/p&gt;
+&lt;p&gt;$invoice_subject$件名$invoice_total$請求額$invoice_duedate$支払期限$invoice_number$請求書番号&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/2mXnJXXltPLfTi.jpg&#34; alt=&#34;/images/2mXnJXXltPLfTi.jpg&#34;&gt;
+今回の新機能も派手なものではありませんが、これからも業務で真に必要な機能を厳選し、シンプルで使いやすいサービスに育てていきたいと思います。&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>請求書・見積書の作成サービスGolazoを公開しました</title>
+      <link>https://namaraii.com/post/2012/20120229_golazobefafce9891c/</link>
+      <pubDate>Wed, 29 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2012/20120229_golazobefafce9891c/</guid>
+      <description>
+        
+          &lt;p&gt;本日、昨年から少しずつ開発を進めていた、&lt;a href=&#34;http://golazo.biz&#34;&gt;請求書・見積書作成サービスGolazo&lt;/a&gt;を公開しました。&lt;/p&gt;
+&lt;p&gt;クラウド上で使える請求書・見積書作成サービスは、すでに先発のものがいくつかありますが、Golazoの一番の特徴は帳票(PDF)の作成に&lt;a href=&#34;http://www.thinreports.org/&#34;&gt;Rubyで記述された帳票ソリューションThinReports&lt;/a&gt;を使っているため、パソコン向けの業務アプリと遜色のない帳票を出力できることです。&lt;/p&gt;
+&lt;p&gt;このため、例えば請求書内のアイテム数が多く、複数ページに渡るような帳票でも、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span
+id=&#34;5280&#34;&gt;帳票の固定部分は各ページの決まった場所に印刷される&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;984d&#34;&gt;ページごとに小計、最終ページに合計を表示する&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;という「帳票処理」が可能になります。&lt;/p&gt;
+&lt;p&gt;ThinReportsはビジュアルに帳票を編集できるエディタも提供されてますので、今後、ユーザ独自の帳票フォーマットのサポートや、帳票バリエーションの拡充など、高品質な帳票をさらに活用できる機能追加を検討していきます。&lt;/p&gt;
+&lt;p&gt;ThinReportsはAPIも使いやすく、Rubyで日本語の帳票を作成する場合、かなりおすすめですよ。&lt;/p&gt;
+&lt;p&gt;他の機能としては、ホーム画面で支払い期限、見積期限を超過している見積書、請求を一覧できるため、入金の確認や、お客様のフォローアップなどにご活用いただけると思います。&lt;/p&gt;
+&lt;p&gt;iPad、iPhoneのSafariからも使えますので、「社内処理で使いたいので紙は後でいいから、すぐに請求書のPDFを送ってほしい」というような、お客様からの急なご要望にもお答えできるかと思います。&lt;/p&gt;
+&lt;p&gt;Golazoの開発中、実際にそのシチュエーションがあり、自分自身もすごく助かりました。(^^)&lt;/p&gt;
+&lt;p&gt;現在、提供している機能については、すべて無料でご利用いただけます。&lt;/p&gt;
+&lt;p&gt;ExcelやWordなどでの見積書・請求書作成に、不便さを感じている方は、ぜひお試しください。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span
+id=&#34;a497&#34;&gt;&lt;a href=&#34;http://golazo.biz&#34;&gt;フリーランスやスタートアップ、中小企業の方々に最適な無料の請求書・領収書作成サービス Golazo&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;7ee1&#34;&gt;&lt;a href=&#34;http://www.thinreports.org/&#34;&gt;帳票ソリューション ThinReports&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,229 +1,395 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>フレームワーク on namaraii.com</title><link>https://namaraii.com/tags/%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E3%83%AF%E3%83%BC%E3%82%AF/</link><description>Recent content in フレームワーク on namaraii.com</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright><lastBuildDate>Sat, 07 Jan 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://namaraii.com/tags/%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E3%83%AF%E3%83%BC%E3%82%AF/index.xml" rel="self" type="application/rss+xml"/><item><title>議論や考えを整理するためのフレームワーク</title><link>https://namaraii.com/post/2017/20170107_40c5dcd61d5d/</link><pubDate>Sat, 07 Jan 2017 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2017/20170107_40c5dcd61d5d/</guid><description>
-&lt;p>このサイトにある議論や考えを整理するためのフレームワークの一覧です。&lt;/p>
-&lt;h3 id="ペイオフマトリクスpost200920090529_e06fbf97661">&lt;a href="https://namaraii.com/post/2009/20090529_e06fbf97661">ペイオフマトリクス&lt;/a>&lt;/h3>
-&lt;p>&lt;img src="https://namaraii.com/images/pXRcbb5tD4MTcG.jpg" alt="意志決定テーブル" title="意志決定テーブル">&lt;/p>
-&lt;p>議論の結果、&lt;strong>複数の案がでてきた場合に、どれを選べば良いのか&lt;/strong>で悩むことがある。そのような場合、２つの評価基準を設定し、ペイオフマトリクスで複数案の相対的ポジションを比較すると良い。&lt;/p>
-&lt;hr>
-&lt;h3 id="プロセスマッピングpost200920090529_3a3900276bc1">&lt;a href="https://namaraii.com/post/2009/20090529_3a3900276bc1">プロセスマッピング&lt;/a>&lt;/h3>
-&lt;p>&lt;img src="https://namaraii.com/images/kOKKOltFz58-u7.jpg" alt="プロセスマッピング" title="プロセスマッピング">&lt;/p>
-&lt;p>業務プロセスの&lt;strong>ムダや問題を見つけたい&lt;/strong>場合に使用する。&lt;/p>
-&lt;hr>
-&lt;h3 id="意志決定テーブルpost200920090529_22588609c22b">&lt;a href="https://namaraii.com/post/2009/20090529_22588609c22b">意志決定テーブル&lt;/a>&lt;/h3>
-&lt;p>&lt;img src="https://namaraii.com/images/LjT7wxvknlI_LT.jpg" alt="意志決定テーブル" title="意志決定テーブル">&lt;/p>
-&lt;p>複数の対象に対して&lt;strong>優先度付けをしたい&lt;/strong>場合に使用する。評価を行う観点を抽出した後、評価観点毎に点数を付け、それらの積を計算した評価点を用いて優先度を決定する。&lt;/p>
-&lt;hr>
-&lt;h3 id="フォースフィールド分析post200920090529_fd58a5342997">&lt;a href="https://namaraii.com/post/2009/20090529_fd58a5342997">フォースフィールド分析&lt;/a>&lt;/h3>
-&lt;p>&lt;img src="https://namaraii.com/images/fcbENxhfoMrJ1f.jpg" alt="フォースフィールド分析" title="フォースフィールド分析">&lt;/p>
-&lt;p>ある計画がうまくいっていない場合、その原因を人の心に作用する&lt;strong>見えない力という視点で見える化&lt;/strong>し分析する。&lt;/p>
-&lt;hr>
-&lt;h3 id="ポジショニングマップpost200920090529_a069e5f7f352">&lt;a href="https://namaraii.com/post/2009/20090529_a069e5f7f352">ポジショニングマップ&lt;/a>&lt;/h3>
-&lt;p>&lt;img src="https://namaraii.com/images/vdV6VT6kduqNNc.jpg" alt="ポジショニングマップ" title="ポジショニングマップ">&lt;/p>
-&lt;p>新製品を開発する場合に、競合製品のポジションを評価し「空いている」ポジションをみつけるなど、複数の対象物の&lt;strong>ポジショニングを整理&lt;/strong>するために使う。&lt;/p>
-&lt;hr>
-&lt;h3 id="swot分析post200920090529_swot5e1aed7f676f">&lt;a href="https://namaraii.com/post/2009/20090529_swot5e1aed7f676f">swot分析&lt;/a>&lt;/h3>
-&lt;p>&lt;img src="https://namaraii.com/images/OHn0X9Lfx5OG05.jpg" alt="SWOT分析" title="SWOT分析">&lt;/p>
-&lt;p>組織（個人でも良い）の戦略を検討する際に、ブレストだけでは意見が発散してしまい、&lt;strong>統一感のある戦略にまとめあげる&lt;/strong>のが難しいケースがある。そういう場合は、SWOT分析により論点を絞り意見を共有しながら戦略に落とし込むと良い。&lt;/p>
-&lt;hr>
-&lt;h3 id="二分割法post200920090529_76ab83cfc7b8">&lt;a href="https://namaraii.com/post/2009/20090529_76ab83cfc7b8">二分割法&lt;/a>&lt;/h3>
-&lt;p>&lt;img src="https://namaraii.com/images/SMtRdmcPMrt-Rl.jpg" alt="二分割法" title="二分割法">&lt;/p>
-&lt;p>&lt;strong>話が混乱したり一方からの視点に偏った議論になった場合&lt;/strong>、二分割法で整理してみると良い。&lt;/p>
-&lt;hr>
-&lt;h3 id="4w1hpost200920090529_4w1h7c6f5ac92f76">&lt;a href="https://namaraii.com/post/2009/20090529_4w1h7c6f5ac92f76">4W1H&lt;/a>&lt;/h3>
-&lt;p>&lt;img src="https://namaraii.com/images/onoDPSo13r761Y.jpg" alt="4W1H" title="4W1H">&lt;/p>
-&lt;p>&lt;strong>目標に対して設定したアクションを具体化&lt;/strong>する。責任分担を明確化し進捗状況をフォローする。&lt;/p>
-&lt;hr>
-&lt;h3 id="オポチュニティマッピングpost200920090529_80a4367c302a">&lt;a href="https://namaraii.com/post/2009/20090529_80a4367c302a">オポチュニティマッピング&lt;/a>&lt;/h3>
-&lt;p>&lt;img src="https://namaraii.com/images/gs0Tkhmmompi98.jpg" alt="オポチュニティマッピング" title="オポチュニティマッピング">&lt;/p>
-&lt;p>&lt;strong>議論が狭い視点での各論に陥った&lt;/strong>場合、オポチュニティマッピングを使って全体をビジュアルに表すことにより、議論対象の全体像が見えてくる。&lt;/p>
-&lt;hr>
-&lt;h3 id="ゴールツリーpost200920090529_dd4b060af860">&lt;a href="https://namaraii.com/post/2009/20090529_dd4b060af860">ゴールツリー&lt;/a>&lt;/h3>
-&lt;p>&lt;img src="https://namaraii.com/images/j5yC-bf3O9eEm2.jpg" alt="ゴールツリー" title="ゴールツリー">&lt;/p>
-&lt;p>ゴールを明確化して&lt;strong>発散した議論を収束&lt;/strong>する。目的と手段を明確化する。&lt;/p>
-&lt;hr>
-&lt;h3 id="マインドマップpost200920090529_375f5dc22f60">&lt;a href="https://namaraii.com/post/2009/20090529_375f5dc22f60">マインドマップ&lt;/a>&lt;/h3>
-&lt;p>&lt;img src="https://namaraii.com/images/SMtRdmcPMrt-Rl.jpg" alt="マインドマップ" title="マインドマップ">&lt;/p>
-&lt;p>ブレーンストーミングなど意見や&lt;strong>考えを発散させたい&lt;/strong>場合に使うと効果的。&lt;/p></description></item><item><title>4W1H</title><link>https://namaraii.com/post/2009/20090529_4w1h7c6f5ac92f76/</link><pubDate>Fri, 29 May 2009 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2009/20090529_4w1h7c6f5ac92f76/</guid><description>
-&lt;h4 id="利用シーン">利用シーン&lt;/h4>
-&lt;ul>
-&lt;li>&lt;span id="7bc7">目標に対して設定したアクションを具体化する。&lt;/span>&lt;/li>
-&lt;li>&lt;span id="9dec">責任分担を明確化し進捗状況をフォローする。&lt;/span>&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://namaraii.com/images/CFE0s1MiJn-a9L.jpg" alt="/images/CFE0s1MiJn-a9L.jpg">&lt;/p>
-&lt;h4 id="具体例">具体例&lt;/h4>
-&lt;p>&lt;img src="https://namaraii.com/images/onoDPSo13r761Y.jpg" alt="/images/onoDPSo13r761Y.jpg">&lt;/p>
-&lt;ol>
-&lt;li>4W1HのうちWhereとHowは自明であることが多いためこの例では省略している。&lt;/li>
-&lt;li>「ステータス」は未着手・進捗率(パーセンテージ)・ペンディング・完了・中止などアクションの状態を表す語を定義し記述する。&lt;/li>
-&lt;li>「実施状況」はアクションの途中経過を日付入りで時系列に記述する。&lt;/li>
-&lt;li>定例会議でステータスの確認、進捗やアクションのアプローチに関するフォローアップを行うことで、確実にアクションを進める。&lt;strong>（これが重要）&lt;/strong>&lt;/li>
-&lt;/ol>
-&lt;h4 id="関連ツール">関連ツール&lt;/h4>
-&lt;p>&lt;a href="https://namaraii.com/post/%E3%82%B4%E3%83%BC%E3%83%AB%E3%83%84%E3%83%AA%E3%83%BC/">ゴールツリー&lt;/a>&lt;/p>
-&lt;p>ゴールツリーで設定したアクションを実施する際に4W1Hを使用すると良い。&lt;/p>
-&lt;h4 id="フレームワークのまとめページもどうぞ">フレームワークのまとめページもどうぞ&lt;/h4>
-&lt;p>このサイトであつかったフレームワークのまとめページがあります。よろしければ、そちらもどうぞ。&lt;/p>
-&lt;p>・&lt;a href="https://namaraii.com/post/2017/20170107_40c5dcd61d5d/">議論や考えを整理するためのフレームワーク&lt;/a>&lt;/p></description></item><item><title>SWOT分析</title><link>https://namaraii.com/post/2009/20090529_swot5e1aed7f676f/</link><pubDate>Fri, 29 May 2009 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2009/20090529_swot5e1aed7f676f/</guid><description>
-&lt;h4 id="利用シーン">利用シーン&lt;/h4>
-&lt;p>組織（個人でも良い）の戦略を検討する際に、ブレストだけでは意見が発散してしまい、統一感のある戦略にまとめあげるのが難しいケースがある。そういう場合は、SWOT分析により論点を絞り意見を共有しながら戦略に落とし込むと良い。&lt;/p>
-&lt;h4 id="具体例">具体例&lt;/h4>
-&lt;p>&lt;img src="https://namaraii.com/images/OHn0X9Lfx5OG05.jpg" alt="/images/OHn0X9Lfx5OG05.jpg">&lt;/p>
-&lt;ol>
-&lt;li>自分たちの強み(Strength)と弱み(Weakness)について列挙する。分析対象を明確にした上で(全社、部、課など）ブレストの要領で行うと良い。&lt;/li>
-&lt;li>外部環境を機会(Opportunities)、脅威(Threats)に分けて列挙する。&lt;/li>
-&lt;li>いずれも、結論を出すためのプロセスではないことを注意する。ブレスト中、いつにまにか対策の議論に入ってしまうことがあるので注意。&lt;/li>
-&lt;/ol>
-&lt;p>&lt;img src="https://namaraii.com/images/Ge4SLYpiAQtjVq.jpg" alt="/images/Ge4SLYpiAQtjVq.jpg">&lt;/p>
-&lt;ol>
-&lt;li>上で列挙した強み・弱み・機会・脅威をマトリクスにして、それぞれについて今後、何をすべきかを議論する。&lt;/li>
-&lt;li>議論した「何をすべきか」が確実に実行されるよう、&lt;a href="https://namaraii.com/post/4w1h">4W1H&lt;/a>などを使ってアクションプランを作成しておく。&lt;/span>&lt;/li>
-&lt;/ol>
-&lt;h4 id="フレームワークのまとめページもどうぞ">フレームワークのまとめページもどうぞ&lt;/h4>
-&lt;p>このサイトであつかったフレームワークのまとめページがあります。よろしければ、そちらもどうぞ。&lt;/p>
-&lt;p>・&lt;a href="https://namaraii.com/post/2017/20170107_40c5dcd61d5d/">議論や考えを整理するためのフレームワーク&lt;/a>&lt;/p></description></item><item><title>オポチュニティマッピング</title><link>https://namaraii.com/post/2009/20090529_80a4367c302a/</link><pubDate>Fri, 29 May 2009 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2009/20090529_80a4367c302a/</guid><description>
-&lt;h4 id="利用シーン">利用シーン&lt;/h4>
-&lt;p>議論が狭い視点での各論に陥った場合、オポチュニティマッピングを使って全体をビジュアルに表すことにより、議論対象の全体像が見えてくる。&lt;/p>
-&lt;p>オポチュニティマッピングにまとめる対象を決めたら、対象についての戦略を考える上で必要な切り口を検討し横軸を決める。縦軸と組み合わせ、それぞれのボックスの面積により、事業機会や売上高などの大きさを表すようにする。&lt;/p>
-&lt;h4 id="具体例">具体例&lt;/h4>
-&lt;p>&lt;img src="https://namaraii.com/images/gs0Tkhmmompi98.jpg" alt="/images/gs0Tkhmmompi98.jpg">&lt;/p>
-&lt;ol>
-&lt;li>顧客A社の事業ドメインを横軸に展開する。ここではシステム開発、サービス、パッケージを設定する。&lt;/li>
-&lt;li>各事業ドメインの中の事業分野の大きさ（この例では売上高）を元に縦軸を設定する。この時、ボックスの面積が全事業における各事業分野の大きさを表すようにする。&lt;/li>
-&lt;li>この時、それぞれの大きさがわからない（公開されていない）場合があるが、その時は値を推定（仮説レベルでも良い）し、まずは書いてみる。その後、対象へのヒアリングや調査を通して、なるべく精度を高めていく。&lt;/li>
-&lt;li>マップが書けたら各事業分野の規模（ボックスの面積）や成長性、競合との関係などを加味し、戦略を立案する。&lt;/li>
-&lt;li>この例では「攻める」「守る・伸ばす」「触らない」という３つの優先度付けを行った。&lt;/li>
-&lt;li>オポチュニティマッピングを複数の関係者で作成することにより、対象の理解と戦略に関する共通認識が得られる。&lt;/li>
-&lt;/ol>
-&lt;h4 id="フレームワークのまとめページもどうぞ">フレームワークのまとめページもどうぞ&lt;/h4>
-&lt;p>このサイトであつかったフレームワークのまとめページがあります。よろしければ、そちらもどうぞ。&lt;/p>
-&lt;p>・&lt;a href="https://namaraii.com/post/2017/20170107_40c5dcd61d5d/">議論や考えを整理するためのフレームワーク&lt;/a>&lt;/p></description></item><item><title>ゴールツリー</title><link>https://namaraii.com/post/2009/20090529_dd4b060af860/</link><pubDate>Fri, 29 May 2009 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2009/20090529_dd4b060af860/</guid><description>
-&lt;h4 id="利用シーン">利用シーン&lt;/h4>
-&lt;ul>
-&lt;li>&lt;span id="6df1">ゴールを明確化して発散した議論を収束する。&lt;/span>&lt;/li>
-&lt;li>&lt;span id="3d75">目的と手段を明確化する。&lt;/span>&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://namaraii.com/images/FIaotqZ04wRpnC.jpg" alt="/images/FIaotqZ04wRpnC.jpg">&lt;/p>
-&lt;h4 id="具体例">具体例&lt;/h4>
-&lt;p>&lt;img src="https://namaraii.com/images/j5yC-bf3O9eEm2.jpg" alt="/images/j5yC-bf3O9eEm2.jpg">&lt;/p>
-&lt;ol>
-&lt;li>本質的な目標（ゴール）を定義する。例では「部門粗利10%アップ」を設定している。&lt;/li>
-&lt;li>目標を達成するための下位目標を定義する。下位目標の下にさらに下位目標があっても良い。&lt;/li>
-&lt;li>下位目標ごとに達成するために必要なアクションを定義する。&lt;/li>
-&lt;/ol>
-&lt;h4 id="関連ツール">関連ツール&lt;/h4>
-&lt;h4 id="4w1hpost4w1h">&lt;a href="https://namaraii.com/post/4W1H/">4W1H&lt;/a>&lt;/h4>
-&lt;p>アクションまで決まるとなんとなく安心して、そのままにしてしまうことがある。アクションまで落とし込んだら、4W1Hで期限や担当者を明確にし、確実に実行される仕組みを作る。&lt;/p>
-&lt;h4 id="wbs">WBS&lt;/h4>
-&lt;p>大きな目標に対するアクションは、さらに詳細なアクションへ分解しなければ実行しにくいケースがある。その場合、WBSを使ってアクションを詳細化し期限を設定する。&lt;/p>
-&lt;h4 id="フレームワークのまとめページもどうぞ">フレームワークのまとめページもどうぞ&lt;/h4>
-&lt;p>このサイトであつかったフレームワークのまとめページがあります。よろしければ、そちらもどうぞ。&lt;/p>
-&lt;p>・&lt;a href="https://namaraii.com/post/2017/20170107_40c5dcd61d5d/">議論や考えを整理するためのフレームワーク&lt;/a>&lt;/p></description></item><item><title>フォースフィールド分析</title><link>https://namaraii.com/post/2009/20090529_fd58a5342997/</link><pubDate>Fri, 29 May 2009 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2009/20090529_fd58a5342997/</guid><description>
-&lt;h4 id="利用シーン">利用シーン&lt;/h4>
-&lt;p>ある計画がうまくいっていない場合、その原因を人の心に作用する見えない力という視点で見える化し分析する。みんなの本音を見える化し、それぞれの力の強さを「推進力」「抵抗力」にまとめて全体を俯瞰することで、計画がうまくいかない理由を共有するとともに、改善策を検討するための論点を絞り込むことができる。&lt;/p>
-&lt;h4 id="具体例">具体例&lt;/h4>
-&lt;p>&lt;img src="https://namaraii.com/images/fcbENxhfoMrJ1f.jpg" alt="/images/fcbENxhfoMrJ1f.jpg">&lt;/p>
-&lt;ol>
-&lt;li>解決しようとするテーマを書き、その下を半分に分割し上の部分に「推進力」「抵抗力」と書く。ここでは解決しようとするテーマとして「オフショア開発が推進されない力の分析」を設定した。&lt;/li>
-&lt;li>ブレーンストーミングを行い、設定したテーマに対して推進する力、抵抗する力を書く。いかに本音を引き出せるかがポイント。&lt;/li>
-&lt;li>推進力、抵抗力ともに出そろったら、それぞれの「力」を矢印の大きさで表現する。最初の方は矢印の大きさを決めにくいが、とりあえず適当な大きさで書き、他の力との相対関係で調整する。&lt;/li>
-&lt;li>矢印の大きさで表現できたら、抵抗力を減少させるための方法についてブレーンストーミングする。&lt;/li>
-&lt;li>次に推進力を増加させるための方法、または新しい推進力が無いかブレーンストーミングする。&lt;/li>
-&lt;li>ブレーンストーミングした抵抗力を減少させる方法、推進力を増加させる方法が確実に実行されるよう、&lt;a href="https://namaraii.com/post/4w1h">4W1H&lt;/a>などを使ってアクションプランを作成しておく。&lt;/span>&lt;/li>
-&lt;/ol>
-&lt;h4 id="フレームワークのまとめページもどうぞ">フレームワークのまとめページもどうぞ&lt;/h4>
-&lt;p>このサイトであつかったフレームワークのまとめページがあります。よろしければ、そちらもどうぞ。&lt;/p>
-&lt;p>・&lt;a href="https://namaraii.com/post/2017/20170107_40c5dcd61d5d/">議論や考えを整理するためのフレームワーク&lt;/a>&lt;/p></description></item><item><title>プロセスマッピング</title><link>https://namaraii.com/post/2009/20090529_3a3900276bc1/</link><pubDate>Fri, 29 May 2009 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2009/20090529_3a3900276bc1/</guid><description>
-&lt;h4 id="利用シーン">利用シーン&lt;/h4>
-&lt;p>業務プロセスのムダを見つけたい場合や、問題が発生しやすい作業フローを見つけたい場合に使用する。業務プロセスを見える化しブレーンストーミングすることで、それまでは「常識として疑わなかったが実はムダな作業やプロセス」をみつけやすくなる。&lt;/p>
-&lt;h4 id="具体例">具体例&lt;/h4>
-&lt;p>&lt;img src="https://namaraii.com/images/kOKKOltFz58-u7.jpg" alt="/images/kOKKOltFz58-u7.jpg">&lt;/p>
-&lt;ol>
-&lt;li>関連する部署を書き出し、それぞれの間に線を引く。ここでは「担当者」「人事部」「移動希望部署」を設定した。&lt;/li>
-&lt;li>業務プロセスを構成するタスクを抽出し1つの箱として表現する。&lt;/li>
-&lt;li>タスクの実行順序や流れはボックス間に矢印を書いて表現する。関係部署、タスク、実行順序を把握することが目的なので、特にフォーマットにはこだわらなくて良い。&lt;/li>
-&lt;li>プロセスマッピングが終わったら全体を俯瞰し、改善策をブレーンストーミングする。このとき、関連部署の出席者有無が議論の精度とスピードに大きな影響を与える。このため、極力、議論できる担当者に出席してもらえるよう、事前に各部署へ要請しておくと良い。&lt;/li>
-&lt;/ol>
-&lt;h4 id="フレームワークのまとめページもどうぞ">フレームワークのまとめページもどうぞ&lt;/h4>
-&lt;p>このサイトであつかったフレームワークのまとめページがあります。よろしければ、そちらもどうぞ。&lt;/p>
-&lt;p>・&lt;a href="https://namaraii.com/post/2017/20170107_40c5dcd61d5d/">議論や考えを整理するためのフレームワーク&lt;/a>&lt;/p></description></item><item><title>ペイオフマトリクス</title><link>https://namaraii.com/post/2009/20090529_e06fbf97661/</link><pubDate>Fri, 29 May 2009 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2009/20090529_e06fbf97661/</guid><description>
-&lt;h4 id="利用シーン">利用シーン&lt;/h4>
-&lt;p>議論の結果、複数の案がでてきた場合に、どれを選べば良いのかで悩むことがある。そのような場合、２つの評価基準を設定し、ペイオフマトリクスで複数案の相対的ポジションを比較すると良い。&lt;/p>
-&lt;h4 id="具体例">具体例&lt;/h4>
-&lt;p>&lt;img src="https://namaraii.com/images/pXRcbb5tD4MTcG.jpg" alt="/images/pXRcbb5tD4MTcG.jpg">&lt;/p>
-&lt;ol>
-&lt;li>あるテーマに対して議論し、複数の案を出す。&lt;/li>
-&lt;li>案を評価するために基準を2つ設定する。ここでは「成果」と「難しさ」を設定している。&lt;/li>
-&lt;li>全ての案をペイオフマトリクス上へ位置付ける。&lt;/li>
-&lt;li>特に最初の案はどこに配置するか悩ましいが、とりあえずどこかへ配置する。&lt;/li>
-&lt;li>2つめ以降の案はそれまでに配置した案との相対的な関係を考慮しながら配置する。&lt;/li>
-&lt;li>あとから位置を動かしたくなることが多いため、ポストイットやマグネットなどを利用するとよい。&lt;/li>
-&lt;li>全ての案を配置したら、（この場合は）右上のものから高い優先度を付けて&lt;a href="https://namaraii.com/post/4w1h">4W1H&lt;/a>などでアクションプランを作成し、実行する。&lt;/li>
-&lt;/ol>
-&lt;h4 id="フレームワークのまとめページもどうぞ">フレームワークのまとめページもどうぞ&lt;/h4>
-&lt;p>このサイトであつかったフレームワークのまとめページがあります。よろしければ、そちらもどうぞ。&lt;/p>
-&lt;p>・&lt;a href="https://namaraii.com/post/2017/20170107_40c5dcd61d5d/">議論や考えを整理するためのフレームワーク&lt;/a>&lt;/p></description></item><item><title>ポジショニングマップ</title><link>https://namaraii.com/post/2009/20090529_a069e5f7f352/</link><pubDate>Fri, 29 May 2009 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2009/20090529_a069e5f7f352/</guid><description>
-&lt;h4 id="利用シーン">利用シーン&lt;/h4>
-&lt;p>新製品を開発する場合に、競合製品のポジションを評価し「空いている」ポジションをみつけるなど、複数の対象物のポジショニングを整理するために使う。&lt;/p>
-&lt;p>表記自体は&lt;a href="https://namaraii.com/post/%E3%83%9A%E3%82%A4%E3%82%AA%E3%83%95%E3%83%9E%E3%83%88%E3%83%AA%E3%82%AF%E3%82%B9">ペイオフマトリクス&lt;/a>とあまり変わらない。ペイオフマトリクスは、ポジションを整理した後、優先度付けを行って案を選択するのに対して、ポジショニングマップは、ポジショニングを図示し、空いているポジションや進むべきポジションを検討するために使う。&lt;/p>
-&lt;h4 id="具体例">具体例&lt;/h4>
-&lt;p>&lt;img src="https://namaraii.com/images/vdV6VT6kduqNNc.jpg" alt="/images/vdV6VT6kduqNNc.jpg">&lt;/p>
-&lt;ol>
-&lt;li>ポジショニングを評価するための基準を2つ設定する。ここでは「予算」と「戦術」を設定している。&lt;/li>
-&lt;li>全ての対象物をポジショニングマップ上へ位置付ける。&lt;/li>
-&lt;li>特に最初の対象物はどこに配置するか悩ましいが、とりあえずどこかへ配置する。&lt;/li>
-&lt;li>2つめ以降はそれまでに配置した物との相対的な関係を考慮しながら配置する。&lt;/li>
-&lt;li>あとから位置を動かしたくなることが多いため、ポストイットやマグネットなどを利用するとよい。&lt;/li>
-&lt;/ol>
-&lt;h4 id="フレームワークのまとめページもどうぞ">フレームワークのまとめページもどうぞ&lt;/h4>
-&lt;p>このサイトであつかったフレームワークのまとめページがあります。よろしければ、そちらもどうぞ。&lt;/p>
-&lt;p>・&lt;a href="https://namaraii.com/post/2017/20170107_40c5dcd61d5d/">議論や考えを整理するためのフレームワーク&lt;/a>&lt;/p></description></item><item><title>マインドマップ</title><link>https://namaraii.com/post/2009/20090529_375f5dc22f60/</link><pubDate>Fri, 29 May 2009 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2009/20090529_375f5dc22f60/</guid><description>
-&lt;p>マインドマップは心理学者トニー・ブザンが開発した手法。真ん中に議論の中心になる言葉を書き、そこから放射線状に枝を伸ばし発想を展開していく。&lt;/p>
-&lt;h4 id="利用シーン">利用シーン&lt;/h4>
-&lt;p>ブレーンストーミングなど意見を発散したい場合に使うと効果的。増殖するマインドマップをみながら、発想のまま書いていくことにより、さらに新たな発想が生み出されていく。&lt;/p>
-&lt;p>会議ではホワイトボードの中心にテーマを書き、自由に意見を出してもらいながら枝に展開していく。できればイラストなどを入れてビジュアルしたり、枝の固まりを違う色で囲んだりして見ていて楽しいものにするとよい。&lt;/p>
-&lt;h4 id="具体例">具体例&lt;/h4>
-&lt;p>&lt;img src="https://namaraii.com/images/KPPL9wR25NV0C6.jpg" alt="/images/KPPL9wR25NV0C6.jpg">&lt;/p>
-&lt;p>パソコンを使ってマインドマップをまとめたい場合は
-&lt;a href="http://freemind.sourceforge.net/wiki/index.php/Main_Page">FreeMind&lt;/a>や&lt;a href="http://www.xmind.net/">XMind&lt;/a>などのマインドマップ専用アプリケーションがある。この他にも有償のものがいくつかあるが、FreeMindもXMindも無償で利用可能なので、まずはこれらを試してみてはどうだろう。&lt;/p>
-&lt;p>個人的には機能が豊富で操作性も優れているXMindをオススメする。&lt;/p>
-&lt;p>上のマインドマップはXMindで作成しPNG形式で出力したものだ。カラフルな表現ができることを示すために、ややコテコテの仕上がりになっているが、このように画像を使ったり境界を定義して色を付けたりするのも簡単である。&lt;/p>
-&lt;p>プロジェクタでXMindのマインドマップを表示・編集しながら意見を出し合い、会議が終了したらすぐに参加メンバーへメールで送る…なんていうのもスマートで良いかもしれない。&lt;/p>
-&lt;h4 id="フレームワークのまとめページもどうぞ">フレームワークのまとめページもどうぞ&lt;/h4>
-&lt;p>このサイトであつかったフレームワークのまとめページがあります。よろしければ、そちらもどうぞ。&lt;/p>
-&lt;p>・&lt;a href="https://namaraii.com/post/2017/20170107_40c5dcd61d5d/">議論や考えを整理するためのフレームワーク&lt;/a>&lt;/p></description></item><item><title>二分割法</title><link>https://namaraii.com/post/2009/20090529_76ab83cfc7b8/</link><pubDate>Fri, 29 May 2009 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2009/20090529_76ab83cfc7b8/</guid><description>
-&lt;h4 id="利用シーン">利用シーン&lt;/h4>
-&lt;p>話が混乱したり、一方からの視点に偏った議論になった場合、二分割法で整理してみると良い。シンプルだが、メンバ全員がさまざまな意見を分析的に捕らえる手助けとなり、集中すべき方向性が見えてくる。&lt;/p>
-&lt;ul>
-&lt;li>&lt;span
-id="7b85">賛成・反対の理由を全員で共有する(プロ or コン)&lt;/span>&lt;/li>
-&lt;li>&lt;span
-id="a00e">チームの意識を「可能なこと」に集中させる(制御可能 or 制御不能)&lt;/span>&lt;/li>
-&lt;li>&lt;span id="bbff">そもそも論を排除して未来の議論に集中させる(過去 or
-未来)&lt;/span>&lt;/li>
-&lt;li>&lt;span id="ad9a">理想のイメージを整理しビジョンをつくる(モア or
-レス)&lt;/span>&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://namaraii.com/images/SMtRdmcPMrt-Rl.jpg" alt="/images/SMtRdmcPMrt-Rl.jpg">&lt;/p>
-&lt;h4 id="具体例">具体例&lt;/h4>
-&lt;p>&lt;img src="https://namaraii.com/images/7eydtWu2NW6ZL_.jpg" alt="/images/7eydtWu2NW6ZL_.jpg">&lt;/p>
-&lt;ol>
-&lt;li>自分たちが制御できる問題か否かで分けて整理する。&lt;/li>
-&lt;li>制御できない問題は単なる愚痴になってしまうため、いくら話してもムダ。制御可能な問題を中心に議論するように方向付けする。&lt;/li>
-&lt;/ol>
-&lt;h4 id="フレームワークのまとめページもどうぞ">フレームワークのまとめページもどうぞ&lt;/h4>
-&lt;p>このサイトであつかったフレームワークのまとめページがあります。よろしければ、そちらもどうぞ。&lt;/p>
-&lt;p>・&lt;a href="https://namaraii.com/post/2017/20170107_40c5dcd61d5d/">議論や考えを整理するためのフレームワーク&lt;/a>&lt;/p></description></item><item><title>意志決定テーブル</title><link>https://namaraii.com/post/2009/20090529_22588609c22b/</link><pubDate>Fri, 29 May 2009 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2009/20090529_22588609c22b/</guid><description>
-&lt;h4 id="利用シーン">利用シーン&lt;/h4>
-&lt;p>複数の対象に対して優先度付けをしたい場合にに使用する。評価を行う観点を抽出した後、評価観点毎に点数を付け、それらの積を計算した評価点を用いて優先度を決定する。&lt;/p>
-&lt;p>点数は1,5,9のように離散値を設定し、その中から選ぶようにすると、中央付近の評価が集中し優先度を付けにくくなることを抑止できる。&lt;/p>
-&lt;p>また、人命や社命に関わるなど絶対に譲れない評価がある場合、最大点数^評価項目数（べき乗）を上回る特別点を設定できるようにする。（たとえば最高9点で3つの評価項目がある場合、9³=729点となるため特別点は1000点とするなど）&lt;/p>
-&lt;h4 id="具体例">具体例&lt;/h4>
-&lt;p>&lt;img src="https://namaraii.com/images/LjT7wxvknlI_LT.jpg" alt="/images/LjT7wxvknlI_LT.jpg">&lt;/p>
-&lt;ol>
-&lt;li>優先度を決定するための評価項目を検討する。重要な評価項目に漏れが生じないように慎重に検討すること。ここでは「販売量」「利益率」「顧客重要度」を設定した。&lt;/li>
-&lt;li>比較対象の名称を記述する。ここでは「Ａ社」「Ｂ社」「Ｃ社」「Ｄ社」について比較を行っている。&lt;/li>
-&lt;li>設定した評価項目毎に議論し点数を記入する。&lt;/li>
-&lt;li>全ての項目に対して点数を記入したら評価点を計算する。評価点の大きいものから高い優先度で対応していく。&lt;/li>
-&lt;/ol>
-&lt;h4 id="フレームワークのまとめページもどうぞ">フレームワークのまとめページもどうぞ&lt;/h4>
-&lt;p>このサイトであつかったフレームワークのまとめページがあります。よろしければ、そちらもどうぞ。&lt;/p>
-&lt;p>・&lt;a href="https://namaraii.com/post/2017/20170107_40c5dcd61d5d/">議論や考えを整理するためのフレームワーク&lt;/a>&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>フレームワーク on namaraii.com</title>
+    <link>https://namaraii.com/tags/%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E3%83%AF%E3%83%BC%E3%82%AF/</link>
+    <description>Recent content in フレームワーク on namaraii.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright>
+    <lastBuildDate>Sat, 07 Jan 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://namaraii.com/tags/%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E3%83%AF%E3%83%BC%E3%82%AF/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>議論や考えを整理するためのフレームワーク</title>
+      <link>https://namaraii.com/post/2017/20170107_40c5dcd61d5d/</link>
+      <pubDate>Sat, 07 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2017/20170107_40c5dcd61d5d/</guid>
+      <description>
+        
+          &lt;p&gt;このサイトにある議論や考えを整理するためのフレームワークの一覧です。&lt;/p&gt;
+&lt;h3 id=&#34;ペイオフマトリクスpost200920090529_e06fbf97661&#34;&gt;&lt;a href=&#34;https://namaraii.com/post/2009/20090529_e06fbf97661&#34;&gt;ペイオフマトリクス&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/pXRcbb5tD4MTcG.jpg&#34; alt=&#34;意志決定テーブル&#34; title=&#34;意志決定テーブル&#34;&gt;&lt;/p&gt;
+&lt;p&gt;議論の結果、&lt;strong&gt;複数の案がでてきた場合に、どれを選べば良いのか&lt;/strong&gt;で悩むことがある。そのような場合、２つの評価基準を設定し、ペイオフマトリクスで複数案の相対的ポジションを比較すると良い。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;プロセスマッピングpost200920090529_3a3900276bc1&#34;&gt;&lt;a href=&#34;https://namaraii.com/post/2009/20090529_3a3900276bc1&#34;&gt;プロセスマッピング&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/kOKKOltFz58-u7.jpg&#34; alt=&#34;プロセスマッピング&#34; title=&#34;プロセスマッピング&#34;&gt;&lt;/p&gt;
+&lt;p&gt;業務プロセスの&lt;strong&gt;ムダや問題を見つけたい&lt;/strong&gt;場合に使用する。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;意志決定テーブルpost200920090529_22588609c22b&#34;&gt;&lt;a href=&#34;https://namaraii.com/post/2009/20090529_22588609c22b&#34;&gt;意志決定テーブル&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/LjT7wxvknlI_LT.jpg&#34; alt=&#34;意志決定テーブル&#34; title=&#34;意志決定テーブル&#34;&gt;&lt;/p&gt;
+&lt;p&gt;複数の対象に対して&lt;strong&gt;優先度付けをしたい&lt;/strong&gt;場合に使用する。評価を行う観点を抽出した後、評価観点毎に点数を付け、それらの積を計算した評価点を用いて優先度を決定する。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;フォースフィールド分析post200920090529_fd58a5342997&#34;&gt;&lt;a href=&#34;https://namaraii.com/post/2009/20090529_fd58a5342997&#34;&gt;フォースフィールド分析&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/fcbENxhfoMrJ1f.jpg&#34; alt=&#34;フォースフィールド分析&#34; title=&#34;フォースフィールド分析&#34;&gt;&lt;/p&gt;
+&lt;p&gt;ある計画がうまくいっていない場合、その原因を人の心に作用する&lt;strong&gt;見えない力という視点で見える化&lt;/strong&gt;し分析する。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;ポジショニングマップpost200920090529_a069e5f7f352&#34;&gt;&lt;a href=&#34;https://namaraii.com/post/2009/20090529_a069e5f7f352&#34;&gt;ポジショニングマップ&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/vdV6VT6kduqNNc.jpg&#34; alt=&#34;ポジショニングマップ&#34; title=&#34;ポジショニングマップ&#34;&gt;&lt;/p&gt;
+&lt;p&gt;新製品を開発する場合に、競合製品のポジションを評価し「空いている」ポジションをみつけるなど、複数の対象物の&lt;strong&gt;ポジショニングを整理&lt;/strong&gt;するために使う。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;swot分析post200920090529_swot5e1aed7f676f&#34;&gt;&lt;a href=&#34;https://namaraii.com/post/2009/20090529_swot5e1aed7f676f&#34;&gt;swot分析&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/OHn0X9Lfx5OG05.jpg&#34; alt=&#34;SWOT分析&#34; title=&#34;SWOT分析&#34;&gt;&lt;/p&gt;
+&lt;p&gt;組織（個人でも良い）の戦略を検討する際に、ブレストだけでは意見が発散してしまい、&lt;strong&gt;統一感のある戦略にまとめあげる&lt;/strong&gt;のが難しいケースがある。そういう場合は、SWOT分析により論点を絞り意見を共有しながら戦略に落とし込むと良い。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;二分割法post200920090529_76ab83cfc7b8&#34;&gt;&lt;a href=&#34;https://namaraii.com/post/2009/20090529_76ab83cfc7b8&#34;&gt;二分割法&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/SMtRdmcPMrt-Rl.jpg&#34; alt=&#34;二分割法&#34; title=&#34;二分割法&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;話が混乱したり一方からの視点に偏った議論になった場合&lt;/strong&gt;、二分割法で整理してみると良い。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;4w1hpost200920090529_4w1h7c6f5ac92f76&#34;&gt;&lt;a href=&#34;https://namaraii.com/post/2009/20090529_4w1h7c6f5ac92f76&#34;&gt;4W1H&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/onoDPSo13r761Y.jpg&#34; alt=&#34;4W1H&#34; title=&#34;4W1H&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;目標に対して設定したアクションを具体化&lt;/strong&gt;する。責任分担を明確化し進捗状況をフォローする。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;オポチュニティマッピングpost200920090529_80a4367c302a&#34;&gt;&lt;a href=&#34;https://namaraii.com/post/2009/20090529_80a4367c302a&#34;&gt;オポチュニティマッピング&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/gs0Tkhmmompi98.jpg&#34; alt=&#34;オポチュニティマッピング&#34; title=&#34;オポチュニティマッピング&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;議論が狭い視点での各論に陥った&lt;/strong&gt;場合、オポチュニティマッピングを使って全体をビジュアルに表すことにより、議論対象の全体像が見えてくる。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;ゴールツリーpost200920090529_dd4b060af860&#34;&gt;&lt;a href=&#34;https://namaraii.com/post/2009/20090529_dd4b060af860&#34;&gt;ゴールツリー&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/j5yC-bf3O9eEm2.jpg&#34; alt=&#34;ゴールツリー&#34; title=&#34;ゴールツリー&#34;&gt;&lt;/p&gt;
+&lt;p&gt;ゴールを明確化して&lt;strong&gt;発散した議論を収束&lt;/strong&gt;する。目的と手段を明確化する。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;マインドマップpost200920090529_375f5dc22f60&#34;&gt;&lt;a href=&#34;https://namaraii.com/post/2009/20090529_375f5dc22f60&#34;&gt;マインドマップ&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/SMtRdmcPMrt-Rl.jpg&#34; alt=&#34;マインドマップ&#34; title=&#34;マインドマップ&#34;&gt;&lt;/p&gt;
+&lt;p&gt;ブレーンストーミングなど意見や&lt;strong&gt;考えを発散させたい&lt;/strong&gt;場合に使うと効果的。&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>4W1H</title>
+      <link>https://namaraii.com/post/2009/20090529_4w1h7c6f5ac92f76/</link>
+      <pubDate>Fri, 29 May 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2009/20090529_4w1h7c6f5ac92f76/</guid>
+      <description>
+        
+          &lt;h4 id=&#34;利用シーン&#34;&gt;利用シーン&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span id=&#34;7bc7&#34;&gt;目標に対して設定したアクションを具体化する。&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;9dec&#34;&gt;責任分担を明確化し進捗状況をフォローする。&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/CFE0s1MiJn-a9L.jpg&#34; alt=&#34;/images/CFE0s1MiJn-a9L.jpg&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;具体例&#34;&gt;具体例&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/onoDPSo13r761Y.jpg&#34; alt=&#34;/images/onoDPSo13r761Y.jpg&#34;&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;4W1HのうちWhereとHowは自明であることが多いためこの例では省略している。&lt;/li&gt;
+&lt;li&gt;「ステータス」は未着手・進捗率(パーセンテージ)・ペンディング・完了・中止などアクションの状態を表す語を定義し記述する。&lt;/li&gt;
+&lt;li&gt;「実施状況」はアクションの途中経過を日付入りで時系列に記述する。&lt;/li&gt;
+&lt;li&gt;定例会議でステータスの確認、進捗やアクションのアプローチに関するフォローアップを行うことで、確実にアクションを進める。&lt;strong&gt;（これが重要）&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;関連ツール&#34;&gt;関連ツール&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;https://namaraii.com/post/%E3%82%B4%E3%83%BC%E3%83%AB%E3%83%84%E3%83%AA%E3%83%BC/&#34;&gt;ゴールツリー&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;ゴールツリーで設定したアクションを実施する際に4W1Hを使用すると良い。&lt;/p&gt;
+&lt;h4 id=&#34;フレームワークのまとめページもどうぞ&#34;&gt;フレームワークのまとめページもどうぞ&lt;/h4&gt;
+&lt;p&gt;このサイトであつかったフレームワークのまとめページがあります。よろしければ、そちらもどうぞ。&lt;/p&gt;
+&lt;p&gt;・&lt;a href=&#34;https://namaraii.com/post/2017/20170107_40c5dcd61d5d/&#34;&gt;議論や考えを整理するためのフレームワーク&lt;/a&gt;&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>SWOT分析</title>
+      <link>https://namaraii.com/post/2009/20090529_swot5e1aed7f676f/</link>
+      <pubDate>Fri, 29 May 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2009/20090529_swot5e1aed7f676f/</guid>
+      <description>
+        
+          &lt;h4 id=&#34;利用シーン&#34;&gt;利用シーン&lt;/h4&gt;
+&lt;p&gt;組織（個人でも良い）の戦略を検討する際に、ブレストだけでは意見が発散してしまい、統一感のある戦略にまとめあげるのが難しいケースがある。そういう場合は、SWOT分析により論点を絞り意見を共有しながら戦略に落とし込むと良い。&lt;/p&gt;
+&lt;h4 id=&#34;具体例&#34;&gt;具体例&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/OHn0X9Lfx5OG05.jpg&#34; alt=&#34;/images/OHn0X9Lfx5OG05.jpg&#34;&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;自分たちの強み(Strength)と弱み(Weakness)について列挙する。分析対象を明確にした上で(全社、部、課など）ブレストの要領で行うと良い。&lt;/li&gt;
+&lt;li&gt;外部環境を機会(Opportunities)、脅威(Threats)に分けて列挙する。&lt;/li&gt;
+&lt;li&gt;いずれも、結論を出すためのプロセスではないことを注意する。ブレスト中、いつにまにか対策の議論に入ってしまうことがあるので注意。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/Ge4SLYpiAQtjVq.jpg&#34; alt=&#34;/images/Ge4SLYpiAQtjVq.jpg&#34;&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;上で列挙した強み・弱み・機会・脅威をマトリクスにして、それぞれについて今後、何をすべきかを議論する。&lt;/li&gt;
+&lt;li&gt;議論した「何をすべきか」が確実に実行されるよう、&lt;a href=&#34;https://namaraii.com/post/4w1h&#34;&gt;4W1H&lt;/a&gt;などを使ってアクションプランを作成しておく。&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;フレームワークのまとめページもどうぞ&#34;&gt;フレームワークのまとめページもどうぞ&lt;/h4&gt;
+&lt;p&gt;このサイトであつかったフレームワークのまとめページがあります。よろしければ、そちらもどうぞ。&lt;/p&gt;
+&lt;p&gt;・&lt;a href=&#34;https://namaraii.com/post/2017/20170107_40c5dcd61d5d/&#34;&gt;議論や考えを整理するためのフレームワーク&lt;/a&gt;&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>オポチュニティマッピング</title>
+      <link>https://namaraii.com/post/2009/20090529_80a4367c302a/</link>
+      <pubDate>Fri, 29 May 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2009/20090529_80a4367c302a/</guid>
+      <description>
+        
+          &lt;h4 id=&#34;利用シーン&#34;&gt;利用シーン&lt;/h4&gt;
+&lt;p&gt;議論が狭い視点での各論に陥った場合、オポチュニティマッピングを使って全体をビジュアルに表すことにより、議論対象の全体像が見えてくる。&lt;/p&gt;
+&lt;p&gt;オポチュニティマッピングにまとめる対象を決めたら、対象についての戦略を考える上で必要な切り口を検討し横軸を決める。縦軸と組み合わせ、それぞれのボックスの面積により、事業機会や売上高などの大きさを表すようにする。&lt;/p&gt;
+&lt;h4 id=&#34;具体例&#34;&gt;具体例&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/gs0Tkhmmompi98.jpg&#34; alt=&#34;/images/gs0Tkhmmompi98.jpg&#34;&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;顧客A社の事業ドメインを横軸に展開する。ここではシステム開発、サービス、パッケージを設定する。&lt;/li&gt;
+&lt;li&gt;各事業ドメインの中の事業分野の大きさ（この例では売上高）を元に縦軸を設定する。この時、ボックスの面積が全事業における各事業分野の大きさを表すようにする。&lt;/li&gt;
+&lt;li&gt;この時、それぞれの大きさがわからない（公開されていない）場合があるが、その時は値を推定（仮説レベルでも良い）し、まずは書いてみる。その後、対象へのヒアリングや調査を通して、なるべく精度を高めていく。&lt;/li&gt;
+&lt;li&gt;マップが書けたら各事業分野の規模（ボックスの面積）や成長性、競合との関係などを加味し、戦略を立案する。&lt;/li&gt;
+&lt;li&gt;この例では「攻める」「守る・伸ばす」「触らない」という３つの優先度付けを行った。&lt;/li&gt;
+&lt;li&gt;オポチュニティマッピングを複数の関係者で作成することにより、対象の理解と戦略に関する共通認識が得られる。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;フレームワークのまとめページもどうぞ&#34;&gt;フレームワークのまとめページもどうぞ&lt;/h4&gt;
+&lt;p&gt;このサイトであつかったフレームワークのまとめページがあります。よろしければ、そちらもどうぞ。&lt;/p&gt;
+&lt;p&gt;・&lt;a href=&#34;https://namaraii.com/post/2017/20170107_40c5dcd61d5d/&#34;&gt;議論や考えを整理するためのフレームワーク&lt;/a&gt;&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>ゴールツリー</title>
+      <link>https://namaraii.com/post/2009/20090529_dd4b060af860/</link>
+      <pubDate>Fri, 29 May 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2009/20090529_dd4b060af860/</guid>
+      <description>
+        
+          &lt;h4 id=&#34;利用シーン&#34;&gt;利用シーン&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span id=&#34;6df1&#34;&gt;ゴールを明確化して発散した議論を収束する。&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;3d75&#34;&gt;目的と手段を明確化する。&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/FIaotqZ04wRpnC.jpg&#34; alt=&#34;/images/FIaotqZ04wRpnC.jpg&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;具体例&#34;&gt;具体例&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/j5yC-bf3O9eEm2.jpg&#34; alt=&#34;/images/j5yC-bf3O9eEm2.jpg&#34;&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;本質的な目標（ゴール）を定義する。例では「部門粗利10%アップ」を設定している。&lt;/li&gt;
+&lt;li&gt;目標を達成するための下位目標を定義する。下位目標の下にさらに下位目標があっても良い。&lt;/li&gt;
+&lt;li&gt;下位目標ごとに達成するために必要なアクションを定義する。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;関連ツール&#34;&gt;関連ツール&lt;/h4&gt;
+&lt;h4 id=&#34;4w1hpost4w1h&#34;&gt;&lt;a href=&#34;https://namaraii.com/post/4W1H/&#34;&gt;4W1H&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;アクションまで決まるとなんとなく安心して、そのままにしてしまうことがある。アクションまで落とし込んだら、4W1Hで期限や担当者を明確にし、確実に実行される仕組みを作る。&lt;/p&gt;
+&lt;h4 id=&#34;wbs&#34;&gt;WBS&lt;/h4&gt;
+&lt;p&gt;大きな目標に対するアクションは、さらに詳細なアクションへ分解しなければ実行しにくいケースがある。その場合、WBSを使ってアクションを詳細化し期限を設定する。&lt;/p&gt;
+&lt;h4 id=&#34;フレームワークのまとめページもどうぞ&#34;&gt;フレームワークのまとめページもどうぞ&lt;/h4&gt;
+&lt;p&gt;このサイトであつかったフレームワークのまとめページがあります。よろしければ、そちらもどうぞ。&lt;/p&gt;
+&lt;p&gt;・&lt;a href=&#34;https://namaraii.com/post/2017/20170107_40c5dcd61d5d/&#34;&gt;議論や考えを整理するためのフレームワーク&lt;/a&gt;&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>フォースフィールド分析</title>
+      <link>https://namaraii.com/post/2009/20090529_fd58a5342997/</link>
+      <pubDate>Fri, 29 May 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2009/20090529_fd58a5342997/</guid>
+      <description>
+        
+          &lt;h4 id=&#34;利用シーン&#34;&gt;利用シーン&lt;/h4&gt;
+&lt;p&gt;ある計画がうまくいっていない場合、その原因を人の心に作用する見えない力という視点で見える化し分析する。みんなの本音を見える化し、それぞれの力の強さを「推進力」「抵抗力」にまとめて全体を俯瞰することで、計画がうまくいかない理由を共有するとともに、改善策を検討するための論点を絞り込むことができる。&lt;/p&gt;
+&lt;h4 id=&#34;具体例&#34;&gt;具体例&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/fcbENxhfoMrJ1f.jpg&#34; alt=&#34;/images/fcbENxhfoMrJ1f.jpg&#34;&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;解決しようとするテーマを書き、その下を半分に分割し上の部分に「推進力」「抵抗力」と書く。ここでは解決しようとするテーマとして「オフショア開発が推進されない力の分析」を設定した。&lt;/li&gt;
+&lt;li&gt;ブレーンストーミングを行い、設定したテーマに対して推進する力、抵抗する力を書く。いかに本音を引き出せるかがポイント。&lt;/li&gt;
+&lt;li&gt;推進力、抵抗力ともに出そろったら、それぞれの「力」を矢印の大きさで表現する。最初の方は矢印の大きさを決めにくいが、とりあえず適当な大きさで書き、他の力との相対関係で調整する。&lt;/li&gt;
+&lt;li&gt;矢印の大きさで表現できたら、抵抗力を減少させるための方法についてブレーンストーミングする。&lt;/li&gt;
+&lt;li&gt;次に推進力を増加させるための方法、または新しい推進力が無いかブレーンストーミングする。&lt;/li&gt;
+&lt;li&gt;ブレーンストーミングした抵抗力を減少させる方法、推進力を増加させる方法が確実に実行されるよう、&lt;a href=&#34;https://namaraii.com/post/4w1h&#34;&gt;4W1H&lt;/a&gt;などを使ってアクションプランを作成しておく。&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;フレームワークのまとめページもどうぞ&#34;&gt;フレームワークのまとめページもどうぞ&lt;/h4&gt;
+&lt;p&gt;このサイトであつかったフレームワークのまとめページがあります。よろしければ、そちらもどうぞ。&lt;/p&gt;
+&lt;p&gt;・&lt;a href=&#34;https://namaraii.com/post/2017/20170107_40c5dcd61d5d/&#34;&gt;議論や考えを整理するためのフレームワーク&lt;/a&gt;&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>プロセスマッピング</title>
+      <link>https://namaraii.com/post/2009/20090529_3a3900276bc1/</link>
+      <pubDate>Fri, 29 May 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2009/20090529_3a3900276bc1/</guid>
+      <description>
+        
+          &lt;h4 id=&#34;利用シーン&#34;&gt;利用シーン&lt;/h4&gt;
+&lt;p&gt;業務プロセスのムダを見つけたい場合や、問題が発生しやすい作業フローを見つけたい場合に使用する。業務プロセスを見える化しブレーンストーミングすることで、それまでは「常識として疑わなかったが実はムダな作業やプロセス」をみつけやすくなる。&lt;/p&gt;
+&lt;h4 id=&#34;具体例&#34;&gt;具体例&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/kOKKOltFz58-u7.jpg&#34; alt=&#34;/images/kOKKOltFz58-u7.jpg&#34;&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;関連する部署を書き出し、それぞれの間に線を引く。ここでは「担当者」「人事部」「移動希望部署」を設定した。&lt;/li&gt;
+&lt;li&gt;業務プロセスを構成するタスクを抽出し1つの箱として表現する。&lt;/li&gt;
+&lt;li&gt;タスクの実行順序や流れはボックス間に矢印を書いて表現する。関係部署、タスク、実行順序を把握することが目的なので、特にフォーマットにはこだわらなくて良い。&lt;/li&gt;
+&lt;li&gt;プロセスマッピングが終わったら全体を俯瞰し、改善策をブレーンストーミングする。このとき、関連部署の出席者有無が議論の精度とスピードに大きな影響を与える。このため、極力、議論できる担当者に出席してもらえるよう、事前に各部署へ要請しておくと良い。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;フレームワークのまとめページもどうぞ&#34;&gt;フレームワークのまとめページもどうぞ&lt;/h4&gt;
+&lt;p&gt;このサイトであつかったフレームワークのまとめページがあります。よろしければ、そちらもどうぞ。&lt;/p&gt;
+&lt;p&gt;・&lt;a href=&#34;https://namaraii.com/post/2017/20170107_40c5dcd61d5d/&#34;&gt;議論や考えを整理するためのフレームワーク&lt;/a&gt;&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>ペイオフマトリクス</title>
+      <link>https://namaraii.com/post/2009/20090529_e06fbf97661/</link>
+      <pubDate>Fri, 29 May 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2009/20090529_e06fbf97661/</guid>
+      <description>
+        
+          &lt;h4 id=&#34;利用シーン&#34;&gt;利用シーン&lt;/h4&gt;
+&lt;p&gt;議論の結果、複数の案がでてきた場合に、どれを選べば良いのかで悩むことがある。そのような場合、２つの評価基準を設定し、ペイオフマトリクスで複数案の相対的ポジションを比較すると良い。&lt;/p&gt;
+&lt;h4 id=&#34;具体例&#34;&gt;具体例&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/pXRcbb5tD4MTcG.jpg&#34; alt=&#34;/images/pXRcbb5tD4MTcG.jpg&#34;&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;あるテーマに対して議論し、複数の案を出す。&lt;/li&gt;
+&lt;li&gt;案を評価するために基準を2つ設定する。ここでは「成果」と「難しさ」を設定している。&lt;/li&gt;
+&lt;li&gt;全ての案をペイオフマトリクス上へ位置付ける。&lt;/li&gt;
+&lt;li&gt;特に最初の案はどこに配置するか悩ましいが、とりあえずどこかへ配置する。&lt;/li&gt;
+&lt;li&gt;2つめ以降の案はそれまでに配置した案との相対的な関係を考慮しながら配置する。&lt;/li&gt;
+&lt;li&gt;あとから位置を動かしたくなることが多いため、ポストイットやマグネットなどを利用するとよい。&lt;/li&gt;
+&lt;li&gt;全ての案を配置したら、（この場合は）右上のものから高い優先度を付けて&lt;a href=&#34;https://namaraii.com/post/4w1h&#34;&gt;4W1H&lt;/a&gt;などでアクションプランを作成し、実行する。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;フレームワークのまとめページもどうぞ&#34;&gt;フレームワークのまとめページもどうぞ&lt;/h4&gt;
+&lt;p&gt;このサイトであつかったフレームワークのまとめページがあります。よろしければ、そちらもどうぞ。&lt;/p&gt;
+&lt;p&gt;・&lt;a href=&#34;https://namaraii.com/post/2017/20170107_40c5dcd61d5d/&#34;&gt;議論や考えを整理するためのフレームワーク&lt;/a&gt;&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>ポジショニングマップ</title>
+      <link>https://namaraii.com/post/2009/20090529_a069e5f7f352/</link>
+      <pubDate>Fri, 29 May 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2009/20090529_a069e5f7f352/</guid>
+      <description>
+        
+          &lt;h4 id=&#34;利用シーン&#34;&gt;利用シーン&lt;/h4&gt;
+&lt;p&gt;新製品を開発する場合に、競合製品のポジションを評価し「空いている」ポジションをみつけるなど、複数の対象物のポジショニングを整理するために使う。&lt;/p&gt;
+&lt;p&gt;表記自体は&lt;a href=&#34;https://namaraii.com/post/%E3%83%9A%E3%82%A4%E3%82%AA%E3%83%95%E3%83%9E%E3%83%88%E3%83%AA%E3%82%AF%E3%82%B9&#34;&gt;ペイオフマトリクス&lt;/a&gt;とあまり変わらない。ペイオフマトリクスは、ポジションを整理した後、優先度付けを行って案を選択するのに対して、ポジショニングマップは、ポジショニングを図示し、空いているポジションや進むべきポジションを検討するために使う。&lt;/p&gt;
+&lt;h4 id=&#34;具体例&#34;&gt;具体例&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/vdV6VT6kduqNNc.jpg&#34; alt=&#34;/images/vdV6VT6kduqNNc.jpg&#34;&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;ポジショニングを評価するための基準を2つ設定する。ここでは「予算」と「戦術」を設定している。&lt;/li&gt;
+&lt;li&gt;全ての対象物をポジショニングマップ上へ位置付ける。&lt;/li&gt;
+&lt;li&gt;特に最初の対象物はどこに配置するか悩ましいが、とりあえずどこかへ配置する。&lt;/li&gt;
+&lt;li&gt;2つめ以降はそれまでに配置した物との相対的な関係を考慮しながら配置する。&lt;/li&gt;
+&lt;li&gt;あとから位置を動かしたくなることが多いため、ポストイットやマグネットなどを利用するとよい。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;フレームワークのまとめページもどうぞ&#34;&gt;フレームワークのまとめページもどうぞ&lt;/h4&gt;
+&lt;p&gt;このサイトであつかったフレームワークのまとめページがあります。よろしければ、そちらもどうぞ。&lt;/p&gt;
+&lt;p&gt;・&lt;a href=&#34;https://namaraii.com/post/2017/20170107_40c5dcd61d5d/&#34;&gt;議論や考えを整理するためのフレームワーク&lt;/a&gt;&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>マインドマップ</title>
+      <link>https://namaraii.com/post/2009/20090529_375f5dc22f60/</link>
+      <pubDate>Fri, 29 May 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2009/20090529_375f5dc22f60/</guid>
+      <description>
+        
+          &lt;p&gt;マインドマップは心理学者トニー・ブザンが開発した手法。真ん中に議論の中心になる言葉を書き、そこから放射線状に枝を伸ばし発想を展開していく。&lt;/p&gt;
+&lt;h4 id=&#34;利用シーン&#34;&gt;利用シーン&lt;/h4&gt;
+&lt;p&gt;ブレーンストーミングなど意見を発散したい場合に使うと効果的。増殖するマインドマップをみながら、発想のまま書いていくことにより、さらに新たな発想が生み出されていく。&lt;/p&gt;
+&lt;p&gt;会議ではホワイトボードの中心にテーマを書き、自由に意見を出してもらいながら枝に展開していく。できればイラストなどを入れてビジュアルしたり、枝の固まりを違う色で囲んだりして見ていて楽しいものにするとよい。&lt;/p&gt;
+&lt;h4 id=&#34;具体例&#34;&gt;具体例&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/KPPL9wR25NV0C6.jpg&#34; alt=&#34;/images/KPPL9wR25NV0C6.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;パソコンを使ってマインドマップをまとめたい場合は
+&lt;a href=&#34;http://freemind.sourceforge.net/wiki/index.php/Main_Page&#34;&gt;FreeMind&lt;/a&gt;や&lt;a href=&#34;http://www.xmind.net/&#34;&gt;XMind&lt;/a&gt;などのマインドマップ専用アプリケーションがある。この他にも有償のものがいくつかあるが、FreeMindもXMindも無償で利用可能なので、まずはこれらを試してみてはどうだろう。&lt;/p&gt;
+&lt;p&gt;個人的には機能が豊富で操作性も優れているXMindをオススメする。&lt;/p&gt;
+&lt;p&gt;上のマインドマップはXMindで作成しPNG形式で出力したものだ。カラフルな表現ができることを示すために、ややコテコテの仕上がりになっているが、このように画像を使ったり境界を定義して色を付けたりするのも簡単である。&lt;/p&gt;
+&lt;p&gt;プロジェクタでXMindのマインドマップを表示・編集しながら意見を出し合い、会議が終了したらすぐに参加メンバーへメールで送る…なんていうのもスマートで良いかもしれない。&lt;/p&gt;
+&lt;h4 id=&#34;フレームワークのまとめページもどうぞ&#34;&gt;フレームワークのまとめページもどうぞ&lt;/h4&gt;
+&lt;p&gt;このサイトであつかったフレームワークのまとめページがあります。よろしければ、そちらもどうぞ。&lt;/p&gt;
+&lt;p&gt;・&lt;a href=&#34;https://namaraii.com/post/2017/20170107_40c5dcd61d5d/&#34;&gt;議論や考えを整理するためのフレームワーク&lt;/a&gt;&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>二分割法</title>
+      <link>https://namaraii.com/post/2009/20090529_76ab83cfc7b8/</link>
+      <pubDate>Fri, 29 May 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2009/20090529_76ab83cfc7b8/</guid>
+      <description>
+        
+          &lt;h4 id=&#34;利用シーン&#34;&gt;利用シーン&lt;/h4&gt;
+&lt;p&gt;話が混乱したり、一方からの視点に偏った議論になった場合、二分割法で整理してみると良い。シンプルだが、メンバ全員がさまざまな意見を分析的に捕らえる手助けとなり、集中すべき方向性が見えてくる。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span
+id=&#34;7b85&#34;&gt;賛成・反対の理由を全員で共有する(プロ or コン)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span
+id=&#34;a00e&#34;&gt;チームの意識を「可能なこと」に集中させる(制御可能 or 制御不能)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;bbff&#34;&gt;そもそも論を排除して未来の議論に集中させる(過去 or
+未来)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&#34;ad9a&#34;&gt;理想のイメージを整理しビジョンをつくる(モア or
+レス)&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/SMtRdmcPMrt-Rl.jpg&#34; alt=&#34;/images/SMtRdmcPMrt-Rl.jpg&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;具体例&#34;&gt;具体例&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/7eydtWu2NW6ZL_.jpg&#34; alt=&#34;/images/7eydtWu2NW6ZL_.jpg&#34;&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;自分たちが制御できる問題か否かで分けて整理する。&lt;/li&gt;
+&lt;li&gt;制御できない問題は単なる愚痴になってしまうため、いくら話してもムダ。制御可能な問題を中心に議論するように方向付けする。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;フレームワークのまとめページもどうぞ&#34;&gt;フレームワークのまとめページもどうぞ&lt;/h4&gt;
+&lt;p&gt;このサイトであつかったフレームワークのまとめページがあります。よろしければ、そちらもどうぞ。&lt;/p&gt;
+&lt;p&gt;・&lt;a href=&#34;https://namaraii.com/post/2017/20170107_40c5dcd61d5d/&#34;&gt;議論や考えを整理するためのフレームワーク&lt;/a&gt;&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>意志決定テーブル</title>
+      <link>https://namaraii.com/post/2009/20090529_22588609c22b/</link>
+      <pubDate>Fri, 29 May 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://namaraii.com/post/2009/20090529_22588609c22b/</guid>
+      <description>
+        
+          &lt;h4 id=&#34;利用シーン&#34;&gt;利用シーン&lt;/h4&gt;
+&lt;p&gt;複数の対象に対して優先度付けをしたい場合にに使用する。評価を行う観点を抽出した後、評価観点毎に点数を付け、それらの積を計算した評価点を用いて優先度を決定する。&lt;/p&gt;
+&lt;p&gt;点数は1,5,9のように離散値を設定し、その中から選ぶようにすると、中央付近の評価が集中し優先度を付けにくくなることを抑止できる。&lt;/p&gt;
+&lt;p&gt;また、人命や社命に関わるなど絶対に譲れない評価がある場合、最大点数^評価項目数（べき乗）を上回る特別点を設定できるようにする。（たとえば最高9点で3つの評価項目がある場合、9³=729点となるため特別点は1000点とするなど）&lt;/p&gt;
+&lt;h4 id=&#34;具体例&#34;&gt;具体例&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/LjT7wxvknlI_LT.jpg&#34; alt=&#34;/images/LjT7wxvknlI_LT.jpg&#34;&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;優先度を決定するための評価項目を検討する。重要な評価項目に漏れが生じないように慎重に検討すること。ここでは「販売量」「利益率」「顧客重要度」を設定した。&lt;/li&gt;
+&lt;li&gt;比較対象の名称を記述する。ここでは「Ａ社」「Ｂ社」「Ｃ社」「Ｄ社」について比較を行っている。&lt;/li&gt;
+&lt;li&gt;設定した評価項目毎に議論し点数を記入する。&lt;/li&gt;
+&lt;li&gt;全ての項目に対して点数を記入したら評価点を計算する。評価点の大きいものから高い優先度で対応していく。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;フレームワークのまとめページもどうぞ&#34;&gt;フレームワークのまとめページもどうぞ&lt;/h4&gt;
+&lt;p&gt;このサイトであつかったフレームワークのまとめページがあります。よろしければ、そちらもどうぞ。&lt;/p&gt;
+&lt;p&gt;・&lt;a href=&#34;https://namaraii.com/post/2017/20170107_40c5dcd61d5d/&#34;&gt;議論や考えを整理するためのフレームワーク&lt;/a&gt;&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
