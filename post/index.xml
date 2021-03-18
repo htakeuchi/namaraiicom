@@ -1,4 +1,56 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on namaraii.com</title><link>https://namaraii.com/post/</link><description>Recent content in Posts on namaraii.com</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright><lastBuildDate>Mon, 08 Mar 2021 12:29:48 +0900</lastBuildDate><atom:link href="https://namaraii.com/post/index.xml" rel="self" type="application/rss+xml"/><item><title>自家製豆腐とにがりの量</title><link>https://namaraii.com/post/2021/crafttofu/</link><pubDate>Mon, 08 Mar 2021 12:29:48 +0900</pubDate><guid>https://namaraii.com/post/2021/crafttofu/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on namaraii.com</title><link>https://namaraii.com/post/</link><description>Recent content in Posts on namaraii.com</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright><lastBuildDate>Fri, 19 Mar 2021 08:05:02 +0900</lastBuildDate><atom:link href="https://namaraii.com/post/index.xml" rel="self" type="application/rss+xml"/><item><title>機種変更時(iPhone)にやったことと忘れたこと</title><link>https://namaraii.com/post/2021/kisyuhen/</link><pubDate>Fri, 19 Mar 2021 08:05:02 +0900</pubDate><guid>https://namaraii.com/post/2021/kisyuhen/</guid><description>
+&lt;p>先日、業務用のiPhoneを機種変更したのですが、一点だけやるべきことを漏らしてしまい、とっても面倒なことになったため、覚書として。&lt;/p>
+&lt;h2 id="やったこと">やったこと&lt;/h2>
+&lt;h3 id="データのバックアップ">データのバックアップ&lt;/h3>
+&lt;ul>
+&lt;li>設定 &amp;gt; [ユーザ名] &amp;gt; iCloudをタップ&lt;/li>
+&lt;li>「今すぐバックアップを作成」をタップ&lt;/li>
+&lt;/ul>
+&lt;h3 id="apple-paysuicaの引き継ぎ">Apple Pay/Suicaの引き継ぎ&lt;/h3>
+&lt;ul>
+&lt;li>古いiPhoneからカードを削除する
+&lt;ul>
+&lt;li>iPhoneでWalletアプリを起動して「カードを削除」を選択&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>新しいiPhoneへカード追加
+&lt;ul>
+&lt;li>Walletアプリを開き、画面右上にある＋を選択し、カードを追加&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="apple-watchのペアリング解除">Apple Watchのペアリング解除&lt;/h3>
+&lt;ul>
+&lt;li>Suicaを削除
+&lt;ul>
+&lt;li>iPhoneでWatch APPを開き「WalletとApple Pay」から削除する&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Watch Appを開きペアリングを解除する&lt;/li>
+&lt;li>新しいiPhoneでペアリングする&lt;/li>
+&lt;/ul>
+&lt;h3 id="iclouditunes-storeapp-store-からサインアウト">iCloud、iTunes Store、App Store からサインアウト&lt;/h3>
+&lt;ul>
+&lt;li>設定 &amp;gt; [ユーザ名]からサインアウトをタップ。Apple ID のパスワードを入力して「オフにする」をタップ。&lt;/li>
+&lt;/ul>
+&lt;h3 id="lineのトーク履歴バックアップ">Lineのトーク履歴バックアップ&lt;/h3>
+&lt;ul>
+&lt;li>Lineのホーム画面から設定-トーク-トークのバックアップを選ぶ&lt;/li>
+&lt;li>念の為、設定項目を控えておく（ID、登録メールアドレス）&lt;/li>
+&lt;/ul>
+&lt;h4 id="参考">参考&lt;/h4>
+&lt;ul>
+&lt;li>iPhone、iPad、iPod touch を売却、譲渡、下取りに出す前にやっておくべきこと - Apple サポート - &lt;a href="https://support.apple.com/ja-jp/HT201351">https://support.apple.com/ja-jp/HT201351&lt;/a>&lt;/li>
+&lt;li>iCloud.comの「iPhoneを探す」でデバイスを削除する - Apple サポート - &lt;a href="https://support.apple.com/ja-jp/guide/icloud/mmfc0eeddd/icloud">https://support.apple.com/ja-jp/guide/icloud/mmfc0eeddd/icloud&lt;/a>&lt;/li>
+&lt;li>Apple Pay で使うカードを管理する - Apple サポート &lt;a href="https://support.apple.com/ja-jp/HT205583#removecard">https://support.apple.com/ja-jp/HT205583#removecard&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="忘れたこと">忘れたこと&lt;/h2>
+&lt;h3 id="google認証システムの移行">Google認証システムの移行&lt;/h3>
+&lt;p>Google認証システムの移行を忘れてしまい、2FAにしている7つのサービスを個別に再設定するハメになってしまいました(´・ω・`)&lt;/p>
+&lt;ul>
+&lt;li>【機種変更時は忘れずに！】Googleアカウントの認証アプリを新しいスマホに移行する方法 | できるネット - &lt;a href="https://dekiru.net/article/15134/">https://dekiru.net/article/15134/&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>ひと昔まえだったら、環境設定自体を楽しめていたので、新しい端末になったら、データ移行せずにいちから設定していたところですが、もうそんな気力はないので、iCloudに取得したバックアップからリストアして終了。&lt;/p></description></item><item><title>自家製豆腐とにがりの量</title><link>https://namaraii.com/post/2021/crafttofu/</link><pubDate>Mon, 08 Mar 2021 12:29:48 +0900</pubDate><guid>https://namaraii.com/post/2021/crafttofu/</guid><description>
 &lt;p>アイリスオーヤマの電気圧力鍋 PMPC-MA4 のレシピ集にあった「豆腐」を作ろうとしたところ、1回目は全く固まらず失敗に終わったが、その原因はにがりの量だった。&lt;/p>
 &lt;h3 id="最初の失敗">最初の失敗&lt;/h3>
 &lt;p>この圧力鍋には69種類の自動メニューレシピがついてきて、&lt;a href="https://www.irisohyama.co.jp/kitchen/cooker/irisplaza/recipes/4l/">ネットでも公開されているが、&lt;/a>その中に「豆腐」がある。&lt;/p>
