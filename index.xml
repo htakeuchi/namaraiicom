@@ -1,4 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>namaraii.com</title><link>https://namaraii.com/</link><description>Recent content on namaraii.com</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright><lastBuildDate>Fri, 19 Mar 2021 08:05:02 +0900</lastBuildDate><atom:link href="https://namaraii.com/index.xml" rel="self" type="application/rss+xml"/><item><title>機種変更時(iPhone)にやったことと忘れたこと</title><link>https://namaraii.com/post/2021/kisyuhen/</link><pubDate>Fri, 19 Mar 2021 08:05:02 +0900</pubDate><guid>https://namaraii.com/post/2021/kisyuhen/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>namaraii.com</title><link>https://namaraii.com/</link><description>Recent content on namaraii.com</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright><lastBuildDate>Fri, 19 Mar 2021 21:59:43 +0900</lastBuildDate><atom:link href="https://namaraii.com/index.xml" rel="self" type="application/rss+xml"/><item><title>wavとmp3をコマンドラインで相互変換する</title><link>https://namaraii.com/post/2021/wavmp3/</link><pubDate>Fri, 19 Mar 2021 21:59:43 +0900</pubDate><guid>https://namaraii.com/post/2021/wavmp3/</guid><description>
+&lt;p>wavとmp3を相互に変換するスクリプトです。&lt;/p>
+&lt;p>ffmpegで変換するのでインストールします。Macの場合は、Homebrewで入れるのが簡単。&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="ln">1&lt;/span>% brew install ffmpeg
+&lt;/code>&lt;/pre>&lt;/div>&lt;script type="application/javascript" src="https://gist.github.com/htakeuchi/aa8bca798ae0ff07af57a9c87a34a52c.js">&lt;/script>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="ln">1&lt;/span>パスが通っているディレクトへスクリプトを置きchmod +x して、
+&lt;span class="ln">2&lt;/span>
+&lt;span class="ln">3&lt;/span>% wavmp3.rb foo.wav # foo.mp3が生成される
+&lt;span class="ln">4&lt;/span>$ wavmp3.rb bar.mp3 # bar.wavが生成される
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>のように使います。&lt;/p>
+&lt;p>mp3の音源をDAWで使うため、wavに変換したいケースがあるのですが、ffmpegのパラメタを覚えてられないのでスクリプト化して、ここへメモしとく。&lt;/p></description></item><item><title>機種変更時(iPhone)にやったことと忘れたこと</title><link>https://namaraii.com/post/2021/kisyuhen/</link><pubDate>Fri, 19 Mar 2021 08:05:02 +0900</pubDate><guid>https://namaraii.com/post/2021/kisyuhen/</guid><description>
 &lt;p>先日、業務用のiPhoneを機種変更したのですが、一点だけやるべきことを漏らしてしまい、とっても面倒なことになったため、覚書として。&lt;/p>
 &lt;h2 id="やったこと">やったこと&lt;/h2>
 &lt;h3 id="データのバックアップ">データのバックアップ&lt;/h3>
