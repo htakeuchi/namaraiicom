@@ -3,10 +3,9 @@
 &lt;p>ffmpegで変換するのでインストールします。Macの場合は、Homebrewで入れるのが簡単。&lt;/p>
 &lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="ln">1&lt;/span>% brew install ffmpeg
 &lt;/code>&lt;/pre>&lt;/div>&lt;script type="application/javascript" src="https://gist.github.com/htakeuchi/aa8bca798ae0ff07af57a9c87a34a52c.js">&lt;/script>
-&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="ln">1&lt;/span>パスが通っているディレクトへスクリプトを置きchmod +x して、
-&lt;span class="ln">2&lt;/span>
-&lt;span class="ln">3&lt;/span>% wavmp3.rb foo.wav # foo.mp3が生成される
-&lt;span class="ln">4&lt;/span>$ wavmp3.rb bar.mp3 # bar.wavが生成される
+&lt;p>パスが通っているディレクトへスクリプトを置きchmod +x して、&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="ln">1&lt;/span>% wavmp3.rb foo.wav # foo.mp3が生成される
+&lt;span class="ln">2&lt;/span>$ wavmp3.rb bar.mp3 # bar.wavが生成される
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>のように使います。&lt;/p>
 &lt;p>mp3の音源をDAWで使うため、wavに変換したいケースがあるのですが、ffmpegのパラメタを覚えてられないのでスクリプト化して、ここへメモしとく。&lt;/p></description></item><item><title>AIきりたんに『うちで踊ろう』を歌わせてみた</title><link>https://namaraii.com/post/2020/20200505/</link><pubDate>Tue, 05 May 2020 15:50:55 +0900</pubDate><guid>https://namaraii.com/post/2020/20200505/</guid><description>
 &lt;p>ニューラルネットワークを用いた歌声シンセサイザーNEUTRINOを試してみた。&lt;/p>
