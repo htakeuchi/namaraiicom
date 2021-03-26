@@ -6,7 +6,7 @@
 &lt;p>&lt;a href="https://japan.steinberg.net/jp/support/support_pages/big_sur.html">macOS Big Sur (11) 対応状況&lt;/a>を見ると、いまのところRosetta 2のみでネイティブ版は検証中のようです。&lt;/p>
 &lt;p>前のバージョンでも、オーディオインタフェースとしての機能は（自分の利用範囲では）使えていましたが、ドライバの設定画面を開けないないという問題があり、ループバックやミックスの設定ができませんでした。アップデート後は無事、開けるように。&lt;/p>
 &lt;p>&lt;img src="ur22mk2.png" alt="">&lt;/p>
-&lt;p>ZoomやTeamsでは音声がモノラルのため特に問題はなかったのですが、Apple謹製ボイスメモの場合、ステレオ録音されるので、マイクが左チャンネルのみに出力されるという、地味な軽いストレスがあったのですが、やっと解決。&lt;/p>
+&lt;p>ZoomやTeamsは、音声がモノラルなので問題なかったのですが、Apple謹製ボイスメモの場合、ステレオ録音されるので、マイクが左チャンネルのみに出力されるという、地味な軽いストレスがあったのですが、やっと解決。&lt;/p>
 &lt;div class="amazon-widget">
 &lt;a target="_blank" href="https://www.amazon.co.jp/gp/product/B017MVUAHM/?tag=namaraiicom-22">&lt;/a>
 &lt;div class="amazon-widget-img">
