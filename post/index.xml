@@ -1,4 +1,161 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on namaraii.com</title><link>https://namaraii.com/post/</link><description>Recent content in Posts on namaraii.com</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright><lastBuildDate>Sat, 27 Mar 2021 07:45:11 +0900</lastBuildDate><atom:link href="https://namaraii.com/post/index.xml" rel="self" type="application/rss+xml"/><item><title>UR22mkIIのドライバ V3.0.5でM1 Mac(Rosetta 2)に対応</title><link>https://namaraii.com/post/2021/ur22mk2/</link><pubDate>Sat, 27 Mar 2021 07:45:11 +0900</pubDate><guid>https://namaraii.com/post/2021/ur22mk2/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on namaraii.com</title><link>https://namaraii.com/post/</link><description>Recent content in Posts on namaraii.com</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright><lastBuildDate>Sat, 27 Mar 2021 17:17:17 +0900</lastBuildDate><atom:link href="https://namaraii.com/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Alfred常用のための設定と導入ワークフロー</title><link>https://namaraii.com/post/2021/alfred/</link><pubDate>Sat, 27 Mar 2021 17:17:17 +0900</pubDate><guid>https://namaraii.com/post/2021/alfred/</guid><description>
+&lt;p>かなり昔からランチャー、または&lt;a href="https://kapeli.com/dash">Dash&lt;/a>との組み合わせでライトに使っていた&lt;a href="https://www.alfredapp.com">Alfred&lt;/a>ですが、
+少し調べてみたところ便利機能が盛りだくさんなことが（いまさら）わかり、これから常用していくための環境を整えました。&lt;/p>
+&lt;p>＜参考にしたページ＞&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://qiita.com/jackchuka/items/ccd3f66f6dd00481b98b">Alfredを使いこなせてない君に！【Alfredの使い方完全版】 - Qiita&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="powerpackについて">Powerpackについて&lt;/h2>
+&lt;p>Alfredは&lt;a href="https://www.alfredapp.com/powerpack/">有償のPowerpack&lt;/a>が用意されており、クリップボード履歴・スニペ
+ット・ワークフローと行った強力な機能はPowerpackがなければ使えません。&lt;/p>
+&lt;p>ランチャー的な用途だけならSpotlightで代替できますし、あえてAlfredを使うのであれば購入すると幸せになれるかと。&lt;/p>
+&lt;p>他にも連絡先の検索やシェルコマンドの実行などPowerpack専用の機能がありますので、詳細は以下をご参照ください。&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://www.alfredapp.com/powerpack/">Alfred Powerpack - Take Control of Your Mac and macOS&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>以下は設定内容と導入したワークフローのメモです。&lt;/p>
+&lt;h2 id="general">General&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>設定項目&lt;/th>
+&lt;th>値&lt;/th>
+&lt;th>備考&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Launch Alfred at login&lt;/td>
+&lt;td>ON&lt;/td>
+&lt;td>ログイン時にAlfredを起動する&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Alfred Hotkey&lt;/td>
+&lt;td>⌘␣&lt;/td>
+&lt;td>Alfredを開くショートカットキー&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Where Are you&lt;/td>
+&lt;td>Japan&lt;/td>
+&lt;td>Web検索対象の国を変更&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="advanced">Advanced&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>設定項目&lt;/th>
+&lt;th>値&lt;/th>
+&lt;th>備考&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Force Keyboard&lt;/td>
+&lt;td>ABC&lt;/td>
+&lt;td>Alfredが開いた際のキーボードモード&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="features---clipboard-history">Features - Clipboard History&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>設定項目&lt;/th>
+&lt;th>値&lt;/th>
+&lt;th>備考&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Clipboard History&lt;/td>
+&lt;td>3 Months&lt;/td>
+&lt;td>クリップボードの保存期間&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Viewer Hotkey&lt;/td>
+&lt;td>⌘⇧v&lt;/td>
+&lt;td>履歴画面を開くショートカットキー&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="features---dictionary">Features - Dictionary&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>設定項目&lt;/th>
+&lt;th>値&lt;/th>
+&lt;th>備考&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Define a word&lt;/td>
+&lt;td>d&lt;/td>
+&lt;td>&amp;quot;d 単語&amp;quot;で検索&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="features---contacts---advanced">Features - Contacts - Advanced&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>設定項目&lt;/th>
+&lt;th>値&lt;/th>
+&lt;th>備考&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Show last name before first name&lt;/td>
+&lt;td>ON&lt;/td>
+&lt;td>姓・名で表示&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="features---snippets">Features - Snippets&lt;/h2>
+&lt;p>以下のコレクションを追加した。&lt;/p>
+&lt;ul>
+&lt;li>Emoji Pack - 絵文字（:coffee: ☕)&lt;/li>
+&lt;li>Mac symbols - Macキーボードの記号(!!cmd ⌘)&lt;/li>
+&lt;/ul>
+&lt;h2 id="features---web-search">Features - Web Search&lt;/h2>
+&lt;p>本サイト(namaraii.com)のカスタム検索を追加した。&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;a href="https://www.google.com/search?q=site%3Anamaraii.com+%7Bquery%7D">https://www.google.com/search?q=site%3Anamaraii.com+{query}&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="導入したワークフロー">導入したワークフロー&lt;/h2>
+&lt;h3 id="audio-switchhttpwwwpackalorgworkflowaudio-switch">&lt;a href="http://www.packal.org/workflow/audio-switch">Audio Switch&lt;/a>&lt;/h3>
+&lt;p>サウンドの入出力先を切り替えられる。オーディオインタフェース、Bluetoothイヤホンの切り替え時に便利。&lt;/p>
+&lt;p>&lt;img src="audioswitch.png" alt="">&lt;/p>
+&lt;h3 id="copy-urlhttpsgithubcomfallrootcopy-url-for-alfred">&lt;a href="https://github.com/fallroot/copy-url-for-alfred">Copy URL&lt;/a>&lt;/h3>
+&lt;p>ブラウザで表示中のページのURLとタイトルをクリップボードへコピーする。Markdown/HTML/テキストを選択可能。&lt;/p>
+&lt;p>~/Application Support/Alfred/Workflow Data/com.fallroot.copyurl/config.json を編集すればオリジナルの書式も定義できる。&lt;/p>
+&lt;p>&lt;img src="copyurl.png" alt="">&lt;/p>
+&lt;h3 id="githubhttpsgithubcomgharlanalfred-github-workflow">&lt;a href="https://github.com/gharlan/alfred-github-workflow">GitHub&lt;/a>&lt;/h3>
+&lt;p>Githubのリポジトリやユーザを検索できる。&lt;/p>
+&lt;p>&lt;img src="github.png" alt="">&lt;/p>
+&lt;h3 id="recent-itemshttpswwwalfredforumcomtopic713-recent-items-43-beta-2-for-alfred-4-finder-recent-items">&lt;a href="https://www.alfredforum.com/topic/713-recent-items-43-beta-2-for-alfred-4-finder-recent-items/">Recent Items&lt;/a>&lt;/h3>
+&lt;p>最近アクセスしたファイルやフォルダ、アプリケーションへ素早くアクセスできる。&lt;/p>
+&lt;p>&lt;img src="rec.png" alt="">&lt;/p>
+&lt;h3 id="remindershttpsgithubcomsurrealroadalfred-reminders">&lt;a href="https://github.com/surrealroad/alfred-reminders">Reminders&lt;/a>&lt;/h3>
+&lt;p>リマインダーを素早く追加できる。&lt;/p>
+&lt;p>&lt;img src="reminders.png" alt="">&lt;/p>
+&lt;h3 id="spotify-mini-playerhttpsalfred-spotify-mini-playercom">&lt;a href="https://alfred-spotify-mini-player.com/">Spotify Mini Player&lt;/a>&lt;/h3>
+&lt;p>Spotifyライブラリの検索、プレイリストへの追加など。キーボードだけでSpotifyのプレイリストを切り替えられるのは快適。&lt;/p>
+&lt;p>&lt;img src="spotify.png" alt="">&lt;/p>
+&lt;h3 id="terminal-finderhttpsgithubcomleennoalfred-terminalfinder">&lt;a href="https://github.com/LeEnno/alfred-terminalfinder">Terminal Finder&lt;/a>&lt;/h3>
+&lt;p>ファインダーで表示中のディレクトリへ移動した状態でターミナルを起動する。または、その逆。&lt;/p>
+&lt;p>&lt;img src="terminal.png" alt="">&lt;/p>
+&lt;h2 id="まとめ">まとめ&lt;/h2>
+&lt;p>Alfred（とPowerpack）の導入によるメリットは、&lt;/p>
+&lt;ul>
+&lt;li>アプリを切り替えずにできることが増える&lt;/li>
+&lt;li>マウスを使用せずにできることが増える&lt;/li>
+&lt;/ul>
+&lt;p>だと感じました。&lt;/p>
+&lt;p>少しずつ自分向けにカスタマイズしていくことで、キーボードとマウスの「切り替え」や、別アプリへの「切り替え」など、集中力を阻害する「切り替え」が減り、生産性が向上していきそうな予感がします。&lt;/p></description></item><item><title>UR22mkIIのドライバ V3.0.5でM1 Mac(Rosetta 2)に対応</title><link>https://namaraii.com/post/2021/ur22mk2/</link><pubDate>Sat, 27 Mar 2021 07:45:11 +0900</pubDate><guid>https://namaraii.com/post/2021/ur22mk2/</guid><description>
 &lt;p>UR22mkIIのUSBドライバ V3.0.5がリリースされ、M1 Mac(Rosetta 2)に対応しました。&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://japan.steinberg.net/jp/support/downloads/ur22mkii.html">Yamaha Steinberg USB Driver 3.0.5&lt;/a>&lt;/li>
