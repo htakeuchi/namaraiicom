@@ -1,4 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on namaraii.com</title><link>https://namaraii.com/post/</link><description>Recent content in Posts on namaraii.com</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright><lastBuildDate>Sat, 27 Mar 2021 17:17:17 +0900</lastBuildDate><atom:link href="https://namaraii.com/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Alfred常用のための設定と導入ワークフロー</title><link>https://namaraii.com/post/2021/alfred/</link><pubDate>Sat, 27 Mar 2021 17:17:17 +0900</pubDate><guid>https://namaraii.com/post/2021/alfred/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on namaraii.com</title><link>https://namaraii.com/post/</link><description>Recent content in Posts on namaraii.com</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright><lastBuildDate>Wed, 14 Apr 2021 16:55:00 +0900</lastBuildDate><atom:link href="https://namaraii.com/post/index.xml" rel="self" type="application/rss+xml"/><item><title>決算や確定申告で便利な無料のPDF関連ツール(Mac)</title><link>https://namaraii.com/post/2021/20210414/</link><pubDate>Wed, 14 Apr 2021 16:55:00 +0900</pubDate><guid>https://namaraii.com/post/2021/20210414/</guid><description>
+&lt;p>決算や確定申告に向けて、Amazonなどの各種ECサイトで購入したモノの領収書を揃える必要がありますが、これがなかなか大変なんですよね。&lt;/p>
+&lt;p>そして毎回、同じようなことを調べている気がするので、MacでAcrobatを使わずにPDFを取り扱うツール・方法を備忘録として書いておきます。&lt;/p>
+&lt;h2 id="amazonの領収書を一括してpdfへ変換">Amazonの領収書を一括してPDFへ変換&lt;/h2>
+&lt;p>Chormeの&lt;a href="https://chrome.google.com/webstore/detail/%E3%82%A2%E3%83%9E%E3%82%BE%E3%83%B3%E6%B3%A8%E6%96%87%E5%B1%A5%E6%AD%B4%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF/jaikhcpoplnhinlglnkmihfdlbamhgig?hl=ja&amp;amp;gl=JP">アマゾン注文履歴フィルタ&lt;/a>という機能拡張を使うと、Amazonの注文履歴画面へ領収書の絞り込みや出力のためのフィールドが追加されます。&lt;/p>
+&lt;p>&lt;img src="image1.jpeg" alt="">&lt;/p>
+&lt;p>条件を指定して領収書出力ボタンを押下すると、条件にマッチする領収書が１ページに連続して出力されます。&lt;/p>
+&lt;p>&lt;img src="image2.jpeg" alt="">&lt;/p>
+&lt;p>あとはChromeの印刷ダイアログで送信先を「PDFに保存」を指定すればOK。領収書単位でページングされます。素晴らしい。&lt;/p>
+&lt;p>とても便利な機能拡張ですが、Amazonの仕様変更のため、今後は利用できなくなる可能性があるとのこと。私のアカウントでは2021年4月現在まだ使えてます。&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://memo.furyutei.work/entry/20201226/1608940429">【お知らせ】アマゾン注文履歴フィルタが突然使えなくなるかもしれません！！ - 風柳メモ&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="pdf中の任意ページを削除">PDF中の任意ページを削除&lt;/h2>
+&lt;p>Macの場合、標準のプレビューアプリでサムネイルを表示し、削除したいページを選択してdeleteキーを押すだけですね。個人利用（事業用でない）領収書を削除するために多用します。&lt;/p>
+&lt;h2 id="pdfの結合">PDFの結合&lt;/h2>
+&lt;p>結合したいPDFが2〜3ファイルであれば、プレビューを使って結合するのがお手軽です。&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://support.apple.com/ja-jp/HT202945">Mac でプレビューを使って PDF を結合する - Apple サポート&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>が、数十ファイルとなると、この方法では厳しいくAutomatorでサービスを作っておくと便利です。&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://pgmemo.tokyo/data/archives/588.html">Acrobat不要。MacOSXで複数のPDFを結合してひとつにする｜プログラムメモ&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>作ったサービスを保存した後、ファインダーで結合したいPDFを選択して右クリックすると、PDF結合メニューが出てきます。選択するとAutomatorで設定したフォルダへ結合されたPDFが出力されます。&lt;/p>
+&lt;p>Automatorって便利だけど、いまいち使っている人が少ない印象があるなぁ。&lt;/p></description></item><item><title>Alfred常用のための設定と導入ワークフロー</title><link>https://namaraii.com/post/2021/alfred/</link><pubDate>Sat, 27 Mar 2021 17:17:17 +0900</pubDate><guid>https://namaraii.com/post/2021/alfred/</guid><description>
 &lt;p>かなり昔からランチャー、または&lt;a href="https://kapeli.com/dash">Dash&lt;/a>との組み合わせでライトに使っていた&lt;a href="https://www.alfredapp.com">Alfred&lt;/a>ですが、
 少し調べてみたところ便利機能が盛りだくさんなことが（いまさら）わかり、これから常用していくための環境を整えました。&lt;/p>
 &lt;p>＜参考にしたページ＞&lt;/p>
