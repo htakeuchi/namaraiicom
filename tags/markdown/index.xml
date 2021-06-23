@@ -1,233 +1,147 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>markdown on namaraii.com</title>
-    <link>https://namaraii.com/tags/markdown/</link>
-    <description>Recent content in markdown on namaraii.com</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright>
-    <lastBuildDate>Sat, 08 Jun 2019 09:04:07 +0900</lastBuildDate><atom:link href="https://namaraii.com/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Markdownからいい感じのチートシートを生成するツール</title>
-      <link>https://namaraii.com/post/2019/20190608_cheatsheet/</link>
-      <pubDate>Sat, 08 Jun 2019 09:04:07 +0900</pubDate>
-      
-      <guid>https://namaraii.com/post/2019/20190608_cheatsheet/</guid>
-      <description>
-        
-          &lt;p&gt;Markdownで書いたドキュメントから、チートシートを生成する簡単なツールを書いた。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/htakeuchi/cheatsheet&#34;&gt;htakeuchi/cheatsheet&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;だらだらと書いたMarkdownから、こんな感じのチートシートが生成されます。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/2019-06-08-02.png&#34; alt=&#34;vimチートシートのサンプル&#34; title=&#34;vimチートシートのサンプル&#34;&gt;&lt;/p&gt;
-&lt;p&gt;front matterで段組み数や説明などを記述可能。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;nn&#34;&gt;---&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;Markdown&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;category&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;Markup&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;ln&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;tags&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;l&#34;&gt;Featured]&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;ln&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;updated&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;ld&#34;&gt;2018-12-19&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;ln&#34;&gt;6&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;columns&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;ln&#34;&gt;7&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;description&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;A quick reference to the Markdown syntax.&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;ln&#34;&gt;8&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nn&#34;&gt;---&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;front matterに書いた内容から、自動的にインデクスページも生成されます。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/2019-06-08-01.png&#34; alt=&#34;インデクスページのサンプル&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://namaraii.com/cheatsheet&#34;&gt;自分のサイト向け&lt;/a&gt;にちゃちゃっと書いたツールなので、URLがハードコードされていたりしますが、似たようなことをしたい方はご参考までに。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/htakeuchi/cheatsheet&#34;&gt;htakeuchi/cheatsheet&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Markdownで書いたテキストをMediumへポストする(md2mid)</title>
-      <link>https://namaraii.com/post/2018/20180301_markdownmediummd2mid60c6ff9efde/</link>
-      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://namaraii.com/post/2018/20180301_markdownmediummd2mid60c6ff9efde/</guid>
-      <description>
-        
-          &lt;p&gt;go言語で書かれたmd2midを使って、Markdownで書いたテキストをMediumへポストするテストです。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;span
-id=&#34;1319&#34;&gt;&lt;a href=&#34;https://github.com/timakin/md2mid&#34;&gt;timakin/md2mid: CLI tool to publish your medium articles with markdown&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;!-- --&gt;
-&lt;pre&gt;&lt;code&gt;$ go get -u github.com/timakin/md2mid
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;でインストールした後、Mediumで[Settings]-[Integration tokens]で[Get
-integration token]ボタンを押下し、アクセストークンを払いだします。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;$ md2mid init &amp;lt;YOUR_ACCESS_TOKEN&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;払い出したトークンを登録します（最初だけです）その後、Markdownでエントリーを書き、&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;$ md2mid publish &amp;lt;MARKDOWN_FILE_PATH&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;とすると、Mediumへ投稿できます。タイトルやタグ、投稿時のステータスの指定方法などのサンプルは、&lt;a href=&#34;https://github.com/timakin/md2mid&#34;&gt;https://github.com/timakin/md2mid&lt;/a&gt;
-を参照のこと。&lt;/p&gt;
-&lt;p&gt;Mediumのエディタも良いですが、更新履歴を管理できたり、好みのエディタで書けたりなど、テキストベースで記事を書けるメリットは大きいですね。&lt;/p&gt;
-
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>MarkdownエディタInkdropの「これこれ」感について</title>
-      <link>https://namaraii.com/post/2017/20171118_markdowninkdropc1cb038e692d/</link>
-      <pubDate>Sat, 18 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://namaraii.com/post/2017/20171118_markdowninkdropc1cb038e692d/</guid>
-      <description>
-        
-          &lt;p&gt;&lt;a href=&#34;http://happenapps.com/&#34;&gt;Quiver&lt;/a&gt;というMarkdownエディタは、自分が理想とするモノに近く、愛用していたのですが、最近&lt;a href=&#34;https://www.inkdrop.info/&#34;&gt;Inkdrop&lt;/a&gt;へ乗り換えました。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;QuiverはLaTeXシンタックスでの数式やダイアグラムの描画をサポートしていますが、これらを扱うための「セル」に関する操作がやや煩雑です。&lt;/p&gt;
-&lt;p&gt;私がQuiverで書くメモは、それらを必要としないものが大半なのに「セル」を扱わざるを得ないため、操作面で微妙なストレスを感じるようになっていました。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;Inkdropは標準ではLaTeXシンタックスでの数式やダイアグラムの描画をサポートしていない（プラグインで拡張可能）のですが、その分、編集エリアの操作性がシンプルで文書作成に集中できます。&lt;/p&gt;
-&lt;p&gt;機能的にはQuiverとほぼ同等（機能として大きなところでは、プレゼンテーションモードがありませんが、プラグインを書けばなんとかなるのかな？）で見た目も似ています。美しい。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/1TfudAySz3r2H3yfnfF4a5Q.png&#34; alt=&#34;/images/1TfudAySz3r2H3yfnfF4a5Q.png&#34;&gt;
-Quiverと比較した際のInkdrop独自の機能としては、&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;span id=&#34;31e5&#34;&gt;プラグインによる機能拡張：
-&lt;a href=&#34;https://doc.inkdrop.info/manual/plugin-word-count&#34;&gt;Plugin: Word Count&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&#34;9d6a&#34;&gt;マルチプラットフォーム： MacOS(El Captain)、Windows
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>markdown on namaraii.com</title><link>https://namaraii.com/tags/markdown/</link><description>Recent content in markdown on namaraii.com</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright><lastBuildDate>Sat, 08 Jun 2019 09:04:07 +0900</lastBuildDate><atom:link href="https://namaraii.com/tags/markdown/index.xml" rel="self" type="application/rss+xml"/><item><title>Markdownからいい感じのチートシートを生成するツール</title><link>https://namaraii.com/post/2019/20190608_cheatsheet/</link><pubDate>Sat, 08 Jun 2019 09:04:07 +0900</pubDate><guid>https://namaraii.com/post/2019/20190608_cheatsheet/</guid><description>
+&lt;p>Markdownで書いたドキュメントから、チートシートを生成する簡単なツールを書いた。&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/htakeuchi/cheatsheet">htakeuchi/cheatsheet&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>だらだらと書いたMarkdownから、こんな感じのチートシートが生成されます。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/2019-06-08-02.png" alt="vimチートシートのサンプル" title="vimチートシートのサンプル">&lt;/p>
+&lt;p>front matterで段組み数や説明などを記述可能。&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="ln">1&lt;/span>&lt;span class="nn">---&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln">2&lt;/span>&lt;span class="w">&lt;/span>&lt;span class="nt">title&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">Markdown&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln">3&lt;/span>&lt;span class="w">&lt;/span>&lt;span class="nt">category&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">Markup&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln">4&lt;/span>&lt;span class="w">&lt;/span>&lt;span class="nt">tags&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="l">Featured]&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln">5&lt;/span>&lt;span class="w">&lt;/span>&lt;span class="nt">updated&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="ld">2018-12-19&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln">6&lt;/span>&lt;span class="w">&lt;/span>&lt;span class="nt">columns&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">3&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln">7&lt;/span>&lt;span class="w">&lt;/span>&lt;span class="nt">description&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">A quick reference to the Markdown syntax.&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln">8&lt;/span>&lt;span class="w">&lt;/span>&lt;span class="nn">---&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>front matterに書いた内容から、自動的にインデクスページも生成されます。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/2019-06-08-01.png" alt="インデクスページのサンプル">&lt;/p>
+&lt;p>&lt;a href="https://namaraii.com/cheatsheet">自分のサイト向け&lt;/a>にちゃちゃっと書いたツールなので、URLがハードコードされていたりしますが、似たようなことをしたい方はご参考までに。&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/htakeuchi/cheatsheet">htakeuchi/cheatsheet&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Markdownで書いたテキストをMediumへポストする(md2mid)</title><link>https://namaraii.com/post/2018/20180301_markdownmediummd2mid60c6ff9efde/</link><pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2018/20180301_markdownmediummd2mid60c6ff9efde/</guid><description>
+&lt;p>go言語で書かれたmd2midを使って、Markdownで書いたテキストをMediumへポストするテストです。&lt;/p>
+&lt;ul>
+&lt;li>&lt;span
+id="1319">&lt;a href="https://github.com/timakin/md2mid">timakin/md2mid: CLI tool to publish your medium articles with markdown&lt;/a>&lt;/span>&lt;/li>
+&lt;/ul>
+&lt;!-- -->
+&lt;pre>&lt;code>$ go get -u github.com/timakin/md2mid
+&lt;/code>&lt;/pre>
+&lt;p>でインストールした後、Mediumで[Settings]-[Integration tokens]で[Get
+integration token]ボタンを押下し、アクセストークンを払いだします。&lt;/p>
+&lt;pre>&lt;code>$ md2mid init &amp;lt;YOUR_ACCESS_TOKEN&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;p>払い出したトークンを登録します（最初だけです）その後、Markdownでエントリーを書き、&lt;/p>
+&lt;pre>&lt;code>$ md2mid publish &amp;lt;MARKDOWN_FILE_PATH&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;p>とすると、Mediumへ投稿できます。タイトルやタグ、投稿時のステータスの指定方法などのサンプルは、&lt;a href="https://github.com/timakin/md2mid">https://github.com/timakin/md2mid&lt;/a>
+を参照のこと。&lt;/p>
+&lt;p>Mediumのエディタも良いですが、更新履歴を管理できたり、好みのエディタで書けたりなど、テキストベースで記事を書けるメリットは大きいですね。&lt;/p></description></item><item><title>MarkdownエディタInkdropの「これこれ」感について</title><link>https://namaraii.com/post/2017/20171118_markdowninkdropc1cb038e692d/</link><pubDate>Sat, 18 Nov 2017 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2017/20171118_markdowninkdropc1cb038e692d/</guid><description>
+&lt;p>&lt;a href="http://happenapps.com/">Quiver&lt;/a>というMarkdownエディタは、自分が理想とするモノに近く、愛用していたのですが、最近&lt;a href="https://www.inkdrop.info/">Inkdrop&lt;/a>へ乗り換えました。&lt;/p>
+&lt;hr>
+&lt;p>QuiverはLaTeXシンタックスでの数式やダイアグラムの描画をサポートしていますが、これらを扱うための「セル」に関する操作がやや煩雑です。&lt;/p>
+&lt;p>私がQuiverで書くメモは、それらを必要としないものが大半なのに「セル」を扱わざるを得ないため、操作面で微妙なストレスを感じるようになっていました。&lt;/p>
+&lt;hr>
+&lt;p>Inkdropは標準ではLaTeXシンタックスでの数式やダイアグラムの描画をサポートしていない（プラグインで拡張可能）のですが、その分、編集エリアの操作性がシンプルで文書作成に集中できます。&lt;/p>
+&lt;p>機能的にはQuiverとほぼ同等（機能として大きなところでは、プレゼンテーションモードがありませんが、プラグインを書けばなんとかなるのかな？）で見た目も似ています。美しい。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/1TfudAySz3r2H3yfnfF4a5Q.png" alt="/images/1TfudAySz3r2H3yfnfF4a5Q.png">
+Quiverと比較した際のInkdrop独自の機能としては、&lt;/p>
+&lt;ul>
+&lt;li>&lt;span id="31e5">プラグインによる機能拡張：
+&lt;a href="https://doc.inkdrop.info/manual/plugin-word-count">Plugin: Word Count&lt;/a>&lt;/span>&lt;/li>
+&lt;li>&lt;span id="9d6a">マルチプラットフォーム： MacOS(El Captain)、Windows
 7+(64bit)、Linux(Ubuntu,
-64bit)で動作。iOS/Androidアプリもあります。&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&#34;9fb4&#34;&gt;クラウドによるデータ同期：
-QuiverでもDropboxやiCloudによるデータ同期はできますが、Inkdropは独自にホスティングしているサーバでデータが同期されます。また、&lt;a href=&#34;https://doc.inkdrop.info/manual/accessing-data-in-the-cloud&#34;&gt;データアクセス用のAPI&lt;/a&gt;も公開されています。&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&#34;205e&#34;&gt;ノートを公開可能：
-ノート単位でユニークなURLが払い出され、外部へ公開することができます。&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;などがあります。&lt;/p&gt;
-&lt;p&gt;が、個人的には機能の多い少ないではなく、Inkdropは広義での「デザイン」に魅力を感じて年契約をしました。&lt;/p&gt;
-&lt;p&gt;機能面、操作面、デザイン面、&lt;strong&gt;アプリ全体の「これこれ」感&lt;/strong&gt;がハンパない。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;Inkdropはいわゆるサブスクリプションモデルを採用しており、月額
-$4.99または年額 $49.9です。&lt;/p&gt;
-&lt;p&gt;ちょっと高いと感じましたか？&lt;/p&gt;
-&lt;p&gt;なぜ、このような値付けをしたかは、作者のブログエントリをご覧あれ。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;span
-id=&#34;1330&#34;&gt;&lt;a href=&#34;https://goo.gl/kKGXrH&#34;&gt;なぜInkdropはEvernoteより値段が高いのか — 踊る犬.netブログ (旧)&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;こちらのエントリーも素晴らしくて、ケヴィン・ケリーの&lt;a href=&#34;http://memo7.sblo.jp/article/178840050.html&#34;&gt;千人の忠実なファン&lt;/a&gt;を連想しました。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;span
-id=&#34;9034&#34;&gt;&lt;a href=&#34;https://goo.gl/yTBjG1&#34;&gt;Markdownエディタを作って月15万円稼ぐためにやったこと — Inkdrop — 週休７日で働きたい&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;僕のやり方はお金を稼ぐにはすごく要領が悪くて遠回りに見えるでしょう。確かに、無料プランを作ったり値段を下げてプレスリリースを打ちまくればもっと話題になって、額面上は稼げるかもしれません。&lt;br&gt;
- &lt;br&gt;
- 僕はいわゆる「成功」を求めているのではなく、ただ今をより楽しく生きようとしているだけです。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.inkdrop.info/&#34;&gt;Inkdrop&lt;/a&gt;いいですよ。&lt;/p&gt;
-
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Quiverへ移行するためKobitoのMarkdownデータを抽出するRubyスクリプトを書いた</title>
-      <link>https://namaraii.com/post/2016/20160214_quiverkobitomarkdownruby788934135ce5/</link>
-      <pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://namaraii.com/post/2016/20160214_quiverkobitomarkdownruby788934135ce5/</guid>
-      <description>
-        
-          &lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/KIuKFY8dBNXpoS.png&#34; alt=&#34;/images/KIuKFY8dBNXpoS.png&#34;&gt;
-Kobitoで管理していたMarkdownのメモを、簡単なスクリプトを書いて&lt;a href=&#34;http://happenapps.com/#quiver&#34;&gt;Quiver&lt;/a&gt;へ移行しました。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;（が、以下の内容は完全に無保証ですので、ふーんという感じで読んでください）&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Kobito(2.3.3)のデータベースはsqlite3らしく、ざっとテーブルの構成を眺めてみるとMarkdownを抜けそうな雰囲気。&lt;/p&gt;
-&lt;p&gt;簡単なスクリプトを書いて試してみました。&lt;a href=&#34;https://gist.github.com/htakeuchi/933064d05c2178da9da3#file-kobito2markdown-rb&#34;&gt;KobitoのデータベースからMarkdownを抽出&lt;/a&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;span
-id=&#34;21f6&#34;&gt;~/Library/Containers/com.qiita.Kobito/Data/Library/Kobito/Kobito.dbにあるKobitoのデータベースを念のため他のディレクトリへコピー&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span
-id=&#34;0aa1&#34;&gt;スクリプトのKOBITO_DBで1.のデータベースパスを指定&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span
-id=&#34;a085&#34;&gt;スクリプトのEXPORT_PATHでMarkdownを出力するパスを指定&lt;/span&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;そして、&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;$ ruby kobito2markdown.rb
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;一応、抜けたようです。&lt;/p&gt;
-&lt;p&gt;EXPORT_PATHで指定したディレクトリ配下に、”Kobitoのタイトル.md”というファイル名でMarkdownファイルが出力されます。&lt;/p&gt;
-&lt;p&gt;あとは、Quiverの[File]-[Import]-[Markdown]で一括してインポートすればOK。&lt;/p&gt;
-&lt;p&gt;ただ、タグや作成日時、更新日時などは引き継がれません。やろうと思えばなんとかなる気がしますが、とりあえずここまでにします。&lt;/p&gt;
-
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>プログラマ向けノートアプリQuiverが素晴らしい(Mac用アプリ)</title>
-      <link>https://namaraii.com/post/2016/20160212_quivermacdaac2b1ced42/</link>
-      <pubDate>Fri, 12 Feb 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://namaraii.com/post/2016/20160212_quivermacdaac2b1ced42/</guid>
-      <description>
-        
-          &lt;p&gt;Markdownをサポートしたメモアプリは数多くありますが、技術系のメモやスニペットを書き溜めるのに適したものはそれほど多くありません。&lt;/p&gt;
-&lt;p&gt;個人的な要件としては、&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;span
-id=&#34;a4d7&#34;&gt;データフォーマットがオープンで好みのクラウドサービスで同期できること&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&#34;a414&#34;&gt;Markdown(GFM)を扱えてプレビューできること&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span
-id=&#34;25f2&#34;&gt;コードの取り扱いが簡単なこと(できればシンタクスハイライトも)&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span
-id=&#34;60b2&#34;&gt;ファイルを意識しないで使えること(ファイル名を考えたりしなくて良い。オートセーブされる)&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span
-id=&#34;42ec&#34;&gt;ノートブック、タグなどでノートを整理・分類できること&lt;/span&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;ぐらいなのですが、すべてを満たしたアプリをなかなか見つけられず、Day
-OneやUlysses、Kobitoなどを併用して凌いでいましたが、最近、知ったQuiverというアプリがこれらの要件をすべて満たしており、これに一本化することに。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/GjEkYo-twFT1WR.png&#34; alt=&#34;/images/GjEkYo-twFT1WR.png&#34;&gt;
-あまりにも気に入ったため、思わず公式ドキュメントを翻訳してしまいました。さらに詳しい情報はこちらをどうぞ。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/HappenApps/Quiver/wiki/Quiver%E3%82%92%E3%81%AF%E3%81%98%E3%82%81%E3%82%88%E3%81%86&#34;&gt;Quiverをはじめよう · HappenApps/Quiver Wiki&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Markdownエディタとしての機能だけでも満足なのですが、Quiverでは「セル」という概念があり、LaTeXやシーケンス図なども簡単に扱うことができます。&lt;/p&gt;
-&lt;p&gt;たとえば、&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;[
-
-\sum_{n=1}^\infty \frac{1}{n^s}  \ \ (s &amp;gt; 0)
-
+64bit)で動作。iOS/Androidアプリもあります。&lt;/span>&lt;/li>
+&lt;li>&lt;span id="9fb4">クラウドによるデータ同期：
+QuiverでもDropboxやiCloudによるデータ同期はできますが、Inkdropは独自にホスティングしているサーバでデータが同期されます。また、&lt;a href="https://doc.inkdrop.info/manual/accessing-data-in-the-cloud">データアクセス用のAPI&lt;/a>も公開されています。&lt;/span>&lt;/li>
+&lt;li>&lt;span id="205e">ノートを公開可能：
+ノート単位でユニークなURLが払い出され、外部へ公開することができます。&lt;/span>&lt;/li>
+&lt;/ul>
+&lt;p>などがあります。&lt;/p>
+&lt;p>が、個人的には機能の多い少ないではなく、Inkdropは広義での「デザイン」に魅力を感じて年契約をしました。&lt;/p>
+&lt;p>機能面、操作面、デザイン面、&lt;strong>アプリ全体の「これこれ」感&lt;/strong>がハンパない。&lt;/p>
+&lt;hr>
+&lt;p>Inkdropはいわゆるサブスクリプションモデルを採用しており、月額
+$4.99または年額 $49.9です。&lt;/p>
+&lt;p>ちょっと高いと感じましたか？&lt;/p>
+&lt;p>なぜ、このような値付けをしたかは、作者のブログエントリをご覧あれ。&lt;/p>
+&lt;ul>
+&lt;li>&lt;span
+id="1330">&lt;a href="https://goo.gl/kKGXrH">なぜInkdropはEvernoteより値段が高いのか — 踊る犬.netブログ (旧)&lt;/a>&lt;/span>&lt;/li>
+&lt;/ul>
+&lt;p>こちらのエントリーも素晴らしくて、ケヴィン・ケリーの&lt;a href="http://memo7.sblo.jp/article/178840050.html">千人の忠実なファン&lt;/a>を連想しました。&lt;/p>
+&lt;ul>
+&lt;li>&lt;span
+id="9034">&lt;a href="https://goo.gl/yTBjG1">Markdownエディタを作って月15万円稼ぐためにやったこと — Inkdrop — 週休７日で働きたい&lt;/a>&lt;/span>&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>僕のやり方はお金を稼ぐにはすごく要領が悪くて遠回りに見えるでしょう。確かに、無料プランを作ったり値段を下げてプレスリリースを打ちまくればもっと話題になって、額面上は稼げるかもしれません。&lt;br>
+ &lt;br>
+ 僕はいわゆる「成功」を求めているのではなく、ただ今をより楽しく生きようとしているだけです。&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;a href="https://www.inkdrop.info/">Inkdrop&lt;/a>いいですよ。&lt;/p></description></item><item><title>Quiverへ移行するためKobitoのMarkdownデータを抽出するRubyスクリプトを書いた</title><link>https://namaraii.com/post/2016/20160214_quiverkobitomarkdownruby788934135ce5/</link><pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2016/20160214_quiverkobitomarkdownruby788934135ce5/</guid><description>
+&lt;p>&lt;img src="https://namaraii.com/images/KIuKFY8dBNXpoS.png" alt="/images/KIuKFY8dBNXpoS.png">
+Kobitoで管理していたMarkdownのメモを、簡単なスクリプトを書いて&lt;a href="http://happenapps.com/#quiver">Quiver&lt;/a>へ移行しました。&lt;/p>
+&lt;p>&lt;strong>（が、以下の内容は完全に無保証ですので、ふーんという感じで読んでください）&lt;/strong>&lt;/p>
+&lt;p>Kobito(2.3.3)のデータベースはsqlite3らしく、ざっとテーブルの構成を眺めてみるとMarkdownを抜けそうな雰囲気。&lt;/p>
+&lt;p>簡単なスクリプトを書いて試してみました。&lt;a href="https://gist.github.com/htakeuchi/933064d05c2178da9da3#file-kobito2markdown-rb">KobitoのデータベースからMarkdownを抽出&lt;/a>&lt;/p>
+&lt;ol>
+&lt;li>&lt;span
+id="21f6">~/Library/Containers/com.qiita.Kobito/Data/Library/Kobito/Kobito.dbにあるKobitoのデータベースを念のため他のディレクトリへコピー&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="0aa1">スクリプトのKOBITO_DBで1.のデータベースパスを指定&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="a085">スクリプトのEXPORT_PATHでMarkdownを出力するパスを指定&lt;/span>&lt;/li>
+&lt;/ol>
+&lt;p>そして、&lt;/p>
+&lt;pre>&lt;code>$ ruby kobito2markdown.rb
+&lt;/code>&lt;/pre>
+&lt;p>一応、抜けたようです。&lt;/p>
+&lt;p>EXPORT_PATHで指定したディレクトリ配下に、”Kobitoのタイトル.md”というファイル名でMarkdownファイルが出力されます。&lt;/p>
+&lt;p>あとは、Quiverの[File]-[Import]-[Markdown]で一括してインポートすればOK。&lt;/p>
+&lt;p>ただ、タグや作成日時、更新日時などは引き継がれません。やろうと思えばなんとかなる気がしますが、とりあえずここまでにします。&lt;/p></description></item><item><title>プログラマ向けノートアプリQuiverが素晴らしい(Mac用アプリ)</title><link>https://namaraii.com/post/2016/20160212_quivermacdaac2b1ced42/</link><pubDate>Fri, 12 Feb 2016 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2016/20160212_quivermacdaac2b1ced42/</guid><description>
+&lt;p>Markdownをサポートしたメモアプリは数多くありますが、技術系のメモやスニペットを書き溜めるのに適したものはそれほど多くありません。&lt;/p>
+&lt;p>個人的な要件としては、&lt;/p>
+&lt;ol>
+&lt;li>&lt;span
+id="a4d7">データフォーマットがオープンで好みのクラウドサービスで同期できること&lt;/span>&lt;/li>
+&lt;li>&lt;span id="a414">Markdown(GFM)を扱えてプレビューできること&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="25f2">コードの取り扱いが簡単なこと(できればシンタクスハイライトも)&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="60b2">ファイルを意識しないで使えること(ファイル名を考えたりしなくて良い。オートセーブされる)&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="42ec">ノートブック、タグなどでノートを整理・分類できること&lt;/span>&lt;/li>
+&lt;/ol>
+&lt;p>ぐらいなのですが、すべてを満たしたアプリをなかなか見つけられず、Day
+OneやUlysses、Kobitoなどを併用して凌いでいましたが、最近、知ったQuiverというアプリがこれらの要件をすべて満たしており、これに一本化することに。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/GjEkYo-twFT1WR.png" alt="/images/GjEkYo-twFT1WR.png">
+あまりにも気に入ったため、思わず公式ドキュメントを翻訳してしまいました。さらに詳しい情報はこちらをどうぞ。&lt;/p>
+&lt;p>&lt;a href="https://github.com/HappenApps/Quiver/wiki/Quiver%E3%82%92%E3%81%AF%E3%81%98%E3%82%81%E3%82%88%E3%81%86">Quiverをはじめよう · HappenApps/Quiver Wiki&lt;/a>&lt;/p>
+&lt;p>Markdownエディタとしての機能だけでも満足なのですが、Quiverでは「セル」という概念があり、LaTeXやシーケンス図なども簡単に扱うことができます。&lt;/p>
+&lt;p>たとえば、&lt;/p>
+&lt;pre>&lt;code>[
+\sum_{n=1}^\infty \frac{1}{n^s} \ \ (s &amp;gt; 0)
 ]
-
 は $s &amp;gt; 1$ ならば収束し, $s \le 1$ ならば発散する.
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;などと書くと、&lt;/p&gt;
-&lt;p&gt;∑n=1∞1ns (s&amp;gt;0)&lt;/p&gt;
-&lt;p&gt;は s&amp;gt;1 ならば収束し, s≤1 ならば発散する.&lt;/p&gt;
-&lt;p&gt;のようにレンダリングされますし、&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;Title: ポップアップイベント\n(Markdown/生成リクエスト)
-
+&lt;/code>&lt;/pre>
+&lt;p>などと書くと、&lt;/p>
+&lt;p>∑n=1∞1ns (s&amp;gt;0)&lt;/p>
+&lt;p>は s&amp;gt;1 ならば収束し, s≤1 ならば発散する.&lt;/p>
+&lt;p>のようにレンダリングされますし、&lt;/p>
+&lt;pre>&lt;code>Title: ポップアップイベント\n(Markdown/生成リクエスト)
 user-&amp;gt;popup: アイコンクリック
-
 popup-&amp;gt;background: postMessage(トピック取得要求)
-
 background-&amp;gt;content: postMessage(トピック取得要求)
-
 Note right of content: WorkFlowyのDOMから\n選択中のトピック取得
-
 content--&amp;gt;background: callback(トピック)
-
 background--&amp;gt;popup: postMessage(エレメント)
-
 Note right of popup: 指定形式に整形
-
 popup--&amp;gt;user: Markdown/HTML
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;このように書けば、&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/RTuHZSTFY8K1DQ.png&#34; alt=&#34;/images/RTuHZSTFY8K1DQ.png&#34;&gt;
-のようにレンダリングされるという高機能ぶり。嬉しい誤算でした。&lt;/p&gt;
-&lt;p&gt;価格も1200円とリーズナブルですし、&lt;a href=&#34;http://happenapps.com/#quiver&#34;&gt;こちらからトライアル版をダウンロードできます&lt;/a&gt;ので、Markdownを扱えるメモアプリをお探しの方はお試しを。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://itunes.apple.com/jp/app/quiver-programmers-notebook/id866773894?mt=12&#34;&gt;Quiver: The Programmer’s Notebook を Mac App Store で&lt;/a&gt;&lt;/p&gt;
-
-        
-      </description>
-    </item>
-    
-  </channel>
-</rss>
+&lt;/code>&lt;/pre>
+&lt;p>このように書けば、&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/RTuHZSTFY8K1DQ.png" alt="/images/RTuHZSTFY8K1DQ.png">
+のようにレンダリングされるという高機能ぶり。嬉しい誤算でした。&lt;/p>
+&lt;p>価格も1200円とリーズナブルですし、&lt;a href="http://happenapps.com/#quiver">こちらからトライアル版をダウンロードできます&lt;/a>ので、Markdownを扱えるメモアプリをお探しの方はお試しを。&lt;/p>
+&lt;p>&lt;a href="https://itunes.apple.com/jp/app/quiver-programmers-notebook/id866773894?mt=12">Quiver: The Programmer’s Notebook を Mac App Store で&lt;/a>&lt;/p></description></item></channel></rss>

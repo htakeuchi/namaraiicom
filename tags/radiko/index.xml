@@ -1,72 +1,49 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>radiko on namaraii.com</title>
-    <link>https://namaraii.com/tags/radiko/</link>
-    <description>Recent content in radiko on namaraii.com</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright>
-    <lastBuildDate>Sun, 26 Jan 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://namaraii.com/tags/radiko/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>CentOS上でRadikoを予約録音してMP3をDropboxへコピーする環境をつくる</title>
-      <link>https://namaraii.com/post/2014/20140126_centosradikomp3dropboxe699d548d7f7/</link>
-      <pubDate>Sun, 26 Jan 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://namaraii.com/post/2014/20140126_centosradikomp3dropboxe699d548d7f7/</guid>
-      <description>
-        
-          &lt;p&gt;ラジオ番組を予約録音するのにMacのAudio Hijack Pro（$32)を使っているのですが、たまに録音に失敗することがあったり、MBPが謎の再起動をすることがあったり、イマイチ安定しないのでCentOS上にRadikoの録音環境を作りました。&lt;/p&gt;
-&lt;p&gt;DropboxにコピーするようにしたのでMacやiPhoneからも簡単にアクセスできて、なかなか便利。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/zPaGN6T6SJphtt.jpg&#34; alt=&#34;/images/zPaGN6T6SJphtt.jpg&#34;&gt;&lt;/p&gt;
-&lt;h4 id=&#34;必要コマンドのインストール&#34;&gt;必要コマンドのインストール&lt;/h4&gt;
-&lt;p&gt;yumでrtmpdump,swftools,ffmpegをインストールします。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;$ sudo yum install -y rtmpdump swftools ffmpeg
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;パッケージが見つからないようならRPMforge/Remi/EPELをリポジトリへ追加してみてください。&lt;/p&gt;
-&lt;h4 id=&#34;dropboxのインストール&#34;&gt;Dropboxのインストール&lt;/h4&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.dropbox.com/install?os=lnx&#34;&gt;Linux マシンに Dropbox をインストール&lt;/a&gt;を参考にしてDropboxをインストールします。アカウントとのリンクのため提示されたURLを開いたりする必要があります。&lt;/p&gt;
-&lt;p&gt;私は新規にDropboxのアカウントを取得してMP3の置き場を共有設定し、メインのアカウントから参照するようにしました。&lt;/p&gt;
-&lt;p&gt;無事に起動できたら、Dropboxdデーモンが自動起動するように/etc/rc.dあたりの設定もしておきます。&lt;/p&gt;
-&lt;p&gt;▼&lt;a href=&#34;http://camellia.hatenablog.jp/entry/2013/10/24/CUI_%E3%81%AE_CentOS_6.4_minimal_%E3%81%A7_Dropbox&#34;&gt;CUI の CentOS 6.4 minimal で Dropbox&lt;/a&gt;&lt;/p&gt;
-&lt;h4 id=&#34;録音スクリプトの準備&#34;&gt;録音スクリプトの準備&lt;/h4&gt;
-&lt;p&gt;スクリプトは&lt;a href=&#34;https://gist.github.com/matchy2/3956266&#34;&gt;簡易Radiko録音スクリプト&lt;/a&gt;を使わせてもらいました。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;$ wget https://gist.github.com/matchy2/3956266/raw/1b38b25eb954419b019cada7ba4081e88ea1fb16/rec_radiko.sh
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>radiko on namaraii.com</title><link>https://namaraii.com/tags/radiko/</link><description>Recent content in radiko on namaraii.com</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright><lastBuildDate>Sun, 26 Jan 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://namaraii.com/tags/radiko/index.xml" rel="self" type="application/rss+xml"/><item><title>CentOS上でRadikoを予約録音してMP3をDropboxへコピーする環境をつくる</title><link>https://namaraii.com/post/2014/20140126_centosradikomp3dropboxe699d548d7f7/</link><pubDate>Sun, 26 Jan 2014 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2014/20140126_centosradikomp3dropboxe699d548d7f7/</guid><description>
+&lt;p>ラジオ番組を予約録音するのにMacのAudio Hijack Pro（$32)を使っているのですが、たまに録音に失敗することがあったり、MBPが謎の再起動をすることがあったり、イマイチ安定しないのでCentOS上にRadikoの録音環境を作りました。&lt;/p>
+&lt;p>DropboxにコピーするようにしたのでMacやiPhoneからも簡単にアクセスできて、なかなか便利。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/zPaGN6T6SJphtt.jpg" alt="/images/zPaGN6T6SJphtt.jpg">&lt;/p>
+&lt;h4 id="必要コマンドのインストール">必要コマンドのインストール&lt;/h4>
+&lt;p>yumでrtmpdump,swftools,ffmpegをインストールします。&lt;/p>
+&lt;pre>&lt;code>$ sudo yum install -y rtmpdump swftools ffmpeg
+&lt;/code>&lt;/pre>
+&lt;p>パッケージが見つからないようならRPMforge/Remi/EPELをリポジトリへ追加してみてください。&lt;/p>
+&lt;h4 id="dropboxのインストール">Dropboxのインストール&lt;/h4>
+&lt;p>&lt;a href="https://www.dropbox.com/install?os=lnx">Linux マシンに Dropbox をインストール&lt;/a>を参考にしてDropboxをインストールします。アカウントとのリンクのため提示されたURLを開いたりする必要があります。&lt;/p>
+&lt;p>私は新規にDropboxのアカウントを取得してMP3の置き場を共有設定し、メインのアカウントから参照するようにしました。&lt;/p>
+&lt;p>無事に起動できたら、Dropboxdデーモンが自動起動するように/etc/rc.dあたりの設定もしておきます。&lt;/p>
+&lt;p>▼&lt;a href="http://camellia.hatenablog.jp/entry/2013/10/24/CUI_%E3%81%AE_CentOS_6.4_minimal_%E3%81%A7_Dropbox">CUI の CentOS 6.4 minimal で Dropbox&lt;/a>&lt;/p>
+&lt;h4 id="録音スクリプトの準備">録音スクリプトの準備&lt;/h4>
+&lt;p>スクリプトは&lt;a href="https://gist.github.com/matchy2/3956266">簡易Radiko録音スクリプト&lt;/a>を使わせてもらいました。&lt;/p>
+&lt;pre>&lt;code>$ wget https://gist.github.com/matchy2/3956266/raw/1b38b25eb954419b019cada7ba4081e88ea1fb16/rec_radiko.sh
 $ chmod +x rec_radiko.sh
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;このスクリプトは放送局と録音時間などをパラメタから指定するとmp3を作成してくれます。例えば、&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;$ ./rec_radiko.sh LFR 30 /path/to/Dropbox/radiko test
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;とすると、ニッポン放送が30分間録音し、/path/to/Dropbox/radikoディレクトリ配下にMP3ファイルが出力されます。&lt;/p&gt;
-&lt;p&gt;4番目の引数はファイルのプレフィックスです。この場合、test_YYYY-MM-DD-HH_MM.mp3
-というファイル名になります。番組名を指定すれば整理しやすいかな。&lt;/p&gt;
-&lt;h4 id=&#34;聴取できる放送局の識別子を調べる&#34;&gt;聴取できる放送局の識別子を調べる&lt;/h4&gt;
-&lt;p&gt;録音のためには放送局の識別子を指定する必要があります。&lt;/p&gt;
-&lt;p&gt;Radikoはロケーションによって聴取可能なラジオ曲が制限されており、私が住んでいる神奈川はエリアコードJP14です。（&lt;a href=&#34;http://www.dcc-jpl.com/foltia/wiki/radikomemo&#34;&gt;radikomemo&lt;/a&gt;）&lt;/p&gt;
-&lt;p&gt;JP14の場合、&lt;a href=&#34;http://radiko.jp/v2/station/list/JP14.xml&#34;&gt;http://radiko.jp/v2/station/list/JP14.xml&lt;/a&gt;から聴取可能な放送局リストをXMLで取得できますので、それぞれの識別子を調べておきます。&lt;/p&gt;
-&lt;p&gt;ちなみに、JP14のリストは以下の通りです。&lt;/p&gt;
-&lt;p&gt;放送局識別子TBSラジオTBS文化放送QRRニッポン放送LFRラジオNIKKEI第1RN1ラジオNIKKEI第2RN2InterFMINTTOKYO
-FMFMTJ-WAVEFMJラジオ日本JORFbayfm78BAYFM78NACK5NACK5ＦＭヨコハマYFM放送大学HOUSOU-DAIGAKU&lt;/p&gt;
-&lt;h4 id=&#34;予約録音&#34;&gt;予約録音&lt;/h4&gt;
-&lt;p&gt;予約録音はcronを使います。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;$ crontab -e
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;として、crontabを編集します。例えば、TBSラジオ毎週月曜日
-25時00分～27時00分「JUNK 伊集院光 深夜の馬鹿力」を予約するなら、&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;00 01 * * 2 /path/to/rec_radiko.sh TBS 120 /path/to/Dropbox/radiko &amp;quot;JUNK 伊集院光 深夜の馬鹿力&amp;quot; &amp;gt;/dev/null 2&amp;gt;&amp;amp;1
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;とすればOKです。&lt;/p&gt;
-&lt;p&gt;これで安定するかなぁ。とりあえずお手軽なDropboxにしたけどownCloudにしても良いかもしれない。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/WWgl30fWXyTCfd.jpg&#34; alt=&#34;/images/WWgl30fWXyTCfd.jpg&#34;&gt;
-&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/asin/4862981119/namaraiicom-22/&#34;&gt;お笑いラジオの時間 (綜合ムック)&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;posted with
-&lt;a href=&#34;http://yomereba.com&#34;&gt;ヨメレバ&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;綜合図書 2013–12–11&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/asin/4862981119/namaraiicom-22/&#34;&gt;Amazon&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.amazon.co.jp/gp/search?keywords=%82%A8%8F%CE%82%A2%83%89%83W%83I%82%CC%8E%9E%8A%D4%20%28%91%8E%8D%87%83%80%83b%83N%29&amp;amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;amp;url=node%3D2275256051&amp;amp;tag=namaraiicom-22&#34;&gt;Kindle&lt;/a&gt;&lt;/p&gt;
-
-        
-      </description>
-    </item>
-    
-  </channel>
-</rss>
+&lt;/code>&lt;/pre>
+&lt;p>このスクリプトは放送局と録音時間などをパラメタから指定するとmp3を作成してくれます。例えば、&lt;/p>
+&lt;pre>&lt;code>$ ./rec_radiko.sh LFR 30 /path/to/Dropbox/radiko test
+&lt;/code>&lt;/pre>
+&lt;p>とすると、ニッポン放送が30分間録音し、/path/to/Dropbox/radikoディレクトリ配下にMP3ファイルが出力されます。&lt;/p>
+&lt;p>4番目の引数はファイルのプレフィックスです。この場合、test_YYYY-MM-DD-HH_MM.mp3
+というファイル名になります。番組名を指定すれば整理しやすいかな。&lt;/p>
+&lt;h4 id="聴取できる放送局の識別子を調べる">聴取できる放送局の識別子を調べる&lt;/h4>
+&lt;p>録音のためには放送局の識別子を指定する必要があります。&lt;/p>
+&lt;p>Radikoはロケーションによって聴取可能なラジオ曲が制限されており、私が住んでいる神奈川はエリアコードJP14です。（&lt;a href="http://www.dcc-jpl.com/foltia/wiki/radikomemo">radikomemo&lt;/a>）&lt;/p>
+&lt;p>JP14の場合、&lt;a href="http://radiko.jp/v2/station/list/JP14.xml">http://radiko.jp/v2/station/list/JP14.xml&lt;/a>から聴取可能な放送局リストをXMLで取得できますので、それぞれの識別子を調べておきます。&lt;/p>
+&lt;p>ちなみに、JP14のリストは以下の通りです。&lt;/p>
+&lt;p>放送局識別子TBSラジオTBS文化放送QRRニッポン放送LFRラジオNIKKEI第1RN1ラジオNIKKEI第2RN2InterFMINTTOKYO
+FMFMTJ-WAVEFMJラジオ日本JORFbayfm78BAYFM78NACK5NACK5ＦＭヨコハマYFM放送大学HOUSOU-DAIGAKU&lt;/p>
+&lt;h4 id="予約録音">予約録音&lt;/h4>
+&lt;p>予約録音はcronを使います。&lt;/p>
+&lt;pre>&lt;code>$ crontab -e
+&lt;/code>&lt;/pre>
+&lt;p>として、crontabを編集します。例えば、TBSラジオ毎週月曜日
+25時00分～27時00分「JUNK 伊集院光 深夜の馬鹿力」を予約するなら、&lt;/p>
+&lt;pre>&lt;code>00 01 * * 2 /path/to/rec_radiko.sh TBS 120 /path/to/Dropbox/radiko &amp;quot;JUNK 伊集院光 深夜の馬鹿力&amp;quot; &amp;gt;/dev/null 2&amp;gt;&amp;amp;1
+&lt;/code>&lt;/pre>
+&lt;p>とすればOKです。&lt;/p>
+&lt;p>これで安定するかなぁ。とりあえずお手軽なDropboxにしたけどownCloudにしても良いかもしれない。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/WWgl30fWXyTCfd.jpg" alt="/images/WWgl30fWXyTCfd.jpg">
+&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4862981119/namaraiicom-22/">お笑いラジオの時間 (綜合ムック)&lt;/a>&lt;/p>
+&lt;p>posted with
+&lt;a href="http://yomereba.com">ヨメレバ&lt;/a>&lt;/p>
+&lt;p>綜合図書 2013–12–11&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4862981119/namaraiicom-22/">Amazon&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/gp/search?keywords=%82%A8%8F%CE%82%A2%83%89%83W%83I%82%CC%8E%9E%8A%D4%20%28%91%8E%8D%87%83%80%83b%83N%29&amp;amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;amp;url=node%3D2275256051&amp;amp;tag=namaraiicom-22">Kindle&lt;/a>&lt;/p></description></item></channel></rss>

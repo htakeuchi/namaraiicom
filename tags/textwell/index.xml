@@ -1,94 +1,54 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Textwell on namaraii.com</title>
-    <link>https://namaraii.com/tags/textwell/</link>
-    <description>Recent content in Textwell on namaraii.com</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright>
-    <lastBuildDate>Sun, 10 Jan 2021 16:50:10 +0900</lastBuildDate><atom:link href="https://namaraii.com/tags/textwell/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>アイデアのキャプチャ環境を整備する</title>
-      <link>https://namaraii.com/post/2021/202001102/</link>
-      <pubDate>Sun, 10 Jan 2021 16:50:10 +0900</pubDate>
-      
-      <guid>https://namaraii.com/post/2021/202001102/</guid>
-      <description>
-        
-          &lt;p&gt;アイデアの断片の置き場としてDynalistを使っているのですが、メモを追記する際にはアウトラインを意識せず、シンプルに追加テキストだけを入力したい。忘れないうちに。&lt;/p&gt;
-&lt;p&gt;ということで、iPhoneとMacの両環境で、TextwellからDynalistへメモを流し込む環境を整備した。&lt;/p&gt;
-&lt;h2 id=&#34;iphonemac共通設定&#34;&gt;iPhone・Mac共通設定&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://scrapbox.io/ogwmnm/Textwell_to_Dynalist_Inbox&#34;&gt;こちらからDynalistのInboxへメモを流し込むアクション&lt;/a&gt;をTextwellへ追加する。&lt;/li&gt;
-&lt;li&gt;DynalistのAPIトークン払い出しが必要なので、&lt;a href=&#34;https://dynalist.io/developer&#34;&gt;こちらから払い出す&lt;/a&gt;。&lt;/li&gt;
-&lt;li&gt;払い出したトークンを上記のアクションへ設定しておく。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;iphoneの設定&#34;&gt;iPhoneの設定&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;上記の共通設定だけでOK。テキストを入力してアクションを起動すればDynalistのInboxへメモが送られる。&lt;/li&gt;
-&lt;li&gt;音声入力はキーボード上のマイクボタンをタップすれば良い。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;textwell.png&#34; alt=&#34;Textwell&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;macの設定&#34;&gt;Macの設定&lt;/h2&gt;
-&lt;h3 id=&#34;音声入力の有効化とショートカットキーの設定&#34;&gt;音声入力の有効化とショートカットキーの設定&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;アップルメニュ→システム環境設定→キーボード→音声入力から設定する。&lt;/li&gt;
-&lt;li&gt;私の場合、Ctrlの2回押しで音声入力が起動するように設定した。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;textwellをショートカットキーから起動する設定&#34;&gt;Textwellをショートカットキーから起動する設定&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Automatorで設定可能。私の場合、Ctrl + Shift + tで起動するように設定した。&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://qiita.com/hkengo/items/39433881d842578b7ade&#34;&gt;[mac]特定のアプリにショートカットを割り当てる方法 - Qiita&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;textwell上でアクションをショートカットキーで起動する設定&#34;&gt;Textwell上でアクションをショートカットキーで起動する設定&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;MacのTextwellではアクションを起動するためのショートカットキーを割り当てることができるので設定する。&lt;/li&gt;
-&lt;li&gt;私の場合、Ctrl + Shift + dとした。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;以上の設定でどのアプリを起動していても、&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;Ctrl + Shift + t&lt;/code&gt;でTextwellを起動して…&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Ctrl&lt;/code&gt;を2回押して音声入力でメモを取り…&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Ctrl + Shift + d&lt;/code&gt;でDynalistのInboxへ流し込める&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;という環境ができた。快適😀&lt;/p&gt;
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>HugoのFront Matterを出力するTextwellのアクション</title>
-      <link>https://namaraii.com/post/2020/hugo-frontmatter-textwell/</link>
-      <pubDate>Wed, 18 Mar 2020 00:00:00 +0900</pubDate>
-      
-      <guid>https://namaraii.com/post/2020/hugo-frontmatter-textwell/</guid>
-      <description>
-        
-          &lt;p&gt;最近、iPadの利用頻度が上がっていて、Hugoで作成しているサイトもiPadから更新できるようにしたいと、環境を整えています。&lt;/p&gt;
-&lt;p&gt;すでに&lt;a href=&#34;https://namaraii.com/post/2017/20171215_hugo-netlify/&#34;&gt;GitHubへpushするとNetlifyへデプロイされる環境&lt;/a&gt;はできているので、Working CopyというGitクライアントを使えば、それだけでまぁ、なんとかなります。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/workingcopy.jpeg&#34; alt=&#34;Working Copy&#34;&gt;&lt;/p&gt;
-
-&lt;a href=&#34;https://apps.apple.com/jp/app/working-copy-git-client/id896694807?mt=8&#34; style=&#34;display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/ja-jp/badge-lrg.svg?releaseDate=2014-11-08&amp;kind=iossoftware&amp;bubble=ios_apps) no-repeat;width:135px;height:40px;&#34;&gt;&lt;/a&gt;
-
-&lt;p&gt;ただ、記事のFront Matter部分がちょっと面倒なんですよね。雛形を作っておきコピペして修正してもいいんですが、少しだけ楽できるようTextwellのアクションを書きました。&lt;/p&gt;
-&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/htakeuchi/37efdadd4af2703360a5b04837f71bcd.js&#34;&gt;&lt;/script&gt;
-
-&lt;p&gt;このアクションは、&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;編集中テキストの先頭にFront Matterの雛形が挿入される&lt;/li&gt;
-&lt;li&gt;dateが動的に設定される&lt;/li&gt;
-&lt;li&gt;titleが選択状態になる&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;というだけのものですが、雛形を探し、日付を書き換えて…というほんの少しの手間が軽減されます。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/textwell.jpeg&#34; alt=&#34;Textwell&#34;&gt;&lt;/p&gt;
-
-&lt;a href=&#34;https://apps.apple.com/jp/app/textwell/id696345721?mt=8&#34; style=&#34;display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/ja-jp/badge-lrg.svg?releaseDate=2013-09-11&amp;kind=iossoftware&amp;bubble=ios_apps) no-repeat;width:135px;height:40px;&#34;&gt;&lt;/a&gt;
-
-&lt;p&gt;HugoのShortcodeもTextwellのアクション化しておくといいかもしれない。&lt;/p&gt;
-
-        
-      </description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Textwell on namaraii.com</title><link>https://namaraii.com/tags/textwell/</link><description>Recent content in Textwell on namaraii.com</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright><lastBuildDate>Sun, 10 Jan 2021 16:50:10 +0900</lastBuildDate><atom:link href="https://namaraii.com/tags/textwell/index.xml" rel="self" type="application/rss+xml"/><item><title>アイデアのキャプチャ環境を整備する</title><link>https://namaraii.com/post/2021/202001102/</link><pubDate>Sun, 10 Jan 2021 16:50:10 +0900</pubDate><guid>https://namaraii.com/post/2021/202001102/</guid><description>
+&lt;p>アイデアの断片の置き場としてDynalistを使っているのですが、メモを追記する際にはアウトラインを意識せず、シンプルに追加テキストだけを入力したい。忘れないうちに。&lt;/p>
+&lt;p>ということで、iPhoneとMacの両環境で、TextwellからDynalistへメモを流し込む環境を整備した。&lt;/p>
+&lt;h2 id="iphonemac共通設定">iPhone・Mac共通設定&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://scrapbox.io/ogwmnm/Textwell_to_Dynalist_Inbox">こちらからDynalistのInboxへメモを流し込むアクション&lt;/a>をTextwellへ追加する。&lt;/li>
+&lt;li>DynalistのAPIトークン払い出しが必要なので、&lt;a href="https://dynalist.io/developer">こちらから払い出す&lt;/a>。&lt;/li>
+&lt;li>払い出したトークンを上記のアクションへ設定しておく。&lt;/li>
+&lt;/ul>
+&lt;h2 id="iphoneの設定">iPhoneの設定&lt;/h2>
+&lt;ul>
+&lt;li>上記の共通設定だけでOK。テキストを入力してアクションを起動すればDynalistのInboxへメモが送られる。&lt;/li>
+&lt;li>音声入力はキーボード上のマイクボタンをタップすれば良い。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="textwell.png" alt="Textwell">&lt;/p>
+&lt;h2 id="macの設定">Macの設定&lt;/h2>
+&lt;h3 id="音声入力の有効化とショートカットキーの設定">音声入力の有効化とショートカットキーの設定&lt;/h3>
+&lt;ul>
+&lt;li>アップルメニュ→システム環境設定→キーボード→音声入力から設定する。&lt;/li>
+&lt;li>私の場合、Ctrlの2回押しで音声入力が起動するように設定した。&lt;/li>
+&lt;/ul>
+&lt;h3 id="textwellをショートカットキーから起動する設定">Textwellをショートカットキーから起動する設定&lt;/h3>
+&lt;ul>
+&lt;li>Automatorで設定可能。私の場合、Ctrl + Shift + tで起動するように設定した。&lt;/li>
+&lt;li>&lt;a href="https://qiita.com/hkengo/items/39433881d842578b7ade">[mac]特定のアプリにショートカットを割り当てる方法 - Qiita&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="textwell上でアクションをショートカットキーで起動する設定">Textwell上でアクションをショートカットキーで起動する設定&lt;/h3>
+&lt;ul>
+&lt;li>MacのTextwellではアクションを起動するためのショートカットキーを割り当てることができるので設定する。&lt;/li>
+&lt;li>私の場合、Ctrl + Shift + dとした。&lt;/li>
+&lt;/ul>
+&lt;p>以上の設定でどのアプリを起動していても、&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>Ctrl + Shift + t&lt;/code>でTextwellを起動して…&lt;/li>
+&lt;li>&lt;code>Ctrl&lt;/code>を2回押して音声入力でメモを取り…&lt;/li>
+&lt;li>&lt;code>Ctrl + Shift + d&lt;/code>でDynalistのInboxへ流し込める&lt;/li>
+&lt;/ul>
+&lt;p>という環境ができた。快適😀&lt;/p></description></item><item><title>HugoのFront Matterを出力するTextwellのアクション</title><link>https://namaraii.com/post/2020/hugo-frontmatter-textwell/</link><pubDate>Wed, 18 Mar 2020 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2020/hugo-frontmatter-textwell/</guid><description>
+&lt;p>最近、iPadの利用頻度が上がっていて、Hugoで作成しているサイトもiPadから更新できるようにしたいと、環境を整えています。&lt;/p>
+&lt;p>すでに&lt;a href="https://namaraii.com/post/2017/20171215_hugo-netlify/">GitHubへpushするとNetlifyへデプロイされる環境&lt;/a>はできているので、Working CopyというGitクライアントを使えば、それだけでまぁ、なんとかなります。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/workingcopy.jpeg" alt="Working Copy">&lt;/p>
+&lt;a href="https://apps.apple.com/jp/app/working-copy-git-client/id896694807?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/ja-jp/badge-lrg.svg?releaseDate=2014-11-08&amp;kind=iossoftware&amp;bubble=ios_apps) no-repeat;width:135px;height:40px;">&lt;/a>
+&lt;p>ただ、記事のFront Matter部分がちょっと面倒なんですよね。雛形を作っておきコピペして修正してもいいんですが、少しだけ楽できるようTextwellのアクションを書きました。&lt;/p>
+&lt;script type="application/javascript" src="https://gist.github.com/htakeuchi/37efdadd4af2703360a5b04837f71bcd.js">&lt;/script>
+&lt;p>このアクションは、&lt;/p>
+&lt;ul>
+&lt;li>編集中テキストの先頭にFront Matterの雛形が挿入される&lt;/li>
+&lt;li>dateが動的に設定される&lt;/li>
+&lt;li>titleが選択状態になる&lt;/li>
+&lt;/ul>
+&lt;p>というだけのものですが、雛形を探し、日付を書き換えて…というほんの少しの手間が軽減されます。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/textwell.jpeg" alt="Textwell">&lt;/p>
+&lt;a href="https://apps.apple.com/jp/app/textwell/id696345721?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/ja-jp/badge-lrg.svg?releaseDate=2013-09-11&amp;kind=iossoftware&amp;bubble=ios_apps) no-repeat;width:135px;height:40px;">&lt;/a>
+&lt;p>HugoのShortcodeもTextwellのアクション化しておくといいかもしれない。&lt;/p></description></item></channel></rss>

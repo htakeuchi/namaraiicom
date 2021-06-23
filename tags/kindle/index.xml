@@ -1,244 +1,211 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>kindle on namaraii.com</title>
-    <link>https://namaraii.com/tags/kindle/</link>
-    <description>Recent content in kindle on namaraii.com</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright>
-    <lastBuildDate>Fri, 15 Jan 2021 21:23:18 +0900</lastBuildDate><atom:link href="https://namaraii.com/tags/kindle/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>E Inkな大型読書端末としてのBoox Note Air</title>
-      <link>https://namaraii.com/post/2021/boox-note-air/</link>
-      <pubDate>Fri, 15 Jan 2021 21:23:18 +0900</pubDate>
-      
-      <guid>https://namaraii.com/post/2021/boox-note-air/</guid>
-      <description>
-        
-          &lt;p&gt;Kindle本や自炊した書籍を読むための端末として、Android E inkタブレットBoox Note Airを導入して、１ヶ月ほど運用したので感想を記しておきます。&lt;/p&gt;
-&lt;iframe style=&#34;width:120px;height:240px;&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; src=&#34;//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;bc1=000000&amp;IS2=1&amp;bg1=FFFFFF&amp;fc1=000000&amp;lc1=0000FF&amp;t=namaraiicom-22&amp;language=ja_JP&amp;o=9&amp;p=8&amp;l=as4&amp;m=amazon&amp;f=ifr&amp;ref=as_ss_li_til&amp;asins=B08H83GCBT&amp;linkId=3ec5aa30869cbf5248a48919fe2e23bc&#34;&gt;&lt;/iframe&gt;
-&lt;h3 id=&#34;なぜ導入したのか&#34;&gt;なぜ導入したのか？&lt;/h3&gt;
-&lt;p&gt;電子ペーパーは液晶と比較して目が疲れにくいため、ここ数年はなるべくKindle Oasisを使うようにしていたのですが、技術書や雑誌、仕事の資料（PDF）など大版の読み物だとディスプレイサイズ的に厳しく、それらはやむなく11インチiPad Proで読んでたんですよね。&lt;/p&gt;
-&lt;p&gt;大型のKindleがあればよかったのですが、2010年にでた9.7インチのKindle DXが商業的にうまくいかなかったのか、その後、後継機がでる気配もないため、読書のE Ink率を高めるべくBoox Note Airを導入した次第です。&lt;/p&gt;
-&lt;h3 id=&#34;何が良いのか&#34;&gt;何が良いのか？&lt;/h3&gt;
-&lt;p&gt;Boox Note Airの（私にとっての）価値は「大型(10.3インチ)のE Inkを搭載したAndorid端末である」ことに尽きます。&lt;/p&gt;
-&lt;p&gt;この手の端末は独自OSを採用していたり、LinuxやAndroidなどを採用していても、アプリのインストールができなかったり、機能制限されていたりなど、メーカーが想定した使い方しかできないケースが多いんですよね。&lt;/p&gt;
-&lt;p&gt;Boox Note AirはGoogle Playストアからアプリをインストールできて、それらをE Ink上で使用できる。もちろん、E Inkのレスポンスを考えると、あらゆるアプリを快適に使えるわけではないですが、本や雑誌、Webページをじっくりと読むような用途では快適です。&lt;/p&gt;
-&lt;p&gt;なお、デジタルノートとしてもかなりの可能性がありそうなのですが、私は読書端末としてしか使っていないため、ちゃんとしたレビューを読みたい場合は、&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://win-tab.net/android/boox_note_air_review_2010312/&#34;&gt;BOOX Note Airの実機レビュー － 圧倒的な存在感！10.3インチ新世代電子ペーパータブレットは、デザインも機能も新たな段階へ&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://kimihiro-n.appspot.com/show/1604405111794&#34;&gt;BOOX Note Airが想像の10倍以上使い勝手よかった&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;などをどうぞ。&lt;/p&gt;
-&lt;h3 id=&#34;何をどんなアプリで読んでいるのか&#34;&gt;何をどんなアプリで読んでいるのか？&lt;/h3&gt;
-&lt;p&gt;基本的にiPadで使っているアプリを、そのままBOOX Note Airへインストールして使っています。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;対象&lt;/th&gt;
-&lt;th&gt;使用しているアプリ&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;PDF（技術書、自炊本、マニュアル・仕事の資料など）&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=jp.co.tokyo_ip.SideBooks&#34;&gt;SideBooks&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;電子書籍&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.amazon.kindle&#34;&gt;Kindle&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;雑誌&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=jp.co.rakuten.magazine&#34;&gt;楽天マガジン&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;RSS Feed&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.instapaper.android&#34;&gt;Instapaper&lt;/a&gt; / &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.devhd.feedly&#34;&gt;Feedly&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;&lt;img src=&#34;image2.jpeg&#34; alt=&#34;iPad Pro 11インチとBoox Note Airを並べてみた&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;image4.jpeg&#34; alt=&#34;Kindleアプリでフィックス型の技術書を読む&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;image1.jpeg&#34; alt=&#34;SideBooksで自炊した本(PDF)を読む&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;image3.jpeg&#34; alt=&#34;FeedlyでRSSフィードをを読む&#34;&gt;&lt;/p&gt;
-&lt;h3 id=&#34;結論&#34;&gt;結論&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://kimihiro-n.appspot.com/show/1604405111794&#34;&gt;BOOX Note Airが想像の10倍以上使い勝手よかった&lt;/a&gt;に書かれている、&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;目を疲れさせずに無限にテキストページ読めてしまうというのは恐ろしい魅力です。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;に激しく同意です。&lt;/p&gt;
-&lt;p&gt;読書専用端末として考えると、ちょっと価格的には厳しいものがありますが、満足度はそうとう高いです。&lt;/p&gt;
-&lt;iframe style=&#34;width:120px;height:240px;&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; src=&#34;//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;bc1=000000&amp;IS2=1&amp;bg1=FFFFFF&amp;fc1=000000&amp;lc1=0000FF&amp;t=namaraiicom-22&amp;language=ja_JP&amp;o=9&amp;p=8&amp;l=as4&amp;m=amazon&amp;f=ifr&amp;ref=as_ss_li_til&amp;asins=B08H83GCBT&amp;linkId=3ec5aa30869cbf5248a48919fe2e23bc&#34;&gt;&lt;/iframe&gt;
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Kindleで読める面白そうなサッカー本</title>
-      <link>https://namaraii.com/post/2014/20141118_kindlead9d94b4153f/</link>
-      <pubDate>Tue, 18 Nov 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://namaraii.com/post/2014/20141118_kindlead9d94b4153f/</guid>
-      <description>
-        
-          &lt;p&gt;そうなサッカー本&lt;/p&gt;
-&lt;p&gt;以前、&lt;a href=&#34;http://namaraii.com/archives/5203&#34;&gt;読んで面白かった20冊のサッカー本&lt;/a&gt;というエントリを書きました。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/JwBfTbVNzffQnc.jpg&#34; alt=&#34;/images/JwBfTbVNzffQnc.jpg&#34;&gt;
-photo by Hitoshi TAKEUCHI&lt;/p&gt;
-&lt;p&gt;Canon PowerShot S100, 7.3 mm, f5.6, ISO 80, 1/250sec, 0EV, Aperture
-3.5.1&lt;br&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>kindle on namaraii.com</title><link>https://namaraii.com/tags/kindle/</link><description>Recent content in kindle on namaraii.com</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright><lastBuildDate>Fri, 15 Jan 2021 21:23:18 +0900</lastBuildDate><atom:link href="https://namaraii.com/tags/kindle/index.xml" rel="self" type="application/rss+xml"/><item><title>E Inkな大型読書端末としてのBoox Note Air</title><link>https://namaraii.com/post/2021/boox-note-air/</link><pubDate>Fri, 15 Jan 2021 21:23:18 +0900</pubDate><guid>https://namaraii.com/post/2021/boox-note-air/</guid><description>
+&lt;p>Kindle本や自炊した書籍を読むための端末として、Android E inkタブレットBoox Note Airを導入して、１ヶ月ほど運用したので感想を記しておきます。&lt;/p>
+&lt;div class="amazon-widget">
+&lt;a target="_blank" href="https://www.amazon.co.jp/gp/product/B08H83GCBT/?tag=namaraiicom-22">&lt;/a>
+&lt;div class="amazon-widget-img">
+&lt;img src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;MarketPlace=JP&amp;ASIN=B08H83GCBT&amp;ServiceVersion=20070822&amp;ID=AsinImage&amp;WS=1&amp;Format=_SL350_&amp;tag=namaraiicom-22" />
+&lt;/div>
+&lt;div class="amazon-widget-info">
+&lt;span class="amazon-widget-title">
+BOOX Note Air 10.3 インチE Ink,電子ペーパー,Android,タブレット
+&lt;/span>
+&lt;span class="amazon-widget-via">
+&lt;img src="https://www.amazon.co.jp/favicon.ico" />
+amazon.co.jp
+&lt;/span>
+&lt;/div>
+&lt;/div>
+&lt;h3 id="なぜ導入したのか">なぜ導入したのか？&lt;/h3>
+&lt;p>電子ペーパーは液晶と比較して目が疲れにくいため、ここ数年はなるべくKindle Oasisを使うようにしていたのですが、技術書や雑誌、仕事の資料（PDF）など大版の読み物だとディスプレイサイズ的に厳しく、それらはやむなく11インチiPad Proで読んでたんですよね。&lt;/p>
+&lt;p>大型のKindleがあればよかったのですが、2010年にでた9.7インチのKindle DXが商業的にうまくいかなかったのか、その後、後継機がでる気配もないため、読書のE Ink率を高めるべくBoox Note Airを導入した次第です。&lt;/p>
+&lt;h3 id="何が良いのか">何が良いのか？&lt;/h3>
+&lt;p>Boox Note Airの（私にとっての）価値は「大型(10.3インチ)のE Inkを搭載したAndorid端末である」ことに尽きます。&lt;/p>
+&lt;p>この手の端末は独自OSを採用していたり、LinuxやAndroidなどを採用していても、アプリのインストールができなかったり、機能制限されていたりなど、メーカーが想定した使い方しかできないケースが多いんですよね。&lt;/p>
+&lt;p>Boox Note AirはGoogle Playストアからアプリをインストールできて、それらをE Ink上で使用できる。もちろん、E Inkのレスポンスを考えると、あらゆるアプリを快適に使えるわけではないですが、本や雑誌、Webページをじっくりと読むような用途では快適です。&lt;/p>
+&lt;p>なお、デジタルノートとしてもかなりの可能性がありそうなのですが、私は読書端末としてしか使っていないため、ちゃんとしたレビューを読みたい場合は、&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://win-tab.net/android/boox_note_air_review_2010312/">BOOX Note Airの実機レビュー － 圧倒的な存在感！10.3インチ新世代電子ペーパータブレットは、デザインも機能も新たな段階へ&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://kimihiro-n.appspot.com/show/1604405111794">BOOX Note Airが想像の10倍以上使い勝手よかった&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>などをどうぞ。&lt;/p>
+&lt;h3 id="何をどんなアプリで読んでいるのか">何をどんなアプリで読んでいるのか？&lt;/h3>
+&lt;p>基本的にiPadで使っているアプリを、そのままBOOX Note Airへインストールして使っています。&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>対象&lt;/th>
+&lt;th>使用しているアプリ&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>PDF（技術書、自炊本、マニュアル・仕事の資料など）&lt;/td>
+&lt;td>&lt;a href="https://play.google.com/store/apps/details?id=jp.co.tokyo_ip.SideBooks">SideBooks&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>電子書籍&lt;/td>
+&lt;td>&lt;a href="https://play.google.com/store/apps/details?id=com.amazon.kindle">Kindle&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>雑誌&lt;/td>
+&lt;td>&lt;a href="https://play.google.com/store/apps/details?id=jp.co.rakuten.magazine">楽天マガジン&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>RSS Feed&lt;/td>
+&lt;td>&lt;a href="https://play.google.com/store/apps/details?id=com.instapaper.android">Instapaper&lt;/a> / &lt;a href="https://play.google.com/store/apps/details?id=com.devhd.feedly">Feedly&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;img src="image2.jpeg" alt="iPad Pro 11インチとBoox Note Airを並べてみた">&lt;/p>
+&lt;p>&lt;img src="image4.jpeg" alt="Kindleアプリでフィックス型の技術書を読む">&lt;/p>
+&lt;p>&lt;img src="image1.jpeg" alt="SideBooksで自炊した本(PDF)を読む">&lt;/p>
+&lt;p>&lt;img src="image3.jpeg" alt="FeedlyでRSSフィードを読む">&lt;/p>
+&lt;h3 id="結論">結論&lt;/h3>
+&lt;p>&lt;a href="https://kimihiro-n.appspot.com/show/1604405111794">BOOX Note Airが想像の10倍以上使い勝手よかった&lt;/a>に書かれている、&lt;/p>
+&lt;blockquote>
+&lt;p>目を疲れさせずに無限にテキストページ読めてしまうというのは恐ろしい魅力です。&lt;/p>
+&lt;/blockquote>
+&lt;p>に激しく同意です。&lt;/p>
+&lt;p>読書専用端末として考えると、ちょっと価格的には厳しいものがありますが、満足度はそうとう高いです。&lt;/p>
+&lt;div class="amazon-widget">
+&lt;a target="_blank" href="https://www.amazon.co.jp/gp/product/B08H83GCBT/?tag=namaraiicom-22">&lt;/a>
+&lt;div class="amazon-widget-img">
+&lt;img src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;MarketPlace=JP&amp;ASIN=B08H83GCBT&amp;ServiceVersion=20070822&amp;ID=AsinImage&amp;WS=1&amp;Format=_SL350_&amp;tag=namaraiicom-22" />
+&lt;/div>
+&lt;div class="amazon-widget-info">
+&lt;span class="amazon-widget-title">
+BOOX Note Air 10.3 インチE Ink,電子ペーパー,Android,タブレット
+&lt;/span>
+&lt;span class="amazon-widget-via">
+&lt;img src="https://www.amazon.co.jp/favicon.ico" />
+amazon.co.jp
+&lt;/span>
+&lt;/div>
+&lt;/div></description></item><item><title>Kindleで読める面白そうなサッカー本</title><link>https://namaraii.com/post/2014/20141118_kindlead9d94b4153f/</link><pubDate>Tue, 18 Nov 2014 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2014/20141118_kindlead9d94b4153f/</guid><description>
+&lt;p>そうなサッカー本&lt;/p>
+&lt;p>以前、&lt;a href="http://namaraii.com/archives/5203">読んで面白かった20冊のサッカー本&lt;/a>というエントリを書きました。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/JwBfTbVNzffQnc.jpg" alt="/images/JwBfTbVNzffQnc.jpg">
+photo by Hitoshi TAKEUCHI&lt;/p>
+&lt;p>Canon PowerShot S100, 7.3 mm, f5.6, ISO 80, 1/250sec, 0EV, Aperture
+3.5.1&lt;br>
 generated by
-&lt;a href=&#34;https://itunes.apple.com/jp/app/flickurl/id817330241?mt=8&#34;&gt;FlickURL&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;最近、Kindleで読めるサッカー本が増えてきたので、上のエントリで紹介したものとかぶらず、面白そうな本をピックアップしてみました。&lt;/p&gt;
-&lt;p&gt;私は戦術の解説や、優れた監督の考え方にスポットライトをあてた本が大好物なのですが、好みが近い方はチェックしてみてはどうでしょう。&lt;/p&gt;
-&lt;h4 id=&#34;観戦力を強化する&#34;&gt;観戦力を強化する&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/rzCUctlrdi1bi8.jpg&#34; alt=&#34;/images/rzCUctlrdi1bi8.jpg&#34;&gt;
-&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/asin/B00KLY4YRK/namaraiicom-22/&#34;&gt;こう観ればサッカーは0–0でも面白い 「戦術」と「個の力」を知的に読み解く PHP新書[Kindle版]&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;posted with
-&lt;a href=&#34;http://yomereba.com&#34;&gt;ヨメレバ&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;福西 崇史 PHP研究所 2014–03–20&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/B00KLY4YRK/namaraiicom-22/&#34;&gt;Kindle&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;元日本代表の福西崇史による「サッカーを観る目」を養うための本。「ボランチ」「戦術」「個の力」を知ればサッカーの見方」が驚くほど変わり、選手の動きや駆け引きが理解できる。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/29okcZYSFkEm08.jpg&#34; alt=&#34;/images/29okcZYSFkEm08.jpg&#34;&gt;
-&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/asin/B00CAINLCO/namaraiicom-22/&#34;&gt;眼・術・戦 ヤット流ゲームメイクの極意[Kindle版]&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;posted with
-&lt;a href=&#34;http://yomereba.com&#34;&gt;ヨメレバ&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;遠藤保仁,西部謙司 カンゼン 2013–04–10&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/B00CAINLCO/namaraiicom-22/&#34;&gt;Kindle&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;遠藤保仁のプレー理論やサッカー理論、戦術理論について西部謙司が解説。ピッチを見る「眼」、ゲームをコントロールする「術」、観客を魅了し勝つための「戦」について、遠藤保仁の理想とする姿を読み解く。&lt;/p&gt;
-&lt;h4 id=&#34;優れた監督に学ぶ哲学組織論&#34;&gt;優れた監督に学ぶ哲学・組織論&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/FtmjkoVMmx3ogh.jpg&#34; alt=&#34;/images/FtmjkoVMmx3ogh.jpg&#34;&gt;
-&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/asin/B00CJ57A34/namaraiicom-22/&#34;&gt;モウリーニョの哲学[Kindle版]&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;posted with
-&lt;a href=&#34;http://yomereba.com&#34;&gt;ヨメレバ&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;フアンカルロスクベイロ,レオノール・ガジャルド SBクリエイティブ株式会社
-2013–04–26&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/B00CJ57A34/namaraiicom-22/&#34;&gt;Kindle&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;モウリーニョ自身の発言と、選手とメディアのコメントからモウリーニョ成功の秘密を読み解く本。優れたリーダーになるための条件や周囲への「見せ方」など。モウリーニョ好きとしては外せない一冊。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/K_hg6nXqPrCyy2.jpg&#34; alt=&#34;/images/K_hg6nXqPrCyy2.jpg&#34;&gt;
-&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/asin/B00K5X52I2/namaraiicom-22/&#34;&gt;プロフェッショナル 仕事の流儀 大瀧雅良 高校教師 サッカー部監督 勝つことよりも大事なことがある[Kindle版]&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;posted with
-&lt;a href=&#34;http://yomereba.com&#34;&gt;ヨメレバ&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;茂木 健一郎 NHK出版 2014–05–08&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/B00K5X52I2/namaraiicom-22/&#34;&gt;Kindle&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;30年の教師生活で13人の日本代表選手を育てた、清水商業高校サッカー部
-大瀧雅良監督の技術や目先の勝ち負けよりも「一人前の人間を育てる」ことをモットーとした指導者の哲学。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/UpRmBbv7htkUj4.jpg&#34; alt=&#34;/images/UpRmBbv7htkUj4.jpg&#34;&gt;
-&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/asin/B00NNCXRWA/namaraiicom-22/&#34;&gt;日本人チームを躍動させる 決断力の磨き方[Kindle版]&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;posted with
-&lt;a href=&#34;http://yomereba.com&#34;&gt;ヨメレバ&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ミゲル・ロドリゴ カンゼン 2014–09–17&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/B00NNCXRWA/namaraiicom-22/&#34;&gt;Kindle&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;フットサルW杯ベスト16を成し遂げたフットサル日本代表ミゲル・ロドリゴ監督のマネジメント術。日本文化をつぶさに見ることで導き出した、日本に足りないことと可能性。自己判断力を培い強い組織をつくるための方法論。&lt;/p&gt;
-&lt;h4 id=&#34;これからのサッカーを考える&#34;&gt;これからのサッカーを考える&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/bUpXFlYtfeOzdx.jpg&#34; alt=&#34;/images/bUpXFlYtfeOzdx.jpg&#34;&gt;
-&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/asin/B00KXMMJNG/namaraiicom-22/&#34;&gt;統計学が解き明かす サッカーの“新時代” 週刊ダイヤモンド 特集BOOKS（Vol.56）[Kindle版]&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;posted with
-&lt;a href=&#34;http://yomereba.com&#34;&gt;ヨメレバ&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;森川 潤 ダイヤモンド社 2014–06–13&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/B00KXMMJNG/namaraiicom-22/&#34;&gt;Kindle&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;データを活用したサッカーの新しい潮流にスポットをあてた本。週刊ダイヤモンドの特集を電子化したもの。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/BSmaSe-Ainekw-.jpg&#34; alt=&#34;/images/BSmaSe-Ainekw-.jpg&#34;&gt;
-&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/asin/B00K2MEJ6C/namaraiicom-22/&#34;&gt;日本サッカーの未来地図 【電子特別版】 角川学芸出版単行本[Kindle版]&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;posted with
-&lt;a href=&#34;http://yomereba.com&#34;&gt;ヨメレバ&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;宮本 恒靖 KADOKAWA / 角川学芸出版 2014–05–15&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/B00K2MEJ6C/namaraiicom-22/&#34;&gt;Kindle&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;スポーツビジネスの大学院
-FIFAマスターでツネ様が学び、日本に持ち帰ったものとは？&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/U5gS377MdgsF45.jpg&#34; alt=&#34;/images/U5gS377MdgsF45.jpg&#34;&gt;
-photo by Hitoshi TAKEUCHI&lt;/p&gt;
-&lt;p&gt;Canon PowerShot S100, 26.0 mm, f5.9, ISO 80, 1/160sec, 0EV, Aperture
-3.5.1&lt;br&gt;
+&lt;a href="https://itunes.apple.com/jp/app/flickurl/id817330241?mt=8">FlickURL&lt;/a>&lt;/p>
+&lt;p>最近、Kindleで読めるサッカー本が増えてきたので、上のエントリで紹介したものとかぶらず、面白そうな本をピックアップしてみました。&lt;/p>
+&lt;p>私は戦術の解説や、優れた監督の考え方にスポットライトをあてた本が大好物なのですが、好みが近い方はチェックしてみてはどうでしょう。&lt;/p>
+&lt;h4 id="観戦力を強化する">観戦力を強化する&lt;/h4>
+&lt;p>&lt;img src="https://namaraii.com/images/rzCUctlrdi1bi8.jpg" alt="/images/rzCUctlrdi1bi8.jpg">
+&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/B00KLY4YRK/namaraiicom-22/">こう観ればサッカーは0–0でも面白い 「戦術」と「個の力」を知的に読み解く PHP新書[Kindle版]&lt;/a>&lt;/p>
+&lt;p>posted with
+&lt;a href="http://yomereba.com">ヨメレバ&lt;/a>&lt;/p>
+&lt;p>福西 崇史 PHP研究所 2014–03–20&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00KLY4YRK/namaraiicom-22/">Kindle&lt;/a>&lt;/p>
+&lt;p>元日本代表の福西崇史による「サッカーを観る目」を養うための本。「ボランチ」「戦術」「個の力」を知ればサッカーの見方」が驚くほど変わり、選手の動きや駆け引きが理解できる。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/29okcZYSFkEm08.jpg" alt="/images/29okcZYSFkEm08.jpg">
+&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/B00CAINLCO/namaraiicom-22/">眼・術・戦 ヤット流ゲームメイクの極意[Kindle版]&lt;/a>&lt;/p>
+&lt;p>posted with
+&lt;a href="http://yomereba.com">ヨメレバ&lt;/a>&lt;/p>
+&lt;p>遠藤保仁,西部謙司 カンゼン 2013–04–10&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00CAINLCO/namaraiicom-22/">Kindle&lt;/a>&lt;/p>
+&lt;p>遠藤保仁のプレー理論やサッカー理論、戦術理論について西部謙司が解説。ピッチを見る「眼」、ゲームをコントロールする「術」、観客を魅了し勝つための「戦」について、遠藤保仁の理想とする姿を読み解く。&lt;/p>
+&lt;h4 id="優れた監督に学ぶ哲学組織論">優れた監督に学ぶ哲学・組織論&lt;/h4>
+&lt;p>&lt;img src="https://namaraii.com/images/FtmjkoVMmx3ogh.jpg" alt="/images/FtmjkoVMmx3ogh.jpg">
+&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/B00CJ57A34/namaraiicom-22/">モウリーニョの哲学[Kindle版]&lt;/a>&lt;/p>
+&lt;p>posted with
+&lt;a href="http://yomereba.com">ヨメレバ&lt;/a>&lt;/p>
+&lt;p>フアンカルロスクベイロ,レオノール・ガジャルド SBクリエイティブ株式会社
+2013–04–26&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00CJ57A34/namaraiicom-22/">Kindle&lt;/a>&lt;/p>
+&lt;p>モウリーニョ自身の発言と、選手とメディアのコメントからモウリーニョ成功の秘密を読み解く本。優れたリーダーになるための条件や周囲への「見せ方」など。モウリーニョ好きとしては外せない一冊。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/K_hg6nXqPrCyy2.jpg" alt="/images/K_hg6nXqPrCyy2.jpg">
+&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/B00K5X52I2/namaraiicom-22/">プロフェッショナル 仕事の流儀 大瀧雅良 高校教師 サッカー部監督 勝つことよりも大事なことがある[Kindle版]&lt;/a>&lt;/p>
+&lt;p>posted with
+&lt;a href="http://yomereba.com">ヨメレバ&lt;/a>&lt;/p>
+&lt;p>茂木 健一郎 NHK出版 2014–05–08&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00K5X52I2/namaraiicom-22/">Kindle&lt;/a>&lt;/p>
+&lt;p>30年の教師生活で13人の日本代表選手を育てた、清水商業高校サッカー部
+大瀧雅良監督の技術や目先の勝ち負けよりも「一人前の人間を育てる」ことをモットーとした指導者の哲学。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/UpRmBbv7htkUj4.jpg" alt="/images/UpRmBbv7htkUj4.jpg">
+&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/B00NNCXRWA/namaraiicom-22/">日本人チームを躍動させる 決断力の磨き方[Kindle版]&lt;/a>&lt;/p>
+&lt;p>posted with
+&lt;a href="http://yomereba.com">ヨメレバ&lt;/a>&lt;/p>
+&lt;p>ミゲル・ロドリゴ カンゼン 2014–09–17&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00NNCXRWA/namaraiicom-22/">Kindle&lt;/a>&lt;/p>
+&lt;p>フットサルW杯ベスト16を成し遂げたフットサル日本代表ミゲル・ロドリゴ監督のマネジメント術。日本文化をつぶさに見ることで導き出した、日本に足りないことと可能性。自己判断力を培い強い組織をつくるための方法論。&lt;/p>
+&lt;h4 id="これからのサッカーを考える">これからのサッカーを考える&lt;/h4>
+&lt;p>&lt;img src="https://namaraii.com/images/bUpXFlYtfeOzdx.jpg" alt="/images/bUpXFlYtfeOzdx.jpg">
+&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/B00KXMMJNG/namaraiicom-22/">統計学が解き明かす サッカーの“新時代” 週刊ダイヤモンド 特集BOOKS（Vol.56）[Kindle版]&lt;/a>&lt;/p>
+&lt;p>posted with
+&lt;a href="http://yomereba.com">ヨメレバ&lt;/a>&lt;/p>
+&lt;p>森川 潤 ダイヤモンド社 2014–06–13&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00KXMMJNG/namaraiicom-22/">Kindle&lt;/a>&lt;/p>
+&lt;p>データを活用したサッカーの新しい潮流にスポットをあてた本。週刊ダイヤモンドの特集を電子化したもの。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/BSmaSe-Ainekw-.jpg" alt="/images/BSmaSe-Ainekw-.jpg">
+&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/B00K2MEJ6C/namaraiicom-22/">日本サッカーの未来地図 【電子特別版】 角川学芸出版単行本[Kindle版]&lt;/a>&lt;/p>
+&lt;p>posted with
+&lt;a href="http://yomereba.com">ヨメレバ&lt;/a>&lt;/p>
+&lt;p>宮本 恒靖 KADOKAWA / 角川学芸出版 2014–05–15&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00K2MEJ6C/namaraiicom-22/">Kindle&lt;/a>&lt;/p>
+&lt;p>スポーツビジネスの大学院
+FIFAマスターでツネ様が学び、日本に持ち帰ったものとは？&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/U5gS377MdgsF45.jpg" alt="/images/U5gS377MdgsF45.jpg">
+photo by Hitoshi TAKEUCHI&lt;/p>
+&lt;p>Canon PowerShot S100, 26.0 mm, f5.9, ISO 80, 1/160sec, 0EV, Aperture
+3.5.1&lt;br>
 generated by
-&lt;a href=&#34;https://itunes.apple.com/jp/app/flickurl/id817330241?mt=8&#34;&gt;FlickURL&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Jリーグは間もなく終わりオフシーズンに入ります。&lt;/p&gt;
-&lt;p&gt;横浜FCを応援している私にとっては残念な1年でしたが、来シーズンに期待しながら、オフシーズンはサッカー本を読みまくりたいと思います。&lt;/p&gt;
-
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>【読書メモ】最近Kindleで読んで面白かった漫画『東京トイボックス』『大東京トイボックス』『インベスターZ』</title>
-      <link>https://namaraii.com/post/2014/20140415_kindlez4454cf7c0350/</link>
-      <pubDate>Tue, 15 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://namaraii.com/post/2014/20140415_kindlez4454cf7c0350/</guid>
-      <description>
-        
-          &lt;p&gt;最近、Kindleで読んだ『東京トイボックス』『大東京トイボックス』『インベスターZ』という漫画が面白かった。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/anyYSOKtnLovXs.jpg&#34; alt=&#34;/images/anyYSOKtnLovXs.jpg&#34;&gt;
-&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/asin/4344809432/namaraiicom-22/&#34;&gt;大東京トイボックス(1) (バーズコミックス)&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;posted with
-&lt;a href=&#34;http://yomereba.com&#34;&gt;ヨメレバ&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;うめ 幻冬舎 2007–03–24&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/asin/4344809432/namaraiicom-22/&#34;&gt;Amazon&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/B0098ILS1K/namaraiicom-22/&#34;&gt;Kindle&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d8mIwJYxp-cMrH.jpg&#34; alt=&#34;/images/d8mIwJYxp-cMrH.jpg&#34;&gt;
-&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/asin/4344810872/namaraiicom-22/&#34;&gt;東京トイボックス(1) (バーズコミックス)&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;posted with
-&lt;a href=&#34;http://yomereba.com&#34;&gt;ヨメレバ&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;うめ 幻冬舎 2007–09–22&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/asin/4344810872/namaraiicom-22/&#34;&gt;Amazon&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/B00BQH93J0/namaraiicom-22/&#34;&gt;Kindle&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.tv-tokyo.co.jp/tokyo_toybox/&#34;&gt;テレビ東京でドラマ化もされた&lt;/a&gt;秋葉原のゲーム制作会社スタジオG3を舞台とした物語。&lt;/p&gt;
-&lt;p&gt;「面白いゲーム」を作るために理想を追求するスタジオG3の社長
-天川太陽と、業績回復という名のもとに親会社から左遷されてやってきた月山星乃。&lt;/p&gt;
-&lt;p&gt;当初は「売れるゲーム」のために「大人の判断」で物事を進めようとした月山星乃だが、理想主義のアツい男
-天川太陽に接するうちに、徐々に惹かれていく心境の変化が読んでいて楽しかった。&lt;/p&gt;
-&lt;p&gt;理想と現実の中でどのように折り合いをつけるかの葛藤。ゲーム業界の経験はありませんが、似たような話はどの会社でもありますよね。&lt;/p&gt;
-&lt;p&gt;続編の『大東京トイボックス』も、よりストーリー展開が大きくて面白かった。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/dKlc53ThmMOnhQ.jpg&#34; alt=&#34;/images/dKlc53ThmMOnhQ.jpg&#34;&gt;
-&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/asin/B00F4PDB3E/namaraiicom-22/&#34;&gt;インベスターZ(1) (コルク)[Kindle版]&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;posted with
-&lt;a href=&#34;http://yomereba.com&#34;&gt;ヨメレバ&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;三田紀房 コルク 2013–09–20&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/B00F4PDB3E/namaraiicom-22/&#34;&gt;Kindle&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4063872572/namaraiicom-22/&#34;&gt;Amazon[書籍版]&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;作者は「ドラゴン桜」などの三田紀房。&lt;/p&gt;
-&lt;p&gt;創立130年の超進学校
-道塾学園にトップで合格した財前孝史が、各学年成績トップ6人だけが参加する極秘の「投資部」に入る。&lt;/p&gt;
-&lt;p&gt;投資部が3000億の資金を運用し8%以上の利回りを生み出すことことで、日本最高水準の教育設備を誇る道塾学園が学費無料であることを知る。&lt;/p&gt;
-&lt;p&gt;投資部の先輩の助言を受けながら実際に資金を運用し、投資について学んでいくというストーリー。ウォーレン・バフェットに憧れる女子中学生も登場する(笑)&lt;/p&gt;
-&lt;p&gt;ストーリーが面白く内容もわかりやすいので、株式投資の知識が無くても楽しめると思います。&lt;/p&gt;
-
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Genymotionを使ってMacでKindle本を読む</title>
-      <link>https://namaraii.com/post/2013/20130919_genymotionmackindleea657bdb108b/</link>
-      <pubDate>Thu, 19 Sep 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://namaraii.com/post/2013/20130919_genymotionmackindleea657bdb108b/</guid>
-      <description>
-        
-          &lt;p&gt;&lt;a href=&#34;http://bulldra.hatenablog.com/entry/2013/09/06/222704&#34;&gt;Kindle書籍をMacで読んだり、コピペ引用すると書評ブログが捗る～意味吸引器としての電子書籍ふたたび — 情報学の情緒的な私試論β&lt;/a&gt;で紹介されている「MacでKindle本を読む方法」を試してみました。&lt;/p&gt;
-&lt;p&gt;その方法は、&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;span
-id=&#34;c63f&#34;&gt;MacへAndroidエミュレータのGenymotionをインストールする。&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&#34;6f06&#34;&gt;PlayストアからKindleアプリをインストール。&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span
-id=&#34;8f1e&#34;&gt;KindleアプリからAmazonのアカウントでログイン。&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;というもの。GenymotionではPlayストアが使えるんですね。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/9kcAv5fFRQjyB8.jpg&#34; alt=&#34;/images/9kcAv5fFRQjyB8.jpg&#34;&gt;
-インストール時の権限の確認画面。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/W9Vo0tKNhVWYrx.jpg&#34; alt=&#34;/images/W9Vo0tKNhVWYrx.jpg&#34;&gt;
-パーソナルドキュメントに置いてあるPDFも表示されてます。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/aASG5bE2maTHu9.jpg&#34; alt=&#34;/images/aASG5bE2maTHu9.jpg&#34;&gt;
-普通に読めちゃう。&lt;/p&gt;
-&lt;p&gt;PCで作業しているときにKindle本を見たいことがよくあるんですが、Kindle端末やタブレットをPCと別に扱うのが面倒なんですよね。なので、これは効率上がりそう。左右のカーソルキーでページをめくるのも簡単です。&lt;/p&gt;
-&lt;p&gt;Genymotionは軽くてサクサク動くから十分実用的な感じだなぁ。Androidアプリのデモにも良いんじゃないでしょうか。&lt;/p&gt;
-&lt;p&gt;というかですね、&lt;strong&gt;Kindle本をMacのKindleアプリで読めるようになるのはいつなんでしょうか…&lt;/strong&gt;&lt;/p&gt;
-
-        
-      </description>
-    </item>
-    
-  </channel>
-</rss>
+&lt;a href="https://itunes.apple.com/jp/app/flickurl/id817330241?mt=8">FlickURL&lt;/a>&lt;/p>
+&lt;p>Jリーグは間もなく終わりオフシーズンに入ります。&lt;/p>
+&lt;p>横浜FCを応援している私にとっては残念な1年でしたが、来シーズンに期待しながら、オフシーズンはサッカー本を読みまくりたいと思います。&lt;/p></description></item><item><title>【読書メモ】最近Kindleで読んで面白かった漫画『東京トイボックス』『大東京トイボックス』『インベスターZ』</title><link>https://namaraii.com/post/2014/20140415_kindlez4454cf7c0350/</link><pubDate>Tue, 15 Apr 2014 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2014/20140415_kindlez4454cf7c0350/</guid><description>
+&lt;p>最近、Kindleで読んだ『東京トイボックス』『大東京トイボックス』『インベスターZ』という漫画が面白かった。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/anyYSOKtnLovXs.jpg" alt="/images/anyYSOKtnLovXs.jpg">
+&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4344809432/namaraiicom-22/">大東京トイボックス(1) (バーズコミックス)&lt;/a>&lt;/p>
+&lt;p>posted with
+&lt;a href="http://yomereba.com">ヨメレバ&lt;/a>&lt;/p>
+&lt;p>うめ 幻冬舎 2007–03–24&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4344809432/namaraiicom-22/">Amazon&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/ASIN/B0098ILS1K/namaraiicom-22/">Kindle&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d8mIwJYxp-cMrH.jpg" alt="/images/d8mIwJYxp-cMrH.jpg">
+&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4344810872/namaraiicom-22/">東京トイボックス(1) (バーズコミックス)&lt;/a>&lt;/p>
+&lt;p>posted with
+&lt;a href="http://yomereba.com">ヨメレバ&lt;/a>&lt;/p>
+&lt;p>うめ 幻冬舎 2007–09–22&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/4344810872/namaraiicom-22/">Amazon&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00BQH93J0/namaraiicom-22/">Kindle&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://www.tv-tokyo.co.jp/tokyo_toybox/">テレビ東京でドラマ化もされた&lt;/a>秋葉原のゲーム制作会社スタジオG3を舞台とした物語。&lt;/p>
+&lt;p>「面白いゲーム」を作るために理想を追求するスタジオG3の社長
+天川太陽と、業績回復という名のもとに親会社から左遷されてやってきた月山星乃。&lt;/p>
+&lt;p>当初は「売れるゲーム」のために「大人の判断」で物事を進めようとした月山星乃だが、理想主義のアツい男
+天川太陽に接するうちに、徐々に惹かれていく心境の変化が読んでいて楽しかった。&lt;/p>
+&lt;p>理想と現実の中でどのように折り合いをつけるかの葛藤。ゲーム業界の経験はありませんが、似たような話はどの会社でもありますよね。&lt;/p>
+&lt;p>続編の『大東京トイボックス』も、よりストーリー展開が大きくて面白かった。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/dKlc53ThmMOnhQ.jpg" alt="/images/dKlc53ThmMOnhQ.jpg">
+&lt;a href="http://www.amazon.co.jp/exec/obidos/asin/B00F4PDB3E/namaraiicom-22/">インベスターZ(1) (コルク)[Kindle版]&lt;/a>&lt;/p>
+&lt;p>posted with
+&lt;a href="http://yomereba.com">ヨメレバ&lt;/a>&lt;/p>
+&lt;p>三田紀房 コルク 2013–09–20&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00F4PDB3E/namaraiicom-22/">Kindle&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/exec/obidos/ASIN/4063872572/namaraiicom-22/">Amazon[書籍版]&lt;/a>&lt;/p>
+&lt;p>作者は「ドラゴン桜」などの三田紀房。&lt;/p>
+&lt;p>創立130年の超進学校
+道塾学園にトップで合格した財前孝史が、各学年成績トップ6人だけが参加する極秘の「投資部」に入る。&lt;/p>
+&lt;p>投資部が3000億の資金を運用し8%以上の利回りを生み出すことことで、日本最高水準の教育設備を誇る道塾学園が学費無料であることを知る。&lt;/p>
+&lt;p>投資部の先輩の助言を受けながら実際に資金を運用し、投資について学んでいくというストーリー。ウォーレン・バフェットに憧れる女子中学生も登場する(笑)&lt;/p>
+&lt;p>ストーリーが面白く内容もわかりやすいので、株式投資の知識が無くても楽しめると思います。&lt;/p></description></item><item><title>Genymotionを使ってMacでKindle本を読む</title><link>https://namaraii.com/post/2013/20130919_genymotionmackindleea657bdb108b/</link><pubDate>Thu, 19 Sep 2013 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2013/20130919_genymotionmackindleea657bdb108b/</guid><description>
+&lt;p>&lt;a href="http://bulldra.hatenablog.com/entry/2013/09/06/222704">Kindle書籍をMacで読んだり、コピペ引用すると書評ブログが捗る～意味吸引器としての電子書籍ふたたび — 情報学の情緒的な私試論β&lt;/a>で紹介されている「MacでKindle本を読む方法」を試してみました。&lt;/p>
+&lt;p>その方法は、&lt;/p>
+&lt;ul>
+&lt;li>&lt;span
+id="c63f">MacへAndroidエミュレータのGenymotionをインストールする。&lt;/span>&lt;/li>
+&lt;li>&lt;span id="6f06">PlayストアからKindleアプリをインストール。&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="8f1e">KindleアプリからAmazonのアカウントでログイン。&lt;/span>&lt;/li>
+&lt;/ul>
+&lt;p>というもの。GenymotionではPlayストアが使えるんですね。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/9kcAv5fFRQjyB8.jpg" alt="/images/9kcAv5fFRQjyB8.jpg">
+インストール時の権限の確認画面。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/W9Vo0tKNhVWYrx.jpg" alt="/images/W9Vo0tKNhVWYrx.jpg">
+パーソナルドキュメントに置いてあるPDFも表示されてます。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/aASG5bE2maTHu9.jpg" alt="/images/aASG5bE2maTHu9.jpg">
+普通に読めちゃう。&lt;/p>
+&lt;p>PCで作業しているときにKindle本を見たいことがよくあるんですが、Kindle端末やタブレットをPCと別に扱うのが面倒なんですよね。なので、これは効率上がりそう。左右のカーソルキーでページをめくるのも簡単です。&lt;/p>
+&lt;p>Genymotionは軽くてサクサク動くから十分実用的な感じだなぁ。Androidアプリのデモにも良いんじゃないでしょうか。&lt;/p>
+&lt;p>というかですね、&lt;strong>Kindle本をMacのKindleアプリで読めるようになるのはいつなんでしょうか…&lt;/strong>&lt;/p></description></item></channel></rss>

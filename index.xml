@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>namaraii.com</title><link>https://namaraii.com/</link><description>Recent content on namaraii.com</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright><lastBuildDate>Wed, 14 Apr 2021 16:55:00 +0900</lastBuildDate><atom:link href="https://namaraii.com/index.xml" rel="self" type="application/rss+xml"/><item><title>決算や確定申告で便利な無料のPDF関連ツール(Mac)</title><link>https://namaraii.com/post/2021/20210414/</link><pubDate>Wed, 14 Apr 2021 16:55:00 +0900</pubDate><guid>https://namaraii.com/post/2021/20210414/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>namaraii.com</title><link>https://namaraii.com/</link><description>Recent content on namaraii.com</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright><lastBuildDate>Tue, 22 Jun 2021 09:11:18 +0000</lastBuildDate><atom:link href="https://namaraii.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Apple標準のメモアプリは、継続的なアップデートで、機能的にはかなり使える感じなんだけど、ノート数が多くなると(自分の場合は2000ちょっと）iCloud同期が遅く不安定なので常用は厳しい印象</title><link>https://namaraii.com/rentwi/1407264926175940611/</link><pubDate>Tue, 22 Jun 2021 09:11:18 +0000</pubDate><guid>https://namaraii.com/rentwi/1407264926175940611/</guid><description>
+&lt;blockquote data-conversation="none" class="twitter-tweet">&lt;p>&lt;/p>&lt;a href="https://twitter.com/htakeuchi/status/1407264926175940611">&lt;/a>&lt;/blockquote>
+&lt;blockquote data-conversation="none" class="twitter-tweet">&lt;p>&lt;/p>&lt;a href="https://twitter.com/htakeuchi/status/1407265418188771330">&lt;/a>&lt;/blockquote>
+&lt;blockquote data-conversation="none" class="twitter-tweet">&lt;p>&lt;/p>&lt;a href="https://twitter.com/htakeuchi/status/1407266507055276034">&lt;/a>&lt;/blockquote></description></item><item><title>» ｢タバコを吸う人は悪人｣コロナ後の世界では健康管理はモラルに変わる "健康で健全な社会"の息苦しさ | PRESIDENT Online（プレジデントオンライン） https://t.co/28fiOcmi3p</title><link>https://namaraii.com/rentwi/1404252824989442050/</link><pubDate>Mon, 14 Jun 2021 01:42:17 +0000</pubDate><guid>https://namaraii.com/rentwi/1404252824989442050/</guid><description>
+&lt;blockquote data-conversation="none" class="twitter-tweet">&lt;p>&lt;/p>&lt;a href="https://twitter.com/htakeuchi/status/1404252824989442050">&lt;/a>&lt;/blockquote>
+&lt;blockquote data-conversation="none" class="twitter-tweet">&lt;p>&lt;/p>&lt;a href="https://twitter.com/htakeuchi/status/1404252951380516870">&lt;/a>&lt;/blockquote>
+&lt;blockquote data-conversation="none" class="twitter-tweet">&lt;p>&lt;/p>&lt;a href="https://twitter.com/htakeuchi/status/1404253705549934592">&lt;/a>&lt;/blockquote></description></item><item><title>睡眠の質が低下していたので、関係しそうな変数（運動・アルコール・カフェイン・入浴タイミング）を変化させながら2週間ほど原因を探った結果、自分の場合はカフェインの影響が最も大きそうだった。</title><link>https://namaraii.com/rentwi/1404227309440167939/</link><pubDate>Mon, 14 Jun 2021 00:00:54 +0000</pubDate><guid>https://namaraii.com/rentwi/1404227309440167939/</guid><description>
+&lt;blockquote data-conversation="none" class="twitter-tweet">&lt;p>&lt;/p>&lt;a href="https://twitter.com/htakeuchi/status/1404227309440167939">&lt;/a>&lt;/blockquote>
+&lt;blockquote data-conversation="none" class="twitter-tweet">&lt;p>&lt;/p>&lt;a href="https://twitter.com/htakeuchi/status/1404228605425577985">&lt;/a>&lt;/blockquote></description></item><item><title>決算や確定申告で便利な無料のPDF関連ツール(Mac)</title><link>https://namaraii.com/post/2021/20210414/</link><pubDate>Wed, 14 Apr 2021 16:55:00 +0900</pubDate><guid>https://namaraii.com/post/2021/20210414/</guid><description>
 &lt;p>決算や確定申告に向けて、Amazonなどの各種ECサイトで購入したモノの領収書を揃える必要がありますが、これがなかなか大変なんですよね。&lt;/p>
 &lt;p>そして毎回、同じようなことを調べている気がするので、MacでAcrobatを使わずにPDFを取り扱うツール・方法を備忘録として書いておきます。&lt;/p>
 &lt;h2 id="amazonの領収書を一括してpdfへ変換">Amazonの領収書を一括してPDFへ変換&lt;/h2>
@@ -31,8 +39,7 @@
 &lt;li>&lt;a href="https://qiita.com/jackchuka/items/ccd3f66f6dd00481b98b">Alfredを使いこなせてない君に！【Alfredの使い方完全版】 - Qiita&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="powerpackについて">Powerpackについて&lt;/h2>
-&lt;p>Alfredは&lt;a href="https://www.alfredapp.com/powerpack/">有償のPowerpack&lt;/a>が用意されており、クリップボード履歴・スニペ
-ット・ワークフローと行った強力な機能はPowerpackがなければ使えません。&lt;/p>
+&lt;p>Alfredは&lt;a href="https://www.alfredapp.com/powerpack/">有償のPowerpack&lt;/a>が用意されており、クリップボード履歴・スニペット・ワークフローと行った強力な機能はPowerpackがなければ使えません。&lt;/p>
 &lt;p>ランチャー的な用途だけならSpotlightで代替できますし、あえてAlfredを使うのであれば購入すると幸せになれるかと。&lt;/p>
 &lt;p>他にも連絡先の検索やシェルコマンドの実行などPowerpack専用の機能がありますので、詳細は以下をご参照ください。&lt;/p>
 &lt;ul>

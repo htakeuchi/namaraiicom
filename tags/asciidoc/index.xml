@@ -1,224 +1,166 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>asciidoc on namaraii.com</title>
-    <link>https://namaraii.com/tags/asciidoc/</link>
-    <description>Recent content in asciidoc on namaraii.com</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright>
-    <lastBuildDate>Fri, 23 Feb 2018 14:15:14 +0900</lastBuildDate><atom:link href="https://namaraii.com/tags/asciidoc/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>AsciidoctorのDockerイメージにmermaidを追加</title>
-      <link>https://namaraii.com/post/2018/20180223_mermaid/</link>
-      <pubDate>Fri, 23 Feb 2018 14:15:14 +0900</pubDate>
-      
-      <guid>https://namaraii.com/post/2018/20180223_mermaid/</guid>
-      <description>
-        
-          &lt;p&gt;&lt;a href=&#34;https://github.com/htakeuchi/docker-asciidoctor-jp&#34;&gt;htakeuchi/docker-asciidoctor-jp&lt;/a&gt;に&lt;a href=&#34;https://mermaidjs.github.io/&#34;&gt;mermaid&lt;/a&gt;を追加しました。&lt;/p&gt;
-&lt;p&gt;Dockerイメージにmermaidをインストールする際、以下の問題があり、単純にインストールできなかったのですが、とりあえず使える状態にしました。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;mermaid CLIで前提にしているPhantomJSのnpmパッケージがAlpine Linuxでは動作しない&lt;/li&gt;
-&lt;li&gt;mermaid 7.1.0からCLIコマンド(mermaidコマンド)が同梱されなくなり、mermaid.cliに分離されたが、新しく提供されるmmdcコマンドはasciidoctor-diagramで未サポート&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;ということで、まずはPhantomJSを動かせるようにして、mermaid 7.0.9をインストールするようにしました。&lt;/p&gt;
-&lt;p&gt;本当はasciidoctor-diagramでmmdcを使えるようにするパッチを書いた方が良いんですけどね。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/asciidoctor/asciidoctor-diagram/issues/163&#34;&gt;Add support for mermaid.cli · Issue #163 · asciidoctor/asciidoctor-diagram&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;asciidoc文書の中に、&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 1&lt;/span&gt;[mermaid]
-&lt;span class=&#34;ln&#34;&gt; 2&lt;/span&gt;....
-&lt;span class=&#34;ln&#34;&gt; 3&lt;/span&gt;sequenceDiagram
-&lt;span class=&#34;ln&#34;&gt; 4&lt;/span&gt;    Alice-&amp;gt;&amp;gt;Bob: Hello Bob, how are you?
-&lt;span class=&#34;ln&#34;&gt; 5&lt;/span&gt;    alt is sick
-&lt;span class=&#34;ln&#34;&gt; 6&lt;/span&gt;        Bob-&amp;gt;&amp;gt;Alice: Not so good :(
-&lt;span class=&#34;ln&#34;&gt; 7&lt;/span&gt;    else is well
-&lt;span class=&#34;ln&#34;&gt; 8&lt;/span&gt;        Bob-&amp;gt;&amp;gt;Alice: Feeling fresh like a daisy
-&lt;span class=&#34;ln&#34;&gt; 9&lt;/span&gt;    end
-&lt;span class=&#34;ln&#34;&gt;10&lt;/span&gt;    opt Extra response
-&lt;span class=&#34;ln&#34;&gt;11&lt;/span&gt;        Bob-&amp;gt;&amp;gt;Alice: Thanks for asking
-&lt;span class=&#34;ln&#34;&gt;12&lt;/span&gt;    end
-&lt;span class=&#34;ln&#34;&gt;13&lt;/span&gt;....
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;などと書いて、&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;$ asciidoctor -r asciidoctor-diagram sample.adoc
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;とすると、&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/diag-41d9212dd085c8db1dd6da8e70ee6b19.png&#34; alt=&#34;mermaid&#34; title=&#34;mermaid&#34;&gt;&lt;/p&gt;
-&lt;p&gt;のような図を描画することができます。&lt;/p&gt;
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>『Pro Git(第2版)』をビルドしてHTML/epub3/PDF/mobiを生成してみた</title>
-      <link>https://namaraii.com/post/2018/20180219_generate-progit/</link>
-      <pubDate>Mon, 19 Feb 2018 23:07:41 +0900</pubDate>
-      
-      <guid>https://namaraii.com/post/2018/20180219_generate-progit/</guid>
-      <description>
-        
-          &lt;p&gt;Asciidocで書かれ、クリエィティブコモンズで公開されている『Pro Git(第2版)』をビルドし、HTML/epub3/PDF/mobiを生成してみました。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/progit/progit2-ja&#34;&gt;progit/progit2-ja&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;$ docker run --rm -it -v &lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;pwd&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt;:/documents htakeuchi/docker-asciidoctor-jp
-&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;$ git clone https://github.com/progit/progit2-ja.git
-&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt;$ &lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; progit2-ja.git
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Dockerイメージ&lt;a href=&#34;https://github.com/htakeuchi/docker-asciidoctor-jp&#34;&gt;htakeuchi/docker-asciidoctor-jp&lt;/a&gt;のRubyは2.4.3p205ですが、一部、Nataive extensionのビルドに失敗するためGemfileを修正。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 1&lt;/span&gt;source &amp;#39;https://rubygems.org&amp;#39;
-&lt;span class=&#34;ln&#34;&gt; 2&lt;/span&gt;
-&lt;span class=&#34;ln&#34;&gt; 3&lt;/span&gt;gem &amp;#39;rake&amp;#39;
-&lt;span class=&#34;ln&#34;&gt; 4&lt;/span&gt;gem &amp;#39;asciidoctor&amp;#39;, &amp;#39;1.5.0&amp;#39;
-&lt;span class=&#34;ln&#34;&gt; 5&lt;/span&gt;
-&lt;span class=&#34;ln&#34;&gt; 6&lt;/span&gt;gem &amp;#39;json&amp;#39;, github: &amp;#39;flori/json&amp;#39;, branch: &amp;#39;v1.8&amp;#39;
-&lt;span class=&#34;ln&#34;&gt; 7&lt;/span&gt;gem &amp;#39;awesome_print&amp;#39;
-&lt;span class=&#34;ln&#34;&gt; 8&lt;/span&gt;
-&lt;span class=&#34;ln&#34;&gt; 9&lt;/span&gt;gem &amp;#39;asciidoctor-epub3&amp;#39;, &amp;#39;1.0.0.alpha.2&amp;#39;
-&lt;span class=&#34;ln&#34;&gt;10&lt;/span&gt;gem &amp;#39;asciidoctor-pdf&amp;#39;, &amp;#39;1.5.0.alpha.5&amp;#39;
-&lt;span class=&#34;ln&#34;&gt;11&lt;/span&gt;
-&lt;span class=&#34;ln&#34;&gt;12&lt;/span&gt;gem &amp;#39;coderay&amp;#39;
-&lt;span class=&#34;ln&#34;&gt;13&lt;/span&gt;gem &amp;#39;yajl-ruby&amp;#39;, &amp;#39;1.3.1&amp;#39;
-&lt;span class=&#34;ln&#34;&gt;14&lt;/span&gt;gem &amp;#39;pygments.rb&amp;#39;
-&lt;span class=&#34;ln&#34;&gt;15&lt;/span&gt;gem &amp;#39;thread_safe&amp;#39;
-&lt;span class=&#34;ln&#34;&gt;16&lt;/span&gt;gem &amp;#39;epubcheck&amp;#39;
-&lt;span class=&#34;ln&#34;&gt;17&lt;/span&gt;gem &amp;#39;kindleg
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;続けます。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;$ bundle install
-&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;$ bundle &lt;span class=&#34;nb&#34;&gt;exec&lt;/span&gt; rake book:build
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;HTML/epub3は正常に生成されましたが、PDFは日本語が出力されず、mobiはKindleアプリ(Mac版)で開けないという問題が発生したので、RakefileのPDF生成部分のみ修正。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;    &lt;span class=&#34;nb&#34;&gt;puts&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Converting to PDF... (this one takes a while)&amp;#34;&lt;/span&gt;
-&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;    &lt;span class=&#34;sb&#34;&gt;`asciidoctor-pdf -r asciidoctor-pdf-cjk-kai_gen_gothic -a pdf-style=KaiGenGothicJP progit.asc 2&amp;gt;/dev/null`&lt;/span&gt;
-&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt;    &lt;span class=&#34;nb&#34;&gt;puts&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34; -- PDF  output at progit.pdf&amp;#34;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;再度rakeしたところ、PDFは正しく生成されました。mobiに関しては引き続き調査だな…&lt;/p&gt;
-&lt;p&gt;以下、生成したファイルを置いておきます。PDFで527ページあります。クオリティ高すぎ。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/progit/progit.html&#34;&gt;Pro Git 第2版（日本語版）HTML&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/progit/progit.pdf&#34;&gt;Pro Git 第2版（日本語版）PDF&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/progit/progit.epub&#34;&gt;Pro Git 第2版（日本語版）epub3&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Asciidocで生成するHTMLにテーマを適用して見た目を変える</title>
-      <link>https://namaraii.com/post/2018/20180217_asciidoc-stylesheet-factory/</link>
-      <pubDate>Sat, 17 Feb 2018 13:35:40 +0900</pubDate>
-      
-      <guid>https://namaraii.com/post/2018/20180217_asciidoc-stylesheet-factory/</guid>
-      <description>
-        
-          &lt;p&gt;Asciidocorで生成するHTMLへ適用できるテーマを開発できる&lt;a href=&#34;https://github.com/asciidoctor/asciidoctor-stylesheet-factory&#34;&gt;Asciidoctor stylesheet factory&lt;/a&gt;というツールがあります。&lt;/p&gt;
-&lt;p&gt;が、テーマの開発はまだ試せていませんので、ここでは&lt;a href=&#34;https://github.com/htakeuchi/docker-asciidoctor-jp&#34;&gt;htakeuchi/docker-asciidoctor-jp&lt;/a&gt;でテーマを使用する方法を紹介します。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/asciidoctor/asciidoctor-stylesheet-factory&#34;&gt;Asciidoctor stylesheet factory&lt;/a&gt;では標準で以下のテーマが提供されます。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;asciidoctor.css&lt;/li&gt;
-&lt;li&gt;foundation.css&lt;/li&gt;
-&lt;li&gt;maker.css&lt;/li&gt;
-&lt;li&gt;rubygems.css&lt;/li&gt;
-&lt;li&gt;colony.css&lt;/li&gt;
-&lt;li&gt;github.css&lt;/li&gt;
-&lt;li&gt;readthedocs.css&lt;/li&gt;
-&lt;li&gt;foundation-lime.css&lt;/li&gt;
-&lt;li&gt;golo.css&lt;/li&gt;
-&lt;li&gt;riak.css&lt;/li&gt;
-&lt;li&gt;foundation-potion.css&lt;/li&gt;
-&lt;li&gt;iconic.css&lt;/li&gt;
-&lt;li&gt;rocket-panda.css&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;a href=&#34;http://themes.asciidoctor.org/preview/&#34;&gt;theme showcase&lt;/a&gt;で各テーマの実際の見た目を確認できます。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/htakeuchi/docker-asciidoctor-jp&#34;&gt;htakeuchi/docker-asciidoctor-jp&lt;/a&gt;では/stylesheets配下に以下のテーマが置かれていますので、
-テーマは以下のように指定すればOKです。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;asciidoctor -a &lt;span class=&#34;nv&#34;&gt;stylesheet&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;github.css -a &lt;span class=&#34;nv&#34;&gt;stylesdir&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;/stylesheets/ foo.adoc
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;この場合、スタイルシートはHTML中に埋めこまれますので、1つのHTMLだけで構成される簡単なドキュメントなどに便利です。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;asciidoctor -a linkcss -a &lt;span class=&#34;nv&#34;&gt;stylesheet&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;github.css -a &lt;span class=&#34;nv&#34;&gt;stylesdir&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;../stylesheets foo.adoc
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;とすると、&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;link&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;rel&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;stylesheet&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;href&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;../stylesheets/github.css&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;というHTMLが生成されますので、HTMLとCSSを分離することも可能です。&lt;/p&gt;
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Asciidoctor環境をDockerで簡単に構築する</title>
-      <link>https://namaraii.com/post/2018/20180217_docker-asciidoctor-jp/</link>
-      <pubDate>Sat, 17 Feb 2018 13:30:13 +0900</pubDate>
-      
-      <guid>https://namaraii.com/post/2018/20180217_docker-asciidoctor-jp/</guid>
-      <description>
-        
-          &lt;p&gt;最近、Asciidoctor周りを調べているのですが、単体で使う分には問題ないものの、asciidoctor-diagram(PlantUMLなど)などを使おうとすると、とたんに環境構築がつらくなってくるので、&lt;a href=&#34;https://github.com/liquidz/docker-asciidoctor-jp&#34;&gt;docker-asciidoctor-jp&lt;/a&gt;をforkしてDockerコンテナを作りました。（現状はほぼ同じ内容です）&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/htakeuchi/docker-asciidoctor-jp&#34;&gt;htakeuchi/docker-asciidoctor-jp&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;何ができるか&#34;&gt;何ができるか&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;AsciidocテキストをHTML/PDF/EPUB3/mobiへ変換する
-&lt;ul&gt;
-&lt;li&gt;図形の描画
-&lt;ul&gt;
-&lt;li&gt;Graphviz&lt;/li&gt;
-&lt;li&gt;PlantUML&lt;/li&gt;
-&lt;li&gt;ditaa&lt;/li&gt;
-&lt;li&gt;blockdiag(seqdiag/actdiag/nwdiag)&lt;/li&gt;
-&lt;li&gt;mermaid 7.0.9 (2018/02/23追加)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;シンタックスハイライト(CodeRay/Pygments/highlightjs/prettify
-)&lt;/li&gt;
-&lt;li&gt;Reveal.jsのプレゼンテーションを作成する&lt;/li&gt;
-&lt;li&gt;その他(&lt;a href=&#34;https://github.com/asciidoctor/docker-asciidoctor&#34;&gt;docker-asciidoctor参照&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;環境&#34;&gt;環境&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Asciidoctor 1.5.6.1&lt;/li&gt;
-&lt;li&gt;asciidoctor-pdf (alpha)&lt;/li&gt;
-&lt;li&gt;Asciidoctor-epub3 (alpha)&lt;/li&gt;
-&lt;li&gt;asciidoctor-fopub&lt;/li&gt;
-&lt;li&gt;asciidoctor-confluence&lt;/li&gt;
-&lt;li&gt;asciidoctor-revealjs&lt;/li&gt;
-&lt;li&gt;asciidoctor-pdf-cjk-kai_gen_gothic]&lt;/li&gt;
-&lt;li&gt;asciidoctor-stylesheet-factory&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://vlgothic.dicey.org/&#34;&gt;VL Gothic&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;使い方&#34;&gt;使い方&lt;/h2&gt;
-&lt;h3 id=&#34;コンテナを起動する&#34;&gt;コンテナを起動する&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;docker run --rm -it -v &lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;pwd&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt;:/documents htakeuchi/docker-asciidoctor-jp
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;あとはコンテナの中で各種のコマンドが使えます。&lt;/p&gt;
-&lt;h3 id=&#34;pdfの生成&#34;&gt;PDFの生成&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;asciidoctor-pdf -r asciidoctor-pdf-cjk-kai_gen_gothic -a pdf-style&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;KaiGenGothicJP foo.adoc
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;htmlの生成&#34;&gt;HTMLの生成&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;asciidoctor foo.adoc
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
-&lt;p&gt;[NOTE]
-必要に応じてオプションを追加してください。(-aのオプションは文書の属性として書くこともできます）&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;図形を含む: -r asciidoctor-diagram&lt;/li&gt;
-&lt;li&gt;数式を含む: -r asciidoctor-mathematical&lt;/li&gt;
-&lt;li&gt;シンタックスハイライト: -a source-highlighter=highlightjs&lt;/li&gt;
-&lt;li&gt;スタイルシートの指定: -a stylesheet=/path/to/css/file.css&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=&#34;図形を含むpdfの生成&#34;&gt;図形を含むPDFの生成&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;asciidoctor-pdf -r asciidoctor-diagram -r asciidoctor-pdf-cjk-kai_gen_gothic -a pdf-style&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;KaiGenGothicJP foo.adoc
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;htmlの生成シンタックスハイライトスタイルシート指定&#34;&gt;HTMLの生成（シンタックスハイライト+スタイルシート指定)&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;asciidoctor -a source-highlighter&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;highlightjs -a &lt;span class=&#34;nv&#34;&gt;stylesheet&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;/stylesheets/github.css foo.adoc
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;epub3の生成&#34;&gt;EPUB3の生成&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;asciidoctor-epub3 foo.adoc
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
-&lt;p&gt;[NOTE]
-EUB3を生成する場合、いくつかのルールがあります。link:https://github.com/asciidoctor/asciidoctor-epub3[asciidoctor/asciidoctor-epub3] のサンプルなどを参照してください。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=&#34;mobikindleフォーマットの生成&#34;&gt;mobi(Kindleフォーマット）の生成&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;kindlegen foo.epub
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;プレゼンテーション用htmlの生成asciidocotr-revealjs&#34;&gt;プレゼンテーション用HTMLの生成(asciidocotr-revealjs)&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;asciidoctor-revealjs -a &lt;span class=&#34;nv&#34;&gt;revealjsdir&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0 foo.adoc
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-        
-      </description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>asciidoc on namaraii.com</title><link>https://namaraii.com/tags/asciidoc/</link><description>Recent content in asciidoc on namaraii.com</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright><lastBuildDate>Fri, 23 Feb 2018 14:15:14 +0900</lastBuildDate><atom:link href="https://namaraii.com/tags/asciidoc/index.xml" rel="self" type="application/rss+xml"/><item><title>AsciidoctorのDockerイメージにmermaidを追加</title><link>https://namaraii.com/post/2018/20180223_mermaid/</link><pubDate>Fri, 23 Feb 2018 14:15:14 +0900</pubDate><guid>https://namaraii.com/post/2018/20180223_mermaid/</guid><description>
+&lt;p>&lt;a href="https://github.com/htakeuchi/docker-asciidoctor-jp">htakeuchi/docker-asciidoctor-jp&lt;/a>に&lt;a href="https://mermaidjs.github.io/">mermaid&lt;/a>を追加しました。&lt;/p>
+&lt;p>Dockerイメージにmermaidをインストールする際、以下の問題があり、単純にインストールできなかったのですが、とりあえず使える状態にしました。&lt;/p>
+&lt;ul>
+&lt;li>mermaid CLIで前提にしているPhantomJSのnpmパッケージがAlpine Linuxでは動作しない&lt;/li>
+&lt;li>mermaid 7.1.0からCLIコマンド(mermaidコマンド)が同梱されなくなり、mermaid.cliに分離されたが、新しく提供されるmmdcコマンドはasciidoctor-diagramで未サポート&lt;/li>
+&lt;/ul>
+&lt;p>ということで、まずはPhantomJSを動かせるようにして、mermaid 7.0.9をインストールするようにしました。&lt;/p>
+&lt;p>本当はasciidoctor-diagramでmmdcを使えるようにするパッチを書いた方が良いんですけどね。&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/asciidoctor/asciidoctor-diagram/issues/163">Add support for mermaid.cli · Issue #163 · asciidoctor/asciidoctor-diagram&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>asciidoc文書の中に、&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="ln"> 1&lt;/span>[mermaid]
+&lt;span class="ln"> 2&lt;/span>....
+&lt;span class="ln"> 3&lt;/span>sequenceDiagram
+&lt;span class="ln"> 4&lt;/span> Alice-&amp;gt;&amp;gt;Bob: Hello Bob, how are you?
+&lt;span class="ln"> 5&lt;/span> alt is sick
+&lt;span class="ln"> 6&lt;/span> Bob-&amp;gt;&amp;gt;Alice: Not so good :(
+&lt;span class="ln"> 7&lt;/span> else is well
+&lt;span class="ln"> 8&lt;/span> Bob-&amp;gt;&amp;gt;Alice: Feeling fresh like a daisy
+&lt;span class="ln"> 9&lt;/span> end
+&lt;span class="ln">10&lt;/span> opt Extra response
+&lt;span class="ln">11&lt;/span> Bob-&amp;gt;&amp;gt;Alice: Thanks for asking
+&lt;span class="ln">12&lt;/span> end
+&lt;span class="ln">13&lt;/span>....
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>などと書いて、&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="ln">1&lt;/span>$ asciidoctor -r asciidoctor-diagram sample.adoc
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>とすると、&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/diag-41d9212dd085c8db1dd6da8e70ee6b19.png" alt="mermaid" title="mermaid">&lt;/p>
+&lt;p>のような図を描画することができます。&lt;/p></description></item><item><title>『Pro Git(第2版)』をビルドしてHTML/epub3/PDF/mobiを生成してみた</title><link>https://namaraii.com/post/2018/20180219_generate-progit/</link><pubDate>Mon, 19 Feb 2018 23:07:41 +0900</pubDate><guid>https://namaraii.com/post/2018/20180219_generate-progit/</guid><description>
+&lt;p>Asciidocで書かれ、クリエィティブコモンズで公開されている『Pro Git(第2版)』をビルドし、HTML/epub3/PDF/mobiを生成してみました。&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/progit/progit2-ja">progit/progit2-ja&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="ln">1&lt;/span>$ docker run --rm -it -v &lt;span class="k">$(&lt;/span>&lt;span class="nb">pwd&lt;/span>&lt;span class="k">)&lt;/span>:/documents htakeuchi/docker-asciidoctor-jp
+&lt;span class="ln">2&lt;/span>$ git clone https://github.com/progit/progit2-ja.git
+&lt;span class="ln">3&lt;/span>$ &lt;span class="nb">cd&lt;/span> progit2-ja.git
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Dockerイメージ&lt;a href="https://github.com/htakeuchi/docker-asciidoctor-jp">htakeuchi/docker-asciidoctor-jp&lt;/a>のRubyは2.4.3p205ですが、一部、Nataive extensionのビルドに失敗するためGemfileを修正。&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="ln"> 1&lt;/span>source &amp;#39;https://rubygems.org&amp;#39;
+&lt;span class="ln"> 2&lt;/span>
+&lt;span class="ln"> 3&lt;/span>gem &amp;#39;rake&amp;#39;
+&lt;span class="ln"> 4&lt;/span>gem &amp;#39;asciidoctor&amp;#39;, &amp;#39;1.5.0&amp;#39;
+&lt;span class="ln"> 5&lt;/span>
+&lt;span class="ln"> 6&lt;/span>gem &amp;#39;json&amp;#39;, github: &amp;#39;flori/json&amp;#39;, branch: &amp;#39;v1.8&amp;#39;
+&lt;span class="ln"> 7&lt;/span>gem &amp;#39;awesome_print&amp;#39;
+&lt;span class="ln"> 8&lt;/span>
+&lt;span class="ln"> 9&lt;/span>gem &amp;#39;asciidoctor-epub3&amp;#39;, &amp;#39;1.0.0.alpha.2&amp;#39;
+&lt;span class="ln">10&lt;/span>gem &amp;#39;asciidoctor-pdf&amp;#39;, &amp;#39;1.5.0.alpha.5&amp;#39;
+&lt;span class="ln">11&lt;/span>
+&lt;span class="ln">12&lt;/span>gem &amp;#39;coderay&amp;#39;
+&lt;span class="ln">13&lt;/span>gem &amp;#39;yajl-ruby&amp;#39;, &amp;#39;1.3.1&amp;#39;
+&lt;span class="ln">14&lt;/span>gem &amp;#39;pygments.rb&amp;#39;
+&lt;span class="ln">15&lt;/span>gem &amp;#39;thread_safe&amp;#39;
+&lt;span class="ln">16&lt;/span>gem &amp;#39;epubcheck&amp;#39;
+&lt;span class="ln">17&lt;/span>gem &amp;#39;kindleg
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>続けます。&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="ln">1&lt;/span>$ bundle install
+&lt;span class="ln">2&lt;/span>$ bundle &lt;span class="nb">exec&lt;/span> rake book:build
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>HTML/epub3は正常に生成されましたが、PDFは日本語が出力されず、mobiはKindleアプリ(Mac版)で開けないという問題が発生したので、RakefileのPDF生成部分のみ修正。&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-ruby" data-lang="ruby">&lt;span class="ln">1&lt;/span> &lt;span class="nb">puts&lt;/span> &lt;span class="s2">&amp;#34;Converting to PDF... (this one takes a while)&amp;#34;&lt;/span>
+&lt;span class="ln">2&lt;/span> &lt;span class="sb">`asciidoctor-pdf -r asciidoctor-pdf-cjk-kai_gen_gothic -a pdf-style=KaiGenGothicJP progit.asc 2&amp;gt;/dev/null`&lt;/span>
+&lt;span class="ln">3&lt;/span> &lt;span class="nb">puts&lt;/span> &lt;span class="s2">&amp;#34; -- PDF output at progit.pdf&amp;#34;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>再度rakeしたところ、PDFは正しく生成されました。mobiに関しては引き続き調査だな…&lt;/p>
+&lt;p>以下、生成したファイルを置いておきます。PDFで527ページあります。クオリティ高すぎ。&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://namaraii.com/progit/progit.html">Pro Git 第2版（日本語版）HTML&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/progit/progit.pdf">Pro Git 第2版（日本語版）PDF&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/progit/progit.epub">Pro Git 第2版（日本語版）epub3&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Asciidocで生成するHTMLにテーマを適用して見た目を変える</title><link>https://namaraii.com/post/2018/20180217_asciidoc-stylesheet-factory/</link><pubDate>Sat, 17 Feb 2018 13:35:40 +0900</pubDate><guid>https://namaraii.com/post/2018/20180217_asciidoc-stylesheet-factory/</guid><description>
+&lt;p>Asciidocorで生成するHTMLへ適用できるテーマを開発できる&lt;a href="https://github.com/asciidoctor/asciidoctor-stylesheet-factory">Asciidoctor stylesheet factory&lt;/a>というツールがあります。&lt;/p>
+&lt;p>が、テーマの開発はまだ試せていませんので、ここでは&lt;a href="https://github.com/htakeuchi/docker-asciidoctor-jp">htakeuchi/docker-asciidoctor-jp&lt;/a>でテーマを使用する方法を紹介します。&lt;/p>
+&lt;p>&lt;a href="https://github.com/asciidoctor/asciidoctor-stylesheet-factory">Asciidoctor stylesheet factory&lt;/a>では標準で以下のテーマが提供されます。&lt;/p>
+&lt;ul>
+&lt;li>asciidoctor.css&lt;/li>
+&lt;li>foundation.css&lt;/li>
+&lt;li>maker.css&lt;/li>
+&lt;li>rubygems.css&lt;/li>
+&lt;li>colony.css&lt;/li>
+&lt;li>github.css&lt;/li>
+&lt;li>readthedocs.css&lt;/li>
+&lt;li>foundation-lime.css&lt;/li>
+&lt;li>golo.css&lt;/li>
+&lt;li>riak.css&lt;/li>
+&lt;li>foundation-potion.css&lt;/li>
+&lt;li>iconic.css&lt;/li>
+&lt;li>rocket-panda.css&lt;/li>
+&lt;/ul>
+&lt;p>&lt;a href="http://themes.asciidoctor.org/preview/">theme showcase&lt;/a>で各テーマの実際の見た目を確認できます。&lt;/p>
+&lt;p>&lt;a href="https://github.com/htakeuchi/docker-asciidoctor-jp">htakeuchi/docker-asciidoctor-jp&lt;/a>では/stylesheets配下に以下のテーマが置かれていますので、
+テーマは以下のように指定すればOKです。&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="ln">1&lt;/span>asciidoctor -a &lt;span class="nv">stylesheet&lt;/span>&lt;span class="o">=&lt;/span>github.css -a &lt;span class="nv">stylesdir&lt;/span>&lt;span class="o">=&lt;/span>/stylesheets/ foo.adoc
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>この場合、スタイルシートはHTML中に埋めこまれますので、1つのHTMLだけで構成される簡単なドキュメントなどに便利です。&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="ln">1&lt;/span>asciidoctor -a linkcss -a &lt;span class="nv">stylesheet&lt;/span>&lt;span class="o">=&lt;/span>github.css -a &lt;span class="nv">stylesdir&lt;/span>&lt;span class="o">=&lt;/span>../stylesheets foo.adoc
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>とすると、&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="ln">1&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">link&lt;/span> &lt;span class="na">rel&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;stylesheet&amp;#34;&lt;/span> &lt;span class="na">href&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;../stylesheets/github.css&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>というHTMLが生成されますので、HTMLとCSSを分離することも可能です。&lt;/p></description></item><item><title>Asciidoctor環境をDockerで簡単に構築する</title><link>https://namaraii.com/post/2018/20180217_docker-asciidoctor-jp/</link><pubDate>Sat, 17 Feb 2018 13:30:13 +0900</pubDate><guid>https://namaraii.com/post/2018/20180217_docker-asciidoctor-jp/</guid><description>
+&lt;p>最近、Asciidoctor周りを調べているのですが、単体で使う分には問題ないものの、asciidoctor-diagram(PlantUMLなど)などを使おうとすると、とたんに環境構築がつらくなってくるので、&lt;a href="https://github.com/liquidz/docker-asciidoctor-jp">docker-asciidoctor-jp&lt;/a>をforkしてDockerコンテナを作りました。（現状はほぼ同じ内容です）&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/htakeuchi/docker-asciidoctor-jp">htakeuchi/docker-asciidoctor-jp&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="何ができるか">何ができるか&lt;/h2>
+&lt;ul>
+&lt;li>AsciidocテキストをHTML/PDF/EPUB3/mobiへ変換する
+&lt;ul>
+&lt;li>図形の描画
+&lt;ul>
+&lt;li>Graphviz&lt;/li>
+&lt;li>PlantUML&lt;/li>
+&lt;li>ditaa&lt;/li>
+&lt;li>blockdiag(seqdiag/actdiag/nwdiag)&lt;/li>
+&lt;li>mermaid 7.0.9 (2018/02/23追加)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>シンタックスハイライト(CodeRay/Pygments/highlightjs/prettify
+)&lt;/li>
+&lt;li>Reveal.jsのプレゼンテーションを作成する&lt;/li>
+&lt;li>その他(&lt;a href="https://github.com/asciidoctor/docker-asciidoctor">docker-asciidoctor参照&lt;/a>)&lt;/li>
+&lt;/ul>
+&lt;h2 id="環境">環境&lt;/h2>
+&lt;ul>
+&lt;li>Asciidoctor 1.5.6.1&lt;/li>
+&lt;li>asciidoctor-pdf (alpha)&lt;/li>
+&lt;li>Asciidoctor-epub3 (alpha)&lt;/li>
+&lt;li>asciidoctor-fopub&lt;/li>
+&lt;li>asciidoctor-confluence&lt;/li>
+&lt;li>asciidoctor-revealjs&lt;/li>
+&lt;li>asciidoctor-pdf-cjk-kai_gen_gothic]&lt;/li>
+&lt;li>asciidoctor-stylesheet-factory&lt;/li>
+&lt;li>&lt;a href="http://vlgothic.dicey.org/">VL Gothic&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="使い方">使い方&lt;/h2>
+&lt;h3 id="コンテナを起動する">コンテナを起動する&lt;/h3>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="ln">1&lt;/span>docker run --rm -it -v &lt;span class="k">$(&lt;/span>&lt;span class="nb">pwd&lt;/span>&lt;span class="k">)&lt;/span>:/documents htakeuchi/docker-asciidoctor-jp
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>あとはコンテナの中で各種のコマンドが使えます。&lt;/p>
+&lt;h3 id="pdfの生成">PDFの生成&lt;/h3>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="ln">1&lt;/span>asciidoctor-pdf -r asciidoctor-pdf-cjk-kai_gen_gothic -a pdf-style&lt;span class="o">=&lt;/span>KaiGenGothicJP foo.adoc
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="htmlの生成">HTMLの生成&lt;/h3>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="ln">1&lt;/span>asciidoctor foo.adoc
+&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
+&lt;p>[NOTE]
+必要に応じてオプションを追加してください。(-aのオプションは文書の属性として書くこともできます）&lt;/p>
+&lt;ul>
+&lt;li>図形を含む: -r asciidoctor-diagram&lt;/li>
+&lt;li>数式を含む: -r asciidoctor-mathematical&lt;/li>
+&lt;li>シンタックスハイライト: -a source-highlighter=highlightjs&lt;/li>
+&lt;li>スタイルシートの指定: -a stylesheet=/path/to/css/file.css&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;h3 id="図形を含むpdfの生成">図形を含むPDFの生成&lt;/h3>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="ln">1&lt;/span>asciidoctor-pdf -r asciidoctor-diagram -r asciidoctor-pdf-cjk-kai_gen_gothic -a pdf-style&lt;span class="o">=&lt;/span>KaiGenGothicJP foo.adoc
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="htmlの生成シンタックスハイライトスタイルシート指定">HTMLの生成（シンタックスハイライト+スタイルシート指定)&lt;/h3>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="ln">1&lt;/span>asciidoctor -a source-highlighter&lt;span class="o">=&lt;/span>highlightjs -a &lt;span class="nv">stylesheet&lt;/span>&lt;span class="o">=&lt;/span>/stylesheets/github.css foo.adoc
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="epub3の生成">EPUB3の生成&lt;/h3>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="ln">1&lt;/span>asciidoctor-epub3 foo.adoc
+&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
+&lt;p>[NOTE]
+EUB3を生成する場合、いくつかのルールがあります。link:https://github.com/asciidoctor/asciidoctor-epub3[asciidoctor/asciidoctor-epub3] のサンプルなどを参照してください。&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="mobikindleフォーマットの生成">mobi(Kindleフォーマット）の生成&lt;/h3>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="ln">1&lt;/span>kindlegen foo.epub
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="プレゼンテーション用htmlの生成asciidocotr-revealjs">プレゼンテーション用HTMLの生成(asciidocotr-revealjs)&lt;/h3>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="ln">1&lt;/span>asciidoctor-revealjs -a &lt;span class="nv">revealjsdir&lt;/span>&lt;span class="o">=&lt;/span>https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0 foo.adoc
+&lt;/code>&lt;/pre>&lt;/div></description></item></channel></rss>

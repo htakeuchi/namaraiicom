@@ -1,80 +1,57 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>testlink on namaraii.com</title>
-    <link>https://namaraii.com/tags/testlink/</link>
-    <description>Recent content in testlink on namaraii.com</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright>
-    <lastBuildDate>Sat, 21 Nov 2009 00:00:00 +0000</lastBuildDate><atom:link href="https://namaraii.com/tags/testlink/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>オープンソースのテスト管理ツールTestLinkを使ってみての雑感</title>
-      <link>https://namaraii.com/post/2009/20091121_testlinkfac772779bda/</link>
-      <pubDate>Sat, 21 Nov 2009 00:00:00 +0000</pubDate>
-      
-      <guid>https://namaraii.com/post/2009/20091121_testlinkfac772779bda/</guid>
-      <description>
-        
-          &lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/NsvsSc4Z_glnjo.jpg&#34; alt=&#34;/images/NsvsSc4Z_glnjo.jpg&#34;&gt;
-&lt;a href=&#34;http://www.photodropper.com/photos/&#34;&gt;photo&lt;/a&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>testlink on namaraii.com</title><link>https://namaraii.com/tags/testlink/</link><description>Recent content in testlink on namaraii.com</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright><lastBuildDate>Sat, 21 Nov 2009 00:00:00 +0000</lastBuildDate><atom:link href="https://namaraii.com/tags/testlink/index.xml" rel="self" type="application/rss+xml"/><item><title>オープンソースのテスト管理ツールTestLinkを使ってみての雑感</title><link>https://namaraii.com/post/2009/20091121_testlinkfac772779bda/</link><pubDate>Sat, 21 Nov 2009 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2009/20091121_testlinkfac772779bda/</guid><description>
+&lt;p>&lt;img src="https://namaraii.com/images/NsvsSc4Z_glnjo.jpg" alt="/images/NsvsSc4Z_glnjo.jpg">
+&lt;a href="http://www.photodropper.com/photos/">photo&lt;/a>
 credit:
-&lt;a href=&#34;http://www.flickr.com/photos/14516334@N00/4099849737/&#34;&gt;aussiegall&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;前から気になっていたオープンソースのテスト管理ツール&lt;a href=&#34;http://testlink.org/&#34;&gt;TestLink&lt;/a&gt;をインストールして使ってみました。&lt;/p&gt;
-&lt;h4 id=&#34;好ましいと感じたポイント&#34;&gt;好ましいと感じたポイント&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;span
-id=&#34;dda4&#34;&gt;テスト仕様とテスト計画が独立しており、テスト計画でどのテストを実行するかを選択することができる。特定機能だけの再テスト計画を作成するなど、柔軟に使えそう。&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span
-id=&#34;16c6&#34;&gt;テストケースにキーワードを設定し横串で検索できる。(境界・限界、異常系、追加テスト、顧客受入テスト…）&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span
-id=&#34;e39f&#34;&gt;簡単な要件管理機能がありテストケースと関連付けてテストカバレジを参照できる。&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span
-id=&#34;9503&#34;&gt;テスト計画やテストレポートをHTML、Word、Excel、OpenOffice形式で出力することができる。顧客や社内向けに簡単に「紙で」状況を報告できる仕掛けがあるのは嬉しい。弊社のプロジェクト管理ソフト&lt;a href=&#34;http://www.offtheball.jp/product/projectscape/tokucyou&#34;&gt;Projectscape&lt;/a&gt;のレポート機能、印刷機能と同じ思想。と、少し宣伝(^^;&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span
-id=&#34;17ea&#34;&gt;失敗したテストケース、ブロックされたテストケースのみを出力したり、担当者がアサインされていないテストケースを抽出したりなど、実際の現場で役立ちそうな機能がある。&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span
-id=&#34;251e&#34;&gt;「要件に基づくレポート」機能はスケジュール遅延や品質が悪い場合ケースで、事前に顧客へ制約事項を提示するのに便利そう。&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;こうだったら良いのにと感じたポイント&#34;&gt;こうだったら良いのに…と感じたポイント&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;span
-id=&#34;0c82&#34;&gt;ユーザインタフェースが直感的でなくテスト計画・テストスイート・テストケース・要件仕様ドキュメント・要件・ビルドなどのTestLink用語の意味と関係性を事前に理解しておかないと、どう操作して良いかわかりにくい。&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span
-id=&#34;e4fd&#34;&gt;要件管理機能がシンプル（要件を階層的に管理できない、要件IDがツリーに表示されない、要件からテストケースを作成できないなど）OSRMTなど他の要件管理ツールとの連携ができないか。&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;好ましいと感じたポイントが6つ、こうだったら良いのに…と感じたポイントが2つということで、個人的にはかなりのポテンシャルを感じるツールです。&lt;br&gt;
-実際のプロジェクトで使い込んでみたいと思います。&lt;/p&gt;
-&lt;p&gt;最後にインストールして動かすまでにハマったポイントについてまとめておきます。&lt;/p&gt;
-&lt;h4 id=&#34;テストケースと要件を関連付けを行うと以下のエラーが表示される&#34;&gt;テストケースと要件を関連付けを行うと以下のエラーが表示される。&lt;/h4&gt;
-&lt;p&gt;[php]&lt;br&gt;
+&lt;a href="http://www.flickr.com/photos/14516334@N00/4099849737/">aussiegall&lt;/a>&lt;/p>
+&lt;p>前から気になっていたオープンソースのテスト管理ツール&lt;a href="http://testlink.org/">TestLink&lt;/a>をインストールして使ってみました。&lt;/p>
+&lt;h4 id="好ましいと感じたポイント">好ましいと感じたポイント&lt;/h4>
+&lt;ul>
+&lt;li>&lt;span
+id="dda4">テスト仕様とテスト計画が独立しており、テスト計画でどのテストを実行するかを選択することができる。特定機能だけの再テスト計画を作成するなど、柔軟に使えそう。&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="16c6">テストケースにキーワードを設定し横串で検索できる。(境界・限界、異常系、追加テスト、顧客受入テスト…）&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="e39f">簡単な要件管理機能がありテストケースと関連付けてテストカバレジを参照できる。&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="9503">テスト計画やテストレポートをHTML、Word、Excel、OpenOffice形式で出力することができる。顧客や社内向けに簡単に「紙で」状況を報告できる仕掛けがあるのは嬉しい。弊社のプロジェクト管理ソフト&lt;a href="http://www.offtheball.jp/product/projectscape/tokucyou">Projectscape&lt;/a>のレポート機能、印刷機能と同じ思想。と、少し宣伝(^^;&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="17ea">失敗したテストケース、ブロックされたテストケースのみを出力したり、担当者がアサインされていないテストケースを抽出したりなど、実際の現場で役立ちそうな機能がある。&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="251e">「要件に基づくレポート」機能はスケジュール遅延や品質が悪い場合ケースで、事前に顧客へ制約事項を提示するのに便利そう。&lt;/span>&lt;/li>
+&lt;/ul>
+&lt;h4 id="こうだったら良いのにと感じたポイント">こうだったら良いのに…と感じたポイント&lt;/h4>
+&lt;ul>
+&lt;li>&lt;span
+id="0c82">ユーザインタフェースが直感的でなくテスト計画・テストスイート・テストケース・要件仕様ドキュメント・要件・ビルドなどのTestLink用語の意味と関係性を事前に理解しておかないと、どう操作して良いかわかりにくい。&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="e4fd">要件管理機能がシンプル（要件を階層的に管理できない、要件IDがツリーに表示されない、要件からテストケースを作成できないなど）OSRMTなど他の要件管理ツールとの連携ができないか。&lt;/span>&lt;/li>
+&lt;/ul>
+&lt;p>好ましいと感じたポイントが6つ、こうだったら良いのに…と感じたポイントが2つということで、個人的にはかなりのポテンシャルを感じるツールです。&lt;br>
+実際のプロジェクトで使い込んでみたいと思います。&lt;/p>
+&lt;p>最後にインストールして動かすまでにハマったポイントについてまとめておきます。&lt;/p>
+&lt;h4 id="テストケースと要件を関連付けを行うと以下のエラーが表示される">テストケースと要件を関連付けを行うと以下のエラーが表示される。&lt;/h4>
+&lt;p>[php]&lt;br>
 Fatal error: require_once() [function.require]: Failed opening
 required ‘tlAttachmentRepository.class.php’
 (include_path=’.:/usr/share/php:/usr/share/pear:.:/var/www/testlink/lib/functions/’)
-in /var/www/testlink/lib/functions/common.php on line 109&lt;br&gt;
-[/php]&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.teamst.org/phpBB2/viewtopic.php?p=5362&amp;amp;amp;sid=f950c01995a049b842c83575e121b407&#34;&gt;TestLink :: View topic — Error while assiging reuirements to test cases&lt;/a&gt;にある通り、/var/www/testlink/lib/functions/common.phpへ以下の行を追加。&lt;/p&gt;
-&lt;p&gt;[php]&lt;br&gt;
-require_once(&amp;quot;testproject.class.php&amp;quot;);&lt;br&gt;
-[/php]&lt;/p&gt;
-&lt;h4 id=&#34;グラフに日本語が表示されない&#34;&gt;グラフに日本語が表示されない。&lt;/h4&gt;
-&lt;p&gt;&lt;a href=&#34;http://testlinkjp.org/modules/pukiwiki/?TestLinkTips#ct71_1_1&#34;&gt;こちらを参考に&lt;/a&gt;日本語フォントをインストールして設定ファイルを変更。&lt;/p&gt;
-&lt;h4 id=&#34;関連参考リンク&#34;&gt;関連・参考リンク&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;span
-id=&#34;e55c&#34;&gt;&lt;a href=&#34;http://gihyo.jp/dev/serial/01/testlink/&#34;&gt;きちんと学びたいテストエンジニアのためのTestLink入門&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span
-id=&#34;f1ea&#34;&gt;&lt;a href=&#34;http://jibun.atmarkit.co.jp/lskill01/rensai/tool10/05/01.html&#34;&gt;脱Excel！ TestLinkでアジャイルにテストをする&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span
-id=&#34;2da6&#34;&gt;&lt;a href=&#34;http://dev.ariel-networks.com/Members/inoue/testlink-report&#34;&gt;TestLink使用レポート — ありえるえりあ&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span
-id=&#34;fd74&#34;&gt;&lt;a href=&#34;http://forza.cocolog-nifty.com/blog/2008/06/testlinkexcel_03ad.html&#34;&gt;TestLinkがExcelのテスト仕様書よりも素晴らしい点: プログラマの思索&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span
-id=&#34;ac66&#34;&gt;&lt;a href=&#34;http://forza.cocolog-nifty.com/blog/2009/02/testlink-1389.html&#34;&gt;TestLinkの可能性: プログラマの思索&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-        
-      </description>
-    </item>
-    
-  </channel>
-</rss>
+in /var/www/testlink/lib/functions/common.php on line 109&lt;br>
+[/php]&lt;/p>
+&lt;p>&lt;a href="http://www.teamst.org/phpBB2/viewtopic.php?p=5362&amp;amp;amp;sid=f950c01995a049b842c83575e121b407">TestLink :: View topic — Error while assiging reuirements to test cases&lt;/a>にある通り、/var/www/testlink/lib/functions/common.phpへ以下の行を追加。&lt;/p>
+&lt;p>[php]&lt;br>
+require_once(&amp;quot;testproject.class.php&amp;quot;);&lt;br>
+[/php]&lt;/p>
+&lt;h4 id="グラフに日本語が表示されない">グラフに日本語が表示されない。&lt;/h4>
+&lt;p>&lt;a href="http://testlinkjp.org/modules/pukiwiki/?TestLinkTips#ct71_1_1">こちらを参考に&lt;/a>日本語フォントをインストールして設定ファイルを変更。&lt;/p>
+&lt;h4 id="関連参考リンク">関連・参考リンク&lt;/h4>
+&lt;ul>
+&lt;li>&lt;span
+id="e55c">&lt;a href="http://gihyo.jp/dev/serial/01/testlink/">きちんと学びたいテストエンジニアのためのTestLink入門&lt;/a>&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="f1ea">&lt;a href="http://jibun.atmarkit.co.jp/lskill01/rensai/tool10/05/01.html">脱Excel！ TestLinkでアジャイルにテストをする&lt;/a>&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="2da6">&lt;a href="http://dev.ariel-networks.com/Members/inoue/testlink-report">TestLink使用レポート — ありえるえりあ&lt;/a>&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="fd74">&lt;a href="http://forza.cocolog-nifty.com/blog/2008/06/testlinkexcel_03ad.html">TestLinkがExcelのテスト仕様書よりも素晴らしい点: プログラマの思索&lt;/a>&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="ac66">&lt;a href="http://forza.cocolog-nifty.com/blog/2009/02/testlink-1389.html">TestLinkの可能性: プログラマの思索&lt;/a>&lt;/span>&lt;/li>
+&lt;/ul></description></item></channel></rss>

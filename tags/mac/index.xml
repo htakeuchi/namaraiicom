@@ -1,250 +1,176 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>mac on namaraii.com</title>
-    <link>https://namaraii.com/tags/mac/</link>
-    <description>Recent content in mac on namaraii.com</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright>
-    <lastBuildDate>Sun, 10 Jan 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://namaraii.com/tags/mac/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Macbookのトラックパッドは使いやすいけど、トラックボール(M570t)の操作感も捨てがたい</title>
-      <link>https://namaraii.com/post/2016/20160110_macbookm570t416952860720/</link>
-      <pubDate>Sun, 10 Jan 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://namaraii.com/post/2016/20160110_macbookm570t416952860720/</guid>
-      <description>
-        
-          &lt;p&gt;Macbookのトラックパッドは精度が高く、ジェスチャ操作も行えて便利ですが、トラックボールの操作感も捨てがたく、ずっと併用しています。&lt;/p&gt;
-&lt;p&gt;トラックボールの、&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;span
-id=&#34;5895&#34;&gt;本体を動かす必要がなく、カーソル操作時に腕や手首に負担がかからない&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span
-id=&#34;03a2&#34;&gt;机の上のスペースが狭くても問題ない（動かさないので置けさえできればよい）&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;という特徴はトラックパッドと同じなんですけど、物理的なボールやホイールを動かしてポインティングするのは心地よいです。&lt;/p&gt;
-&lt;p&gt;最初は操作が難しく感じましたが慣れてしまえば、狙った場所へズバッとマウスカーソルを移動できるようになり、手放せなくなりました。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/oL2ly5oqYn2zvf.jpg&#34; alt=&#34;/images/oL2ly5oqYn2zvf.jpg&#34;&gt;
-昨年末、愛用しているLogicoolのM570tの調子が悪くなったので、同じモデルを新調。&lt;/p&gt;
-&lt;p&gt;M570tはワイヤレスで取り回しがしやすく、電池の持ちも良く(単三形乾電池1本で最大18ヶ月）、手になじむフォルムなど人気が高いモデルです。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/LZUfWhpd0u9o9r.png&#34; alt=&#34;/images/LZUfWhpd0u9o9r.png&#34;&gt;
-&lt;a href=&#34;http://support.logicool.co.jp/ja_jp/product/wireless-trackball-m570&#34;&gt;Logicoolのサイト&lt;/a&gt;から「Logicoolコントロールセンター」を入手してインストールすれば、各ボタンへ機能を割り当てることもできます。&lt;/p&gt;
-&lt;p&gt;私はデフォルトの設定で使っていますが、ホイールでのスクロールと拡張ボタンの「戻る」「進む」でWebブラウズも快適です。&lt;/p&gt;
-&lt;p&gt;2016年は新調したトラックボールで頑張っていきます。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/fvyQcOF6kA3J6s.jpg&#34; alt=&#34;/images/fvyQcOF6kA3J6s.jpg&#34;&gt;
-&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/B00E19UYO8/namaraiicom-22/ref=nosim/&#34;&gt;LOGICOOL ワイヤレストラックボール M570t&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;posted with
-&lt;a href=&#34;http://kaereba.com&#34;&gt;カエレバ&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ロジクール 2013–08–02&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.amazon.co.jp/gp/search?keywords=m570t&amp;amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;amp;tag=namaraiicom-22&#34;&gt;Amazon&lt;/a&gt;&lt;/p&gt;
-
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>TextExpanderを真面目に使いだして最初に設定したスニペット</title>
-      <link>https://namaraii.com/post/2014/20140531_textexpander9a686b1dd20/</link>
-      <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://namaraii.com/post/2014/20140531_textexpander9a686b1dd20/</guid>
-      <description>
-        
-          &lt;p&gt;Mac用のTextExpanderを買ったので、これを期にiPhone、iPadとスニペットを共有して真面目に使っていこうと、以下のポイントを意識してスニペットを登録しました。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/baS7WGDDUxVTq6.jpg&#34; alt=&#34;/images/baS7WGDDUxVTq6.jpg&#34;&gt;
-photo by Hitoshi TAKEUCHI&lt;/p&gt;
-&lt;p&gt;Canon EOS 5D Mark II, 70.0 mm, f4.0, ISO 100, 1/250sec, 0EV, Aperture
-3.5.1&lt;br&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>mac on namaraii.com</title><link>https://namaraii.com/tags/mac/</link><description>Recent content in mac on namaraii.com</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright><lastBuildDate>Wed, 14 Apr 2021 16:55:00 +0900</lastBuildDate><atom:link href="https://namaraii.com/tags/mac/index.xml" rel="self" type="application/rss+xml"/><item><title>決算や確定申告で便利な無料のPDF関連ツール(Mac)</title><link>https://namaraii.com/post/2021/20210414/</link><pubDate>Wed, 14 Apr 2021 16:55:00 +0900</pubDate><guid>https://namaraii.com/post/2021/20210414/</guid><description>
+&lt;p>決算や確定申告に向けて、Amazonなどの各種ECサイトで購入したモノの領収書を揃える必要がありますが、これがなかなか大変なんですよね。&lt;/p>
+&lt;p>そして毎回、同じようなことを調べている気がするので、MacでAcrobatを使わずにPDFを取り扱うツール・方法を備忘録として書いておきます。&lt;/p>
+&lt;h2 id="amazonの領収書を一括してpdfへ変換">Amazonの領収書を一括してPDFへ変換&lt;/h2>
+&lt;p>Chormeの&lt;a href="https://chrome.google.com/webstore/detail/%E3%82%A2%E3%83%9E%E3%82%BE%E3%83%B3%E6%B3%A8%E6%96%87%E5%B1%A5%E6%AD%B4%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF/jaikhcpoplnhinlglnkmihfdlbamhgig?hl=ja&amp;amp;gl=JP">アマゾン注文履歴フィルタ&lt;/a>という機能拡張を使うと、Amazonの注文履歴画面へ領収書の絞り込みや出力のためのフィールドが追加されます。&lt;/p>
+&lt;p>&lt;img src="image1.jpeg" alt="">&lt;/p>
+&lt;p>条件を指定して領収書出力ボタンを押下すると、条件にマッチする領収書が１ページに連続して出力されます。&lt;/p>
+&lt;p>&lt;img src="image2.jpeg" alt="">&lt;/p>
+&lt;p>あとはChromeの印刷ダイアログで送信先を「PDFに保存」を指定すればOK。領収書単位でページングされます。素晴らしい。&lt;/p>
+&lt;p>とても便利な機能拡張ですが、Amazonの仕様変更のため、今後は利用できなくなる可能性があるとのこと。私のアカウントでは2021年4月現在まだ使えてます。&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://memo.furyutei.work/entry/20201226/1608940429">【お知らせ】アマゾン注文履歴フィルタが突然使えなくなるかもしれません！！ - 風柳メモ&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="pdf中の任意ページを削除">PDF中の任意ページを削除&lt;/h2>
+&lt;p>Macの場合、標準のプレビューアプリでサムネイルを表示し、削除したいページを選択してdeleteキーを押すだけですね。個人利用（事業用でない）領収書を削除するために多用します。&lt;/p>
+&lt;h2 id="pdfの結合">PDFの結合&lt;/h2>
+&lt;p>結合したいPDFが2〜3ファイルであれば、プレビューを使って結合するのがお手軽です。&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://support.apple.com/ja-jp/HT202945">Mac でプレビューを使って PDF を結合する - Apple サポート&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>が、数十ファイルとなると、この方法では厳しいくAutomatorでサービスを作っておくと便利です。&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://pgmemo.tokyo/data/archives/588.html">Acrobat不要。MacOSXで複数のPDFを結合してひとつにする｜プログラムメモ&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>作ったサービスを保存した後、ファインダーで結合したいPDFを選択して右クリックすると、PDF結合メニューが出てきます。選択するとAutomatorで設定したフォルダへ結合されたPDFが出力されます。&lt;/p>
+&lt;p>Automatorって便利だけど、いまいち使っている人が少ない印象があるなぁ。&lt;/p></description></item><item><title>Macbookのトラックパッドは使いやすいけど、トラックボール(M570t)の操作感も捨てがたい</title><link>https://namaraii.com/post/2016/20160110_macbookm570t416952860720/</link><pubDate>Sun, 10 Jan 2016 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2016/20160110_macbookm570t416952860720/</guid><description>
+&lt;p>Macbookのトラックパッドは精度が高く、ジェスチャ操作も行えて便利ですが、トラックボールの操作感も捨てがたく、ずっと併用しています。&lt;/p>
+&lt;p>トラックボールの、&lt;/p>
+&lt;ul>
+&lt;li>&lt;span
+id="5895">本体を動かす必要がなく、カーソル操作時に腕や手首に負担がかからない&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="03a2">机の上のスペースが狭くても問題ない（動かさないので置けさえできればよい）&lt;/span>&lt;/li>
+&lt;/ul>
+&lt;p>という特徴はトラックパッドと同じなんですけど、物理的なボールやホイールを動かしてポインティングするのは心地よいです。&lt;/p>
+&lt;p>最初は操作が難しく感じましたが慣れてしまえば、狙った場所へズバッとマウスカーソルを移動できるようになり、手放せなくなりました。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/oL2ly5oqYn2zvf.jpg" alt="/images/oL2ly5oqYn2zvf.jpg">
+昨年末、愛用しているLogicoolのM570tの調子が悪くなったので、同じモデルを新調。&lt;/p>
+&lt;p>M570tはワイヤレスで取り回しがしやすく、電池の持ちも良く(単三形乾電池1本で最大18ヶ月）、手になじむフォルムなど人気が高いモデルです。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/LZUfWhpd0u9o9r.png" alt="/images/LZUfWhpd0u9o9r.png">
+&lt;a href="http://support.logicool.co.jp/ja_jp/product/wireless-trackball-m570">Logicoolのサイト&lt;/a>から「Logicoolコントロールセンター」を入手してインストールすれば、各ボタンへ機能を割り当てることもできます。&lt;/p>
+&lt;p>私はデフォルトの設定で使っていますが、ホイールでのスクロールと拡張ボタンの「戻る」「進む」でWebブラウズも快適です。&lt;/p>
+&lt;p>2016年は新調したトラックボールで頑張っていきます。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/fvyQcOF6kA3J6s.jpg" alt="/images/fvyQcOF6kA3J6s.jpg">
+&lt;a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00E19UYO8/namaraiicom-22/ref=nosim/">LOGICOOL ワイヤレストラックボール M570t&lt;/a>&lt;/p>
+&lt;p>posted with
+&lt;a href="http://kaereba.com">カエレバ&lt;/a>&lt;/p>
+&lt;p>ロジクール 2013–08–02&lt;/p>
+&lt;p>&lt;a href="http://www.amazon.co.jp/gp/search?keywords=m570t&amp;amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;amp;tag=namaraiicom-22">Amazon&lt;/a>&lt;/p></description></item><item><title>TextExpanderを真面目に使いだして最初に設定したスニペット</title><link>https://namaraii.com/post/2014/20140531_textexpander9a686b1dd20/</link><pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2014/20140531_textexpander9a686b1dd20/</guid><description>
+&lt;p>Mac用のTextExpanderを買ったので、これを期にiPhone、iPadとスニペットを共有して真面目に使っていこうと、以下のポイントを意識してスニペットを登録しました。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/baS7WGDDUxVTq6.jpg" alt="/images/baS7WGDDUxVTq6.jpg">
+photo by Hitoshi TAKEUCHI&lt;/p>
+&lt;p>Canon EOS 5D Mark II, 70.0 mm, f4.0, ISO 100, 1/250sec, 0EV, Aperture
+3.5.1&lt;br>
 generated by
-&lt;a href=&#34;https://itunes.apple.com/jp/app/flickurl/id817330241?mt=8&#34;&gt;FlickURL&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;span id=&#34;8ac2&#34;&gt;iOSデバイスでHTMLタグを簡単に入力したい&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span
-id=&#34;deb2&#34;&gt;よく使うフレーズを少ないキータイプで入力したい&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span
-id=&#34;82a8&#34;&gt;Google日本語入力の日付変換みたいなものをiOSデバイスでも使いたい&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;html入力支援スニペット&#34;&gt;HTML入力支援スニペット&lt;/h4&gt;
-&lt;p&gt;iOSデバイスでのHTMLタグ入力は、なかなかのストレスです。&lt;/p&gt;
-&lt;p&gt;なので、よく使うp,pre,blockquote,h2,h3,h4,strong,hr,brあたりを、こんな感じで登録しました。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;&amp;lt;pre&amp;gt;%|&amp;lt;/pre&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;%|はスニペット展開後のカーソル位置です。これ便利ですね。&lt;/p&gt;
-&lt;p&gt;tableは全体を展開するこのスニペットと、&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;&amp;lt;table&amp;gt;
+&lt;a href="https://itunes.apple.com/jp/app/flickurl/id817330241?mt=8">FlickURL&lt;/a>&lt;/p>
+&lt;ul>
+&lt;li>&lt;span id="8ac2">iOSデバイスでHTMLタグを簡単に入力したい&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="deb2">よく使うフレーズを少ないキータイプで入力したい&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="82a8">Google日本語入力の日付変換みたいなものをiOSデバイスでも使いたい&lt;/span>&lt;/li>
+&lt;/ul>
+&lt;h4 id="html入力支援スニペット">HTML入力支援スニペット&lt;/h4>
+&lt;p>iOSデバイスでのHTMLタグ入力は、なかなかのストレスです。&lt;/p>
+&lt;p>なので、よく使うp,pre,blockquote,h2,h3,h4,strong,hr,brあたりを、こんな感じで登録しました。&lt;/p>
+&lt;pre>&lt;code>&amp;lt;pre&amp;gt;%|&amp;lt;/pre&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;p>%|はスニペット展開後のカーソル位置です。これ便利ですね。&lt;/p>
+&lt;p>tableは全体を展開するこのスニペットと、&lt;/p>
+&lt;pre>&lt;code>&amp;lt;table&amp;gt;
 &amp;lt;thead&amp;gt;
 &amp;lt;tr&amp;gt;
 &amp;lt;th&amp;gt;%|&amp;lt;/th&amp;gt;
 &amp;lt;/tr&amp;gt;
 &amp;lt;/thead&amp;gt;
-
 &amp;lt;tbody&amp;gt;
 &amp;lt;tr&amp;gt;
 &amp;lt;/tr&amp;gt;
 &amp;lt;/tbody&amp;gt;
 &amp;lt;/table&amp;gt;
-
 th,tdをそれぞれ単独で展開するスニペットを定義しました。
-
 &amp;lt;th&amp;gt;%|&amp;lt;/th&amp;gt;
-
 &amp;lt;td&amp;gt;%|&amp;lt;/td&amp;gt;
-
 iOSのキーボードだと「&amp;lt;&amp;gt;/」などの入力が煩雑なので、これで捗りそうです。
-
 よく使うフレーズ
-
 この他、良く使ういくつかの定形文を登録しました。
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;span id=&#34;37c1&#34;&gt;あいさつ(メール)&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&#34;bb90&#34;&gt;結びのことば(メール)&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&#34;4da4&#34;&gt;署名(メール)&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&#34;6812&#34;&gt;メールアドレス&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&#34;b918&#34;&gt;各種サービスのアカウント名&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&#34;34f2&#34;&gt;住所&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&#34;d87a&#34;&gt;電話番号&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&#34;6efc&#34;&gt;名前&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&#34;d3d5&#34;&gt;会社名&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;!-- --&gt;
-&lt;pre&gt;&lt;code&gt;などなど。
-
+&lt;/code>&lt;/pre>
+&lt;ul>
+&lt;li>&lt;span id="37c1">あいさつ(メール)&lt;/span>&lt;/li>
+&lt;li>&lt;span id="bb90">結びのことば(メール)&lt;/span>&lt;/li>
+&lt;li>&lt;span id="4da4">署名(メール)&lt;/span>&lt;/li>
+&lt;li>&lt;span id="6812">メールアドレス&lt;/span>&lt;/li>
+&lt;li>&lt;span id="b918">各種サービスのアカウント名&lt;/span>&lt;/li>
+&lt;li>&lt;span id="34f2">住所&lt;/span>&lt;/li>
+&lt;li>&lt;span id="d87a">電話番号&lt;/span>&lt;/li>
+&lt;li>&lt;span id="6efc">名前&lt;/span>&lt;/li>
+&lt;li>&lt;span id="d3d5">会社名&lt;/span>&lt;/li>
+&lt;/ul>
+&lt;!-- -->
+&lt;pre>&lt;code>などなど。
 この辺は、ことえりなど日本語入力システムの単語登録でも事足りるのですが、MacではGoogle日本語入力を使っているため、TextExpanderを使えばMacとiOSデバイス間で共有できるのが嬉しい。
-
 日付・時刻に関するスニペット
-
 Google日本語入力の「きょう」や「あした」で日付に変換できる機能がとても便利なので、iOSデバイスでも似たようなことをするためのスニペットを登録しました。
-
-
-
-
-
-
-
-
-
 説明スニペット出力例今日の日付%Y年%1m月%e日(%a)2014年5月31日(土)昨日の日付%@-1D%Y年%1m月%e日(%a)2014年5月30日(金)明日の日付%@+1D%Y年%1m月%e日(%a)2014年6月1日(日)現在時刻%H:%M:%S06:11:36
-
 Google日本語入力では「きんよう」で次の金曜の日付を出せるのですが、TextExpanderのマクロではちょっとむずかしいかな？
-
 おわりに
-
 こういうアプリを使い始める時って、頑張りすぎて実際には使われないものも登録しがちです。
-
 なので、今回は現時点で確実に使うであろう必要最小限のスニペットに限定。使いながら不足しているものを追加して、すこしずつ充実させていこうと思います。
-
 ところで、スニペットが展開されるのってなぜか気持ち良い。これはどういう心理なのかな？
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/hvHAUkmSRPrRkl.png&#34; alt=&#34;/images/hvHAUkmSRPrRkl.png&#34;&gt;
-TextExpander for Mac&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/fVodmRApOhzsVU.gif&#34; alt=&#34;/images/fVodmRApOhzsVU.gif&#34;&gt;
-カテゴリ: 仕事効率化&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;価格: ￥3,500
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/Dm1EPDUnbJivEZ.png&#34; alt=&#34;/images/Dm1EPDUnbJivEZ.png&#34;&gt;
-TextExpander&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/t8m8JhKGGxa0Wl.gif&#34; alt=&#34;/images/t8m8JhKGGxa0Wl.gif&#34;&gt;
-カテゴリ: 仕事効率化&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;価格: ￥500
-&lt;/code&gt;&lt;/pre&gt;
-
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Macで大量のメールを1通ごとに個別のPDFファイルにする方法</title>
-      <link>https://namaraii.com/post/2014/20140209_mac1pdf60a99b2ae09f/</link>
-      <pubDate>Sun, 09 Feb 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://namaraii.com/post/2014/20140209_mac1pdf60a99b2ae09f/</guid>
-      <description>
-        
-          &lt;p&gt;ネットでモノやサービスを購入した場合、領収書が紙ではなくメールで発行されるケースがあります。&lt;/p&gt;
-&lt;p&gt;経理処理のためメールごとに個別のPDFにしたかったのですが、複数のメールを選択して印刷ダイアログからPDF出力すると、まとめられて一つのPDFファイルになってしまいます。&lt;/p&gt;
-&lt;p&gt;が、Mac標準のMail.appを使えば簡単でした。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/a8iiFup5zBR1ZA.png&#34; alt=&#34;/images/a8iiFup5zBR1ZA.png&#34;&gt;
-手順は以下のとおり。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;span id=&#34;9aee&#34;&gt;PDF化したいメールを選択する。&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span
-id=&#34;dd35&#34;&gt;[ファイル]メニューから[PDFとして書き出す]を実行する。&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span
-id=&#34;b565&#34;&gt;保存先を聞かれるので好きなフォルダを指定する。&lt;/span&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;これで指定したフォルダに、選択したメールがメール単位でPDFファイル化されます。&lt;/p&gt;
-
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>MavericksなMacBook Proがスリープ中に勝手に再起動して勝手に失敗する件</title>
-      <link>https://namaraii.com/post/2013/20131113_mavericksmacbookpro69c2557a955/</link>
-      <pubDate>Wed, 13 Nov 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://namaraii.com/post/2013/20131113_mavericksmacbookpro69c2557a955/</guid>
-      <description>
-        
-          &lt;p&gt;MavericksなMacBook Proがスリープ中に勝手に再起動して、勝手に失敗する事象が発生しています。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/jCpXrqhn5L_OiH.jpg&#34; alt=&#34;/images/jCpXrqhn5L_OiH.jpg&#34;&gt;
-ググったところ、&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;span
-id=&#34;e17f&#34;&gt;&lt;a href=&#34;https://discussions.apple.com/message/23605592#23605592&#34;&gt;Random Restarts — “Sleep Wake Failure”…: Apple Support Communities&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span
-id=&#34;a9cf&#34;&gt;&lt;a href=&#34;https://discussions.apple.com/thread/5500276?start=0&amp;amp;tstart=0&#34;&gt;New rMBP sleep/wake failure crashes: Apple Support Communities&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;など同じ問題に悩んでいる人は多い模様。&lt;/p&gt;
-&lt;p&gt;読んでみると、&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;span id=&#34;c7d8&#34;&gt;外付けハードディスクを外す(マウントしない)&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&#34;f55e&#34;&gt;Power Napを切る&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;という対策？で再現しなくなったというのがあり、とりあえず、その両方をやって放置したところ確かに再現しなくなった。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/xyrw1MpqbjNRyb.jpg&#34; alt=&#34;/images/xyrw1MpqbjNRyb.jpg&#34;&gt;
+&lt;/code>&lt;/pre>
+&lt;p>&lt;img src="https://namaraii.com/images/hvHAUkmSRPrRkl.png" alt="/images/hvHAUkmSRPrRkl.png">
+TextExpander for Mac&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/fVodmRApOhzsVU.gif" alt="/images/fVodmRApOhzsVU.gif">
+カテゴリ: 仕事効率化&lt;/p>
+&lt;pre>&lt;code>価格: ￥3,500
+&lt;/code>&lt;/pre>
+&lt;p>&lt;img src="https://namaraii.com/images/Dm1EPDUnbJivEZ.png" alt="/images/Dm1EPDUnbJivEZ.png">
+TextExpander&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/t8m8JhKGGxa0Wl.gif" alt="/images/t8m8JhKGGxa0Wl.gif">
+カテゴリ: 仕事効率化&lt;/p>
+&lt;pre>&lt;code>価格: ￥500
+&lt;/code>&lt;/pre></description></item><item><title>Macで大量のメールを1通ごとに個別のPDFファイルにする方法</title><link>https://namaraii.com/post/2014/20140209_mac1pdf60a99b2ae09f/</link><pubDate>Sun, 09 Feb 2014 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2014/20140209_mac1pdf60a99b2ae09f/</guid><description>
+&lt;p>ネットでモノやサービスを購入した場合、領収書が紙ではなくメールで発行されるケースがあります。&lt;/p>
+&lt;p>経理処理のためメールごとに個別のPDFにしたかったのですが、複数のメールを選択して印刷ダイアログからPDF出力すると、まとめられて一つのPDFファイルになってしまいます。&lt;/p>
+&lt;p>が、Mac標準のMail.appを使えば簡単でした。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/a8iiFup5zBR1ZA.png" alt="/images/a8iiFup5zBR1ZA.png">
+手順は以下のとおり。&lt;/p>
+&lt;ol>
+&lt;li>&lt;span id="9aee">PDF化したいメールを選択する。&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="dd35">[ファイル]メニューから[PDFとして書き出す]を実行する。&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="b565">保存先を聞かれるので好きなフォルダを指定する。&lt;/span>&lt;/li>
+&lt;/ol>
+&lt;p>これで指定したフォルダに、選択したメールがメール単位でPDFファイル化されます。&lt;/p></description></item><item><title>MavericksなMacBook Proがスリープ中に勝手に再起動して勝手に失敗する件</title><link>https://namaraii.com/post/2013/20131113_mavericksmacbookpro69c2557a955/</link><pubDate>Wed, 13 Nov 2013 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2013/20131113_mavericksmacbookpro69c2557a955/</guid><description>
+&lt;p>MavericksなMacBook Proがスリープ中に勝手に再起動して、勝手に失敗する事象が発生しています。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/jCpXrqhn5L_OiH.jpg" alt="/images/jCpXrqhn5L_OiH.jpg">
+ググったところ、&lt;/p>
+&lt;ul>
+&lt;li>&lt;span
+id="e17f">&lt;a href="https://discussions.apple.com/message/23605592#23605592">Random Restarts — “Sleep Wake Failure”…: Apple Support Communities&lt;/a>&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="a9cf">&lt;a href="https://discussions.apple.com/thread/5500276?start=0&amp;amp;tstart=0">New rMBP sleep/wake failure crashes: Apple Support Communities&lt;/a>&lt;/span>&lt;/li>
+&lt;/ul>
+&lt;p>など同じ問題に悩んでいる人は多い模様。&lt;/p>
+&lt;p>読んでみると、&lt;/p>
+&lt;ul>
+&lt;li>&lt;span id="c7d8">外付けハードディスクを外す(マウントしない)&lt;/span>&lt;/li>
+&lt;li>&lt;span id="f55e">Power Napを切る&lt;/span>&lt;/li>
+&lt;/ul>
+&lt;p>という対策？で再現しなくなったというのがあり、とりあえず、その両方をやって放置したところ確かに再現しなくなった。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/xyrw1MpqbjNRyb.jpg" alt="/images/xyrw1MpqbjNRyb.jpg">
 が、Power
 Napはともかく外付けハードディスクをマウントしないと仕事にならないから困る。今日はPower
-Napはそのままにして、外付けハードディスクをマウントしないで放置してみます。&lt;/p&gt;
-&lt;p&gt;先日、&lt;a href=&#34;http://internet.watch.impress.co.jp/docs/news/20131105_622110.html&#34;&gt;OS X Mavericksで外付けHDDデータ消失の恐れ -INTERNET Watch&lt;/a&gt;という、Macユーザを震撼させる記事があったけど、それとも関係しているのかなぁ…&lt;/p&gt;
-
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Genymotionを使ってMacでKindle本を読む</title>
-      <link>https://namaraii.com/post/2013/20130919_genymotionmackindleea657bdb108b/</link>
-      <pubDate>Thu, 19 Sep 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://namaraii.com/post/2013/20130919_genymotionmackindleea657bdb108b/</guid>
-      <description>
-        
-          &lt;p&gt;&lt;a href=&#34;http://bulldra.hatenablog.com/entry/2013/09/06/222704&#34;&gt;Kindle書籍をMacで読んだり、コピペ引用すると書評ブログが捗る～意味吸引器としての電子書籍ふたたび — 情報学の情緒的な私試論β&lt;/a&gt;で紹介されている「MacでKindle本を読む方法」を試してみました。&lt;/p&gt;
-&lt;p&gt;その方法は、&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;span
-id=&#34;c63f&#34;&gt;MacへAndroidエミュレータのGenymotionをインストールする。&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&#34;6f06&#34;&gt;PlayストアからKindleアプリをインストール。&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span
-id=&#34;8f1e&#34;&gt;KindleアプリからAmazonのアカウントでログイン。&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;というもの。GenymotionではPlayストアが使えるんですね。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/9kcAv5fFRQjyB8.jpg&#34; alt=&#34;/images/9kcAv5fFRQjyB8.jpg&#34;&gt;
-インストール時の権限の確認画面。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/W9Vo0tKNhVWYrx.jpg&#34; alt=&#34;/images/W9Vo0tKNhVWYrx.jpg&#34;&gt;
-パーソナルドキュメントに置いてあるPDFも表示されてます。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/aASG5bE2maTHu9.jpg&#34; alt=&#34;/images/aASG5bE2maTHu9.jpg&#34;&gt;
-普通に読めちゃう。&lt;/p&gt;
-&lt;p&gt;PCで作業しているときにKindle本を見たいことがよくあるんですが、Kindle端末やタブレットをPCと別に扱うのが面倒なんですよね。なので、これは効率上がりそう。左右のカーソルキーでページをめくるのも簡単です。&lt;/p&gt;
-&lt;p&gt;Genymotionは軽くてサクサク動くから十分実用的な感じだなぁ。Androidアプリのデモにも良いんじゃないでしょうか。&lt;/p&gt;
-&lt;p&gt;というかですね、&lt;strong&gt;Kindle本をMacのKindleアプリで読めるようになるのはいつなんでしょうか…&lt;/strong&gt;&lt;/p&gt;
-
-        
-      </description>
-    </item>
-    
-  </channel>
-</rss>
+Napはそのままにして、外付けハードディスクをマウントしないで放置してみます。&lt;/p>
+&lt;p>先日、&lt;a href="http://internet.watch.impress.co.jp/docs/news/20131105_622110.html">OS X Mavericksで外付けHDDデータ消失の恐れ -INTERNET Watch&lt;/a>という、Macユーザを震撼させる記事があったけど、それとも関係しているのかなぁ…&lt;/p></description></item><item><title>Genymotionを使ってMacでKindle本を読む</title><link>https://namaraii.com/post/2013/20130919_genymotionmackindleea657bdb108b/</link><pubDate>Thu, 19 Sep 2013 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2013/20130919_genymotionmackindleea657bdb108b/</guid><description>
+&lt;p>&lt;a href="http://bulldra.hatenablog.com/entry/2013/09/06/222704">Kindle書籍をMacで読んだり、コピペ引用すると書評ブログが捗る～意味吸引器としての電子書籍ふたたび — 情報学の情緒的な私試論β&lt;/a>で紹介されている「MacでKindle本を読む方法」を試してみました。&lt;/p>
+&lt;p>その方法は、&lt;/p>
+&lt;ul>
+&lt;li>&lt;span
+id="c63f">MacへAndroidエミュレータのGenymotionをインストールする。&lt;/span>&lt;/li>
+&lt;li>&lt;span id="6f06">PlayストアからKindleアプリをインストール。&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="8f1e">KindleアプリからAmazonのアカウントでログイン。&lt;/span>&lt;/li>
+&lt;/ul>
+&lt;p>というもの。GenymotionではPlayストアが使えるんですね。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/9kcAv5fFRQjyB8.jpg" alt="/images/9kcAv5fFRQjyB8.jpg">
+インストール時の権限の確認画面。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/W9Vo0tKNhVWYrx.jpg" alt="/images/W9Vo0tKNhVWYrx.jpg">
+パーソナルドキュメントに置いてあるPDFも表示されてます。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/aASG5bE2maTHu9.jpg" alt="/images/aASG5bE2maTHu9.jpg">
+普通に読めちゃう。&lt;/p>
+&lt;p>PCで作業しているときにKindle本を見たいことがよくあるんですが、Kindle端末やタブレットをPCと別に扱うのが面倒なんですよね。なので、これは効率上がりそう。左右のカーソルキーでページをめくるのも簡単です。&lt;/p>
+&lt;p>Genymotionは軽くてサクサク動くから十分実用的な感じだなぁ。Androidアプリのデモにも良いんじゃないでしょうか。&lt;/p>
+&lt;p>というかですね、&lt;strong>Kindle本をMacのKindleアプリで読めるようになるのはいつなんでしょうか…&lt;/strong>&lt;/p></description></item></channel></rss>

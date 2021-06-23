@@ -1,223 +1,148 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>pomera on namaraii.com</title>
-    <link>https://namaraii.com/tags/pomera/</link>
-    <description>Recent content in pomera on namaraii.com</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright>
-    <lastBuildDate>Sun, 01 Aug 2010 00:00:00 +0000</lastBuildDate><atom:link href="https://namaraii.com/tags/pomera/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>pomera2evernoteが「できるポケット&#43; Evernote 活用編」で紹介されました</title>
-      <link>https://namaraii.com/post/2010/20100801_pomera2evernoteevernote75b1701762d0/</link>
-      <pubDate>Sun, 01 Aug 2010 00:00:00 +0000</pubDate>
-      
-      <guid>https://namaraii.com/post/2010/20100801_pomera2evernoteevernote75b1701762d0/</guid>
-      <description>
-        
-          &lt;p&gt;発売から一ヶ月以上経ってから書くのも何ですが、&lt;a href=&#34;http://htakeuchi.offtheball.jp/archives/3331&#34;&gt;ポメラで作成したファイルをEvernoteへ転送するソフトpomera2evernote&lt;/a&gt;を「できるポケット+
-Evernote 活用編」で紹介していただきました。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://htakeuchi.offtheball.jp/archives/3390&#34;&gt;こちらのエントリに書いたexeUSBとの連携方法&lt;/a&gt;まで、4ページにも渡って解説していただいており、ありがたい限りです。&lt;/p&gt;
-&lt;p&gt;Evernoteは多機能なため、ともすれば「どうやって使ったらいいかよくわからない」という声を聞くこともありますが、この本では具体的な活用例をレシピという形で80個も紹介しています。&lt;/p&gt;
-&lt;p&gt;一例を紹介すると…&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;span id=&#34;6ccd&#34;&gt;後で読みやすい議事録を取る&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&#34;00ea&#34;&gt;会議のホワイトボードをそのまま記録する&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&#34;7e7b&#34;&gt;Webやプレゼンテーションに使える素材集を作る&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&#34;fb19&#34;&gt;新聞や雑誌を傷めずに「切り抜き」する&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&#34;23f7&#34;&gt;出張や旅行の持ち物リストを作る&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&#34;4338&#34;&gt;写真のお手本を持ち歩き、参考にして撮影する&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&#34;f586&#34;&gt;服のデータベースで「タンスの肥やし」化を防ぐ&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&#34;7c7f&#34;&gt;「学習手帳」ノートを作って語学学習に利用する&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span
-id=&#34;7c1e&#34;&gt;写真入りで、振り返りやすい子供の成長記録を取る&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;などなど、仕事や日々の生活に役立つノウハウが満載です。きっと、眺めているだけで自分なりの活用方法を考えるヒントになると思います。&lt;/p&gt;
-&lt;p&gt;自分の人生を記憶する外部脳としてEvernoteを活用したい方は、ぜひご一読を。&lt;/p&gt;
-
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>pomera2evernote Version 0.2をリリースしました</title>
-      <link>https://namaraii.com/post/2010/20100423_pomera2evernoteversion0216fc231d1522/</link>
-      <pubDate>Fri, 23 Apr 2010 00:00:00 +0000</pubDate>
-      
-      <guid>https://namaraii.com/post/2010/20100423_pomera2evernoteversion0216fc231d1522/</guid>
-      <description>
-        
-          &lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/iMaO04bh2ml0sI.jpg&#34; alt=&#34;/images/iMaO04bh2ml0sI.jpg&#34;&gt;
-&lt;a href=&#34;http://www.photodropper.com/photos/&#34;&gt;photo&lt;/a&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>pomera on namaraii.com</title><link>https://namaraii.com/tags/pomera/</link><description>Recent content in pomera on namaraii.com</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright><lastBuildDate>Sun, 01 Aug 2010 00:00:00 +0000</lastBuildDate><atom:link href="https://namaraii.com/tags/pomera/index.xml" rel="self" type="application/rss+xml"/><item><title>pomera2evernoteが「できるポケット+ Evernote 活用編」で紹介されました</title><link>https://namaraii.com/post/2010/20100801_pomera2evernoteevernote75b1701762d0/</link><pubDate>Sun, 01 Aug 2010 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2010/20100801_pomera2evernoteevernote75b1701762d0/</guid><description>
+&lt;p>発売から一ヶ月以上経ってから書くのも何ですが、&lt;a href="http://htakeuchi.offtheball.jp/archives/3331">ポメラで作成したファイルをEvernoteへ転送するソフトpomera2evernote&lt;/a>を「できるポケット+
+Evernote 活用編」で紹介していただきました。&lt;/p>
+&lt;p>&lt;a href="http://htakeuchi.offtheball.jp/archives/3390">こちらのエントリに書いたexeUSBとの連携方法&lt;/a>まで、4ページにも渡って解説していただいており、ありがたい限りです。&lt;/p>
+&lt;p>Evernoteは多機能なため、ともすれば「どうやって使ったらいいかよくわからない」という声を聞くこともありますが、この本では具体的な活用例をレシピという形で80個も紹介しています。&lt;/p>
+&lt;p>一例を紹介すると…&lt;/p>
+&lt;ul>
+&lt;li>&lt;span id="6ccd">後で読みやすい議事録を取る&lt;/span>&lt;/li>
+&lt;li>&lt;span id="00ea">会議のホワイトボードをそのまま記録する&lt;/span>&lt;/li>
+&lt;li>&lt;span id="7e7b">Webやプレゼンテーションに使える素材集を作る&lt;/span>&lt;/li>
+&lt;li>&lt;span id="fb19">新聞や雑誌を傷めずに「切り抜き」する&lt;/span>&lt;/li>
+&lt;li>&lt;span id="23f7">出張や旅行の持ち物リストを作る&lt;/span>&lt;/li>
+&lt;li>&lt;span id="4338">写真のお手本を持ち歩き、参考にして撮影する&lt;/span>&lt;/li>
+&lt;li>&lt;span id="f586">服のデータベースで「タンスの肥やし」化を防ぐ&lt;/span>&lt;/li>
+&lt;li>&lt;span id="7c7f">「学習手帳」ノートを作って語学学習に利用する&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="7c1e">写真入りで、振り返りやすい子供の成長記録を取る&lt;/span>&lt;/li>
+&lt;/ul>
+&lt;p>などなど、仕事や日々の生活に役立つノウハウが満載です。きっと、眺めているだけで自分なりの活用方法を考えるヒントになると思います。&lt;/p>
+&lt;p>自分の人生を記憶する外部脳としてEvernoteを活用したい方は、ぜひご一読を。&lt;/p></description></item><item><title>pomera2evernote Version 0.2をリリースしました</title><link>https://namaraii.com/post/2010/20100423_pomera2evernoteversion0216fc231d1522/</link><pubDate>Fri, 23 Apr 2010 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2010/20100423_pomera2evernoteversion0216fc231d1522/</guid><description>
+&lt;p>&lt;img src="https://namaraii.com/images/iMaO04bh2ml0sI.jpg" alt="/images/iMaO04bh2ml0sI.jpg">
+&lt;a href="http://www.photodropper.com/photos/">photo&lt;/a>
 credit:
-&lt;a href=&#34;http://www.flickr.com/photos/27983255@N00/3939082915/&#34;&gt;yto&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ノートブック名に記号（[や]など）が使われている場合、Evernoteへのアップロードに失敗する問題を修正しました。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://htakeuchi.offtheball.jp/archives/3331&#34;&gt;こちらから&lt;/a&gt;Version
-0.2をダウンロードしてご利用ください。&lt;/p&gt;
-&lt;p&gt;アーカイブを展開し、pomera2evernote.exeをインストール済みのものに上書きするだけでOKです。&lt;/p&gt;
-&lt;p&gt;なお、ノートブック名に記号を使いたい場合、config.ymlのnotebookの指定で以下のように”でくくってください。&lt;/p&gt;
-&lt;p&gt;[code]&lt;br&gt;
-notebook: &amp;amp;amp;quot;[aNote]Pomera&amp;amp;amp;quot;&lt;br&gt;
-[/code]&lt;/p&gt;
-
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>pomera2evernoteが窓の杜で紹介されました</title>
-      <link>https://namaraii.com/post/2010/20100415_pomera2evernotec1bcbb7bbc63/</link>
-      <pubDate>Thu, 15 Apr 2010 00:00:00 +0000</pubDate>
-      
-      <guid>https://namaraii.com/post/2010/20100415_pomera2evernotec1bcbb7bbc63/</guid>
-      <description>
-        
-          &lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/p2pIQkuJYufzZC.jpg&#34; alt=&#34;/images/p2pIQkuJYufzZC.jpg&#34;&gt;
-&lt;a href=&#34;http://www.forest.impress.co.jp/docs/review/20100414_360941.html&#34;&gt;窓の杜 — 【REVIEW】“ポメラ”内のテキストファイルを“Evernote”へ転送できる「pomera2evernote」&lt;/a&gt;
+&lt;a href="http://www.flickr.com/photos/27983255@N00/3939082915/">yto&lt;/a>&lt;/p>
+&lt;p>ノートブック名に記号（[や]など）が使われている場合、Evernoteへのアップロードに失敗する問題を修正しました。&lt;/p>
+&lt;p>&lt;a href="http://htakeuchi.offtheball.jp/archives/3331">こちらから&lt;/a>Version
+0.2をダウンロードしてご利用ください。&lt;/p>
+&lt;p>アーカイブを展開し、pomera2evernote.exeをインストール済みのものに上書きするだけでOKです。&lt;/p>
+&lt;p>なお、ノートブック名に記号を使いたい場合、config.ymlのnotebookの指定で以下のように”でくくってください。&lt;/p>
+&lt;p>[code]&lt;br>
+notebook: &amp;amp;amp;quot;[aNote]Pomera&amp;amp;amp;quot;&lt;br>
+[/code]&lt;/p></description></item><item><title>pomera2evernoteが窓の杜で紹介されました</title><link>https://namaraii.com/post/2010/20100415_pomera2evernotec1bcbb7bbc63/</link><pubDate>Thu, 15 Apr 2010 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2010/20100415_pomera2evernotec1bcbb7bbc63/</guid><description>
+&lt;p>&lt;img src="https://namaraii.com/images/p2pIQkuJYufzZC.jpg" alt="/images/p2pIQkuJYufzZC.jpg">
+&lt;a href="http://www.forest.impress.co.jp/docs/review/20100414_360941.html">窓の杜 — 【REVIEW】“ポメラ”内のテキストファイルを“Evernote”へ転送できる「pomera2evernote」&lt;/a>
 via
-&lt;a href=&#34;http://kwout.com/quote/wt846t94&#34;&gt;kwout&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;pomeraのテキストをEvernoteへ転送する&lt;a href=&#34;http://htakeuchi.offtheball.jp/archives/3331&#34;&gt;pomera2evernote&lt;/a&gt;を窓の杜でご紹介いただきました。ありがとうございます。&lt;/p&gt;
-&lt;p&gt;実態はわずか80行行程度のRubyスクリプトなのでちょっと心苦しい感じですが(^^;よろしければご利用ください。&lt;/p&gt;
-&lt;p&gt;なお、窓の杜のレビューでは、&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;2回目以降は追加・更新されたテキストのみを転送できるので、テキストファイルのバージョン管理に悩むこともない。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;とありますが、PomeraでEvernoteへアップロード済みのテキストファイルAを更新してA’にした場合、A’は&lt;strong&gt;新規に&lt;/strong&gt;Evernoteへ転送されます。&lt;/p&gt;
-&lt;p&gt;つまり、Evernote上にはAとA’が存在することになりますのでご注意ください。（プログラム内部で使っているEvernoteに同梱されているEnscript.exeの仕様上、上書きが難しい）&lt;/p&gt;
-&lt;p&gt;EvernoteのAPIを使えばPomeraと同期するアプリも書けると思います。ぜひ、どなかた書いてください(^^)&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://htakeuchi.offtheball.jp/archives/3390&#34;&gt;exeUSBを使ったPomeraからEvernote自動アップロード設定例はこちら&lt;/a&gt;です。&lt;/p&gt;
-
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>exeUSBを使ったPomera→Evernote自動アップロード設定例</title>
-      <link>https://namaraii.com/post/2010/20100314_exeusbpomeraevernote990627102c2a/</link>
-      <pubDate>Sun, 14 Mar 2010 00:00:00 +0000</pubDate>
-      
-      <guid>https://namaraii.com/post/2010/20100314_exeusbpomeraevernote990627102c2a/</guid>
-      <description>
-        
-          &lt;p&gt;&lt;a href=&#34;http://htakeuchi.offtheball.jp/archives/3331&#34;&gt;昨日のエントリ&lt;/a&gt;でちらりと触れましたが、&lt;a href=&#34;http://www.nanshiki.co.jp/software/index.html?exeusb&#34;&gt;exeUSB&lt;/a&gt;を使うとPomeraからEvernoteへのアップロードがかなり楽になるのですが、twitterでうまく設定できないというつぶやきを見かけたこともあり、ご参考までに設定例を紹介しておきます。&lt;/p&gt;
-&lt;p&gt;PomeraをUSB接続した状態でexeUSBを起動します。&lt;/p&gt;
-&lt;p&gt;左にデバイスの一覧が表示されます。私の環境ではDM20にSDカードを刺しているため、3つのドライブ(H:
-E: I:)が表示されてますね。&lt;/p&gt;
-&lt;p&gt;それぞれのドライブへわかりやすいように名前をつけておきましょう。デバイスを選択しマウス右クリックから[設定]を選びます。&lt;/p&gt;
-&lt;p&gt;設定画面でわかりやすい名前をつけておきます。例では「Pomera内蔵メモリ」を指定しています。&lt;/p&gt;
-&lt;p&gt;次に、Pomera内蔵メモリに対する動作を定義します。&lt;br&gt;
-[動作]-[ファイル実行]を選ぶと下の画面が開きます。&lt;/p&gt;
-&lt;p&gt;設定項目は以下の通り。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;span id=&#34;0fcf&#34;&gt;[実行するファイル名]:
-pomera2evernote.exeのパスを指定&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&#34;38a8&#34;&gt;[作業フォルダ]:
-pomera2evernote.exeをインストールしたフォルダを指定&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&#34;4c89&#34;&gt;[実行したプログラムの終了を待って次の動作に移る:
-チェック&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;次に、[動作]-[デバイス停止]を選択し、以下の画面を表示させます。&lt;/p&gt;
-&lt;p&gt;[実行ファイルが全て終了したら停止]をチェックします。&lt;/p&gt;
-&lt;p&gt;[停止前に問い合わせをする]をチェックすると処理が終了した後で以下のような画面が表示され、USB接続を解除するかどうかを選択できます。チェックしなければ処理終了後、自動的に接続が解除されますので、ここはお好みでどうぞ。&lt;/p&gt;
-&lt;p&gt;ここまで設定すると、以下のような状態になっているとはず。&lt;/p&gt;
-&lt;p&gt;画面右側にある[動作]は&lt;strong&gt;上から順番に実行されますので[ファイル実行]が上にあるかを確認&lt;/strong&gt;してください。&lt;/p&gt;
-&lt;p&gt;[ファイル]-[終了]を選ぶと、変更内容を保存するかを聞かれますので保存して終了し、もう一度起動してください。&lt;/p&gt;
-&lt;p&gt;これ以降はPomeraをUSB接続すると、自動的にpomera2evernote.exeが起動し、Evernoteへのアップロード終了後、自動的にUSB接続を解除できるようになるはずです。&lt;/p&gt;
-&lt;p&gt;あと、[設定]-[基本設定]で[ログインで自動起動する]と[起動時にタスクトレイ入る]をチェックしておくと、Windows起動時に自動的にexeUSBが起動して便利です。&lt;/p&gt;
-
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>PomeraのテキストをEvernoteへアップロードするプログラムを作りました</title>
-      <link>https://namaraii.com/post/2010/20100312_pomeraevernotedbaf7362a844/</link>
-      <pubDate>Fri, 12 Mar 2010 00:00:00 +0000</pubDate>
-      
-      <guid>https://namaraii.com/post/2010/20100312_pomeraevernotedbaf7362a844/</guid>
-      <description>
-        
-          &lt;p&gt;先日、自分用にPomeraのテキストをEvernoteへアップロードするプログラム(Rubyスクリプト)を書き、使い始めました。&lt;/p&gt;
-&lt;p&gt;PomeraユーザかつEvernoteユーザが対象というニッチさから、ニーズが無いだろうと思いつつTwitterで以下のようにつぶやいたところ、&lt;/p&gt;
-&lt;p&gt;何名かの方から反応をいただきましたので、RubyがインストールされていないPCでも使用できるよう&lt;a href=&#34;http://sourceforge.jp/projects/exerb/&#34;&gt;Exerb&lt;/a&gt;でEXE形式にし、公開することにしました。&lt;/p&gt;
-&lt;h4 id=&#34;機能について&#34;&gt;機能について&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;span
-id=&#34;6ff6&#34;&gt;USB接続したPomeraのテキストファイルをEvernoteへアップロードできる。&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span
-id=&#34;932f&#34;&gt;2回目以降は、前回アップロード時点より新しいファイルのみをアップロードする。&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span
-id=&#34;36ff&#34;&gt;設定ファイルでアップロードするノートブックを指定可能。&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;というシンプルなプログラムです。&lt;/p&gt;
-&lt;h4 id=&#34;ダウンロード&#34;&gt;ダウンロード&lt;/h4&gt;
-&lt;p&gt;ダウンロードは以下のリンクからどうぞ。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;span
-id=&#34;7672&#34;&gt;&lt;a href=&#34;http://download.offtheball.jp/free/pomera2evernote.zip&#34;&gt;pomera2evernote Version 0.2 — ノートブック名に特殊記号が含まれている場合にアップロード失敗する問題を修正&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span
-id=&#34;1dda&#34;&gt;&lt;a href=&#34;http://download.offtheball.jp/free/pomera2evernote01.zip&#34;&gt;pomera2evernote Version 0.1&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;インストールの方法&#34;&gt;インストールの方法&lt;/h4&gt;
-&lt;p&gt;アーカイブを展開し任意のフォルダで解凍するだけです。以下のファイルがあることを確認してください。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;span id=&#34;07d3&#34;&gt;pomera2evernote.exe (プログラム本体)&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&#34;41a5&#34;&gt;config.yml (設定ファイル)&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&#34;550d&#34;&gt;pomera2evernote.rb
-(Rubyスクリプト。通常使いません。EXEが動かない場合や改造したい場合に)&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;次に設定ファイルの編集です。&lt;/p&gt;
-&lt;h4 id=&#34;設定ファイルの編集&#34;&gt;設定ファイルの編集&lt;/h4&gt;
-&lt;p&gt;設定ファイルconfig.ymlは初期状態では以下のようになっています。3つの設定項目がありますので、環境に応じて値を変更してください。普通のテキストファイルですのでメモ帳やテキストエディタで編集します。&lt;/p&gt;
-&lt;p&gt;[code]&lt;br&gt;
-path: C:Program FilesEvernoteEvernote3.5&lt;br&gt;
-pomera_drive: h&lt;br&gt;
-notebook: &amp;amp;amp;amp;amp;quot;Pomera&amp;amp;amp;amp;amp;quot;&lt;br&gt;
-[/code]&lt;/p&gt;
-&lt;h4 id=&#34;pomera_drive&#34;&gt;pomera_drive&lt;/h4&gt;
-&lt;p&gt;pomera_driveにはPomeraをUSB接続した際に割り当てられるドライブ名を指定します(例ではHドライブを指定)。&lt;/p&gt;
-&lt;p&gt;事前にPomeraをUSB接続し、どのドライブからファイルをアップロードするかを決めておいてください。&lt;/p&gt;
-&lt;h4 id=&#34;notebook&#34;&gt;notebook&lt;/h4&gt;
-&lt;p&gt;notebookはPomeraのテキストをアップロードするEvernoteのノートブック名を指定します。(例ではPomeraを指定)&lt;/p&gt;
-&lt;p&gt;存在しないノートブック名を指定した場合、ノートブックを作成後にテキストをアップロードします。ただ、私が試した限りではアップロード後、Evernoteのクライアントを再起動しないと、追加したノートブックが一覧に表示されませんでした。(Evernote
-3.5.2.1697)&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;ノートブック名は”（ダブルクォーテーション)で囲んで指定してください。(2010/4/24追記)&lt;/strong&gt;&lt;/p&gt;
-&lt;h4 id=&#34;path&#34;&gt;path&lt;/h4&gt;
-&lt;p&gt;pathはEvernoteをインストールされているフォルダ名を指定します。(例ではC:Program
-FilesEvernoteEvernote3.5を指定。そのフォルダにEnscript.exeがあります)&lt;/p&gt;
-&lt;p&gt;エラーメッセージ(Error: failed to execute enscript
-command)が表示される場合は、pathの設定が間違っている可能性が高いので良くご確認ください。&lt;/p&gt;
-&lt;p&gt;以上で準備完了です。&lt;/p&gt;
-&lt;h4 id=&#34;pomeraからevernoteへアップロードする方法&#34;&gt;PomeraからEvernoteへアップロードする方法&lt;/h4&gt;
-&lt;p&gt;Pomeraで作成したテキストをアップロードする方法は以下の通りです。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;span id=&#34;b3db&#34;&gt;PomeraをUSBケーブルでPCへ接続する。&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span
-id=&#34;4f3a&#34;&gt;ドライブとして認識された後、エクスプローラーなどでpomera2evernote.exeを起動。&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span
-id=&#34;1867&#34;&gt;前回のアップロード以降にPomeraで更新したテキストが順次アップロードされます。(初回起動時はPomeraにある全てのテキストが対象)&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span
-id=&#34;bc0e&#34;&gt;全てのアップロードが完了するとアップロードしたファイル数を表示し、プログラムが終了します。&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&#34;a8ba&#34;&gt;ここまで終わったらPomeraを取り外してOKです。&lt;/span&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;ここで紹介した手順ではPomeraを接続した後、手動でpomera2evernote.exeを起動していますが、&lt;a href=&#34;http://www.nanshiki.co.jp/software/index.html?exeusb&#34;&gt;&lt;strong&gt;exeUSB&lt;/strong&gt;&lt;/a&gt;&lt;strong&gt;というプログラムを使えば、こんなステキ環境を作れます。&lt;/strong&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;span
-id=&#34;d89b&#34;&gt;Pomeraを接続すると自動的にpomera2evernote.exeが起動する。&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span
-id=&#34;9c1f&#34;&gt;新規、または前回から更新されているテキストだけがEvernoteへアップロードされる。&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&#34;cae8&#34;&gt;PomeraのUSB接続が自動的に切断される。&lt;/span&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;span
-id=&#34;1111&#34;&gt;対象ドライブを1つしか指定できない。(私はDM20を使っており内蔵メモリを対象にしています)&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span
-id=&#34;3321&#34;&gt;アップロードしたテキストのフォントサイズが小さい。(Enscript.exeでノートを作成しているため。いまのところ変更方法がわかりません…)&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-        
-      </description>
-    </item>
-    
-  </channel>
-</rss>
+&lt;a href="http://kwout.com/quote/wt846t94">kwout&lt;/a>&lt;/p>
+&lt;p>pomeraのテキストをEvernoteへ転送する&lt;a href="http://htakeuchi.offtheball.jp/archives/3331">pomera2evernote&lt;/a>を窓の杜でご紹介いただきました。ありがとうございます。&lt;/p>
+&lt;p>実態はわずか80行行程度のRubyスクリプトなのでちょっと心苦しい感じですが(^^;よろしければご利用ください。&lt;/p>
+&lt;p>なお、窓の杜のレビューでは、&lt;/p>
+&lt;blockquote>
+&lt;p>2回目以降は追加・更新されたテキストのみを転送できるので、テキストファイルのバージョン管理に悩むこともない。&lt;/p>
+&lt;/blockquote>
+&lt;p>とありますが、PomeraでEvernoteへアップロード済みのテキストファイルAを更新してA’にした場合、A’は&lt;strong>新規に&lt;/strong>Evernoteへ転送されます。&lt;/p>
+&lt;p>つまり、Evernote上にはAとA’が存在することになりますのでご注意ください。（プログラム内部で使っているEvernoteに同梱されているEnscript.exeの仕様上、上書きが難しい）&lt;/p>
+&lt;p>EvernoteのAPIを使えばPomeraと同期するアプリも書けると思います。ぜひ、どなかた書いてください(^^)&lt;/p>
+&lt;p>&lt;a href="http://htakeuchi.offtheball.jp/archives/3390">exeUSBを使ったPomeraからEvernote自動アップロード設定例はこちら&lt;/a>です。&lt;/p></description></item><item><title>exeUSBを使ったPomera→Evernote自動アップロード設定例</title><link>https://namaraii.com/post/2010/20100314_exeusbpomeraevernote990627102c2a/</link><pubDate>Sun, 14 Mar 2010 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2010/20100314_exeusbpomeraevernote990627102c2a/</guid><description>
+&lt;p>&lt;a href="http://htakeuchi.offtheball.jp/archives/3331">昨日のエントリ&lt;/a>でちらりと触れましたが、&lt;a href="http://www.nanshiki.co.jp/software/index.html?exeusb">exeUSB&lt;/a>を使うとPomeraからEvernoteへのアップロードがかなり楽になるのですが、twitterでうまく設定できないというつぶやきを見かけたこともあり、ご参考までに設定例を紹介しておきます。&lt;/p>
+&lt;p>PomeraをUSB接続した状態でexeUSBを起動します。&lt;/p>
+&lt;p>左にデバイスの一覧が表示されます。私の環境ではDM20にSDカードを刺しているため、3つのドライブ(H:
+E: I:)が表示されてますね。&lt;/p>
+&lt;p>それぞれのドライブへわかりやすいように名前をつけておきましょう。デバイスを選択しマウス右クリックから[設定]を選びます。&lt;/p>
+&lt;p>設定画面でわかりやすい名前をつけておきます。例では「Pomera内蔵メモリ」を指定しています。&lt;/p>
+&lt;p>次に、Pomera内蔵メモリに対する動作を定義します。&lt;br>
+[動作]-[ファイル実行]を選ぶと下の画面が開きます。&lt;/p>
+&lt;p>設定項目は以下の通り。&lt;/p>
+&lt;ul>
+&lt;li>&lt;span id="0fcf">[実行するファイル名]:
+pomera2evernote.exeのパスを指定&lt;/span>&lt;/li>
+&lt;li>&lt;span id="38a8">[作業フォルダ]:
+pomera2evernote.exeをインストールしたフォルダを指定&lt;/span>&lt;/li>
+&lt;li>&lt;span id="4c89">[実行したプログラムの終了を待って次の動作に移る:
+チェック&lt;/span>&lt;/li>
+&lt;/ul>
+&lt;p>次に、[動作]-[デバイス停止]を選択し、以下の画面を表示させます。&lt;/p>
+&lt;p>[実行ファイルが全て終了したら停止]をチェックします。&lt;/p>
+&lt;p>[停止前に問い合わせをする]をチェックすると処理が終了した後で以下のような画面が表示され、USB接続を解除するかどうかを選択できます。チェックしなければ処理終了後、自動的に接続が解除されますので、ここはお好みでどうぞ。&lt;/p>
+&lt;p>ここまで設定すると、以下のような状態になっているとはず。&lt;/p>
+&lt;p>画面右側にある[動作]は&lt;strong>上から順番に実行されますので[ファイル実行]が上にあるかを確認&lt;/strong>してください。&lt;/p>
+&lt;p>[ファイル]-[終了]を選ぶと、変更内容を保存するかを聞かれますので保存して終了し、もう一度起動してください。&lt;/p>
+&lt;p>これ以降はPomeraをUSB接続すると、自動的にpomera2evernote.exeが起動し、Evernoteへのアップロード終了後、自動的にUSB接続を解除できるようになるはずです。&lt;/p>
+&lt;p>あと、[設定]-[基本設定]で[ログインで自動起動する]と[起動時にタスクトレイ入る]をチェックしておくと、Windows起動時に自動的にexeUSBが起動して便利です。&lt;/p></description></item><item><title>PomeraのテキストをEvernoteへアップロードするプログラムを作りました</title><link>https://namaraii.com/post/2010/20100312_pomeraevernotedbaf7362a844/</link><pubDate>Fri, 12 Mar 2010 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2010/20100312_pomeraevernotedbaf7362a844/</guid><description>
+&lt;p>先日、自分用にPomeraのテキストをEvernoteへアップロードするプログラム(Rubyスクリプト)を書き、使い始めました。&lt;/p>
+&lt;p>PomeraユーザかつEvernoteユーザが対象というニッチさから、ニーズが無いだろうと思いつつTwitterで以下のようにつぶやいたところ、&lt;/p>
+&lt;p>何名かの方から反応をいただきましたので、RubyがインストールされていないPCでも使用できるよう&lt;a href="http://sourceforge.jp/projects/exerb/">Exerb&lt;/a>でEXE形式にし、公開することにしました。&lt;/p>
+&lt;h4 id="機能について">機能について&lt;/h4>
+&lt;ul>
+&lt;li>&lt;span
+id="6ff6">USB接続したPomeraのテキストファイルをEvernoteへアップロードできる。&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="932f">2回目以降は、前回アップロード時点より新しいファイルのみをアップロードする。&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="36ff">設定ファイルでアップロードするノートブックを指定可能。&lt;/span>&lt;/li>
+&lt;/ul>
+&lt;p>というシンプルなプログラムです。&lt;/p>
+&lt;h4 id="ダウンロード">ダウンロード&lt;/h4>
+&lt;p>ダウンロードは以下のリンクからどうぞ。&lt;/p>
+&lt;ul>
+&lt;li>&lt;span
+id="7672">&lt;a href="http://download.offtheball.jp/free/pomera2evernote.zip">pomera2evernote Version 0.2 — ノートブック名に特殊記号が含まれている場合にアップロード失敗する問題を修正&lt;/a>&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="1dda">&lt;a href="http://download.offtheball.jp/free/pomera2evernote01.zip">pomera2evernote Version 0.1&lt;/a>&lt;/span>&lt;/li>
+&lt;/ul>
+&lt;h4 id="インストールの方法">インストールの方法&lt;/h4>
+&lt;p>アーカイブを展開し任意のフォルダで解凍するだけです。以下のファイルがあることを確認してください。&lt;/p>
+&lt;ul>
+&lt;li>&lt;span id="07d3">pomera2evernote.exe (プログラム本体)&lt;/span>&lt;/li>
+&lt;li>&lt;span id="41a5">config.yml (設定ファイル)&lt;/span>&lt;/li>
+&lt;li>&lt;span id="550d">pomera2evernote.rb
+(Rubyスクリプト。通常使いません。EXEが動かない場合や改造したい場合に)&lt;/span>&lt;/li>
+&lt;/ul>
+&lt;p>次に設定ファイルの編集です。&lt;/p>
+&lt;h4 id="設定ファイルの編集">設定ファイルの編集&lt;/h4>
+&lt;p>設定ファイルconfig.ymlは初期状態では以下のようになっています。3つの設定項目がありますので、環境に応じて値を変更してください。普通のテキストファイルですのでメモ帳やテキストエディタで編集します。&lt;/p>
+&lt;p>[code]&lt;br>
+path: C:Program FilesEvernoteEvernote3.5&lt;br>
+pomera_drive: h&lt;br>
+notebook: &amp;amp;amp;amp;amp;quot;Pomera&amp;amp;amp;amp;amp;quot;&lt;br>
+[/code]&lt;/p>
+&lt;h4 id="pomera_drive">pomera_drive&lt;/h4>
+&lt;p>pomera_driveにはPomeraをUSB接続した際に割り当てられるドライブ名を指定します(例ではHドライブを指定)。&lt;/p>
+&lt;p>事前にPomeraをUSB接続し、どのドライブからファイルをアップロードするかを決めておいてください。&lt;/p>
+&lt;h4 id="notebook">notebook&lt;/h4>
+&lt;p>notebookはPomeraのテキストをアップロードするEvernoteのノートブック名を指定します。(例ではPomeraを指定)&lt;/p>
+&lt;p>存在しないノートブック名を指定した場合、ノートブックを作成後にテキストをアップロードします。ただ、私が試した限りではアップロード後、Evernoteのクライアントを再起動しないと、追加したノートブックが一覧に表示されませんでした。(Evernote
+3.5.2.1697)&lt;/p>
+&lt;p>&lt;strong>ノートブック名は”（ダブルクォーテーション)で囲んで指定してください。(2010/4/24追記)&lt;/strong>&lt;/p>
+&lt;h4 id="path">path&lt;/h4>
+&lt;p>pathはEvernoteをインストールされているフォルダ名を指定します。(例ではC:Program
+FilesEvernoteEvernote3.5を指定。そのフォルダにEnscript.exeがあります)&lt;/p>
+&lt;p>エラーメッセージ(Error: failed to execute enscript
+command)が表示される場合は、pathの設定が間違っている可能性が高いので良くご確認ください。&lt;/p>
+&lt;p>以上で準備完了です。&lt;/p>
+&lt;h4 id="pomeraからevernoteへアップロードする方法">PomeraからEvernoteへアップロードする方法&lt;/h4>
+&lt;p>Pomeraで作成したテキストをアップロードする方法は以下の通りです。&lt;/p>
+&lt;ol>
+&lt;li>&lt;span id="b3db">PomeraをUSBケーブルでPCへ接続する。&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="4f3a">ドライブとして認識された後、エクスプローラーなどでpomera2evernote.exeを起動。&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="1867">前回のアップロード以降にPomeraで更新したテキストが順次アップロードされます。(初回起動時はPomeraにある全てのテキストが対象)&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="bc0e">全てのアップロードが完了するとアップロードしたファイル数を表示し、プログラムが終了します。&lt;/span>&lt;/li>
+&lt;li>&lt;span id="a8ba">ここまで終わったらPomeraを取り外してOKです。&lt;/span>&lt;/li>
+&lt;/ol>
+&lt;p>ここで紹介した手順ではPomeraを接続した後、手動でpomera2evernote.exeを起動していますが、&lt;a href="http://www.nanshiki.co.jp/software/index.html?exeusb">&lt;strong>exeUSB&lt;/strong>&lt;/a>&lt;strong>というプログラムを使えば、こんなステキ環境を作れます。&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>&lt;span
+id="d89b">Pomeraを接続すると自動的にpomera2evernote.exeが起動する。&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="9c1f">新規、または前回から更新されているテキストだけがEvernoteへアップロードされる。&lt;/span>&lt;/li>
+&lt;li>&lt;span id="cae8">PomeraのUSB接続が自動的に切断される。&lt;/span>&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>&lt;span
+id="1111">対象ドライブを1つしか指定できない。(私はDM20を使っており内蔵メモリを対象にしています)&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="3321">アップロードしたテキストのフォントサイズが小さい。(Enscript.exeでノートを作成しているため。いまのところ変更方法がわかりません…)&lt;/span>&lt;/li>
+&lt;/ul></description></item></channel></rss>

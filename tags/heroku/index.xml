@@ -1,202 +1,140 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>heroku on namaraii.com</title>
-    <link>https://namaraii.com/tags/heroku/</link>
-    <description>Recent content in heroku on namaraii.com</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright>
-    <lastBuildDate>Wed, 20 Feb 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://namaraii.com/tags/heroku/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>HerokuアプリにDNSimpleを使ってnaked domainを割り当てる</title>
-      <link>https://namaraii.com/post/2013/20130220_herokudnsimplenakeddomainb952b23abc3e/</link>
-      <pubDate>Wed, 20 Feb 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://namaraii.com/post/2013/20130220_herokudnsimplenakeddomainb952b23abc3e/</guid>
-      <description>
-        
-          &lt;p&gt;Heroku上のアプリケーションに独自ドメインを割り当てる際、静的IPアドレスを指定することができないため、naked domainでサービスを提供したい場合、単純には設定できません。&lt;/p&gt;
-&lt;p&gt;サブドメインであれば、&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;cname www heroku-sslendpoint.com.
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;などとすれば良いのですが naked domain の場合、cname は使用できず
-Aレコードを指定する必要があり、Herokuのエンドポイントと関連付けができないからです。&lt;/p&gt;
-&lt;p&gt;以前はAレコードに割り当てるためのIPアドレスが公開されていた記憶がありますが、2013年2月20日時点では下記の記述が。via
-&lt;a href=&#34;https://devcenter.heroku.com/articles/custom-domains#dns_setup&#34;&gt;Custom Domains | Heroku Dev Center&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The Heroku routing stack uses a collection of IP addresses that can
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>heroku on namaraii.com</title><link>https://namaraii.com/tags/heroku/</link><description>Recent content in heroku on namaraii.com</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright><lastBuildDate>Wed, 20 Feb 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://namaraii.com/tags/heroku/index.xml" rel="self" type="application/rss+xml"/><item><title>HerokuアプリにDNSimpleを使ってnaked domainを割り当てる</title><link>https://namaraii.com/post/2013/20130220_herokudnsimplenakeddomainb952b23abc3e/</link><pubDate>Wed, 20 Feb 2013 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2013/20130220_herokudnsimplenakeddomainb952b23abc3e/</guid><description>
+&lt;p>Heroku上のアプリケーションに独自ドメインを割り当てる際、静的IPアドレスを指定することができないため、naked domainでサービスを提供したい場合、単純には設定できません。&lt;/p>
+&lt;p>サブドメインであれば、&lt;/p>
+&lt;pre>&lt;code>cname www heroku-sslendpoint.com.
+&lt;/code>&lt;/pre>
+&lt;p>などとすれば良いのですが naked domain の場合、cname は使用できず
+Aレコードを指定する必要があり、Herokuのエンドポイントと関連付けができないからです。&lt;/p>
+&lt;p>以前はAレコードに割り当てるためのIPアドレスが公開されていた記憶がありますが、2013年2月20日時点では下記の記述が。via
+&lt;a href="https://devcenter.heroku.com/articles/custom-domains#dns_setup">Custom Domains | Heroku Dev Center&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>The Heroku routing stack uses a collection of IP addresses that can
 change at any time, and using A records to point to your app is not
-supported. Instead, use CNAME records as described above.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;なので、自社で運営している&lt;a href=&#34;https://golazo.biz/&#34;&gt;請求書・見積書作成サービス Golazo&lt;/a&gt;では、&lt;a href=&#34;https://devcenter.heroku.com/articles/avoiding-naked-domains-dns-arecords&#34;&gt;Avoiding Naked Domains and DNS A-records&lt;/a&gt;でも紹介されている
-&lt;a href=&#34;https://dnsimple.com/&#34;&gt;DNSimple&lt;/a&gt;
-を使ってhttps://golazo.biz/でアクセスできるようにしました。&lt;/p&gt;
-&lt;p&gt;DNSimpleでは&lt;a href=&#34;http://support.dnsimple.com/questions/32826-What-is-an-ALIAS-record&#34;&gt;ALIAS&lt;/a&gt;
+supported. Instead, use CNAME records as described above.&lt;/p>
+&lt;/blockquote>
+&lt;p>なので、自社で運営している&lt;a href="https://golazo.biz/">請求書・見積書作成サービス Golazo&lt;/a>では、&lt;a href="https://devcenter.heroku.com/articles/avoiding-naked-domains-dns-arecords">Avoiding Naked Domains and DNS A-records&lt;/a>でも紹介されている
+&lt;a href="https://dnsimple.com/">DNSimple&lt;/a>
+を使ってhttps://golazo.biz/でアクセスできるようにしました。&lt;/p>
+&lt;p>DNSimpleでは&lt;a href="http://support.dnsimple.com/questions/32826-What-is-an-ALIAS-record">ALIAS&lt;/a>
 という仮想レコードを提供しており、これを使えば naked
-domainに対してHerokuで指定されるエンドポイントを割り当てることができます。わかりやすいWebインタフェースで設定も簡単。&lt;/p&gt;
-&lt;p&gt;まだ
+domainに対してHerokuで指定されるエンドポイントを割り当てることができます。わかりやすいWebインタフェースで設定も簡単。&lt;/p>
+&lt;p>まだ
 ALIAS設定にしか使っていませんが、iPhoneアプリがあったり、設定用のREST
-APIを提供していたり、複数のアカウントでDNSレコードを管理できたりなど意欲的な感じ。&lt;/p&gt;
-&lt;p&gt;価格は$3/月(10ドメインまで)のシルバープランの他に計3プラン。30日は無料で試用できますので、興味があればお試しを。&lt;/p&gt;
-
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>herokuにて独自ドメインのアプリでSNI SSLを使う（その２）</title>
-      <link>https://namaraii.com/post/2012/20120202_herokusnissle36291db1dc0/</link>
-      <pubDate>Thu, 02 Feb 2012 00:00:00 +0000</pubDate>
-      
-      <guid>https://namaraii.com/post/2012/20120202_herokusnissle36291db1dc0/</guid>
-      <description>
-        
-          &lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/7-6QkrSqwKp0vf.jpg&#34; alt=&#34;/images/7-6QkrSqwKp0vf.jpg&#34;&gt;
+APIを提供していたり、複数のアカウントでDNSレコードを管理できたりなど意欲的な感じ。&lt;/p>
+&lt;p>価格は$3/月(10ドメインまで)のシルバープランの他に計3プラン。30日は無料で試用できますので、興味があればお試しを。&lt;/p></description></item><item><title>herokuにて独自ドメインのアプリでSNI SSLを使う（その２）</title><link>https://namaraii.com/post/2012/20120202_herokusnissle36291db1dc0/</link><pubDate>Thu, 02 Feb 2012 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2012/20120202_herokusnissle36291db1dc0/</guid><description>
+&lt;p>&lt;img src="https://namaraii.com/images/7-6QkrSqwKp0vf.jpg" alt="/images/7-6QkrSqwKp0vf.jpg">
 herokuでSNI
-SSLアドオンを追加し、証明書の登録までやってみました。手順をのせておきます。&lt;br&gt;
-鍵長を2048ビットにしたり、擬似乱数ファイルを使ったりなどは必要に応じてどうぞ。&lt;/p&gt;
-&lt;p&gt;やったことは以下の通りです。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;span id=&#34;d85a&#34;&gt;秘密鍵の生成&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&#34;b431&#34;&gt;CSRの生成&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&#34;0e94&#34;&gt;パスフレーズを除去した秘密鍵の生成&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&#34;a6bd&#34;&gt;herokuへ証明書を登録&lt;/span&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;実際にはこの他に、SSLアドオンの追加も必要ですが、私はWeb経由でやってしまいっていたので割愛。&lt;/p&gt;
-&lt;p&gt;[code lang=”bash”]&lt;br&gt;
-bash-3.2$ openssl genrsa -des3 -out example.com.key 1024&lt;br&gt;
-Generating RSA private key, 1024 bit long modulus&lt;br&gt;
-Enter pass phrase for example.com.key:&lt;br&gt;
-Verifying — Enter pass phrase for example.com.key:&lt;/p&gt;
-&lt;p&gt;bash-3.2$ openssl req -new -key example.com.key -out
-example.com.key.csr&lt;br&gt;
-Enter pass phrase for example.com.key:&lt;br&gt;
+SSLアドオンを追加し、証明書の登録までやってみました。手順をのせておきます。&lt;br>
+鍵長を2048ビットにしたり、擬似乱数ファイルを使ったりなどは必要に応じてどうぞ。&lt;/p>
+&lt;p>やったことは以下の通りです。&lt;/p>
+&lt;ol>
+&lt;li>&lt;span id="d85a">秘密鍵の生成&lt;/span>&lt;/li>
+&lt;li>&lt;span id="b431">CSRの生成&lt;/span>&lt;/li>
+&lt;li>&lt;span id="0e94">パスフレーズを除去した秘密鍵の生成&lt;/span>&lt;/li>
+&lt;li>&lt;span id="a6bd">herokuへ証明書を登録&lt;/span>&lt;/li>
+&lt;/ol>
+&lt;p>実際にはこの他に、SSLアドオンの追加も必要ですが、私はWeb経由でやってしまいっていたので割愛。&lt;/p>
+&lt;p>[code lang=”bash”]&lt;br>
+bash-3.2$ openssl genrsa -des3 -out example.com.key 1024&lt;br>
+Generating RSA private key, 1024 bit long modulus&lt;br>
+Enter pass phrase for example.com.key:&lt;br>
+Verifying — Enter pass phrase for example.com.key:&lt;/p>
+&lt;p>bash-3.2$ openssl req -new -key example.com.key -out
+example.com.key.csr&lt;br>
+Enter pass phrase for example.com.key:&lt;br>
 You are about to be asked to enter information that will be
-incorporated&lt;br&gt;
-into your certificate request.&lt;br&gt;
+incorporated&lt;br>
+into your certificate request.&lt;br>
 What you are about to enter is what is called a Distinguished Name or a
-DN.&lt;br&gt;
-There are quite a few fields but you can leave some blank&lt;br&gt;
-For some fields there will be a default value,&lt;br&gt;
-If you enter ‘.’, the field will be left blank.&lt;br&gt;
- — — -&lt;br&gt;
-Country Name (2 letter code) [AU]:JP&lt;br&gt;
-State or Province Name (full name) [Some-State]:Kanagawa&lt;br&gt;
-Locality Name (eg, city) []:Yokohama&lt;br&gt;
-Organization Name (eg, company) [Internet Widgits Pty Ltd]:example&lt;br&gt;
-Organizational Unit Name (eg, section) []:example&lt;br&gt;
-Common Name (eg, YOUR name) []:example.com&lt;br&gt;
-Email Address []:&lt;/p&gt;
-&lt;p&gt;Please enter the following ‘extra’ attributes&lt;br&gt;
-to be sent with your certificate request&lt;br&gt;
-A challenge password []:&lt;br&gt;
-An optional company name []:&lt;/p&gt;
-&lt;p&gt;bash-3.2$ openssl rsa -in example.com.key -out
-example.com.nopassword.key&lt;br&gt;
-Enter pass phrase for example.com.key:&lt;br&gt;
-writing RSA key&lt;/p&gt;
-&lt;p&gt;bash-3.2$ heroku ssl:add example.com.crt
-example.com.nopassword.key — app example&lt;br&gt;
+DN.&lt;br>
+There are quite a few fields but you can leave some blank&lt;br>
+For some fields there will be a default value,&lt;br>
+If you enter ‘.’, the field will be left blank.&lt;br>
+ — — -&lt;br>
+Country Name (2 letter code) [AU]:JP&lt;br>
+State or Province Name (full name) [Some-State]:Kanagawa&lt;br>
+Locality Name (eg, city) []:Yokohama&lt;br>
+Organization Name (eg, company) [Internet Widgits Pty Ltd]:example&lt;br>
+Organizational Unit Name (eg, section) []:example&lt;br>
+Common Name (eg, YOUR name) []:example.com&lt;br>
+Email Address []:&lt;/p>
+&lt;p>Please enter the following ‘extra’ attributes&lt;br>
+to be sent with your certificate request&lt;br>
+A challenge password []:&lt;br>
+An optional company name []:&lt;/p>
+&lt;p>bash-3.2$ openssl rsa -in example.com.key -out
+example.com.nopassword.key&lt;br>
+Enter pass phrase for example.com.key:&lt;br>
+writing RSA key&lt;/p>
+&lt;p>bash-3.2$ heroku ssl:add example.com.crt
+example.com.nopassword.key — app example&lt;br>
 Added certificate to example.com, expiring in 2013/02/03 05:02:47
--0800&lt;br&gt;
-[/code]&lt;/p&gt;
-
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>herokuにて独自ドメインのアプリでSSLを使う(SNI SSL)</title>
-      <link>https://namaraii.com/post/2012/20120130_herokusslsnisslb513efc54b04/</link>
-      <pubDate>Mon, 30 Jan 2012 00:00:00 +0000</pubDate>
-      
-      <guid>https://namaraii.com/post/2012/20120130_herokusslsnisslb513efc54b04/</guid>
-      <description>
-        
-          &lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/fgtbsJVrMGp74g.jpg&#34; alt=&#34;/images/fgtbsJVrMGp74g.jpg&#34;&gt;
-&lt;a href=&#34;http://addons.heroku.com/ssl&#34;&gt;herokuでSSLを使う場合、以下の4つのプラン&lt;/a&gt;があります。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;span id=&#34;7c38&#34;&gt;Piggyback SSL (無料)&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&#34;e161&#34;&gt;SNI SSL ($5/月)&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&#34;7fda&#34;&gt;Hostname Based SSL ($20/月)&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&#34;c9ac&#34;&gt;IP Based Custom SSL ($100/月)&lt;/span&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;herokuで動かすアプリケーションが、heroku.comドメインで良い場合はPiggyback
+-0800&lt;br>
+[/code]&lt;/p></description></item><item><title>herokuにて独自ドメインのアプリでSSLを使う(SNI SSL)</title><link>https://namaraii.com/post/2012/20120130_herokusslsnisslb513efc54b04/</link><pubDate>Mon, 30 Jan 2012 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2012/20120130_herokusslsnisslb513efc54b04/</guid><description>
+&lt;p>&lt;img src="https://namaraii.com/images/fgtbsJVrMGp74g.jpg" alt="/images/fgtbsJVrMGp74g.jpg">
+&lt;a href="http://addons.heroku.com/ssl">herokuでSSLを使う場合、以下の4つのプラン&lt;/a>があります。&lt;/p>
+&lt;ol>
+&lt;li>&lt;span id="7c38">Piggyback SSL (無料)&lt;/span>&lt;/li>
+&lt;li>&lt;span id="e161">SNI SSL ($5/月)&lt;/span>&lt;/li>
+&lt;li>&lt;span id="7fda">Hostname Based SSL ($20/月)&lt;/span>&lt;/li>
+&lt;li>&lt;span id="c9ac">IP Based Custom SSL ($100/月)&lt;/span>&lt;/li>
+&lt;/ol>
+&lt;p>herokuで動かすアプリケーションが、heroku.comドメインで良い場合はPiggyback
 SSLを使うことができますが、独自ドメインでSSLを使う場合、他のプランを選択する必要があります。今回は最も安価なSNI
-SSLについて調べてみました。&lt;/p&gt;
-&lt;p&gt;そもそも、SNIとは何か？ですが、&lt;a href=&#34;http://www.ssl-secure.jp/faq.html#about_sni&#34;&gt;http://www.ssl-secure.jp/faq.html#about_sni&lt;/a&gt;によると、&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;SNI拡張は、「名前ベースのバーチャルホスト」で複数のSSL環境を利用出来るようにする技術です。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;従来、バーチャルホスト環境でSSLを利用するには「IPベースのバーチャルホスト」でなければなりませんでした。そのため、SSLを利用したいバーチャルホスト毎に独立したIPアドレスを割り当てる必要がありました。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;SNI拡張では、1個のIPアドレスを複数のSSLサイトで共有できます。このためIPアドレスの節約やコスト削減につながります。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;とのことです。つまり、独立したIPアドレスでなくてもSSLを利用できるということですね。&lt;/p&gt;
-&lt;p&gt;ただし、SNIを利用するためには、サーバとクライアントの双方で対応している必要があるとのこと。サーバに関しては、heroku側で対応しているので、問題はクライアントですね。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Server_Name_Indication&#34;&gt;Server Name Indication&lt;/a&gt;によると、サポートしているブラウザは以下の通り。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;span id=&#34;347b&#34;&gt;Internet Explorer
-7以上(Windowsの場合にはVista以上。Windows XPでは未サポート)&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&#34;3145&#34;&gt;Mozilla Firefox 2.0以上&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&#34;1817&#34;&gt;Opera 8.0以上 (TLS 1.1を有効にする必要あり)&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&#34;6b02&#34;&gt;Opera Mobile 10.1 beta以上(Android)&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&#34;8d7c&#34;&gt;Google Chrome (Windowsの場合にはVista以上。Windows
+SSLについて調べてみました。&lt;/p>
+&lt;p>そもそも、SNIとは何か？ですが、&lt;a href="http://www.ssl-secure.jp/faq.html#about_sni">http://www.ssl-secure.jp/faq.html#about_sni&lt;/a>によると、&lt;/p>
+&lt;blockquote>
+&lt;p>SNI拡張は、「名前ベースのバーチャルホスト」で複数のSSL環境を利用出来るようにする技術です。&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>従来、バーチャルホスト環境でSSLを利用するには「IPベースのバーチャルホスト」でなければなりませんでした。そのため、SSLを利用したいバーチャルホスト毎に独立したIPアドレスを割り当てる必要がありました。&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>SNI拡張では、1個のIPアドレスを複数のSSLサイトで共有できます。このためIPアドレスの節約やコスト削減につながります。&lt;/p>
+&lt;/blockquote>
+&lt;p>とのことです。つまり、独立したIPアドレスでなくてもSSLを利用できるということですね。&lt;/p>
+&lt;p>ただし、SNIを利用するためには、サーバとクライアントの双方で対応している必要があるとのこと。サーバに関しては、heroku側で対応しているので、問題はクライアントですね。&lt;/p>
+&lt;p>&lt;a href="http://en.wikipedia.org/wiki/Server_Name_Indication">Server Name Indication&lt;/a>によると、サポートしているブラウザは以下の通り。&lt;/p>
+&lt;ul>
+&lt;li>&lt;span id="347b">Internet Explorer
+7以上(Windowsの場合にはVista以上。Windows XPでは未サポート)&lt;/span>&lt;/li>
+&lt;li>&lt;span id="3145">Mozilla Firefox 2.0以上&lt;/span>&lt;/li>
+&lt;li>&lt;span id="1817">Opera 8.0以上 (TLS 1.1を有効にする必要あり)&lt;/span>&lt;/li>
+&lt;li>&lt;span id="6b02">Opera Mobile 10.1 beta以上(Android)&lt;/span>&lt;/li>
+&lt;li>&lt;span id="8d7c">Google Chrome (Windowsの場合にはVista以上。Windows
 XPの場合にはChrome 6以上、Macの場合にはOS X 10.5.7以上でChrome
-5.0.342.1 以上)&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&#34;d0b8&#34;&gt;Safari 2.1以上(Macの場合はOS X
-10.5.6以上、Windowsの場合はVista以上)&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&#34;25fc&#34;&gt;Konqueror/KDE 4.7以上&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&#34;73b4&#34;&gt;MobileSafari (iOS 4.0以上)&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&#34;f9ca&#34;&gt;Androiddefuxデフォルトブラウザ(Honeycomb以上)&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&#34;f70d&#34;&gt;Windows Phone 7(citation必要)&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&#34;40bd&#34;&gt;MicroB(Maemo)&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;ということで、開発中のサービス的には問題なさそう。とりあえず試してみて、何かあればまた書きます。&lt;/p&gt;
-
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>HerokuのSendgridでNet::SMTPFatalErrorが発生</title>
-      <link>https://namaraii.com/post/2011/20111222_herokusendgridnetsmtpfatalerrorce7e3145e46d/</link>
-      <pubDate>Thu, 22 Dec 2011 00:00:00 +0000</pubDate>
-      
-      <guid>https://namaraii.com/post/2011/20111222_herokusendgridnetsmtpfatalerrorce7e3145e46d/</guid>
-      <description>
-        
-          &lt;p&gt;HerokuにあるアプリへSendGridアドオンをインストールし、メールを送信しようとしたところ、以下のエラーになりました。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;Net::SMTPFatalError (550 Cannot receive from specified address : Unauthenticated senders not allowed
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;これは&lt;a href=&#34;http://community.sendgrid.com/sendgrid/topics/smtpfatalerror_when_sending_mail&#34;&gt;SMTPFatalError when sending mail&lt;/a&gt;にある通り、SendGridの認証が失敗しているため。&lt;/p&gt;
-&lt;p&gt;自分の場合、以下のような手順で発生しました。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;span
-id=&#34;d2c5&#34;&gt;&lt;a href=&#34;http://devcenter.heroku.com/articles/sendgrid&#34;&gt;Heroku | Dev Center | Sendgrid&lt;/a&gt;の通りにSendGridアドオンを設定し、本番用アプリから正しくメールを送れることを確認&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span
-id=&#34;968e&#34;&gt;同じリポジトリ（ディレクトリから）Herokuへステージング用環境を作成&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span
-id=&#34;bf00&#34;&gt;ステージング環境からメール送信したら、Net::SMTPFatalErrorが発生&lt;/span&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;結局、これは新しく作ったステージング環境にSendGridの認証に使う環境変数を設定していないことが原因でした。（本番環境はアドオンをインストールした時点で自動的に設定される）&lt;/p&gt;
-&lt;p&gt;本番用の環境変数に以下のものがあるので…&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;$ heroku config --app myapp
+5.0.342.1 以上)&lt;/span>&lt;/li>
+&lt;li>&lt;span id="d0b8">Safari 2.1以上(Macの場合はOS X
+10.5.6以上、Windowsの場合はVista以上)&lt;/span>&lt;/li>
+&lt;li>&lt;span id="25fc">Konqueror/KDE 4.7以上&lt;/span>&lt;/li>
+&lt;li>&lt;span id="73b4">MobileSafari (iOS 4.0以上)&lt;/span>&lt;/li>
+&lt;li>&lt;span id="f9ca">Androiddefuxデフォルトブラウザ(Honeycomb以上)&lt;/span>&lt;/li>
+&lt;li>&lt;span id="f70d">Windows Phone 7(citation必要)&lt;/span>&lt;/li>
+&lt;li>&lt;span id="40bd">MicroB(Maemo)&lt;/span>&lt;/li>
+&lt;/ul>
+&lt;p>ということで、開発中のサービス的には問題なさそう。とりあえず試してみて、何かあればまた書きます。&lt;/p></description></item><item><title>HerokuのSendgridでNet::SMTPFatalErrorが発生</title><link>https://namaraii.com/post/2011/20111222_herokusendgridnetsmtpfatalerrorce7e3145e46d/</link><pubDate>Thu, 22 Dec 2011 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2011/20111222_herokusendgridnetsmtpfatalerrorce7e3145e46d/</guid><description>
+&lt;p>HerokuにあるアプリへSendGridアドオンをインストールし、メールを送信しようとしたところ、以下のエラーになりました。&lt;/p>
+&lt;pre>&lt;code>Net::SMTPFatalError (550 Cannot receive from specified address : Unauthenticated senders not allowed
+&lt;/code>&lt;/pre>
+&lt;p>これは&lt;a href="http://community.sendgrid.com/sendgrid/topics/smtpfatalerror_when_sending_mail">SMTPFatalError when sending mail&lt;/a>にある通り、SendGridの認証が失敗しているため。&lt;/p>
+&lt;p>自分の場合、以下のような手順で発生しました。&lt;/p>
+&lt;ol>
+&lt;li>&lt;span
+id="d2c5">&lt;a href="http://devcenter.heroku.com/articles/sendgrid">Heroku | Dev Center | Sendgrid&lt;/a>の通りにSendGridアドオンを設定し、本番用アプリから正しくメールを送れることを確認&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="968e">同じリポジトリ（ディレクトリから）Herokuへステージング用環境を作成&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="bf00">ステージング環境からメール送信したら、Net::SMTPFatalErrorが発生&lt;/span>&lt;/li>
+&lt;/ol>
+&lt;p>結局、これは新しく作ったステージング環境にSendGridの認証に使う環境変数を設定していないことが原因でした。（本番環境はアドオンをインストールした時点で自動的に設定される）&lt;/p>
+&lt;p>本番用の環境変数に以下のものがあるので…&lt;/p>
+&lt;pre>&lt;code>$ heroku config --app myapp
 (中略）
-SENDGRID_PASSWORD   =&amp;gt; パスワード
-SENDGRID_USERNAME   =&amp;gt; ユーザ名@heroku.com
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;ステージング環境へも設定したら、無事、動きました。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;$ heroku config:add SENDGRID_PASSWORD=パスワード --app myapp-staging
+SENDGRID_PASSWORD =&amp;gt; パスワード
+SENDGRID_USERNAME =&amp;gt; ユーザ名@heroku.com
+&lt;/code>&lt;/pre>
+&lt;p>ステージング環境へも設定したら、無事、動きました。&lt;/p>
+&lt;pre>&lt;code>$ heroku config:add SENDGRID_PASSWORD=パスワード --app myapp-staging
 $ heroku config:add SENDGRID_USERNAME=ユーザ名@heroku.com --app myapp-staging
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Sendgridに限らず、本番環境とステージング環境の環境変数の差違については、きちんと確認しておいた方が良いですね。&lt;/p&gt;
-
-        
-      </description>
-    </item>
-    
-  </channel>
-</rss>
+&lt;/code>&lt;/pre>
+&lt;p>Sendgridに限らず、本番環境とステージング環境の環境変数の差違については、きちんと確認しておいた方が良いですね。&lt;/p></description></item></channel></rss>

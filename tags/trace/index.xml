@@ -1,73 +1,50 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>trace on namaraii.com</title>
-    <link>https://namaraii.com/tags/trace/</link>
-    <description>Recent content in trace on namaraii.com</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright>
-    <lastBuildDate>Thu, 22 Oct 2009 00:00:00 +0000</lastBuildDate><atom:link href="https://namaraii.com/tags/trace/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>RedmineやTracを上手に活用する6つのポイント</title>
-      <link>https://namaraii.com/post/2009/20091022_redminetrac64965192fb581/</link>
-      <pubDate>Thu, 22 Oct 2009 00:00:00 +0000</pubDate>
-      
-      <guid>https://namaraii.com/post/2009/20091022_redminetrac64965192fb581/</guid>
-      <description>
-        
-          &lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/iE540turNblVW4.jpg&#34; alt=&#34;/images/iE540turNblVW4.jpg&#34;&gt;
-&lt;a href=&#34;http://www.photodropper.com/photos/&#34;&gt;photo&lt;/a&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>trace on namaraii.com</title><link>https://namaraii.com/tags/trace/</link><description>Recent content in trace on namaraii.com</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright><lastBuildDate>Thu, 22 Oct 2009 00:00:00 +0000</lastBuildDate><atom:link href="https://namaraii.com/tags/trace/index.xml" rel="self" type="application/rss+xml"/><item><title>RedmineやTracを上手に活用する6つのポイント</title><link>https://namaraii.com/post/2009/20091022_redminetrac64965192fb581/</link><pubDate>Thu, 22 Oct 2009 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2009/20091022_redminetrac64965192fb581/</guid><description>
+&lt;p>&lt;img src="https://namaraii.com/images/iE540turNblVW4.jpg" alt="/images/iE540turNblVW4.jpg">
+&lt;a href="http://www.photodropper.com/photos/">photo&lt;/a>
 credit:
-&lt;a href=&#34;http://www.flickr.com/photos/31931556@N04/4034905867/&#34;&gt;Mackトラ&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ソフトウェア開発プロジェクトの現場では課題やバグ、タスクを管理するために、RedmineやTracなどのIssue
+&lt;a href="http://www.flickr.com/photos/31931556@N04/4034905867/">Mackトラ&lt;/a>&lt;/p>
+&lt;p>ソフトウェア開発プロジェクトの現場では課題やバグ、タスクを管理するために、RedmineやTracなどのIssue
 Trackin
-System(課題追跡システム。以下ITSと表記)を使っていることが多いと思います。&lt;/p&gt;
-&lt;p&gt;ITSを使えばこれらの情報を一元化しプロジェクトメンバ間で共有できるため、うまく使えばとても役立ちますよね。&lt;/p&gt;
-&lt;p&gt;しかし、あまり深く考えずに導入すると、&lt;/p&gt;
-&lt;p&gt;「入力が大変だし余分な手間が増えただけだよ…」というメンバーからの不満の声&lt;br&gt;
-「この課題って本当に終わってるの？」といった疑心暗鬼&lt;br&gt;
-「このタスク、誰も進めてなかった！」という驚愕の事実が期限前日に判明&lt;/p&gt;
-&lt;p&gt;などといった状況に陥りがちです。&lt;/p&gt;
-&lt;p&gt;ここでは、いくつかのプロジェクトへ導入した経験から得た、ITSを運用する上で重要(と考える)な6つのポイントを紹介します。&lt;/p&gt;
-&lt;h4 id=&#34;ポイント1-チケット項目はマネジメントから逆算しシンプルに&#34;&gt;ポイント1 チケット項目はマネジメントから逆算しシンプルに&lt;/h4&gt;
-&lt;p&gt;チケットにはオリジナルの項目(属性)を追加できるため、いろいろ盛り込みたくなりますが、多くの入力項目があるチケット画面は見るだけでいやになりませんか？&lt;/p&gt;
-&lt;p&gt;それに、そもそも用途が明確でない項目を入力してもらうのは全くのムダです。&lt;/p&gt;
-&lt;p&gt;「どの情報をどのように見てマネジメントするか」から逆算してチケット項目を決定しましょう。できる限りシンプルに。&lt;/p&gt;
-&lt;h4 id=&#34;ポイント2-チケットの運用フローと入力ルールを明確に&#34;&gt;ポイント2 チケットの運用フローと入力ルールを明確に&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;span
-id=&#34;5344&#34;&gt;誰がチケットを起票しどのように担当者をアサインするか&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&#34;2626&#34;&gt;チケットのクローズ条件&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span
-id=&#34;98ce&#34;&gt;チケットの各項目(優先度、マイルストーンなど)へどのような情報を入力するか&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;などのチケット運用ルールを事前に定義し、運用を開始する前にプロジェクトメンバーへ周知しておきましょう。これらのルールもポイント1に書いたようにマネジメントから逆算です。&lt;/p&gt;
-&lt;p&gt;RedmineやtracであればWikiに書いておくのが良いですね。&lt;/p&gt;
-&lt;h4 id=&#34;ポイント3-itsをチケットの墓場にしない&#34;&gt;ポイント3 ITSをチケットの墓場にしない&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;span id=&#34;1bcc&#34;&gt;終了しているはずのチケットが閉じられていない&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span
-id=&#34;d213&#34;&gt;誰にもアサインされていないチケットが放置されている&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;このような状況は非常に危険です。ITSの情報が「あてにならない」ため、だんだん誰も使わなくなっていきます。そして、ITSはチケットの墓場に…&lt;/p&gt;
-&lt;p&gt;プロジェクトメンバーがチケットの運用に慣れるまでは週次でチケットの棚卸を行うなどして、チケットの情報鮮度を確保するようにしましょう。&lt;/p&gt;
-&lt;h4 id=&#34;ポイント4-プロマネのチケットに要注意&#34;&gt;ポイント4 プロマネのチケットに要注意&lt;/h4&gt;
-&lt;p&gt;プロマネやチームリーダーのチケットは要注意です。&lt;/p&gt;
-&lt;p&gt;管理すべき立場の人が期限切れのチケットを放置していたりすると、ほぼ確実にプロジェクト全体へ蔓延します。率先垂範を心がけましょう。&lt;/p&gt;
-&lt;h4 id=&#34;ポイント5-一元管理を徹底する&#34;&gt;ポイント5 一元管理を徹底する&lt;/h4&gt;
-&lt;p&gt;チケットへの情報集約を徹底しましょう。メールでやりとりされた内容、口頭で交わした内容などもチケットへ記入する習慣を。&lt;/p&gt;
-&lt;p&gt;また、社内の管理ルールにより、チケットへ入力した内容を社内の別システムへも入力しなければならないケースもあるでしょう。&lt;/p&gt;
-&lt;p&gt;そのような場合、プロジェクトメンバはチケットだけを入力すれば良いルールにして、社内システムへの転記は別の方法を考えましょう。二重投入が必要だとメンバにとっては「余分な手間が増えるだけ」です。&lt;/p&gt;
-&lt;h4 id=&#34;ポイント6-チケットのオーナーシップを意識付ける&#34;&gt;ポイント6 チケットのオーナーシップを意識付ける&lt;/h4&gt;
-&lt;p&gt;チケットの担当者が能動的にチケットを処理し、クローズまで責任を持って担当する土壌を作れるかはプロジェクト運営上、とても重要です。&lt;/p&gt;
-&lt;p&gt;まず、担当者が割り当たっていないチケットは、プロマネかチームリーダーが漏れなく割り当てるようにしましょう。&lt;/p&gt;
-&lt;p&gt;その上で、前述したチケットの棚卸で担当者別にフォローアップし、オーナーシップの意識付けを行えば良いと思います。&lt;/p&gt;
-&lt;p&gt;以上、私自身の経験から重要と考えている6つのポイントを紹介しました。&lt;/p&gt;
-&lt;p&gt;多少なりとも参考になる部分があればうれしいです。ただ、ITSの運用がうまくいってもプロジェクトがうまくとは限りません(^^)&lt;/p&gt;
-
-        
-      </description>
-    </item>
-    
-  </channel>
-</rss>
+System(課題追跡システム。以下ITSと表記)を使っていることが多いと思います。&lt;/p>
+&lt;p>ITSを使えばこれらの情報を一元化しプロジェクトメンバ間で共有できるため、うまく使えばとても役立ちますよね。&lt;/p>
+&lt;p>しかし、あまり深く考えずに導入すると、&lt;/p>
+&lt;p>「入力が大変だし余分な手間が増えただけだよ…」というメンバーからの不満の声&lt;br>
+「この課題って本当に終わってるの？」といった疑心暗鬼&lt;br>
+「このタスク、誰も進めてなかった！」という驚愕の事実が期限前日に判明&lt;/p>
+&lt;p>などといった状況に陥りがちです。&lt;/p>
+&lt;p>ここでは、いくつかのプロジェクトへ導入した経験から得た、ITSを運用する上で重要(と考える)な6つのポイントを紹介します。&lt;/p>
+&lt;h4 id="ポイント1-チケット項目はマネジメントから逆算しシンプルに">ポイント1 チケット項目はマネジメントから逆算しシンプルに&lt;/h4>
+&lt;p>チケットにはオリジナルの項目(属性)を追加できるため、いろいろ盛り込みたくなりますが、多くの入力項目があるチケット画面は見るだけでいやになりませんか？&lt;/p>
+&lt;p>それに、そもそも用途が明確でない項目を入力してもらうのは全くのムダです。&lt;/p>
+&lt;p>「どの情報をどのように見てマネジメントするか」から逆算してチケット項目を決定しましょう。できる限りシンプルに。&lt;/p>
+&lt;h4 id="ポイント2-チケットの運用フローと入力ルールを明確に">ポイント2 チケットの運用フローと入力ルールを明確に&lt;/h4>
+&lt;ul>
+&lt;li>&lt;span
+id="5344">誰がチケットを起票しどのように担当者をアサインするか&lt;/span>&lt;/li>
+&lt;li>&lt;span id="2626">チケットのクローズ条件&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="98ce">チケットの各項目(優先度、マイルストーンなど)へどのような情報を入力するか&lt;/span>&lt;/li>
+&lt;/ul>
+&lt;p>などのチケット運用ルールを事前に定義し、運用を開始する前にプロジェクトメンバーへ周知しておきましょう。これらのルールもポイント1に書いたようにマネジメントから逆算です。&lt;/p>
+&lt;p>RedmineやtracであればWikiに書いておくのが良いですね。&lt;/p>
+&lt;h4 id="ポイント3-itsをチケットの墓場にしない">ポイント3 ITSをチケットの墓場にしない&lt;/h4>
+&lt;ul>
+&lt;li>&lt;span id="1bcc">終了しているはずのチケットが閉じられていない&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="d213">誰にもアサインされていないチケットが放置されている&lt;/span>&lt;/li>
+&lt;/ul>
+&lt;p>このような状況は非常に危険です。ITSの情報が「あてにならない」ため、だんだん誰も使わなくなっていきます。そして、ITSはチケットの墓場に…&lt;/p>
+&lt;p>プロジェクトメンバーがチケットの運用に慣れるまでは週次でチケットの棚卸を行うなどして、チケットの情報鮮度を確保するようにしましょう。&lt;/p>
+&lt;h4 id="ポイント4-プロマネのチケットに要注意">ポイント4 プロマネのチケットに要注意&lt;/h4>
+&lt;p>プロマネやチームリーダーのチケットは要注意です。&lt;/p>
+&lt;p>管理すべき立場の人が期限切れのチケットを放置していたりすると、ほぼ確実にプロジェクト全体へ蔓延します。率先垂範を心がけましょう。&lt;/p>
+&lt;h4 id="ポイント5-一元管理を徹底する">ポイント5 一元管理を徹底する&lt;/h4>
+&lt;p>チケットへの情報集約を徹底しましょう。メールでやりとりされた内容、口頭で交わした内容などもチケットへ記入する習慣を。&lt;/p>
+&lt;p>また、社内の管理ルールにより、チケットへ入力した内容を社内の別システムへも入力しなければならないケースもあるでしょう。&lt;/p>
+&lt;p>そのような場合、プロジェクトメンバはチケットだけを入力すれば良いルールにして、社内システムへの転記は別の方法を考えましょう。二重投入が必要だとメンバにとっては「余分な手間が増えるだけ」です。&lt;/p>
+&lt;h4 id="ポイント6-チケットのオーナーシップを意識付ける">ポイント6 チケットのオーナーシップを意識付ける&lt;/h4>
+&lt;p>チケットの担当者が能動的にチケットを処理し、クローズまで責任を持って担当する土壌を作れるかはプロジェクト運営上、とても重要です。&lt;/p>
+&lt;p>まず、担当者が割り当たっていないチケットは、プロマネかチームリーダーが漏れなく割り当てるようにしましょう。&lt;/p>
+&lt;p>その上で、前述したチケットの棚卸で担当者別にフォローアップし、オーナーシップの意識付けを行えば良いと思います。&lt;/p>
+&lt;p>以上、私自身の経験から重要と考えている6つのポイントを紹介しました。&lt;/p>
+&lt;p>多少なりとも参考になる部分があればうれしいです。ただ、ITSの運用がうまくいってもプロジェクトがうまくとは限りません(^^)&lt;/p></description></item></channel></rss>

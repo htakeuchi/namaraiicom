@@ -1,338 +1,292 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>d3.js on namaraii.com</title>
-    <link>https://namaraii.com/tags/d3.js/</link>
-    <description>Recent content in d3.js on namaraii.com</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright>
-    <lastBuildDate>Tue, 01 May 2018 16:34:58 +0900</lastBuildDate><atom:link href="https://namaraii.com/tags/d3.js/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>D3.jsでJリーガーの出身地マップを作ってみた</title>
-      <link>https://namaraii.com/post/2018/20180501_d3-jplayer/</link>
-      <pubDate>Tue, 01 May 2018 16:34:58 +0900</pubDate>
-      
-      <guid>https://namaraii.com/post/2018/20180501_d3-jplayer/</guid>
-      <description>
-        
-          &lt;p&gt;D3.j3でJリーガーの出身地マップを作ってみました。&lt;/p&gt;
-&lt;p&gt;もっとも多いのは東京都の199人で、もっとも少ないのは…&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/map.png&#34; alt=&#34;Jリーガー出身地マップ&#34;&gt;&lt;/p&gt;
-&lt;p&gt;高知県の1名でした。なかなかおもしろい。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://namaraii.com/d3/jplayer/jplayer-map.html&#34;&gt;こちらのページ&lt;/a&gt;で実際に試せます。&lt;/p&gt;
-&lt;p&gt;出身の選手数が多いほど濃い色で表示され、マウスオーバーすると都道府県名・出身者数・選手名がツールチップで表示されます。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://gist.github.com/htakeuchi/70b802034289a29d8e170c2edc72c897&#34;&gt;ソースコードはこちら&lt;/a&gt;です。プログラム的には、&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;TopoJSON形式の地図データ表示&lt;/li&gt;
-&lt;li&gt;複数JSONファイルの扱い(Promise.allを使用)&lt;/li&gt;
-&lt;li&gt;都道府県ごとのツールチップ設定（表示は&lt;a href=&#34;https://atomiks.github.io/tippyjs/&#34;&gt;Tippy.js&lt;/a&gt;を使用）&lt;/li&gt;
-&lt;li&gt;d3.scaleLinearを用いた表示色の制御&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;などがトピックスでしょうか（というか、自分が勉強したことですが）&lt;/p&gt;
-&lt;p&gt;いくつかD3.jsでデータの見える化を試してみましたが、D3に食わせるデータを準備するところ、スクレイピングだったり、クレンジング、データの編集・加工などがいちばん大変かもしれません。（機械学習でも同じような苦しみがありますよね…）&lt;/p&gt;
-&lt;p&gt;以下は、地図情報の準備手順なのですが、まとまっておらず自分用の覚書です。&lt;/p&gt;
-&lt;h2 id=&#34;地図情報の準備覚書&#34;&gt;地図情報の準備(覚書)&lt;/h2&gt;
-&lt;h3 id=&#34;地形ファイルの入手&#34;&gt;地形ファイルの入手&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;国土数値情報（日本限定、ライセンスに注意）
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://nlftp.mlit.go.jp/ksj/index.html&#34;&gt;http://nlftp.mlit.go.jp/ksj/index.html&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Natural Earth（世界全体、ライセンスフリー。ただし日本国土の国境の扱いが日本政府の方針と異なるケースがある）
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.naturalearthdata.com/&#34;&gt;http://www.naturalearthdata.com/&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_1_states_provinces.zip&#34;&gt;http://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_1_states_provinces.zip&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;今回はNatural Earthのデータを利用(Admin 1 – States, Provinces)&lt;/p&gt;
-&lt;h3 id=&#34;geojson形式への変換&#34;&gt;GeoJSON形式への変換&lt;/h3&gt;
-&lt;p&gt;ShapeFileからGeoJSON形式に変換します。&lt;/p&gt;
-&lt;h4 id=&#34;関連ツールのインストール&#34;&gt;関連ツールのインストール&lt;/h4&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;npm install -g topojson
-&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;brew install gdal
-&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt;brew install node
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Natural EarthからダウンロードしたShapefileは日本以外の情報も含まれており、GeoJSON形式へ変換する際に、データの絞り込みができるogr2ogrを使う。&lt;/p&gt;
-&lt;p&gt;ogr2ogrが含まれる&lt;a href=&#34;http://www.gdal.org/&#34;&gt;GDAL: GDAL - Geospatial Data Abstraction Library&lt;/a&gt;をインストール。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;brew install gdal
-&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;
-&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt;ogr2ogr -f GeoJSON -where &lt;span class=&#34;s2&#34;&gt;&amp;#34;geonunit=&amp;#39;Japan&amp;#39;&amp;#34;&lt;/span&gt; temp.geojson ne_10m_admin_1_states_provinces.shp
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;実行時の演算を減らすため、事前にプロジェクションを適用する。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;npm install -g d3-geo-projection
-&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;
-&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt;geoproject &lt;span class=&#34;s1&#34;&gt;&amp;#39;d3.geoMercator().rotate([180, 0]).fitSize([960, 960], d)&amp;#39;&lt;/span&gt; &amp;lt; temp.geojson  &amp;gt; japan.json
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;生成されたjapan.jsonからSVGを生成して表示を確認する。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;geo2svg -w &lt;span class=&#34;m&#34;&gt;960&lt;/span&gt; -h &lt;span class=&#34;m&#34;&gt;960&lt;/span&gt; &amp;lt; japan.json &amp;gt; japan.svg
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;topojson形式への変換&#34;&gt;TopoJSON形式への変換&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://s.kitazaki.name/docs/geojson-spec-ja.html&#34;&gt;GeoJSON フォーマット仕様&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;GeoJSON形式からTopoJSON形式に変換する。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;geo2topo -p name -p name_local -p latitude -p longitude -o japan.json pref.json
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;作成したtopojson&#34;&gt;作成したTopoJSON&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://gist.github.com/htakeuchi/361266eb30d977e41ea049b17171f7d2/&#34;&gt;日本地図(TopoJSON)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Jupyter Notebooks上でTensorflow/Ruby/D3.jsを使えるDockerイメージを作った</title>
-      <link>https://namaraii.com/post/2018/20180413_docker-tensorflow-notebook-iruby/</link>
-      <pubDate>Fri, 13 Apr 2018 10:03:50 +0900</pubDate>
-      
-      <guid>https://namaraii.com/post/2018/20180413_docker-tensorflow-notebook-iruby/</guid>
-      <description>
-        
-          &lt;p&gt;データ解析やスクレイピングなど試行錯誤するタスクに便利なので、Jupyter NotebooksのDockerイメージを作った。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/htakeuchi/docker-tensorflow-notebook-iruby&#34;&gt;htakeuchi/docker-tensorflow-notebook-iruby: Jupyter Notebook Scientific Python Stack + Tensorflow + IRuby&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;せっかくなので、TensorflowやD3.j3、IRubyとデータ解析・グラフ描画のライブラリなども入れてごった煮に。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Everything in &lt;a href=&#34;https://github.com/jupyter/docker-stacks/tree/master/scipy-notebook&#34;&gt;Scipy Notebook&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Tensorflow and Keras for Python 3.x (without GPU support)&lt;/li&gt;
-&lt;li&gt;IRuby Notebook environment (Ruby 2.5.1)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/mrkn/pycall.rb&#34;&gt;PyCall&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/mrkn/numpy.rb&#34;&gt;mrkn/numpy.rb&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/mrkn/pandas.rb/&#34;&gt;mrkn/pandas.rb&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/domitry/nyaplot&#34;&gt;nyaplot&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://rubygems.org/gems/rbplotly/versions/0.1.2&#34;&gt;rbplotly&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/SciRuby/daru&#34;&gt;SciRuby/daru&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/genya0407/daru-plotly&#34;&gt;daru-plotly&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/ResidentMario/py_d3&#34;&gt;py_d3&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;a href=&#34;http://nbviewer.jupyter.org/gist/htakeuchi/8b1ce2b37919352b8b94ceca13b35729/IRuby-sample.ipynb&#34;&gt;こちらにIRubyのサンプル&lt;/a&gt;を置いときます。&lt;/p&gt;
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>D3.js(v4)のグラフサンプル集</title>
-      <link>https://namaraii.com/post/2018/20180407_d3v4-samples/</link>
-      <pubDate>Sat, 07 Apr 2018 10:03:26 +0900</pubDate>
-      
-      <guid>https://namaraii.com/post/2018/20180407_d3v4-samples/</guid>
-      <description>
-        
-          &lt;p&gt;2018年の1月にD3.js v5がリリースされました。&lt;/p&gt;
-&lt;p&gt;v4→v5はそれほど大きな変更はなかったようですが、v3→v4は名前空間が大きく変更されたため、多くのv3のコードはそのままではv4では動きません。&lt;/p&gt;
-&lt;p&gt;ネットでサンプルを検索すると未だv3のコードが多くヒットし、探しにくいため、基本的なグラフを中心にv4のサンプルを探して、まとめました。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;追記(2018年4月15日)&lt;/strong&gt; 一部v3のサンプルが混じっていたため削除&lt;/p&gt;
-&lt;p&gt;本家の&lt;a href=&#34;https://github.com/d3/d3/wiki/Gallery&#34;&gt;Gallery · d3/d3 Wiki&lt;/a&gt;に行けば、多くのサンプルがありますが、自分でコードを書く場合は少しでも多くのサンプルを参考にできた方がいいかなと。&lt;/p&gt;
-&lt;p&gt;Gistにサムネイルがアップされてないものは、bl.ocks.orgへのリンクだけになっています。見辛いですが、力尽きました。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;棒グラフ(Bar chart)
-&lt;ul&gt;
-&lt;li&gt;積み上げ棒グラフ(Stacked bar chart)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;折れ線グラフ(Line chart)&lt;/li&gt;
-&lt;li&gt;円グラフ(Pie Chart)
-&lt;ul&gt;
-&lt;li&gt;階段グラフ(Line chart)&lt;/li&gt;
-&lt;li&gt;ドーナツチャート(Donut chart)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;帯グラフ(Normalized stacked bar chart)&lt;/li&gt;
-&lt;li&gt;ヒストグラム(Histogram)&lt;/li&gt;
-&lt;li&gt;レーダーチャート(Radar chart)&lt;/li&gt;
-&lt;li&gt;散布図(Scatter chart)&lt;/li&gt;
-&lt;li&gt;箱ひげ図(Box plot)&lt;/li&gt;
-&lt;li&gt;バブルチャート(Bubble chart)&lt;/li&gt;
-&lt;li&gt;面グラフ(Area chart)&lt;/li&gt;
-&lt;li&gt;4象限マトリクス&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;棒グラフbar-chart&#34;&gt;棒グラフ(Bar chart)&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/bdf28027e0ce70bd132edc64f1dd7ea4.png&#34; alt=&#34;bdf28027e0ce70bd132edc64f1dd7ea4&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/d3noob/bdf28027e0ce70bd132edc64f1dd7ea4&#34;&gt;Simple bar graph in v4 - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/14e9f0d80ea6b0d8083ba95a9d571d13.png&#34; alt=&#34;14e9f0d80ea6b0d8083ba95a9d571d13&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/alanvillalobos/14e9f0d80ea6b0d8083ba95a9d571d13&#34;&gt;D3.js v4 Example/Tutorial: Responsive Bar Chart - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/eac0334d11568d160d0428abda9b0953.png&#34; alt=&#34;eac0334d11568d160d0428abda9b0953&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/kerstin/eac0334d11568d160d0428abda9b0953&#34;&gt;Simple, static SVG bar chart – D3.js v4 - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/7008d0332cc28a826b37b3cf6e7bd998.png&#34; alt=&#34;7008d0332cc28a826b37b3cf6e7bd998&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/alandunning/7008d0332cc28a826b37b3cf6e7bd998&#34;&gt;Horizontal Bar Chart with Tooltip D3 V4 - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/5eb73aa907d64ee6e5f1d97b922c8801.png&#34; alt=&#34;5eb73aa907d64ee6e5f1d97b922c8801&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/shimizu/5eb73aa907d64ee6e5f1d97b922c8801&#34;&gt;D3 v4 - barchart - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/noimage.png&#34; alt=&#34;ec245e1f4e824e685982dd5d3fbb2fcc&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/seemantk/ec245e1f4e824e685982dd5d3fbb2fcc&#34;&gt;Bar Chart IV - d3v4 - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/noimage.png&#34; alt=&#34;f1c9036b0deb058454f825238a95b6be&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/syncopika/f1c9036b0deb058454f825238a95b6be&#34;&gt;updating a bar chart with d3.js (v4) - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/274bf248fd0f362d64674920e85c1eb7.png&#34; alt=&#34;274bf248fd0f362d64674920e85c1eb7&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/alandunning/274bf248fd0f362d64674920e85c1eb7&#34;&gt;Bar Chart with Tooltip with Tooltip D3 V4 - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/c23bf3940bc5f1ee4027ccc72097a03b.png&#34; alt=&#34;c23bf3940bc5f1ee4027ccc72097a03b&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/stevenwmarks/c23bf3940bc5f1ee4027ccc72097a03b&#34;&gt;bar chart negative values - v4 - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/3887051.png&#34; alt=&#34;3887051&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/mbostock/3887051&#34;&gt;Grouped Bar Chart - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;積み上げ棒グラフstacked-bar-chart&#34;&gt;積み上げ棒グラフ(Stacked bar chart)&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/3886208.png&#34; alt=&#34;3886208&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/mbostock/3886208&#34;&gt;Stacked Bar Chart - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/8979a6c1063a4022cbd738b4498a0ba6.png&#34; alt=&#34;8979a6c1063a4022cbd738b4498a0ba6&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/caravinden/8979a6c1063a4022cbd738b4498a0ba6&#34;&gt;Stacked Bar Chart - d3.v4 implementation - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/32a3d192e0e5f6af81f4bcc12adda8f7.png&#34; alt=&#34;32a3d192e0e5f6af81f4bcc12adda8f7&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/caravinden/32a3d192e0e5f6af81f4bcc12adda8f7&#34;&gt;Horizontal stacked bar chart implementation in d3.v4 - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/2a9e6f11f2a27b6af0c28c4e5e524f10.png&#34; alt=&#34;2a9e6f11f2a27b6af0c28c4e5e524f10&#34;&gt;
-&lt;a href=&#34;http://bl.ocks.org/ChandrakantThakkarDigiCorp/2a9e6f11f2a27b6af0c28c4e5e524f10&#34;&gt;Horizontal Stack Bar Chart D3 V4 - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/noimage.png&#34; alt=&#34;fd1afd96ecea6898113f477896f07a44&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/ayala-usma/fd1afd96ecea6898113f477896f07a44&#34;&gt;Stacked Bar Chart with Tooltip and Color Change D3.v4 - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/noimage.png&#34; alt=&#34;96fe8772549aa4ecd54d91ec4228f507&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/anonymous/96fe8772549aa4ecd54d91ec4228f507&#34;&gt;D3js v4 Stacked Bar Chart - with Tooltip Hover - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/noimage.png&#34; alt=&#34;352ad2e6f577c4abf55e29e6d422535a&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/lorenzopub/352ad2e6f577c4abf55e29e6d422535a&#34;&gt;Stacked-to-Grouped Bars II - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/noimage.png&#34; alt=&#34;7c9bdfd714ab2f2e39dd5c09057a55a0&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/mjfoster83/7c9bdfd714ab2f2e39dd5c09057a55a0&#34;&gt;D3js v4 Stacked Bar Chart - with Tooltip Hover - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/noimage.png&#34; alt=&#34;689368252f55179e12185e13c5ed1fee&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/DimsumPanda/689368252f55179e12185e13c5ed1fee&#34;&gt;Stacked Bar Charts D3 v4 - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/noimage.png&#34; alt=&#34;7c9bdfd714ab2f2e39dd5c09057a55a0&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/mjfoster83/7c9bdfd714ab2f2e39dd5c09057a55a0&#34;&gt;D3js v4 Stacked Bar Chart - with Tooltip Hover - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;折れ線グラフline-chart&#34;&gt;折れ線グラフ(Line chart)&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/402dd382a51a4f6eea487f9a35566de0.png&#34; alt=&#34;402dd382a51a4f6eea487f9a35566de0&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/d3noob/402dd382a51a4f6eea487f9a35566de0&#34;&gt;Simple line graph with v4 - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/26363646c478b2028d36e7274cedefa6.png&#34; alt=&#34;26363646c478b2028d36e7274cedefa6&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/pstuffa/26363646c478b2028d36e7274cedefa6&#34;&gt;D3 v4 Line Chart - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/26363646c478b2028d36e7274cedefa6.png&#34; alt=&#34;26363646c478b2028d36e7274cedefa6&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/pstuffa/26363646c478b2028d36e7274cedefa6&#34;&gt;D3 v4 Line Chart - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/noimage.png&#34; alt=&#34;ceb7065687c125223339a26a47d58a28&#34;&gt;
-&lt;a href=&#34;http://bl.ocks.org/denisemauldin/ceb7065687c125223339a26a47d58a28&#34;&gt;d3 v4 realtime line chart - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/119a138ef9bd1d8f0a8d57ea72355252.png&#34; alt=&#34;119a138ef9bd1d8f0a8d57ea72355252&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/d3noob/119a138ef9bd1d8f0a8d57ea72355252&#34;&gt;Simple graph with filled area in v4 - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/noimage.png&#34; alt=&#34;1ffe16ccf8bed2035ea5091ab9bb53fb&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/deristnochda/1ffe16ccf8bed2035ea5091ab9bb53fb&#34;&gt;d3js v4 zoomable line chart - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/cd2c9da1388565a6fb9ce5fba95168db.png&#34; alt=&#34;cd2c9da1388565a6fb9ce5fba95168db&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/emmasaunders/cd2c9da1388565a6fb9ce5fba95168db&#34;&gt;Line chart from csv (v4) - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;階段グラフline-chart&#34;&gt;階段グラフ(Line chart)&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/f7ef798894427a99efe5e173e003260d.png&#34; alt=&#34;f7ef798894427a99efe5e173e003260d&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/shimizu/f7ef798894427a99efe5e173e003260d&#34;&gt;D3 v4 - linechart - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;円グラフpie-chart&#34;&gt;円グラフ(Pie Chart)&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/c8ce360f8bc896ffa6c16d30a4cd026b.png&#34; alt=&#34;c8ce360f8bc896ffa6c16d30a4cd026b&#34;&gt;
-&lt;a href=&#34;http://bl.ocks.org/ChandrakantThakkarDigiCorp/c8ce360f8bc896ffa6c16d30a4cd026b&#34;&gt;Pie Chart D3 V4 - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/f90651541575f348a129444003a73467.png&#34; alt=&#34;f90651541575f348a129444003a73467&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/shimizu/f90651541575f348a129444003a73467&#34;&gt;D3 v4 - piechart - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/b2504f8f3e384de4ff2b9dfa60f325e2.png&#34; alt=&#34;b2504f8f3e384de4ff2b9dfa60f325e2&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/mbhall88/b2504f8f3e384de4ff2b9dfa60f325e2&#34;&gt;A static, reusable donut chart for D3.js v4. - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/3887235.png&#34; alt=&#34;3887235&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/mbostock/3887235&#34;&gt;Pie Chart - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/noimage.png&#34; alt=&#34;c2653d42ffb4ecc01ffe2d6c97b2ee5e&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/tezzutezzu/c2653d42ffb4ecc01ffe2d6c97b2ee5e&#34;&gt;Pie Chart Update v4 - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/noimage.png&#34; alt=&#34;6560687444d2e1421e4d24360c27728a&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/jsl6906/6560687444d2e1421e4d24360c27728a&#34;&gt;d3.js v4 pack layout with pie chart - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/noimage.png&#34; alt=&#34;e2cb52828c080ba85da5458e2304a61f&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/farazshuja/e2cb52828c080ba85da5458e2304a61f&#34;&gt;D3 Pie chart with percentage outside - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/noimage.png&#34; alt=&#34;225c6df494811f46f6ea53eba63da817&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/rshaker/225c6df494811f46f6ea53eba63da817&#34;&gt;Update and transition of pie chart - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/noimage.png&#34; alt=&#34;f3685ca8a1a7f5be1967f39f367437c0&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/santi698/f3685ca8a1a7f5be1967f39f367437c0&#34;&gt;Pie Chart (d3js v4) - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;ドーナツチャートdonut-chart&#34;&gt;ドーナツチャート(Donut chart)&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/b2504f8f3e384de4ff2b9dfa60f325e2.png&#34; alt=&#34;b2504f8f3e384de4ff2b9dfa60f325e2&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/mbhall88/b2504f8f3e384de4ff2b9dfa60f325e2&#34;&gt;A static, reusable donut chart for D3.js v4. - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/f64c027d14ce4f26e35fcdc99b9bb43e.png&#34; alt=&#34;f64c027d14ce4f26e35fcdc99b9bb43e&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/KingOfCramers/f64c027d14ce4f26e35fcdc99b9bb43e&#34;&gt;Interactive Donut Chart - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/noimage.png&#34; alt=&#34;b082c1f22ef78d41201eed8581ae282b&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/lcastrogarcia/b082c1f22ef78d41201eed8581ae282b&#34;&gt;Pie Chart Update v4 - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/e46f38d44a049a61ab1c2d97a2413439.png&#34; alt=&#34;e46f38d44a049a61ab1c2d97a2413439&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/martinjc/e46f38d44a049a61ab1c2d97a2413439&#34;&gt;D3 - Donut chart with labels and connectors (Data: random teaching evaluation survey results) - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/f90651541575f348a129444003a73467.png&#34; alt=&#34;f90651541575f348a129444003a73467&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/shimizu/f90651541575f348a129444003a73467&#34;&gt;D3 v4 - piechart - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/2394b23da1994fc202e1.png&#34; alt=&#34;2394b23da1994fc202e1&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/mbostock/2394b23da1994fc202e1&#34;&gt;Canvas Donut - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/e1cdbbe586ac31747b4a304f8f86efa5.png&#34; alt=&#34;e1cdbbe586ac31747b4a304f8f86efa5&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/denjn5/e1cdbbe586ac31747b4a304f8f86efa5&#34;&gt;Sunburst Tutorial (d3 v4), Part 1 - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/noimage.png&#34; alt=&#34;c3f4eb2b16b86dd0f641263383f05a13&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/vickygisel/c3f4eb2b16b86dd0f641263383f05a13&#34;&gt;Donut Chart - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;帯グラフnormalized-stacked-bar-chart&#34;&gt;帯グラフ(Normalized stacked bar chart)&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/3886394.png&#34; alt=&#34;3886394&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/mbostock/3886394&#34;&gt;Normalized Stacked Bar Chart - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/noimage.png&#34; alt=&#34;bd506812787c423e4560e72102a7ce94&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/LauraCortes/bd506812787c423e4560e72102a7ce94&#34;&gt;Normalized Stacked Bar Chart - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/noimage.png&#34; alt=&#34;690c73824e2b4ad1351fccdc1781df9a&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/lorenzopub/690c73824e2b4ad1351fccdc1781df9a&#34;&gt;Normalized Stacked Bar Chart - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/8d2112a115ad95f4a6848001389182fb.png&#34; alt=&#34;8d2112a115ad95f4a6848001389182fb&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/mbostock/8d2112a115ad95f4a6848001389182fb&#34;&gt;Radial Normalized Stacked Bar - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;ヒストグラムhistogram&#34;&gt;ヒストグラム(Histogram)&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/96b74d0bd6d11427dd797892551a103c.png&#34; alt=&#34;96b74d0bd6d11427dd797892551a103c&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/d3noob/96b74d0bd6d11427dd797892551a103c&#34;&gt;Simple histogram using v4 - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/3048450.png&#34; alt=&#34;3048450&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/mbostock/3048450&#34;&gt;Histogram - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/b2fee5dae98555cf78c9e4c5074b87c3.png&#34; alt=&#34;b2fee5dae98555cf78c9e4c5074b87c3&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/mbostock/b2fee5dae98555cf78c9e4c5074b87c3&#34;&gt;Histogram II - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/495cd567e0ede0deeb14bb3599dce685.png&#34; alt=&#34;495cd567e0ede0deeb14bb3599dce685&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/SevenChan07/495cd567e0ede0deeb14bb3599dce685&#34;&gt;brush histogram - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;レーダーチャートradar-chart&#34;&gt;レーダーチャート(Radar chart)&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/4c36eb1abdb248de34c64f5672afd857.png&#34; alt=&#34;4c36eb1abdb248de34c64f5672afd857&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/alandunning/4c36eb1abdb248de34c64f5672afd857&#34;&gt;Radar Chart D3 V4 - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/7e17b680b35b83b49f1c22a3613bd89f.png&#34; alt=&#34;7e17b680b35b83b49f1c22a3613bd89f&#34;&gt;
-&lt;a href=&#34;http://bl.ocks.org/mthh/7e17b680b35b83b49f1c22a3613bd89f&#34;&gt;Radar Chart d3 v4 - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/noimage.png&#34; alt=&#34;52343b3006b96c9b8195a88df5b52726&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/giguerre/52343b3006b96c9b8195a88df5b52726&#34;&gt;Radar Chart - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/dfee3b6061e50ad73d9df7a7a73b68e9.png&#34; alt=&#34;dfee3b6061e50ad73d9df7a7a73b68e9&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/tlfrd/dfee3b6061e50ad73d9df7a7a73b68e9&#34;&gt;Radar Chart - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/noimage.png&#34; alt=&#34;6b58692fa92fdb4246b1cbcb3108081e&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/newsummit/6b58692fa92fdb4246b1cbcb3108081e&#34;&gt;Nodes on Radar Chart - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;散布図scatter-chart&#34;&gt;散布図(Scatter chart)&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/noimage.png&#34; alt=&#34;076377dd0125b1a508621441752735fc&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/Jverma/076377dd0125b1a508621441752735fc&#34;&gt;Scatterplot of Iris data : d3 v4 - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/noimage.png&#34; alt=&#34;ce6903fad978d20773c41ee34bf6735c&#34;&gt;
-&lt;a href=&#34;http://bl.ocks.org/rajvansia/ce6903fad978d20773c41ee34bf6735c&#34;&gt;Scatterplot with brush d3 v4 - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/d956f19f2e56a05c31fb6583beccfda7.png&#34; alt=&#34;d956f19f2e56a05c31fb6583beccfda7&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/EfratVil/d956f19f2e56a05c31fb6583beccfda7&#34;&gt;Scatter plot with zoom - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/6f082f0e3b820b6bf68b78f2f7786084.png&#34; alt=&#34;6f082f0e3b820b6bf68b78f2f7786084&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/d3noob/6f082f0e3b820b6bf68b78f2f7786084&#34;&gt;Scatterplot with v4 - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/6f7f1dd55e0c52ce5ee0dac2b2769f4b.png&#34; alt=&#34;6f7f1dd55e0c52ce5ee0dac2b2769f4b&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/sebg/6f7f1dd55e0c52ce5ee0dac2b2769f4b&#34;&gt;D3V4 Scatterplot - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/noimage.png&#34; alt=&#34;d2be3d62a09360a770b79f4e5527eea8&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/aleereza/d2be3d62a09360a770b79f4e5527eea8&#34;&gt;D3 v4 - Scatter Plot - Semantic Zooming - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/noimage.png&#34; alt=&#34;0869b7ae854c148121bb4ca7c9dc9095&#34;&gt;
-&lt;a href=&#34;http://bl.ocks.org/romsson/0869b7ae854c148121bb4ca7c9dc9095&#34;&gt;Scatterplot Iris (d3.v4) - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/noimage.png&#34; alt=&#34;c645e2aa3a4fe313269afc1c39c8a05d&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/oikonang/c645e2aa3a4fe313269afc1c39c8a05d&#34;&gt;Scatterplot with a toggle button using D3.v4 - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/2505b09d0feb51d0c9873cc486f10f67.png&#34; alt=&#34;2505b09d0feb51d0c9873cc486f10f67&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/d3noob/2505b09d0feb51d0c9873cc486f10f67&#34;&gt;Simple scatter plot in v4 - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;箱ひげ図box-plot&#34;&gt;箱ひげ図(Box plot)&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/e04ceddae2e8f85cf3afe4681dac1d74.png&#34; alt=&#34;e04ceddae2e8f85cf3afe4681dac1d74&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/rjurney/e04ceddae2e8f85cf3afe4681dac1d74&#34;&gt;Simple Box Plot Example in d3.js v4.0 - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/a246611653fdd9ae7660a97a7d096052.png&#34; alt=&#34;a246611653fdd9ae7660a97a7d096052&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/trembl/a246611653fdd9ae7660a97a7d096052&#34;&gt;Box Plots v4 - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/cc40e7d583346b2a8a5a2f9e296d3007.png&#34; alt=&#34;cc40e7d583346b2a8a5a2f9e296d3007&#34;&gt;
-&lt;a href=&#34;http://bl.ocks.org/eesur/cc40e7d583346b2a8a5a2f9e296d3007&#34;&gt;d3js | box and whiskers (boxplot) - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;バブルチャートbubble-chart&#34;&gt;バブルチャート(Bubble chart)&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/noimage.png&#34; alt=&#34;3d6be4be0ef9f6977ec6718b2916d168&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/alokkshukla/3d6be4be0ef9f6977ec6718b2916d168&#34;&gt;Bubble Chart - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/noimage.png&#34; alt=&#34;0d81ccfd24578d5d563c55e785b3b40a&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/john-guerra/0d81ccfd24578d5d563c55e785b3b40a&#34;&gt;Bubble Chart d3 v4 - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/noimage.png&#34; alt=&#34;cbf8d2ec446c9c76e1bdc9abd211e189&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/Hugoberry/cbf8d2ec446c9c76e1bdc9abd211e189&#34;&gt;Bubble Chart - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/51c76ec99c3ffee2fde6923ac14a4dd4.png&#34; alt=&#34;51c76ec99c3ffee2fde6923ac14a4dd4&#34;&gt;
-&lt;a href=&#34;http://bl.ocks.org/alandunning/51c76ec99c3ffee2fde6923ac14a4dd4&#34;&gt;Bubble Matrix Chart V4 - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;面グラフarea-chart&#34;&gt;面グラフ(Area chart)&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/119a138ef9bd1d8f0a8d57ea72355252.png&#34; alt=&#34;119a138ef9bd1d8f0a8d57ea72355252&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/d3noob/119a138ef9bd1d8f0a8d57ea72355252&#34;&gt;Simple graph with filled area in v4 - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/noimage.png&#34; alt=&#34;0b09968e3d4970d845a5f45ed25595bb&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/lorenzopub/0b09968e3d4970d845a5f45ed25595bb&#34;&gt;for reference: stacked area chart d3 v4 - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/3883195.png&#34; alt=&#34;3883195&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/mbostock/3883195&#34;&gt;Area Chart - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/3885211.png&#34; alt=&#34;3885211&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/mbostock/3885211&#34;&gt;Stacked Area Chart - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/49570a3cd70390c257c80ac75c5049f1.png&#34; alt=&#34;49570a3cd70390c257c80ac75c5049f1&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/d3noob/49570a3cd70390c257c80ac75c5049f1&#34;&gt;Area graph with gradient in v4 - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/noimage.png&#34; alt=&#34;21ecf1bf5d2568b854934a74050b31e6&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/Cthulahoop/21ecf1bf5d2568b854934a74050b31e6&#34;&gt;Simple filled area in v4 - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/noimage.png&#34; alt=&#34;53fe83f0df7fd26015954e4968fe93fd&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/gchan5/53fe83f0df7fd26015954e4968fe93fd&#34;&gt;Stacked area chart d3 - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/3035090.png&#34; alt=&#34;3035090&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/mbostock/3035090&#34;&gt;Area with Missing Data - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/8a5b1cc987217607a47bd7d4e0fffacb.png&#34; alt=&#34;8a5b1cc987217607a47bd7d4e0fffacb&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/carlvlewis/8a5b1cc987217607a47bd7d4e0fffacb&#34;&gt;A single d3.js V4 chart with &#39;small multiples&#39; along single categorical x-axis - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;4象限マトリクス&#34;&gt;4象限マトリクス&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/d3/samples/18c5ec8d06938edd31968e2fd104a58a.png&#34; alt=&#34;18c5ec8d06938edd31968e2fd104a58a&#34;&gt;
-&lt;a href=&#34;https://bl.ocks.org/alandunning/18c5ec8d06938edd31968e2fd104a58a&#34;&gt;4 Quadrant Scatter Plot D3 v4 - bl.ocks.org&lt;/a&gt;&lt;/p&gt;
-        
-      </description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>d3.js on namaraii.com</title><link>https://namaraii.com/tags/d3.js/</link><description>Recent content in d3.js on namaraii.com</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright><lastBuildDate>Tue, 01 May 2018 16:34:58 +0900</lastBuildDate><atom:link href="https://namaraii.com/tags/d3.js/index.xml" rel="self" type="application/rss+xml"/><item><title>D3.jsでJリーガーの出身地マップを作ってみた</title><link>https://namaraii.com/post/2018/20180501_d3-jplayer/</link><pubDate>Tue, 01 May 2018 16:34:58 +0900</pubDate><guid>https://namaraii.com/post/2018/20180501_d3-jplayer/</guid><description>
+&lt;p>D3.j3でJリーガーの出身地マップを作ってみました。&lt;/p>
+&lt;p>もっとも多いのは東京都の199人で、もっとも少ないのは…&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/map.png" alt="Jリーガー出身地マップ">&lt;/p>
+&lt;p>高知県の1名でした。なかなかおもしろい。&lt;/p>
+&lt;p>&lt;a href="https://namaraii.com/d3/jplayer/jplayer-map.html">こちらのページ&lt;/a>で実際に試せます。&lt;/p>
+&lt;p>出身の選手数が多いほど濃い色で表示され、マウスオーバーすると都道府県名・出身者数・選手名がツールチップで表示されます。&lt;/p>
+&lt;p>&lt;a href="https://gist.github.com/htakeuchi/70b802034289a29d8e170c2edc72c897">ソースコードはこちら&lt;/a>です。プログラム的には、&lt;/p>
+&lt;ul>
+&lt;li>TopoJSON形式の地図データ表示&lt;/li>
+&lt;li>複数JSONファイルの扱い(Promise.allを使用)&lt;/li>
+&lt;li>都道府県ごとのツールチップ設定（表示は&lt;a href="https://atomiks.github.io/tippyjs/">Tippy.js&lt;/a>を使用）&lt;/li>
+&lt;li>d3.scaleLinearを用いた表示色の制御&lt;/li>
+&lt;/ul>
+&lt;p>などがトピックスでしょうか（というか、自分が勉強したことですが）&lt;/p>
+&lt;p>いくつかD3.jsでデータの見える化を試してみましたが、D3に食わせるデータを準備するところ、スクレイピングだったり、クレンジング、データの編集・加工などがいちばん大変かもしれません。（機械学習でも同じような苦しみがありますよね…）&lt;/p>
+&lt;p>以下は、地図情報の準備手順なのですが、まとまっておらず自分用の覚書です。&lt;/p>
+&lt;h2 id="地図情報の準備覚書">地図情報の準備(覚書)&lt;/h2>
+&lt;h3 id="地形ファイルの入手">地形ファイルの入手&lt;/h3>
+&lt;ul>
+&lt;li>国土数値情報（日本限定、ライセンスに注意）
+&lt;ul>
+&lt;li>&lt;a href="http://nlftp.mlit.go.jp/ksj/index.html">http://nlftp.mlit.go.jp/ksj/index.html&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Natural Earth（世界全体、ライセンスフリー。ただし日本国土の国境の扱いが日本政府の方針と異なるケースがある）
+&lt;ul>
+&lt;li>&lt;a href="http://www.naturalearthdata.com/">http://www.naturalearthdata.com/&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="http://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_1_states_provinces.zip">http://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_1_states_provinces.zip&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>今回はNatural Earthのデータを利用(Admin 1 – States, Provinces)&lt;/p>
+&lt;h3 id="geojson形式への変換">GeoJSON形式への変換&lt;/h3>
+&lt;p>ShapeFileからGeoJSON形式に変換します。&lt;/p>
+&lt;h4 id="関連ツールのインストール">関連ツールのインストール&lt;/h4>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="ln">1&lt;/span>npm install -g topojson
+&lt;span class="ln">2&lt;/span>brew install gdal
+&lt;span class="ln">3&lt;/span>brew install node
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Natural EarthからダウンロードしたShapefileは日本以外の情報も含まれており、GeoJSON形式へ変換する際に、データの絞り込みができるogr2ogrを使う。&lt;/p>
+&lt;p>ogr2ogrが含まれる&lt;a href="http://www.gdal.org/">GDAL: GDAL - Geospatial Data Abstraction Library&lt;/a>をインストール。&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="ln">1&lt;/span>brew install gdal
+&lt;span class="ln">2&lt;/span>
+&lt;span class="ln">3&lt;/span>ogr2ogr -f GeoJSON -where &lt;span class="s2">&amp;#34;geonunit=&amp;#39;Japan&amp;#39;&amp;#34;&lt;/span> temp.geojson ne_10m_admin_1_states_provinces.shp
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>実行時の演算を減らすため、事前にプロジェクションを適用する。&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="ln">1&lt;/span>npm install -g d3-geo-projection
+&lt;span class="ln">2&lt;/span>
+&lt;span class="ln">3&lt;/span>geoproject &lt;span class="s1">&amp;#39;d3.geoMercator().rotate([180, 0]).fitSize([960, 960], d)&amp;#39;&lt;/span> &amp;lt; temp.geojson &amp;gt; japan.json
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>生成されたjapan.jsonからSVGを生成して表示を確認する。&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="ln">1&lt;/span>geo2svg -w &lt;span class="m">960&lt;/span> -h &lt;span class="m">960&lt;/span> &amp;lt; japan.json &amp;gt; japan.svg
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="topojson形式への変換">TopoJSON形式への変換&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="http://s.kitazaki.name/docs/geojson-spec-ja.html">GeoJSON フォーマット仕様&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>GeoJSON形式からTopoJSON形式に変換する。&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="ln">1&lt;/span>geo2topo -p name -p name_local -p latitude -p longitude -o japan.json pref.json
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="作成したtopojson">作成したTopoJSON&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://gist.github.com/htakeuchi/361266eb30d977e41ea049b17171f7d2/">日本地図(TopoJSON)&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Jupyter Notebooks上でTensorflow/Ruby/D3.jsを使えるDockerイメージを作った</title><link>https://namaraii.com/post/2018/20180413_docker-tensorflow-notebook-iruby/</link><pubDate>Fri, 13 Apr 2018 10:03:50 +0900</pubDate><guid>https://namaraii.com/post/2018/20180413_docker-tensorflow-notebook-iruby/</guid><description>
+&lt;p>データ解析やスクレイピングなど試行錯誤するタスクに便利なので、Jupyter NotebooksのDockerイメージを作った。&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/htakeuchi/docker-tensorflow-notebook-iruby">htakeuchi/docker-tensorflow-notebook-iruby: Jupyter Notebook Scientific Python Stack + Tensorflow + IRuby&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>せっかくなので、TensorflowやD3.j3、IRubyとデータ解析・グラフ描画のライブラリなども入れてごった煮に。&lt;/p>
+&lt;ul>
+&lt;li>Everything in &lt;a href="https://github.com/jupyter/docker-stacks/tree/master/scipy-notebook">Scipy Notebook&lt;/a>&lt;/li>
+&lt;li>Tensorflow and Keras for Python 3.x (without GPU support)&lt;/li>
+&lt;li>IRuby Notebook environment (Ruby 2.5.1)&lt;/li>
+&lt;li>&lt;a href="https://github.com/mrkn/pycall.rb">PyCall&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/mrkn/numpy.rb">mrkn/numpy.rb&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/mrkn/pandas.rb/">mrkn/pandas.rb&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/domitry/nyaplot">nyaplot&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://rubygems.org/gems/rbplotly/versions/0.1.2">rbplotly&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/SciRuby/daru">SciRuby/daru&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/genya0407/daru-plotly">daru-plotly&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/ResidentMario/py_d3">py_d3&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;a href="http://nbviewer.jupyter.org/gist/htakeuchi/8b1ce2b37919352b8b94ceca13b35729/IRuby-sample.ipynb">こちらにIRubyのサンプル&lt;/a>を置いときます。&lt;/p></description></item><item><title>D3.js(v4)のグラフサンプル集</title><link>https://namaraii.com/post/2018/20180407_d3v4-samples/</link><pubDate>Sat, 07 Apr 2018 10:03:26 +0900</pubDate><guid>https://namaraii.com/post/2018/20180407_d3v4-samples/</guid><description>
+&lt;p>2018年の1月にD3.js v5がリリースされました。&lt;/p>
+&lt;p>v4→v5はそれほど大きな変更はなかったようですが、v3→v4は名前空間が大きく変更されたため、多くのv3のコードはそのままではv4では動きません。&lt;/p>
+&lt;p>ネットでサンプルを検索すると未だv3のコードが多くヒットし、探しにくいため、基本的なグラフを中心にv4のサンプルを探して、まとめました。&lt;/p>
+&lt;p>&lt;strong>追記(2018年4月15日)&lt;/strong> 一部v3のサンプルが混じっていたため削除&lt;/p>
+&lt;p>本家の&lt;a href="https://github.com/d3/d3/wiki/Gallery">Gallery · d3/d3 Wiki&lt;/a>に行けば、多くのサンプルがありますが、自分でコードを書く場合は少しでも多くのサンプルを参考にできた方がいいかなと。&lt;/p>
+&lt;p>Gistにサムネイルがアップされてないものは、bl.ocks.orgへのリンクだけになっています。見辛いですが、力尽きました。&lt;/p>
+&lt;ul>
+&lt;li>棒グラフ(Bar chart)
+&lt;ul>
+&lt;li>積み上げ棒グラフ(Stacked bar chart)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>折れ線グラフ(Line chart)&lt;/li>
+&lt;li>円グラフ(Pie Chart)
+&lt;ul>
+&lt;li>階段グラフ(Line chart)&lt;/li>
+&lt;li>ドーナツチャート(Donut chart)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>帯グラフ(Normalized stacked bar chart)&lt;/li>
+&lt;li>ヒストグラム(Histogram)&lt;/li>
+&lt;li>レーダーチャート(Radar chart)&lt;/li>
+&lt;li>散布図(Scatter chart)&lt;/li>
+&lt;li>箱ひげ図(Box plot)&lt;/li>
+&lt;li>バブルチャート(Bubble chart)&lt;/li>
+&lt;li>面グラフ(Area chart)&lt;/li>
+&lt;li>4象限マトリクス&lt;/li>
+&lt;/ul>
+&lt;h2 id="棒グラフbar-chart">棒グラフ(Bar chart)&lt;/h2>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/bdf28027e0ce70bd132edc64f1dd7ea4.png" alt="bdf28027e0ce70bd132edc64f1dd7ea4">
+&lt;a href="https://bl.ocks.org/d3noob/bdf28027e0ce70bd132edc64f1dd7ea4">Simple bar graph in v4 - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/14e9f0d80ea6b0d8083ba95a9d571d13.png" alt="14e9f0d80ea6b0d8083ba95a9d571d13">
+&lt;a href="https://bl.ocks.org/alanvillalobos/14e9f0d80ea6b0d8083ba95a9d571d13">D3.js v4 Example/Tutorial: Responsive Bar Chart - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/eac0334d11568d160d0428abda9b0953.png" alt="eac0334d11568d160d0428abda9b0953">
+&lt;a href="https://bl.ocks.org/kerstin/eac0334d11568d160d0428abda9b0953">Simple, static SVG bar chart – D3.js v4 - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/7008d0332cc28a826b37b3cf6e7bd998.png" alt="7008d0332cc28a826b37b3cf6e7bd998">
+&lt;a href="https://bl.ocks.org/alandunning/7008d0332cc28a826b37b3cf6e7bd998">Horizontal Bar Chart with Tooltip D3 V4 - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/5eb73aa907d64ee6e5f1d97b922c8801.png" alt="5eb73aa907d64ee6e5f1d97b922c8801">
+&lt;a href="https://bl.ocks.org/shimizu/5eb73aa907d64ee6e5f1d97b922c8801">D3 v4 - barchart - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/noimage.png" alt="ec245e1f4e824e685982dd5d3fbb2fcc">
+&lt;a href="https://bl.ocks.org/seemantk/ec245e1f4e824e685982dd5d3fbb2fcc">Bar Chart IV - d3v4 - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/noimage.png" alt="f1c9036b0deb058454f825238a95b6be">
+&lt;a href="https://bl.ocks.org/syncopika/f1c9036b0deb058454f825238a95b6be">updating a bar chart with d3.js (v4) - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/274bf248fd0f362d64674920e85c1eb7.png" alt="274bf248fd0f362d64674920e85c1eb7">
+&lt;a href="https://bl.ocks.org/alandunning/274bf248fd0f362d64674920e85c1eb7">Bar Chart with Tooltip with Tooltip D3 V4 - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/c23bf3940bc5f1ee4027ccc72097a03b.png" alt="c23bf3940bc5f1ee4027ccc72097a03b">
+&lt;a href="https://bl.ocks.org/stevenwmarks/c23bf3940bc5f1ee4027ccc72097a03b">bar chart negative values - v4 - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/3887051.png" alt="3887051">
+&lt;a href="https://bl.ocks.org/mbostock/3887051">Grouped Bar Chart - bl.ocks.org&lt;/a>&lt;/p>
+&lt;h3 id="積み上げ棒グラフstacked-bar-chart">積み上げ棒グラフ(Stacked bar chart)&lt;/h3>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/3886208.png" alt="3886208">
+&lt;a href="https://bl.ocks.org/mbostock/3886208">Stacked Bar Chart - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/8979a6c1063a4022cbd738b4498a0ba6.png" alt="8979a6c1063a4022cbd738b4498a0ba6">
+&lt;a href="https://bl.ocks.org/caravinden/8979a6c1063a4022cbd738b4498a0ba6">Stacked Bar Chart - d3.v4 implementation - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/32a3d192e0e5f6af81f4bcc12adda8f7.png" alt="32a3d192e0e5f6af81f4bcc12adda8f7">
+&lt;a href="https://bl.ocks.org/caravinden/32a3d192e0e5f6af81f4bcc12adda8f7">Horizontal stacked bar chart implementation in d3.v4 - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/2a9e6f11f2a27b6af0c28c4e5e524f10.png" alt="2a9e6f11f2a27b6af0c28c4e5e524f10">
+&lt;a href="http://bl.ocks.org/ChandrakantThakkarDigiCorp/2a9e6f11f2a27b6af0c28c4e5e524f10">Horizontal Stack Bar Chart D3 V4 - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/noimage.png" alt="fd1afd96ecea6898113f477896f07a44">
+&lt;a href="https://bl.ocks.org/ayala-usma/fd1afd96ecea6898113f477896f07a44">Stacked Bar Chart with Tooltip and Color Change D3.v4 - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/noimage.png" alt="96fe8772549aa4ecd54d91ec4228f507">
+&lt;a href="https://bl.ocks.org/anonymous/96fe8772549aa4ecd54d91ec4228f507">D3js v4 Stacked Bar Chart - with Tooltip Hover - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/noimage.png" alt="352ad2e6f577c4abf55e29e6d422535a">
+&lt;a href="https://bl.ocks.org/lorenzopub/352ad2e6f577c4abf55e29e6d422535a">Stacked-to-Grouped Bars II - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/noimage.png" alt="7c9bdfd714ab2f2e39dd5c09057a55a0">
+&lt;a href="https://bl.ocks.org/mjfoster83/7c9bdfd714ab2f2e39dd5c09057a55a0">D3js v4 Stacked Bar Chart - with Tooltip Hover - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/noimage.png" alt="689368252f55179e12185e13c5ed1fee">
+&lt;a href="https://bl.ocks.org/DimsumPanda/689368252f55179e12185e13c5ed1fee">Stacked Bar Charts D3 v4 - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/noimage.png" alt="7c9bdfd714ab2f2e39dd5c09057a55a0">
+&lt;a href="https://bl.ocks.org/mjfoster83/7c9bdfd714ab2f2e39dd5c09057a55a0">D3js v4 Stacked Bar Chart - with Tooltip Hover - bl.ocks.org&lt;/a>&lt;/p>
+&lt;h2 id="折れ線グラフline-chart">折れ線グラフ(Line chart)&lt;/h2>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/402dd382a51a4f6eea487f9a35566de0.png" alt="402dd382a51a4f6eea487f9a35566de0">
+&lt;a href="https://bl.ocks.org/d3noob/402dd382a51a4f6eea487f9a35566de0">Simple line graph with v4 - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/26363646c478b2028d36e7274cedefa6.png" alt="26363646c478b2028d36e7274cedefa6">
+&lt;a href="https://bl.ocks.org/pstuffa/26363646c478b2028d36e7274cedefa6">D3 v4 Line Chart - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/26363646c478b2028d36e7274cedefa6.png" alt="26363646c478b2028d36e7274cedefa6">
+&lt;a href="https://bl.ocks.org/pstuffa/26363646c478b2028d36e7274cedefa6">D3 v4 Line Chart - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/noimage.png" alt="ceb7065687c125223339a26a47d58a28">
+&lt;a href="http://bl.ocks.org/denisemauldin/ceb7065687c125223339a26a47d58a28">d3 v4 realtime line chart - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/119a138ef9bd1d8f0a8d57ea72355252.png" alt="119a138ef9bd1d8f0a8d57ea72355252">
+&lt;a href="https://bl.ocks.org/d3noob/119a138ef9bd1d8f0a8d57ea72355252">Simple graph with filled area in v4 - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/noimage.png" alt="1ffe16ccf8bed2035ea5091ab9bb53fb">
+&lt;a href="https://bl.ocks.org/deristnochda/1ffe16ccf8bed2035ea5091ab9bb53fb">d3js v4 zoomable line chart - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/cd2c9da1388565a6fb9ce5fba95168db.png" alt="cd2c9da1388565a6fb9ce5fba95168db">
+&lt;a href="https://bl.ocks.org/emmasaunders/cd2c9da1388565a6fb9ce5fba95168db">Line chart from csv (v4) - bl.ocks.org&lt;/a>&lt;/p>
+&lt;h3 id="階段グラフline-chart">階段グラフ(Line chart)&lt;/h3>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/f7ef798894427a99efe5e173e003260d.png" alt="f7ef798894427a99efe5e173e003260d">
+&lt;a href="https://bl.ocks.org/shimizu/f7ef798894427a99efe5e173e003260d">D3 v4 - linechart - bl.ocks.org&lt;/a>&lt;/p>
+&lt;h2 id="円グラフpie-chart">円グラフ(Pie Chart)&lt;/h2>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/c8ce360f8bc896ffa6c16d30a4cd026b.png" alt="c8ce360f8bc896ffa6c16d30a4cd026b">
+&lt;a href="http://bl.ocks.org/ChandrakantThakkarDigiCorp/c8ce360f8bc896ffa6c16d30a4cd026b">Pie Chart D3 V4 - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/f90651541575f348a129444003a73467.png" alt="f90651541575f348a129444003a73467">
+&lt;a href="https://bl.ocks.org/shimizu/f90651541575f348a129444003a73467">D3 v4 - piechart - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/b2504f8f3e384de4ff2b9dfa60f325e2.png" alt="b2504f8f3e384de4ff2b9dfa60f325e2">
+&lt;a href="https://bl.ocks.org/mbhall88/b2504f8f3e384de4ff2b9dfa60f325e2">A static, reusable donut chart for D3.js v4. - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/3887235.png" alt="3887235">
+&lt;a href="https://bl.ocks.org/mbostock/3887235">Pie Chart - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/noimage.png" alt="c2653d42ffb4ecc01ffe2d6c97b2ee5e">
+&lt;a href="https://bl.ocks.org/tezzutezzu/c2653d42ffb4ecc01ffe2d6c97b2ee5e">Pie Chart Update v4 - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/noimage.png" alt="6560687444d2e1421e4d24360c27728a">
+&lt;a href="https://bl.ocks.org/jsl6906/6560687444d2e1421e4d24360c27728a">d3.js v4 pack layout with pie chart - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/noimage.png" alt="e2cb52828c080ba85da5458e2304a61f">
+&lt;a href="https://bl.ocks.org/farazshuja/e2cb52828c080ba85da5458e2304a61f">D3 Pie chart with percentage outside - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/noimage.png" alt="225c6df494811f46f6ea53eba63da817">
+&lt;a href="https://bl.ocks.org/rshaker/225c6df494811f46f6ea53eba63da817">Update and transition of pie chart - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/noimage.png" alt="f3685ca8a1a7f5be1967f39f367437c0">
+&lt;a href="https://bl.ocks.org/santi698/f3685ca8a1a7f5be1967f39f367437c0">Pie Chart (d3js v4) - bl.ocks.org&lt;/a>&lt;/p>
+&lt;h3 id="ドーナツチャートdonut-chart">ドーナツチャート(Donut chart)&lt;/h3>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/b2504f8f3e384de4ff2b9dfa60f325e2.png" alt="b2504f8f3e384de4ff2b9dfa60f325e2">
+&lt;a href="https://bl.ocks.org/mbhall88/b2504f8f3e384de4ff2b9dfa60f325e2">A static, reusable donut chart for D3.js v4. - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/f64c027d14ce4f26e35fcdc99b9bb43e.png" alt="f64c027d14ce4f26e35fcdc99b9bb43e">
+&lt;a href="https://bl.ocks.org/KingOfCramers/f64c027d14ce4f26e35fcdc99b9bb43e">Interactive Donut Chart - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/noimage.png" alt="b082c1f22ef78d41201eed8581ae282b">
+&lt;a href="https://bl.ocks.org/lcastrogarcia/b082c1f22ef78d41201eed8581ae282b">Pie Chart Update v4 - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/e46f38d44a049a61ab1c2d97a2413439.png" alt="e46f38d44a049a61ab1c2d97a2413439">
+&lt;a href="https://bl.ocks.org/martinjc/e46f38d44a049a61ab1c2d97a2413439">D3 - Donut chart with labels and connectors (Data: random teaching evaluation survey results) - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/f90651541575f348a129444003a73467.png" alt="f90651541575f348a129444003a73467">
+&lt;a href="https://bl.ocks.org/shimizu/f90651541575f348a129444003a73467">D3 v4 - piechart - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/2394b23da1994fc202e1.png" alt="2394b23da1994fc202e1">
+&lt;a href="https://bl.ocks.org/mbostock/2394b23da1994fc202e1">Canvas Donut - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/e1cdbbe586ac31747b4a304f8f86efa5.png" alt="e1cdbbe586ac31747b4a304f8f86efa5">
+&lt;a href="https://bl.ocks.org/denjn5/e1cdbbe586ac31747b4a304f8f86efa5">Sunburst Tutorial (d3 v4), Part 1 - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/noimage.png" alt="c3f4eb2b16b86dd0f641263383f05a13">
+&lt;a href="https://bl.ocks.org/vickygisel/c3f4eb2b16b86dd0f641263383f05a13">Donut Chart - bl.ocks.org&lt;/a>&lt;/p>
+&lt;h2 id="帯グラフnormalized-stacked-bar-chart">帯グラフ(Normalized stacked bar chart)&lt;/h2>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/3886394.png" alt="3886394">
+&lt;a href="https://bl.ocks.org/mbostock/3886394">Normalized Stacked Bar Chart - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/noimage.png" alt="bd506812787c423e4560e72102a7ce94">
+&lt;a href="https://bl.ocks.org/LauraCortes/bd506812787c423e4560e72102a7ce94">Normalized Stacked Bar Chart - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/noimage.png" alt="690c73824e2b4ad1351fccdc1781df9a">
+&lt;a href="https://bl.ocks.org/lorenzopub/690c73824e2b4ad1351fccdc1781df9a">Normalized Stacked Bar Chart - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/8d2112a115ad95f4a6848001389182fb.png" alt="8d2112a115ad95f4a6848001389182fb">
+&lt;a href="https://bl.ocks.org/mbostock/8d2112a115ad95f4a6848001389182fb">Radial Normalized Stacked Bar - bl.ocks.org&lt;/a>&lt;/p>
+&lt;h2 id="ヒストグラムhistogram">ヒストグラム(Histogram)&lt;/h2>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/96b74d0bd6d11427dd797892551a103c.png" alt="96b74d0bd6d11427dd797892551a103c">
+&lt;a href="https://bl.ocks.org/d3noob/96b74d0bd6d11427dd797892551a103c">Simple histogram using v4 - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/3048450.png" alt="3048450">
+&lt;a href="https://bl.ocks.org/mbostock/3048450">Histogram - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/b2fee5dae98555cf78c9e4c5074b87c3.png" alt="b2fee5dae98555cf78c9e4c5074b87c3">
+&lt;a href="https://bl.ocks.org/mbostock/b2fee5dae98555cf78c9e4c5074b87c3">Histogram II - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/495cd567e0ede0deeb14bb3599dce685.png" alt="495cd567e0ede0deeb14bb3599dce685">
+&lt;a href="https://bl.ocks.org/SevenChan07/495cd567e0ede0deeb14bb3599dce685">brush histogram - bl.ocks.org&lt;/a>&lt;/p>
+&lt;h2 id="レーダーチャートradar-chart">レーダーチャート(Radar chart)&lt;/h2>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/4c36eb1abdb248de34c64f5672afd857.png" alt="4c36eb1abdb248de34c64f5672afd857">
+&lt;a href="https://bl.ocks.org/alandunning/4c36eb1abdb248de34c64f5672afd857">Radar Chart D3 V4 - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/7e17b680b35b83b49f1c22a3613bd89f.png" alt="7e17b680b35b83b49f1c22a3613bd89f">
+&lt;a href="http://bl.ocks.org/mthh/7e17b680b35b83b49f1c22a3613bd89f">Radar Chart d3 v4 - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/noimage.png" alt="52343b3006b96c9b8195a88df5b52726">
+&lt;a href="https://bl.ocks.org/giguerre/52343b3006b96c9b8195a88df5b52726">Radar Chart - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/dfee3b6061e50ad73d9df7a7a73b68e9.png" alt="dfee3b6061e50ad73d9df7a7a73b68e9">
+&lt;a href="https://bl.ocks.org/tlfrd/dfee3b6061e50ad73d9df7a7a73b68e9">Radar Chart - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/noimage.png" alt="6b58692fa92fdb4246b1cbcb3108081e">
+&lt;a href="https://bl.ocks.org/newsummit/6b58692fa92fdb4246b1cbcb3108081e">Nodes on Radar Chart - bl.ocks.org&lt;/a>&lt;/p>
+&lt;h2 id="散布図scatter-chart">散布図(Scatter chart)&lt;/h2>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/noimage.png" alt="076377dd0125b1a508621441752735fc">
+&lt;a href="https://bl.ocks.org/Jverma/076377dd0125b1a508621441752735fc">Scatterplot of Iris data : d3 v4 - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/noimage.png" alt="ce6903fad978d20773c41ee34bf6735c">
+&lt;a href="http://bl.ocks.org/rajvansia/ce6903fad978d20773c41ee34bf6735c">Scatterplot with brush d3 v4 - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/d956f19f2e56a05c31fb6583beccfda7.png" alt="d956f19f2e56a05c31fb6583beccfda7">
+&lt;a href="https://bl.ocks.org/EfratVil/d956f19f2e56a05c31fb6583beccfda7">Scatter plot with zoom - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/6f082f0e3b820b6bf68b78f2f7786084.png" alt="6f082f0e3b820b6bf68b78f2f7786084">
+&lt;a href="https://bl.ocks.org/d3noob/6f082f0e3b820b6bf68b78f2f7786084">Scatterplot with v4 - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/6f7f1dd55e0c52ce5ee0dac2b2769f4b.png" alt="6f7f1dd55e0c52ce5ee0dac2b2769f4b">
+&lt;a href="https://bl.ocks.org/sebg/6f7f1dd55e0c52ce5ee0dac2b2769f4b">D3V4 Scatterplot - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/noimage.png" alt="d2be3d62a09360a770b79f4e5527eea8">
+&lt;a href="https://bl.ocks.org/aleereza/d2be3d62a09360a770b79f4e5527eea8">D3 v4 - Scatter Plot - Semantic Zooming - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/noimage.png" alt="0869b7ae854c148121bb4ca7c9dc9095">
+&lt;a href="http://bl.ocks.org/romsson/0869b7ae854c148121bb4ca7c9dc9095">Scatterplot Iris (d3.v4) - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/noimage.png" alt="c645e2aa3a4fe313269afc1c39c8a05d">
+&lt;a href="https://bl.ocks.org/oikonang/c645e2aa3a4fe313269afc1c39c8a05d">Scatterplot with a toggle button using D3.v4 - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/2505b09d0feb51d0c9873cc486f10f67.png" alt="2505b09d0feb51d0c9873cc486f10f67">
+&lt;a href="https://bl.ocks.org/d3noob/2505b09d0feb51d0c9873cc486f10f67">Simple scatter plot in v4 - bl.ocks.org&lt;/a>&lt;/p>
+&lt;h2 id="箱ひげ図box-plot">箱ひげ図(Box plot)&lt;/h2>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/e04ceddae2e8f85cf3afe4681dac1d74.png" alt="e04ceddae2e8f85cf3afe4681dac1d74">
+&lt;a href="https://bl.ocks.org/rjurney/e04ceddae2e8f85cf3afe4681dac1d74">Simple Box Plot Example in d3.js v4.0 - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/a246611653fdd9ae7660a97a7d096052.png" alt="a246611653fdd9ae7660a97a7d096052">
+&lt;a href="https://bl.ocks.org/trembl/a246611653fdd9ae7660a97a7d096052">Box Plots v4 - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/cc40e7d583346b2a8a5a2f9e296d3007.png" alt="cc40e7d583346b2a8a5a2f9e296d3007">
+&lt;a href="http://bl.ocks.org/eesur/cc40e7d583346b2a8a5a2f9e296d3007">d3js | box and whiskers (boxplot) - bl.ocks.org&lt;/a>&lt;/p>
+&lt;h2 id="バブルチャートbubble-chart">バブルチャート(Bubble chart)&lt;/h2>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/noimage.png" alt="3d6be4be0ef9f6977ec6718b2916d168">
+&lt;a href="https://bl.ocks.org/alokkshukla/3d6be4be0ef9f6977ec6718b2916d168">Bubble Chart - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/noimage.png" alt="0d81ccfd24578d5d563c55e785b3b40a">
+&lt;a href="https://bl.ocks.org/john-guerra/0d81ccfd24578d5d563c55e785b3b40a">Bubble Chart d3 v4 - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/noimage.png" alt="cbf8d2ec446c9c76e1bdc9abd211e189">
+&lt;a href="https://bl.ocks.org/Hugoberry/cbf8d2ec446c9c76e1bdc9abd211e189">Bubble Chart - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/51c76ec99c3ffee2fde6923ac14a4dd4.png" alt="51c76ec99c3ffee2fde6923ac14a4dd4">
+&lt;a href="http://bl.ocks.org/alandunning/51c76ec99c3ffee2fde6923ac14a4dd4">Bubble Matrix Chart V4 - bl.ocks.org&lt;/a>&lt;/p>
+&lt;h2 id="面グラフarea-chart">面グラフ(Area chart)&lt;/h2>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/119a138ef9bd1d8f0a8d57ea72355252.png" alt="119a138ef9bd1d8f0a8d57ea72355252">
+&lt;a href="https://bl.ocks.org/d3noob/119a138ef9bd1d8f0a8d57ea72355252">Simple graph with filled area in v4 - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/noimage.png" alt="0b09968e3d4970d845a5f45ed25595bb">
+&lt;a href="https://bl.ocks.org/lorenzopub/0b09968e3d4970d845a5f45ed25595bb">for reference: stacked area chart d3 v4 - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/3883195.png" alt="3883195">
+&lt;a href="https://bl.ocks.org/mbostock/3883195">Area Chart - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/3885211.png" alt="3885211">
+&lt;a href="https://bl.ocks.org/mbostock/3885211">Stacked Area Chart - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/49570a3cd70390c257c80ac75c5049f1.png" alt="49570a3cd70390c257c80ac75c5049f1">
+&lt;a href="https://bl.ocks.org/d3noob/49570a3cd70390c257c80ac75c5049f1">Area graph with gradient in v4 - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/noimage.png" alt="21ecf1bf5d2568b854934a74050b31e6">
+&lt;a href="https://bl.ocks.org/Cthulahoop/21ecf1bf5d2568b854934a74050b31e6">Simple filled area in v4 - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/noimage.png" alt="53fe83f0df7fd26015954e4968fe93fd">
+&lt;a href="https://bl.ocks.org/gchan5/53fe83f0df7fd26015954e4968fe93fd">Stacked area chart d3 - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/3035090.png" alt="3035090">
+&lt;a href="https://bl.ocks.org/mbostock/3035090">Area with Missing Data - bl.ocks.org&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/8a5b1cc987217607a47bd7d4e0fffacb.png" alt="8a5b1cc987217607a47bd7d4e0fffacb">
+&lt;a href="https://bl.ocks.org/carlvlewis/8a5b1cc987217607a47bd7d4e0fffacb">A single d3.js V4 chart with 'small multiples' along single categorical x-axis - bl.ocks.org&lt;/a>&lt;/p>
+&lt;h2 id="4象限マトリクス">4象限マトリクス&lt;/h2>
+&lt;p>&lt;img src="https://namaraii.com/images/d3/samples/18c5ec8d06938edd31968e2fd104a58a.png" alt="18c5ec8d06938edd31968e2fd104a58a">
+&lt;a href="https://bl.ocks.org/alandunning/18c5ec8d06938edd31968e2fd104a58a">4 Quadrant Scatter Plot D3 v4 - bl.ocks.org&lt;/a>&lt;/p></description></item></channel></rss>

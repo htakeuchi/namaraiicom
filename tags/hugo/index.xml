@@ -1,369 +1,168 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>hugo on namaraii.com</title>
-    <link>https://namaraii.com/tags/hugo/</link>
-    <description>Recent content in hugo on namaraii.com</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright>
-    <lastBuildDate>Sun, 20 Sep 2020 15:15:15 +0900</lastBuildDate><atom:link href="https://namaraii.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Hugoで写真をリサイズしExif情報を表示する</title>
-      <link>https://namaraii.com/post/2020/20200920/</link>
-      <pubDate>Sun, 20 Sep 2020 15:15:15 +0900</pubDate>
-      
-      <guid>https://namaraii.com/post/2020/20200920/</guid>
-      <description>
-        
-          &lt;p&gt;以下のページを参考にして、Hugoで写真のリサイズとExif情報を表示するためのshortcodeを書いた。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://jansblog.org/2020/08/12/displaying-exif-tags-with-hugo/&#34;&gt;Displaying Exif Tags with Hugo&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;このShortcodeは画像をページリソースとして扱うことを前提にしているので注意が必要（static/imagesなどにおいてある画像には適用できない）&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://gohugo.io/content-management/page-resources/&#34;&gt;Page Resources | Hugo&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;こういう感じで表示される。&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-  
-
-
-&lt;div class=&#34;photoFlame&#34;&gt;
-    &lt;a href=&#34;https://namaraii.com/post/2020/20200920/image1.jpg&#34;&gt;
-        &lt;img src=&#34;https://namaraii.com/post/2020/20200920/image1_hu4241c618296020663c69e4d970c1f22a_9431660_800x0_resize_q90_box.jpg&#34; alt=&#34;&#34;/&gt;
-    &lt;/a&gt;
-    
-        &lt;div class=&#34;exifTags&#34;&gt;
-            
-                
-                    &lt;div class=&#34;exifElement&#34;&gt;	
-                        Canon
-                    &lt;/div&gt;
-                
-
-                
-                    &lt;div class=&#34;exifElement&#34;&gt;
-                        Canon EOS 5D Mark II
-                    &lt;/div&gt;
-                
-
-                
-                    &lt;div class=&#34;exifElement&#34;&gt;
-                        35mm
-                    &lt;/div&gt;
-                
-
-                
-                    &lt;div class=&#34;exifElement&#34;&gt;
-                        1/30
-                    &lt;/div&gt;
-                
-
-                
-                    &lt;div class=&#34;exifElement&#34;&gt;
-                        f4.5
-                    &lt;/div&gt;
-                
-
-                
-                    &lt;div class=&#34;exifElement&#34;&gt;
-                        ISO250
-                    &lt;/div&gt;
-                
-
-            
-        &lt;/div&gt;
-    
-&lt;/div&gt;
-
-
-
-
-
-
-  
-
-
-&lt;div class=&#34;photoFlame&#34;&gt;
-    &lt;a href=&#34;https://namaraii.com/post/2020/20200920/image2.JPG&#34;&gt;
-        &lt;img src=&#34;https://namaraii.com/post/2020/20200920/image2_hu859594bac7e6e7c17b9f1779e4b150c2_6795548_800x0_resize_q90_box.JPG&#34; alt=&#34;&#34;/&gt;
-    &lt;/a&gt;
-    
-        &lt;div class=&#34;exifTags&#34;&gt;
-            
-                
-                    &lt;div class=&#34;exifElement&#34;&gt;	
-                        Canon
-                    &lt;/div&gt;
-                
-
-                
-                    &lt;div class=&#34;exifElement&#34;&gt;
-                        Canon EOS 7D
-                    &lt;/div&gt;
-                
-
-                
-                    &lt;div class=&#34;exifElement&#34;&gt;
-                        60mm
-                    &lt;/div&gt;
-                
-
-                
-                    &lt;div class=&#34;exifElement&#34;&gt;
-                        1/100
-                    &lt;/div&gt;
-                
-
-                
-                    &lt;div class=&#34;exifElement&#34;&gt;
-                        f2
-                    &lt;/div&gt;
-                
-
-                
-                    &lt;div class=&#34;exifElement&#34;&gt;
-                        ISO640
-                    &lt;/div&gt;
-                
-
-            
-        &lt;/div&gt;
-    
-&lt;/div&gt;
-
-
-
-
-
-
-  
-
-
-&lt;div class=&#34;photoFlame&#34;&gt;
-    &lt;a href=&#34;https://namaraii.com/post/2020/20200920/image3.JPG&#34;&gt;
-        &lt;img src=&#34;https://namaraii.com/post/2020/20200920/image3_hufa304477f97f5a5e66e59d06d7ca73c9_6586368_0x800_resize_q90_r270_box.JPG&#34; alt=&#34;&#34;/&gt;
-    &lt;/a&gt;
-    
-        &lt;div class=&#34;exifTags&#34;&gt;
-            
-                
-                    &lt;div class=&#34;exifElement&#34;&gt;	
-                        RICOH IMAGING COMPANY, LTD.
-                    &lt;/div&gt;
-                
-
-                
-                    &lt;div class=&#34;exifElement&#34;&gt;
-                        GR
-                    &lt;/div&gt;
-                
-
-                
-                    &lt;div class=&#34;exifElement&#34;&gt;
-                        18.3mm
-                    &lt;/div&gt;
-                
-
-                
-                    &lt;div class=&#34;exifElement&#34;&gt;
-                        0.025
-                    &lt;/div&gt;
-                
-
-                
-                    &lt;div class=&#34;exifElement&#34;&gt;
-                        f5.6
-                    &lt;/div&gt;
-                
-
-                
-                    &lt;div class=&#34;exifElement&#34;&gt;
-                        ISO800
-                    &lt;/div&gt;
-                
-
-            
-        &lt;/div&gt;
-    
-&lt;/div&gt;
-
-
-
-
-
-
-  
-
-
-&lt;div class=&#34;photoFlame&#34;&gt;
-    &lt;a href=&#34;https://namaraii.com/post/2020/20200920/nd.jpg&#34;&gt;
-        &lt;img src=&#34;https://namaraii.com/post/2020/20200920/nd_hu0b59ec2e9477baf48c5fe5c6af363f70_5373952_800x0_resize_q90_box.jpg&#34; alt=&#34;&#34;/&gt;
-    &lt;/a&gt;
-    
-        &lt;div class=&#34;exifTags&#34;&gt;
-            
-                
-                    &lt;div class=&#34;exifElement&#34;&gt;	
-                        RICOH IMAGING COMPANY, LTD.
-                    &lt;/div&gt;
-                
-
-                
-                    &lt;div class=&#34;exifElement&#34;&gt;
-                        GR
-                    &lt;/div&gt;
-                
-
-                
-                    &lt;div class=&#34;exifElement&#34;&gt;
-                        18.3mm
-                    &lt;/div&gt;
-                
-
-                
-                    &lt;div class=&#34;exifElement&#34;&gt;
-                        0.06666666666666667
-                    &lt;/div&gt;
-                
-
-                
-                    &lt;div class=&#34;exifElement&#34;&gt;
-                        f5.6
-                    &lt;/div&gt;
-                
-
-                
-                    &lt;div class=&#34;exifElement&#34;&gt;
-                        ISO125
-                    &lt;/div&gt;
-                
-
-            
-        &lt;/div&gt;
-    
-&lt;/div&gt;&lt;/p&gt;
-&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/htakeuchi/fa4d9431aff02ddfde0efda6ecf843b1.js?file=exif.html&#34;&gt;&lt;/script&gt;
-
-&lt;p&gt;GRのシャッタースピードが小数点表示されてる。ちょっと、まじめにExifを調べないとだめかな…&lt;/p&gt;
-
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>HugoのFront Matterを出力するTextwellのアクション</title>
-      <link>https://namaraii.com/post/2020/hugo-frontmatter-textwell/</link>
-      <pubDate>Wed, 18 Mar 2020 00:00:00 +0900</pubDate>
-      
-      <guid>https://namaraii.com/post/2020/hugo-frontmatter-textwell/</guid>
-      <description>
-        
-          &lt;p&gt;最近、iPadの利用頻度が上がっていて、Hugoで作成しているサイトもiPadから更新できるようにしたいと、環境を整えています。&lt;/p&gt;
-&lt;p&gt;すでに&lt;a href=&#34;https://namaraii.com/post/2017/20171215_hugo-netlify/&#34;&gt;GitHubへpushするとNetlifyへデプロイされる環境&lt;/a&gt;はできているので、Working CopyというGitクライアントを使えば、それだけでまぁ、なんとかなります。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/workingcopy.jpeg&#34; alt=&#34;Working Copy&#34;&gt;&lt;/p&gt;
-
-&lt;a href=&#34;https://apps.apple.com/jp/app/working-copy-git-client/id896694807?mt=8&#34; style=&#34;display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/ja-jp/badge-lrg.svg?releaseDate=2014-11-08&amp;kind=iossoftware&amp;bubble=ios_apps) no-repeat;width:135px;height:40px;&#34;&gt;&lt;/a&gt;
-
-&lt;p&gt;ただ、記事のFront Matter部分がちょっと面倒なんですよね。雛形を作っておきコピペして修正してもいいんですが、少しだけ楽できるようTextwellのアクションを書きました。&lt;/p&gt;
-&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/htakeuchi/37efdadd4af2703360a5b04837f71bcd.js&#34;&gt;&lt;/script&gt;
-
-&lt;p&gt;このアクションは、&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;編集中テキストの先頭にFront Matterの雛形が挿入される&lt;/li&gt;
-&lt;li&gt;dateが動的に設定される&lt;/li&gt;
-&lt;li&gt;titleが選択状態になる&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;というだけのものですが、雛形を探し、日付を書き換えて…というほんの少しの手間が軽減されます。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/textwell.jpeg&#34; alt=&#34;Textwell&#34;&gt;&lt;/p&gt;
-
-&lt;a href=&#34;https://apps.apple.com/jp/app/textwell/id696345721?mt=8&#34; style=&#34;display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/ja-jp/badge-lrg.svg?releaseDate=2013-09-11&amp;kind=iossoftware&amp;bubble=ios_apps) no-repeat;width:135px;height:40px;&#34;&gt;&lt;/a&gt;
-
-&lt;p&gt;HugoのShortcodeもTextwellのアクション化しておくといいかもしれない。&lt;/p&gt;
-
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>HugoのRSS feedのURIを変更するのにrssuriを使うのはdeprecatedだった</title>
-      <link>https://namaraii.com/post/2018/20180217_hugo-rssuri/</link>
-      <pubDate>Sat, 17 Feb 2018 13:35:48 +0900</pubDate>
-      
-      <guid>https://namaraii.com/post/2018/20180217_hugo-rssuri/</guid>
-      <description>
-        
-          &lt;p&gt;いままでHugoのRSS feedのURIはconfig.tomlで、&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;rssuri&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;feed&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;xml&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;のように指定していたのですが、netlifyのdeploy logを見ていたら、&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;WARNING: Site config&lt;span class=&#34;err&#34;&gt;&amp;#39;&lt;/span&gt;s rssURI is deprecated and will be removed in a future release. Set baseName in outputFormats.RSS.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;と出ていた。調べたところ、&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;outputs&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
-&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;home&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;HTML&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;RSS&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
-&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt;
-&lt;span class=&#34;ln&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;outputFormats&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
-&lt;span class=&#34;ln&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;outputFormats&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;RSS&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
-&lt;span class=&#34;ln&#34;&gt;6&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;mediatype&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;application/rss&amp;#34;&lt;/span&gt;
-&lt;span class=&#34;ln&#34;&gt;7&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;baseName&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;feed&amp;#34;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;のようになったらしい。&lt;/p&gt;
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Hugoで作ったサイトをNetlifyでホスティングするまでの手順</title>
-      <link>https://namaraii.com/post/2017/20171215_hugo-netlify/</link>
-      <pubDate>Sat, 16 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://namaraii.com/post/2017/20171215_hugo-netlify/</guid>
-      <description>
-        
-          &lt;p&gt;Hugoで作成した、このサイトを&lt;a href=&#34;https://goo.gl/vyAeqf&#34;&gt;Netlify&lt;/a&gt;でホスティングするまでのメモ。&lt;/p&gt;
-&lt;h2 id=&#34;hugoで新規サイトを作成&#34;&gt;Hugoで新規サイトを作成&lt;/h2&gt;
-&lt;p&gt;使用したHugoは0.31.1&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;# 新規サイト作成〜Beautiful Hugoテーマのclone&lt;/span&gt;
-&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;$ hugo new site devnull 
-&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt;$ &lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; themes
-&lt;span class=&#34;ln&#34;&gt;4&lt;/span&gt;$ git clone https://github.com/halogenica/beautifulhugo.git beautifulhugo
-&lt;span class=&#34;ln&#34;&gt;5&lt;/span&gt;$ cp -r beautifulhugo/exampleSite/* ..
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;その後、config.tomlの編集、コンテンツの作成、テーマの調整などを行う。&lt;/p&gt;
-&lt;h2 id=&#34;githubでリポジトリ作成&#34;&gt;GitHubでリポジトリ作成&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;$ git init
-&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;$ git remote add origin https://github.com/hogehoge/hogehoge.git
-&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt;$ git add .
-&lt;span class=&#34;ln&#34;&gt;4&lt;/span&gt;$ git commit -m &amp;#39;first commit&amp;#39;
-&lt;span class=&#34;ln&#34;&gt;5&lt;/span&gt;$ git push origin master
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;netlifyでホスティング&#34;&gt;Netlifyでホスティング&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://goo.gl/vyAeqf&#34;&gt;Netlify&lt;/a&gt;にログインし、以下の設定を行う。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;[New site from Git]ボタンをクリック&lt;/li&gt;
-&lt;li&gt;[Limit GitHub access to public repositories.]をチェックし[GitHub]ボタンをクリック&lt;/li&gt;
-&lt;li&gt;ブランチにmaster、コマンドにhugo、Publishディレクトリにpublic/を設定&lt;/li&gt;
-&lt;li&gt;[Advanced Setting]をクリックし、キーにHUGO_VERSIONを値に0.31.1を指定&lt;/li&gt;
-&lt;li&gt;[Deploy Site]をクリック&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;カスタムドメインの設定&#34;&gt;カスタムドメインの設定&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;画面上部の[Settrings]メニューをクリック&lt;/li&gt;
-&lt;li&gt;画面左側の[Domain Management]をクリック&lt;/li&gt;
-&lt;li&gt;[Add custom domain]をクリックしてドメイン名を入力後、[Save]ボタンをクリック&lt;/li&gt;
-&lt;li&gt;[Point your domain at the Netlify servers]をクリックし、CNAMEレコードをみてDNSへ追加する。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;https化&#34;&gt;HTTPS化&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;HTTPSセクションの[Let&#39;s Encrypt certificate]をクリック&lt;/li&gt;
-&lt;li&gt;Force HTTPSセクションの[Force HTTPS]をクリック&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;ローカルで記事を書きGitHubへpushすれば、自動的にデプロイされるのでお手軽で良い。&lt;/p&gt;
-&lt;p&gt;Netlifyは無料のPersonalプランでもカスタムドメイン・HTTPS・プライベートリポジトリが使えるのが素敵だ。&lt;/p&gt;
-        
-      </description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>hugo on namaraii.com</title><link>https://namaraii.com/tags/hugo/</link><description>Recent content in hugo on namaraii.com</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright><lastBuildDate>Sun, 20 Sep 2020 15:15:15 +0900</lastBuildDate><atom:link href="https://namaraii.com/tags/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugoで写真をリサイズしExif情報を表示する</title><link>https://namaraii.com/post/2020/20200920/</link><pubDate>Sun, 20 Sep 2020 15:15:15 +0900</pubDate><guid>https://namaraii.com/post/2020/20200920/</guid><description>
+&lt;p>以下のページを参考にして、Hugoで写真のリサイズとExif情報を表示するためのshortcodeを書いた。&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://jansblog.org/2020/08/12/displaying-exif-tags-with-hugo/">Displaying Exif Tags with Hugo&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>このShortcodeは画像をページリソースとして扱うことを前提にしているので注意が必要（static/imagesなどにおいてある画像には適用できない）&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://gohugo.io/content-management/page-resources/">Page Resources | Hugo&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>こういう感じで表示される。&lt;/p>
+&lt;p>
+&lt;div class="photoFlame">
+&lt;a href="https://namaraii.com/post/2020/20200920/image1.jpg">
+&lt;img src="https://namaraii.com/post/2020/20200920/image1_hu4241c618296020663c69e4d970c1f22a_9431660_1024x0_resize_q90_box.jpg" alt=""/>
+&lt;/a>
+&lt;div class="exifTags">
+&lt;div class="exifElement">
+Canon EOS 5D Mark II
+&lt;/div>
+&lt;div class="exifElement">
+35mm
+&lt;/div>
+&lt;div class="exifElement">
+1/30
+&lt;/div>
+&lt;div class="exifElement">
+f4.5
+&lt;/div>
+&lt;div class="exifElement">
+ISO250
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="photoFlame">
+&lt;a href="https://namaraii.com/post/2020/20200920/image2.JPG">
+&lt;img src="https://namaraii.com/post/2020/20200920/image2_hu859594bac7e6e7c17b9f1779e4b150c2_6795548_1024x0_resize_q90_box.JPG" alt=""/>
+&lt;/a>
+&lt;div class="exifTags">
+&lt;div class="exifElement">
+Canon EOS 7D
+&lt;/div>
+&lt;div class="exifElement">
+60mm
+&lt;/div>
+&lt;div class="exifElement">
+1/100
+&lt;/div>
+&lt;div class="exifElement">
+f2
+&lt;/div>
+&lt;div class="exifElement">
+ISO640
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="photoFlame">
+&lt;a href="https://namaraii.com/post/2020/20200920/image3.JPG">
+&lt;img src="https://namaraii.com/post/2020/20200920/image3_hufa304477f97f5a5e66e59d06d7ca73c9_6586368_0x1024_resize_q90_r270_box.JPG" alt=""/>
+&lt;/a>
+&lt;div class="exifTags">
+&lt;div class="exifElement">
+GR
+&lt;/div>
+&lt;div class="exifElement">
+18.3mm
+&lt;/div>
+&lt;div class="exifElement">
+0.025
+&lt;/div>
+&lt;div class="exifElement">
+f5.6
+&lt;/div>
+&lt;div class="exifElement">
+ISO800
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="photoFlame">
+&lt;a href="https://namaraii.com/post/2020/20200920/nd.jpg">
+&lt;img src="https://namaraii.com/post/2020/20200920/nd_hu0b59ec2e9477baf48c5fe5c6af363f70_5373952_1024x0_resize_q90_box.jpg" alt=""/>
+&lt;/a>
+&lt;div class="exifTags">
+&lt;div class="exifElement">
+GR
+&lt;/div>
+&lt;div class="exifElement">
+18.3mm
+&lt;/div>
+&lt;div class="exifElement">
+0.06666666666666667
+&lt;/div>
+&lt;div class="exifElement">
+f5.6
+&lt;/div>
+&lt;div class="exifElement">
+ISO125
+&lt;/div>
+&lt;/div>
+&lt;/div>&lt;/p>
+&lt;script type="application/javascript" src="https://gist.github.com/htakeuchi/fa4d9431aff02ddfde0efda6ecf843b1.js?file=exif.html">&lt;/script>
+&lt;p>GRのシャッタースピードが小数点表示されてる。ちょっと、まじめにExifを調べないとだめかな…&lt;/p></description></item><item><title>HugoのFront Matterを出力するTextwellのアクション</title><link>https://namaraii.com/post/2020/hugo-frontmatter-textwell/</link><pubDate>Wed, 18 Mar 2020 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2020/hugo-frontmatter-textwell/</guid><description>
+&lt;p>最近、iPadの利用頻度が上がっていて、Hugoで作成しているサイトもiPadから更新できるようにしたいと、環境を整えています。&lt;/p>
+&lt;p>すでに&lt;a href="https://namaraii.com/post/2017/20171215_hugo-netlify/">GitHubへpushするとNetlifyへデプロイされる環境&lt;/a>はできているので、Working CopyというGitクライアントを使えば、それだけでまぁ、なんとかなります。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/workingcopy.jpeg" alt="Working Copy">&lt;/p>
+&lt;a href="https://apps.apple.com/jp/app/working-copy-git-client/id896694807?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/ja-jp/badge-lrg.svg?releaseDate=2014-11-08&amp;kind=iossoftware&amp;bubble=ios_apps) no-repeat;width:135px;height:40px;">&lt;/a>
+&lt;p>ただ、記事のFront Matter部分がちょっと面倒なんですよね。雛形を作っておきコピペして修正してもいいんですが、少しだけ楽できるようTextwellのアクションを書きました。&lt;/p>
+&lt;script type="application/javascript" src="https://gist.github.com/htakeuchi/37efdadd4af2703360a5b04837f71bcd.js">&lt;/script>
+&lt;p>このアクションは、&lt;/p>
+&lt;ul>
+&lt;li>編集中テキストの先頭にFront Matterの雛形が挿入される&lt;/li>
+&lt;li>dateが動的に設定される&lt;/li>
+&lt;li>titleが選択状態になる&lt;/li>
+&lt;/ul>
+&lt;p>というだけのものですが、雛形を探し、日付を書き換えて…というほんの少しの手間が軽減されます。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/textwell.jpeg" alt="Textwell">&lt;/p>
+&lt;a href="https://apps.apple.com/jp/app/textwell/id696345721?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/ja-jp/badge-lrg.svg?releaseDate=2013-09-11&amp;kind=iossoftware&amp;bubble=ios_apps) no-repeat;width:135px;height:40px;">&lt;/a>
+&lt;p>HugoのShortcodeもTextwellのアクション化しておくといいかもしれない。&lt;/p></description></item><item><title>HugoのRSS feedのURIを変更するのにrssuriを使うのはdeprecatedだった</title><link>https://namaraii.com/post/2018/20180217_hugo-rssuri/</link><pubDate>Sat, 17 Feb 2018 13:35:48 +0900</pubDate><guid>https://namaraii.com/post/2018/20180217_hugo-rssuri/</guid><description>
+&lt;p>いままでHugoのRSS feedのURIはconfig.tomlで、&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-toml" data-lang="toml">&lt;span class="ln">1&lt;/span>&lt;span class="nx">rssuri&lt;/span>&lt;span class="err">:&lt;/span> &lt;span class="nx">feed&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">xml&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>のように指定していたのですが、netlifyのdeploy logを見ていたら、&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="ln">1&lt;/span>WARNING: Site config&lt;span class="err">&amp;#39;&lt;/span>s rssURI is deprecated and will be removed in a future release. Set baseName in outputFormats.RSS.
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>と出ていた。調べたところ、&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-toml" data-lang="toml">&lt;span class="ln">1&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="nx">outputs&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;span class="ln">2&lt;/span>&lt;span class="nx">home&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="p">[&lt;/span> &lt;span class="s2">&amp;#34;HTML&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s2">&amp;#34;RSS&amp;#34;&lt;/span> &lt;span class="p">]&lt;/span>
+&lt;span class="ln">3&lt;/span>
+&lt;span class="ln">4&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="nx">outputFormats&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;span class="ln">5&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="nx">outputFormats&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">RSS&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;span class="ln">6&lt;/span>&lt;span class="nx">mediatype&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;application/rss&amp;#34;&lt;/span>
+&lt;span class="ln">7&lt;/span>&lt;span class="nx">baseName&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;feed&amp;#34;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>のようになったらしい。&lt;/p></description></item><item><title>Hugoで作ったサイトをNetlifyでホスティングするまでの手順</title><link>https://namaraii.com/post/2017/20171215_hugo-netlify/</link><pubDate>Sat, 16 Dec 2017 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2017/20171215_hugo-netlify/</guid><description>
+&lt;p>Hugoで作成した、このサイトを&lt;a href="https://goo.gl/vyAeqf">Netlify&lt;/a>でホスティングするまでのメモ。&lt;/p>
+&lt;h2 id="hugoで新規サイトを作成">Hugoで新規サイトを作成&lt;/h2>
+&lt;p>使用したHugoは0.31.1&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="ln">1&lt;/span>&lt;span class="c1"># 新規サイト作成〜Beautiful Hugoテーマのclone&lt;/span>
+&lt;span class="ln">2&lt;/span>$ hugo new site devnull
+&lt;span class="ln">3&lt;/span>$ &lt;span class="nb">cd&lt;/span> themes
+&lt;span class="ln">4&lt;/span>$ git clone https://github.com/halogenica/beautifulhugo.git beautifulhugo
+&lt;span class="ln">5&lt;/span>$ cp -r beautifulhugo/exampleSite/* ..
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>その後、config.tomlの編集、コンテンツの作成、テーマの調整などを行う。&lt;/p>
+&lt;h2 id="githubでリポジトリ作成">GitHubでリポジトリ作成&lt;/h2>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="ln">1&lt;/span>$ git init
+&lt;span class="ln">2&lt;/span>$ git remote add origin https://github.com/hogehoge/hogehoge.git
+&lt;span class="ln">3&lt;/span>$ git add .
+&lt;span class="ln">4&lt;/span>$ git commit -m &amp;#39;first commit&amp;#39;
+&lt;span class="ln">5&lt;/span>$ git push origin master
+&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="netlifyでホスティング">Netlifyでホスティング&lt;/h2>
+&lt;p>&lt;a href="https://goo.gl/vyAeqf">Netlify&lt;/a>にログインし、以下の設定を行う。&lt;/p>
+&lt;ol>
+&lt;li>[New site from Git]ボタンをクリック&lt;/li>
+&lt;li>[Limit GitHub access to public repositories.]をチェックし[GitHub]ボタンをクリック&lt;/li>
+&lt;li>ブランチにmaster、コマンドにhugo、Publishディレクトリにpublic/を設定&lt;/li>
+&lt;li>[Advanced Setting]をクリックし、キーにHUGO_VERSIONを値に0.31.1を指定&lt;/li>
+&lt;li>[Deploy Site]をクリック&lt;/li>
+&lt;/ol>
+&lt;h3 id="カスタムドメインの設定">カスタムドメインの設定&lt;/h3>
+&lt;ol>
+&lt;li>画面上部の[Settrings]メニューをクリック&lt;/li>
+&lt;li>画面左側の[Domain Management]をクリック&lt;/li>
+&lt;li>[Add custom domain]をクリックしてドメイン名を入力後、[Save]ボタンをクリック&lt;/li>
+&lt;li>[Point your domain at the Netlify servers]をクリックし、CNAMEレコードをみてDNSへ追加する。&lt;/li>
+&lt;/ol>
+&lt;h3 id="https化">HTTPS化&lt;/h3>
+&lt;ol>
+&lt;li>HTTPSセクションの[Let's Encrypt certificate]をクリック&lt;/li>
+&lt;li>Force HTTPSセクションの[Force HTTPS]をクリック&lt;/li>
+&lt;/ol>
+&lt;p>ローカルで記事を書きGitHubへpushすれば、自動的にデプロイされるのでお手軽で良い。&lt;/p>
+&lt;p>Netlifyは無料のPersonalプランでもカスタムドメイン・HTTPS・プライベートリポジトリが使えるのが素敵だ。&lt;/p></description></item></channel></rss>

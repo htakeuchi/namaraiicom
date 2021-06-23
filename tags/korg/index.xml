@@ -1,135 +1,97 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>korg on namaraii.com</title>
-    <link>https://namaraii.com/tags/korg/</link>
-    <description>Recent content in korg on namaraii.com</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright>
-    <lastBuildDate>Sun, 22 Mar 2020 13:33:22 +0900</lastBuildDate><atom:link href="https://namaraii.com/tags/korg/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>monologueのパラメタを可視化するツール</title>
-      <link>https://namaraii.com/post/2020/20200322-monologue/</link>
-      <pubDate>Sun, 22 Mar 2020 13:33:22 +0900</pubDate>
-      
-      <guid>https://namaraii.com/post/2020/20200322-monologue/</guid>
-      <description>
-        
-          &lt;p&gt;ソフトウェアシンセとは違ってmonologueでは、プログラムを変更してもパネル上のスイッチやノブの値は連動しません（実際の設定値と、ハードウェアのスイッチやノブがアンマッチな状態になる）&lt;/p&gt;
-&lt;p&gt;このため、参考にしたいプログラムがあっても、パラメタを俯瞰することができず、初心者にはツラみがあるのですが、GitHubでプログラムのパラメタ値を可視化するツールを発見。Rubyで書かれています。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/jgoizueta/monologue&#34;&gt;https://github.com/jgoizueta/monologue&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/monologue_sample.png&#34; alt=&#34;monologue&#34;&gt;&lt;/p&gt;
-&lt;p&gt;こんな感じでパラメタを見られるHTMLを生成してくれます。&lt;/p&gt;
-&lt;p&gt;都度、このツールを動かすのも面倒なので、プリセットの全プログラムを生成しときました。イメージ通りの音作りができるのは、いつの日なのか…&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/0.html&#34;&gt;01 - afx acid3&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/1.html&#34;&gt;02 - Injection&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/2.html&#34;&gt;03 - Anfem&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/3.html&#34;&gt;04 - wavetable&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/4.html&#34;&gt;05 - Lu-Fuki&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/5.html&#34;&gt;06 - Fake3OSC&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/6.html&#34;&gt;07 - Arc Lead&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/7.html&#34;&gt;08 - Flute&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/8.html&#34;&gt;09 - Scoooping&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/9.html&#34;&gt;10 - Robot Empire&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/10.html&#34;&gt;11 - TeeVeeSaw&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/11.html&#34;&gt;12 - AFX bAss &lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/12.html&#34;&gt;13 - model 800&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/13.html&#34;&gt;14 - epic acid&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/14.html&#34;&gt;15 - Herd Of Crab&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/15.html&#34;&gt;16 - Stonecold&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/16.html&#34;&gt;17 - Dirty Sub&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/17.html&#34;&gt;18 - Jungle Sub&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/18.html&#34;&gt;19 - deep bass&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/19.html&#34;&gt;20 - Hoodie Bass&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/20.html&#34;&gt;21 - StabbyBass&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/21.html&#34;&gt;22 - DistortedSqr&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/22.html&#34;&gt;23 - Werq&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/23.html&#34;&gt;24 - Ratewobble&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/24.html&#34;&gt;25 - StomachWave&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/25.html&#34;&gt;26 - Dr.Juice&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/26.html&#34;&gt;27 - Rubber Duck&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/27.html&#34;&gt;28 - HarmonBa&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/28.html&#34;&gt;29 - Dark Perc&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/29.html&#34;&gt;30 - Jackathon&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/30.html&#34;&gt;31 - Bosshog&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/31.html&#34;&gt;32 - Ardkore92&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/32.html&#34;&gt;33 - aliasBass&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/33.html&#34;&gt;34 - PWM envBA&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/34.html&#34;&gt;35 - Disemvowel&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/35.html&#34;&gt;36 - Kickin&#39;B&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/36.html&#34;&gt;37 - OIOI&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/37.html&#34;&gt;38 - akunk b&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/38.html&#34;&gt;39 - Dual Saw&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/39.html&#34;&gt;40 - BitterLead&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/40.html&#34;&gt;41 - Syncwave&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/41.html&#34;&gt;42 - Duophony&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/42.html&#34;&gt;43 - Mono Brass&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/43.html&#34;&gt;44 - 5th brASs&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/44.html&#34;&gt;45 - Bouncy Balls&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/45.html&#34;&gt;46 - Ghost Town&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/46.html&#34;&gt;47 - Childhood&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/47.html&#34;&gt;48 - On the Moon&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/48.html&#34;&gt;49 - phaseClks&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/49.html&#34;&gt;50 - SyncMtion&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/50.html&#34;&gt;51 - SyncLAM&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/51.html&#34;&gt;52 - Arpme Lead&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/52.html&#34;&gt;53 - Squelf&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/53.html&#34;&gt;54 - Milky Way&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/54.html&#34;&gt;55 - BrokenArcade&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/55.html&#34;&gt;56 - MT-digArp&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/56.html&#34;&gt;57 - Chopchoon&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/57.html&#34;&gt;58 - FMod Seq&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/58.html&#34;&gt;59 - TronIines&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/59.html&#34;&gt;60 - Tech Stab&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/60.html&#34;&gt;61 - Pumpdriver&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/61.html&#34;&gt;62 - Lfoiled&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/62.html&#34;&gt;63 - Digisnd&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/63.html&#34;&gt;64 - ascension&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/64.html&#34;&gt;65 - centipede&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/65.html&#34;&gt;66 - Robotspeak&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/66.html&#34;&gt;67 - Cpu Cycles&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/67.html&#34;&gt;68 - Loud Siren&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/68.html&#34;&gt;69 - Portrythm&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/69.html&#34;&gt;70 - Dambuster&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/70.html&#34;&gt;71 - xoc PLAY&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/monologue/71.html&#34;&gt;72 - LittleGlitch&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>monologueで音作りするときの初期化手順</title>
-      <link>https://namaraii.com/post/2020/20200322/</link>
-      <pubDate>Sun, 22 Mar 2020 09:37:22 +0900</pubDate>
-      
-      <guid>https://namaraii.com/post/2020/20200322/</guid>
-      <description>
-        
-          &lt;p&gt;KORGのアナログシンセmonologueで音作りを始める際の初期化手順の覚え書きです。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/monologue2.jpg&#34; alt=&#34;monologue&#34;&gt;&lt;/p&gt;
-&lt;p&gt;シンセの音作りに慣れている人なら、各種のパラメタ値がどうなっていても問題ないと思いますが、パラメタの変更でどのように音が変化するかをイメージできない初心者は、パラメタを初期化してから音作りを始めた方が良いらしい。&lt;/p&gt;
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/tLYOclzSwro&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Youtubeに手順をまとめた動画があったので、書き起こしました。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/monologue.png&#34; alt=&#34;monologue&#34;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;EG INT(9)、LFO INT(10)を左に回し切る&lt;/li&gt;
-&lt;li&gt;EQ TYPE(9)を一番下にする(Gate)&lt;/li&gt;
-&lt;li&gt;FILTER CUTOFF(8)を右に FILTER RESONANCE(8)を左に回し切る&lt;/li&gt;
-&lt;li&gt;MIXER VCO 1(7)を右に VCO 2(7)を左に回し切る&lt;/li&gt;
-&lt;li&gt;VCO 1 SHAPE(5)、VCO 2 SHAPE(6)を左に回し切る&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;最後に（動画とは違う手順ですが）SHIFT + PLAYを押してパネル・ロード。これで、音色にパネル上のスイッチやノブの状態が反映されます。&lt;/p&gt;
-
-        
-      </description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>korg on namaraii.com</title><link>https://namaraii.com/tags/korg/</link><description>Recent content in korg on namaraii.com</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright><lastBuildDate>Sun, 22 Mar 2020 13:33:22 +0900</lastBuildDate><atom:link href="https://namaraii.com/tags/korg/index.xml" rel="self" type="application/rss+xml"/><item><title>monologueのパラメタを可視化するツール</title><link>https://namaraii.com/post/2020/20200322-monologue/</link><pubDate>Sun, 22 Mar 2020 13:33:22 +0900</pubDate><guid>https://namaraii.com/post/2020/20200322-monologue/</guid><description>
+&lt;p>ソフトウェアシンセとは違ってmonologueでは、プログラムを変更してもパネル上のスイッチやノブの値は連動しません（実際の設定値と、ハードウェアのスイッチやノブがアンマッチな状態になる）&lt;/p>
+&lt;p>このため、参考にしたいプログラムがあっても、パラメタを俯瞰することができず、初心者にはツラみがあるのですが、GitHubでプログラムのパラメタ値を可視化するツールを発見。Rubyで書かれています。&lt;/p>
+&lt;p>&lt;a href="https://github.com/jgoizueta/monologue">https://github.com/jgoizueta/monologue&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/monologue_sample.png" alt="monologue">&lt;/p>
+&lt;p>こんな感じでパラメタを見られるHTMLを生成してくれます。&lt;/p>
+&lt;p>都度、このツールを動かすのも面倒なので、プリセットの全プログラムを生成しときました。イメージ通りの音作りができるのは、いつの日なのか…&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://namaraii.com/monologue/0.html">01 - afx acid3&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/1.html">02 - Injection&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/2.html">03 - Anfem&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/3.html">04 - wavetable&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/4.html">05 - Lu-Fuki&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/5.html">06 - Fake3OSC&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/6.html">07 - Arc Lead&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/7.html">08 - Flute&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/8.html">09 - Scoooping&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/9.html">10 - Robot Empire&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/10.html">11 - TeeVeeSaw&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/11.html">12 - AFX bAss &lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/12.html">13 - model 800&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/13.html">14 - epic acid&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/14.html">15 - Herd Of Crab&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/15.html">16 - Stonecold&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/16.html">17 - Dirty Sub&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/17.html">18 - Jungle Sub&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/18.html">19 - deep bass&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/19.html">20 - Hoodie Bass&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/20.html">21 - StabbyBass&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/21.html">22 - DistortedSqr&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/22.html">23 - Werq&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/23.html">24 - Ratewobble&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/24.html">25 - StomachWave&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/25.html">26 - Dr.Juice&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/26.html">27 - Rubber Duck&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/27.html">28 - HarmonBa&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/28.html">29 - Dark Perc&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/29.html">30 - Jackathon&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/30.html">31 - Bosshog&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/31.html">32 - Ardkore92&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/32.html">33 - aliasBass&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/33.html">34 - PWM envBA&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/34.html">35 - Disemvowel&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/35.html">36 - Kickin'B&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/36.html">37 - OIOI&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/37.html">38 - akunk b&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/38.html">39 - Dual Saw&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/39.html">40 - BitterLead&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/40.html">41 - Syncwave&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/41.html">42 - Duophony&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/42.html">43 - Mono Brass&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/43.html">44 - 5th brASs&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/44.html">45 - Bouncy Balls&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/45.html">46 - Ghost Town&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/46.html">47 - Childhood&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/47.html">48 - On the Moon&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/48.html">49 - phaseClks&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/49.html">50 - SyncMtion&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/50.html">51 - SyncLAM&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/51.html">52 - Arpme Lead&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/52.html">53 - Squelf&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/53.html">54 - Milky Way&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/54.html">55 - BrokenArcade&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/55.html">56 - MT-digArp&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/56.html">57 - Chopchoon&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/57.html">58 - FMod Seq&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/58.html">59 - TronIines&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/59.html">60 - Tech Stab&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/60.html">61 - Pumpdriver&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/61.html">62 - Lfoiled&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/62.html">63 - Digisnd&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/63.html">64 - ascension&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/64.html">65 - centipede&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/65.html">66 - Robotspeak&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/66.html">67 - Cpu Cycles&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/67.html">68 - Loud Siren&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/68.html">69 - Portrythm&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/69.html">70 - Dambuster&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/70.html">71 - xoc PLAY&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://namaraii.com/monologue/71.html">72 - LittleGlitch&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>monologueで音作りするときの初期化手順</title><link>https://namaraii.com/post/2020/20200322/</link><pubDate>Sun, 22 Mar 2020 09:37:22 +0900</pubDate><guid>https://namaraii.com/post/2020/20200322/</guid><description>
+&lt;p>KORGのアナログシンセmonologueで音作りを始める際の初期化手順の覚え書きです。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/monologue2.jpg" alt="monologue">&lt;/p>
+&lt;p>シンセの音作りに慣れている人なら、各種のパラメタ値がどうなっていても問題ないと思いますが、パラメタの変更でどのように音が変化するかをイメージできない初心者は、パラメタを初期化してから音作りを始めた方が良いらしい。&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/tLYOclzSwro" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;p>Youtubeに手順をまとめた動画があったので、書き起こしました。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/monologue.png" alt="monologue">&lt;/p>
+&lt;ul>
+&lt;li>EG INT(9)、LFO INT(10)を左に回し切る&lt;/li>
+&lt;li>EQ TYPE(9)を一番下にする(Gate)&lt;/li>
+&lt;li>FILTER CUTOFF(8)を右に FILTER RESONANCE(8)を左に回し切る&lt;/li>
+&lt;li>MIXER VCO 1(7)を右に VCO 2(7)を左に回し切る&lt;/li>
+&lt;li>VCO 1 SHAPE(5)、VCO 2 SHAPE(6)を左に回し切る&lt;/li>
+&lt;/ul>
+&lt;p>最後に（動画とは違う手順ですが）SHIFT + PLAYを押してパネル・ロード。これで、音色にパネル上のスイッチやノブの状態が反映されます。&lt;/p></description></item></channel></rss>

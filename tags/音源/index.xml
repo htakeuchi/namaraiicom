@@ -1,40 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>音源 on namaraii.com</title>
-    <link>https://namaraii.com/tags/%E9%9F%B3%E6%BA%90/</link>
-    <description>Recent content in 音源 on namaraii.com</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright>
-    <lastBuildDate>Sat, 02 May 2020 15:15:15 +0900</lastBuildDate><atom:link href="https://namaraii.com/tags/%E9%9F%B3%E6%BA%90/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>エレキギター音源UJAM IRONを試してみた</title>
-      <link>https://namaraii.com/post/2020/20200502/</link>
-      <pubDate>Sat, 02 May 2020 15:15:15 +0900</pubDate>
-      
-      <guid>https://namaraii.com/post/2020/20200502/</guid>
-      <description>
-        
-          &lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/ujamiron.png&#34; alt=&#34;ujam iron&#34;&gt;&lt;/p&gt;
-&lt;p&gt;70%オフセール時に買ったUjamのVirtual Guitarist IRONをようやく試せました。&lt;/p&gt;
-&lt;p&gt;IRONというのはujamがリリースしているVirtual Guitaristシリーズの中のひとつで、ロックやメタル系の楽曲むけの音色とフレーズを搭載したプラグインです。&lt;/p&gt;
-&lt;p&gt;シーケンサーで「ギターっぽく」打ち込むのは、かなり大変で、自分のような初心者の場合は、目も当てられない結果になることが多いわけですが、IRONを使えば、プリセットのバッキングパターンが豊富なので、趣味の音楽作りで十分に活躍してくれそうな感じです。使ってて楽しい。&lt;/p&gt;
-&lt;p&gt;とりあえず、デモトラックを作ってみ………ようと思ったのですが、ちょっとリフを作って、いろいろなトラックを足してたら、もはやIRONが脇役にｗ&lt;/p&gt;
-&lt;audio controls style=&#34;width: 100%; margin-bottom: 20px&#34;&gt;
-    
-    &lt;source src=&#34;https://namaraii.com/songs/iron1.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
-    
-    Your browser does not support the audio element.
-&lt;/audio&gt;
-&lt;p&gt;コード弾きのバッキングに使うのがメインのようですが、単音弾きもできるようなので、もうすこしギターメインのトラックにも挑戦してみます。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.ujam.com/product/iron/&#34;&gt;IRON | Electric Rock Guitar | Virtual Guitarist by ujam&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://96bit-music.com/ujam-iron/&#34;&gt;メタルギタリストがあなたの曲作りをお手伝い！UJAM「IRON」の魅力 | 96bit-music&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-        
-      </description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>音源 on namaraii.com</title><link>https://namaraii.com/tags/%E9%9F%B3%E6%BA%90/</link><description>Recent content in 音源 on namaraii.com</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright><lastBuildDate>Sat, 02 May 2020 15:15:15 +0900</lastBuildDate><atom:link href="https://namaraii.com/tags/%E9%9F%B3%E6%BA%90/index.xml" rel="self" type="application/rss+xml"/><item><title>エレキギター音源UJAM IRONを試してみた</title><link>https://namaraii.com/post/2020/20200502/</link><pubDate>Sat, 02 May 2020 15:15:15 +0900</pubDate><guid>https://namaraii.com/post/2020/20200502/</guid><description>
+&lt;p>&lt;img src="https://namaraii.com/images/ujamiron.png" alt="ujam iron">&lt;/p>
+&lt;p>70%オフセール時に買ったUjamのVirtual Guitarist IRONをようやく試せました。&lt;/p>
+&lt;p>IRONというのはujamがリリースしているVirtual Guitaristシリーズの中のひとつで、ロックやメタル系の楽曲むけの音色とフレーズを搭載したプラグインです。&lt;/p>
+&lt;p>シーケンサーで「ギターっぽく」打ち込むのは、かなり大変で、自分のような初心者の場合は、目も当てられない結果になることが多いわけですが、IRONを使えば、プリセットのバッキングパターンが豊富なので、趣味の音楽作りで十分に活躍してくれそうな感じです。使ってて楽しい。&lt;/p>
+&lt;p>とりあえず、デモトラックを作ってみ………ようと思ったのですが、ちょっとリフを作って、いろいろなトラックを足してたら、もはやIRONが脇役にｗ&lt;/p>
+&lt;audio controls style="width: 100%; margin-bottom: 20px">
+&lt;source src="https://namaraii.com/songs/iron1.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+&lt;/audio>
+&lt;p>コード弾きのバッキングに使うのがメインのようですが、単音弾きもできるようなので、もうすこしギターメインのトラックにも挑戦してみます。&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://www.ujam.com/product/iron/">IRON | Electric Rock Guitar | Virtual Guitarist by ujam&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://96bit-music.com/ujam-iron/">メタルギタリストがあなたの曲作りをお手伝い！UJAM「IRON」の魅力 | 96bit-music&lt;/a>&lt;/li>
+&lt;/ul></description></item></channel></rss>

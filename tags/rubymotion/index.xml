@@ -1,57 +1,34 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>rubymotion on namaraii.com</title>
-    <link>https://namaraii.com/tags/rubymotion/</link>
-    <description>Recent content in rubymotion on namaraii.com</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright>
-    <lastBuildDate>Sat, 21 Feb 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://namaraii.com/tags/rubymotion/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>FabricのTwitter KitをRubyMotionで使う</title>
-      <link>https://namaraii.com/post/2015/20150221_fabrictwitterkitrubymotion7fe2d12dd260/</link>
-      <pubDate>Sat, 21 Feb 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://namaraii.com/post/2015/20150221_fabrictwitterkitrubymotion7fe2d12dd260/</guid>
-      <description>
-        
-          &lt;p&gt;Twitterが提供しているモバイルアプリ向けSDKの&lt;a href=&#34;https://get.fabric.io/&#34;&gt;Fabric&lt;/a&gt;をRubyMotionで使ってみました。&lt;/p&gt;
-&lt;p&gt;Fabricでは大きくCrashlytics、MoPub、Twitterの3つのモジュールが提供されますが、今回試したのはTwitterのモジュールです。&lt;/p&gt;
-&lt;p&gt;基本的には&lt;a href=&#34;https://medium.com/@sammybauch/making-fabric-play-nice-with-rubymotion-48a593ac22d4&#34;&gt;Making Fabric Play Nice with RubyMotion — Medium&lt;/a&gt;にある通りなんですが、うちの環境ではCoreDataを使う設定にしないとダメだったりしたので、手順をざっとまとめておきます。&lt;/p&gt;
-&lt;h4 id=&#34;xcodeで新規プロジェクトの作成&#34;&gt;Xcodeで新規プロジェクトの作成&lt;/h4&gt;
-&lt;p&gt;Fabricの入手や設定などは、&lt;a href=&#34;http://qiita.com/mokumoku/items/bf0460f420acac3c04fc&#34;&gt;[iOS]FabricでTwitterクライアントを作った — Qiita&lt;/a&gt;に詳しい手順がありますので、そちらをどうぞ。&lt;/p&gt;
-&lt;p&gt;Xcodeを使ってFabricをビルドするため新規プロジェクトの作成します。Single
-View Applicationを選択。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/aszYQgR-nnAoas.png&#34; alt=&#34;/images/aszYQgR-nnAoas.png&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/Y6u_rWefOtyj2p.png&#34; alt=&#34;/images/Y6u_rWefOtyj2p.png&#34;&gt;&lt;/p&gt;
-&lt;h4 id=&#34;rubymotionで新規プロジェクト作成&#34;&gt;RubyMotionで新規プロジェクト作成&lt;/h4&gt;
-&lt;p&gt;RubyMotionで新規プロジェクトを作成後、vendorディレクトリを作成して、XcodeのプロジェクトにあるFabric.frameworkとTwitterKit.frameworkをコピーします。&lt;/p&gt;
-&lt;h4 id=&#34;rakefileの変更&#34;&gt;Rakefileの変更&lt;/h4&gt;
-&lt;p&gt;&lt;a href=&#34;https://medium.com/@sammybauch/making-fabric-play-nice-with-rubymotion-48a593ac22d4&#34;&gt;Making Fabric Play Nice with RubyMotion — Medium&lt;/a&gt;の手順の通りにMakefileを設定し、Rakeしたところ以下のエラーが。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;Undefined symbols for architecture i386:
-  &amp;quot;_NSInMemoryStoreType&amp;quot;, referenced from:
-      -[TFSScribe _setupManagedObjectContext] in TwitterKit(TFSScribe.o)
-  &amp;quot;_NSSQLitePragmasOption&amp;quot;, referenced from:
-      -[TFSScribe _setupManagedObjectContext] in TwitterKit(TFSScribe.o)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;FrameworkにCoreDataを追加してRakeしたらうまくいきました。最終的なRakefileはこんな感じ。&lt;/p&gt;
-&lt;h4 id=&#34;ログインからタイムラインの表示まで&#34;&gt;ログインからタイムラインの表示まで&lt;/h4&gt;
-&lt;h4 id=&#34;ログインコントローラーの作成&#34;&gt;ログインコントローラーの作成&lt;/h4&gt;
-&lt;p&gt;作成したログインコントローラのコードはこんな感じ。（&lt;a href=&#34;http://dev.classmethod.jp/series/fabric-%e5%85%a5%e9%96%80/&#34;&gt;Fabric入門&lt;/a&gt;のコードをRubyMotionに置き換えただけです）&lt;/p&gt;
-&lt;p&gt;Fabricが用意しているログインボタンを使うため、リソースをシンボリックリンクしておきます。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;$ cd resources 
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>rubymotion on namaraii.com</title><link>https://namaraii.com/tags/rubymotion/</link><description>Recent content in rubymotion on namaraii.com</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright><lastBuildDate>Sat, 21 Feb 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://namaraii.com/tags/rubymotion/index.xml" rel="self" type="application/rss+xml"/><item><title>FabricのTwitter KitをRubyMotionで使う</title><link>https://namaraii.com/post/2015/20150221_fabrictwitterkitrubymotion7fe2d12dd260/</link><pubDate>Sat, 21 Feb 2015 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2015/20150221_fabrictwitterkitrubymotion7fe2d12dd260/</guid><description>
+&lt;p>Twitterが提供しているモバイルアプリ向けSDKの&lt;a href="https://get.fabric.io/">Fabric&lt;/a>をRubyMotionで使ってみました。&lt;/p>
+&lt;p>Fabricでは大きくCrashlytics、MoPub、Twitterの3つのモジュールが提供されますが、今回試したのはTwitterのモジュールです。&lt;/p>
+&lt;p>基本的には&lt;a href="https://medium.com/@sammybauch/making-fabric-play-nice-with-rubymotion-48a593ac22d4">Making Fabric Play Nice with RubyMotion — Medium&lt;/a>にある通りなんですが、うちの環境ではCoreDataを使う設定にしないとダメだったりしたので、手順をざっとまとめておきます。&lt;/p>
+&lt;h4 id="xcodeで新規プロジェクトの作成">Xcodeで新規プロジェクトの作成&lt;/h4>
+&lt;p>Fabricの入手や設定などは、&lt;a href="http://qiita.com/mokumoku/items/bf0460f420acac3c04fc">[iOS]FabricでTwitterクライアントを作った — Qiita&lt;/a>に詳しい手順がありますので、そちらをどうぞ。&lt;/p>
+&lt;p>Xcodeを使ってFabricをビルドするため新規プロジェクトの作成します。Single
+View Applicationを選択。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/aszYQgR-nnAoas.png" alt="/images/aszYQgR-nnAoas.png">&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/Y6u_rWefOtyj2p.png" alt="/images/Y6u_rWefOtyj2p.png">&lt;/p>
+&lt;h4 id="rubymotionで新規プロジェクト作成">RubyMotionで新規プロジェクト作成&lt;/h4>
+&lt;p>RubyMotionで新規プロジェクトを作成後、vendorディレクトリを作成して、XcodeのプロジェクトにあるFabric.frameworkとTwitterKit.frameworkをコピーします。&lt;/p>
+&lt;h4 id="rakefileの変更">Rakefileの変更&lt;/h4>
+&lt;p>&lt;a href="https://medium.com/@sammybauch/making-fabric-play-nice-with-rubymotion-48a593ac22d4">Making Fabric Play Nice with RubyMotion — Medium&lt;/a>の手順の通りにMakefileを設定し、Rakeしたところ以下のエラーが。&lt;/p>
+&lt;pre>&lt;code>Undefined symbols for architecture i386:
+&amp;quot;_NSInMemoryStoreType&amp;quot;, referenced from:
+-[TFSScribe _setupManagedObjectContext] in TwitterKit(TFSScribe.o)
+&amp;quot;_NSSQLitePragmasOption&amp;quot;, referenced from:
+-[TFSScribe _setupManagedObjectContext] in TwitterKit(TFSScribe.o)
+&lt;/code>&lt;/pre>
+&lt;p>FrameworkにCoreDataを追加してRakeしたらうまくいきました。最終的なRakefileはこんな感じ。&lt;/p>
+&lt;h4 id="ログインからタイムラインの表示まで">ログインからタイムラインの表示まで&lt;/h4>
+&lt;h4 id="ログインコントローラーの作成">ログインコントローラーの作成&lt;/h4>
+&lt;p>作成したログインコントローラのコードはこんな感じ。（&lt;a href="http://dev.classmethod.jp/series/fabric-%e5%85%a5%e9%96%80/">Fabric入門&lt;/a>のコードをRubyMotionに置き換えただけです）&lt;/p>
+&lt;p>Fabricが用意しているログインボタンを使うため、リソースをシンボリックリンクしておきます。&lt;/p>
+&lt;pre>&lt;code>$ cd resources
 $ ln -s ../vendor/TwitterKit.framework/Resources/TwitterKitResources.bundle .
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/umJSkpdah-VDoT.png&#34; alt=&#34;/images/umJSkpdah-VDoT.png&#34;&gt;&lt;/p&gt;
-&lt;h4 id=&#34;タイムラインコントローラーの作成&#34;&gt;タイムラインコントローラーの作成&lt;/h4&gt;
-&lt;p&gt;タイムラインを表示するためのコントローラはこんな感じ。&lt;/p&gt;
-&lt;p&gt;FabricのTWTRTweetTableViewCellがよしなに計らってくれるので、これだけのコードでこんな感じに描画できます。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/UM1N6ycDOUGJOo.png&#34; alt=&#34;/images/UM1N6ycDOUGJOo.png&#34;&gt;
-表示形式をカスタマイズしないのであれば手軽に使えますね。&lt;/p&gt;
-
-        
-      </description>
-    </item>
-    
-  </channel>
-</rss>
+&lt;/code>&lt;/pre>
+&lt;p>&lt;img src="https://namaraii.com/images/umJSkpdah-VDoT.png" alt="/images/umJSkpdah-VDoT.png">&lt;/p>
+&lt;h4 id="タイムラインコントローラーの作成">タイムラインコントローラーの作成&lt;/h4>
+&lt;p>タイムラインを表示するためのコントローラはこんな感じ。&lt;/p>
+&lt;p>FabricのTWTRTweetTableViewCellがよしなに計らってくれるので、これだけのコードでこんな感じに描画できます。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/UM1N6ycDOUGJOo.png" alt="/images/UM1N6ycDOUGJOo.png">
+表示形式をカスタマイズしないのであれば手軽に使えますね。&lt;/p></description></item></channel></rss>

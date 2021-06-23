@@ -1,65 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>NEUTRINO on namaraii.com</title>
-    <link>https://namaraii.com/tags/neutrino/</link>
-    <description>Recent content in NEUTRINO on namaraii.com</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright>
-    <lastBuildDate>Tue, 05 May 2020 15:50:55 +0900</lastBuildDate><atom:link href="https://namaraii.com/tags/neutrino/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>AIきりたんに『うちで踊ろう』を歌わせてみた</title>
-      <link>https://namaraii.com/post/2020/20200505/</link>
-      <pubDate>Tue, 05 May 2020 15:50:55 +0900</pubDate>
-      
-      <guid>https://namaraii.com/post/2020/20200505/</guid>
-      <description>
-        
-          &lt;p&gt;ニューラルネットワークを用いた歌声シンセサイザーNEUTRINOを試してみた。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://n3utrino.work/&#34;&gt;NEUTRINO -Neural singing synthesizer-&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;歌わせた曲は星野源さんの『うちで踊ろう』。権利問題がクリアになっているのと、楽譜が公開されているのもありがたい。&lt;/p&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;星野源が作詞作曲した「うちで踊ろう」の楽譜ができました！&lt;br&gt;皆さんどんどん弾いて、アレンジして、歌って動画をアップしてくださいね。&lt;a href=&#34;https://twitter.com/hashtag/%E3%81%86%E3%81%A1%E3%81%A7%E8%B8%8A%E3%82%8D%E3%81%86?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#うちで踊ろう&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/%E6%98%9F%E9%87%8E%E6%BA%90?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#星野源&lt;/a&gt;&lt;a href=&#34;https://t.co/fyYxaEqrXP&#34;&gt;https://t.co/fyYxaEqrXP&lt;/a&gt; &lt;a href=&#34;https://t.co/PzUAjWm13I&#34;&gt;pic.twitter.com/PzUAjWm13I&lt;/a&gt;&lt;/p&gt;&amp;mdash; 星野源 Gen Hoshino (@gen_senden) &lt;a href=&#34;https://twitter.com/gen_senden/status/1246437183067586562?ref_src=twsrc%5Etfw&#34;&gt;April 4, 2020&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-
-&lt;p&gt;NEUTRINOには2020年4月現在、2名の音源（東北きりたん、謡子）が同梱されているようだが、ポップソング向けという説明があった、東北きりたんを選択。&lt;/p&gt;
-&lt;p&gt;使い方は以下のページが詳しかった。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://note.com/amasaka/n/n3b816501ead3#BU1Or&#34;&gt;つよすぎるAIシンガーAIきりたんの基本的な使い方。【無料】｜赤坂まさか｜note&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;AIきりたんに歌わせるための楽譜ファイルは、フリーソフトの&lt;a href=&#34;https://musescore.org/ja&#34;&gt;MuseScore&lt;/a&gt;を使って作成するとのこと。&lt;/p&gt;
-&lt;p&gt;先に音符を入力してから歌詞を入力する。歌詞は音符を選択して、Ctrl+Lで入力。次の音符へはカーソルキー（→）で移動できる。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://n3utrino.work/332/&#34;&gt;MusicXMLについて | NEUTRINO&lt;/a&gt;に、&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;フレーズ長があまりにも長いと音声が破綻します。
-ブレス記号又は休符で囲まれた区間がフレーズに相当します。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;とあったので、適度にブレスを入れた。&lt;/p&gt;
-&lt;p&gt;打ち込んだ楽譜はこんな感じ。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/uo.png&#34; alt=&#34;うちで踊ろうの楽譜&#34;&gt;&lt;/p&gt;
-&lt;p&gt;生成された歌声はこちら。&lt;/p&gt;
-&lt;audio controls style=&#34;width: 100%; margin-bottom: 20px&#34;&gt;
-    
-    &lt;source src=&#34;https://namaraii.com/songs/uchide_odorou_syn.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
-    
-    Your browser does not support the audio element.
-&lt;/audio&gt;
-&lt;p&gt;いや、楽譜ベタ打ちでこれは、お父さん驚いちゃったよ… せっかくなので、Studio Oneに取り込んで簡単な伴奏をつけてみた。&lt;/p&gt;
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/oERweHf2M2s&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;p&gt;初音ミク的なのものは、ずっと興味はあったんだけど、調整（調教？）の職人技の世界は無理そうかな…と、二の足を踏んでいた。が、無調整でこのレベルで歌ってくれるんなら気軽に使えていいよー 素晴らしい！&lt;/p&gt;
-&lt;p&gt;作成したMusicXMLを置いときますので、ご自由にどうぞ。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://namaraii.com/songs/uchide_odorou.musicxml&#34;&gt;MusicXML(うちで踊ろう）&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-        
-      </description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NEUTRINO on namaraii.com</title><link>https://namaraii.com/tags/neutrino/</link><description>Recent content in NEUTRINO on namaraii.com</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright><lastBuildDate>Tue, 05 May 2020 15:50:55 +0900</lastBuildDate><atom:link href="https://namaraii.com/tags/neutrino/index.xml" rel="self" type="application/rss+xml"/><item><title>AIきりたんに『うちで踊ろう』を歌わせてみた</title><link>https://namaraii.com/post/2020/20200505/</link><pubDate>Tue, 05 May 2020 15:50:55 +0900</pubDate><guid>https://namaraii.com/post/2020/20200505/</guid><description>
+&lt;p>ニューラルネットワークを用いた歌声シンセサイザーNEUTRINOを試してみた。&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://n3utrino.work/">NEUTRINO -Neural singing synthesizer-&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>歌わせた曲は星野源さんの『うちで踊ろう』。権利問題がクリアになっているのと、楽譜が公開されているのもありがたい。&lt;/p>
+&lt;blockquote class="twitter-tweet">&lt;p lang="ja" dir="ltr">星野源が作詞作曲した「うちで踊ろう」の楽譜ができました！&lt;br>皆さんどんどん弾いて、アレンジして、歌って動画をアップしてくださいね。&lt;a href="https://twitter.com/hashtag/%E3%81%86%E3%81%A1%E3%81%A7%E8%B8%8A%E3%82%8D%E3%81%86?src=hash&amp;amp;ref_src=twsrc%5Etfw">#うちで踊ろう&lt;/a> &lt;a href="https://twitter.com/hashtag/%E6%98%9F%E9%87%8E%E6%BA%90?src=hash&amp;amp;ref_src=twsrc%5Etfw">#星野源&lt;/a>&lt;a href="https://t.co/fyYxaEqrXP">https://t.co/fyYxaEqrXP&lt;/a> &lt;a href="https://t.co/PzUAjWm13I">pic.twitter.com/PzUAjWm13I&lt;/a>&lt;/p>&amp;mdash; 星野源 Gen Hoshino (@gen_senden) &lt;a href="https://twitter.com/gen_senden/status/1246437183067586562?ref_src=twsrc%5Etfw">April 4, 2020&lt;/a>&lt;/blockquote>
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
+&lt;p>NEUTRINOには2020年4月現在、2名の音源（東北きりたん、謡子）が同梱されているようだが、ポップソング向けという説明があった、東北きりたんを選択。&lt;/p>
+&lt;p>使い方は以下のページが詳しかった。&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://note.com/amasaka/n/n3b816501ead3#BU1Or">つよすぎるAIシンガーAIきりたんの基本的な使い方。【無料】｜赤坂まさか｜note&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>AIきりたんに歌わせるための楽譜ファイルは、フリーソフトの&lt;a href="https://musescore.org/ja">MuseScore&lt;/a>を使って作成するとのこと。&lt;/p>
+&lt;p>先に音符を入力してから歌詞を入力する。歌詞は音符を選択して、Ctrl+Lで入力。次の音符へはカーソルキー（→）で移動できる。&lt;/p>
+&lt;p>&lt;a href="https://n3utrino.work/332/">MusicXMLについて | NEUTRINO&lt;/a>に、&lt;/p>
+&lt;blockquote>
+&lt;p>フレーズ長があまりにも長いと音声が破綻します。
+ブレス記号又は休符で囲まれた区間がフレーズに相当します。&lt;/p>
+&lt;/blockquote>
+&lt;p>とあったので、適度にブレスを入れた。&lt;/p>
+&lt;p>打ち込んだ楽譜はこんな感じ。&lt;/p>
+&lt;p>&lt;img src="https://namaraii.com/images/uo.png" alt="うちで踊ろうの楽譜">&lt;/p>
+&lt;p>生成された歌声はこちら。&lt;/p>
+&lt;audio controls style="width: 100%; margin-bottom: 20px">
+&lt;source src="https://namaraii.com/songs/uchide_odorou_syn.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+&lt;/audio>
+&lt;p>いや、楽譜ベタ打ちでこれは、お父さん驚いちゃったよ… せっかくなので、Studio Oneに取り込んで簡単な伴奏をつけてみた。&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/oERweHf2M2s" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;p>初音ミク的なのものは、ずっと興味はあったんだけど、調整（調教？）の職人技の世界は無理そうかな…と、二の足を踏んでいた。が、無調整でこのレベルで歌ってくれるんなら気軽に使えていいよー 素晴らしい！&lt;/p>
+&lt;p>作成したMusicXMLを置いときますので、ご自由にどうぞ。&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://namaraii.com/songs/uchide_odorou.musicxml">MusicXML(うちで踊ろう）&lt;/a>&lt;/li>
+&lt;/ul></description></item></channel></rss>

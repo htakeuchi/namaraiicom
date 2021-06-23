@@ -1,288 +1,153 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>projectscape on namaraii.com</title>
-    <link>https://namaraii.com/tags/projectscape/</link>
-    <description>Recent content in projectscape on namaraii.com</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright>
-    <lastBuildDate>Wed, 17 Jun 2009 00:00:00 +0000</lastBuildDate><atom:link href="https://namaraii.com/tags/projectscape/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Projectscape Free EditionがVectorで公開されました</title>
-      <link>https://namaraii.com/post/2009/20090617_projectscapefreeeditionvector484d1b6e768d/</link>
-      <pubDate>Wed, 17 Jun 2009 00:00:00 +0000</pubDate>
-      
-      <guid>https://namaraii.com/post/2009/20090617_projectscapefreeeditionvector484d1b6e768d/</guid>
-      <description>
-        
-          &lt;p&gt;&lt;a href=&#34;http://htakeuchi.offtheball.jp/archives/46&#34;&gt;先日お知らせした&lt;/a&gt;プロジェクト管理ソフトProjectscapeの無料版がVectorで公開されました。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.vector.co.jp/soft/dl/winnt/personal/se476755.html&#34;&gt;Vector：Projectscape Free Edition (WindowsNT/2000/XP/Vista / パーソナル) — ソフトのダウンロード&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;お試しください。&lt;/p&gt;
-&lt;p&gt;尚、弊社ではProjectscapeのカスタマイズ（御社専用仕様）や、既存システムとの連携プログラム開発、ソースコードの販売も承っております。お気軽にお問い合わせください。&lt;/p&gt;
-
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Vectorプロレジでのお支払いが可能になりました</title>
-      <link>https://namaraii.com/post/2009/20090613_vector524006a1442/</link>
-      <pubDate>Sat, 13 Jun 2009 00:00:00 +0000</pubDate>
-      
-      <guid>https://namaraii.com/post/2009/20090613_vector524006a1442/</guid>
-      <description>
-        
-          &lt;p&gt;ようやくProjectscapeのライセンス料金を、Vectorプロレジでお支払いいただけるようになりました。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://shop.vector.co.jp/service/servlet/NCart.Add?ITEM_NO=SR177421&#34;&gt;Projectscapeをベクタープロレジで購入する。(レジ作品番号 SR177421)&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Vectorプロレジではクレジットカード払い、コンビニ払いなど多くのお支払い方法をサポートしていますので、ご利用ください。&lt;/p&gt;
-&lt;p&gt;ただ、VectorのProjectscapeのページからは、まだプロレジでの支払ページへリンクされておりませんが(2009/6/14現在) &lt;br&gt;
-「ライブラリコーナーのページは、週に２回の更新のため、紹介部分にレジサービスへのリンクが表示されるのは、数日ないし１週間ほど後になります」とのことです。&lt;/p&gt;
-
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>無料のプロジェクト管理ソフトProjectscape Free Editionをリリースしました</title>
-      <link>https://namaraii.com/post/2009/20090613_projectscapefreeeditiond0605bb433b7/</link>
-      <pubDate>Sat, 13 Jun 2009 00:00:00 +0000</pubDate>
-      
-      <guid>https://namaraii.com/post/2009/20090613_projectscapefreeeditiond0605bb433b7/</guid>
-      <description>
-        
-          &lt;p&gt;弊社のプロジェクト管理製品Projectscapeの無料版、Projectscape Free Editionをリリースしました。&lt;a href=&#34;http://www.vector.co.jp/soft/winnt/personal/se476755.html&#34;&gt;ダウンロードはこちらから&lt;/a&gt;どうぞ。&lt;/p&gt;
-&lt;p&gt;製品版との違いは以下の通りです。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;span
-id=&#34;2a01&#34;&gt;レポートテンプレートの編集ができない（デフォルトテンプレートを使ったレポート出力は可能です）&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span
-id=&#34;94f4&#34;&gt;データのエクスポート(CSV形式)ができない（通常のファイル保存は可能です）&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span
-id=&#34;c466&#34;&gt;印刷時、ヘッダに(Projectscape無料版)という文字列が挿入される&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span
-id=&#34;70ce&#34;&gt;上記に伴い、印刷時、ヘッダが強制的に出力される&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;この他の機能は無期限に無保証、無料でご利用いただけますので、ぜひ、お試しください。&lt;/p&gt;
-&lt;p&gt;なお、Free
-Editionに関しては弊社サポート対象外ですが、ユーザ様同士の情報交換やトラブルシューティングを目的として&lt;a href=&#34;http://support.offtheball.jp/&#34;&gt;フォーラム&lt;/a&gt;を用意しておりますので、ご利用ください。&lt;/p&gt;
-&lt;p&gt;製品版をご購入いただいたお客様へはアナウンス済みですが、今後の機能追加や改善、バグFixに関しては製品版が優先され、機能面・サポート面で一層の差別化を図って参りますので、ご理解を賜りますようお願い致します。&lt;/p&gt;
-&lt;p&gt;尚、弊社ではProjectscapeのカスタマイズ（御社専用仕様）や、既存システムとの連携プログラム開発、ソースコードの販売も承っております。お気軽に&lt;a href=&#34;http://support.offtheball.jp/&#34;&gt;お問い合わせ&lt;/a&gt;ください。&lt;/p&gt;
-
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Projectscapeレビュー（EndlessPain）</title>
-      <link>https://namaraii.com/post/2009/20090608_projectscapeendlesspainffbdc0700194/</link>
-      <pubDate>Mon, 08 Jun 2009 00:00:00 +0000</pubDate>
-      
-      <guid>https://namaraii.com/post/2009/20090608_projectscapeendlesspainffbdc0700194/</guid>
-      <description>
-        
-          &lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/46RDPb8QH55qdr.jpg&#34; alt=&#34;/images/46RDPb8QH55qdr.jpg&#34;&gt;
-&lt;a href=&#34;http://www.endlesspain.net/tdiary/?date=20090607#p01&#34;&gt;EndlessPain(2009–06–07)&lt;/a&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>projectscape on namaraii.com</title><link>https://namaraii.com/tags/projectscape/</link><description>Recent content in projectscape on namaraii.com</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright><lastBuildDate>Wed, 17 Jun 2009 00:00:00 +0000</lastBuildDate><atom:link href="https://namaraii.com/tags/projectscape/index.xml" rel="self" type="application/rss+xml"/><item><title>Projectscape Free EditionがVectorで公開されました</title><link>https://namaraii.com/post/2009/20090617_projectscapefreeeditionvector484d1b6e768d/</link><pubDate>Wed, 17 Jun 2009 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2009/20090617_projectscapefreeeditionvector484d1b6e768d/</guid><description>
+&lt;p>&lt;a href="http://htakeuchi.offtheball.jp/archives/46">先日お知らせした&lt;/a>プロジェクト管理ソフトProjectscapeの無料版がVectorで公開されました。&lt;/p>
+&lt;p>&lt;a href="http://www.vector.co.jp/soft/dl/winnt/personal/se476755.html">Vector：Projectscape Free Edition (WindowsNT/2000/XP/Vista / パーソナル) — ソフトのダウンロード&lt;/a>&lt;/p>
+&lt;p>お試しください。&lt;/p>
+&lt;p>尚、弊社ではProjectscapeのカスタマイズ（御社専用仕様）や、既存システムとの連携プログラム開発、ソースコードの販売も承っております。お気軽にお問い合わせください。&lt;/p></description></item><item><title>Vectorプロレジでのお支払いが可能になりました</title><link>https://namaraii.com/post/2009/20090613_vector524006a1442/</link><pubDate>Sat, 13 Jun 2009 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2009/20090613_vector524006a1442/</guid><description>
+&lt;p>ようやくProjectscapeのライセンス料金を、Vectorプロレジでお支払いいただけるようになりました。&lt;/p>
+&lt;p>&lt;a href="http://shop.vector.co.jp/service/servlet/NCart.Add?ITEM_NO=SR177421">Projectscapeをベクタープロレジで購入する。(レジ作品番号 SR177421)&lt;/a>&lt;/p>
+&lt;p>Vectorプロレジではクレジットカード払い、コンビニ払いなど多くのお支払い方法をサポートしていますので、ご利用ください。&lt;/p>
+&lt;p>ただ、VectorのProjectscapeのページからは、まだプロレジでの支払ページへリンクされておりませんが(2009/6/14現在) &lt;br>
+「ライブラリコーナーのページは、週に２回の更新のため、紹介部分にレジサービスへのリンクが表示されるのは、数日ないし１週間ほど後になります」とのことです。&lt;/p></description></item><item><title>無料のプロジェクト管理ソフトProjectscape Free Editionをリリースしました</title><link>https://namaraii.com/post/2009/20090613_projectscapefreeeditiond0605bb433b7/</link><pubDate>Sat, 13 Jun 2009 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2009/20090613_projectscapefreeeditiond0605bb433b7/</guid><description>
+&lt;p>弊社のプロジェクト管理製品Projectscapeの無料版、Projectscape Free Editionをリリースしました。&lt;a href="http://www.vector.co.jp/soft/winnt/personal/se476755.html">ダウンロードはこちらから&lt;/a>どうぞ。&lt;/p>
+&lt;p>製品版との違いは以下の通りです。&lt;/p>
+&lt;ul>
+&lt;li>&lt;span
+id="2a01">レポートテンプレートの編集ができない（デフォルトテンプレートを使ったレポート出力は可能です）&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="94f4">データのエクスポート(CSV形式)ができない（通常のファイル保存は可能です）&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="c466">印刷時、ヘッダに(Projectscape無料版)という文字列が挿入される&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="70ce">上記に伴い、印刷時、ヘッダが強制的に出力される&lt;/span>&lt;/li>
+&lt;/ul>
+&lt;p>この他の機能は無期限に無保証、無料でご利用いただけますので、ぜひ、お試しください。&lt;/p>
+&lt;p>なお、Free
+Editionに関しては弊社サポート対象外ですが、ユーザ様同士の情報交換やトラブルシューティングを目的として&lt;a href="http://support.offtheball.jp/">フォーラム&lt;/a>を用意しておりますので、ご利用ください。&lt;/p>
+&lt;p>製品版をご購入いただいたお客様へはアナウンス済みですが、今後の機能追加や改善、バグFixに関しては製品版が優先され、機能面・サポート面で一層の差別化を図って参りますので、ご理解を賜りますようお願い致します。&lt;/p>
+&lt;p>尚、弊社ではProjectscapeのカスタマイズ（御社専用仕様）や、既存システムとの連携プログラム開発、ソースコードの販売も承っております。お気軽に&lt;a href="http://support.offtheball.jp/">お問い合わせ&lt;/a>ください。&lt;/p></description></item><item><title>Projectscapeレビュー（EndlessPain）</title><link>https://namaraii.com/post/2009/20090608_projectscapeendlesspainffbdc0700194/</link><pubDate>Mon, 08 Jun 2009 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2009/20090608_projectscapeendlesspainffbdc0700194/</guid><description>
+&lt;p>&lt;img src="https://namaraii.com/images/46RDPb8QH55qdr.jpg" alt="/images/46RDPb8QH55qdr.jpg">
+&lt;a href="http://www.endlesspain.net/tdiary/?date=20090607#p01">EndlessPain(2009–06–07)&lt;/a>
 via
-&lt;a href=&#34;http://kwout.com/quote/ngapfehr&#34;&gt;kwout&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.endlesspain.net/tdiary/?date=20090607#p01&#34;&gt;EndlessPain(2009–06–07)&lt;/a&gt;でProjectscapeのレビューをしていただきました。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;そうして数値に裏づけされた正確な報告が困難となり、適切な check と
+&lt;a href="http://kwout.com/quote/ngapfehr">kwout&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://www.endlesspain.net/tdiary/?date=20090607#p01">EndlessPain(2009–06–07)&lt;/a>でProjectscapeのレビューをしていただきました。&lt;/p>
+&lt;blockquote>
+&lt;p>そうして数値に裏づけされた正確な報告が困難となり、適切な check と
 action
 は失われ、ただ目の前の作業を捌くだけのデスマーチが進行していくことになります。実際は、完全に大火事になると
 火が消えるまでに闇雲に大量の水が注がれ、納期を死守するべく稼働
-(人や残業) が投入されていくことになります。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;本来、プロマネは全体を俯瞰できるポジションを確保し続けなければならないんですが、デスマになるプロジェクトはそれができなくなるパターンが多いですね。さらに、その理由が「正確な状況を報告したことによる社内からの軋轢」だったりすると最悪。そうなると、虚偽の報告や情報の隠蔽が始まり、さらなる深みへ…(思い出すだけで胃が痛い）&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;span
-id=&#34;a906&#34;&gt;ガントチャートの中に吹き出しなどでコメントを書き込みたい
-(PM の見解を表現したい)&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&#34;569e&#34;&gt;レポートテンプレートをエクスポート、インポートしたい
-(所属部署で共有することを考えて)&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&#34;9a64&#34;&gt;レポートテンプレートを複数使用できるようにしたい
-(社内ツール連携向け、Trac Wiki 用、顧客向けなど)&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span
-id=&#34;c6cc&#34;&gt;ソフトウェアを起動してから、ファイルのドラッグ&amp;amp;ドロップで開いて欲しい&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;なるほど。参考になります。中でもレポートテンプレートは優先度を上げて実装したいと思います。tracのWikiへ直接エクスポートできるようにしてもいいかもしれませんね。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;この
-複雑で困難な目標を達成するには、ステークホルダ全員が協力しないと達成できないことを知り、各ステークホルダと密にコミュニケーションを取り、成功へ導く、という強いマインドが必要です。ツールやフレームワークはあくまでも仕掛けでしかありません。それをどう活用するのかは、プロジェクトマネージャのマインド次第なんですよね。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;プロジェクトをうまく着地させるためには、プロマネの「成功に導く！」という強いマインドが必須ですね。さらにコスト、スケジュール、品質、コミュニケーションのフォローアップも完璧に行わなければならない…キツい仕事ですね。&lt;/p&gt;
-&lt;p&gt;ツールやフレームワークは、プロマネがより本質的なタスクに集中できるためのものであるという指摘は同感です。その指摘に関連する？のですが、現在、さらにProjectscapeをご活用いただくべく無償版を検討中です。近日中にもう少し詳しいことを書きますね。&lt;/p&gt;
-&lt;p&gt;レビューありがとうございました。&lt;/p&gt;
-
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Projectscapeレビュー（長かったり素晴らしかったり憂鬱だったりする一日）</title>
-      <link>https://namaraii.com/post/2009/20090606_projectscapeb15e57212a7e/</link>
-      <pubDate>Sat, 06 Jun 2009 00:00:00 +0000</pubDate>
-      
-      <guid>https://namaraii.com/post/2009/20090606_projectscapeb15e57212a7e/</guid>
-      <description>
-        
-          &lt;p&gt;&lt;img src=&#34;https://namaraii.com/images/UdxRX5ji5YmnrH.jpg&#34; alt=&#34;/images/UdxRX5ji5YmnrH.jpg&#34;&gt;
-&lt;a href=&#34;http://d.hatena.ne.jp/ramei/20090603#p1&#34;&gt;2009–06–03 — 長かったり素晴らしかったり憂鬱だったりする一日&lt;/a&gt;
+(人や残業) が投入されていくことになります。&lt;/p>
+&lt;/blockquote>
+&lt;p>本来、プロマネは全体を俯瞰できるポジションを確保し続けなければならないんですが、デスマになるプロジェクトはそれができなくなるパターンが多いですね。さらに、その理由が「正確な状況を報告したことによる社内からの軋轢」だったりすると最悪。そうなると、虚偽の報告や情報の隠蔽が始まり、さらなる深みへ…(思い出すだけで胃が痛い）&lt;/p>
+&lt;ul>
+&lt;li>&lt;span
+id="a906">ガントチャートの中に吹き出しなどでコメントを書き込みたい
+(PM の見解を表現したい)&lt;/span>&lt;/li>
+&lt;li>&lt;span id="569e">レポートテンプレートをエクスポート、インポートしたい
+(所属部署で共有することを考えて)&lt;/span>&lt;/li>
+&lt;li>&lt;span id="9a64">レポートテンプレートを複数使用できるようにしたい
+(社内ツール連携向け、Trac Wiki 用、顧客向けなど)&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="c6cc">ソフトウェアを起動してから、ファイルのドラッグ&amp;amp;ドロップで開いて欲しい&lt;/span>&lt;/li>
+&lt;/ul>
+&lt;p>なるほど。参考になります。中でもレポートテンプレートは優先度を上げて実装したいと思います。tracのWikiへ直接エクスポートできるようにしてもいいかもしれませんね。&lt;/p>
+&lt;blockquote>
+&lt;p>この
+複雑で困難な目標を達成するには、ステークホルダ全員が協力しないと達成できないことを知り、各ステークホルダと密にコミュニケーションを取り、成功へ導く、という強いマインドが必要です。ツールやフレームワークはあくまでも仕掛けでしかありません。それをどう活用するのかは、プロジェクトマネージャのマインド次第なんですよね。&lt;/p>
+&lt;/blockquote>
+&lt;p>プロジェクトをうまく着地させるためには、プロマネの「成功に導く！」という強いマインドが必須ですね。さらにコスト、スケジュール、品質、コミュニケーションのフォローアップも完璧に行わなければならない…キツい仕事ですね。&lt;/p>
+&lt;p>ツールやフレームワークは、プロマネがより本質的なタスクに集中できるためのものであるという指摘は同感です。その指摘に関連する？のですが、現在、さらにProjectscapeをご活用いただくべく無償版を検討中です。近日中にもう少し詳しいことを書きますね。&lt;/p>
+&lt;p>レビューありがとうございました。&lt;/p></description></item><item><title>Projectscapeレビュー（長かったり素晴らしかったり憂鬱だったりする一日）</title><link>https://namaraii.com/post/2009/20090606_projectscapeb15e57212a7e/</link><pubDate>Sat, 06 Jun 2009 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2009/20090606_projectscapeb15e57212a7e/</guid><description>
+&lt;p>&lt;img src="https://namaraii.com/images/UdxRX5ji5YmnrH.jpg" alt="/images/UdxRX5ji5YmnrH.jpg">
+&lt;a href="http://d.hatena.ne.jp/ramei/20090603#p1">2009–06–03 — 長かったり素晴らしかったり憂鬱だったりする一日&lt;/a>
 via
-&lt;a href=&#34;http://kwout.com/quote/ndv2az8p&#34;&gt;kwout&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://d.hatena.ne.jp/ramei/20090603#p1&#34;&gt;長かったり素晴らしかったり憂鬱だったりする一日&lt;/a&gt;でProjectscapeのレビューをしていただきました。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;昔、某所で作業をしていた時に、その日の作業が終わったあとに&lt;br&gt;
-作業日報をメールで送る必要があったのですが&lt;br&gt;
-テキスト形式で、数値を記入したり全体を整形し直したりと&lt;br&gt;
-手間がかかってめんどくさかった記憶があります。&lt;br&gt;
-なので、この進捗レポートをテキスト出力して（テンプレートはカスタマイズして）&lt;br&gt;
-メールにコピペして送信、みたいな使い方もできるのかなと思ったりしました。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;まさにレポート機能はそういうシチュエーションを想定しています。&lt;/p&gt;
-&lt;p&gt;プロジェクト全体の進捗状況が厳しくなると、報告のスパンが短くなるケースがありますよね。私も朝夕の2回,&lt;br&gt;
-全体状況をまとめ、お客様に報告するという修羅場を経験したことがあります。&lt;/p&gt;
-&lt;p&gt;まぁ、そうなる前に手を打てよとか、担当者に負荷をかけずに状況が吸い上げる仕組みを作れよという話は、ここでは置いといて(笑)そういうケースでも、極力、簡単に報告をまとめていただければ…という機能なんです。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;・カレンダが日付のダブルクリックで設定できると楽&lt;/p&gt;
-&lt;p&gt;・ショートカットでWBSエリアの最大化ができると楽&lt;/p&gt;
-&lt;p&gt;・キーボード操作でタスクツリーの展開・縮小ができると便利&lt;/p&gt;
-&lt;p&gt;・WBSとガントチャート間のバーがもう少し太い方が使いやすいかも（あくまで個人的な意見）&lt;/p&gt;
-&lt;p&gt;・タスク行のリサイズができると嬉しいときも？&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;なるほど。エンジニアが使うツールなので、この辺の細かな操作性は重要ですね。&lt;/p&gt;
-&lt;p&gt;さらに、機能のご提案もいただきありがとうございました。どれも非常に参考になります。WBSモードはソートをサポートするのもいいですが、なんらかの条件でフィルタリングできると良いのかも、と思いました。&lt;/p&gt;
-&lt;p&gt;レビューありがとうございました。&lt;/p&gt;
-
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>ProjectscapeでtracのWiki向けにレポートを作成する</title>
-      <link>https://namaraii.com/post/2009/20090527_projectscapetracwikifae3b63162a2/</link>
-      <pubDate>Wed, 27 May 2009 00:00:00 +0000</pubDate>
-      
-      <guid>https://namaraii.com/post/2009/20090527_projectscapetracwikifae3b63162a2/</guid>
-      <description>
-        
-          &lt;p&gt;&lt;a href=&#34;http://www.offtheball.jp/products/projectscape&#34;&gt;Projectscape&lt;/a&gt;には、ある時点の進捗状況をレポートとして出力する「進捗レポート」機能があります。&lt;/p&gt;
-&lt;p&gt;メインの画面に「進捗レポート」というタブがありますので、あぁ、あれのことね？と思われるかもしれませんが、今回はそちらではなくテキスト形式での進捗レポート出力機能をご紹介します。&lt;/p&gt;
-&lt;p&gt;テキスト形式の進捗レポートは、[進捗レポート]メニューの[テキスト形式でクリップボードへ出力」で実行できますが、Projectscapeの進捗レポート機能は出力形式をテンプレートで定義できるところがミソなんです。&lt;/p&gt;
-&lt;p&gt;例えば、進捗レポートの出力を毎週tracのWikiに貼りたいとしましょう。&lt;/p&gt;
-&lt;p&gt;その場合、テンプレートをこんな感じに編集します。（進捗レポートメニューから「レポートテンプレートの編集」を選び、テキストテンプレートとして入力）&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;= プロジェクト概要 =
+&lt;a href="http://kwout.com/quote/ndv2az8p">kwout&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://d.hatena.ne.jp/ramei/20090603#p1">長かったり素晴らしかったり憂鬱だったりする一日&lt;/a>でProjectscapeのレビューをしていただきました。&lt;/p>
+&lt;blockquote>
+&lt;p>昔、某所で作業をしていた時に、その日の作業が終わったあとに&lt;br>
+作業日報をメールで送る必要があったのですが&lt;br>
+テキスト形式で、数値を記入したり全体を整形し直したりと&lt;br>
+手間がかかってめんどくさかった記憶があります。&lt;br>
+なので、この進捗レポートをテキスト出力して（テンプレートはカスタマイズして）&lt;br>
+メールにコピペして送信、みたいな使い方もできるのかなと思ったりしました。&lt;/p>
+&lt;/blockquote>
+&lt;p>まさにレポート機能はそういうシチュエーションを想定しています。&lt;/p>
+&lt;p>プロジェクト全体の進捗状況が厳しくなると、報告のスパンが短くなるケースがありますよね。私も朝夕の2回,&lt;br>
+全体状況をまとめ、お客様に報告するという修羅場を経験したことがあります。&lt;/p>
+&lt;p>まぁ、そうなる前に手を打てよとか、担当者に負荷をかけずに状況が吸い上げる仕組みを作れよという話は、ここでは置いといて(笑)そういうケースでも、極力、簡単に報告をまとめていただければ…という機能なんです。&lt;/p>
+&lt;blockquote>
+&lt;p>・カレンダが日付のダブルクリックで設定できると楽&lt;/p>
+&lt;p>・ショートカットでWBSエリアの最大化ができると楽&lt;/p>
+&lt;p>・キーボード操作でタスクツリーの展開・縮小ができると便利&lt;/p>
+&lt;p>・WBSとガントチャート間のバーがもう少し太い方が使いやすいかも（あくまで個人的な意見）&lt;/p>
+&lt;p>・タスク行のリサイズができると嬉しいときも？&lt;/p>
+&lt;/blockquote>
+&lt;p>なるほど。エンジニアが使うツールなので、この辺の細かな操作性は重要ですね。&lt;/p>
+&lt;p>さらに、機能のご提案もいただきありがとうございました。どれも非常に参考になります。WBSモードはソートをサポートするのもいいですが、なんらかの条件でフィルタリングできると良いのかも、と思いました。&lt;/p>
+&lt;p>レビューありがとうございました。&lt;/p></description></item><item><title>ProjectscapeでtracのWiki向けにレポートを作成する</title><link>https://namaraii.com/post/2009/20090527_projectscapetracwikifae3b63162a2/</link><pubDate>Wed, 27 May 2009 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2009/20090527_projectscapetracwikifae3b63162a2/</guid><description>
+&lt;p>&lt;a href="http://www.offtheball.jp/products/projectscape">Projectscape&lt;/a>には、ある時点の進捗状況をレポートとして出力する「進捗レポート」機能があります。&lt;/p>
+&lt;p>メインの画面に「進捗レポート」というタブがありますので、あぁ、あれのことね？と思われるかもしれませんが、今回はそちらではなくテキスト形式での進捗レポート出力機能をご紹介します。&lt;/p>
+&lt;p>テキスト形式の進捗レポートは、[進捗レポート]メニューの[テキスト形式でクリップボードへ出力」で実行できますが、Projectscapeの進捗レポート機能は出力形式をテンプレートで定義できるところがミソなんです。&lt;/p>
+&lt;p>例えば、進捗レポートの出力を毎週tracのWikiに貼りたいとしましょう。&lt;/p>
+&lt;p>その場合、テンプレートをこんな感じに編集します。（進捗レポートメニューから「レポートテンプレートの編集」を選び、テキストテンプレートとして入力）&lt;/p>
+&lt;pre>&lt;code>= プロジェクト概要 =
 ||プロジェクト名||$project.ProjectName$||
 ||顧客名||$project.ClientName$||
 ||プロジェクト概要||$project.Description$||
 ||担当部署||$project.Department$||
 ||ＰＭ||$project.ProjectManager$||
 ||報告日||$date$||
-
 = 進捗状況 =
 == 作業中タスク ==
 ||ID||タスク||開始||終了日||進捗率||遅延日数||担当者||
 $tasks_in_progress:{t|||$t.ID$||$t.Name$||$t.Start$||$t.End$||$t.Progress$%||$t.Delay$日||$t.OwnerName$||$n$}$
-
 == 遅延タスク ==
 ||ID||タスク||開始||終了日||進捗率||遅延日数||担当者||
 $tasks_in_delay:{t|||$t.ID$||$t.Name$||$t.Start$||$t.End$||$t.Progress$%||$t.Delay$日||$t.OwnerName$||$n$}$
-
 == 完了タスク ==
 ||ID||タスク||開始||終了日||進捗率||遅延日数||担当者||
 $tasks_in_complete:{t|||$t.ID$||$t.Name$||$t.Start$||$t.End$||$t.Progress$%||$t.Delay$日||$t.OwnerName$||$n$}$
-
 $if(bTicket)$
 == チケット一覧 ==
 ||ID||概要||コンポーネント||マイルストーン||優先度||分類||担当者||ステータス||登録日
 $tickets:{t|||$t.TicketId$||$t.Summary$||$t.Component$||$t.Milestone$||$t.Priority$||$t.Type$||$t.Owner$||$t.Status$||$t.Created$||$n$}$
 $endif$
-
 $if(option.bMemberList)$
 == 担当者一覧 ==
 ||名前||担当||メールアドレス||電話番号||メモ||
 $resources:{r|||$r.ResouceName$||$r.Role$||$r.Email$||$r.Telephone$||$r.Memo$||$n$}$
 $endif$
-
 テンプレート保存後、レポートを生成すると、tracのWikiで表示可能なレポートがクリップボードへ格納されます。その内容をtracのWikページへ貼り付けてください。
-
 tracのWikiで表示できましたね。同様にテンプレートを定義すればXMLやLaTeX、CSVなど様々な形式で出力することができます。
-
 このように、Projectscapeの進捗レポート機能は出力形式を自由にスタマイズできますので、他システムとの連携などをお考えの場合はご検討ください。
-&lt;/code&gt;&lt;/pre&gt;
-
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Projectscape 1.0.1をリリースしました</title>
-      <link>https://namaraii.com/post/2009/20090522_projectscape1016f397b5c5adf/</link>
-      <pubDate>Fri, 22 May 2009 00:00:00 +0000</pubDate>
-      
-      <guid>https://namaraii.com/post/2009/20090522_projectscape1016f397b5c5adf/</guid>
-      <description>
-        
-          &lt;p&gt;ガントチャートの描画処理でバグが見つかったため1.0.1をリリースしました。&lt;/p&gt;
-&lt;p&gt;影響箇所としては描画のみで、プロジェクトファイルを破壊するなどの問題はありません。&lt;br&gt;
-ご迷惑をおかけして申し訳ありません。&lt;/p&gt;
-&lt;p&gt;今後も何か問題が見つかった場合、スピーディーに対策版をリリースしていきたいと考えております。&lt;/p&gt;
-&lt;p&gt;ご利用いただく中で、疑問な点や問題と思われる動作などがございましたら、&lt;a href=&#34;http://support.offtheball.jp/viewforum.php?f=5&#34;&gt;サポートフォーラム&lt;/a&gt;までお願いします。&lt;/p&gt;
-
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Projectscapeレビュー(新・たけぞう瀕死の日記)</title>
-      <link>https://namaraii.com/post/2009/20090522_projectscape47d3e66aef13/</link>
-      <pubDate>Fri, 22 May 2009 00:00:00 +0000</pubDate>
-      
-      <guid>https://namaraii.com/post/2009/20090522_projectscape47d3e66aef13/</guid>
-      <description>
-        
-          &lt;p&gt;新・たけぞう瀕死の日記 via kwout&lt;/p&gt;
-&lt;p&gt;新・たけぞう瀕死の日記でProjectscapeをレビューしていただきました。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;こういったお仕事関係のツールはSaaSよりもスタンドアロンのほうが草の根的に導入しやすくていいです（外部に仕事のデータを置くには、普通の会社だといろいろ面倒な筋を通さないといけません）&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;そうなんですよね。私自身、SaaSの導入コンサル経験があるのですが、特に国内のお客様はあちら側にデータを置くことに、まだまだ慎重であることを実感しました。特にProjectscapeがターゲットとしている中〜小規模プロジェクトでは、SaaSを使うための決裁をとるのも大変でしょうからね。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;PDFを出力する機能が欲しいです。Projectscapeは印刷機能は充実しているのですが、電子データとして共有したいとき、無償のソフトウェアであれば「インストールしてね」で済むのですが、有償なのでさすがにそういうわけにもいきません。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Projectscapeの進捗レポート機能は、忙しい担当者やPMの方々が、簡単に週次（日時）の進捗報告をまとめられる機能として実装しました。その意味で、ガントチャートとレポートを1つのPDFとして生成できれば便利そうですね。&lt;/p&gt;
-&lt;p&gt;「シンプルですぐに使える」というコンセプトを守るため、追加する機能は厳選していきたいと考えてますが、次バージョンの追加機能候補としてチケットを切っておきます。&lt;/p&gt;
-&lt;p&gt;レビューありがとうございました。&lt;/p&gt;
-
-        
-      </description>
-    </item>
-    
-    <item>
-      <title>Projectscape 1.0をリリースしました</title>
-      <link>https://namaraii.com/post/2009/20090520_projectscape10b283adef75a0/</link>
-      <pubDate>Wed, 20 May 2009 00:00:00 +0000</pubDate>
-      
-      <guid>https://namaraii.com/post/2009/20090520_projectscape10b283adef75a0/</guid>
-      <description>
-        
-          &lt;p&gt;本日、&lt;a href=&#34;http://www.offtheball.jp/products/projectscape&#34;&gt;Projectscape 1.0&lt;/a&gt;をリリースしました。&lt;/p&gt;
-&lt;p&gt;Projectscapeは中～小規模のプロジェクトに最適化した、シンプルなプロジェクト管理ソフトです。主な機能としては以下のものがあります。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;span id=&#34;727e&#34;&gt;WBS(Work Breakdown Structure)作成&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&#34;b89e&#34;&gt;ガントチャート作成&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&#34;a763&#34;&gt;担当者別ビュー（担当者毎の負荷状況）&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span
-id=&#34;3155&#34;&gt;進捗レポート機能(テンプレートのカスタマイズ可能、tracからのチケットインポート…)&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;既に国内外に数多くのプロジェクト管理ソフトがありますが、機能が多すぎて使いこなすまでが大変だったり、高価すぎてプロジェクトメンバー全員分のライセンス購入が厳しかったりなどの問題がありませんか？&lt;/p&gt;
-&lt;p&gt;Projectscapeはシンプルで直感的な操作を実現するため「いかに機能を盛り込まないか」を重視し、中〜小規模のプロジェクト管理で便利な機能を厳選しました。&lt;/p&gt;
-&lt;p&gt;一方で、特に海外のプロジェクト管理ソフトではあまり重視されていない（ように思える）印刷機能の豊富なオプションや、カスタマイズ可能なレポート機能など、まだまだ「紙」が重視されることの多い日本の開発現場で便利に使っていただける機能には力を入れたつもりです。&lt;/p&gt;
-&lt;p&gt;今後、ユーザの方々からのフィードバックを取り入れながら、シンプルで手になじむプロジェクト管理ソフトとして育てて行きたいと考えております。&lt;/p&gt;
-&lt;p&gt;30日間無料で全ての機能が使えますので、ぜひ、お試しください！&lt;/p&gt;
-
-        
-      </description>
-    </item>
-    
-  </channel>
-</rss>
+&lt;/code>&lt;/pre></description></item><item><title>Projectscape 1.0.1をリリースしました</title><link>https://namaraii.com/post/2009/20090522_projectscape1016f397b5c5adf/</link><pubDate>Fri, 22 May 2009 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2009/20090522_projectscape1016f397b5c5adf/</guid><description>
+&lt;p>ガントチャートの描画処理でバグが見つかったため1.0.1をリリースしました。&lt;/p>
+&lt;p>影響箇所としては描画のみで、プロジェクトファイルを破壊するなどの問題はありません。&lt;br>
+ご迷惑をおかけして申し訳ありません。&lt;/p>
+&lt;p>今後も何か問題が見つかった場合、スピーディーに対策版をリリースしていきたいと考えております。&lt;/p>
+&lt;p>ご利用いただく中で、疑問な点や問題と思われる動作などがございましたら、&lt;a href="http://support.offtheball.jp/viewforum.php?f=5">サポートフォーラム&lt;/a>までお願いします。&lt;/p></description></item><item><title>Projectscapeレビュー(新・たけぞう瀕死の日記)</title><link>https://namaraii.com/post/2009/20090522_projectscape47d3e66aef13/</link><pubDate>Fri, 22 May 2009 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2009/20090522_projectscape47d3e66aef13/</guid><description>
+&lt;p>新・たけぞう瀕死の日記 via kwout&lt;/p>
+&lt;p>新・たけぞう瀕死の日記でProjectscapeをレビューしていただきました。&lt;/p>
+&lt;blockquote>
+&lt;p>こういったお仕事関係のツールはSaaSよりもスタンドアロンのほうが草の根的に導入しやすくていいです（外部に仕事のデータを置くには、普通の会社だといろいろ面倒な筋を通さないといけません）&lt;/p>
+&lt;/blockquote>
+&lt;p>そうなんですよね。私自身、SaaSの導入コンサル経験があるのですが、特に国内のお客様はあちら側にデータを置くことに、まだまだ慎重であることを実感しました。特にProjectscapeがターゲットとしている中〜小規模プロジェクトでは、SaaSを使うための決裁をとるのも大変でしょうからね。&lt;/p>
+&lt;blockquote>
+&lt;p>PDFを出力する機能が欲しいです。Projectscapeは印刷機能は充実しているのですが、電子データとして共有したいとき、無償のソフトウェアであれば「インストールしてね」で済むのですが、有償なのでさすがにそういうわけにもいきません。&lt;/p>
+&lt;/blockquote>
+&lt;p>Projectscapeの進捗レポート機能は、忙しい担当者やPMの方々が、簡単に週次（日時）の進捗報告をまとめられる機能として実装しました。その意味で、ガントチャートとレポートを1つのPDFとして生成できれば便利そうですね。&lt;/p>
+&lt;p>「シンプルですぐに使える」というコンセプトを守るため、追加する機能は厳選していきたいと考えてますが、次バージョンの追加機能候補としてチケットを切っておきます。&lt;/p>
+&lt;p>レビューありがとうございました。&lt;/p></description></item><item><title>Projectscape 1.0をリリースしました</title><link>https://namaraii.com/post/2009/20090520_projectscape10b283adef75a0/</link><pubDate>Wed, 20 May 2009 00:00:00 +0000</pubDate><guid>https://namaraii.com/post/2009/20090520_projectscape10b283adef75a0/</guid><description>
+&lt;p>本日、&lt;a href="http://www.offtheball.jp/products/projectscape">Projectscape 1.0&lt;/a>をリリースしました。&lt;/p>
+&lt;p>Projectscapeは中～小規模のプロジェクトに最適化した、シンプルなプロジェクト管理ソフトです。主な機能としては以下のものがあります。&lt;/p>
+&lt;ul>
+&lt;li>&lt;span id="727e">WBS(Work Breakdown Structure)作成&lt;/span>&lt;/li>
+&lt;li>&lt;span id="b89e">ガントチャート作成&lt;/span>&lt;/li>
+&lt;li>&lt;span id="a763">担当者別ビュー（担当者毎の負荷状況）&lt;/span>&lt;/li>
+&lt;li>&lt;span
+id="3155">進捗レポート機能(テンプレートのカスタマイズ可能、tracからのチケットインポート…)&lt;/span>&lt;/li>
+&lt;/ul>
+&lt;p>既に国内外に数多くのプロジェクト管理ソフトがありますが、機能が多すぎて使いこなすまでが大変だったり、高価すぎてプロジェクトメンバー全員分のライセンス購入が厳しかったりなどの問題がありませんか？&lt;/p>
+&lt;p>Projectscapeはシンプルで直感的な操作を実現するため「いかに機能を盛り込まないか」を重視し、中〜小規模のプロジェクト管理で便利な機能を厳選しました。&lt;/p>
+&lt;p>一方で、特に海外のプロジェクト管理ソフトではあまり重視されていない（ように思える）印刷機能の豊富なオプションや、カスタマイズ可能なレポート機能など、まだまだ「紙」が重視されることの多い日本の開発現場で便利に使っていただける機能には力を入れたつもりです。&lt;/p>
+&lt;p>今後、ユーザの方々からのフィードバックを取り入れながら、シンプルで手になじむプロジェクト管理ソフトとして育てて行きたいと考えております。&lt;/p>
+&lt;p>30日間無料で全ての機能が使えますので、ぜひ、お試しください！&lt;/p></description></item></channel></rss>
