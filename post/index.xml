@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on namaraii.com</title><link>https://namaraii.com/post/</link><description>Recent content in Posts on namaraii.com</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright><lastBuildDate>Fri, 25 Jun 2021 09:56:27 +0900</lastBuildDate><atom:link href="https://namaraii.com/post/index.xml" rel="self" type="application/rss+xml"/><item><title>法人の印鑑証明書をオンライン取得するまでの道のり</title><link>https://namaraii.com/post/2021/202106252/</link><pubDate>Fri, 25 Jun 2021 09:56:27 +0900</pubDate><guid>https://namaraii.com/post/2021/202106252/</guid><description>
-&lt;p>過去に何度か断念していた、法人の印鑑証明書をオンラインで取得する設定ができたので、ハマりどころも含め、やったことを書き残しておく。&lt;/p>
+&lt;p>過去に何度か断念していた、法人の印鑑証明書をオンラインで取得する設定ができたので、ハマりどころも含め、やったことを書いておく。&lt;/p>
 &lt;h2 id="電子証明書の準備">電子証明書の準備&lt;/h2>
 &lt;p>印鑑証明をオンラインで取得する場合、電子署名が必要なので、都合のよいものを選ぶ。自分の場合はマイナンバーカードを使用できる&lt;a href="https://www.jpki.go.jp/">公的個人認証サービス電子証明書&lt;/a>を選んだ。&lt;/p>
 &lt;ul>
@@ -34,7 +34,7 @@ amazon.co.jp
 &lt;p>以下からダウンロードしてインストールした。&lt;/p>
 &lt;p>&lt;a href="https://www.jpki.go.jp/download/index.html">https://www.jpki.go.jp/download/index.html&lt;/a>&lt;/p>
 &lt;p>RC-S330の上にマイナンバーカードを載せて「JPKI利用者ソフト」を起動。「自分の証明書」から無事に参照できた。&lt;/p>
-&lt;p>ちなみに、ちゃんと区役所で登録したパスワードが設定されていた（あたりまえ）&lt;/p>
+&lt;p>ちなみに、ちゃんと区役所で登録したパスワードが設定されていた。（あたりまえ）&lt;/p>
 &lt;h2 id="登記供託オンライン申請システムhttpswwwtouki-kyoutaku-onlinemojgojpindexhtml">&lt;a href="https://www.touki-kyoutaku-online.moj.go.jp/index.html">登記・供託オンライン申請システム&lt;/a>&lt;/h2>
 &lt;h3 id="申請者情報登録">申請者情報登録&lt;/h3>
 &lt;p>まずは、&lt;a href="https://www.touki-kyoutaku-online.moj.go.jp/web/top/SC01WL01-RegistShinseisha.do">申請者情報登録&lt;/a>を行う。&lt;/p>
@@ -42,7 +42,7 @@ amazon.co.jp
 &lt;blockquote>
 &lt;p>※１年間ご利用（ログイン）のない申請者IDは無効となります。&lt;/p>
 &lt;/blockquote>
-&lt;p>に注意が必要。私は利用頻度が低いため実際に失効した実績あり。&lt;/p>
+&lt;p>は注意が必要。私は利用頻度が低いため実際に失効した実績あり。&lt;/p>
 &lt;h3 id="申請書総合ソフトのインストール">申請書総合ソフトのインストール&lt;/h3>
 &lt;p>登記・供託オンライン申請システムの利用形態として、&lt;/p>
 &lt;ul>
@@ -63,13 +63,13 @@ amazon.co.jp
 &lt;li>オンライン会社・法人検索（推奨）&lt;/li>
 &lt;li>会社・法人情報直接入力&lt;/li>
 &lt;/ul>
-&lt;p>があり（推奨）とある方で、法人を検索して情報を取得したところ、住所のカラムに&lt;/p>
+&lt;p>があり（推奨）とある方で、法人を検索して情報を取得したところ、住所のカラムに、&lt;/p>
 &lt;blockquote>
 &lt;p>&amp;lt;外字&amp;gt;&amp;lt;ファイル名&amp;gt;ExChar-0000A1DD.bmp&amp;lt;/ファイル名&amp;gt;&amp;lt;文字コード&amp;gt;0000A1DD&amp;lt;/文字コード&amp;gt;&amp;lt;/外字&amp;gt;&lt;/p>
 &lt;/blockquote>
-&lt;p>という謎の文字列が含まれていた。&lt;/p>
-&lt;p>が、（推奨）の方法でもあるし、気にせず他の項目を入力して保存しようしたところ、不正な文字が含まれているというエラーが発生して進めなくなってしまう。&lt;/p>
-&lt;p>結果、「会社・法人情報直接入力」に切り替えて、住所を手で修正すると無事に保存できた。（切り替えてもデータはクリアされず、修正可能になる）&lt;/p>
+&lt;p>という文字列が含まれていた。&lt;/p>
+&lt;p>が、推奨の方法でもあるし、気にせず他の項目を入力して保存しようしたところ、不正な文字が含まれているというエラーが発生して進めなくなってしまう。&lt;/p>
+&lt;p>結果、「会社・法人情報直接入力」に切り替えて、住所を手で修正すると無事に保存できた。（切り替えてもデータはクリアされず、修正できるようになる）&lt;/p>
 &lt;h3 id="電子署名の付与">電子署名の付与&lt;/h3>
 &lt;p>一覧に表示された申請書データを選択し、画面上部の「署名の付与」を選ぶと、パスワード入力を求められるので、マイナンバーカードの署名用パスワード（長い方）を入力すると、署名が付与された。&lt;/p>
 &lt;h3 id="納付">納付&lt;/h3>
