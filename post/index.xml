@@ -78,7 +78,7 @@ amazon.co.jp
 &lt;p>ぜんぜんここを更新できていないこともあり、結城さんのAutoGetterを参考に、スレッドになっている自分のツイート（連ツイ）を抽出して、自動的にここへ載せる運用をはじめてみた。（枯れ木も山の賑わい）&lt;/p>
 &lt;blockquote class="twitter-tweet">&lt;p lang="ja" dir="ltr">自分の連ツイをまとめるAutoGetterの暫定版を作りました。&lt;a href="https://t.co/v66KCtqJOq">https://t.co/v66KCtqJOq&lt;/a>&lt;/p>&amp;mdash; 結城浩 (@hyuki) &lt;a href="https://twitter.com/hyuki/status/511740049730203648?ref_src=twsrc%5Etfw">September 16, 2014&lt;/a>&lt;/blockquote>
 &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
-&lt;p>今回作成したスクリプトをcronで起動すると、連ツイを取得してHugoのポストが生成され、git add &amp;amp; git pushで自動的に公開される流れです。自動化はロマン&lt;/p>
+&lt;p>今回作成したスクリプトをcronで起動すると、連ツイを取得してHugoのポストが生成され、git add &amp;amp; git pushで自動的に公開される流れ。自動化はロマン！&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://namaraii.com/categories/%E9%80%A3%E3%83%84%E3%82%A4/">連ツイ一覧&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>決算や確定申告で便利な無料のPDF関連ツール(Mac)</title><link>https://namaraii.com/post/2021/20210414/</link><pubDate>Wed, 14 Apr 2021 16:55:00 +0900</pubDate><guid>https://namaraii.com/post/2021/20210414/</guid><description>
