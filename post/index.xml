@@ -1,4 +1,80 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on namaraii.com</title><link>https://namaraii.com/post/</link><description>Recent content in Posts on namaraii.com</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright><lastBuildDate>Fri, 25 Jun 2021 07:50:58 +0900</lastBuildDate><atom:link href="https://namaraii.com/post/index.xml" rel="self" type="application/rss+xml"/><item><title>連続したツイートを抽出して自動的にHugoへ追加する運用</title><link>https://namaraii.com/post/2021/20210625/</link><pubDate>Fri, 25 Jun 2021 07:50:58 +0900</pubDate><guid>https://namaraii.com/post/2021/20210625/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on namaraii.com</title><link>https://namaraii.com/post/</link><description>Recent content in Posts on namaraii.com</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2008–2021, TAKEUCHI Hitoshi all rights reserved.</copyright><lastBuildDate>Fri, 25 Jun 2021 09:56:27 +0900</lastBuildDate><atom:link href="https://namaraii.com/post/index.xml" rel="self" type="application/rss+xml"/><item><title>法人の印鑑証明書をオンライン取得するまでの道のり</title><link>https://namaraii.com/post/2021/202106252/</link><pubDate>Fri, 25 Jun 2021 09:56:27 +0900</pubDate><guid>https://namaraii.com/post/2021/202106252/</guid><description>
+&lt;p>過去に何度か断念していた、法人の印鑑証明書をオンラインで取得する設定ができたので、ハマりどころも含め、やったことを書き残しておく。&lt;/p>
+&lt;h2 id="電子証明書の準備">電子証明書の準備&lt;/h2>
+&lt;p>印鑑証明をオンラインで取得する場合、電子署名が必要なので、都合のよいものを選ぶ。自分の場合はマイナンバーカードを使用できる&lt;a href="https://www.jpki.go.jp/">公的個人認証サービス電子証明書&lt;/a>を選んだ。&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="http://www.moj.go.jp/MINJI/minji06_00086.html">オンラインによる商業登記電子証明書の請求について&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="icカードリーダーの設定rc-s330">ICカードリーダーの設定（RC-S330）&lt;/h3>
+&lt;div class="amazon-widget">
+&lt;a target="_blank" href="https://www.amazon.co.jp/gp/product/B001MVPD8U/?tag=namaraiicom-22">&lt;/a>
+&lt;div class="amazon-widget-img">
+&lt;img src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;MarketPlace=JP&amp;ASIN=B001MVPD8U&amp;ServiceVersion=20070822&amp;ID=AsinImage&amp;WS=1&amp;Format=_SL350_&amp;tag=namaraiicom-22" />
+&lt;/div>
+&lt;div class="amazon-widget-info">
+&lt;span class="amazon-widget-title">
+SONY 非接触 ICカードリーダ/ライタ USB 対応 パソリ RC-S330
+&lt;/span>
+&lt;span class="amazon-widget-via">
+&lt;img src="https://www.amazon.co.jp/favicon.ico" />
+amazon.co.jp
+&lt;/span>
+&lt;/div>
+&lt;/div>
+&lt;p>手元にあったソニーのRC-S330というICカードリーダが&lt;a href="https://www.jpki.go.jp/prepare/reader_writer.html">サポート対象&lt;/a>だったので、これを使う。注意事項として、&lt;/p>
+&lt;blockquote>
+&lt;p>「RC-S330」「RC-S370」をご利用の場合「NFCポートソフトウェア」「PC/SCアクティベータforTypeB」が必要となります。&lt;/p>
+&lt;/blockquote>
+&lt;p>とあったので、それぞれインストールした。&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://www.jpki.go.jp/prepare/reader_writer.html">NFCポートソフトウェア&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.sony.co.jp/Products/felica/consumer/download/pcscactivator.html">PC/SC アクティベーター for Type B&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="公的個人認証サービス利用者クライアントソフト">公的個人認証サービス利用者クライアントソフト&lt;/h3>
+&lt;p>以下からダウンロードしてインストールした。&lt;/p>
+&lt;p>&lt;a href="https://www.jpki.go.jp/download/index.html">https://www.jpki.go.jp/download/index.html&lt;/a>&lt;/p>
+&lt;p>RC-S330の上にマイナンバーカードを載せて「JPKI利用者ソフト」を起動。「自分の証明書」から無事に参照できた。&lt;/p>
+&lt;p>ちなみに、ちゃんと区役所で登録したパスワードが設定されていた（あたりまえ）&lt;/p>
+&lt;h2 id="登記供託オンライン申請システムhttpswwwtouki-kyoutaku-onlinemojgojpindexhtml">&lt;a href="https://www.touki-kyoutaku-online.moj.go.jp/index.html">登記・供託オンライン申請システム&lt;/a>&lt;/h2>
+&lt;h3 id="申請者情報登録">申請者情報登録&lt;/h3>
+&lt;p>まずは、&lt;a href="https://www.touki-kyoutaku-online.moj.go.jp/web/top/SC01WL01-RegistShinseisha.do">申請者情報登録&lt;/a>を行う。&lt;/p>
+&lt;p>登録は名前や連絡先など一般的な項目ばかりなので、迷うところはないと思うが、登録フォーム上部に書いてある、&lt;/p>
+&lt;blockquote>
+&lt;p>※１年間ご利用（ログイン）のない申請者IDは無効となります。&lt;/p>
+&lt;/blockquote>
+&lt;p>に注意が必要。私は利用頻度が低いため実際に失効した実績あり。&lt;/p>
+&lt;h3 id="申請書総合ソフトのインストール">申請書総合ソフトのインストール&lt;/h3>
+&lt;p>登記・供託オンライン申請システムの利用形態として、&lt;/p>
+&lt;ul>
+&lt;li>Webから利用する「かんたん証明書請求」&lt;/li>
+&lt;li>全ての手続きに対応した「申請書総合ソフト」&lt;/li>
+&lt;/ul>
+&lt;p>があるが、印鑑証明書の取得は「申請書総合ソフト」が必要なのでインストールする。&lt;/p>
+&lt;p>&lt;a href="https://www.touki-kyoutaku-online.moj.go.jp/flow/sogosoft/kankyo.html">https://www.touki-kyoutaku-online.moj.go.jp/flow/sogosoft/kankyo.html&lt;/a>&lt;/p>
+&lt;p>…のだが、「コンピューターにセキュリティ上の問題を発生させるため管理者がこのアプリケーションをブロックしました。」というメッセージが表示されインストールできない事象が発生した。&lt;/p>
+&lt;p>ググったところ対処方法を見つけ、レジストリを書き換えて無事インストールできた（ありがたや）&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://seesaawiki.jp/online_qna/d/%BF%BD%C0%C1%CD%D1%C1%ED%B9%E7%A5%BD%A5%D5%A5%C8%A4%C7%BA%A4%A4%C3%A4%BF">申請用総合ソフトで困った - 土地家屋調査士のためのオンライン申請Ｑ＆Ａ&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="申請内容の入力">申請内容の入力&lt;/h3>
+&lt;p>申請用総合ソフトを起動し、&lt;code>申請書作成ー交付請求書ー交付請求書（印鑑・登記事項証明書）&lt;/code>とすると、請求用フォームが表示される。&lt;/p>
+&lt;p>このフォームでは、請求対象の法人を指定する方法として、&lt;/p>
+&lt;ul>
+&lt;li>オンライン会社・法人検索（推奨）&lt;/li>
+&lt;li>会社・法人情報直接入力&lt;/li>
+&lt;/ul>
+&lt;p>があり（推奨）とある方で、法人を検索して情報を取得したところ、住所のカラムに&lt;/p>
+&lt;blockquote>
+&lt;p>&amp;lt;外字&amp;gt;&amp;lt;ファイル名&amp;gt;ExChar-0000A1DD.bmp&amp;lt;/ファイル名&amp;gt;&amp;lt;文字コード&amp;gt;0000A1DD&amp;lt;/文字コード&amp;gt;&amp;lt;/外字&amp;gt;&lt;/p>
+&lt;/blockquote>
+&lt;p>という謎の文字列が含まれていた。&lt;/p>
+&lt;p>が、（推奨）の方法でもあるし、気にせず他の項目を入力して保存しようしたところ、不正な文字が含まれているというエラーが発生して進めなくなってしまう。&lt;/p>
+&lt;p>結果、「会社・法人情報直接入力」に切り替えて、住所を手で修正すると無事に保存できた。（切り替えてもデータはクリアされず、修正可能になる）&lt;/p>
+&lt;h3 id="電子署名の付与">電子署名の付与&lt;/h3>
+&lt;p>一覧に表示された申請書データを選択し、画面上部の「署名の付与」を選ぶと、パスワード入力を求められるので、マイナンバーカードの署名用パスワード（長い方）を入力すると、署名が付与された。&lt;/p>
+&lt;h3 id="納付">納付&lt;/h3>
+&lt;p>画面上部の「納付」を選ぶと、納付に必要な情報が表示されるので、法人口座のPay-easyから納付して完了。&lt;/p>
+&lt;p>長かった。無事、届くといいな…&lt;/p></description></item><item><title>連続したツイートを抽出して自動的にHugoへ追加する運用</title><link>https://namaraii.com/post/2021/20210625/</link><pubDate>Fri, 25 Jun 2021 07:50:58 +0900</pubDate><guid>https://namaraii.com/post/2021/20210625/</guid><description>
 &lt;p>ぜんぜんここを更新できていないこともあり、結城さんのAutoGetterを参考に、スレッドになっている自分のツイート（連ツイ）を抽出して、自動的にここへ載せる運用をはじめてみた。（枯れ木も山の賑わい）&lt;/p>
 &lt;blockquote class="twitter-tweet">&lt;p lang="ja" dir="ltr">自分の連ツイをまとめるAutoGetterの暫定版を作りました。&lt;a href="https://t.co/v66KCtqJOq">https://t.co/v66KCtqJOq&lt;/a>&lt;/p>&amp;mdash; 結城浩 (@hyuki) &lt;a href="https://twitter.com/hyuki/status/511740049730203648?ref_src=twsrc%5Etfw">September 16, 2014&lt;/a>&lt;/blockquote>
 &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
